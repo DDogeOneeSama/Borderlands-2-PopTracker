@@ -14,7 +14,7 @@
             {
               "type": "group",
               "header": "Items",
-              "dock": "top",
+              "dock": "bottom",
               "content": {
                 "type": "layout",
                 "key": "shared_item_grid"
