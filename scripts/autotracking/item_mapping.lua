@@ -1,3 +1,4 @@
+--All Filler Items Removed for ease of reading
 ITEM_MAPPING = {
 	[2388001] = {{"3skillpoints", "consumable"}},
 	[2388002] = {{"3skillpoints(p)", "consumable"}},
