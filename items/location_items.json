@@ -1,0 +1,16 @@
+[
+    {
+        "name": "",
+        "type": "consumable",
+        "img": "images/items/.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": ""
+    }
+]
