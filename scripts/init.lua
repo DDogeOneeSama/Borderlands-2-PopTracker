@@ -16,12 +16,8 @@ else
     Tracker:AddMaps("maps/maps.json")  
 end  
 
-if PopVersion and PopVersion >= "0.23.0" then
-    Tracker:AddLocations("locations/dungeons.json")
-end
-
 -- Layout
-require("scripts/layouts_import")
+require("scripts/layouts")
 
 -- Locations
 require("scripts/locations_import")
