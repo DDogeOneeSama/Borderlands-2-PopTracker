@@ -1,174 +1,506 @@
 {
-    "tabbed_maps_horizontal": {
-        "type": "tabbed",
-        "tabs": [
+  "tabbed_maps_horizontal": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "BaseGame",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
             {
-                "title": "BaseGame",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "BaseGame"
-                    ]
-                }
+              "title": "Sanctuary",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Sanctuary"
+                ]
+              }
             },
             {
-                "title": "DigistructPeak",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "DigistructPeak"
-                    ]
-                }
+              "title": "Sanctuary (Flying)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SanctuaryFlying"
+                ]
+              }
             },
             {
-                "title": "GlobalChecks",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "GlobalChecks"
-                    ]
-                }
+              "title": "Windshear Waste",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "WindshearWaste"
+                ]
+              }
             },
             {
-                "title": "HammerlockDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "HammerlockDLC"
-                    ]
-                }
+              "title": "Southern Shelf",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SouthernShelfBay"
+                ]
+              }
             },
             {
-                "title": "Headhunters",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Headhunters"
-                    ]
-                }
+              "title": "Southern Shelf Bay",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SouthernShelfBay"
+                ]
+              }
             },
             {
-                "title": "LilithDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "LilithDLC"
-                    ]
-                }
+              "title": "Three Horns Divide",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ThreeHornsDivide"
+                ]
+              }
             },
             {
-                "title": "ScarlettDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "ScarlettDLC"
-                    ]
-                }
+              "title": "Frostburn Canyon",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "FrostburnCanyon"
+                ]
+              }
             },
             {
-                "title": "TinaDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "TinaDLC"
-                    ]
-                }
+              "title": "Three Horns Valley",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ThreeHornsValley"
+                ]
+              }
             },
             {
-                "title": "TorgueDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "TorgueDLC"
-                    ]
-                }
+              "title": "Southpaw Steam & Power",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SouthpawSteam&Power"
+                ]
+              }
+            },
+            {
+              "title": "The Dust",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Dust"
+                ]
+              }
+            },
+            {
+              "title": "Bloodshot Stronghold",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "BloodshotStronghold"
+                ]
+              }
+            },
+            {
+              "title": "Bloodshot Ramparts",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "BloodshotRamparts"
+                ]
+              }
+            },
+            {
+              "title": "Friendship Gulag",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "FriendshipGulag"
+                ]
+              }
+            },
+            {
+              "title": "Tundra Express",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "TundraExpress"
+                ]
+              }
+            },
+            {
+              "title": "End Of The Line",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "EndOfTheLine"
+                ]
+              }
+            },
+            {
+              "title": "The Fridge",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Fridge"
+                ]
+              }
+            },
+            {
+              "title": "Fink's Slaughterhouse",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "FinksSlaughterhouse"
+                ]
+              }
+            },
+            {
+              "title": "The Highlands - Outwash",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HighlandsOutwash"
+                ]
+              }
+            },
+            {
+              "title": "The Highlands",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Highlands"
+                ]
+              }
+            },
+            {
+              "title": "The Holy Spirits",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HolySpirits"
+                ]
+              }
+            },
+            {
+              "title": "Wildlife Exploitation Preserve",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "WildlifeExploitationPreserve"
+                ]
+              }
+            },
+            {
+              "title": "Natural Selection Annex",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "NaturalSelectionAnnex"
+                ]
+              }
+            },
+            {
+              "title": "Opportunity",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Opportunity"
+                ]
+              }
+            },
+            {
+              "title": "Thousand Cuts",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ThousandCuts"
+                ]
+              }
+            },
+            {
+              "title": "The Bunker",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Bunker"
+                ]
+              }
+            },
+            {
+              "title": "Control Core Angel",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ControlCoreAngel"
+                ]
+              }
+            },
+            {
+              "title": "Sanctuary Hole",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SanctuaryHole"
+                ]
+              }
+            },
+            {
+              "title": "Caustic Caverns",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "CausticCaverns"
+                ]
+              }
+            },
+            {
+              "title": "Lynchwood",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Lynchwood"
+                ]
+              }
+            },
+            {
+              "title": "Eridium Blight",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "EridiumBlight"
+                ]
+              }
+            },
+            {
+              "title": "Ore Chasm",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "OreChasm"
+                ]
+              }
+            },
+            {
+              "title": "Sawtooth Cauldron",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SawtoothCauldron"
+                ]
+              }
+            },
+            {
+              "title": "Arid Nexus - Boneyard",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "AridNexusBoneyard"
+                ]
+              }
+            },
+            {
+              "title": "Arid Nexus - Badlands",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "AridNexusBadlands"
+                ]
+              }
+            },
+            {
+              "title": "Heros Pass",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HerosPass"
+                ]
+              }
+            },
+            {
+              "title": "Vault of the Warrior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "VaultOfTheWarrior"
+                ]
+              }
+            },
+            {
+              "title": "Terramorphous Peak",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "TerramorphousPeak"
+                ]
+              }
             }
-        ]
-    },
-    "tabbed_maps_vertical": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "BaseGame",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "BaseGame"
-                    ]
-                }
-            },
-            {
-                "title": "DigistructPeak",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "DigistructPeak"
-                    ]
-                }
-            },
-            {
-                "title": "GlobalChecks",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "GlobalChecks"
-                    ]
-                }
-            },
-            {
-                "title": "HammerlockDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "HammerlockDLC"
-                    ]
-                }
-            },
-            {
-                "title": "Headhunters",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Headhunters"
-                    ]
-                }
-            },
-            {
-                "title": "LilithDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "LilithDLC"
-                    ]
-                }
-            },
-            {
-                "title": "ScarlettDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "ScarlettDLC"
-                    ]
-                }
-            },
-            {
-                "title": "TinaDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "TinaDLC"
-                    ]
-                }
-            },
-            {
-                "title": "TorgueDLC",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "TorgueDLC"
-                    ]
-                }
-            }
-        ]
-    }
+          ]
+        }
+      },
+      {
+        "title": "DigistructPeak",
+        "content": {
+          "type": "map",
+          "maps": [
+            "DigistructPeak"
+          ]
+        }
+      },
+      {
+        "title": "GlobalChecks",
+        "content": {
+          "type": "map",
+          "maps": [
+            "GlobalChecks"
+          ]
+        }
+      },
+      {
+        "title": "HammerlockDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "HammerlockDLC"
+          ]
+        }
+      },
+      {
+        "title": "Headhunters",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Headhunters"
+          ]
+        }
+      },
+      {
+        "title": "LilithDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "LilithDLC"
+          ]
+        }
+      },
+      {
+        "title": "ScarlettDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "ScarlettDLC"
+          ]
+        }
+      },
+      {
+        "title": "TinaDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "TinaDLC"
+          ]
+        }
+      },
+      {
+        "title": "TorgueDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "TorgueDLC"
+          ]
+        }
+      }
+    ]
+  },
+  "tabbed_maps_vertical": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "BaseGame",
+        "content": {
+          "type": "map",
+          "maps": [
+            "BaseGame"
+          ]
+        }
+      },
+      {
+        "title": "DigistructPeak",
+        "content": {
+          "type": "map",
+          "maps": [
+            "DigistructPeak"
+          ]
+        }
+      },
+      {
+        "title": "GlobalChecks",
+        "content": {
+          "type": "map",
+          "maps": [
+            "GlobalChecks"
+          ]
+        }
+      },
+      {
+        "title": "HammerlockDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "HammerlockDLC"
+          ]
+        }
+      },
+      {
+        "title": "Headhunters",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Headhunters"
+          ]
+        }
+      },
+      {
+        "title": "LilithDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "LilithDLC"
+          ]
+        }
+      },
+      {
+        "title": "ScarlettDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "ScarlettDLC"
+          ]
+        }
+      },
+      {
+        "title": "TinaDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "TinaDLC"
+          ]
+        }
+      },
+      {
+        "title": "TorgueDLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "TorgueDLC"
+          ]
+        }
+      }
+    ]
+  }
 }
