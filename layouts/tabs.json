@@ -3,7 +3,7 @@
     "type": "tabbed",
     "tabs": [
       {
-        "title": "BaseGame",
+        "title": "Base Game",
         "content": {
           "type": "tabbed",
           "tabs": [
@@ -344,16 +344,7 @@
         }
       },
       {
-        "title": "DigistructPeak",
-        "content": {
-          "type": "map",
-          "maps": [
-            "DigistructPeak"
-          ]
-        }
-      },
-      {
-        "title": "GlobalChecks",
+        "title": "Global Checks",
         "content": {
           "type": "map",
           "maps": [
@@ -362,11 +353,47 @@
         }
       },
       {
-        "title": "HammerlockDLC",
+        "title": "Scarlett DLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "ScarlettDLC"
+          ]
+        }
+      },
+      {
+        "title": "Torgue DLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "TorgueDLC"
+          ]
+        }
+      },
+      {
+        "title": "Hammerlock DLC",
         "content": {
           "type": "map",
           "maps": [
             "HammerlockDLC"
+          ]
+        }
+      },
+      {
+        "title": "Tina DLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "TinaDLC"
+          ]
+        }
+      },
+      {
+        "title": "Lilith DLC",
+        "content": {
+          "type": "map",
+          "maps": [
+            "LilithDLC"
           ]
         }
       },
@@ -380,124 +407,11 @@
         }
       },
       {
-        "title": "LilithDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "LilithDLC"
-          ]
-        }
-      },
-      {
-        "title": "ScarlettDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "ScarlettDLC"
-          ]
-        }
-      },
-      {
-        "title": "TinaDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "TinaDLC"
-          ]
-        }
-      },
-      {
-        "title": "TorgueDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "TorgueDLC"
-          ]
-        }
-      }
-    ]
-  },
-  "tabbed_maps_vertical": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "BaseGame",
-        "content": {
-          "type": "map",
-          "maps": [
-            "BaseGame"
-          ]
-        }
-      },
-      {
-        "title": "DigistructPeak",
+        "title": "Digistruct Peak",
         "content": {
           "type": "map",
           "maps": [
             "DigistructPeak"
-          ]
-        }
-      },
-      {
-        "title": "GlobalChecks",
-        "content": {
-          "type": "map",
-          "maps": [
-            "GlobalChecks"
-          ]
-        }
-      },
-      {
-        "title": "HammerlockDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "HammerlockDLC"
-          ]
-        }
-      },
-      {
-        "title": "Headhunters",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Headhunters"
-          ]
-        }
-      },
-      {
-        "title": "LilithDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "LilithDLC"
-          ]
-        }
-      },
-      {
-        "title": "ScarlettDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "ScarlettDLC"
-          ]
-        }
-      },
-      {
-        "title": "TinaDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "TinaDLC"
-          ]
-        }
-      },
-      {
-        "title": "TorgueDLC",
-        "content": {
-          "type": "map",
-          "maps": [
-            "TorgueDLC"
           ]
         }
       }
