@@ -20,15 +20,28 @@
                     "type": "dock",
                     "dock": "bottom",
                     "v_alignment": "stretch",
+					"background": "#ff161616",
                     "content": [
                         {
-                            "type": "group",
-                            "header": "Items",
+                            "type": "tabbed",
+							"tabs":[
+							{
+                            "title": "Character Items",
                             "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "shared_item_grid_horizontal"
                             }
+							},
+							{
+							"title": "Travel Unlocks",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "travel_grid_horizontal"
+                            }
+							}
+							]
                         }
                     ]
                 }
