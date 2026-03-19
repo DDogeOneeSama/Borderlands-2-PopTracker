@@ -30,7 +30,7 @@
                             "dock": "left",
                             "content": {
                                 "type": "layout",
-                                "key": "shared_item_grid_horizontal"
+                                "key": "character_grid_horizontal"
                             }
 							},
 							{
