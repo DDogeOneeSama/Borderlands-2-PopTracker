@@ -1240,9 +1240,9 @@
     {
         "name": "travel:sanctuary",
         "type": "toggle",
-        "img": "images/items/travel:sanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
+        "img": "images/items/POGGIES.jpeg",
+        "initial_active_state": true,
+        "overlay_align": "left",
         "codes": "travel:sanctuary"
     },
     {
