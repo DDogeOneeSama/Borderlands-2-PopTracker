@@ -2966,30 +2966,17 @@
             "item_count": 1
           },
           {
+            "name": "Where Angels Fear to Tread (Part 2)",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Chest - Back Room",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2271,
-            "y": 153,
-            "size": 6
-          }
-        ]
-      },
-      {
-        "name": "ControlCoreAngel",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Marcus #1",
             "access_rules": [],
@@ -3007,19 +2994,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
-          {
-            "name": "Where Angels Fear to Tread (Part 2)",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 12,
-            "y": 584,
+            "x": 2271,
+            "y": 153,
             "size": 6
           }
         ]

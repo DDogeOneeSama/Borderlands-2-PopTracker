@@ -263,15 +263,6 @@
                 "type": "tabbed",
                 "tabs": [
                   {
-                    "title": "Control Core Angel",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "ControlCoreAngel"
-                      ]
-                    }
-                  },
-                  {
                     "title": "Sanctuary Hole",
                     "content": {
                       "type": "map",
