@@ -1,59 +1,11 @@
 [
     {
-        "name": "reward:arole-playinggame",
-        "type": "toggle",
-        "img": "images/items/reward:arole-playinggame.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:arole-playinggame"
-    },
-    {
-        "name": "reward:battle:appetitefordestruction",
-        "type": "toggle",
-        "img": "images/items/reward:battle:appetitefordestruction.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:battle:appetitefordestruction"
-    },
-    {
-        "name": "reward:mydeadbrother",
-        "type": "toggle",
-        "img": "images/items/reward:mydeadbrother.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mydeadbrother"
-    },
-    {
-        "name": "reward:grendel",
-        "type": "toggle",
-        "img": "images/items/reward:grendel.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:grendel"
-    },
-    {
-        "name": "reward:atraintocatch",
-        "type": "toggle",
-        "img": "images/items/reward:atraintocatch.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:atraintocatch"
-    },
-    {
         "name": "rareshield",
         "type": "toggle",
-        "img": "images/items/rareshield.png",
+        "img": "images/items/rareShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rareshield"
-    },
-    {
-        "name": "reward:tier3rematch:appetitefordestruction",
-        "type": "toggle",
-        "img": "images/items/reward:tier3rematch:appetitefordestruction.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3rematch:appetitefordestruction"
     },
     {
         "name": "travel:vaultofthewarrior",
@@ -62,14 +14,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:vaultofthewarrior"
-    },
-    {
-        "name": "reward:3:10tokaboom",
-        "type": "toggle",
-        "img": "images/items/reward:3:10tokaboom.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:3:10tokaboom"
     },
     {
         "name": "maxammopistol",
@@ -82,54 +26,22 @@
             {
                 "name": "maxammopistol stage1",
                 "inherit_codes": true,
-                "img": "/images/items/maxammopistol.png",
+                "img": "/images/items/pistolAmmo.png",
                 "codes": "maxammopistol, maxammopistol_stage1"
             },
             {
                 "name": "maxammopistol stage2",
                 "inherit_codes": true,
-                "img": "/images/items/maxammopistol.png",
+                "img": "/images/items/pistolAmmo.png",
                 "codes": "maxammopistol_stage2"
             },
             {
                 "name": "maxammopistol stage3",
                 "inherit_codes": true,
-                "img": "/images/items/maxammopistol.png",
+                "img": "/images/items/pistolAmmo.png",
                 "codes": "maxammopistol_stage3"
             }
         ]
-    },
-    {
-        "name": "reward:claptrapsbirthdaybash!",
-        "type": "toggle",
-        "img": "images/items/reward:claptrapsbirthdaybash!.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:claptrapsbirthdaybash!"
-    },
-    {
-        "name": "reward:youarecordiallyinvited:rsvp",
-        "type": "toggle",
-        "img": "images/items/reward:youarecordiallyinvited:rsvp.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:youarecordiallyinvited:rsvp"
-    },
-    {
-        "name": "reward:eggonyourface",
-        "type": "toggle",
-        "img": "images/items/reward:eggonyourface.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:eggonyourface"
-    },
-    {
-        "name": "reward:getfrosty",
-        "type": "toggle",
-        "img": "images/items/reward:getfrosty.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:getfrosty"
     },
     {
         "name": "travel:badasscraterbar",
@@ -140,28 +52,12 @@
         "codes": "travel:badasscraterbar"
     },
     {
-        "name": "reward:toilandtrouble",
-        "type": "toggle",
-        "img": "images/items/reward:toilandtrouble.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:toilandtrouble"
-    },
-    {
         "name": "travel:ardortonstation",
         "type": "toggle",
         "img": "images/items/travel:ardortonstation.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:ardortonstation"
-    },
-    {
-        "name": "reward:datamining",
-        "type": "toggle",
-        "img": "images/items/reward:datamining.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:datamining"
     },
     {
         "name": "e-techshotgun",
@@ -180,14 +76,6 @@
         "codes": "commonclassmod"
     },
     {
-        "name": "reward:assassinatetheassassins",
-        "type": "toggle",
-        "img": "images/items/reward:assassinatetheassassins.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:assassinatetheassassins"
-    },
-    {
         "name": "rainbowgrenademod",
         "type": "toggle",
         "img": "images/items/rainbowgrenademod.png",
@@ -204,14 +92,6 @@
         "codes": "travel:highlandsoutwash"
     },
     {
-        "name": "reward:eatcookiesandcrapthunder",
-        "type": "toggle",
-        "img": "images/items/reward:eatcookiesandcrapthunder.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:eatcookiesandcrapthunder"
-    },
-    {
         "name": "travel:southernraceway",
         "type": "toggle",
         "img": "images/items/travel:southernraceway.png",
@@ -226,14 +106,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:rotgutdistillery"
-    },
-    {
-        "name": "reward:hypocriticaloath",
-        "type": "toggle",
-        "img": "images/items/reward:hypocriticaloath.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hypocriticaloath"
     },
     {
         "name": "uniquesniperrifle",
@@ -272,22 +144,6 @@
         ]
     },
     {
-        "name": "reward:hellhathnofury",
-        "type": "toggle",
-        "img": "images/items/reward:hellhathnofury.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hellhathnofury"
-    },
-    {
-        "name": "reward:armsdealing",
-        "type": "toggle",
-        "img": "images/items/reward:armsdealing.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:armsdealing"
-    },
-    {
         "name": "rainbowsniperrifle",
         "type": "toggle",
         "img": "images/items/rainbowsniperrifle.png",
@@ -304,44 +160,12 @@
         "codes": "travel:ffsbossfight"
     },
     {
-        "name": "reward:mykingdomforawand",
-        "type": "toggle",
-        "img": "images/items/reward:mykingdomforawand.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mykingdomforawand"
-    },
-    {
-        "name": "reward:professornakayama",
-        "type": "toggle",
-        "img": "images/items/reward:professornakayama.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:professornakayama"
-    },
-    {
         "name": "overridelevel30",
         "type": "toggle",
         "img": "images/items/overridelevel30.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "overridelevel30"
-    },
-    {
-        "name": "reward:grandmaflexingtonsstory:raiddifficulty",
-        "type": "toggle",
-        "img": "images/items/reward:grandmaflexingtonsstory:raiddifficulty.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:grandmaflexingtonsstory:raiddifficulty"
-    },
-    {
-        "name": "reward:smellslikevictory",
-        "type": "toggle",
-        "img": "images/items/reward:smellslikevictory.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:smellslikevictory"
     },
     {
         "name": "legendaryassaultrifle",
@@ -358,46 +182,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendaryrocketlauncher"
-    },
-    {
-        "name": "reward:whoops",
-        "type": "toggle",
-        "img": "images/items/reward:whoops.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:whoops"
-    },
-    {
-        "name": "reward:hyperioncontract#873",
-        "type": "toggle",
-        "img": "images/items/reward:hyperioncontract#873.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hyperioncontract#873"
-    },
-    {
-        "name": "reward:banditslaughter:round2",
-        "type": "toggle",
-        "img": "images/items/reward:banditslaughter:round2.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:banditslaughter:round2"
-    },
-    {
-        "name": "reward:numberonefan",
-        "type": "toggle",
-        "img": "images/items/reward:numberonefan.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:numberonefan"
-    },
-    {
-        "name": "reward:petbuttstallion",
-        "type": "toggle",
-        "img": "images/items/reward:petbuttstallion.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:petbuttstallion"
     },
     {
         "name": "legendarygrenademod",
@@ -432,60 +216,12 @@
         "codes": "travel:huntersgrotto"
     },
     {
-        "name": "reward:gasguzzlers",
-        "type": "toggle",
-        "img": "images/items/reward:gasguzzlers.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:gasguzzlers"
-    },
-    {
-        "name": "reward:magicslaughter:round2",
-        "type": "toggle",
-        "img": "images/items/reward:magicslaughter:round2.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:magicslaughter:round2"
-    },
-    {
         "name": "legendarysniperrifle",
         "type": "toggle",
         "img": "images/items/legendarysniperrifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendarysniperrifle"
-    },
-    {
-        "name": "reward:messageinabottle2(wurmwater)",
-        "type": "toggle",
-        "img": "images/items/reward:messageinabottle2(wurmwater).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:messageinabottle2(wurmwater)"
-    },
-    {
-        "name": "reward:mmorpgfps",
-        "type": "toggle",
-        "img": "images/items/reward:mmorpgfps.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mmorpgfps"
-    },
-    {
-        "name": "reward:toocloseformissiles",
-        "type": "toggle",
-        "img": "images/items/reward:toocloseformissiles.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:toocloseformissiles"
-    },
-    {
-        "name": "reward:hyperionslaughter:round4",
-        "type": "toggle",
-        "img": "images/items/reward:hyperionslaughter:round4.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hyperionslaughter:round4"
     },
     {
         "name": "uniquerocketlauncher",
@@ -496,28 +232,12 @@
         "codes": "uniquerocketlauncher"
     },
     {
-        "name": "reward:planb",
-        "type": "toggle",
-        "img": "images/items/reward:planb.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:planb"
-    },
-    {
         "name": "uncommonshield",
         "type": "toggle",
         "img": "images/items/uncommonshield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonshield"
-    },
-    {
-        "name": "reward:mansbestfriend",
-        "type": "toggle",
-        "img": "images/items/reward:mansbestfriend.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mansbestfriend"
     },
     {
         "name": "travel:dahlabandon",
@@ -564,14 +284,6 @@
         ]
     },
     {
-        "name": "reward:totallyrecall",
-        "type": "toggle",
-        "img": "images/items/reward:totallyrecall.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:totallyrecall"
-    },
-    {
         "name": "travel:washburnerefinery",
         "type": "toggle",
         "img": "images/items/travel:washburnerefinery.png",
@@ -588,34 +300,18 @@
         "codes": "travel:wambamisland"
     },
     {
-        "name": "reward:thisjustin",
-        "type": "toggle",
-        "img": "images/items/reward:thisjustin.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thisjustin"
-    },
-    {
-        "name": "reward:treehugger",
-        "type": "toggle",
-        "img": "images/items/reward:treehugger.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:treehugger"
-    },
-    {
-        "name": "3skillpoints",
+        "name": "Skill Points",
         "type": "consumable",
         "img": "images/items/3skillpoints.png",
         "min_quantity": 0,
-        "max_quantity": 10,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
+        "max_quantity": 150,
+        "increment": 3,
+        "decrement": 3,
+        "initial_quantity": 0,
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "3skillpoints"
+        "codes": "3skillpoints, 3skillpoints(p)"
     },
     {
         "name": "backpackupgrade",
@@ -646,22 +342,6 @@
         ]
     },
     {
-        "name": "reward:hyperiustheinvincible",
-        "type": "toggle",
-        "img": "images/items/reward:hyperiustheinvincible.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hyperiustheinvincible"
-    },
-    {
-        "name": "reward:messageinabottle3(haytersfolly)",
-        "type": "toggle",
-        "img": "images/items/reward:messageinabottle3(haytersfolly).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:messageinabottle3(haytersfolly)"
-    },
-    {
         "name": "progressivejump",
         "type": "progressive",
         "loop": false,
@@ -690,38 +370,6 @@
         ]
     },
     {
-        "name": "reward:thebeardmakestheman",
-        "type": "toggle",
-        "img": "images/items/reward:thebeardmakestheman.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thebeardmakestheman"
-    },
-    {
-        "name": "reward:arealboy:human",
-        "type": "toggle",
-        "img": "images/items/reward:arealboy:human.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:arealboy:human"
-    },
-    {
-        "name": "reward:echoesofthepast",
-        "type": "toggle",
-        "img": "images/items/reward:echoesofthepast.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:echoesofthepast"
-    },
-    {
-        "name": "reward:pallingaround",
-        "type": "toggle",
-        "img": "images/items/reward:pallingaround.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:pallingaround"
-    },
-    {
         "name": "travel:digistructpeak",
         "type": "toggle",
         "img": "images/items/travel:digistructpeak.png",
@@ -744,14 +392,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rareclassmod"
-    },
-    {
-        "name": "reward:bfffs",
-        "type": "toggle",
-        "img": "images/items/reward:bfffs.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:bfffs"
     },
     {
         "name": "uncommonsniperrifle",
@@ -778,44 +418,12 @@
         "codes": "travel:dragonkeep"
     },
     {
-        "name": "reward:handsomejackhere!",
-        "type": "toggle",
-        "img": "images/items/reward:handsomejackhere!.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:handsomejackhere!"
-    },
-    {
         "name": "travel:candlerakkscragg",
         "type": "toggle",
         "img": "images/items/travel:candlerakkscragg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:candlerakkscragg"
-    },
-    {
-        "name": "reward:dwarvenallies",
-        "type": "toggle",
-        "img": "images/items/reward:dwarvenallies.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:dwarvenallies"
-    },
-    {
-        "name": "reward:petetheinvincible",
-        "type": "toggle",
-        "img": "images/items/reward:petetheinvincible.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:petetheinvincible"
-    },
-    {
-        "name": "reward:yescurvydogs",
-        "type": "toggle",
-        "img": "images/items/reward:yescurvydogs.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:yescurvydogs"
     },
     {
         "name": "travel:friendshipgulag",
@@ -834,30 +442,6 @@
         "codes": "travel:oasis"
     },
     {
-        "name": "reward:trickortreat",
-        "type": "toggle",
-        "img": "images/items/reward:trickortreat.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:trickortreat"
-    },
-    {
-        "name": "reward:torturechairs",
-        "type": "toggle",
-        "img": "images/items/reward:torturechairs.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:torturechairs"
-    },
-    {
-        "name": "reward:tier3rematch:thedeathrace",
-        "type": "toggle",
-        "img": "images/items/reward:tier3rematch:thedeathrace.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3rematch:thedeathrace"
-    },
-    {
         "name": "veryrareshield",
         "type": "toggle",
         "img": "images/items/veryrareshield.png",
@@ -866,36 +450,12 @@
         "codes": "veryrareshield"
     },
     {
-        "name": "reward:mybrittlepony",
-        "type": "toggle",
-        "img": "images/items/reward:mybrittlepony.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mybrittlepony"
-    },
-    {
         "name": "rainbowshield",
         "type": "toggle",
         "img": "images/items/rainbowshield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowshield"
-    },
-    {
-        "name": "reward:commercialappeal",
-        "type": "toggle",
-        "img": "images/items/reward:commercialappeal.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:commercialappeal"
-    },
-    {
-        "name": "reward:arealboy:facetime",
-        "type": "toggle",
-        "img": "images/items/reward:arealboy:facetime.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:arealboy:facetime"
     },
     {
         "name": "uniquesmg",
@@ -914,52 +474,12 @@
         "codes": "rainbowassaultrifle"
     },
     {
-        "name": "reward:banditslaughter:round4",
-        "type": "toggle",
-        "img": "images/items/reward:banditslaughter:round4.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:banditslaughter:round4"
-    },
-    {
-        "name": "reward:twoeasypieces",
-        "type": "toggle",
-        "img": "images/items/reward:twoeasypieces.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:twoeasypieces"
-    },
-    {
-        "name": "reward:thelosttreasure",
-        "type": "toggle",
-        "img": "images/items/reward:thelosttreasure.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thelosttreasure"
-    },
-    {
-        "name": "reward:messageinabottle5(magnyslighthouse)",
-        "type": "toggle",
-        "img": "images/items/reward:messageinabottle5(magnyslighthouse).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:messageinabottle5(magnyslighthouse)"
-    },
-    {
         "name": "travel:terminus",
         "type": "toggle",
         "img": "images/items/travel:terminus.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:terminus"
-    },
-    {
-        "name": "reward:mightymorphin",
-        "type": "toggle",
-        "img": "images/items/reward:mightymorphin.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mightymorphin"
     },
     {
         "name": "veryrareassaultrifle",
@@ -976,30 +496,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonpistol"
-    },
-    {
-        "name": "reward:myhusbandtheskag",
-        "type": "toggle",
-        "img": "images/items/reward:myhusbandtheskag.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:myhusbandtheskag"
-    },
-    {
-        "name": "reward:voracidoustheinvincible",
-        "type": "toggle",
-        "img": "images/items/reward:voracidoustheinvincible.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:voracidoustheinvincible"
-    },
-    {
-        "name": "reward:thehermit",
-        "type": "toggle",
-        "img": "images/items/reward:thehermit.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thehermit"
     },
     {
         "name": "travel:hatredsshadow",
@@ -1038,30 +534,6 @@
         ]
     },
     {
-        "name": "reward:battle:barroomblitz",
-        "type": "toggle",
-        "img": "images/items/reward:battle:barroomblitz.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:battle:barroomblitz"
-    },
-    {
-        "name": "reward:symbiosis",
-        "type": "toggle",
-        "img": "images/items/reward:symbiosis.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:symbiosis"
-    },
-    {
-        "name": "reward:saythattomyface",
-        "type": "toggle",
-        "img": "images/items/reward:saythattomyface.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:saythattomyface"
-    },
-    {
         "name": "travel:tundraexpress",
         "type": "toggle",
         "img": "images/items/travel:tundraexpress.png",
@@ -1076,22 +548,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:writhingdeep"
-    },
-    {
-        "name": "reward:welcometothejungle",
-        "type": "toggle",
-        "img": "images/items/reward:welcometothejungle.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:welcometothejungle"
-    },
-    {
-        "name": "reward:bestmothersdayever",
-        "type": "toggle",
-        "img": "images/items/reward:bestmothersdayever.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:bestmothersdayever"
     },
     {
         "name": "legendaryclassmod",
@@ -1118,22 +574,6 @@
         "codes": "uncommonsmg"
     },
     {
-        "name": "reward:medicalmystery",
-        "type": "toggle",
-        "img": "images/items/reward:medicalmystery.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:medicalmystery"
-    },
-    {
-        "name": "reward:awarmwelcome",
-        "type": "toggle",
-        "img": "images/items/reward:awarmwelcome.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:awarmwelcome"
-    },
-    {
         "name": "uniqueshield",
         "type": "toggle",
         "img": "images/items/uniqueshield.png",
@@ -1148,14 +588,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:naturalselectionannex"
-    },
-    {
-        "name": "reward:battle:twelveoclockhigh",
-        "type": "toggle",
-        "img": "images/items/reward:battle:twelveoclockhigh.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:battle:twelveoclockhigh"
     },
     {
         "name": "travel:endoftheline",
@@ -1174,68 +606,12 @@
         "codes": "rareshotgun"
     },
     {
-        "name": "reward:magicslaughter:badassround",
-        "type": "toggle",
-        "img": "images/items/reward:magicslaughter:badassround.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:magicslaughter:badassround"
-    },
-    {
-        "name": "reward:iknowitwheniseeit",
-        "type": "toggle",
-        "img": "images/items/reward:iknowitwheniseeit.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:iknowitwheniseeit"
-    },
-    {
-        "name": "reward:dontcopythatfloppy",
-        "type": "toggle",
-        "img": "images/items/reward:dontcopythatfloppy.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:dontcopythatfloppy"
-    },
-    {
-        "name": "reward:everybodywantstobewanted",
-        "type": "toggle",
-        "img": "images/items/reward:everybodywantstobewanted.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:everybodywantstobewanted"
-    },
-    {
         "name": "seraphsmg",
         "type": "toggle",
         "img": "images/items/seraphsmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphsmg"
-    },
-    {
-        "name": "reward:theoddestcouple",
-        "type": "toggle",
-        "img": "images/items/reward:theoddestcouple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theoddestcouple"
-    },
-    {
-        "name": "reward:battle:thedeathrace",
-        "type": "toggle",
-        "img": "images/items/reward:battle:thedeathrace.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:battle:thedeathrace"
-    },
-    {
-        "name": "reward:ilikemymonstersrare",
-        "type": "toggle",
-        "img": "images/items/reward:ilikemymonstersrare.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:ilikemymonstersrare"
     },
     {
         "name": "travel:sanctuary",
@@ -1254,22 +630,6 @@
         "codes": "pearlescentsmg"
     },
     {
-        "name": "reward:animalrescue:food",
-        "type": "toggle",
-        "img": "images/items/reward:animalrescue:food.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:animalrescue:food"
-    },
-    {
-        "name": "reward:uncleteddy",
-        "type": "toggle",
-        "img": "images/items/reward:uncleteddy.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:uncleteddy"
-    },
-    {
         "name": "travel:thebeatdown",
         "type": "toggle",
         "img": "images/items/travel:thebeatdown.png",
@@ -1286,14 +646,6 @@
         "codes": "travel:sawtoothcauldron"
     },
     {
-        "name": "reward:creatureslaughter:round3",
-        "type": "toggle",
-        "img": "images/items/reward:creatureslaughter:round3.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:creatureslaughter:round3"
-    },
-    {
         "name": "uniquegrenademod",
         "type": "toggle",
         "img": "images/items/uniquegrenademod.png",
@@ -1302,76 +654,12 @@
         "codes": "uniquegrenademod"
     },
     {
-        "name": "reward:victimsofvaulthunters",
-        "type": "toggle",
-        "img": "images/items/reward:victimsofvaulthunters.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:victimsofvaulthunters"
-    },
-    {
-        "name": "reward:showdown",
-        "type": "toggle",
-        "img": "images/items/reward:showdown.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:showdown"
-    },
-    {
-        "name": "reward:thenamegame",
-        "type": "toggle",
-        "img": "images/items/reward:thenamegame.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thenamegame"
-    },
-    {
-        "name": "reward:knockinonheavensdoor",
-        "type": "toggle",
-        "img": "images/items/reward:knockinonheavensdoor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:knockinonheavensdoor"
-    },
-    {
-        "name": "reward:noteforself-person",
-        "type": "toggle",
-        "img": "images/items/reward:noteforself-person.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:noteforself-person"
-    },
-    {
         "name": "uncommonclassmod",
         "type": "toggle",
         "img": "images/items/uncommonclassmod.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonclassmod"
-    },
-    {
-        "name": "reward:brightlights",
-        "type": "toggle",
-        "img": "images/items/reward:brightlights.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:brightlights"
-    },
-    {
-        "name": "reward:mine",
-        "type": "toggle",
-        "img": "images/items/reward:mine.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mine"
-    },
-    {
-        "name": "reward:theonceandfutureslab",
-        "type": "toggle",
-        "img": "images/items/reward:theonceandfutureslab.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theonceandfutureslab"
     },
     {
         "name": "travel:thousandcuts",
@@ -1390,44 +678,12 @@
         "codes": "rainbowsmg"
     },
     {
-        "name": "reward:lettherebelight",
-        "type": "toggle",
-        "img": "images/items/reward:lettherebelight.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:lettherebelight"
-    },
-    {
-        "name": "reward:lostsouls",
-        "type": "toggle",
-        "img": "images/items/reward:lostsouls.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:lostsouls"
-    },
-    {
-        "name": "reward:whereangelsfeartotread(part2)",
-        "type": "toggle",
-        "img": "images/items/reward:whereangelsfeartotread(part2).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:whereangelsfeartotread(part2)"
-    },
-    {
         "name": "pearlescentpistol",
         "type": "toggle",
         "img": "images/items/pearlescentpistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentpistol"
-    },
-    {
-        "name": "reward:customerservice",
-        "type": "toggle",
-        "img": "images/items/reward:customerservice.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:customerservice"
     },
     {
         "name": "travel:terramorphouspeak",
@@ -1438,84 +694,12 @@
         "codes": "travel:terramorphouspeak"
     },
     {
-        "name": "reward:matteroftaste",
-        "type": "toggle",
-        "img": "images/items/reward:matteroftaste.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:matteroftaste"
-    },
-    {
         "name": "e-techsmg",
         "type": "toggle",
         "img": "images/items/e-techsmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techsmg"
-    },
-    {
-        "name": "reward:givingjockoalegup",
-        "type": "toggle",
-        "img": "images/items/reward:givingjockoalegup.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:givingjockoalegup"
-    },
-    {
-        "name": "reward:doctorsorders",
-        "type": "toggle",
-        "img": "images/items/reward:doctorsorders.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:doctorsorders"
-    },
-    {
-        "name": "reward:clanwar:wakeywakey",
-        "type": "toggle",
-        "img": "images/items/reward:clanwar:wakeywakey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:clanwar:wakeywakey"
-    },
-    {
-        "name": "reward:shootingthemoon",
-        "type": "toggle",
-        "img": "images/items/reward:shootingthemoon.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:shootingthemoon"
-    },
-    {
-        "name": "reward:raidersofthelastboss",
-        "type": "toggle",
-        "img": "images/items/reward:raidersofthelastboss.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:raidersofthelastboss"
-    },
-    {
-        "name": "reward:tier2battle:thedeathrace",
-        "type": "toggle",
-        "img": "images/items/reward:tier2battle:thedeathrace.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier2battle:thedeathrace"
-    },
-    {
-        "name": "reward:writtenbythevictor",
-        "type": "toggle",
-        "img": "images/items/reward:writtenbythevictor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:writtenbythevictor"
-    },
-    {
-        "name": "reward:rock",
-        "type": "toggle",
-        "img": "images/items/reward:rock.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:rock"
     },
     {
         "name": "commonshield",
@@ -1532,14 +716,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonassaultrifle"
-    },
-    {
-        "name": "reward:magicslaughter:round4",
-        "type": "toggle",
-        "img": "images/items/reward:magicslaughter:round4.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:magicslaughter:round4"
     },
     {
         "name": "travel:scyllasgrove",
@@ -1566,14 +742,6 @@
         "codes": "raresniperrifle"
     },
     {
-        "name": "reward:thefallofnakayama",
-        "type": "toggle",
-        "img": "images/items/reward:thefallofnakayama.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thefallofnakayama"
-    },
-    {
         "name": "travel:hallowedhollow",
         "type": "toggle",
         "img": "images/items/travel:hallowedhollow.png",
@@ -1590,14 +758,6 @@
         "codes": "uniqueassaultrifle"
     },
     {
-        "name": "reward:tier3battle:thedeathrace",
-        "type": "toggle",
-        "img": "images/items/reward:tier3battle:thedeathrace.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3battle:thedeathrace"
-    },
-    {
         "name": "veryrareshotgun",
         "type": "toggle",
         "img": "images/items/veryrareshotgun.png",
@@ -1606,44 +766,12 @@
         "codes": "veryrareshotgun"
     },
     {
-        "name": "reward:swallowedwhole",
-        "type": "toggle",
-        "img": "images/items/reward:swallowedwhole.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:swallowedwhole"
-    },
-    {
-        "name": "reward:kickstartmyheart",
-        "type": "toggle",
-        "img": "images/items/reward:kickstartmyheart.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:kickstartmyheart"
-    },
-    {
         "name": "e-techrocketlauncher",
         "type": "toggle",
         "img": "images/items/e-techrocketlauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techrocketlauncher"
-    },
-    {
-        "name": "reward:hyperionslaughter:round5",
-        "type": "toggle",
-        "img": "images/items/reward:hyperionslaughter:round5.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hyperionslaughter:round5"
-    },
-    {
-        "name": "reward:ahistoryofsimulatedviolence",
-        "type": "toggle",
-        "img": "images/items/reward:ahistoryofsimulatedviolence.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:ahistoryofsimulatedviolence"
     },
     {
         "name": "travel:southpawsteam&power",
@@ -1662,60 +790,12 @@
         "codes": "travel:highlands"
     },
     {
-        "name": "reward:cultfollowing:eternalflame",
-        "type": "toggle",
-        "img": "images/items/reward:cultfollowing:eternalflame.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:cultfollowing:eternalflame"
-    },
-    {
-        "name": "reward:nowyouseeit",
-        "type": "toggle",
-        "img": "images/items/reward:nowyouseeit.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:nowyouseeit"
-    },
-    {
-        "name": "reward:blindsided",
-        "type": "toggle",
-        "img": "images/items/reward:blindsided.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:blindsided"
-    },
-    {
         "name": "travel:aridnexusboneyard",
         "type": "toggle",
         "img": "images/items/travel:aridnexusboneyard.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:aridnexusboneyard"
-    },
-    {
-        "name": "reward:inmemoriam",
-        "type": "toggle",
-        "img": "images/items/reward:inmemoriam.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:inmemoriam"
-    },
-    {
-        "name": "reward:thegood",
-        "type": "toggle",
-        "img": "images/items/reward:thegood.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thegood"
-    },
-    {
-        "name": "reward:banditslaughter:round5",
-        "type": "toggle",
-        "img": "images/items/reward:banditslaughter:round5.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:banditslaughter:round5"
     },
     {
         "name": "travel:thebackburner",
@@ -1726,92 +806,12 @@
         "codes": "travel:thebackburner"
     },
     {
-        "name": "reward:themanwhowouldbejack",
-        "type": "toggle",
-        "img": "images/items/reward:themanwhowouldbejack.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:themanwhowouldbejack"
-    },
-    {
-        "name": "reward:wontgetfooledagain",
-        "type": "toggle",
-        "img": "images/items/reward:wontgetfooledagain.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:wontgetfooledagain"
-    },
-    {
-        "name": "reward:messageinabottle4(rustyards)",
-        "type": "toggle",
-        "img": "images/items/reward:messageinabottle4(rustyards).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:messageinabottle4(rustyards)"
-    },
-    {
-        "name": "reward:firewater",
-        "type": "toggle",
-        "img": "images/items/reward:firewater.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:firewater"
-    },
-    {
         "name": "rainbowrocketlauncher",
         "type": "toggle",
         "img": "images/items/rainbowrocketlauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowrocketlauncher"
-    },
-    {
-        "name": "reward:perfectlypeaceful",
-        "type": "toggle",
-        "img": "images/items/reward:perfectlypeaceful.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:perfectlypeaceful"
-    },
-    {
-        "name": "reward:clanwar:endoftherainbow",
-        "type": "toggle",
-        "img": "images/items/reward:clanwar:endoftherainbow.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:clanwar:endoftherainbow"
-    },
-    {
-        "name": "reward:messageinabottle1(oasis)",
-        "type": "toggle",
-        "img": "images/items/reward:messageinabottle1(oasis).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:messageinabottle1(oasis)"
-    },
-    {
-        "name": "reward:clanwar:firstplace",
-        "type": "toggle",
-        "img": "images/items/reward:clanwar:firstplace.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:clanwar:firstplace"
-    },
-    {
-        "name": "reward:banditslaughter:round3",
-        "type": "toggle",
-        "img": "images/items/reward:banditslaughter:round3.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:banditslaughter:round3"
-    },
-    {
-        "name": "reward:crazyaboutyou",
-        "type": "toggle",
-        "img": "images/items/reward:crazyaboutyou.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:crazyaboutyou"
     },
     {
         "name": "seraphrocketlauncher",
@@ -1830,14 +830,6 @@
         "codes": "travel:murderlinstemple"
     },
     {
-        "name": "reward:followtheglow",
-        "type": "toggle",
-        "img": "images/items/reward:followtheglow.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:followtheglow"
-    },
-    {
         "name": "travel:thewingedstorm",
         "type": "toggle",
         "img": "images/items/travel:thewingedstorm.png",
@@ -1846,76 +838,12 @@
         "codes": "travel:thewingedstorm"
     },
     {
-        "name": "reward:minecartmischief",
-        "type": "toggle",
-        "img": "images/items/reward:minecartmischief.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:minecartmischief"
-    },
-    {
-        "name": "reward:monsterhunter",
-        "type": "toggle",
-        "img": "images/items/reward:monsterhunter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:monsterhunter"
-    },
-    {
-        "name": "reward:olpukey",
-        "type": "toggle",
-        "img": "images/items/reward:olpukey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:olpukey"
-    },
-    {
-        "name": "reward:animalrescue:medicine",
-        "type": "toggle",
-        "img": "images/items/reward:animalrescue:medicine.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:animalrescue:medicine"
-    },
-    {
-        "name": "reward:demonhunter",
-        "type": "toggle",
-        "img": "images/items/reward:demonhunter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:demonhunter"
-    },
-    {
-        "name": "reward:creatureslaughter:round4",
-        "type": "toggle",
-        "img": "images/items/reward:creatureslaughter:round4.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:creatureslaughter:round4"
-    },
-    {
         "name": "travel:southernshelf",
         "type": "toggle",
         "img": "images/items/travel:southernshelf.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:southernshelf"
-    },
-    {
-        "name": "reward:themagicofchildhood",
-        "type": "toggle",
-        "img": "images/items/reward:themagicofchildhood.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:themagicofchildhood"
-    },
-    {
-        "name": "reward:myfirstgun",
-        "type": "toggle",
-        "img": "images/items/reward:myfirstgun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:myfirstgun"
     },
     {
         "name": "commonrelic",
@@ -1954,14 +882,6 @@
         ]
     },
     {
-        "name": "reward:creatureslaughter:round5",
-        "type": "toggle",
-        "img": "images/items/reward:creatureslaughter:round5.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:creatureslaughter:round5"
-    },
-    {
         "name": "travel:herospass",
         "type": "toggle",
         "img": "images/items/travel:herospass.png",
@@ -1970,100 +890,12 @@
         "codes": "travel:herospass"
     },
     {
-        "name": "reward:ellinshiningarmor",
-        "type": "toggle",
-        "img": "images/items/reward:ellinshiningarmor.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:ellinshiningarmor"
-    },
-    {
-        "name": "reward:mylifeforasandskiff",
-        "type": "toggle",
-        "img": "images/items/reward:mylifeforasandskiff.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mylifeforasandskiff"
-    },
-    {
-        "name": "reward:theicemancometh",
-        "type": "toggle",
-        "img": "images/items/reward:theicemancometh.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theicemancometh"
-    },
-    {
-        "name": "reward:getyourmotorrunning",
-        "type": "toggle",
-        "img": "images/items/reward:getyourmotorrunning.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:getyourmotorrunning"
-    },
-    {
-        "name": "reward:declarationagainstindependents",
-        "type": "toggle",
-        "img": "images/items/reward:declarationagainstindependents.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:declarationagainstindependents"
-    },
-    {
-        "name": "reward:you.will.die.(seriously.)",
-        "type": "toggle",
-        "img": "images/items/reward:you.will.die.(seriously.).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:you.will.die.(seriously.)"
-    },
-    {
-        "name": "reward:animalrights",
-        "type": "toggle",
-        "img": "images/items/reward:animalrights.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:animalrights"
-    },
-    {
-        "name": "reward:thehuntisvaughn",
-        "type": "toggle",
-        "img": "images/items/reward:thehuntisvaughn.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thehuntisvaughn"
-    },
-    {
         "name": "travel:theburrows",
         "type": "toggle",
         "img": "images/items/travel:theburrows.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:theburrows"
-    },
-    {
-        "name": "reward:theoverlooked:shieldsup",
-        "type": "toggle",
-        "img": "images/items/reward:theoverlooked:shieldsup.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theoverlooked:shieldsup"
-    },
-    {
-        "name": "reward:fun",
-        "type": "toggle",
-        "img": "images/items/reward:fun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:fun"
-    },
-    {
-        "name": "reward:fasterthanthespeedoflove",
-        "type": "toggle",
-        "img": "images/items/reward:fasterthanthespeedoflove.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:fasterthanthespeedoflove"
     },
     {
         "name": "travel:unassumingdocks",
@@ -2082,30 +914,6 @@
         "codes": "e-techrelic"
     },
     {
-        "name": "reward:safeandsound",
-        "type": "toggle",
-        "img": "images/items/reward:safeandsound.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:safeandsound"
-    },
-    {
-        "name": "reward:tograndmothershousewego",
-        "type": "toggle",
-        "img": "images/items/reward:tograndmothershousewego.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tograndmothershousewego"
-    },
-    {
-        "name": "reward:agameofgames",
-        "type": "toggle",
-        "img": "images/items/reward:agameofgames.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:agameofgames"
-    },
-    {
         "name": "travel:opportunity",
         "type": "toggle",
         "img": "images/items/travel:opportunity.png",
@@ -2114,60 +922,12 @@
         "codes": "travel:opportunity"
     },
     {
-        "name": "reward:thecoldshoulder",
-        "type": "toggle",
-        "img": "images/items/reward:thecoldshoulder.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thecoldshoulder"
-    },
-    {
-        "name": "reward:outofbodyexperience",
-        "type": "toggle",
-        "img": "images/items/reward:outofbodyexperience.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:outofbodyexperience"
-    },
-    {
-        "name": "reward:breakingandentering",
-        "type": "toggle",
-        "img": "images/items/reward:breakingandentering.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:breakingandentering"
-    },
-    {
-        "name": "reward:sirentology",
-        "type": "toggle",
-        "img": "images/items/reward:sirentology.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:sirentology"
-    },
-    {
         "name": "uniquepistol",
         "type": "toggle",
         "img": "images/items/uniquepistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniquepistol"
-    },
-    {
-        "name": "reward:tier2battle:barroomblitz",
-        "type": "toggle",
-        "img": "images/items/reward:tier2battle:barroomblitz.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier2battle:barroomblitz"
-    },
-    {
-        "name": "reward:thechosenone",
-        "type": "toggle",
-        "img": "images/items/reward:thechosenone.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thechosenone"
     },
     {
         "name": "travel:flamerockrefuge",
@@ -2194,14 +954,6 @@
         "codes": "travel:heliosfallen"
     },
     {
-        "name": "reward:shootthisguyintheface",
-        "type": "toggle",
-        "img": "images/items/reward:shootthisguyintheface.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:shootthisguyintheface"
-    },
-    {
         "name": "travel:torguearena",
         "type": "toggle",
         "img": "images/items/travel:torguearena.png",
@@ -2226,14 +978,6 @@
         "codes": "veryrareclassmod"
     },
     {
-        "name": "reward:theoverlooked:thisisonlyatest",
-        "type": "toggle",
-        "img": "images/items/reward:theoverlooked:thisisonlyatest.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theoverlooked:thisisonlyatest"
-    },
-    {
         "name": "e-techpistol",
         "type": "toggle",
         "img": "images/items/e-techpistol.png",
@@ -2242,28 +986,12 @@
         "codes": "e-techpistol"
     },
     {
-        "name": "reward:banditslaughter:round1",
-        "type": "toggle",
-        "img": "images/items/reward:banditslaughter:round1.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:banditslaughter:round1"
-    },
-    {
         "name": "veryraresmg",
         "type": "toggle",
         "img": "images/items/veryraresmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryraresmg"
-    },
-    {
-        "name": "reward:novacancy",
-        "type": "toggle",
-        "img": "images/items/reward:novacancy.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:novacancy"
     },
     {
         "name": "legendarypistol",
@@ -2298,22 +1026,6 @@
         "codes": "seraphshield"
     },
     {
-        "name": "reward:rollinsight",
-        "type": "toggle",
-        "img": "images/items/reward:rollinsight.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:rollinsight"
-    },
-    {
-        "name": "reward:thebane",
-        "type": "toggle",
-        "img": "images/items/reward:thebane.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thebane"
-    },
-    {
         "name": "travel:ffsintrosanctuary",
         "type": "toggle",
         "img": "images/items/travel:ffsintrosanctuary.png",
@@ -2330,58 +1042,12 @@
         "codes": "seraphsniperrifle"
     },
     {
-        "name": "3skillpoints(p)",
-        "type": "consumable",
-        "img": "images/items/3skillpoints(p).png",
-        "min_quantity": 0,
-        "max_quantity": 10,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
-        "overlay_align": "right",
-        "overlay_font_size": 14,
-        "overlay_background": "#000000",
-        "codes": "3skillpoints(p)"
-    },
-    {
-        "name": "reward:astudyinscarlett",
-        "type": "toggle",
-        "img": "images/items/reward:astudyinscarlett.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:astudyinscarlett"
-    },
-    {
         "name": "travel:wurmwater",
         "type": "toggle",
         "img": "images/items/travel:wurmwater.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:wurmwater"
-    },
-    {
-        "name": "reward:claptocurrency",
-        "type": "toggle",
-        "img": "images/items/reward:claptocurrency.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:claptocurrency"
-    },
-    {
-        "name": "reward:statuesque",
-        "type": "toggle",
-        "img": "images/items/reward:statuesque.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:statuesque"
-    },
-    {
-        "name": "reward:longwaytothetop",
-        "type": "toggle",
-        "img": "images/items/reward:longwaytothetop.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:longwaytothetop"
     },
     {
         "name": "legendarysmg",
@@ -2432,84 +1098,12 @@
         "codes": "travel:gluttonygulch"
     },
     {
-        "name": "reward:burn",
-        "type": "toggle",
-        "img": "images/items/reward:burn.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:burn"
-    },
-    {
-        "name": "reward:positiveselfimage",
-        "type": "toggle",
-        "img": "images/items/reward:positiveselfimage.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:positiveselfimage"
-    },
-    {
-        "name": "reward:youarecordiallyinvited:teaparty",
-        "type": "toggle",
-        "img": "images/items/reward:youarecordiallyinvited:teaparty.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:youarecordiallyinvited:teaparty"
-    },
-    {
         "name": "rareassaultrifle",
         "type": "toggle",
         "img": "images/items/rareassaultrifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rareassaultrifle"
-    },
-    {
-        "name": "reward:poeticlicense",
-        "type": "toggle",
-        "img": "images/items/reward:poeticlicense.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:poeticlicense"
-    },
-    {
-        "name": "reward:cultfollowing:falseidols",
-        "type": "toggle",
-        "img": "images/items/reward:cultfollowing:falseidols.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:cultfollowing:falseidols"
-    },
-    {
-        "name": "reward:sporechores",
-        "type": "toggle",
-        "img": "images/items/reward:sporechores.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:sporechores"
-    },
-    {
-        "name": "reward:dr.tandthevaulthunters",
-        "type": "toggle",
-        "img": "images/items/reward:dr.tandthevaulthunters.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:dr.tandthevaulthunters"
-    },
-    {
-        "name": "reward:cultfollowing:theenkindling",
-        "type": "toggle",
-        "img": "images/items/reward:cultfollowing:theenkindling.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:cultfollowing:theenkindling"
-    },
-    {
-        "name": "reward:hyperionslaughter:round2",
-        "type": "toggle",
-        "img": "images/items/reward:hyperionslaughter:round2.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hyperionslaughter:round2"
     },
     {
         "name": "rarerelic",
@@ -2520,14 +1114,6 @@
         "codes": "rarerelic"
     },
     {
-        "name": "reward:urine",
-        "type": "toggle",
-        "img": "images/items/reward:urine.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:urine"
-    },
-    {
         "name": "travel:thedust",
         "type": "toggle",
         "img": "images/items/travel:thedust.png",
@@ -2536,44 +1122,12 @@
         "codes": "travel:thedust"
     },
     {
-        "name": "reward:cadeuceus",
-        "type": "toggle",
-        "img": "images/items/reward:cadeuceus.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:cadeuceus"
-    },
-    {
-        "name": "reward:thevaughnguard",
-        "type": "toggle",
-        "img": "images/items/reward:thevaughnguard.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thevaughnguard"
-    },
-    {
         "name": "crouch",
         "type": "toggle",
         "img": "images/items/crouch.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "crouch"
-    },
-    {
-        "name": "reward:clanwar:reachthedeaddrop",
-        "type": "toggle",
-        "img": "images/items/reward:clanwar:reachthedeaddrop.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:clanwar:reachthedeaddrop"
-    },
-    {
-        "name": "reward:splintergroup",
-        "type": "toggle",
-        "img": "images/items/reward:splintergroup.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:splintergroup"
     },
     {
         "name": "travel:controlcoreangel",
@@ -2598,30 +1152,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:aridnexusbadlands"
-    },
-    {
-        "name": "reward:hungryliketheskag",
-        "type": "toggle",
-        "img": "images/items/reward:hungryliketheskag.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hungryliketheskag"
-    },
-    {
-        "name": "reward:specialdelivery",
-        "type": "toggle",
-        "img": "images/items/reward:specialdelivery.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:specialdelivery"
-    },
-    {
-        "name": "reward:denial",
-        "type": "toggle",
-        "img": "images/items/reward:denial.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:denial"
     },
     {
         "name": "commonrocketlauncher",
@@ -2656,36 +1186,12 @@
         "codes": "rarerocketlauncher"
     },
     {
-        "name": "reward:ahardplace",
-        "type": "toggle",
-        "img": "images/items/reward:ahardplace.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:ahardplace"
-    },
-    {
-        "name": "reward:whereangelsfeartotread",
-        "type": "toggle",
-        "img": "images/items/reward:whereangelsfeartotread.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:whereangelsfeartotread"
-    },
-    {
         "name": "raresmg",
         "type": "toggle",
         "img": "images/items/raresmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "raresmg"
-    },
-    {
-        "name": "reward:cultfollowing:lightingthematch",
-        "type": "toggle",
-        "img": "images/items/reward:cultfollowing:lightingthematch.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:cultfollowing:lightingthematch"
     },
     {
         "name": "travel:southernshelfbay",
@@ -2712,52 +1218,12 @@
         "codes": "pearlescentsniperrifle"
     },
     {
-        "name": "reward:tier3battle:barroomblitz",
-        "type": "toggle",
-        "img": "images/items/reward:tier3battle:barroomblitz.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3battle:barroomblitz"
-    },
-    {
-        "name": "reward:claptrapssecretstash",
-        "type": "toggle",
-        "img": "images/items/reward:claptrapssecretstash.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:claptrapssecretstash"
-    },
-    {
-        "name": "reward:defendslabtower",
-        "type": "toggle",
-        "img": "images/items/reward:defendslabtower.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:defendslabtower"
-    },
-    {
         "name": "travel:mt.scarabresearchcenter",
         "type": "toggle",
         "img": "images/items/travel:mt.scarabresearchcenter.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:mt.scarabresearchcenter"
-    },
-    {
-        "name": "reward:wildlifepreservation",
-        "type": "toggle",
-        "img": "images/items/reward:wildlifepreservation.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:wildlifepreservation"
-    },
-    {
-        "name": "reward:capturetheflags",
-        "type": "toggle",
-        "img": "images/items/reward:capturetheflags.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:capturetheflags"
     },
     {
         "name": "travel:thefridge",
@@ -2768,38 +1234,6 @@
         "codes": "travel:thefridge"
     },
     {
-        "name": "reward:savagelands",
-        "type": "toggle",
-        "img": "images/items/reward:savagelands.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:savagelands"
-    },
-    {
-        "name": "reward:homemovies",
-        "type": "toggle",
-        "img": "images/items/reward:homemovies.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:homemovies"
-    },
-    {
-        "name": "reward:feedbuttstallion",
-        "type": "toggle",
-        "img": "images/items/reward:feedbuttstallion.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:feedbuttstallion"
-    },
-    {
-        "name": "reward:theprettygoodtrainrobbery",
-        "type": "toggle",
-        "img": "images/items/reward:theprettygoodtrainrobbery.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theprettygoodtrainrobbery"
-    },
-    {
         "name": "travel:finksslaughterhouse",
         "type": "toggle",
         "img": "images/items/travel:finksslaughterhouse.png",
@@ -2808,44 +1242,12 @@
         "codes": "travel:finksslaughterhouse"
     },
     {
-        "name": "reward:rockosmodernstrife",
-        "type": "toggle",
-        "img": "images/items/reward:rockosmodernstrife.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:rockosmodernstrife"
-    },
-    {
-        "name": "reward:hyperionslaughter:round3",
-        "type": "toggle",
-        "img": "images/items/reward:hyperionslaughter:round3.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hyperionslaughter:round3"
-    },
-    {
         "name": "travel:therustyards",
         "type": "toggle",
         "img": "images/items/travel:therustyards.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:therustyards"
-    },
-    {
-        "name": "reward:rakkaholicsanonymous",
-        "type": "toggle",
-        "img": "images/items/reward:rakkaholicsanonymous.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:rakkaholicsanonymous"
-    },
-    {
-        "name": "reward:chiefexecutiveoverlord",
-        "type": "toggle",
-        "img": "images/items/reward:chiefexecutiveoverlord.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:chiefexecutiveoverlord"
     },
     {
         "name": "rarepistol",
@@ -2862,38 +1264,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:bloodshotstronghold"
-    },
-    {
-        "name": "reward:risingaction",
-        "type": "toggle",
-        "img": "images/items/reward:risingaction.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:risingaction"
-    },
-    {
-        "name": "reward:clanwar:trailertrashing",
-        "type": "toggle",
-        "img": "images/items/reward:clanwar:trailertrashing.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:clanwar:trailertrashing"
-    },
-    {
-        "name": "reward:catch-a-ride",
-        "type": "toggle",
-        "img": "images/items/reward:catch-a-ride.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:catch-a-ride"
-    },
-    {
-        "name": "reward:theamulet",
-        "type": "toggle",
-        "img": "images/items/reward:theamulet.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theamulet"
     },
     {
         "name": "seraphpistol",
@@ -2932,28 +1302,12 @@
         ]
     },
     {
-        "name": "reward:animalrescue:shelter",
-        "type": "toggle",
-        "img": "images/items/reward:animalrescue:shelter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:animalrescue:shelter"
-    },
-    {
         "name": "pearlescentassaultrifle",
         "type": "toggle",
         "img": "images/items/pearlescentassaultrifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentassaultrifle"
-    },
-    {
-        "name": "reward:magicslaughter:round3",
-        "type": "toggle",
-        "img": "images/items/reward:magicslaughter:round3.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:magicslaughter:round3"
     },
     {
         "name": "pearlescentshotgun",
@@ -2972,30 +1326,6 @@
         "codes": "travel:bloodshotramparts"
     },
     {
-        "name": "reward:youarecordiallyinvited:partyprep",
-        "type": "toggle",
-        "img": "images/items/reward:youarecordiallyinvited:partyprep.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:youarecordiallyinvited:partyprep"
-    },
-    {
-        "name": "reward:magicslaughter:round1",
-        "type": "toggle",
-        "img": "images/items/reward:magicslaughter:round1.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:magicslaughter:round1"
-    },
-    {
-        "name": "reward:cleaninguptheberg",
-        "type": "toggle",
-        "img": "images/items/reward:cleaninguptheberg.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:cleaninguptheberg"
-    },
-    {
         "name": "uncommongrenademod",
         "type": "toggle",
         "img": "images/items/uncommongrenademod.png",
@@ -3004,28 +1334,12 @@
         "codes": "uncommongrenademod"
     },
     {
-        "name": "reward:lootninja",
-        "type": "toggle",
-        "img": "images/items/reward:lootninja.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:lootninja"
-    },
-    {
         "name": "veryrarepistol",
         "type": "toggle",
         "img": "images/items/veryrarepistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrarepistol"
-    },
-    {
-        "name": "reward:treasureofthesands",
-        "type": "toggle",
-        "img": "images/items/reward:treasureofthesands.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:treasureofthesands"
     },
     {
         "name": "vehiclefire",
@@ -3064,60 +1378,12 @@
         ]
     },
     {
-        "name": "reward:tier3battle:twelveoclockhigh",
-        "type": "toggle",
-        "img": "images/items/reward:tier3battle:twelveoclockhigh.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3battle:twelveoclockhigh"
-    },
-    {
-        "name": "reward:monstermash(part3)",
-        "type": "toggle",
-        "img": "images/items/reward:monstermash(part3).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:monstermash(part3)"
-    },
-    {
-        "name": "reward:shieldedfavors",
-        "type": "toggle",
-        "img": "images/items/reward:shieldedfavors.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:shieldedfavors"
-    },
-    {
-        "name": "reward:monstermash(part1)",
-        "type": "toggle",
-        "img": "images/items/reward:monstermash(part1).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:monstermash(part1)"
-    },
-    {
         "name": "travel:haytersfolly",
         "type": "toggle",
         "img": "images/items/travel:haytersfolly.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:haytersfolly"
-    },
-    {
-        "name": "reward:thehungerpangs",
-        "type": "toggle",
-        "img": "images/items/reward:thehungerpangs.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thehungerpangs"
-    },
-    {
-        "name": "reward:winterisabloodybusiness",
-        "type": "toggle",
-        "img": "images/items/reward:winterisabloodybusiness.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:winterisabloodybusiness"
     },
     {
         "name": "travel:magnyslighthouse",
@@ -3134,38 +1400,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrarerocketlauncher"
-    },
-    {
-        "name": "reward:neitherrainnorsleetnorskags",
-        "type": "toggle",
-        "img": "images/items/reward:neitherrainnorsleetnorskags.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:neitherrainnorsleetnorskags"
-    },
-    {
-        "name": "reward:amontage",
-        "type": "toggle",
-        "img": "images/items/reward:amontage.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:amontage"
-    },
-    {
-        "name": "reward:paradisefound",
-        "type": "toggle",
-        "img": "images/items/reward:paradisefound.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:paradisefound"
-    },
-    {
-        "name": "reward:chopsuey",
-        "type": "toggle",
-        "img": "images/items/reward:chopsuey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:chopsuey"
     },
     {
         "name": "rainbowrelic",
@@ -3208,14 +1442,6 @@
         "codes": "travel:eridiumblight"
     },
     {
-        "name": "reward:therakkdahliamurder",
-        "type": "toggle",
-        "img": "images/items/reward:therakkdahliamurder.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:therakkdahliamurder"
-    },
-    {
         "name": "travel:wildlifeexploitationpreserve",
         "type": "toggle",
         "img": "images/items/travel:wildlifeexploitationpreserve.png",
@@ -3248,60 +1474,12 @@
         "codes": "veryraregrenademod"
     },
     {
-        "name": "reward:spacecowboy",
-        "type": "toggle",
-        "img": "images/items/reward:spacecowboy.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:spacecowboy"
-    },
-    {
-        "name": "reward:tier2battle:appetitefordestruction",
-        "type": "toggle",
-        "img": "images/items/reward:tier2battle:appetitefordestruction.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier2battle:appetitefordestruction"
-    },
-    {
-        "name": "reward:mother-lover",
-        "type": "toggle",
-        "img": "images/items/reward:mother-lover.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mother-lover"
-    },
-    {
-        "name": "reward:thegreatescape",
-        "type": "toggle",
-        "img": "images/items/reward:thegreatescape.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thegreatescape"
-    },
-    {
-        "name": "reward:mastergeetheinvincible",
-        "type": "toggle",
-        "img": "images/items/reward:mastergeetheinvincible.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:mastergeetheinvincible"
-    },
-    {
         "name": "travel:theforge",
         "type": "toggle",
         "img": "images/items/travel:theforge.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:theforge"
-    },
-    {
-        "name": "reward:freedomofspeech",
-        "type": "toggle",
-        "img": "images/items/reward:freedomofspeech.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:freedomofspeech"
     },
     {
         "name": "uniquerelic",
@@ -3340,44 +1518,12 @@
         ]
     },
     {
-        "name": "reward:grandmaflexingtonsstory",
-        "type": "toggle",
-        "img": "images/items/reward:grandmaflexingtonsstory.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:grandmaflexingtonsstory"
-    },
-    {
         "name": "commongrenademod",
         "type": "toggle",
         "img": "images/items/commongrenademod.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commongrenademod"
-    },
-    {
-        "name": "reward:hyperionslaughter:round1",
-        "type": "toggle",
-        "img": "images/items/reward:hyperionslaughter:round1.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hyperionslaughter:round1"
-    },
-    {
-        "name": "reward:tier2battle:twelveoclockhigh",
-        "type": "toggle",
-        "img": "images/items/reward:tier2battle:twelveoclockhigh.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier2battle:twelveoclockhigh"
-    },
-    {
-        "name": "reward:tier3rematch:barroomblitz",
-        "type": "toggle",
-        "img": "images/items/reward:tier3rematch:barroomblitz.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3rematch:barroomblitz"
     },
     {
         "name": "travel:theholyspirits",
@@ -3388,28 +1534,12 @@
         "codes": "travel:theholyspirits"
     },
     {
-        "name": "reward:interviewwithavaulthunter",
-        "type": "toggle",
-        "img": "images/items/reward:interviewwithavaulthunter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:interviewwithavaulthunter"
-    },
-    {
         "name": "travel:immortalwoods",
         "type": "toggle",
         "img": "images/items/travel:immortalwoods.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:immortalwoods"
-    },
-    {
-        "name": "reward:walkingthedog",
-        "type": "toggle",
-        "img": "images/items/reward:walkingthedog.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:walkingthedog"
     },
     {
         "name": "travel:sanctuaryhole",
@@ -3420,44 +1550,12 @@
         "codes": "travel:sanctuaryhole"
     },
     {
-        "name": "reward:arealboy:clothesmaketheman",
-        "type": "toggle",
-        "img": "images/items/reward:arealboy:clothesmaketheman.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:arealboy:clothesmaketheman"
-    },
-    {
-        "name": "reward:theoverlooked:medicineman",
-        "type": "toggle",
-        "img": "images/items/reward:theoverlooked:medicineman.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theoverlooked:medicineman"
-    },
-    {
         "name": "overridelevel15",
         "type": "toggle",
         "img": "images/items/overridelevel15.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "overridelevel15"
-    },
-    {
-        "name": "reward:theclaptrapsapprentice",
-        "type": "toggle",
-        "img": "images/items/reward:theclaptrapsapprentice.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theclaptrapsapprentice"
-    },
-    {
-        "name": "reward:tier3battle:appetitefordestruction",
-        "type": "toggle",
-        "img": "images/items/reward:tier3battle:appetitefordestruction.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3battle:appetitefordestruction"
     },
     {
         "name": "travel:minesofavarice",
@@ -3468,14 +1566,6 @@
         "codes": "travel:minesofavarice"
     },
     {
-        "name": "reward:thetalonofgod",
-        "type": "toggle",
-        "img": "images/items/reward:thetalonofgod.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thetalonofgod"
-    },
-    {
         "name": "legendaryshotgun",
         "type": "toggle",
         "img": "images/items/legendaryshotgun.png",
@@ -3484,44 +1574,12 @@
         "codes": "legendaryshotgun"
     },
     {
-        "name": "reward:bigfeet",
-        "type": "toggle",
-        "img": "images/items/reward:bigfeet.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:bigfeet"
-    },
-    {
-        "name": "reward:bffs",
-        "type": "toggle",
-        "img": "images/items/reward:bffs.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:bffs"
-    },
-    {
         "name": "travel:orechasm",
         "type": "toggle",
         "img": "images/items/travel:orechasm.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:orechasm"
-    },
-    {
-        "name": "reward:buryingthepast",
-        "type": "toggle",
-        "img": "images/items/reward:buryingthepast.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:buryingthepast"
-    },
-    {
-        "name": "reward:monstermash(part2)",
-        "type": "toggle",
-        "img": "images/items/reward:monstermash(part2).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:monstermash(part2)"
     },
     {
         "name": "e-techsniperrifle",
@@ -3540,14 +1598,6 @@
         "codes": "seraphrelic"
     },
     {
-        "name": "reward:learningtolove",
-        "type": "toggle",
-        "img": "images/items/reward:learningtolove.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:learningtolove"
-    },
-    {
         "name": "commonshotgun",
         "type": "toggle",
         "img": "images/items/commonshotgun.png",
@@ -3556,108 +1606,12 @@
         "codes": "commonshotgun"
     },
     {
-        "name": "reward:slap-happy",
-        "type": "toggle",
-        "img": "images/items/reward:slap-happy.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:slap-happy"
-    },
-    {
-        "name": "reward:breakingthebank",
-        "type": "toggle",
-        "img": "images/items/reward:breakingthebank.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:breakingthebank"
-    },
-    {
-        "name": "reward:morehistoryofsimulatedviolence",
-        "type": "toggle",
-        "img": "images/items/reward:morehistoryofsimulatedviolence.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:morehistoryofsimulatedviolence"
-    },
-    {
-        "name": "reward:amatchmadeonpandora",
-        "type": "toggle",
-        "img": "images/items/reward:amatchmadeonpandora.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:amatchmadeonpandora"
-    },
-    {
-        "name": "reward:creatureslaughter:round1",
-        "type": "toggle",
-        "img": "images/items/reward:creatureslaughter:round1.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:creatureslaughter:round1"
-    },
-    {
-        "name": "reward:nakayama-rama",
-        "type": "toggle",
-        "img": "images/items/reward:nakayama-rama.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:nakayama-rama"
-    },
-    {
-        "name": "reward:xmarksthespot",
-        "type": "toggle",
-        "img": "images/items/reward:xmarksthespot.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:xmarksthespot"
-    },
-    {
         "name": "e-techassaultrifle",
         "type": "toggle",
         "img": "images/items/e-techassaultrifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techassaultrifle"
-    },
-    {
-        "name": "reward:theswordinthestoner",
-        "type": "toggle",
-        "img": "images/items/reward:theswordinthestoner.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theswordinthestoner"
-    },
-    {
-        "name": "reward:fakegeekguy",
-        "type": "toggle",
-        "img": "images/items/reward:fakegeekguy.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:fakegeekguy"
-    },
-    {
-        "name": "reward:stalkerofstalkers",
-        "type": "toggle",
-        "img": "images/items/reward:stalkerofstalkers.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:stalkerofstalkers"
-    },
-    {
-        "name": "reward:thebloodyharvest",
-        "type": "toggle",
-        "img": "images/items/reward:thebloodyharvest.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thebloodyharvest"
-    },
-    {
-        "name": "reward:thedawnofnewpandora",
-        "type": "toggle",
-        "img": "images/items/reward:thedawnofnewpandora.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thedawnofnewpandora"
     },
     {
         "name": "maxammosniperrifle",
@@ -3688,22 +1642,6 @@
         ]
     },
     {
-        "name": "reward:bestminionever",
-        "type": "toggle",
-        "img": "images/items/reward:bestminionever.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:bestminionever"
-    },
-    {
-        "name": "reward:badhairday",
-        "type": "toggle",
-        "img": "images/items/reward:badhairday.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:badhairday"
-    },
-    {
         "name": "maxgrenadecount",
         "type": "progressive",
         "loop": false,
@@ -3732,70 +1670,6 @@
         ]
     },
     {
-        "name": "reward:bearerofbadnews",
-        "type": "toggle",
-        "img": "images/items/reward:bearerofbadnews.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:bearerofbadnews"
-    },
-    {
-        "name": "reward:wingman",
-        "type": "toggle",
-        "img": "images/items/reward:wingman.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:wingman"
-    },
-    {
-        "name": "reward:tier3rematch:twelveoclockhigh",
-        "type": "toggle",
-        "img": "images/items/reward:tier3rematch:twelveoclockhigh.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:tier3rematch:twelveoclockhigh"
-    },
-    {
-        "name": "reward:highwaytohell",
-        "type": "toggle",
-        "img": "images/items/reward:highwaytohell.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:highwaytohell"
-    },
-    {
-        "name": "reward:findmurderlinstemple",
-        "type": "toggle",
-        "img": "images/items/reward:findmurderlinstemple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:findmurderlinstemple"
-    },
-    {
-        "name": "reward:medicalmystery:x-com-municate",
-        "type": "toggle",
-        "img": "images/items/reward:medicalmystery:x-com-municate.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:medicalmystery:x-com-municate"
-    },
-    {
-        "name": "reward:donoharm",
-        "type": "toggle",
-        "img": "images/items/reward:donoharm.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:donoharm"
-    },
-    {
-        "name": "reward:adamfinerescue",
-        "type": "toggle",
-        "img": "images/items/reward:adamfinerescue.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:adamfinerescue"
-    },
-    {
         "name": "commonsniperrifle",
         "type": "toggle",
         "img": "images/items/commonsniperrifle.png",
@@ -3812,68 +1686,12 @@
         "codes": "melee"
     },
     {
-        "name": "reward:gettoknowjack",
-        "type": "toggle",
-        "img": "images/items/reward:gettoknowjack.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:gettoknowjack"
-    },
-    {
         "name": "travel:threehornsvalley",
         "type": "toggle",
         "img": "images/items/travel:threehornsvalley.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "travel:threehornsvalley"
-    },
-    {
-        "name": "reward:thecostofprogress",
-        "type": "toggle",
-        "img": "images/items/reward:thecostofprogress.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thecostofprogress"
-    },
-    {
-        "name": "reward:clanwar:startingthewar",
-        "type": "toggle",
-        "img": "images/items/reward:clanwar:startingthewar.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:clanwar:startingthewar"
-    },
-    {
-        "name": "reward:stilljustaborokinacage",
-        "type": "toggle",
-        "img": "images/items/reward:stilljustaborokinacage.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:stilljustaborokinacage"
-    },
-    {
-        "name": "reward:hiddenjournals",
-        "type": "toggle",
-        "img": "images/items/reward:hiddenjournals.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:hiddenjournals"
-    },
-    {
-        "name": "reward:wingingit",
-        "type": "toggle",
-        "img": "images/items/reward:wingingit.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:wingingit"
-    },
-    {
-        "name": "reward:huntingthefirehawk",
-        "type": "toggle",
-        "img": "images/items/reward:huntingthefirehawk.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:huntingthefirehawk"
     },
     {
         "name": "uncommonrocketlauncher",
@@ -3884,30 +1702,6 @@
         "codes": "uncommonrocketlauncher"
     },
     {
-        "name": "reward:nohardfeelings",
-        "type": "toggle",
-        "img": "images/items/reward:nohardfeelings.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:nohardfeelings"
-    },
-    {
-        "name": "reward:justdessertsfordesertdeserters",
-        "type": "toggle",
-        "img": "images/items/reward:justdessertsfordesertdeserters.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:justdessertsfordesertdeserters"
-    },
-    {
-        "name": "reward:criticalfail",
-        "type": "toggle",
-        "img": "images/items/reward:criticalfail.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:criticalfail"
-    },
-    {
         "name": "travel:lairofinfiniteagony",
         "type": "toggle",
         "img": "images/items/travel:lairofinfiniteagony.png",
@@ -3916,92 +1710,12 @@
         "codes": "travel:lairofinfiniteagony"
     },
     {
-        "name": "reward:anacquiredtaste",
-        "type": "toggle",
-        "img": "images/items/reward:anacquiredtaste.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:anacquiredtaste"
-    },
-    {
-        "name": "reward:killyourself",
-        "type": "toggle",
-        "img": "images/items/reward:killyourself.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:killyourself"
-    },
-    {
         "name": "seraphassaultrifle",
         "type": "toggle",
         "img": "images/items/seraphassaultrifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphassaultrifle"
-    },
-    {
-        "name": "reward:clanwar:zafordsvs.hodunks",
-        "type": "toggle",
-        "img": "images/items/reward:clanwar:zafordsvs.hodunks.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:clanwar:zafordsvs.hodunks"
-    },
-    {
-        "name": "reward:a-huntingwewillgo",
-        "type": "toggle",
-        "img": "images/items/reward:a-huntingwewillgo.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:a-huntingwewillgo"
-    },
-    {
-        "name": "reward:post-crumpocalyptic",
-        "type": "toggle",
-        "img": "images/items/reward:post-crumpocalyptic.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:post-crumpocalyptic"
-    },
-    {
-        "name": "reward:amostcacophonouslure",
-        "type": "toggle",
-        "img": "images/items/reward:amostcacophonouslure.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:amostcacophonouslure"
-    },
-    {
-        "name": "reward:thistownaintbigenough",
-        "type": "toggle",
-        "img": "images/items/reward:thistownaintbigenough.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:thistownaintbigenough"
-    },
-    {
-        "name": "reward:magicslaughter:round5",
-        "type": "toggle",
-        "img": "images/items/reward:magicslaughter:round5.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:magicslaughter:round5"
-    },
-    {
-        "name": "reward:creatureslaughter:round2",
-        "type": "toggle",
-        "img": "images/items/reward:creatureslaughter:round2.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:creatureslaughter:round2"
-    },
-    {
-        "name": "reward:theroadtosanctuary",
-        "type": "toggle",
-        "img": "images/items/reward:theroadtosanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "reward:theroadtosanctuary"
     },
     {
         "name": "update",
