@@ -1,16 +1,634 @@
 [
     {
-        "name": "",
-        "type": "consumable",
-        "img": "images/items/.png",
-        "min_quantity": 0,
-        "max_quantity": 10,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
+        "name": "travel:southernshelf",
+        "type": "toggle",
+        "img": "images/items/travel:southernshelf.png",
+        "initial_active_state": false,
         "overlay_align": "right",
-        "overlay_font_size": 14,
-        "overlay_background": "#000000",
-        "codes": ""
+        "codes": "travel:southernshelf"
+    },
+    {
+        "name": "travel:southernshelfbay",
+        "type": "toggle",
+        "img": "images/items/travel:southernshelfbay.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:southernshelfbay"
+    },
+    {
+        "name": "travel:vaultofthewarrior",
+        "type": "toggle",
+        "img": "images/items/travel:vaultofthewarrior.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:vaultofthewarrior"
+    },
+    {
+        "name": "travel:badasscraterbar",
+        "type": "toggle",
+        "img": "images/items/travel:badasscraterbar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:badasscraterbar"
+    },
+    {
+        "name": "travel:ardortonstation",
+        "type": "toggle",
+        "img": "images/items/travel:ardortonstation.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:ardortonstation"
+    },
+    {
+        "name": "travel:highlandsoutwash",
+        "type": "toggle",
+        "img": "images/items/travel:highlandsoutwash.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:highlandsoutwash"
+    },
+    {
+        "name": "travel:southernraceway",
+        "type": "toggle",
+        "img": "images/items/travel:southernraceway.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:southernraceway"
+    },
+    {
+        "name": "travel:rotgutdistillery",
+        "type": "toggle",
+        "img": "images/items/travel:rotgutdistillery.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:rotgutdistillery"
+    },
+    {
+        "name": "travel:ffsbossfight",
+        "type": "toggle",
+        "img": "images/items/travel:ffsbossfight.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:ffsbossfight"
+    },
+    {
+        "name": "travel:frostburncanyon",
+        "type": "toggle",
+        "img": "images/items/travel:frostburncanyon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:frostburncanyon"
+    },
+    {
+        "name": "travel:threehornsdivide",
+        "type": "toggle",
+        "img": "images/items/travel:threehornsdivide.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:threehornsdivide"
+    },
+    {
+        "name": "travel:huntersgrotto",
+        "type": "toggle",
+        "img": "images/items/travel:huntersgrotto.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:huntersgrotto"
+    },
+    {
+        "name": "travel:dahlabandon",
+        "type": "toggle",
+        "img": "images/items/travel:dahlabandon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:dahlabandon"
+    },
+    {
+        "name": "travel:washburnerefinery",
+        "type": "toggle",
+        "img": "images/items/travel:washburnerefinery.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:washburnerefinery"
+    },
+    {
+        "name": "travel:wambamisland",
+        "type": "toggle",
+        "img": "images/items/travel:wambamisland.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:wambamisland"
+    },
+    {
+        "name": "travel:digistructpeak",
+        "type": "toggle",
+        "img": "images/items/travel:digistructpeak.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:digistructpeak"
+    },
+    {
+        "name": "travel:dragonkeep",
+        "type": "toggle",
+        "img": "images/items/travel:dragonkeep.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:dragonkeep"
+    },
+    {
+        "name": "travel:candlerakkscragg",
+        "type": "toggle",
+        "img": "images/items/travel:candlerakkscragg.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:candlerakkscragg"
+    },
+    {
+        "name": "travel:friendshipgulag",
+        "type": "toggle",
+        "img": "images/items/travel:friendshipgulag.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:friendshipgulag"
+    },
+    {
+        "name": "travel:oasis",
+        "type": "toggle",
+        "img": "images/items/travel:oasis.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:oasis"
+    },
+    {
+        "name": "travel:terminus",
+        "type": "toggle",
+        "img": "images/items/travel:terminus.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:terminus"
+    },
+    {
+        "name": "travel:hatredsshadow",
+        "type": "toggle",
+        "img": "images/items/travel:hatredsshadow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:hatredsshadow"
+    },
+    {
+        "name": "travel:tundraexpress",
+        "type": "toggle",
+        "img": "images/items/travel:tundraexpress.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:tundraexpress"
+    },
+    {
+        "name": "travel:writhingdeep",
+        "type": "toggle",
+        "img": "images/items/travel:writhingdeep.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:writhingdeep"
+    },
+    {
+        "name": "travel:naturalselectionannex",
+        "type": "toggle",
+        "img": "images/items/travel:naturalselectionannex.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:naturalselectionannex"
+    },
+    {
+        "name": "travel:endoftheline",
+        "type": "toggle",
+        "img": "images/items/travel:endoftheline.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:endoftheline"
+    },
+    {
+        "name": "travel:sanctuary",
+        "type": "toggle",
+        "img": "images/items/POGGIES.jpeg",
+        "initial_active_state": true,
+        "overlay_align": "left",
+        "codes": "travel:sanctuary"
+    },
+    {
+        "name": "travel:thebeatdown",
+        "type": "toggle",
+        "img": "images/items/travel:thebeatdown.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:thebeatdown"
+    },
+    {
+        "name": "travel:sawtoothcauldron",
+        "type": "toggle",
+        "img": "images/items/travel:sawtoothcauldron.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:sawtoothcauldron"
+    },
+    {
+        "name": "travel:thousandcuts",
+        "type": "toggle",
+        "img": "images/items/travel:thousandcuts.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:thousandcuts"
+    },
+    {
+        "name": "travel:terramorphouspeak",
+        "type": "toggle",
+        "img": "images/items/travel:terramorphouspeak.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:terramorphouspeak"
+    },
+    {
+        "name": "travel:scyllasgrove",
+        "type": "toggle",
+        "img": "images/items/travel:scyllasgrove.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:scyllasgrove"
+    },
+    {
+        "name": "travel:thebunker",
+        "type": "toggle",
+        "img": "images/items/travel:thebunker.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:thebunker"
+    },
+    {
+        "name": "travel:hallowedhollow",
+        "type": "toggle",
+        "img": "images/items/travel:hallowedhollow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:hallowedhollow"
+    },
+    {
+        "name": "travel:southpawsteam&power",
+        "type": "toggle",
+        "img": "images/items/travel:southpawsteam&power.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:southpawsteam&power"
+    },
+    {
+        "name": "travel:highlands",
+        "type": "toggle",
+        "img": "images/items/travel:highlands.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:highlands"
+    },
+    {
+        "name": "travel:aridnexusboneyard",
+        "type": "toggle",
+        "img": "images/items/travel:aridnexusboneyard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:aridnexusboneyard"
+    },
+    {
+        "name": "travel:thebackburner",
+        "type": "toggle",
+        "img": "images/items/travel:thebackburner.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:thebackburner"
+    },
+    {
+        "name": "travel:murderlinstemple",
+        "type": "toggle",
+        "img": "images/items/travel:murderlinstemple.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:murderlinstemple"
+    },
+    {
+        "name": "travel:thewingedstorm",
+        "type": "toggle",
+        "img": "images/items/travel:thewingedstorm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:thewingedstorm"
+    },
+    {
+        "name": "travel:herospass",
+        "type": "toggle",
+        "img": "images/items/travel:herospass.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:herospass"
+    },
+    {
+        "name": "travel:theburrows",
+        "type": "toggle",
+        "img": "images/items/travel:theburrows.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:theburrows"
+    },
+    {
+        "name": "travel:unassumingdocks",
+        "type": "toggle",
+        "img": "images/items/travel:unassumingdocks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:unassumingdocks"
+    },
+    {
+        "name": "travel:opportunity",
+        "type": "toggle",
+        "img": "images/items/travel:opportunity.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:opportunity"
+    },
+    {
+        "name": "travel:flamerockrefuge",
+        "type": "toggle",
+        "img": "images/items/travel:flamerockrefuge.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:flamerockrefuge"
+    },
+    {
+        "name": "travel:heliosfallen",
+        "type": "toggle",
+        "img": "images/items/travel:heliosfallen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:heliosfallen"
+    },
+    {
+        "name": "travel:torguearena",
+        "type": "toggle",
+        "img": "images/items/travel:torguearena.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:torguearena"
+    },
+    {
+        "name": "travel:ffsintrosanctuary",
+        "type": "toggle",
+        "img": "images/items/travel:ffsintrosanctuary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:ffsintrosanctuary"
+    },
+    {
+        "name": "travel:wurmwater",
+        "type": "toggle",
+        "img": "images/items/travel:wurmwater.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:wurmwater"
+    },
+    {
+        "name": "travel:theforest",
+        "type": "toggle",
+        "img": "images/items/travel:theforest.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:theforest"
+    },
+    {
+        "name": "travel:lynchwood",
+        "type": "toggle",
+        "img": "images/items/travel:lynchwood.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:lynchwood"
+    },
+    {
+        "name": "travel:gluttonygulch",
+        "type": "toggle",
+        "img": "images/items/travel:gluttonygulch.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:gluttonygulch"
+    },
+    {
+        "name": "travel:thedust",
+        "type": "toggle",
+        "img": "images/items/travel:thedust.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:thedust"
+    },
+    {
+        "name": "travel:controlcoreangel",
+        "type": "toggle",
+        "img": "images/items/travel:controlcoreangel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:controlcoreangel"
+    },
+    {
+        "name": "travel:marcussmercenaryshop",
+        "type": "toggle",
+        "img": "images/items/travel:marcussmercenaryshop.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:marcussmercenaryshop"
+    },
+    {
+        "name": "travel:aridnexusbadlands",
+        "type": "toggle",
+        "img": "images/items/travel:aridnexusbadlands.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:aridnexusbadlands"
+    },
+    {
+        "name": "travel:badasscrater",
+        "type": "toggle",
+        "img": "images/items/travel:badasscrater.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:badasscrater"
+    },
+    {
+        "name": "travel:mt.scarabresearchcenter",
+        "type": "toggle",
+        "img": "images/items/travel:mt.scarabresearchcenter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:mt.scarabresearchcenter"
+    },
+    {
+        "name": "travel:thefridge",
+        "type": "toggle",
+        "img": "images/items/travel:thefridge.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:thefridge"
+    },
+    {
+        "name": "travel:finksslaughterhouse",
+        "type": "toggle",
+        "img": "images/items/travel:finksslaughterhouse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:finksslaughterhouse"
+    },
+    {
+        "name": "travel:therustyards",
+        "type": "toggle",
+        "img": "images/items/travel:therustyards.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:therustyards"
+    },
+    {
+        "name": "travel:bloodshotstronghold",
+        "type": "toggle",
+        "img": "images/items/travel:bloodshotstronghold.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:bloodshotstronghold"
+    },
+    {
+        "name": "travel:bloodshotramparts",
+        "type": "toggle",
+        "img": "images/items/travel:bloodshotramparts.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:bloodshotramparts"
+    },
+    {
+        "name": "travel:haytersfolly",
+        "type": "toggle",
+        "img": "images/items/travel:haytersfolly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:haytersfolly"
+    },
+    {
+        "name": "travel:magnyslighthouse",
+        "type": "toggle",
+        "img": "images/items/travel:magnyslighthouse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:magnyslighthouse"
+    },
+    {
+        "name": "travel:causticcaverns",
+        "type": "toggle",
+        "img": "images/items/travel:causticcaverns.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:causticcaverns"
+    },
+    {
+        "name": "travel:eridiumblight",
+        "type": "toggle",
+        "img": "images/items/travel:eridiumblight.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:eridiumblight"
+    },
+    {
+        "name": "travel:wildlifeexploitationpreserve",
+        "type": "toggle",
+        "img": "images/items/travel:wildlifeexploitationpreserve.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:wildlifeexploitationpreserve"
+    },
+    {
+        "name": "travel:pyropetesbar",
+        "type": "toggle",
+        "img": "images/items/travel:pyropetesbar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:pyropetesbar"
+    },
+    {
+        "name": "travel:theleviathanslair",
+        "type": "toggle",
+        "img": "images/items/travel:theleviathanslair.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:theleviathanslair"
+    },
+    {
+        "name": "travel:theforge",
+        "type": "toggle",
+        "img": "images/items/travel:theforge.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:theforge"
+    },
+    {
+        "name": "travel:theholyspirits",
+        "type": "toggle",
+        "img": "images/items/travel:theholyspirits.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:theholyspirits"
+    },
+    {
+        "name": "travel:immortalwoods",
+        "type": "toggle",
+        "img": "images/items/travel:immortalwoods.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:immortalwoods"
+    },
+    {
+        "name": "travel:sanctuaryhole",
+        "type": "toggle",
+        "img": "images/items/travel:sanctuaryhole.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:sanctuaryhole"
+    },
+    {
+        "name": "travel:minesofavarice",
+        "type": "toggle",
+        "img": "images/items/travel:minesofavarice.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:minesofavarice"
+    },
+    {
+        "name": "travel:orechasm",
+        "type": "toggle",
+        "img": "images/items/travel:orechasm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:orechasm"
+    },
+    {
+        "name": "travel:threehornsvalley",
+        "type": "toggle",
+        "img": "images/items/travel:threehornsvalley.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:threehornsvalley"
+    },
+    {
+        "name": "travel:lairofinfiniteagony",
+        "type": "toggle",
+        "img": "images/items/travel:lairofinfiniteagony.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "travel:lairofinfiniteagony"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
     }
 ]
