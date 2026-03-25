@@ -1,5 +1,0 @@
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/tabs.json")
-Tracker:AddLayouts("layouts/character.json")
-Tracker:AddLayouts("layouts/travel.json")
-Tracker:AddLayouts("layouts/settings_popup.json")
