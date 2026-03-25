@@ -1,7 +1,7 @@
 {
   "travel_grid_horizontal": {
     "type": "array",
-    "orientation": "vertical",
+    "orientation": "horizontal",
     "margin": "0,0",
     "content": [
       {
@@ -19,231 +19,124 @@
             "item_width": 36,
             "rows": [
               [
-                "travel:highlandsoutwash",
-                "rainbowgrenademod",
-                "rareshield",
-                "travel:vaultofthewarrior",
-                "maxammopistol, maxammopistol_stage1",
-                "travel:badasscraterbar",
-                "travel:ardortonstation",
-                "e-techshotgun",
-                "travel:southernraceway",
-                "travel:rotgutdistillery",
-                "uniquesniperrifle",
-                "progressivesprint, progressivesprint_stage1",
-                "rainbowsniperrifle",
-                "travel:ffsbossfight",
-                "overridelevel30",
-                "legendaryassaultrifle",
-                "legendaryrocketlauncher"
-              ],
-              [
-                "legendarygrenademod",
-                "travel:frostburncanyon",
-                "travel:threehornsdivide",
-                "travel:huntersgrotto",
-                "legendarysniperrifle",
-                "uniquerocketlauncher",
-                "uncommonshield",
-                "travel:dahlabandon",
-                "rainbowshotgun",
-                "maxammoshotgun, maxammoshotgun_stage1",
-                "travel:washburnerefinery",
-                "travel:wambamisland"
-              ],
-              [
-                "3skillpoints",
-                "backpackupgrade, backpackupgrade_stage1",
-                "progressivejump, progressivejump_stage1",
-                "travel:digistructpeak",
-                "uncommonshotgun",
-                "rareclassmod",
-                "uncommonsniperrifle",
-                "seraphshotgun",
-                "travel:dragonkeep",
-                "travel:candlerakkscragg"
-              ],
-              [
-                "travel:friendshipgulag",
-                "travel:oasis",
-                "veryrareshield",
-                "rainbowshield",
-                "uniquesmg",
-                "rainbowassaultrifle",
-                "travel:terminus",
-                "veryrareassaultrifle",
-                "uncommonpistol"
-              ],
-              [
-                "travel:hatredsshadow",
-                "maxammorocketlauncher, maxammorocketlauncher_stage1",
-                "travel:tundraexpress",
-                "travel:writhingdeep",
-                "legendaryclassmod",
-                "commonpistol",
-                "uncommonsmg",
-                "uniqueshield",
-                "travel:naturalselectionannex",
-                "travel:endoftheline",
-                "rareshotgun"
-              ],
-              [
-                "seraphsmg",
-                "travel:sanctuary",
-                "pearlescentsmg",
-                "travel:thebeatdown",
-                "travel:sawtoothcauldron",
-                "uniquegrenademod",
-                "uncommonclassmod"
-              ],
-              [
-                "travel:thousandcuts",
-                "rainbowsmg",
-                "pearlescentpistol",
-                "travel:terramorphouspeak",
-                "e-techsmg",
-                "commonshield",
-                "uncommonassaultrifle"
-              ],
-              [
-                "travel:scyllasgrove",
-                "travel:thebunker",
-                "raresniperrifle",
-                "travel:hallowedhollow",
-                "uniqueassaultrifle",
-                "veryrareshotgun",
-                "e-techrocketlauncher",
-                "travel:southpawsteam&power",
-                "travel:highlands",
-                "travel:aridnexusboneyard"
-              ],
-              [
-                "travel:thebackburner",
-                "rainbowrocketlauncher",
-                "seraphrocketlauncher",
-                "travel:murderlinstemple",
-                "travel:thewingedstorm"
-              ],
-              [
                 "travel:southernshelf",
-                "commonrelic",
-                "maxammosmg, maxammosmg_stage1",
-                "travel:herospass",
-                "travel:theburrows",
-                "travel:unassumingdocks",
-                "e-techrelic"
+                "travel:sanctuary",
+                "travel:southernshelfbay",
+                "travel:threehornsdivide",
+                "travel:frostburncanyon",
+                "travel:threehornsvalley",
+                "travel:southpawsteam&power",
+                "travel:thedust"
               ],
               [
+                "travel:bloodshotstronghold",
+                "travel:bloodshotramparts",
+                "travel:friendshipgulag",
+                "travel:tundraexpress",
+                "travel:endoftheline",
+                "travel:thefridge",
+                "travel:finksslaughterhouse",
+                "travel:highlandsoutwash"
+              ],
+              [
+                "travel:highlands",
+                "travel:theholyspirits",
+                "travel:wildlifeexploitationpreserve",
+                "travel:naturalselectionannex",
                 "travel:opportunity",
-                "uniquepistol",
-                "travel:flamerockrefuge",
-                "commonassaultrifle",
-                "travel:heliosfallen",
-                "travel:torguearena",
-                "seraphgrenademod",
-                "veryrareclassmod",
-                "e-techpistol",
-                "veryraresmg"
+                "travel:thousandcuts",
+                "travel:thebunker",
+                "travel:controlcoreangel"
               ],
               [
-                "legendarypistol",
-                "uncommonrelic",
-                "veryraresniperrifle",
-                "seraphshield",
-                "travel:ffsintrosanctuary",
-                "seraphsniperrifle",
-                "3skillpoints(p)",
-                "travel:wurmwater",
-                "legendarysmg",
-                "veryrarerelic",
-                "pearlescentrocketlauncher",
-                "travel:theforest",
+                "travel:sanctuaryhole",
+                "travel:causticcaverns",
                 "travel:lynchwood",
-                "travel:gluttonygulch"
-              ],
-              [
-                "rareassaultrifle",
-                "rarerelic",
-                "travel:thedust",
-                "crouch",
-                "travel:controlcoreangel",
-                "travel:marcussmercenaryshop",
+                "travel:eridiumblight",
+                "travel:orechasm",
+                "travel:sawtoothcauldron",
+                "travel:aridnexusboneyard",
                 "travel:aridnexusbadlands"
               ],
               [
-                "commonrocketlauncher",
-                "travel:badasscrater",
-                "legendaryshield",
-                "rarerocketlauncher",
-                "raresmg",
-                "travel:southernshelfbay",
-                "raregrenademod",
-                "pearlescentsniperrifle",
-                "travel:mt.scarabresearchcenter",
-                "travel:thefridge"
+                "travel:herospass",
+                "travel:vaultofthewarrior",
+                "travel:terramorphouspeak"
               ],
               [
-                "travel:finksslaughterhouse",
-                "travel:therustyards",
-                "rarepistol",
-                "travel:bloodshotstronghold",
-                "seraphpistol",
-                "progressivemoneycap, progressivemoneycap_stage1",
-                "pearlescentassaultrifle",
-                "pearlescentshotgun",
-                "travel:bloodshotramparts"
-              ],
+                "travel:digistructpeak"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 36,
+            "item_width": 36,
+            "rows": [
               [
-                "uncommongrenademod",
-                "veryrarepistol",
-                "vehiclefire",
-                "progressiveweaponslot, progressiveweaponslot_stage1",
+                "travel:oasis",
+                "travel:dragonkeep",
+                "travel:candlerakkscragg",
+                "travel:badasscraterbar",
+                "travel:ardortonstation",
                 "travel:haytersfolly",
                 "travel:magnyslighthouse",
-                "veryrarerocketlauncher",
-                "rainbowrelic",
-                "uniqueshotgun"
+                "travel:pyropetesbar"
               ],
               [
-                "commonsmg",
-                "travel:causticcaverns",
-                "travel:eridiumblight",
-                "travel:wildlifeexploitationpreserve",
-                "travel:pyropetesbar",
+                "travel:scyllasgrove",
+                "travel:hallowedhollow",
                 "travel:theleviathanslair",
-                "veryraregrenademod",
-                "travel:theforge",
-                "uniquerelic",
-                "maxammoassaultrifle, maxammoassaultrifle_stage1",
-                "commongrenademod"
-              ],
-              [
-                "travel:theholyspirits",
                 "travel:immortalwoods",
-                "travel:sanctuaryhole",
-                "overridelevel15",
                 "travel:minesofavarice",
-                "legendaryshotgun",
-                "travel:orechasm",
-                "e-techsniperrifle",
-                "seraphrelic",
-                "commonshotgun"
-              ],
-              [
-                "e-techassaultrifle",
-                "maxammosniperrifle, maxammosniperrifle_stage1",
-                "maxgrenadecount, maxgrenadecount_stage1"
-              ],
-              [
-                "commonsniperrifle",
-                "melee",
-                "travel:threehornsvalley",
-                "uncommonrocketlauncher",
                 "travel:lairofinfiniteagony",
-                "seraphassaultrifle"
+                "travel:theforge",
+                "travel:southernraceway"
               ],
               [
-                "update"
+                "travel:thebackburner",
+                "travel:murderlinstemple",
+                "travel:thewingedstorm",
+                "travel:rotgutdistillery",
+                "travel:ffsbossfight",
+                "travel:huntersgrotto",
+                "travel:dahlabandon",
+                "travel:washburnerefinery"
+              ],
+              [
+                "travel:theburrows",
+                "travel:unassumingdocks",
+                "travel:wambamisland",
+                "travel:terminus",
+                "travel:hatredsshadow",
+                "travel:writhingdeep",
+                "travel:thebeatdown"
+              ],
+              [
+                "travel:flamerockrefuge",
+                "travel:heliosfallen",
+                "travel:torguearena",
+                "travel:mt.scarabresearchcenter",
+                "travel:therustyards"
+              ],
+              [
+                "travel:ffsintrosanctuary",
+                "travel:wurmwater",
+                "travel:theforest",
+                "travel:gluttonygulch",
+                "travel:marcussmercenaryshop",
+                "travel:badasscrater"
               ]
             ]
           }

@@ -27,7 +27,6 @@
 							"tabs":[
 							{
                             "title": "Character Items",
-                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "character_grid_horizontal"
@@ -35,7 +34,6 @@
 							},
 							{
 							"title": "Travel Unlocks",
-                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "travel_grid_horizontal"
