@@ -2,7 +2,7 @@
     {
         "name": "Common Pistol",
         "type": "toggle",
-        "img": "images/items/commonPistol.png",
+        "img": "images/items/character/commonPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonpistol"
@@ -10,7 +10,7 @@
     {
         "name": "Uncommon Pistol",
         "type": "toggle",
-        "img": "images/items/uncommonPistol.png",
+        "img": "images/items/character/uncommonPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonpistol"
@@ -18,111 +18,111 @@
     {
         "name": "Rare Pistol",
         "type": "toggle",
-        "img": "images/items/rarePistol.png",
+        "img": "images/items/character/rarePistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rarepistol"
     },
     {
-        "name": "veryrarepistol",
+        "name": "Very Rare Pistol",
         "type": "toggle",
-        "img": "images/items/veryrarepistol.png",
+        "img": "images/items/character/veryRarePistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrarepistol"
     },
     {
-        "name": "e-techpistol",
+        "name": "E-Tech Pistol",
         "type": "toggle",
-        "img": "images/items/e-techpistol.png",
+        "img": "images/items/character/etechPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techpistol"
     },
     {
-        "name": "legendarypistol",
+        "name": "Legendary Pistol",
         "type": "toggle",
-        "img": "images/items/legendarypistol.png",
+        "img": "images/items/character/legendaryPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendarypistol"
     },
     {
-        "name": "seraphpistol",
+        "name": "Seraph Pistol",
         "type": "toggle",
-        "img": "images/items/seraphpistol.png",
+        "img": "images/items/character/seraphPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphpistol"
     },
     {
-        "name": "pearlescentpistol",
+        "name": "Pearlescent Pistol",
         "type": "toggle",
-        "img": "images/items/pearlescentpistol.png",
+        "img": "images/items/character/pearlescentPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentpistol"
     },
     {
-        "name": "uniquepistol",
+        "name": "Unique Pistol",
         "type": "toggle",
-        "img": "images/items/uniquepistol.png",
+        "img": "images/items/character/uniquePistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniquepistol"
     },
     {
-        "name": "commonassaultrifle",
+        "name": "Common Assault Rifle",
         "type": "toggle",
-        "img": "images/items/commonassaultrifle.png",
+        "img": "images/items/character/commonAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonassaultrifle"
     },
     {
-        "name": "uncommonassaultrifle",
+        "name": "Uncommon Assault Rifle",
         "type": "toggle",
-        "img": "images/items/uncommonassaultrifle.png",
+        "img": "images/items/character/uncommonAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonassaultrifle"
     },
     {
-        "name": "rareassaultrifle",
+        "name": "Rare Assault Rifle",
         "type": "toggle",
-        "img": "images/items/rareassaultrifle.png",
+        "img": "images/items/character/rareAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rareassaultrifle"
     },
     {
-        "name": "veryrareassaultrifle",
+        "name": "Very Rare Assault Rifle",
         "type": "toggle",
-        "img": "images/items/veryrareassaultrifle.png",
+        "img": "images/items/character/veryRareAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrareassaultrifle"
     },
     {
-        "name": "e-techassaultrifle",
+        "name": "E-Tech Assault Rifle",
         "type": "toggle",
-        "img": "images/items/e-techassaultrifle.png",
+        "img": "images/items/character/etechAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techassaultrifle"
     },
     {
-        "name": "legendaryassaultrifle",
+        "name": "Legendary Assault Rifle",
         "type": "toggle",
-        "img": "images/items/legendaryassaultrifle.png",
+        "img": "images/items/character/legendaryAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendaryassaultrifle"
     },
     {
-        "name": "seraphassaultrifle",
+        "name": "Seraph Assault Rifle",
         "type": "toggle",
-        "img": "images/items/seraphassaultrifle.png",
+        "img": "images/items/character/seraphAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphassaultrifle"
@@ -130,935 +130,932 @@
     {
         "name": "Effervescent Assault Rifle",
         "type": "toggle",
-        "img": "images/items/effervescentAssaultRifle.png",
+        "img": "images/items/character/effervescentAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowassaultrifle"
     },
     {
-        "name": "pearlescentassaultrifle",
+        "name": "Pearlescent Assault Rifle",
         "type": "toggle",
-        "img": "images/items/pearlescentassaultrifle.png",
+        "img": "images/items/character/pearlescentAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentassaultrifle"
     },
     {
-        "name": "uniqueassaultrifle",
+        "name": "Unique Assault Rifle",
         "type": "toggle",
-        "img": "images/items/uniqueassaultrifle.png",
+        "img": "images/items/character/uniqueAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniqueassaultrifle"
     },
     {
-        "name": "commonshotgun",
+        "name": "Common Shotgun",
         "type": "toggle",
-        "img": "images/items/commonshotgun.png",
+        "img": "images/items/character/commonShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonshotgun"
     },
     {
-        "name": "uncommonshotgun",
+        "name": "Uncommon Shotgun",
         "type": "toggle",
-        "img": "images/items/uncommonshotgun.png",
+        "img": "images/items/character/uncommonShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonshotgun"
     },
     {
-        "name": "rareshotgun",
+        "name": "Rare Shotgun",
         "type": "toggle",
-        "img": "images/items/rareshotgun.png",
+        "img": "images/items/character/rareShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rareshotgun"
     },
     {
-        "name": "veryrareshotgun",
+        "name": "Very Rare Shotgun",
         "type": "toggle",
-        "img": "images/items/veryrareshotgun.png",
+        "img": "images/items/character/veryRareShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrareshotgun"
     },
     {
-        "name": "e-techshotgun",
+        "name": "E-Tech Shotgun",
         "type": "toggle",
-        "img": "images/items/e-techshotgun.png",
+        "img": "images/items/character/etechShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techshotgun"
     },
     {
-        "name": "legendaryshotgun",
+        "name": "Legendary Shotgun",
         "type": "toggle",
-        "img": "images/items/legendaryshotgun.png",
+        "img": "images/items/character/legendaryShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendaryshotgun"
     },
     {
-        "name": "seraphshotgun",
+        "name": "Seraph Shotgun",
         "type": "toggle",
-        "img": "images/items/seraphshotgun.png",
+        "img": "images/items/character/seraphShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphshotgun"
     },
     {
-        "name": "rainbowshotgun",
+        "name": "Effervescent Shotgun",
         "type": "toggle",
-        "img": "images/items/rainbowshotgun.png",
+        "img": "images/items/character/effervescentShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowshotgun"
     },
     {
-        "name": "pearlescentshotgun",
+        "name": "Pearlescent Shotgun",
         "type": "toggle",
-        "img": "images/items/pearlescentshotgun.png",
+        "img": "images/items/character/pearlescentShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentshotgun"
     },
     {
-        "name": "uniqueshotgun",
+        "name": "Unique Shotgun",
         "type": "toggle",
-        "img": "images/items/uniqueshotgun.png",
+        "img": "images/items/character/uniqueShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniqueshotgun"
     },
     {
-        "name": "commonsmg",
+        "name": "Common SMG",
         "type": "toggle",
-        "img": "images/items/commonsmg.png",
+        "img": "images/items/character/commonSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonsmg"
     },
     {
-        "name": "uncommonsmg",
+        "name": "Uncommon SMG",
         "type": "toggle",
-        "img": "images/items/uncommonsmg.png",
+        "img": "images/items/character/uncommonSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonsmg"
     },
     {
-        "name": "raresmg",
+        "name": "Rare SMG",
         "type": "toggle",
-        "img": "images/items/raresmg.png",
+        "img": "images/items/character/rareSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "raresmg"
     },
     {
-        "name": "veryraresmg",
+        "name": "Very Rare SMG",
         "type": "toggle",
-        "img": "images/items/veryraresmg.png",
+        "img": "images/items/character/veryRareSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryraresmg"
     },
     {
-        "name": "e-techsmg",
+        "name": "E-Tech SMG",
         "type": "toggle",
-        "img": "images/items/e-techsmg.png",
+        "img": "images/items/character/etechSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techsmg"
     },
     {
-        "name": "legendarysmg",
+        "name": "Legendary SMG",
         "type": "toggle",
-        "img": "images/items/legendarysmg.png",
+        "img": "images/items/character/legendarySmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendarysmg"
     },
     {
-        "name": "seraphsmg",
+        "name": "Seraph SMG",
         "type": "toggle",
-        "img": "images/items/seraphsmg.png",
+        "img": "images/items/character/seraphSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphsmg"
     },
     {
-        "name": "rainbowsmg",
+        "name": "Effervescent SMG",
         "type": "toggle",
-        "img": "images/items/rainbowsmg.png",
+        "img": "images/items/character/effervescentSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowsmg"
     },
     {
-        "name": "pearlescentsmg",
+        "name": "Pearlescent SMG",
         "type": "toggle",
-        "img": "images/items/pearlescentsmg.png",
+        "img": "images/items/character/pearlescentSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentsmg"
     },
     {
-        "name": "uniquesmg",
+        "name": "Unique SMG",
         "type": "toggle",
-        "img": "images/items/uniquesmg.png",
+        "img": "images/items/character/uniqueSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniquesmg"
     },
     {
-        "name": "commonsniperrifle",
+        "name": "Common Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/commonsniperrifle.png",
+        "img": "images/items/character/commonSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonsniperrifle"
     },
     {
-        "name": "uncommonsniperrifle",
+        "name": "Uncommon Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/uncommonsniperrifle.png",
+        "img": "images/items/character/uncommonSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonsniperrifle"
     },
     {
-        "name": "raresniperrifle",
+        "name": "Rare Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/raresniperrifle.png",
+        "img": "images/items/character/rareSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "raresniperrifle"
     },
     {
-        "name": "veryraresniperrifle",
+        "name": "Very Rare Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/veryraresniperrifle.png",
+        "img": "images/items/character/veryRareSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryraresniperrifle"
     },
     {
-        "name": "e-techsniperrifle",
+        "name": "E-Tech Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/e-techsniperrifle.png",
+        "img": "images/items/character/etechSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techsniperrifle"
     },
     {
-        "name": "legendarysniperrifle",
+        "name": "Legendary Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/legendarysniperrifle.png",
+        "img": "images/items/character/legendarySniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendarysniperrifle"
     },
     {
-        "name": "seraphsniperrifle",
+        "name": "Seraph Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/seraphsniperrifle.png",
+        "img": "images/items/character/seraphSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphsniperrifle"
     },
     {
-        "name": "rainbowsniperrifle",
+        "name": "Effervescent Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/rainbowsniperrifle.png",
+        "img": "images/items/character/effervescentSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowsniperrifle"
     },
     {
-        "name": "pearlescentsniperrifle",
+        "name": "Pearlescent Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/pearlescentsniperrifle.png",
+        "img": "images/items/character/pearlescentSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentsniperrifle"
     },
     {
-        "name": "uniquesniperrifle",
+        "name": "Unique Sniper Rifle",
         "type": "toggle",
-        "img": "images/items/uniquesniperrifle.png",
+        "img": "images/items/character/uniqueSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniquesniperrifle"
     },
     {
-        "name": "commonrocketlauncher",
+        "name": "Common Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/commonrocketlauncher.png",
+        "img": "images/items/character/commonRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonrocketlauncher"
     },
     {
-        "name": "uncommonrocketlauncher",
+        "name": "Uncommon Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/uncommonrocketlauncher.png",
+        "img": "images/items/character/uncommonRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonrocketlauncher"
     },
     {
-        "name": "rarerocketlauncher",
+        "name": "Rare Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/rarerocketlauncher.png",
+        "img": "images/items/character/rareRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rarerocketlauncher"
     },
     {
-        "name": "veryrarerocketlauncher",
+        "name": "Very Rare Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/veryrarerocketlauncher.png",
+        "img": "images/items/character/veryRareRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrarerocketlauncher"
     },
     {
-        "name": "e-techrocketlauncher",
+        "name": "E-Tech Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/e-techrocketlauncher.png",
+        "img": "images/items/character/etechRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techrocketlauncher"
     },
     {
-        "name": "legendaryrocketlauncher",
+        "name": "Legendary Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/legendaryrocketlauncher.png",
+        "img": "images/items/character/legendaryRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendaryrocketlauncher"
     },
     {
-        "name": "seraphrocketlauncher",
+        "name": "Seraph Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/seraphrocketlauncher.png",
+        "img": "images/items/character/seraphRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphrocketlauncher"
     },
     {
-        "name": "rainbowrocketlauncher",
+        "name": "Effervescent  Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/rainbowrocketlauncher.png",
+        "img": "images/items/character/effervescentRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowrocketlauncher"
     },
     {
-        "name": "pearlescentrocketlauncher",
+        "name": "Pearlescent Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/pearlescentrocketlauncher.png",
+        "img": "images/items/character/pearlescentRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "pearlescentrocketlauncher"
     },
     {
-        "name": "uniquerocketlauncher",
+        "name": "Unique Rocket Launcher",
         "type": "toggle",
-        "img": "images/items/uniquerocketlauncher.png",
+        "img": "images/items/character/uniqueRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniquerocketlauncher"
     },
     {
-        "name": "commongrenademod",
+        "name": "Common Grenade Mod",
         "type": "toggle",
-        "img": "images/items/commongrenademod.png",
+        "img": "images/items/character/commonGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commongrenademod"
     },
     {
-        "name": "uncommongrenademod",
+        "name": "Uncommon Grenade Mod",
         "type": "toggle",
-        "img": "images/items/uncommongrenademod.png",
+        "img": "images/items/character/uncommonGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommongrenademod"
     },
     {
-        "name": "raregrenademod",
+        "name": "Rare Grenade Mod",
         "type": "toggle",
-        "img": "images/items/raregrenademod.png",
+        "img": "images/items/character/rareGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "raregrenademod"
     },
     {
-        "name": "veryraregrenademod",
+        "name": "Very Rare Grenade Mod",
         "type": "toggle",
-        "img": "images/items/veryraregrenademod.png",
+        "img": "images/items/character/veryRareGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryraregrenademod"
     },
     {
-        "name": "legendarygrenademod",
+        "name": "Legendary Grenade Mod",
         "type": "toggle",
-        "img": "images/items/legendarygrenademod.png",
+        "img": "images/items/character/legendaryGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendarygrenademod"
     },
     {
-        "name": "seraphgrenademod",
+        "name": "Seraph Grenade Mod",
         "type": "toggle",
-        "img": "images/items/seraphgrenademod.png",
+        "img": "images/items/character/seraphGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphgrenademod"
     },
     {
-        "name": "rainbowgrenademod",
+        "name": "Effervescent Grenade Mod",
         "type": "toggle",
-        "img": "images/items/rainbowgrenademod.png",
+        "img": "images/items/character/effervescentGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowgrenademod"
     },
     {
-        "name": "uniquegrenademod",
+        "name": "Unique Grenade Mod",
         "type": "toggle",
-        "img": "images/items/uniquegrenademod.png",
+        "img": "images/items/character/uniqueGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniquegrenademod"
     },
     {
-        "name": "commonshield",
+        "name": "Common Shield",
         "type": "toggle",
-        "img": "images/items/commonshield.png",
+        "img": "images/items/character/commonShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonshield"
     },
     {
-        "name": "uncommonshield",
+        "name": "Uncommon Shield",
         "type": "toggle",
-        "img": "images/items/uncommonshield.png",
+        "img": "images/items/character/uncommonShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonshield"
     },
     {
-        "name": "rareshield",
+        "name": "Rare Shield",
         "type": "toggle",
-        "img": "images/items/rareShield.png",
+        "img": "images/items/character/rareShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rareshield"
     },
     {
-        "name": "veryrareshield",
+        "name": "Very Rare Shield",
         "type": "toggle",
-        "img": "images/items/veryrareshield.png",
+        "img": "images/items/character/veryRareShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrareshield"
     },
     {
-        "name": "legendaryshield",
+        "name": "Legendary Shield",
         "type": "toggle",
-        "img": "images/items/legendaryshield.png",
+        "img": "images/items/character/legendaryShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendaryshield"
     },
     {
-        "name": "seraphshield",
+        "name": "Seraph Shield",
         "type": "toggle",
-        "img": "images/items/seraphshield.png",
+        "img": "images/items/character/seraphShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphshield"
     },
     {
-        "name": "rainbowshield",
+        "name": "Effervescent Shield",
         "type": "toggle",
-        "img": "images/items/rainbowshield.png",
+        "img": "images/items/character/effervescentShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowshield"
     },
     {
-        "name": "uniqueshield",
+        "name": "Unique Shield",
         "type": "toggle",
-        "img": "images/items/uniqueshield.png",
+        "img": "images/items/character/uniqueShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniqueshield"
     },
     {
-        "name": "commonclassmod",
+        "name": "Common Class Mod",
         "type": "toggle",
-        "img": "images/items/commonclassmod.png",
+        "img": "images/items/character/commonCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonclassmod"
     },
     {
-        "name": "uncommonclassmod",
+        "name": "Uncommon Class Mod",
         "type": "toggle",
-        "img": "images/items/uncommonclassmod.png",
+        "img": "images/items/character/uncommonCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonclassmod"
     },
     {
-        "name": "rareclassmod",
+        "name": "Rare Class Mod",
         "type": "toggle",
-        "img": "images/items/rareclassmod.png",
+        "img": "images/items/character/rareCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rareclassmod"
     },
     {
-        "name": "veryrareclassmod",
+        "name": "Very Rare Class Mod",
         "type": "toggle",
-        "img": "images/items/veryrareclassmod.png",
+        "img": "images/items/character/veryRareCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrareclassmod"
     },
     {
-        "name": "legendaryclassmod",
+        "name": "Legendary Class Mod",
         "type": "toggle",
-        "img": "images/items/legendaryclassmod.png",
+        "img": "images/items/character/legendaryCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "legendaryclassmod"
     },
     {
-        "name": "commonrelic",
+        "name": "Common Relic",
         "type": "toggle",
-        "img": "images/items/commonrelic.png",
+        "img": "images/items/character/commonRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "commonrelic"
     },
     {
-        "name": "uncommonrelic",
+        "name": "Uncommon Relic",
         "type": "toggle",
-        "img": "images/items/uncommonrelic.png",
+        "img": "images/items/character/uncommonRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uncommonrelic"
     },
     {
-        "name": "rarerelic",
+        "name": "Rare Relic",
         "type": "toggle",
-        "img": "images/items/rarerelic.png",
+        "img": "images/items/character/rareRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rarerelic"
     },
     {
-        "name": "veryrarerelic",
+        "name": "Very Rare Relic",
         "type": "toggle",
-        "img": "images/items/veryrarerelic.png",
+        "img": "images/items/character/veryRareRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "veryrarerelic"
     },
     {
-        "name": "e-techrelic",
+        "name": "E-Tech Relic",
         "type": "toggle",
-        "img": "images/items/e-techrelic.png",
+        "img": "images/items/character/etechRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "e-techrelic"
     },
     {
-        "name": "seraphrelic",
+        "name": "Seraph Relic",
         "type": "toggle",
-        "img": "images/items/seraphrelic.png",
+        "img": "images/items/character/seraphRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "seraphrelic"
     },
     {
-        "name": "rainbowrelic",
+        "name": "Effervescent Relic",
         "type": "toggle",
-        "img": "images/items/rainbowrelic.png",
+        "img": "images/items/character/effervescentRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "rainbowrelic"
     },
     {
-        "name": "uniquerelic",
+        "name": "Unique Relic",
         "type": "toggle",
-        "img": "images/items/uniquerelic.png",
+        "img": "images/items/character/uniqueRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "uniquerelic"
     },
     {
-        "name": "maxammopistol",
+        "name": "Pistol Max Ammo",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
-                "name": "maxammopistol stage1",
                 "inherit_codes": true,
-                "img": "/images/items/pistolAmmo.png",
+                "img": "/images/items/character/pistolAmmo.png",
                 "codes": "maxammopistol, maxammopistol_stage1"
             },
             {
-                "name": "maxammopistol stage2",
                 "inherit_codes": true,
-                "img": "/images/items/pistolAmmo.png",
+                "img": "/images/items/character/pistolAmmo.png",
                 "codes": "maxammopistol_stage2"
             },
             {
-                "name": "maxammopistol stage3",
                 "inherit_codes": true,
-                "img": "/images/items/pistolAmmo.png",
+                "img": "/images/items/character/pistolAmmo.png",
                 "codes": "maxammopistol_stage3"
             }
         ]
     },
     {
-        "name": "maxammoassaultrifle",
+        "name": "Assault Rifle Max Ammo",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "maxammoassaultrifle stage1",
                 "inherit_codes": true,
-                "img": "/images/items/maxammoassaultrifle.png",
+                "img": "/images/items/character/assaultRifleAmmo.png",
                 "codes": "maxammoassaultrifle, maxammoassaultrifle_stage1"
             },
             {
                 "name": "maxammoassaultrifle stage2",
                 "inherit_codes": true,
-                "img": "/images/items/maxammoassaultrifle.png",
+                "img": "/images/items/character/assaultRifleAmmo.png",
                 "codes": "maxammoassaultrifle_stage2"
             },
             {
                 "name": "maxammoassaultrifle stage3",
                 "inherit_codes": true,
-                "img": "/images/items/maxammoassaultrifle.png",
+                "img": "/images/items/character/assaultRifleAmmo.png",
                 "codes": "maxammoassaultrifle_stage3"
             }
         ]
     },
     {
-        "name": "maxammoshotgun",
+        "name": "Shotgun Max Ammo",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "maxammoshotgun stage1",
                 "inherit_codes": true,
-                "img": "/images/items/maxammoshotgun.png",
+                "img": "/images/items/character/shotgunAmmo.png",
                 "codes": "maxammoshotgun, maxammoshotgun_stage1"
             },
             {
                 "name": "maxammoshotgun stage2",
                 "inherit_codes": true,
-                "img": "/images/items/maxammoshotgun.png",
+                "img": "/images/items/character/shotgunAmmo.png",
                 "codes": "maxammoshotgun_stage2"
             },
             {
                 "name": "maxammoshotgun stage3",
                 "inherit_codes": true,
-                "img": "/images/items/maxammoshotgun.png",
+                "img": "/images/items/character/shotgunAmmo.png",
                 "codes": "maxammoshotgun_stage3"
             }
         ]
     },
     {
-        "name": "maxammosmg",
+        "name": "SMG Max Ammo",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "maxammosmg stage1",
                 "inherit_codes": true,
-                "img": "/images/items/maxammosmg.png",
+                "img": "/images/items/character/maxammoSmg.png",
                 "codes": "maxammosmg, maxammosmg_stage1"
             },
             {
                 "name": "maxammosmg stage2",
                 "inherit_codes": true,
-                "img": "/images/items/maxammosmg.png",
+                "img": "/images/items/character/maxammoSmg.png",
                 "codes": "maxammosmg_stage2"
             },
             {
                 "name": "maxammosmg stage3",
                 "inherit_codes": true,
-                "img": "/images/items/maxammosmg.png",
+                "img": "/images/items/character/maxammoSmg.png",
                 "codes": "maxammosmg_stage3"
             }
         ]
     },
     {
-        "name": "maxammosniperrifle",
+        "name": "Sniper Rifle Max Ammo",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "maxammosniperrifle stage1",
                 "inherit_codes": true,
-                "img": "/images/items/maxammosniperrifle.png",
+                "img": "/images/items/character/sniperAmmo.png",
                 "codes": "maxammosniperrifle, maxammosniperrifle_stage1"
             },
             {
                 "name": "maxammosniperrifle stage2",
                 "inherit_codes": true,
-                "img": "/images/items/maxammosniperrifle.png",
+                "img": "/images/items/character/sniperAmmo.png",
                 "codes": "maxammosniperrifle_stage2"
             },
             {
                 "name": "maxammosniperrifle stage3",
                 "inherit_codes": true,
-                "img": "/images/items/maxammosniperrifle.png",
+                "img": "/images/items/character/sniperAmmo.png",
                 "codes": "maxammosniperrifle_stage3"
             }
         ]
     },
     {
-        "name": "maxammorocketlauncher",
+        "name": "Rocket Launcher Max Ammo",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "maxammorocketlauncher stage1",
                 "inherit_codes": true,
-                "img": "/images/items/maxammorocketlauncher.png",
+                "img": "/images/items/character/rocketAmmo.png",
                 "codes": "maxammorocketlauncher, maxammorocketlauncher_stage1"
             },
             {
                 "name": "maxammorocketlauncher stage2",
                 "inherit_codes": true,
-                "img": "/images/items/maxammorocketlauncher.png",
+                "img": "/images/items/character/rocketAmmo.png",
                 "codes": "maxammorocketlauncher_stage2"
             },
             {
                 "name": "maxammorocketlauncher stage3",
                 "inherit_codes": true,
-                "img": "/images/items/maxammorocketlauncher.png",
+                "img": "/images/items/character/rocketAmmo.png",
                 "codes": "maxammorocketlauncher_stage3"
             }
         ]
     },
     {
-        "name": "maxgrenadecount",
+        "name": "Max Grenade Count",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "maxgrenadecount stage1",
                 "inherit_codes": true,
-                "img": "/images/items/maxgrenadecount.png",
+                "img": "/images/items/character/grenades.png",
                 "codes": "maxgrenadecount, maxgrenadecount_stage1"
             },
             {
                 "name": "maxgrenadecount stage2",
                 "inherit_codes": true,
-                "img": "/images/items/maxgrenadecount.png",
+                "img": "/images/items/character/grenades.png",
                 "codes": "maxgrenadecount_stage2"
             },
             {
                 "name": "maxgrenadecount stage3",
                 "inherit_codes": true,
-                "img": "/images/items/maxgrenadecount.png",
+                "img": "/images/items/character/grenades.png",
                 "codes": "maxgrenadecount_stage3"
             }
         ]
     },
     {
-        "name": "backpackupgrade",
+        "name": "Backpack Upgrade",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "backpackupgrade stage1",
                 "inherit_codes": true,
-                "img": "/images/items/backpackupgrade.png",
+                "img": "/images/items/character/backpack.png",
                 "codes": "backpackupgrade, backpackupgrade_stage1"
             },
             {
                 "name": "backpackupgrade stage2",
                 "inherit_codes": true,
-                "img": "/images/items/backpackupgrade.png",
+                "img": "/images/items/character/backpack.png",
                 "codes": "backpackupgrade_stage2"
             },
             {
                 "name": "backpackupgrade stage3",
                 "inherit_codes": true,
-                "img": "/images/items/backpackupgrade.png",
+                "img": "/images/items/character/backpack.png",
                 "codes": "backpackupgrade_stage3"
             }
         ]
     },
     {
-        "name": "progressiveweaponslot",
+        "name": "Progressive Weapon Slot",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "progressiveweaponslot stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveweaponslot.png",
+                "img": "/images/items/character/progressiveweaponslot.png",
                 "codes": "progressiveweaponslot, progressiveweaponslot_stage1"
             },
             {
                 "name": "progressiveweaponslot stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveweaponslot.png",
+                "img": "/images/items/character/progressiveweaponslot.png",
                 "codes": "progressiveweaponslot_stage2"
             },
             {
                 "name": "progressiveweaponslot stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveweaponslot.png",
+                "img": "/images/items/character/progressiveweaponslot.png",
                 "codes": "progressiveweaponslot_stage3"
             }
         ]
     },
     {
-        "name": "progressivejump",
+        "name": "Progressive Jump",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "progressivejump stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressivejump.png",
+                "img": "/images/items/character/jump.png",
                 "codes": "progressivejump, progressivejump_stage1"
             },
             {
                 "name": "progressivejump stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressivejump.png",
+                "img": "/images/items/character/jump.png",
                 "codes": "progressivejump_stage2"
             },
             {
                 "name": "progressivejump stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressivejump.png",
+                "img": "/images/items/character/jump.png",
                 "codes": "progressivejump_stage3"
             }
         ]
     },
     {
-        "name": "progressivesprint",
+        "name": "Progressive Sprint",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "progressivesprint stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressivesprint.png",
+                "img": "/images/items/character/sprint.png",
                 "codes": "progressivesprint, progressivesprint_stage1"
             },
             {
                 "name": "progressivesprint stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressivesprint.png",
+                "img": "/images/items/character/sprint.png",
                 "codes": "progressivesprint_stage2"
             },
             {
                 "name": "progressivesprint stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressivesprint.png",
+                "img": "/images/items/character/sprint.png",
                 "codes": "progressivesprint_stage3"
             }
         ]
     },
     {
-        "name": "progressivemoneycap",
+        "name": "Progressive Money Cap",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "overlay_align": "right",
         "stages": [
             {
                 "name": "progressivemoneycap stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressivemoneycap.png",
+                "img": "/images/items/character/money.png",
                 "codes": "progressivemoneycap, progressivemoneycap_stage1"
             },
             {
                 "name": "progressivemoneycap stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressivemoneycap.png",
+                "img": "/images/items/character/money.png",
                 "codes": "progressivemoneycap_stage2"
             },
             {
                 "name": "progressivemoneycap stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressivemoneycap.png",
+                "img": "/images/items/character/money.png",
                 "codes": "progressivemoneycap_stage3"
             }
         ]
     },
     {
-        "name": "melee",
+        "name": "Melee",
         "type": "toggle",
-        "img": "images/items/melee.png",
+        "img": "images/items/character/melee.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "melee"
     },
     {
-        "name": "crouch",
+        "name": "Crouch",
         "type": "toggle",
-        "img": "images/items/crouch.png",
+        "img": "images/items/character/crouch.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "crouch"
     },
     {
-        "name": "vehiclefire",
+        "name": "Vehicle Fire",
         "type": "toggle",
-        "img": "images/items/vehiclefire.png",
+        "img": "images/items/character/vehicleTurret.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "vehiclefire"
@@ -1066,7 +1063,7 @@
     {
         "name": "Skill Points",
         "type": "consumable",
-        "img": "images/items/3skillpoints.png",
+        "img": "images/items/character/3skillpoints.png",
         "min_quantity": 0,
         "max_quantity": 150,
         "increment": 3,
@@ -1078,651 +1075,19 @@
         "codes": "3skillpoints, 3skillpoints(p)"
     },
     {
-        "name": "travel:vaultofthewarrior",
+        "name": "override level 15",
         "type": "toggle",
-        "img": "images/items/travel:vaultofthewarrior.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:vaultofthewarrior"
-    },
-    {
-        "name": "travel:badasscraterbar",
-        "type": "toggle",
-        "img": "images/items/travel:badasscraterbar.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:badasscraterbar"
-    },
-    {
-        "name": "travel:ardortonstation",
-        "type": "toggle",
-        "img": "images/items/travel:ardortonstation.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:ardortonstation"
-    },
-    {
-        "name": "travel:highlandsoutwash",
-        "type": "toggle",
-        "img": "images/items/travel:highlandsoutwash.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:highlandsoutwash"
-    },
-    {
-        "name": "travel:southernraceway",
-        "type": "toggle",
-        "img": "images/items/travel:southernraceway.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:southernraceway"
-    },
-    {
-        "name": "travel:rotgutdistillery",
-        "type": "toggle",
-        "img": "images/items/travel:rotgutdistillery.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:rotgutdistillery"
-    },
-    {
-        "name": "travel:ffsbossfight",
-        "type": "toggle",
-        "img": "images/items/travel:ffsbossfight.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:ffsbossfight"
-    },
-    {
-        "name": "overridelevel30",
-        "type": "toggle",
-        "img": "images/items/overridelevel30.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "overridelevel30"
-    },
-    {
-        "name": "travel:frostburncanyon",
-        "type": "toggle",
-        "img": "images/items/travel:frostburncanyon.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:frostburncanyon"
-    },
-    {
-        "name": "travel:threehornsdivide",
-        "type": "toggle",
-        "img": "images/items/travel:threehornsdivide.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:threehornsdivide"
-    },
-    {
-        "name": "travel:huntersgrotto",
-        "type": "toggle",
-        "img": "images/items/travel:huntersgrotto.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:huntersgrotto"
-    },
-    {
-        "name": "travel:dahlabandon",
-        "type": "toggle",
-        "img": "images/items/travel:dahlabandon.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:dahlabandon"
-    },
-    {
-        "name": "travel:washburnerefinery",
-        "type": "toggle",
-        "img": "images/items/travel:washburnerefinery.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:washburnerefinery"
-    },
-    {
-        "name": "travel:wambamisland",
-        "type": "toggle",
-        "img": "images/items/travel:wambamisland.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:wambamisland"
-    },
-    {
-        "name": "travel:digistructpeak",
-        "type": "toggle",
-        "img": "images/items/travel:digistructpeak.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:digistructpeak"
-    },
-    {
-        "name": "travel:dragonkeep",
-        "type": "toggle",
-        "img": "images/items/travel:dragonkeep.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:dragonkeep"
-    },
-    {
-        "name": "travel:candlerakkscragg",
-        "type": "toggle",
-        "img": "images/items/travel:candlerakkscragg.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:candlerakkscragg"
-    },
-    {
-        "name": "travel:friendshipgulag",
-        "type": "toggle",
-        "img": "images/items/travel:friendshipgulag.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:friendshipgulag"
-    },
-    {
-        "name": "travel:oasis",
-        "type": "toggle",
-        "img": "images/items/travel:oasis.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:oasis"
-    },
-    {
-        "name": "travel:terminus",
-        "type": "toggle",
-        "img": "images/items/travel:terminus.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:terminus"
-    },
-    {
-        "name": "travel:hatredsshadow",
-        "type": "toggle",
-        "img": "images/items/travel:hatredsshadow.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:hatredsshadow"
-    },
-    {
-        "name": "travel:tundraexpress",
-        "type": "toggle",
-        "img": "images/items/travel:tundraexpress.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:tundraexpress"
-    },
-    {
-        "name": "travel:writhingdeep",
-        "type": "toggle",
-        "img": "images/items/travel:writhingdeep.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:writhingdeep"
-    },
-    {
-        "name": "travel:naturalselectionannex",
-        "type": "toggle",
-        "img": "images/items/travel:naturalselectionannex.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:naturalselectionannex"
-    },
-    {
-        "name": "travel:endoftheline",
-        "type": "toggle",
-        "img": "images/items/travel:endoftheline.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:endoftheline"
-    },
-    {
-        "name": "travel:sanctuary",
-        "type": "toggle",
-        "img": "images/items/POGGIES.jpeg",
-        "initial_active_state": true,
-        "overlay_align": "left",
-        "codes": "travel:sanctuary"
-    },
-    {
-        "name": "travel:thebeatdown",
-        "type": "toggle",
-        "img": "images/items/travel:thebeatdown.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:thebeatdown"
-    },
-    {
-        "name": "travel:sawtoothcauldron",
-        "type": "toggle",
-        "img": "images/items/travel:sawtoothcauldron.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:sawtoothcauldron"
-    },
-    {
-        "name": "travel:thousandcuts",
-        "type": "toggle",
-        "img": "images/items/travel:thousandcuts.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:thousandcuts"
-    },
-    {
-        "name": "travel:terramorphouspeak",
-        "type": "toggle",
-        "img": "images/items/travel:terramorphouspeak.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:terramorphouspeak"
-    },
-    {
-        "name": "travel:scyllasgrove",
-        "type": "toggle",
-        "img": "images/items/travel:scyllasgrove.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:scyllasgrove"
-    },
-    {
-        "name": "travel:thebunker",
-        "type": "toggle",
-        "img": "images/items/travel:thebunker.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:thebunker"
-    },
-    {
-        "name": "travel:hallowedhollow",
-        "type": "toggle",
-        "img": "images/items/travel:hallowedhollow.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:hallowedhollow"
-    },
-    {
-        "name": "travel:southpawsteam&power",
-        "type": "toggle",
-        "img": "images/items/travel:southpawsteam&power.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:southpawsteam&power"
-    },
-    {
-        "name": "travel:highlands",
-        "type": "toggle",
-        "img": "images/items/travel:highlands.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:highlands"
-    },
-    {
-        "name": "travel:aridnexusboneyard",
-        "type": "toggle",
-        "img": "images/items/travel:aridnexusboneyard.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:aridnexusboneyard"
-    },
-    {
-        "name": "travel:thebackburner",
-        "type": "toggle",
-        "img": "images/items/travel:thebackburner.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:thebackburner"
-    },
-    {
-        "name": "travel:murderlinstemple",
-        "type": "toggle",
-        "img": "images/items/travel:murderlinstemple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:murderlinstemple"
-    },
-    {
-        "name": "travel:thewingedstorm",
-        "type": "toggle",
-        "img": "images/items/travel:thewingedstorm.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:thewingedstorm"
-    },
-    {
-        "name": "travel:southernshelf",
-        "type": "toggle",
-        "img": "images/items/travel:southernshelf.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:southernshelf"
-    },
-    {
-        "name": "travel:herospass",
-        "type": "toggle",
-        "img": "images/items/travel:herospass.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:herospass"
-    },
-    {
-        "name": "travel:theburrows",
-        "type": "toggle",
-        "img": "images/items/travel:theburrows.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:theburrows"
-    },
-    {
-        "name": "travel:unassumingdocks",
-        "type": "toggle",
-        "img": "images/items/travel:unassumingdocks.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:unassumingdocks"
-    },
-    {
-        "name": "travel:opportunity",
-        "type": "toggle",
-        "img": "images/items/travel:opportunity.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:opportunity"
-    },
-    {
-        "name": "travel:flamerockrefuge",
-        "type": "toggle",
-        "img": "images/items/travel:flamerockrefuge.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:flamerockrefuge"
-    },
-    {
-        "name": "travel:heliosfallen",
-        "type": "toggle",
-        "img": "images/items/travel:heliosfallen.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:heliosfallen"
-    },
-    {
-        "name": "travel:torguearena",
-        "type": "toggle",
-        "img": "images/items/travel:torguearena.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:torguearena"
-    },
-    {
-        "name": "travel:ffsintrosanctuary",
-        "type": "toggle",
-        "img": "images/items/travel:ffsintrosanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:ffsintrosanctuary"
-    },
-    {
-        "name": "travel:wurmwater",
-        "type": "toggle",
-        "img": "images/items/travel:wurmwater.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:wurmwater"
-    },
-    {
-        "name": "travel:theforest",
-        "type": "toggle",
-        "img": "images/items/travel:theforest.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:theforest"
-    },
-    {
-        "name": "travel:lynchwood",
-        "type": "toggle",
-        "img": "images/items/travel:lynchwood.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:lynchwood"
-    },
-    {
-        "name": "travel:gluttonygulch",
-        "type": "toggle",
-        "img": "images/items/travel:gluttonygulch.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:gluttonygulch"
-    },
-    {
-        "name": "travel:thedust",
-        "type": "toggle",
-        "img": "images/items/travel:thedust.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:thedust"
-    },
-    {
-        "name": "travel:controlcoreangel",
-        "type": "toggle",
-        "img": "images/items/travel:controlcoreangel.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:controlcoreangel"
-    },
-    {
-        "name": "travel:marcussmercenaryshop",
-        "type": "toggle",
-        "img": "images/items/travel:marcussmercenaryshop.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:marcussmercenaryshop"
-    },
-    {
-        "name": "travel:aridnexusbadlands",
-        "type": "toggle",
-        "img": "images/items/travel:aridnexusbadlands.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:aridnexusbadlands"
-    },
-    {
-        "name": "travel:badasscrater",
-        "type": "toggle",
-        "img": "images/items/travel:badasscrater.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:badasscrater"
-    },
-    {
-        "name": "travel:southernshelfbay",
-        "type": "toggle",
-        "img": "images/items/travel:southernshelfbay.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:southernshelfbay"
-    },
-    {
-        "name": "travel:mt.scarabresearchcenter",
-        "type": "toggle",
-        "img": "images/items/travel:mt.scarabresearchcenter.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:mt.scarabresearchcenter"
-    },
-    {
-        "name": "travel:thefridge",
-        "type": "toggle",
-        "img": "images/items/travel:thefridge.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:thefridge"
-    },
-    {
-        "name": "travel:finksslaughterhouse",
-        "type": "toggle",
-        "img": "images/items/travel:finksslaughterhouse.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:finksslaughterhouse"
-    },
-    {
-        "name": "travel:therustyards",
-        "type": "toggle",
-        "img": "images/items/travel:therustyards.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:therustyards"
-    },
-    {
-        "name": "travel:bloodshotstronghold",
-        "type": "toggle",
-        "img": "images/items/travel:bloodshotstronghold.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:bloodshotstronghold"
-    },
-    {
-        "name": "travel:bloodshotramparts",
-        "type": "toggle",
-        "img": "images/items/travel:bloodshotramparts.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:bloodshotramparts"
-    },
-    {
-        "name": "travel:haytersfolly",
-        "type": "toggle",
-        "img": "images/items/travel:haytersfolly.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:haytersfolly"
-    },
-    {
-        "name": "travel:magnyslighthouse",
-        "type": "toggle",
-        "img": "images/items/travel:magnyslighthouse.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:magnyslighthouse"
-    },
-    {
-        "name": "travel:causticcaverns",
-        "type": "toggle",
-        "img": "images/items/travel:causticcaverns.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:causticcaverns"
-    },
-    {
-        "name": "travel:eridiumblight",
-        "type": "toggle",
-        "img": "images/items/travel:eridiumblight.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:eridiumblight"
-    },
-    {
-        "name": "travel:wildlifeexploitationpreserve",
-        "type": "toggle",
-        "img": "images/items/travel:wildlifeexploitationpreserve.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:wildlifeexploitationpreserve"
-    },
-    {
-        "name": "travel:pyropetesbar",
-        "type": "toggle",
-        "img": "images/items/travel:pyropetesbar.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:pyropetesbar"
-    },
-    {
-        "name": "travel:theleviathanslair",
-        "type": "toggle",
-        "img": "images/items/travel:theleviathanslair.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:theleviathanslair"
-    },
-    {
-        "name": "travel:theforge",
-        "type": "toggle",
-        "img": "images/items/travel:theforge.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:theforge"
-    },
-    {
-        "name": "travel:theholyspirits",
-        "type": "toggle",
-        "img": "images/items/travel:theholyspirits.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:theholyspirits"
-    },
-    {
-        "name": "travel:immortalwoods",
-        "type": "toggle",
-        "img": "images/items/travel:immortalwoods.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:immortalwoods"
-    },
-    {
-        "name": "travel:sanctuaryhole",
-        "type": "toggle",
-        "img": "images/items/travel:sanctuaryhole.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:sanctuaryhole"
-    },
-    {
-        "name": "overridelevel15",
-        "type": "toggle",
-        "img": "images/items/overridelevel15.png",
+        "img": "images/items/character/overridelevel15.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "overridelevel15"
     },
     {
-        "name": "travel:minesofavarice",
+        "name": "override level 30",
         "type": "toggle",
-        "img": "images/items/travel:minesofavarice.png",
+        "img": "images/items/character/overridelevel30.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "travel:minesofavarice"
-    },
-    {
-        "name": "travel:orechasm",
-        "type": "toggle",
-        "img": "images/items/travel:orechasm.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:orechasm"
-    },
-    {
-        "name": "travel:threehornsvalley",
-        "type": "toggle",
-        "img": "images/items/travel:threehornsvalley.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:threehornsvalley"
-    },
-    {
-        "name": "travel:lairofinfiniteagony",
-        "type": "toggle",
-        "img": "images/items/travel:lairofinfiniteagony.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "travel:lairofinfiniteagony"
-    },
-    {
-        "name": "update",
-        "type": "toggle",
-        "img": "images/items/update.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "update"
+        "codes": "overridelevel30"
     }
 ]
