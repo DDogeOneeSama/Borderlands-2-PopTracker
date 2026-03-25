@@ -1,4 +1,3 @@
-
 local variant = Tracker.ActiveVariantUID
 
 -- Items
