@@ -6,11 +6,17 @@
     "package_uid": "borderlands 2_ap",
     "author": "DDoge Onee-Sama",
     "variants": {
-        "Map Tracker": {
-            "display_name": "Map Tracker",
+        "default_tracker": {
+            "display_name": "Main Tracker",
             "flags": [
                 "ap"
             ]
-						}
-				}
+			},
+        "items_only": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+			}
+		}
 }
