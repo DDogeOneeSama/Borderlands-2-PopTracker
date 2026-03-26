@@ -12,15 +12,213 @@
     "img": "images/maps/BL2 Sanctuary Grounded.png"
   },
   {
+    "name": "SanctuaryFlying",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Sanctuary Flying.png"
+  },
+  {
     "name": "WindshearWaste",
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/BL2 Windshear Waste.png"
   },
   {
+    "name": "SouthernShelf",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Southern Shelf.png"
+  },
+  {
+    "name": "SouthernShelfBay",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Southern Shelf - Bay.png"
+  },
+  {
+    "name": "ThreeHornsDivide",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Three Horns - Divide.png"
+  },
+  {
+    "name": "FrostburnCanyon",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Frostburn Canyon.png"
+  },
+  {
+    "name": "ThreeHornsValley",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Three Horns - Valley.png"
+  },
+  {
+    "name": "SouthpawSteam&Power",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Southpaw Steam & Power.png"
+  },
+  {
     "name": "Dust",
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/BL2 The Dust.png"
+  },
+  {
+    "name": "BloodshotStronghold",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Bloodshot Stronghold.png"
+  },
+  {
+    "name": "BloodshotRamparts",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Bloodshot Ramparts.png"
+  },
+  {
+    "name": "FriendshipGulag",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Friendship Gulag.png"
+  },
+  {
+    "name": "TundraExpress",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Tundra Express.png"
+  },
+  {
+    "name": "EndOfTheLine",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 End of the Line.png"
+  },
+  {
+    "name": "Fridge",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 The Fridge.png"
+  },
+  {
+    "name": "FinksSlaughterhouse",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Fink_s Slaughterhouse.png"
+  },
+  {
+    "name": "HighlandsOutwash",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 The Highlands - Outwash.png"
+  },
+  {
+    "name": "Highlands",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 The Highlands.png"
+  },
+  {
+    "name": "HolySpirits",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 The Holy Spirits.png"
+  },
+  {
+    "name": "WildlifeExploitationPreserve",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Wildlife Exploitation Preserve.png"
+  },
+  {
+    "name": "NaturalSelectionAnnex",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Natural Selection Annex.png"
+  },
+  {
+    "name": "Opportunity",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Opportunity.png"
+  },
+  {
+    "name": "ThousandCuts",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Thousand Cuts.png"
+  },
+  {
+    "name": "Bunker",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 The Bunker.png"
+  },
+  {
+    "name": "SanctuaryHole",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Sanctuary Hole.png"
+  },
+  {
+    "name": "CausticCaverns",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Caustic Caverns.png"
+  },
+  {
+    "name": "Lynchwood",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Lynchwood.png"
+  },
+  {
+    "name": "EridiumBlight",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Eridium Blight.png"
+  },
+  {
+    "name": "OreChasm",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Ore Chasm.png"
+  },
+  {
+    "name": "SawtoothCauldron",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Sawtooth Cauldron.png"
+  },
+  {
+    "name": "AridNexusBoneyard",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Arid Nexus - Boneyard.png"
+  },
+  {
+    "name": "AridNexusBadlands",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Arid Nexus - Badlands.png"
+  },
+  {
+    "name": "HerosPass",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Hero_s Pass.png"
+  },
+  {
+    "name": "VaultOfTheWarrior",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Vault of the Warrior.png"
+  },
+  {
+    "name": "TerramorphousPeak",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Terramorphous Peak.png"
   }
 ]
