@@ -30,6 +30,12 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Enemy - Jacques OLantern",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Enemy - Cryptkeeper Clark",
                         "access_rules": [],
                         "visibility_rules": [],
@@ -99,8 +105,8 @@
                 "map_locations": [
                     {
                         "map": "Headhunters",
-                        "x": 472,
-                        "y": 2159,
+                        "x": 1842,
+                        "y": 1162,
                         "size": 6
                     }
                 ]
@@ -328,8 +334,8 @@
                 "map_locations": [
                     {
                         "map": "Headhunters",
-                        "x": 1415,
-                        "y": 368,
+                        "x": 420,
+                        "y": 1198,
                         "size": 6
                     }
                 ]
@@ -413,8 +419,8 @@
                 "map_locations": [
                     {
                         "map": "Headhunters",
-                        "x": 417,
-                        "y": 445,
+                        "x": 2324,
+                        "y": 1298,
                         "size": 6
                     }
                 ]
@@ -570,8 +576,8 @@
                 "map_locations": [
                     {
                         "map": "Headhunters",
-                        "x": 2076,
-                        "y": 2081,
+                        "x": 1048,
+                        "y": 2200,
                         "size": 6
                     }
                 ]
@@ -745,8 +751,8 @@
                 "map_locations": [
                     {
                         "map": "Headhunters",
-                        "x": 1779,
-                        "y": 1984,
+                        "x": 553,
+                        "y": 256,
                         "size": 6
                     }
                 ]

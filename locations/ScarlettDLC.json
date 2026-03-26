@@ -201,8 +201,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 641,
-                        "y": 65,
+                        "x": 2221,
+                        "y": 586,
                         "size": 6
                     }
                 ]
@@ -346,8 +346,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 2488,
-                        "y": 783,
+                        "x": 143,
+                        "y": 1926,
                         "size": 6
                     }
                 ]
@@ -455,8 +455,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 104,
-                        "y": 870,
+                        "x": 838,
+                        "y": 1892,
                         "size": 6
                     }
                 ]
@@ -576,8 +576,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 857,
-                        "y": 461,
+                        "x": 1432,
+                        "y": 1847,
                         "size": 6
                     }
                 ]
@@ -703,8 +703,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 1904,
-                        "y": 347,
+                        "x": 1699,
+                        "y": 2118,
                         "size": 6
                     }
                 ]
@@ -720,12 +720,6 @@
                 "sections": [
                     {
                         "name": "Enemy - Roscoe",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - The Leviathan",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -866,8 +860,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 792,
-                        "y": 1981,
+                        "x": 2368,
+                        "y": 766,
                         "size": 6
                     }
                 ]
@@ -1083,8 +1077,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 627,
-                        "y": 120,
+                        "x": 1441,
+                        "y": 1392,
                         "size": 6
                     }
                 ]
@@ -1150,8 +1144,8 @@
                 "map_locations": [
                     {
                         "map": "ScarlettDLC",
-                        "x": 1513,
-                        "y": 2496,
+                        "x": 1898,
+                        "y": 2431,
                         "size": 6
                     }
                 ]

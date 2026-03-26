@@ -411,8 +411,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 564,
-            "y": 61,
+            "x": 1280,
+            "y": 2154,
             "size": 6
           }
         ]
@@ -472,8 +472,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1931,
-            "y": 2498,
+            "x": 1031,
+            "y": 896,
             "size": 6
           }
         ]
@@ -641,8 +641,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 353,
-            "y": 371,
+            "x": 1116,
+            "y": 190,
             "size": 6
           }
         ]
@@ -744,8 +744,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 985,
-            "y": 1102,
+            "x": 837,
+            "y": 1915,
             "size": 6
           }
         ]
@@ -847,8 +847,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 545,
-            "y": 1686,
+            "x": 1561,
+            "y": 2490,
             "size": 6
           }
         ]
@@ -998,8 +998,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1129,
-            "y": 1664,
+            "x": 517,
+            "y": 626,
             "size": 6
           }
         ]
@@ -1113,8 +1113,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 863,
-            "y": 1012,
+            "x": 632,
+            "y": 2466,
             "size": 6
           }
         ]
@@ -1210,8 +1210,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 577,
-            "y": 1664,
+            "x": 1268,
+            "y": 2114,
             "size": 6
           }
         ]
@@ -1223,33 +1223,6 @@
         "overlay_background": "#000000",
         "access_rules": [
           " "
-        ],
-        "children": [
-          {
-            "name": "Clan War",
-            "chest_unopened_img": "/images/items/close.png",
-            "chest_opened_img": "/images/items/open.png",
-            "overlay_background": "#000000",
-            "access_rules": [
-              " "
-            ],
-            "sections": [
-              {
-                "name": "Starting the War",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "BaseGame",
-                "x": 1744,
-                "y": 1113,
-                "size": 6
-              }
-            ]
-          }
         ],
         "sections": [
           {
@@ -1397,6 +1370,12 @@
             "item_count": 1
           },
           {
+            "name": "Clan War - Starting the War",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Clan War - First Place",
             "access_rules": [],
             "visibility_rules": [],
@@ -1430,8 +1409,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 929,
-            "y": 1828,
+            "x": 1240,
+            "y": 829,
             "size": 6
           }
         ]
@@ -1557,8 +1536,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 847,
-            "y": 866,
+            "x": 268,
+            "y": 33,
             "size": 6
           }
         ]
@@ -1642,8 +1621,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1744,
-            "y": 793,
+            "x": 396,
+            "y": 517,
             "size": 6
           }
         ]
@@ -1703,8 +1682,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1220,
-            "y": 574,
+            "x": 2114,
+            "y": 857,
             "size": 6
           }
         ]
@@ -1854,8 +1833,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 2095,
-            "y": 934,
+            "x": 1412,
+            "y": 408,
             "size": 6
           }
         ]
@@ -1909,8 +1888,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 93,
-            "y": 1174,
+            "x": 1965,
+            "y": 391,
             "size": 6
           }
         ]
@@ -2102,8 +2081,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1866,
-            "y": 1960,
+            "x": 279,
+            "y": 2111,
             "size": 6
           }
         ]
@@ -2118,6 +2097,12 @@
         ],
         "sections": [
           {
+            "name": "Symbol - Column",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
             "visibility_rules": [],
@@ -2125,12 +2110,6 @@
           },
           {
             "name": "Ammo Vendor - Entrance",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Column",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -2181,8 +2160,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 274,
-            "y": 2458,
+            "x": 182,
+            "y": 2334,
             "size": 6
           }
         ]
@@ -2230,8 +2209,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 949,
-            "y": 800,
+            "x": 1474,
+            "y": 1720,
             "size": 6
           }
         ]
@@ -2345,8 +2324,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1529,
-            "y": 532,
+            "x": 879,
+            "y": 45,
             "size": 6
           }
         ]
@@ -2412,8 +2391,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 2422,
-            "y": 290,
+            "x": 2184,
+            "y": 1212,
             "size": 6
           }
         ]
@@ -2545,8 +2524,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 733,
-            "y": 202,
+            "x": 2186,
+            "y": 2284,
             "size": 6
           }
         ]
@@ -2618,8 +2597,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1875,
-            "y": 1056,
+            "x": 2183,
+            "y": 1387,
             "size": 6
           }
         ]
@@ -2793,8 +2772,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 619,
-            "y": 32,
+            "x": 2495,
+            "y": 2391,
             "size": 6
           }
         ]
@@ -2816,6 +2795,12 @@
           },
           {
             "name": "Enemy - Sarcastic Slab",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Face McShooty",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -2914,8 +2899,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 2490,
-            "y": 1166,
+            "x": 1088,
+            "y": 471,
             "size": 6
           }
         ]
@@ -2966,12 +2951,6 @@
             "item_count": 1
           },
           {
-            "name": "Where Angels Fear to Tread (Part 2)",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
             "name": "Chest - Back Room",
             "access_rules": [],
             "visibility_rules": [],
@@ -2994,13 +2973,19 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
+          },
+          {
+            "name": "Where Angels Fear to Tread (Part 2)",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 2271,
-            "y": 153,
+            "x": 1866,
+            "y": 193,
             "size": 6
           }
         ]
@@ -3060,8 +3045,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1182,
-            "y": 1019,
+            "x": 1977,
+            "y": 2396,
             "size": 6
           }
         ]
@@ -3181,8 +3166,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 890,
-            "y": 353,
+            "x": 2209,
+            "y": 496,
             "size": 6
           }
         ]
@@ -3356,8 +3341,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1079,
-            "y": 965,
+            "x": 2400,
+            "y": 2237,
             "size": 6
           }
         ]
@@ -3369,33 +3354,6 @@
         "overlay_background": "#000000",
         "access_rules": [
           " "
-        ],
-        "children": [
-          {
-            "name": "A Real Boy",
-            "chest_unopened_img": "/images/items/close.png",
-            "chest_opened_img": "/images/items/open.png",
-            "overlay_background": "#000000",
-            "access_rules": [
-              " "
-            ],
-            "sections": [
-              {
-                "name": "Face Time",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "BaseGame",
-                "x": 2189,
-                "y": 672,
-                "size": 6
-              }
-            ]
-          }
         ],
         "sections": [
           {
@@ -3561,6 +3519,12 @@
             "item_count": 1
           },
           {
+            "name": "A Real Boy - Face Time",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "A Real Boy - Clothes Make the Man",
             "access_rules": [],
             "visibility_rules": [],
@@ -3582,8 +3546,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 2118,
-            "y": 1610,
+            "x": 363,
+            "y": 920,
             "size": 6
           }
         ]
@@ -3661,8 +3625,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 135,
-            "y": 981,
+            "x": 1021,
+            "y": 1076,
             "size": 6
           }
         ]
@@ -3776,8 +3740,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 378,
-            "y": 2328,
+            "x": 2469,
+            "y": 831,
             "size": 6
           }
         ]
@@ -3861,8 +3825,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 44,
-            "y": 1359,
+            "x": 930,
+            "y": 1842,
             "size": 6
           }
         ]
@@ -3970,8 +3934,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 2395,
-            "y": 1286,
+            "x": 440,
+            "y": 154,
             "size": 6
           }
         ]
@@ -4037,8 +4001,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1863,
-            "y": 2285,
+            "x": 1950,
+            "y": 805,
             "size": 6
           }
         ]
@@ -4104,8 +4068,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 699,
-            "y": 1012,
+            "x": 277,
+            "y": 375,
             "size": 6
           }
         ]
@@ -4180,7 +4144,7 @@
             "item_count": 1
           },
           {
-            "name": "You. Will. Die. (Seriously)",
+            "name": "You Will Die (Seriously)",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -4189,8 +4153,8 @@
         "map_locations": [
           {
             "map": "BaseGame",
-            "x": 1499,
-            "y": 2488,
+            "x": 833,
+            "y": 621,
             "size": 6
           }
         ]

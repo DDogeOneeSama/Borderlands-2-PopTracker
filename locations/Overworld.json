@@ -462,10 +462,6 @@
                         "ref": "BaseGame/FrostburnCanyon/Cult Following - False Idols"
                     },
                     {
-                        "name": "Clan War - Starting the War",
-                        "ref": "BaseGame/Dust/Clan War/Starting the War"
-                    },
-                    {
                         "name": "Dust - Enemy - Gettle",
                         "ref": "BaseGame/Dust/Enemy - Gettle"
                     },
@@ -560,6 +556,10 @@
                     {
                         "name": "Dust - Clan War - Zafords vs Hodunks",
                         "ref": "BaseGame/Dust/Clan War - Zafords vs Hodunks"
+                    },
+                    {
+                        "name": "Dust - Clan War - Starting the War",
+                        "ref": "BaseGame/Dust/Clan War - Starting the War"
                     },
                     {
                         "name": "Dust - Clan War - First Place",
@@ -1194,6 +1194,10 @@
                         "ref": "BaseGame/ThousandCuts/Enemy - Sarcastic Slab"
                     },
                     {
+                        "name": "ThousandCuts - Enemy - Face McShooty",
+                        "ref": "BaseGame/ThousandCuts/Enemy - Face McShooty"
+                    },
+                    {
                         "name": "ThousandCuts - Symbol - Buzzard Factory",
                         "ref": "BaseGame/ThousandCuts/Symbol - Buzzard Factory"
                     },
@@ -1490,8 +1494,20 @@
                         "ref": "BaseGame/Bunker/Chest - Back Room"
                     },
                     {
-                        "name": "A Real Boy - Face Time",
-                        "ref": "BaseGame/EridiumBlight/A Real Boy/Face Time"
+                        "name": "Bunker - Chest - Marcus #1",
+                        "ref": "BaseGame/Bunker/Chest - Marcus #1"
+                    },
+                    {
+                        "name": "Bunker - Chest - Marcus #2",
+                        "ref": "BaseGame/Bunker/Chest - Marcus #2"
+                    },
+                    {
+                        "name": "Bunker - Chest - Marcus #3",
+                        "ref": "BaseGame/Bunker/Chest - Marcus #3"
+                    },
+                    {
+                        "name": "Bunker - Where Angels Fear to Tread (Part 2)",
+                        "ref": "BaseGame/Bunker/Where Angels Fear to Tread (Part 2)"
                     },
                     {
                         "name": "EridiumBlight - Enemy - King Mong",
@@ -1600,6 +1616,10 @@
                     {
                         "name": "EridiumBlight - Customer Service",
                         "ref": "BaseGame/EridiumBlight/Customer Service"
+                    },
+                    {
+                        "name": "EridiumBlight - A Real Boy - Face Time",
+                        "ref": "BaseGame/EridiumBlight/A Real Boy - Face Time"
                     },
                     {
                         "name": "EridiumBlight - A Real Boy - Clothes Make the Man",
@@ -2118,8 +2138,44 @@
                         "ref": "BaseGame/Sanctuary/Hidden Journals"
                     },
                     {
-                        "name": "FinksSlaughterhouseSlaughterhouse - Symbol - Column",
-                        "ref": "BaseGame/FinksSlaughterhouseSlaughterhouse/Symbol - Column"
+                        "name": "FinksSlaughterhouse - Symbol - Column",
+                        "ref": "BaseGame/FinksSlaughterhouse/Symbol - Column"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Gun Vendor - Entrance",
+                        "ref": "BaseGame/FinksSlaughterhouse/Gun Vendor - Entrance"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Ammo Vendor - Entrance",
+                        "ref": "BaseGame/FinksSlaughterhouse/Ammo Vendor - Entrance"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Med Vendor - Entrance",
+                        "ref": "BaseGame/FinksSlaughterhouse/Med Vendor - Entrance"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Challenge - Cult of the Vault",
+                        "ref": "BaseGame/FinksSlaughterhouse/Challenge - Cult of the Vault"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 1",
+                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 1"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 2",
+                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 2"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 3",
+                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 3"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 4",
+                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 4"
+                    },
+                    {
+                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 5",
+                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 5"
                     },
                     {
                         "name": "NaturalSelectionAnnex - Symbol - Crate Ceiling",
@@ -2284,65 +2340,13 @@
                     {
                         "name": "SanctuaryHole - Chest - Generator Room",
                         "ref": "BaseGame/SanctuaryHole/Chest - Generator Room"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Gun Vendor - Entrance",
-                        "ref": "BaseGame/FinksSlaughterhouse/Gun Vendor - Entrance"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Ammo Vendor - Entrance",
-                        "ref": "BaseGame/FinksSlaughterhouse/Ammo Vendor - Entrance"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Med Vendor - Entrance",
-                        "ref": "BaseGame/FinksSlaughterhouse/Med Vendor - Entrance"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Challenge - Cult of the Vault",
-                        "ref": "BaseGame/FinksSlaughterhouse/Challenge - Cult of the Vault"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 1",
-                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 1"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 2",
-                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 2"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 3",
-                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 3"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 4",
-                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 4"
-                    },
-                    {
-                        "name": "FinksSlaughterhouse - Bandit Slaughter - Round 5",
-                        "ref": "BaseGame/FinksSlaughterhouse/Bandit Slaughter - Round 5"
-                    },
-                    {
-                        "name": "ControlCoreAngel - Chest - Marcus #1",
-                        "ref": "BaseGame/ControlCoreAngel/Chest - Marcus #1"
-                    },
-                    {
-                        "name": "ControlCoreAngel - Chest - Marcus #2",
-                        "ref": "BaseGame/ControlCoreAngel/Chest - Marcus #2"
-                    },
-                    {
-                        "name": "ControlCoreAngel - Chest - Marcus #3",
-                        "ref": "BaseGame/ControlCoreAngel/Chest - Marcus #3"
-                    },
-                    {
-                        "name": "ControlCoreAngel - Where Angels Fear to Tread (Part 2)",
-                        "ref": "BaseGame/ControlCoreAngel/Where Angels Fear to Tread (Part 2)"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1766,
-                        "y": 1242,
+                        "x": 298,
+                        "y": 1703,
                         "size": 6
                     }
                 ]
@@ -2424,8 +2428,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1920,
-                        "y": 76,
+                        "x": 767,
+                        "y": 1939,
                         "size": 6
                     }
                 ]
@@ -3427,8 +3431,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 580,
-                        "y": 1091,
+                        "x": 127,
+                        "y": 1919,
                         "size": 6
                     }
                 ]
@@ -3854,8 +3858,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1403,
-                        "y": 2154,
+                        "x": 2488,
+                        "y": 923,
                         "size": 6
                     }
                 ]
@@ -3876,6 +3880,10 @@
                     {
                         "name": "HallowedHallow - Enemy - Pumpkin Kingpin",
                         "ref": "Headhunters/HallowedHallow/Enemy - Pumpkin Kingpin"
+                    },
+                    {
+                        "name": "HallowedHallow - Enemy - Jacques OLantern",
+                        "ref": "Headhunters/HallowedHallow/Enemy - Jacques OLantern"
                     },
                     {
                         "name": "HallowedHallow - Enemy - Cryptkeeper Clark",
@@ -4305,8 +4313,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1362,
-                        "y": 935,
+                        "x": 1256,
+                        "y": 1115,
                         "size": 6
                     }
                 ]
@@ -4876,8 +4884,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1894,
-                        "y": 2214,
+                        "x": 816,
+                        "y": 1496,
                         "size": 6
                     }
                 ]
@@ -5300,10 +5308,6 @@
                         "ref": "ScarlettDLC/LeviathansLair/Enemy - Roscoe"
                     },
                     {
-                        "name": "LeviathansLair - Enemy - The Leviathan",
-                        "ref": "ScarlettDLC/LeviathansLair/Enemy - The Leviathan"
-                    },
-                    {
                         "name": "LeviathansLair - Symbol - Lair",
                         "ref": "ScarlettDLC/LeviathansLair/Symbol - Lair"
                     },
@@ -5559,8 +5563,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 561,
-                        "y": 1550,
+                        "x": 1180,
+                        "y": 990,
                         "size": 6
                     }
                 ]
@@ -5823,10 +5827,6 @@
                         "ref": "TinaDLC/ImmortalWoods/Lost Souls"
                     },
                     {
-                        "name": "Ammo - The Claptraps Apprentice",
-                        "ref": "TinaDLC/MinesOfAvarice/Ammo/The Claptraps Apprentice"
-                    },
-                    {
                         "name": "MinesOfAvarice - Enemy - Maxibillion",
                         "ref": "TinaDLC/MinesOfAvarice/Enemy - Maxibillion"
                     },
@@ -5897,6 +5897,10 @@
                     {
                         "name": "MinesOfAvarice - Chest - Hanging Platform",
                         "ref": "TinaDLC/MinesOfAvarice/Chest - Hanging Platform"
+                    },
+                    {
+                        "name": "MinesOfAvarice - The Claptraps Apprentice",
+                        "ref": "TinaDLC/MinesOfAvarice/The Claptraps Apprentice"
                     },
                     {
                         "name": "MinesOfAvarice - The Beard Makes The Man",
@@ -5995,12 +5999,12 @@
                         "ref": "TinaDLC/HatredsShadow/Loot Ninja"
                     },
                     {
-                        "name": "Edgar - Enemy - Simon",
-                        "ref": "TinaDLC/LairOfInfiniteAgony/Edgar/Enemy - Simon"
-                    },
-                    {
                         "name": "LairOfInfiniteAgony - Enemy - Sorcerers Daughter",
                         "ref": "TinaDLC/LairOfInfiniteAgony/Enemy - Sorcerers Daughter"
+                    },
+                    {
+                        "name": "LairOfInfiniteAgony - Enemy - Edgar or Simon",
+                        "ref": "TinaDLC/LairOfInfiniteAgony/Enemy - Edgar or Simon"
                     },
                     {
                         "name": "LairOfInfiniteAgony - Symbol - Platform Corridor",
@@ -6462,8 +6466,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1626,
-                        "y": 750,
+                        "x": 2090,
+                        "y": 1812,
                         "size": 6
                     }
                 ]
@@ -7013,8 +7017,8 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1046,
-                        "y": 637,
+                        "x": 1243,
+                        "y": 1687,
                         "size": 6
                     }
                 ]

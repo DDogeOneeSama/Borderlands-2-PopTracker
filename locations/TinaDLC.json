@@ -81,8 +81,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 992,
-                        "y": 93,
+                        "x": 982,
+                        "y": 304,
                         "size": 6
                     }
                 ]
@@ -214,8 +214,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 1979,
-                        "y": 924,
+                        "x": 1156,
+                        "y": 2334,
                         "size": 6
                     }
                 ]
@@ -311,8 +311,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 1649,
-                        "y": 2363,
+                        "x": 1382,
+                        "y": 1966,
                         "size": 6
                     }
                 ]
@@ -450,8 +450,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 1113,
-                        "y": 866,
+                        "x": 1885,
+                        "y": 1072,
                         "size": 6
                     }
                 ]
@@ -463,33 +463,6 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
-                ],
-                "children": [
-                    {
-                        "name": "Ammo",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "The Claptraps Apprentice",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "TinaDLC",
-                                "x": 2358,
-                                "y": 2278,
-                                "size": 6
-                            }
-                        ]
-                    }
                 ],
                 "sections": [
                     {
@@ -601,6 +574,12 @@
                         "item_count": 1
                     },
                     {
+                        "name": "The Claptraps Apprentice",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
                         "name": "The Beard Makes The Man",
                         "access_rules": [],
                         "visibility_rules": [],
@@ -622,8 +601,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 2007,
-                        "y": 1009,
+                        "x": 548,
+                        "y": 349,
                         "size": 6
                     }
                 ]
@@ -767,8 +746,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 623,
-                        "y": 1915,
+                        "x": 696,
+                        "y": 2380,
                         "size": 6
                     }
                 ]
@@ -781,36 +760,15 @@
                 "access_rules": [
                     " "
                 ],
-                "children": [
-                    {
-                        "name": "Edgar",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Enemy - Simon",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "TinaDLC",
-                                "x": 1814,
-                                "y": 807,
-                                "size": 6
-                            }
-                        ]
-                    }
-                ],
                 "sections": [
                     {
                         "name": "Enemy - Sorcerers Daughter",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Enemy - Edgar or Simon",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -909,8 +867,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 1621,
-                        "y": 1868,
+                        "x": 160,
+                        "y": 1643,
                         "size": 6
                     }
                 ]
@@ -970,8 +928,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 284,
-                        "y": 677,
+                        "x": 1880,
+                        "y": 1878,
                         "size": 6
                     }
                 ]
@@ -1379,8 +1337,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 119,
-                        "y": 1430,
+                        "x": 969,
+                        "y": 442,
                         "size": 6
                     }
                 ]
@@ -1470,8 +1428,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 2184,
-                        "y": 2294,
+                        "x": 326,
+                        "y": 1939,
                         "size": 6
                     }
                 ]
@@ -1507,8 +1465,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 2406,
-                        "y": 2182,
+                        "x": 1488,
+                        "y": 1075,
                         "size": 6
                     }
                 ]
@@ -1586,8 +1544,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 258,
-                        "y": 2215,
+                        "x": 968,
+                        "y": 628,
                         "size": 6
                     }
                 ]
@@ -1617,8 +1575,8 @@
                 "map_locations": [
                     {
                         "map": "TinaDLC",
-                        "x": 154,
-                        "y": 936,
+                        "x": 1696,
+                        "y": 956,
                         "size": 6
                     }
                 ]
