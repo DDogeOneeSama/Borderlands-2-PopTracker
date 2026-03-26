@@ -86,57 +86,57 @@
             "rows": [
               [
                 "travel:oasis",
-                "travel:dragonkeep",
-                "travel:candlerakkscragg",
-                "travel:badasscraterbar",
-                "travel:ardortonstation",
+                "travel:wurmwater",
                 "travel:haytersfolly",
+                "travel:therustyards",
+                "travel:washburnerefinery",
                 "travel:magnyslighthouse",
-                "travel:pyropetesbar"
+                "travel:theleviathanslair"
               ],
               [
+                "travel:badasscrater",
+                "travel:torguearena",
+                "travel:thebeatdown",
+                "travel:pyropetesbar",
+                "travel:badasscraterbar",
+                "travel:southernraceway",
+                "travel:theforge"
+              ],
+              [
+                "travel:huntersgrotto",
                 "travel:scyllasgrove",
-                "travel:hallowedhollow",
-                "travel:theleviathanslair",
+                "travel:ardortonstation",
+                "travel:candlerakkscragg",
+                "travel:terminus"
+              ],
+              [
+                "travel:unassumingdocks",
+                "travel:flamerockrefuge",
+                "travel:theforest",
                 "travel:immortalwoods",
                 "travel:minesofavarice",
-                "travel:lairofinfiniteagony",
-                "travel:theforge",
-                "travel:southernraceway"
-              ],
-              [
-                "travel:thebackburner",
-                "travel:murderlinstemple",
-                "travel:thewingedstorm",
-                "travel:rotgutdistillery",
-                "travel:ffsbossfight",
-                "travel:huntersgrotto",
-                "travel:dahlabandon",
-                "travel:washburnerefinery"
-              ],
-              [
-                "travel:theburrows",
-                "travel:unassumingdocks",
-                "travel:wambamisland",
-                "travel:terminus",
                 "travel:hatredsshadow",
-                "travel:writhingdeep",
-                "travel:thebeatdown"
-              ],
-              [
-                "travel:flamerockrefuge",
-                "travel:heliosfallen",
-                "travel:torguearena",
-                "travel:mt.scarabresearchcenter",
-                "travel:therustyards"
+                "travel:lairofinfiniteagony",
+                "travel:dragonkeep",
+                "travel:murderlinstemple",
+                "travel:thewingedstorm"
               ],
               [
                 "travel:ffsintrosanctuary",
-                "travel:wurmwater",
-                "travel:theforest",
+                "travel:thebackburner",
+                "travel:dahlabandon",
+                "travel:theburrows",
+                "travel:heliosfallen",
+                "travel:mt.scarabresearchcenter",
+                "travel:ffsbossfight",
+                "travel:writhingdeep"
+              ],
+              [
+                "travel:hallowedhollow",
                 "travel:gluttonygulch",
                 "travel:marcussmercenaryshop",
-                "travel:badasscrater"
+                "travel:rotgutdistillery",
+                "travel:wambamisland"
               ]
             ]
           }
