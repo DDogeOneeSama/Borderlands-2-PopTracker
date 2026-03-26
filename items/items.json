@@ -705,336 +705,172 @@
     },
     {
         "name": "Pistol Max Ammo",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "inherit_codes": true,
-                "img": "/images/items/character/pistolAmmo.png",
-                "codes": "maxammopistol, maxammopistol_stage1"
-            },
-            {
-                "inherit_codes": true,
-                "img": "/images/items/character/pistolAmmo.png",
-                "codes": "maxammopistol_stage2"
-            },
-            {
-                "inherit_codes": true,
-                "img": "/images/items/character/pistolAmmo.png",
-                "codes": "maxammopistol_stage3"
-            }
-        ]
+        "type": "consumable",
+        "img": "/images/items/character/pistolAmmo.png",
+        "min_quantity": 200,
+        "max_quantity": 900,
+        "increment": 100,
+        "decrement": 100,
+        "initial_quantity": 200,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxammopistol"
     },
     {
         "name": "Assault Rifle Max Ammo",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "maxammoassaultrifle stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/assaultRifleAmmo.png",
-                "codes": "maxammoassaultrifle, maxammoassaultrifle_stage1"
-            },
-            {
-                "name": "maxammoassaultrifle stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/assaultRifleAmmo.png",
-                "codes": "maxammoassaultrifle_stage2"
-            },
-            {
-                "name": "maxammoassaultrifle stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/assaultRifleAmmo.png",
-                "codes": "maxammoassaultrifle_stage3"
-            }
-        ]
+        "type": "consumable",
+        "img": "/images/items/character/assaultRifleAmmo.png",
+        "min_quantity": 280,
+        "max_quantity": 1260,
+        "increment": 140,
+        "decrement": 140,
+        "initial_quantity": 280,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxammoassaultrifle"
     },
     {
         "name": "Shotgun Max Ammo",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "maxammoshotgun stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/shotgunAmmo.png",
-                "codes": "maxammoshotgun, maxammoshotgun_stage1"
-            },
-            {
-                "name": "maxammoshotgun stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/shotgunAmmo.png",
-                "codes": "maxammoshotgun_stage2"
-            },
-            {
-                "name": "maxammoshotgun stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/shotgunAmmo.png",
-                "codes": "maxammoshotgun_stage3"
-            }
-        ]
+        "type": "consumable",
+        "img": "/images/items/character/shotgunAmmo.png",
+        "min_quantity": 80,
+        "max_quantity": 220,
+        "increment": 20,
+        "decrement": 20,
+        "initial_quantity": 80,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxammoshotgun"
     },
     {
         "name": "SMG Max Ammo",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "maxammosmg stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/maxammoSmg.png",
-                "codes": "maxammosmg, maxammosmg_stage1"
-            },
-            {
-                "name": "maxammosmg stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/maxammoSmg.png",
-                "codes": "maxammosmg_stage2"
-            },
-            {
-                "name": "maxammosmg stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/maxammoSmg.png",
-                "codes": "maxammosmg_stage3"
-            }
-        ]
+        "type": "consumable",
+        "img": "/images/items/character/smgAmmo.png",
+        "min_quantity": 360,
+        "max_quantity": 1620,
+        "increment": 180,
+        "decrement": 180,
+        "initial_quantity": 360,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxammosmg"
     },
     {
         "name": "Sniper Rifle Max Ammo",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "maxammosniperrifle stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/sniperAmmo.png",
-                "codes": "maxammosniperrifle, maxammosniperrifle_stage1"
-            },
-            {
-                "name": "maxammosniperrifle stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/sniperAmmo.png",
-                "codes": "maxammosniperrifle_stage2"
-            },
-            {
-                "name": "maxammosniperrifle stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/sniperAmmo.png",
-                "codes": "maxammosniperrifle_stage3"
-            }
-        ]
+        "type": "consumable",
+        "img": "/images/items/character/sniperAmmo.png",
+        "min_quantity": 48,
+        "max_quantity": 132,
+        "increment": 12,
+        "decrement": 12,
+        "initial_quantity": 48,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxammosniperrifle"
     },
     {
         "name": "Rocket Launcher Max Ammo",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "maxammorocketlauncher stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/rocketAmmo.png",
-                "codes": "maxammorocketlauncher, maxammorocketlauncher_stage1"
-            },
-            {
-                "name": "maxammorocketlauncher stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/rocketAmmo.png",
-                "codes": "maxammorocketlauncher_stage2"
-            },
-            {
-                "name": "maxammorocketlauncher stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/rocketAmmo.png",
-                "codes": "maxammorocketlauncher_stage3"
-            }
-        ]
+        "type": "consumable",
+        "img": "/images/items/character/rocketAmmo.png",
+        "min_quantity": 12,
+        "max_quantity": 33,
+        "increment": 3,
+        "decrement": 3,
+        "initial_quantity": 12,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxammorocketlauncher"
     },
     {
         "name": "Max Grenade Count",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "maxgrenadecount stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/grenades.png",
-                "codes": "maxgrenadecount, maxgrenadecount_stage1"
-            },
-            {
-                "name": "maxgrenadecount stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/grenades.png",
-                "codes": "maxgrenadecount_stage2"
-            },
-            {
-                "name": "maxgrenadecount stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/grenades.png",
-                "codes": "maxgrenadecount_stage3"
-            }
-        ]
+        "type": "consumable",
+        "img": "/images/items/character/grenades.png",
+        "min_quantity": 3,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 3,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxgrenadecount"
     },
     {
-        "name": "Backpack Upgrade",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "backpackupgrade stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/backpack.png",
-                "codes": "backpackupgrade, backpackupgrade_stage1"
-            },
-            {
-                "name": "backpackupgrade stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/backpack.png",
-                "codes": "backpackupgrade_stage2"
-            },
-            {
-                "name": "backpackupgrade stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/backpack.png",
-                "codes": "backpackupgrade_stage3"
-            }
-        ]
+        "name": "Max Grenade Count",
+        "type": "consumable",
+        "img": "/images/items/character/grenades.png",
+        "min_quantity": 3,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 3,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "maxgrenadecount"
     },
     {
-        "name": "Progressive Weapon Slot",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "progressiveweaponslot stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/progressiveweaponslot.png",
-                "codes": "progressiveweaponslot, progressiveweaponslot_stage1"
-            },
-            {
-                "name": "progressiveweaponslot stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/progressiveweaponslot.png",
-                "codes": "progressiveweaponslot_stage2"
-            },
-            {
-                "name": "progressiveweaponslot stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/progressiveweaponslot.png",
-                "codes": "progressiveweaponslot_stage3"
-            }
-        ]
+        "name": "Backpack Slots",
+        "type": "consumable",
+        "img": "/images/items/character/backpack.png",
+        "min_quantity": 12,
+        "max_quantity": 39,
+        "increment": 3,
+        "decrement": 3,
+        "initial_quantity": 12,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "backpackupgrade"
     },
     {
-        "name": "Progressive Jump",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "progressivejump stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/jump.png",
-                "codes": "progressivejump, progressivejump_stage1"
-            },
-            {
-                "name": "progressivejump stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/jump.png",
-                "codes": "progressivejump_stage2"
-            },
-            {
-                "name": "progressivejump stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/jump.png",
-                "codes": "progressivejump_stage3"
-            }
-        ]
+        "name": "Weapon Slots",
+        "type": "consumable",
+        "img": "/images/items/character/weaponSlots.png",
+        "min_quantity": 2,
+        "max_quantity": 4,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "progressiveweaponslot"
     },
     {
-        "name": "Progressive Sprint",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "progressivesprint stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/sprint.png",
-                "codes": "progressivesprint, progressivesprint_stage1"
-            },
-            {
-                "name": "progressivesprint stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/sprint.png",
-                "codes": "progressivesprint_stage2"
-            },
-            {
-                "name": "progressivesprint stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/sprint.png",
-                "codes": "progressivesprint_stage3"
-            }
-        ]
+        "name": "Jump Upgrades",
+        "type": "consumable",
+        "img": "/images/items/character/jump.png",
+        "min_quantity": 0,
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "progressivejump"
     },
     {
-        "name": "Progressive Money Cap",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 1,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "progressivemoneycap stage1",
-                "inherit_codes": true,
-                "img": "/images/items/character/money.png",
-                "codes": "progressivemoneycap, progressivemoneycap_stage1"
-            },
-            {
-                "name": "progressivemoneycap stage2",
-                "inherit_codes": true,
-                "img": "/images/items/character/money.png",
-                "codes": "progressivemoneycap_stage2"
-            },
-            {
-                "name": "progressivemoneycap stage3",
-                "inherit_codes": true,
-                "img": "/images/items/character/money.png",
-                "codes": "progressivemoneycap_stage3"
-            }
-        ]
+        "name": "Sprint Upgrades",
+        "type": "consumable",
+        "img": "/images/items/character/sprintUpgrades.png",
+        "min_quantity": 0,
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "progressivesprint"
+    },
+    {
+        "name": "Money Cap Upgrades",
+        "type": "consumable",
+        "img": "/images/items/character/money.png",
+        "min_quantity": 0,
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": true,
+        "overlay_background": "#000000",
+        "codes": "progressivemoneycap"
     },
     {
         "name": "Melee",
@@ -1063,13 +899,13 @@
     {
         "name": "Skill Points",
         "type": "consumable",
-        "img": "images/items/character/3skillpoints.png",
+        "img": "/images/items/character/skillPoint.png",
         "min_quantity": 0,
         "max_quantity": 150,
         "increment": 3,
         "decrement": 3,
         "initial_quantity": 0,
-        "overlay_align": "right",
+        "overlay_align": "center",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
         "codes": "3skillpoints, 3skillpoints(p)"
