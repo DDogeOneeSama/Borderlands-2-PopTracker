@@ -849,7 +849,7 @@
     {
         "name": "Sprint Upgrades",
         "type": "consumable",
-        "img": "/images/items/character/sprintUpgrades.png",
+        "img": "/images/items/character/sprint.png",
         "min_quantity": 0,
         "max_quantity": 5,
         "increment": 1,
@@ -899,7 +899,7 @@
     {
         "name": "Skill Points",
         "type": "consumable",
-        "img": "/images/items/character/skillPoint.png",
+        "img": "/images/items/character/skillPoints.png",
         "min_quantity": 0,
         "max_quantity": 150,
         "increment": 3,
