@@ -19,8 +19,8 @@
             "item_width": 36,
             "rows": [
               [
-                "travel:southernshelf",
                 "travel:sanctuary",
+                "travel:southernshelf",
                 "travel:southernshelfbay",
                 "travel:threehornsdivide",
                 "travel:frostburncanyon",
