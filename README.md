@@ -13,3 +13,4 @@ EdricY for the actual Borderlands 2 Archipelago https://github.com/EdricY/Bouncy
 StripesOO7 for the Poptracker Pack Builder https://github.com/StripesOO7/poptracker-pack-builder  
 CountKarloff for the lootmaps used for tracker images https://otdhlootmaps.com/borderlands-2.html  
 Foxie for the modified lootmaps to actually be used in the tracker, and help with pretty much all other images used in the pack
+Mk. V Procrastinator for the overworld map
