@@ -85,6 +85,7 @@
             "item_width": 36,
             "rows": [
               [
+                "",
                 "travel:oasis",
                 "travel:wurmwater",
                 "travel:haytersfolly",
@@ -94,6 +95,7 @@
                 "travel:theleviathanslair"
               ],
               [
+                "",
                 "travel:badasscrater",
                 "travel:torguearena",
                 "travel:thebeatdown",
@@ -103,6 +105,7 @@
                 "travel:theforge"
               ],
               [
+                "",
                 "travel:huntersgrotto",
                 "travel:scyllasgrove",
                 "travel:ardortonstation",
@@ -110,6 +113,7 @@
                 "travel:terminus"
               ],
               [
+                "",
                 "travel:unassumingdocks",
                 "travel:flamerockrefuge",
                 "travel:theforest",
@@ -122,16 +126,18 @@
                 "travel:thewingedstorm"
               ],
               [
+                "",
                 "travel:ffsintrosanctuary",
                 "travel:thebackburner",
                 "travel:dahlabandon",
                 "travel:theburrows",
                 "travel:heliosfallen",
-                "travel:mt.scarabresearchcenter",
+                "travel:mtscarabresearchcenter",
                 "travel:ffsbossfight",
                 "travel:writhingdeep"
               ],
               [
+                "",
                 "travel:hallowedhollow",
                 "travel:gluttonygulch",
                 "travel:marcussmercenaryshop",
