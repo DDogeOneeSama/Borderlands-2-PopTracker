@@ -88,7 +88,7 @@
     "codes": "travel:friendshipgulag"
   },
   {
-    "name": "Travel: Tundrae Express",
+    "name": "Travel: Tundra Express",
     "type": "toggle",
     "img": "images/items/travel/tundraexpress.png",
     "initial_active_state": false,
