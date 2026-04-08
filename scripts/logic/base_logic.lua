@@ -11,7 +11,8 @@ function CreateRegion(options) --Base region creation, call to initialize region
     connecting_regions = options.connecting_regions or {}, -- regions this region goes to
     story_req_regions = options.story_req_regions or {}, -- unconnected regions also required to get to this region
     dlc_group = options.dlc_group or "basegame",
-    any_entrance = options.any_entrance or {} -- Regions where you need to be able to access one of them to be able to access this region
+    any_entrance = options.any_entrance or {}, -- Regions where you need to be able to access one of them to be able to access this region
+    multi_entrance = options.multi_entrance or {} -- For regions with multiple entrances
     }
 end
 
@@ -106,7 +107,7 @@ local regions = { --List of all regions, created with CreateRegion command passe
 
   HuntersGrotto = CreateRegion{regName = "HuntersGrotto", level_req = 30, travel_item_name = "travel:huntersgrotto", connecting_regions = {"ScyllasGrove", "CandlerakksCrag", "ArdortonStation"}, dlc_group = "hammerlock"},
   ScyllasGrove = CreateRegion{regName = "ScyllasGrove", level_req = 30, travel_item_name = "travel:scyllasgrove", connecting_regions = {"ArdortonStation"}, dlc_group = "hammerlock"},
-  ArdortonStation = CreateRegion{regName = "ArdortonStation", level_req = 30, travel_item_name = "travel:ardortonstation", story_req_regions = {"ScyllasGrove"}, dlc_group = "hammerlock", any_entrance = {"ScyllasGrove", "HuntersGrotto"}},
+  ArdortonStation = CreateRegion{regName = "ArdortonStation", level_req = 30, travel_item_name = "travel:ardortonstation", story_req_regions = {"ScyllasGrove"}, dlc_group = "hammerlock", multi_entrance = {"ScyllasGrove", "HuntersGrotto"}},
   CandlerakksCrag = CreateRegion{regName = "CandlerakksCrag", level_req = 30, travel_item_name = "travel:candlerakkscragg", connecting_regions = {"Terminus"}, story_req_regions = {"ArdortonStation"}, dlc_group = "hammerlock"},
   Terminus = CreateRegion{regName = "Terminus", level_req = 30, travel_item_name = "travel:terminus", dlc_group = "hammerlock"},
 
@@ -177,53 +178,53 @@ function RegionOpen(region)
   if region == "Menu" then return true end
   if region == "WindshearWaste" then return true end
   if region == "Level0" then return true end
+  if(~(HasTravelItem(region))) then -- If you dont have the travel item for the region, return false
+    return false
+  end
+  if(regions[region].multi_entrance ~= {}) then  -- If has multiple entrances, check if can access any of the entrances
+    return (CanAccessAnyRegions(regions[region].multi_entrance)) -- Needs to be updated in the case of entrance randomizer
+  end
   for _, entranceToCheck in ipairs(entrances) do
     if(entranceToCheck.exitRegion == region) then
-      if(HasTravelItem(region)) then
-        if(entranceToCheck.storyRegions ~= {}) then
-          for _, storyToCheck in ipairs(entranceToCheck.storyRegions) do
-            if(~(RegionOpen(storyToCheck))) then
-              return false
-            end
-          end
-          if (~(RegionOpen(entranceToCheck.entryRegion))) then
-            return false
-          end
-          if (~(MiscCasesEntrances(entranceToCheck))) then
-            return false
-          end
-          if((~(entranceToCheck.any_entrance == {})) and (~(CanAccessAnyRegions(entranceToCheck.any_entrance)))) then
-            return false
-          end
-          return true
-        else
-          if (~(RegionOpen(entranceToCheck.entryRegion))) then
-            return false
-          end
-          if (~(MiscCasesEntrances(entranceToCheck))) then
-            return false
-          end
-          if((~(entranceToCheck.any_entrance == {})) and (~(CanAccessAnyRegions(entranceToCheck.any_entrance)))) then
-            return false
-          end
-          return true
+      if(entranceToCheck.storyRegions ~= {}) then
+        if(~(CanAccessAllRegions(entranceToCheck.storyRegions))) then
+          return false
         end
+        if (~(RegionOpen(entranceToCheck.entryRegion))) then
+          return false
+        end
+        if (~(MiscCasesEntrances(entranceToCheck))) then
+          return false
+        end
+        if((~(entranceToCheck.any_entrance == {})) and (~(CanAccessAnyRegions(entranceToCheck.any_entrance)))) then
+          return false
+        end
+        return true
       else
-        return false
+        if (~(RegionOpen(entranceToCheck.entryRegion))) then
+          return false
+        end
+        if (~(MiscCasesEntrances(entranceToCheck))) then
+          return false
+        end
+        if((~(entranceToCheck.any_entrance == {})) and (~(CanAccessAnyRegions(entranceToCheck.any_entrance)))) then
+          return false
+        end
+        return true
       end
     end
   end
 end
 
 function HasTravelItem(regionToCheck)
-  if(Tracker:FindObjectForCode(regions[regionToCheck].travel_item_name).Active) then
-    return true -- return true if you have the travel item
-  elseif(regionToCheck == "WindshearWaste") then
+  if(regionToCheck == "WindshearWaste") then
     return true -- return true if checking windshear
   elseif(regionToCheck == "Menu") then
     return true -- return true if checking menu
   elseif(regionToCheck == "Level0") then
     return true -- return true if checking menu
+  elseif(Tracker:FindObjectForCode(regions[regionToCheck].travel_item_name).Active) then
+    return true -- return true if you have the travel item
   else
     return false
   end
@@ -301,18 +302,3 @@ function LevelLimit(level)
   end
   return true
 end
-
---Testing block, replace in RegionOpen for testing
-
---[[ 
-local itemsHad = {"travel:southernshelf", "travel:threehornsdivide", "travel:digistructpeak", "travel:magnyslighthouse", "travel:marcussmercenaryshop", "travel:threehornsvalley", "travel:southpawsteam&power", "travel:southernshelfbay"}
-function RegionPlaceholder(regionToCheck)
-  for _, items in ipairs(itemsHad)do
-    if(regions[regionToCheck].travel_item_name == items) then return true -- return true if you have the travel item
-    elseif(regionToCheck == "WindshearWaste") then return true -- return true if checking windshear
-    elseif(regionToCheck == "Menu") then return true end -- return true if checking menu
-  end
-end
-
-print(CanReachRegion("SouthpawSteam&Power"))
---]]
