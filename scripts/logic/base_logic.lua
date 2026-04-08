@@ -295,6 +295,12 @@ function OnLevel(level)
   end
 end
 
+function LevelLimit(level)
+  if((level > SLOT_DATA[max_level_checks]) and (SLOT_DATA[max_level_checks] ~= 0)) then -- false if over max check level
+    return false
+  end
+  return true
+end
 
 --Testing block, replace in RegionOpen for testing
 
