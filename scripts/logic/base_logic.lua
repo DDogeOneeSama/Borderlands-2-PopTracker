@@ -144,7 +144,7 @@ local entrances = {}
 for _, region in pairs(regions) do -- check every region
   if (regions[region.regName].connecting_regions ~= {}) then -- if region has connecting_regions
     for _, connectingRegion in ipairs(region.connecting_regions) do -- then for every connecting region
-      table.insert(entrances, {entryRegion = region.regName, exitRegion = connectingRegion, travelItem = regions[connectingRegion].travel_item_name, storyRegions = regions[connectingRegion].story_req_regions, anyEntrance = region.any_entrance}) -- create an entrance
+      table.insert(entrances, {entryRegion = region.regName, exitRegion = connectingRegion, storyRegions = regions[connectingRegion].story_req_regions, anyEntrance = region.any_entrance}) -- create an entrance
     end
   end
 end
@@ -255,6 +255,7 @@ function MiscCasesEntrances(entranceToCheck)
 end
 
 function JumpHeight(height)
+  height = tonumber(height)
   if(SLOT_DATA[jump_checks] == 0) then
     return true
   elseif(height < 220) then  -- Height with no jump items
@@ -271,6 +272,7 @@ function JumpHeight(height)
 end
 
 function OnLevel(level)
+  level = tonumber(level)
   if((level > SLOT_DATA[max_level_checks]) and (SLOT_DATA[max_level_checks] ~= 0)) then -- false if over max check level
     return false
   end
@@ -297,6 +299,7 @@ function OnLevel(level)
 end
 
 function LevelLimit(level)
+  level = tonumber(level)
   if((level > SLOT_DATA[max_level_checks]) and (SLOT_DATA[max_level_checks] ~= 0)) then -- false if over max check level
     return false
   end
