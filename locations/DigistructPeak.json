@@ -1,147 +1,144 @@
 [
-    {
+  {
+    "name": "DigistructPeak",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "overlay_background": "#000000",
+    "access_rules": [
+      "$RegionOpen|DigistructPeak"
+    ],
+    "visibility_rules": [],
+    "children": [
+      {
         "name": "DigistructPeak",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+          " "
         ],
-        "children": [
-            {
-                "name": "DigistructPeak",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Gun Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Butcher Base",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "A History of Simulated Violence",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "More History of Simulated Violence",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dr T and the Vault Hunters",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DigistructPeak",
-                        "x": 2394,
-                        "y": 1834,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "DigistructPeakInner",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest - #7",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #6",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #8",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #5",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #2",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #3",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #1",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #4",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - #9",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DigistructPeak",
-                        "x": 816,
-                        "y": 1038,
-                        "size": 6
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "A History of Simulated Violence",
+            "access_rules": ["$OnLevel|30"],
+            "visibility_rules": ["$LevelLimit|30"],
+            "item_count": 1
+          },
+          {
+            "name": "More History of Simulated Violence",
+            "access_rules": ["$OnLevel|30"],
+            "visibility_rules": ["$LevelLimit|30"],
+            "item_count": 1
+          },
+          {
+            "name": "Dr T and the Vault Hunters",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
         ]
-    }
+      },
+      {
+        "name": "DigistructPeak",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "visibility_rules":[],
+        "sections": [
+          {
+            "name": "Gun Vendor - Entrance",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Entrance",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Entrance",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Butcher Base",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "DigistructPeakInner",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Chest - #7",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #6",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #8",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #5",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #2",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #3",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #1",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #4",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #9",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
 ]
