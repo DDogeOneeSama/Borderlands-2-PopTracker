@@ -164,7 +164,7 @@ function CanAccessAllRegions(regionArray)
 end
 
 function CanAccessAnyRegions(regionArray)
-  if(regionArray == "") then return true end
+  if(regionArray == {}) then return true end
   for _, regionToCheck in ipairs(regionArray) do
     if((RegionOpen(regionToCheck))) then
       return true
@@ -192,7 +192,7 @@ function RegionOpen(region)
           if (~(MiscCasesEntrances(entranceToCheck))) then
             return false
           end
-          if(~(CanAccessAnyRegions(entranceToCheck.any_entrance))) then
+          if((~(entranceToCheck.any_entrance == {})) and (~(CanAccessAnyRegions(entranceToCheck.any_entrance)))) then
             return false
           end
           return true
@@ -203,7 +203,7 @@ function RegionOpen(region)
           if (~(MiscCasesEntrances(entranceToCheck))) then
             return false
           end
-          if(~(CanAccessAnyRegions(entranceToCheck.any_entrance))) then
+          if((~(entranceToCheck.any_entrance == {})) and (~(CanAccessAnyRegions(entranceToCheck.any_entrance)))) then
             return false
           end
           return true
@@ -269,37 +269,26 @@ function JumpHeight(height)
   return (currentJump >= height)
 end
 
-local fiveToSix =
-{"SouthernShelf", "SouthernShelfBay"}
-
-local tenToEleven =
-{"ThreeHornsDivide", "ThreeHornsValley", "FrostburnCanyon", "SouthpawSteam&Power", "FriendshipGulag"}
-
-local fifteenToSixteen =
-{"Dust", "BloodshotStronghold", "BloodshotRamparts", "Fridge", "HighlandsOutwash",
-"FinksSlaughterhouse", "SanctuaryHole", "TundraExpress", "EndOfTheLine", "MarcusMercenaryShop",
-"GluttonyGulch", "RotgutDistillery", "WamBamIsland", "HallowedHollow", "BadassCrater", "Oasis"}
-
-local twentyToTwentyone =
-{"Highlands", "CausticCaverns", "WildlifeExploitationPreserve", "NaturalSelectionAnnex",
-"Opportunity", "ThousandCuts", "PyroPetesBar", "Forge", "MagnysLighthouse", "LeviathansLair"}
-
-local twentyfiveToTwentysix =
-{"Lynchwood", "Bunker", "EridiumBlight", "SawtoothCauldron"}
-
-local thirtyToThirtyone =
-{"VaultOfTheWarrior"}
-
 function OnLevel(level)
   if((level > SLOT_DATA[max_level_checks]) and (SLOT_DATA[max_level_checks] ~= 0)) then -- false if over max check level
     return false
   end
   if level == 0 then
     return true
-  elseif (level > 0) then
-    if(level <= 5) then
-
-    end
+  elseif (1 <= level <= 5) then
+    return RegionOpen("Level1to5")
+  elseif (6 <= level <= 10) then
+    return RegionOpen("Level6to10")
+  elseif (11 <= level <= 15) then
+    return RegionOpen("Level11to15")
+  elseif (16 <= level <= 20) then
+    return RegionOpen("Level16to20")
+  elseif (21 <= level <= 25) then
+    return RegionOpen("Level21to25")
+  elseif (26 <= level <= 30) then
+    return RegionOpen("Level26to30")
+  elseif (level > 30) then
+    return RegionOpen("Level31+")
   else
     print("Error placeholder")
     return false
