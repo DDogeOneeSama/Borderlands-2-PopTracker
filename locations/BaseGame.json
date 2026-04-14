@@ -7,6 +7,9 @@
     "access_rules": [
       " "
     ],
+    "visibility_rules": [
+      " "
+    ],
     "children": [
       {
         "name": "Sanctuary",
@@ -14,111 +17,12 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-          "$CanReach|MarcusMercenaryShop"
+          "$CanReachRegion|Sanctuary"
+        ],
+        "visibility_rules": [
+          ""
         ],
         "sections": [
-          {
-            "name": "Symbol - Rooftop",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Moxxis Corner",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Trash Corner",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Tire Corner",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Parkour Door",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Gun Vendor - Crimson Raider Base",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Ammo Vendor - Crimson Raider Base",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Ammo Vendor - Dr Zeds",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Med Vendor 1 - Dr Zeds",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Med Vendor 2 - Dr Zeds",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Med Vendor - Marcus Munitions",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Ammo Vendor - Marcus Munitions",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Gun Vendor - Marcus Munitions",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Jackpot!",
-            "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Rise of the Crimson Raiders",
-            "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Rolands Armory",
-            "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
-            "item_count": 1
-          },
           {
             "name": "Plan B",
             "access_rules": [],
@@ -407,13 +311,163 @@
             "visibility_rules": [],
             "item_count": 1
           }
+        ]
+      },
+      {
+        "name": "Sanctuary",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Sanctuary"
         ],
-        "map_locations": [
+        "visibility_rules": [
+          ""
+        ],
+        "sections": [
           {
-            "map": "Sanctuary",
-            "x": 300,
-            "y": 300,
-            "size": 6
+            "name": "Symbol - Rooftop",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Moxxis Corner",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Trash Corner",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Tire Corner",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Parkour Door",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sanctuary",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Sanctuary"
+        ],
+        "visibility_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Gun Vendor - Crimson Raider Base",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Crimson Raider Base",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Dr Zeds",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor 1 - Dr Zeds",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor 2 - Dr Zeds",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Marcus Munitions",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Marcus Munitions",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Gun Vendor - Marcus Munitions",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sanctuary",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Sanctuary"
+        ],
+        "visibility_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Challenge - Jackpot!",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Rise of the Crimson Raiders",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sanctuary",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Sanctuary"
+        ],
+        "visibility_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Chest - Rolands Armory",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
           }
         ]
       },
@@ -425,31 +479,10 @@
         "access_rules": [
           " "
         ],
+        "visibility_rules": [
+          " "
+        ],
         "sections": [
-          {
-            "name": "Enemy - Knuckle Dragger",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Claptraps Closet",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Blindsided",
-            "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
-            "item_count": 1
-          },
           {
             "name": "My First Gun",
             "access_rules": [],
@@ -468,13 +501,85 @@
             "visibility_rules": [],
             "item_count": 1
           }
+        ]
+      },
+      {
+        "name": "WindshearWaste",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
         ],
-        "map_locations": [
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
-            "map": "BaseGame",
-            "x": 1031,
-            "y": 896,
-            "size": 6
+            "name": "Enemy - Knuckle Dragger",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "WindshearWaste",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Symbol - Claptraps Closet",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "WindshearWaste",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "WindshearWaste",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Chest - Blindsided",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
           }
         ]
       },
@@ -484,117 +589,12 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|SouthernShelf"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
-          {
-            "name": "Enemy - Boom",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Enemy - Bewm",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Enemy - Captain Flynt",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Flynts Ship",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Safehouse",
-            "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Gun Vendor - Liars Berg",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Ammo Vendor - Liars Berg",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Med Vendor - Liars Berg",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Med Vendor - Safehouse",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Med Vendor - The Soaring Dragon",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Ammo Vendor - The Soaring Dragon",
-            "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Make Boom Go Boom",
-            "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Fireproof",
-            "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Boom Bewm Elevator",
-            "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Gateway Harbor Shipwreck",
-            "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Captain Flynts Chest",
-            "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Roaring Dragon Camp",
-            "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
-            "item_count": 1
-          },
           {
             "name": "The Road to Sanctuary",
             "access_rules": [],
@@ -637,13 +637,183 @@
             "visibility_rules": [],
             "item_count": 1
           }
+        ]
+      },
+      {
+        "name": "SouthernShelf",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelf"
         ],
-        "map_locations": [
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
-            "map": "BaseGame",
-            "x": 1116,
-            "y": 190,
-            "size": 6
+            "name": "Enemy - Boom",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Bewm",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Captain Flynt",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelf",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelf"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Symbol - Flynts Ship",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Safehouse",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelf",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelf"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Gun Vendor - Liars Berg",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Liars Berg",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Liars Berg",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Safehouse",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - The Soaring Dragon",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - The Soaring Dragon",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelf",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelf"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Challenge - Make Boom Go Boom",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Fireproof",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelf",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelf"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Chest - Boom Bewm Elevator",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Gateway Harbor Shipwreck",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Captain Flynts Chest",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Roaring Dragon Camp",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
           }
         ]
       },
@@ -653,6 +823,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|SouthernShelfBay"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -661,92 +834,140 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelfBay",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelfBay"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Blackburn Cove Corner",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Ice Flows Shipwreck",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelfBay",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelfBay"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Blackburn Cove",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Blackburn Cove",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Blackburn Cove",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelfBay",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelfBay"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - I Can See Your Corpse from Here!",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Vault Hunter on Wire",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Midgemong Has No Friends",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthernShelfBay",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthernShelfBay"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Midgemongs Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Cove Ship",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 837,
-            "y": 1915,
-            "size": 6
           }
         ]
       },
@@ -756,6 +977,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|ThreeHornsDivide"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -774,82 +998,74 @@
           {
             "name": "Symbol - Drydocks Corner",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Billboard",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Windbreak Wall",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Starting Area",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Starting Area",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Fast Travel Station",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Fast Travel Station",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Fast Travel Station",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Mans Best Friends",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Windbreak Car Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Drydocks Upstairs",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1561,
-            "y": 2490,
-            "size": 6
           }
         ]
       },
@@ -859,6 +1075,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|FrostburnCanyon"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -883,85 +1102,85 @@
           {
             "name": "Symbol - Blisterpus Cave",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Ashmouth Pit",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Firehawk Lair",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Firehawk Lair",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Totems of Fire",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Praise Be to Scorch",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Burning Sensation",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Incinerator Camp",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Above Spawn",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Spycho Area",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - After Firehawk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -994,14 +1213,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 517,
-            "y": 626,
-            "size": 6
-          }
         ]
       },
       {
@@ -1010,6 +1221,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|ThreeHornsValley"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1028,55 +1242,55 @@
           {
             "name": "Symbol - Slums Wall",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Frostsprings Wall",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Frostsprings Shack",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Happy Pig Motel",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Happy Pig Motel",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Happy Pig Motel",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - This Aint My First Rodeo",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Split Skull Bay Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -1109,14 +1323,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 632,
-            "y": 2466,
-            "size": 6
-          }
         ]
       },
       {
@@ -1125,6 +1331,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|SouthpawSteam&Power"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1155,64 +1364,56 @@
           {
             "name": "Symbol - Before Oney Parkour",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Reeth Area Engine",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Ladder",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Boss Run",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - After Rouf",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - After Oney",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1268,
-            "y": 2114,
-            "size": 6
           }
         ]
       },
@@ -1222,6 +1423,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|Dust"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1258,103 +1462,103 @@
           {
             "name": "Symbol - Speedway Wall",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Buzzard Pad",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Moonshiner Lid",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Ellies Garage",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Ellies Garage",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Hodunk Speedway",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Hodunk Speedway",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Steve",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Steve",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Old Dahlwell Oasis",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Old Dahlwell Oasis",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Ive Got a Crush on You",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - The Van Is Damned",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - If Youre Not First, Youre Last",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Dust to Dust",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Gooses Roost Volleyball Net",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -1405,14 +1609,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1240,
-            "y": 829,
-            "size": 6
-          }
         ]
       },
       {
@@ -1421,6 +1617,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|BloodshotStronghold"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1463,82 +1662,74 @@
           {
             "name": "Symbol - Pizza Intercom",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Switch Room",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Eff Yo Couch",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cut Em No Slack",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Give It a Whirl",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Bloodshot Memories",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Electric Gate",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Jail Cell",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Flinters Room",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 268,
-            "y": 33,
-            "size": 6
           }
         ]
       },
@@ -1548,6 +1739,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|BloodshotRamparts"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1560,55 +1754,55 @@
           {
             "name": "Symbol - Ramp",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - The Last Place You Look",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - The Not-So-Phantom Tollbooth",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Marcus Sacrifice",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Car Junkyard Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - W4R-D3N Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -1616,14 +1810,6 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 396,
-            "y": 517,
-            "size": 6
           }
         ]
       },
@@ -1633,58 +1819,53 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|FriendshipGulag"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
           {
             "name": "Symbol - Gulag Container",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - In the Middle of the Night",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Carson Cell",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Gulag Awning",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2114,
-            "y": 857,
-            "size": 6
           }
         ]
       },
@@ -1694,6 +1875,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|TundraExpress"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1718,85 +1902,85 @@
           {
             "name": "Symbol - Fork Shack",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Facility Roof",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Old Man Johnsons Farm",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Tiny Tinas Workshop",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Bug Off",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Whats Yours Is Mine",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Positive Reinforcements",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - King of the Buzzard World",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Mount Molehill Mine Top",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Varkid Ranch Observatory",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - South Western",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -1829,14 +2013,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1412,
-            "y": 408,
-            "size": 6
-          }
         ]
       },
       {
@@ -1845,6 +2021,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|EndOfTheLine"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1857,40 +2036,32 @@
           {
             "name": "Symbol - Wilhelm Wall",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Master of All He Surveys",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1965,
-            "y": 391,
-            "size": 6
           }
         ]
       },
@@ -1900,6 +2071,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|Fridge"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1978,97 +2152,97 @@
           {
             "name": "Symbol - Secret Stash",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Sheetmetal Roof",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Exit Elevator",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Exit Elevator",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Stiff Competition",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Trapped Rat",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Fairest of Them All",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Its Off to Hell We Go",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - The Rakk Knight",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Rakkmans Lair",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Chest - Sinkholes Pit",
+            "name": "Chest - Stalker Hollow",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Three Switch Electric Gate",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Smashheads Cave",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2076,14 +2250,6 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 279,
-            "y": 2111,
-            "size": 6
           }
         ]
       },
@@ -2093,37 +2259,40 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|FinksSlaughterhouse"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
           {
             "name": "Symbol - Column",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2156,14 +2325,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 182,
-            "y": 2334,
-            "size": 6
-          }
         ]
       },
       {
@@ -2172,6 +2333,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|HighlandsOutwash"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -2190,28 +2354,20 @@
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Old Slappy Tower",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1474,
-            "y": 1720,
-            "size": 6
           }
         ]
       },
@@ -2221,6 +2377,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|Highlands"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -2233,55 +2392,55 @@
           {
             "name": "Symbol - Highlands Tower",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Bridge",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Bridge",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Overlook",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Overlook",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Winds of the Highlands",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Failure to Communicate",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Blake Bridge Fall",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2320,14 +2479,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 879,
-            "y": 45,
-            "size": 6
-          }
         ]
       },
       {
@@ -2336,6 +2487,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|HolySpirits"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -2348,37 +2502,37 @@
           {
             "name": "Symbol - Bathroom",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Holy Spirits",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Holy Spirits",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Holy Spirits",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - The Stash",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2386,14 +2540,6 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2184,
-            "y": 1212,
-            "size": 6
           }
         ]
       },
@@ -2403,6 +2549,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|WildlifeExploitationPreserve"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -2427,106 +2576,98 @@
           {
             "name": "Symbol - Dockyard Roof",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Broken Boulevard",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Halfway",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Halfway",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Mordys Secret Stashes",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Bear Minimum",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Ride Together, Die Together",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Sirens Song",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Observation Wing #1",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Dockyard",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Loot Midget Room",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Observation Wing #2",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Mordys Secret Stash",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2186,
-            "y": 2284,
-            "size": 6
           }
         ]
       },
@@ -2536,31 +2677,34 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|NaturalSelectionAnnex"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
           {
             "name": "Symbol - Crate Ceiling",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Natural Selection Annex",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Natural Selection Annex",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2593,14 +2737,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2183,
-            "y": 1387,
-            "size": 6
-          }
         ]
       },
       {
@@ -2609,6 +2745,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|Opportunity"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -2627,133 +2766,133 @@
           {
             "name": "Symbol - Construction Site",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Office Bridge",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Hyperion Office Complex",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Hyperion Office Complex",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Opportunity Square",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Opportunity Square",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Residential Quarter",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Residential",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Shame the Foreman",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Top o the World",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Down With Big, Handsome Brother",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Opportunity Knocks",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Home Movies Crate",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Home Movies Upload Room",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Voice Modulator Room",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Orbital Delivery Zone",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Southern Construction Site",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Random Rooftop",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2768,14 +2907,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2495,
-            "y": 2391,
-            "size": 6
-          }
         ]
       },
       {
@@ -2784,6 +2915,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|ThousandCuts"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -2808,73 +2942,73 @@
           {
             "name": "Symbol - Buzzard Factory",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - No Mans Land Shack",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Slab Town",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Slab Town",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Slab UHF",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - A Grave Matter",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Portrait of the Gunzerker as a Young Man",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Slab UHF",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Buzzard Factory",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Control Core Loading Dock",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Super Badass Constructor",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2895,14 +3029,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1088,
-            "y": 471,
-            "size": 6
-          }
         ]
       },
       {
@@ -2911,6 +3037,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|Bunker"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -2923,55 +3052,55 @@
           {
             "name": "Symbol - Backside",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Bunker",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Bunker",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - BNK-3R Buster",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Back Room",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Marcus #1",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Marcus #2",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Marcus #3",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -2979,14 +3108,6 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1866,
-            "y": 193,
-            "size": 6
           }
         ]
       },
@@ -2996,58 +3117,53 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|SanctuaryHole"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
           {
             "name": "Symbol - Staircase Wall",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Sanctuary Hole",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Sanctuary Hole",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Down the Rabbit Hole",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Sugar Shack",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Generator Room",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1977,
-            "y": 2396,
-            "size": 6
           }
         ]
       },
@@ -3057,6 +3173,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|CausticCaverns"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -3075,79 +3194,79 @@
           {
             "name": "Symbol - Gravestone Feature",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Bloody Ladder",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Shortcut",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Harcheks Revenge",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Ever Blow Bubbles",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - I Bet I Can Make It",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cant Feel A Thing",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Treasure Chest",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Nether Hive",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Infested Warehouse",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -3162,14 +3281,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2209,
-            "y": 496,
-            "size": 6
-          }
         ]
       },
       {
@@ -3178,6 +3289,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|Lynchwood"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -3208,91 +3322,91 @@
           {
             "name": "Symbol - Gunslinger Roof",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Main Street",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Gunslingers Corner",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Duel of Death",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Thats Impossible, Even for a Computer",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Look Ma, No Hands",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Last Train to Nowhere",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Do or Die",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - MadDog Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Gunslinger Top Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Outskirts Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Gunslinger Lower Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -3337,14 +3451,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2400,
-            "y": 2237,
-            "size": 6
-          }
         ]
       },
       {
@@ -3353,6 +3459,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|EridiumBlight"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -3371,139 +3480,139 @@
           {
             "name": "Symbol - Hellsfont Crate",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Stairs Door",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Refund Building",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Eridium Extraction Plant",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Eridium Extraction Plant",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Slagma Refinery",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Slagma Refinery",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Slagma Refinery",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Can You Hear Me Now",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Bring Out the Big Guns",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Tie Clip",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Twas Slag Killed the Beast",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Pipe Dreaming",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Save the Turrets",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Vault Hunter vs The Volcano",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Volcano Free",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Pipe Dreaming",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Eastern Chest",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Mount Hellsfont Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Infested Grotto Trunk",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -3542,14 +3651,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 363,
-            "y": 920,
-            "size": 6
-          }
         ]
       },
       {
@@ -3558,37 +3659,40 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|OreChasm"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
           {
             "name": "Symbol - Elevator",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -3621,14 +3725,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1021,
-            "y": 1076,
-            "size": 6
-          }
         ]
       },
       {
@@ -3637,6 +3733,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|SawtoothCauldron"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -3649,79 +3748,79 @@
           {
             "name": "Symbol - Refinery Container",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Elevator",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Elevator",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Happy Camper",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Race to the Top",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Haiku Hitman",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Smoking Guano Grotto Platform",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Avies Camp",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Cramfists Foundry",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Mortars Elevator",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -3736,14 +3835,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 2469,
-            "y": 831,
-            "size": 6
-          }
         ]
       },
       {
@@ -3752,6 +3843,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|AridNexusBoneyard"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -3764,55 +3858,55 @@
           {
             "name": "Symbol - Pipe",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Symbol - Safety",
+            "name": "Symbol - Turret South of Spawn",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Dead Air",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Under Pressure",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Eridium Pump Station 2",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Eridium Pump Station 3",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -3820,14 +3914,6 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 930,
-            "y": 1842,
-            "size": 6
           }
         ]
       },
@@ -3837,6 +3923,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|AridNexusBadlands"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -3855,61 +3944,61 @@
           {
             "name": "Ammo Vendor - Fyrestone",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Fyrestone",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - TK Bahas House",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Boned",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Hey! Over Here!",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - The Beginning of the End",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Zeds Old Home",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Hyperion Info Stockade",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Hey! Over Here!",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Fyrestone Motel Roof",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -3930,14 +4019,6 @@
             "visibility_rules": [],
             "item_count": 1
           }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 440,
-            "y": 154,
-            "size": 6
-          }
         ]
       },
       {
@@ -3946,64 +4027,59 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|HerosPass"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
           {
             "name": "Symbol - Strut",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Spawn",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - When Nature Calls",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Environmental Protection",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Volcano Entrance",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 1950,
-            "y": 805,
-            "size": 6
           }
         ]
       },
@@ -4013,6 +4089,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|VaultOfTheWarrior"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -4025,52 +4104,44 @@
           {
             "name": "Symbol - Elevator Bottom",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Fast Travel Station",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Fast Travel Station",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - The Warriors Way",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Dying of the Light",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Lava River Cave",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 277,
-            "y": 375,
-            "size": 6
           }
         ]
       },
@@ -4080,6 +4151,9 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
+          "$CanReachRegion|TerramorphousPeak"
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -4092,55 +4166,55 @@
           {
             "name": "Symbol - Dropdown",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Symbol - Elevator",
             "access_rules": [],
-            "visibility_rules": ["symbols_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": ["vendors_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Terramorphous the Not-So-Invincible",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["challenges_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Terramorphous #1",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
             "name": "Chest - Terramorphous #2",
             "access_rules": [],
-            "visibility_rules": ["chests_enabled"],
+            "visibility_rules": [],
             "item_count": 1
           },
           {
@@ -4148,14 +4222,6 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "BaseGame",
-            "x": 833,
-            "y": 621,
-            "size": 6
           }
         ]
       }
