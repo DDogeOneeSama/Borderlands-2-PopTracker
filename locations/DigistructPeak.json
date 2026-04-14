@@ -20,14 +20,22 @@
         "sections": [
           {
             "name": "A History of Simulated Violence",
-            "access_rules": ["$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
             "item_count": 1
           },
           {
             "name": "More History of Simulated Violence",
-            "access_rules": ["$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
             "item_count": 1
           },
           {
@@ -46,7 +54,7 @@
         "access_rules": [
           " "
         ],
-        "visibility_rules":[],
+        "visibility_rules": [],
         "sections": [
           {
             "name": "Gun Vendor - Entrance",
@@ -65,11 +73,56 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "DigistructPeakInner",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Butcher Base",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Arena of Anguish",
+            "access_rules": [
+              "$OnLevel|80"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|80"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Arena of Anguish",
+            "access_rules": [
+              "$OnLevel|80"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|80"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Tower of Torment",
+            "access_rules": [
+              "$OnLevel|80"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|80"
+            ],
             "item_count": 1
           }
         ]
@@ -84,57 +137,93 @@
         ],
         "sections": [
           {
-            "name": "Chest - #7",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - #6",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - #8",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - #5",
-            "access_rules": [],
-            "visibility_rules": [],
+            "name": "Chest - #1",
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
             "item_count": 1
           },
           {
             "name": "Chest - #2",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
             "item_count": 1
           },
           {
             "name": "Chest - #3",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - #1",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
             "item_count": 1
           },
           {
             "name": "Chest - #4",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #5",
+            "access_rules": [
+              "$OnLevel|30"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #6",
+            "access_rules": [
+              "$OnLevel|80"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|80"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #7",
+            "access_rules": [
+              "$OnLevel|80"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|80"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - #8",
+            "access_rules": [
+              "$OnLevel|80"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|80"
+            ],
             "item_count": 1
           },
           {
             "name": "Chest - #9",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": [
+              "$OnLevel|80"
+            ],
+            "visibility_rules": [
+              "$LevelLimit|80"
+            ],
             "item_count": 1
           }
         ]
