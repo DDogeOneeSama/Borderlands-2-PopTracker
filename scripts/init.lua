@@ -7,11 +7,7 @@ require("scripts/items_import")
 --require("scripts/logic/base_logic")
 
 -- Maps
-if Tracker.ActiveVariantUID == "maps-u" then
-    Tracker:AddMaps("maps/maps-u.json")  
-else
-    Tracker:AddMaps("maps/maps.json")  
-end  
+Tracker:AddMaps("maps/maps.json")
 
 -- Layout
 require("scripts/layouts")
