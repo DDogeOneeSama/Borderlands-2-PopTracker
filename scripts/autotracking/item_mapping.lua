@@ -8,6 +8,7 @@ ITEM_MAPPING = {
 	[2388008] = {{"melee", "toggle"}},
 	[2388009] = {{"crouch", "toggle"}},
 	[2388010] = {{"progressivesprint", "progressive"}},
+	[2388011] = {{"vehiclefire", "toggle"}},
 	[2388018] = {{"travel:aridnexusboneyard", "toggle"}},
 	[2388019] = {{"travel:theholyspirits", "toggle"}},
 	[2388020] = {{"travel:southpawsteam&power", "toggle"}},
