@@ -273,28 +273,24 @@ end
 
 function OnLevel(level)
   level = tonumber(level)
-  if((level > SLOT_DATA[max_level_checks]) and (SLOT_DATA[max_level_checks] ~= 0)) then -- false if over max check level
-    return false
-  end
   if level == 0 then
-    return true
-  elseif (1 <= level <= 5) then
-    return RegionOpen("Level1to5")
-  elseif (6 <= level <= 10) then
-    return RegionOpen("Level6to10")
-  elseif (11 <= level <= 15) then
-    return RegionOpen("Level11to15")
-  elseif (16 <= level <= 20) then
-    return RegionOpen("Level16to20")
-  elseif (21 <= level <= 25) then
-    return RegionOpen("Level21to25")
-  elseif (26 <= level <= 30) then
-    return RegionOpen("Level26to30")
-  elseif (level > 30) then
-    return RegionOpen("Level31+")
+    return AccessibilityLevel.Normal
+  elseif ((1 <= level <= 5) and (RegionOpen("Level1to5"))) then
+    return AccessibilityLevel.Normal
+  elseif ((6 <= level <= 10) and (RegionOpen("Level6to10"))) then
+    return AccessibilityLevel.Normal
+  elseif ((11 <= level <= 15) and RegionOpen("Level11to15")) then
+    return AccessibilityLevel.Normal
+  elseif ((16 <= level <= 20) and (RegionOpen("Level16to20"))) then
+    return AccessibilityLevel.Normal
+  elseif ((21 <= level <= 25) and (RegionOpen("Level21to25"))) then
+    return AccessibilityLevel.Normal
+  elseif ((26 <= level <= 30) and (RegionOpen("Level26to30"))) then
+    return AccessibilityLevel.Normal
+  elseif ((level > 30) and (RegionOpen("Level31+"))) then
+    return AccessibilityLevel.Normal
   else
-    print("Error placeholder")
-    return false
+    return AccessibilityLevel.SequenceBreak
   end
 end
 
