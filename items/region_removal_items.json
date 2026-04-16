@@ -1,0 +1,626 @@
+[
+  {
+    "name": "Enable Region: Sanctuary",
+    "type": "toggle",
+    "img": "images/items/travel/sanctuary.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_sanctuary"
+  },
+  {
+    "name": "Enable Region: Southern Shelf",
+    "type": "toggle",
+    "img": "images/items/travel/southernshelf.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_southernshelf"
+  },
+  {
+    "name": "Enable Region: Southern Shelf Bay",
+    "type": "toggle",
+    "img": "images/items/travel/southernshelfbay.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_southernshelfbay"
+  },
+  {
+    "name": "Enable Region: Three Horns Divide",
+    "type": "toggle",
+    "img": "images/items/travel/threehornsdivide.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_threehornsdivide"
+  },
+  {
+    "name": "Enable Region: Frostburn Canyon",
+    "type": "toggle",
+    "img": "images/items/travel/frostburncanyon.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_frostburncanyon"
+  },
+  {
+    "name": "Enable Region: Three Horns Valley",
+    "type": "toggle",
+    "img": "images/items/travel/threehornsvalley.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_threehornsvalley"
+  },
+  {
+    "name": "Enable Region: Southpaw Steam & Power",
+    "type": "toggle",
+    "img": "images/items/travel/southpawsteam&power.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_southpawsteam&power"
+  },
+  {
+    "name": "Enable Region: The Dust",
+    "type": "toggle",
+    "img": "images/items/travel/thedust.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_thedust"
+  },
+  {
+    "name": "Enable Region: Bloodshot Stronghold",
+    "type": "toggle",
+    "img": "images/items/travel/bloodshotstronghold.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_bloodshotstronghold"
+  },
+  {
+    "name": "Enable Region: Bloodshot Ramparts",
+    "type": "toggle",
+    "img": "images/items/travel/bloodshotramparts.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_bloodshotramparts"
+  },
+  {
+    "name": "Enable Region: Friendship Gulag",
+    "type": "toggle",
+    "img": "images/items/travel/friendshipgulag.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_friendshipgulag"
+  },
+  {
+    "name": "Enable Region: Tundra Express",
+    "type": "toggle",
+    "img": "images/items/travel/tundraexpress.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_tundraexpress"
+  },
+  {
+    "name": "Enable Region: End of the Line",
+    "type": "toggle",
+    "img": "images/items/travel/endoftheline.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_endoftheline"
+  },
+  {
+    "name": "Enable Region: The Fridge",
+    "type": "toggle",
+    "img": "images/items/travel/thefridge.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_thefridge"
+  },
+  {
+    "name": "Enable Region: Fink's Slaughterhouse",
+    "type": "toggle",
+    "img": "images/items/travel/finksslaughterhouse.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_finksslaughterhouse"
+  },
+  {
+    "name": "Enable Region: Highlands Outwash",
+    "type": "toggle",
+    "img": "images/items/travel/highlandsoutwash.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_highlandsoutwash"
+  },
+  {
+    "name": "Enable Region: Highlands",
+    "type": "toggle",
+    "img": "images/items/travel/highlands.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_highlands"
+  },
+  {
+    "name": "Enable Region: The Holy Spirits",
+    "type": "toggle",
+    "img": "images/items/travel/theholyspirits.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_theholyspirits"
+  },
+  {
+    "name": "Enable Region: Wildlife Exploitation Preserve",
+    "type": "toggle",
+    "img": "images/items/travel/wildlifeexploitationpreserve.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_wildlifeexploitationpreserve"
+  },
+  {
+    "name": "Enable Region: Natural Selection Annex",
+    "type": "toggle",
+    "img": "images/items/travel/naturalselectionannex.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_naturalselectionannex"
+  },
+  {
+    "name": "Enable Region: Opportunity",
+    "type": "toggle",
+    "img": "images/items/travel/opportunity.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_opportunity"
+  },
+  {
+    "name": "Enable Region: Thousand Cuts",
+    "type": "toggle",
+    "img": "images/items/travel/thousandcuts.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_thousandcuts"
+  },
+  {
+    "name": "Enable Region: The Bunker",
+    "type": "toggle",
+    "img": "images/items/travel/thebunker.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_thebunker"
+  },
+  {
+    "name": "Enable Region: Control Core Angel",
+    "type": "toggle",
+    "img": "images/items/travel/controlcoreangel.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_controlcoreangel"
+  },
+  {
+    "name": "Enable Region: Sanctuary Hole",
+    "type": "toggle",
+    "img": "images/items/travel/sanctuaryhole.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_sanctuaryhole"
+  },
+  {
+    "name": "Enable Region: Caustic Caverns",
+    "type": "toggle",
+    "img": "images/items/travel/causticcaverns.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_causticcaverns"
+  },
+  {
+    "name": "Enable Region: Lynchwood",
+    "type": "toggle",
+    "img": "images/items/travel/lynchwood.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_lynchwood"
+  },
+  {
+    "name": "Enable Region: Eridium Blight",
+    "type": "toggle",
+    "img": "images/items/travel/eridiumblight.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_eridiumblight"
+  },
+  {
+    "name": "Enable Region: Ore Chasm",
+    "type": "toggle",
+    "img": "images/items/travel/orechasm.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_orechasm"
+  },
+  {
+    "name": "Enable Region: Sawtooth Cauldron",
+    "type": "toggle",
+    "img": "images/items/travel/sawtoothcauldron.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_sawtoothcauldron"
+  },
+  {
+    "name": "Enable Region: Arid Nexus Boneyard",
+    "type": "toggle",
+    "img": "images/items/travel/aridnexusboneyard.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_aridnexusboneyard"
+  },
+  {
+    "name": "Enable Region: Arid Nexus Badlands",
+    "type": "toggle",
+    "img": "images/items/travel/aridnexusbadlands.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_aridnexusbadlands"
+  },
+  {
+    "name": "Enable Region: Hero's Pass",
+    "type": "toggle",
+    "img": "images/items/travel/herospass.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_herospass"
+  },
+  {
+    "name": "Enable Region: Vault of the Warrior",
+    "type": "toggle",
+    "img": "images/items/travel/vaultofthewarrior.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_vaultofthewarrior"
+  },
+  {
+    "name": "Enable Region: Terramorphous Peak",
+    "type": "toggle",
+    "img": "images/items/travel/terramorphouspeak.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_terramorphouspeak"
+  },
+  {
+    "name": "Enable Region: Digistruct Peak",
+    "type": "toggle",
+    "img": "images/items/travel/digistructpeak.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_digistructpeak"
+  },
+  {
+    "name": "Enable Region: Oasis",
+    "type": "toggle",
+    "img": "images/items/travel/oasis.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_oasis"
+  },
+  {
+    "name": "Enable Region: Wurmwater",
+    "type": "toggle",
+    "img": "images/items/travel/wurmwater.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_wurmwater"
+  },
+  {
+    "name": "Enable Region: Hayter's Folly",
+    "type": "toggle",
+    "img": "images/items/travel/haytersfolly.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_haytersfolly"
+  },
+  {
+    "name": "Enable Region: The Rustyards",
+    "type": "toggle",
+    "img": "images/items/travel/therustyards.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_therustyards"
+  },
+  {
+    "name": "Enable Region: Washburne Refinery",
+    "type": "toggle",
+    "img": "images/items/travel/washburnerefinery.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_washburnerefinery"
+  },
+  {
+    "name": "Enable Region: Magnys Lighthouse",
+    "type": "toggle",
+    "img": "images/items/travel/magnyslighthouse.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_magnyslighthouse"
+  },
+  {
+    "name": "Enable Region: The Leviathan's Lair",
+    "type": "toggle",
+    "img": "images/items/travel/theleviathanslair.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_theleviathanslair"
+  },
+  {
+    "name": "Enable Region: Badass Crater",
+    "type": "toggle",
+    "img": "images/items/travel/badasscrater.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_badasscrater"
+  },
+  {
+    "name": "Enable Region: Torgue Arena",
+    "type": "toggle",
+    "img": "images/items/travel/torguearena.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_torguearena"
+  },
+  {
+    "name": "Enable Region: The Beatdown",
+    "type": "toggle",
+    "img": "images/items/travel/thebeatdown.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_thebeatdown"
+  },
+  {
+    "name": "Enable Region: Pyro Pete's Bar",
+    "type": "toggle",
+    "img": "images/items/travel/pyropetesbar.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_pyropetesbar"
+  },
+  {
+    "name": "Enable Region: Badass Crater Bar",
+    "type": "toggle",
+    "img": "images/items/travel/badasscraterbar.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_badasscraterbar"
+  },
+  {
+    "name": "Enable Region: Southern Raceway",
+    "type": "toggle",
+    "img": "images/items/travel/southernraceway.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_southernraceway"
+  },
+  {
+    "name": "Enable Region: The Forge",
+    "type": "toggle",
+    "img": "images/items/travel/theforge.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_theforge"
+  },
+  {
+    "name": "Enable Region: Hunter's Grotto",
+    "type": "toggle",
+    "img": "images/items/travel/huntersgrotto.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_huntersgrotto"
+  },
+  {
+    "name": "Enable Region: Scylla's Grove",
+    "type": "toggle",
+    "img": "images/items/travel/scyllasgrove.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_scyllasgrove"
+  },
+  {
+    "name": "Enable Region: Ardorton Station",
+    "type": "toggle",
+    "img": "images/items/travel/ardortonstation.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_ardortonstation"
+  },
+  {
+    "name": "Enable Region: Candlerakk's Cragg",
+    "type": "toggle",
+    "img": "images/items/travel/candlerakkscragg.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_candlerakkscragg"
+  },
+  {
+    "name": "Enable Region: Terminus",
+    "type": "toggle",
+    "img": "images/items/travel/terminus.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_terminus"
+  },
+  {
+    "name": "Enable Region: Unassuming Docks",
+    "type": "toggle",
+    "img": "images/items/travel/unassumingdocks.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_unassumingdocks"
+  },
+  {
+    "name": "Enable Region: Flamerock Refuge",
+    "type": "toggle",
+    "img": "images/items/travel/flamerockrefuge.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_flamerockrefuge"
+  },
+  {
+    "name": "Enable Region: The Forest",
+    "type": "toggle",
+    "img": "images/items/travel/theforest.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_theforest"
+  },
+  {
+    "name": "Enable Region: Immortal Woods",
+    "type": "toggle",
+    "img": "images/items/travel/immortalwoods.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_immortalwoods"
+  },
+  {
+    "name": "Enable Region: Mines of Avarice",
+    "type": "toggle",
+    "img": "images/items/travel/minesofavarice.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_minesofavarice"
+  },
+  {
+    "name": "Enable Region: Hatred's Shadow",
+    "type": "toggle",
+    "img": "images/items/travel/hatredsshadow.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_hatredsshadow"
+  },
+  {
+    "name": "Enable Region: Lair of Infinite Agony",
+    "type": "toggle",
+    "img": "images/items/travel/lairofinfiniteagony.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_lairofinfiniteagony"
+  },
+  {
+    "name": "Enable Region: Dragon Keep",
+    "type": "toggle",
+    "img": "images/items/travel/dragonkeep.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_dragonkeep"
+  },
+  {
+    "name": "Enable Region: Murderlin's Temple",
+    "type": "toggle",
+    "img": "images/items/travel/murderlinstemple.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_murderlinstemple"
+  },
+  {
+    "name": "Enable Region: The Winged Storm",
+    "type": "toggle",
+    "img": "images/items/travel/thewingedstorm.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_thewingedstorm"
+  },
+  {
+    "name": "Enable Region: FFS Intro Sanctuary",
+    "type": "toggle",
+    "img": "images/items/travel/ffsintrosanctuary.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_ffsintrosanctuary"
+  },
+  {
+    "name": "Enable Region: The Backburner",
+    "type": "toggle",
+    "img": "images/items/travel/thebackburner.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_thebackburner"
+  },
+  {
+    "name": "Enable Region: Dahl Abandon",
+    "type": "toggle",
+    "img": "images/items/travel/dahlabandon.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_dahlabandon"
+  },
+  {
+    "name": "Enable Region: The Burrows",
+    "type": "toggle",
+    "img": "images/items/travel/theburrows.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_theburrows"
+  },
+  {
+    "name": "Enable Region: Helios Fallen",
+    "type": "toggle",
+    "img": "images/items/travel/heliosfallen.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_heliosfallen"
+  },
+  {
+    "name": "Enable Region: Mt. Scarab Research Center",
+    "type": "toggle",
+    "img": "images/items/travel/mtscarabresearchcenter.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_mtscarabresearchcenter"
+  },
+  {
+    "name": "Enable Region: FFS Boss Fight",
+    "type": "toggle",
+    "img": "images/items/travel/ffsbossfight.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_ffsbossfight"
+  },
+  {
+    "name": "Enable Region: Writhing Deep",
+    "type": "toggle",
+    "img": "images/items/travel/writhingdeep.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_writhingdeep"
+  },
+  {
+    "name": "Enable Region: Hallowed Hollow",
+    "type": "toggle",
+    "img": "images/items/travel/hallowedhollow.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_hallowedhollow"
+  },
+  {
+    "name": "Enable Region: Gluttony Gulch",
+    "type": "toggle",
+    "img": "images/items/travel/gluttonygulch.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_gluttonygulch"
+  },
+  {
+    "name": "Enable Region: Marcus's Mercenary Shop",
+    "type": "toggle",
+    "img": "images/items/travel/marcussmercenaryshop.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_marcussmercenaryshop"
+  },
+  {
+    "name": "Enable Region: Rotgut Distillery",
+    "type": "toggle",
+    "img": "images/items/travel/rotgutdistillery.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_rotgutdistillery"
+  },
+  {
+    "name": "Enable Region: Wam Bam Island",
+    "type": "toggle",
+    "img": "images/items/travel/wambamisland.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_wambamisland"
+  }
+]

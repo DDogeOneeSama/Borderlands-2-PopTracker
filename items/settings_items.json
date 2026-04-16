@@ -4,7 +4,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 5,
+    "initial_stage_idx": 4,
     "stages": [
       {
         "img": "images/settings/gear_rarity_item_pool_disabled.png",
@@ -38,7 +38,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 2,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/settings/vault_symbols_disabled.png",
@@ -57,7 +57,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 2,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/settings/vending_machines_disabled.png",
@@ -76,7 +76,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 2,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/settings/entrance_locks_disabled.png",
@@ -95,7 +95,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "codes": "progressive_travel,progressive_travel_none",
@@ -180,7 +180,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 4,
+    "initial_stage_idx": 3,
     "stages": [
       {
         "img": "images/settings/jump_checks_disabled.png",
@@ -219,7 +219,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/settings/max_jump_height_regular.png",
@@ -237,5 +237,391 @@
         "name": "Max Jump Height - Extra High"
       }
 	]
+  },
+  {
+    "name": "Sprint Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "img": "images/settings/sprint_checks_disabled.png",
+        "codes": "sprint_checks,sprint_checks_disabled",
+        "name": "Sprint Checks - Disabled"
+      },
+      {
+        "img": "images/settings/sprint_checks_1.png",
+        "codes": "sprint_checks,sprint_checks_1",
+        "name": "Sprint Checks - 1"
+      },
+      {
+        "img": "images/settings/sprint_checks_2.png",
+        "codes": "sprint_checks,sprint_checks_2",
+        "name": "Sprint Checks - 2"
+      },
+      {
+        "img": "images/settings/sprint_checks_3.png",
+        "codes": "sprint_checks,sprint_checks_3",
+        "name": "Sprint Checks - 3"
+      },
+      {
+        "img": "images/settings/sprint_checks_4.png",
+        "codes": "sprint_checks,sprint_checks_4",
+        "name": "Sprint Checks - 4"
+      },
+      {
+        "img": "images/settings/sprint_checks_5.png",
+        "codes": "sprint_checks,sprint_checks_5",
+        "name": "Sprint Checks - 5"
+      }
+	]
+  },
+  {
+    "name": "Max Sprint Speed",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/max_sprint_speed_regular.png",
+        "codes": "max_sprint_speed,max_sprint_speed_regular",
+        "name": "Max Sprint Speed - Regular"
+      },
+      {
+        "img": "images/settings/max_sprint_speed_fast.png",
+        "codes": "max_sprint_speed,max_sprint_speed_fast",
+        "name": "Max Sprint Speed - Fast"
+      },
+      {
+        "img": "images/settings/max_sprint_speed_extra_fast.png",
+        "codes": "max_sprint_speed,max_sprint_speed_extra_fast",
+        "name": "Max Sprint Speed - Extra Fast"
+      },
+      {
+        "img": "images/settings/max_sprint_speed_unused.png",
+        "codes": "max_sprint_speed,max_sprint_speed_unused",
+        "name": "Max Sprint Speed - Unused"
+      },
+      {
+        "img": "images/settings/max_sprint_speed_supersonic.png",
+        "codes": "max_sprint_speed,max_sprint_speed_supersonic",
+        "name": "Max Sprint Speed - Supersonic"
+      }
+	]
+  },
+  {
+    "name": "Quest Completion Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/quest_completion_checks_none.png",
+        "codes": "quest_completion_checks,quest_completion_checks_none",
+        "name": "Quest Completion Checks - None"
+      },
+      {
+        "img": "images/settings/quest_completion_checks_all.png",
+        "codes": "quest_completion_checks,quest_completion_checks_all",
+        "name": "Quest Completion Checks - All Quests"
+      },
+      {
+        "img": "images/settings/quest_completion_checks_story_only.png",
+        "codes": "quest_completion_checks,quest_completion_checks_story_only",
+        "name": "Quest Completion Checks - Story Quests Only"
+      },
+      {
+        "img": "images/settings/quest_completion_checks_sidequest_only.png",
+        "codes": "quest_completion_checks,quest_completion_checks_sidequest_only",
+        "name": "Quest Completion Checks - Side Quests Only"
+      }
+	]
+  },
+  {
+    "name": "Generic Mob Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/generic_mob_checks_disabled.png",
+        "codes": "generic_mob_checks,generic_mob_checks_disabled",
+        "name": "Generic Mob Checks - Disabled"
+      },
+      {
+        "img": "images/settings/generic_mob_checks_enabled.png",
+        "codes": "generic_mob_checks,generic_mob_checks_enabled",
+        "name": "Generic Mob Checks - Enabled"
+      }
+	]
+  },
+  {
+    "name": "BAR Challenge Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/bar_challenge_checks_disabled.png",
+        "codes": "bar_challenge_checks,bar_challenge_checks_disabled",
+        "name": "BAR Challenge Checks - Disabled"
+      },
+      {
+        "img": "images/settings/bar_challenge_checks_enabled.png",
+        "codes": "bar_challenge_checks,bar_challenge_checks_enabled",
+        "name": "BAR Challenge Checks - Enabled"
+      }
+	]
+  },
+  {
+    "name": "Red Chest Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/red_chest_checks_disabled.png",
+        "codes": "red_chest_checks,red_chest_checks_disabled",
+        "name": "Red Chest Checks - Disabled"
+      },
+      {
+        "img": "images/settings/red_chest_checks_enabled.png",
+        "codes": "red_chest_checks,red_chest_checks_enabled",
+        "name": "Red Chest Checks - Enabled"
+      }
+	]
+  },
+  {
+    "name": "Remove Missable Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/remove_missable_checks_disabled.png",
+        "codes": "remove_missable_checks,remove_missable_checks_disabled",
+        "name": "Remove Missable Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_missable_checks_enabled.png",
+        "codes": "remove_missable_checks,remove_missable_checks_enabled",
+        "name": "Remove Missable Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Co-op Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "img": "images/settings/remove_coop_checks_keep.png",
+        "codes": "remove_coop_checks,remove_coop_checks_keep",
+        "name": "Remove Co-op Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_coop_checks_remove_impossible.png",
+        "codes": "remove_coop_checks,remove_coop_checks_remove_impossible",
+        "name": "Remove Co-op Checks - Remove Impossible"
+      },
+      {
+        "img": "images/settings/remove_coop_checks_remove.png",
+        "codes": "remove_coop_checks,remove_coop_checks_remove",
+        "name": "Remove Co-op Checks - Remove All"
+      }
+	]
+  },
+  {
+    "name": "Remove Fight For Sanctuary DLC Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_ffs_checks_keep.png",
+        "codes": "remove_ffs_checks,remove_ffs_checks_keep",
+        "name": "Remove Fight For Sanctuary DLC Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_ffs_checks_remove.png",
+        "codes": "remove_ffs_checks,remove_ffs_checks_remove",
+        "name": "Remove Fight For Sanctuary DLC Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Tiny Tina DLC Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_tina_checks_keep.png",
+        "codes": "remove_tina_checks,remove_tina_checks_keep",
+        "name": "Remove Tiny Tina DLC Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_tina_checks_remove.png",
+        "codes": "remove_tina_checks,remove_tina_checks_remove",
+        "name": "Remove Tiny Tina DLC Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Torgue DLC Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_torgue_checks_keep.png",
+        "codes": "remove_torgue_checks,remove_torgue_checks_keep",
+        "name": "Remove Torgue DLC Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_torgue_checks_remove.png",
+        "codes": "remove_torgue_checks,remove_torgue_checks_remove",
+        "name": "Remove Torgue DLC Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Scarlett DLC Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_scarlett_checks_keep.png",
+        "codes": "remove_scarlett_checks,remove_scarlett_checks_keep",
+        "name": "Remove Scarlett DLC Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_scarlett_checks_remove.png",
+        "codes": "remove_scarlett_checks,remove_scarlett_checks_remove",
+        "name": "Remove Scarlett DLC Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Hammerlock DLC Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_hammerlock_checks_keep.png",
+        "codes": "remove_hammerlock_checks,remove_hammerlock_checks_keep",
+        "name": "Remove Hammerlock DLC Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_hammerlock_checks_remove.png",
+        "codes": "remove_hammerlock_checks,remove_hammerlock_checks_remove",
+        "name": "Remove Hammerlock DLC Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Digistruct Peak Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_digi_peak_checks_keep.png",
+        "codes": "remove_digi_peak_checks,remove_digi_peak_checks_keep",
+        "name": "Remove Digistruct Peak Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_digi_peak_checks_remove.png",
+        "codes": "remove_digi_peak_checks,remove_digi_peak_checks_remove",
+        "name": "Remove Digistruct Peak Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Headhunter Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_headhunter_checks_keep.png",
+        "codes": "remove_headhunter_checks,remove_headhunter_checks_keep",
+        "name": "Remove Headhunter Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_headhunter_checks_remove.png",
+        "codes": "remove_headhunter_checks,remove_headhunter_checks_remove",
+        "name": "Remove Headhunter Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Base Game Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_base_game_checks_keep.png",
+        "codes": "remove_base_game_checks,remove_base_game_checks_keep",
+        "name": "Remove Base Game Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_base_game_checks_remove.png",
+        "codes": "remove_base_game_checks,remove_base_game_checks_remove",
+        "name": "Remove Base Game Checks - Remove"
+      }
+	]
+  },
+  {
+    "name": "Remove Raid Boss Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/remove_raid_boss_checks_keep.png",
+        "codes": "remove_raid_boss_checks,remove_raid_boss_checks_keep",
+        "name": "Remove Raid Boss Checks - Keep"
+      },
+      {
+        "img": "images/settings/remove_raid_boss_checks_remove.png",
+        "codes": "remove_raid_boss_checks,remove_raid_boss_checks_remove",
+        "name": "Remove Raid Boss Checks - Remove"
+      }
+	]
+  },
+  {
+      "name": "Max Level Checks",
+      "type": "consumable",
+      "img": "/images/settings/max_level_checks.png",
+      "min_quantity": 0,
+      "max_quantity": 30,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_font_size": true,
+      "overlay_background": "#000000",
+      "codes": "max_level_checks"
   }
 ]
