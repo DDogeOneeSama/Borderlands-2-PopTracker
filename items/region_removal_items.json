@@ -8,6 +8,14 @@
     "codes": "enable_region_sanctuary"
   },
   {
+    "name": "Enable Region: Windshear Waste",
+    "type": "toggle",
+    "img": "images/items/travel/windshearwaste.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_windshearwaste"
+  },
+  {
     "name": "Enable Region: Southern Shelf",
     "type": "toggle",
     "img": "images/items/travel/southernshelf.png",
