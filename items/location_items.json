@@ -13,7 +13,7 @@
     "img": "images/items/travel/southernshelf.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "travel:southernshelf"
+    "codes": "travel:southernshelf,prog_travel_basegame_1"
   },
   {
     "name": "Travel: Southern Shelf Bay",
@@ -29,7 +29,7 @@
     "img": "images/items/travel/threehornsdivide.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "travel:threehornsdivide"
+    "codes": "travel:threehornsdivide,prog_travel_basegame_2"
   },
   {
     "name": "Travel: Frostburn Canyon",
@@ -37,7 +37,7 @@
     "img": "images/items/travel/frostburncanyon.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "travel:frostburncanyon"
+    "codes": "travel:frostburncanyon,prog_travel_basegame_3"
   },
   {
     "name": "Travel: Three Horns Valley",
@@ -622,5 +622,109 @@
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "travel:wambamisland"
+  },
+  {
+    "name": "Base Game Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/baseGame.png",
+    "min_quantity": 0,
+    "max_quantity": 25,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:basegame"
+  },
+  {
+    "name": "Base Game Side Area Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/baseGameSide.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:sidearea"
+  },
+  {
+    "name": "Scarlett DLC Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/scarlettDLC.png",
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:scarlettdlc"
+  },
+  {
+    "name": "Torgue DLC Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/torgueDLC.png",
+    "min_quantity": 0,
+    "max_quantity": 7,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:torguedlc"
+  },
+  {
+    "name": "Hammerlock DLC Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/hammerlockdlc.png",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:hammerlockdlc"
+  },
+  {
+    "name": "Tina DLC Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/tinadlc.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:tinadlc"
+  },
+  {
+    "name": "Fight for Sanctuary DLC Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/ffsDLC.png",
+    "min_quantity": 0,
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:fightforsanctuarydlc"
+  },
+  {
+    "name": "Headhunters Progressive Travel Items",
+    "type": "consumable",
+    "img": "/images/items/travel/headhunter.png",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": true,
+    "overlay_background": "#000000",
+    "codes": "progressivetravel:headhunters"
   }
 ]
