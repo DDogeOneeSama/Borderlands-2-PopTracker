@@ -1,20 +1,253 @@
 {
-    "settings_popup": {
-        "type": "array",
-        "margin": 5,
-        "content": [
-            {
-                "type": "group",
-                "header": "Autofill Settings",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "margin": "5,1,5,5",
-                        "item": "autofill_settings"
-                    }
+  "setting_grid": {
+    "type": "array",
+    "v_alignment": "stretch",
+    "h_alignment": "center",
+    "margin": "0, 0",
+    "content": [
+      {
+        "type": "tabbed",
+        "dock": "top",
+        "tabs": [
+          {
+            "title": "Main Logic",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "item_size": "400,32",
+                "rows": [
+                  [
+                    "gear_rarity_item_pool"
+                  ],
+                  [
+                    "vault_symbols"
+                  ],
+                  [
+                    "vending_machines"
+                  ],
+                  [
+                    "entrance_locks"
+                  ],
+                  [
+                    "jump_checks"
+                  ],
+                  [
+                    "max_jump_height"
+                  ],
+                  [
+                    "sprint_checks"
+                  ],
+                  [
+                    "max_sprint_speed"
+                  ],
+                  [
+                    "quest_completion_checks"
+                  ],
+                  [
+                    "generic_mob_checks"
+                  ],
+                  [
+                    "challenge_checks"
+                  ],
+                  [
+                    "red_chest_checks"
+                  ],
+                  [
+                    "remove_missable_checks"
+                  ],
+                  [
+                    "remove_coop_checks"
+                  ],
+                  [
+                    "remove_raid_boss_checks"
+                  ],
+                  [
+                    "max_level_checks"
+                  ]
                 ]
-            }
+              }
+            ]
+          },
+          {
+            "title": "Per DLC Checks",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "max_height": 32,
+                "max_width": 400,
+                "rows": [
+                  [
+                    "remove_base_game_checks"
+                  ],
+                  [
+                    "remove_scarlett_checks"
+                  ],
+                  [
+                    "remove_torgue_checks"
+                  ],
+                  [
+                    "remove_hammerlock_checks"
+                  ],
+                  [
+                    "remove_tina_checks"
+                  ],
+                  [
+                    "remove_ffs_checks"
+                  ],
+                  [
+                    "remove_digi_peak_checks"
+                  ],
+                  [
+                    "remove_headhunter_checks"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Per DLC Progressive Travel",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "rows": [
+                  [
+                    "progressive_travel_toggle_basegame",
+                    "progressive_travel_toggle_basegame_side",
+                    "progressive_travel_toggle_scarlett",
+                    "progressive_travel_toggle_torgue",
+                    "progressive_travel_toggle_hammerlock",
+                    "progressive_travel_toggle_tina",
+                    "progressive_travel_toggle_ffs",
+                    "progressive_travel_toggle_headhunter"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Per Region Enable",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "rows": [
+                  [
+                    "enable_region_sanctuary",
+                    "enable_region_windshearwaste",
+                    "enable_region_southernshelf",
+                    "enable_region_southernshelfbay",
+                    "enable_region_threehornsdivide",
+                    "enable_region_frostburncanyon",
+                    "enable_region_threehornsvalley",
+                    "enable_region_southpawsteam&power"
+                  ],
+                  [
+                    "enable_region_thedust",
+                    "enable_region_bloodshotstronghold",
+                    "enable_region_bloodshotramparts",
+                    "enable_region_friendshipgulag",
+                    "enable_region_tundraexpress",
+                    "enable_region_endoftheline",
+                    "enable_region_thefridge",
+                    "enable_region_finksslaughterhouse"
+                  ],
+                  [
+                    "enable_region_highlandsoutwash",
+                    "enable_region_highlands",
+                    "enable_region_theholyspirits",
+                    "enable_region_wildlifeexploitationpreserve",
+                    "enable_region_naturalselectionannex",
+                    "enable_region_opportunity",
+                    "enable_region_thousandcuts",
+                    "enable_region_thebunker"
+                  ],
+                  [
+                    "enable_region_controlcoreangel",
+                    "enable_region_sanctuaryhole",
+                    "enable_region_causticcaverns",
+                    "enable_region_lynchwood",
+                    "enable_region_eridiumblight",
+                    "enable_region_orechasm",
+                    "enable_region_sawtoothcauldron",
+                    "enable_region_aridnexusboneyard"
+                  ],
+                  [
+                    "enable_region_aridnexusbadlands",
+                    "enable_region_herospass",
+                    "enable_region_vaultofthewarrior",
+                    "enable_region_terramorphouspeak",
+                    "",
+                    "",
+                    "",
+                    "enable_region_digistructpeak"
+                  ],
+                  [
+                    "enable_region_oasis",
+                    "enable_region_wurmwater",
+                    "enable_region_haytersfolly",
+                    "enable_region_therustyards",
+                    "enable_region_washburnerefinery",
+                    "enable_region_magnyslighthouse",
+                    "enable_region_theleviathanslair"
+                  ],
+                  [
+                    "enable_region_badasscrater",
+                    "enable_region_torguearena",
+                    "enable_region_thebeatdown",
+                    "enable_region_pyropetesbar",
+                    "enable_region_badasscraterbar",
+                    "enable_region_southernraceway",
+                    "enable_region_theforge"
+                  ],
+                  [
+                    "enable_region_huntersgrotto",
+                    "enable_region_scyllasgrove",
+                    "enable_region_ardortonstation",
+                    "enable_region_candlerakkscragg",
+                    "enable_region_terminus"
+                  ],
+                  [
+                    "enable_region_unassumingdocks",
+                    "enable_region_flamerockrefuge",
+                    "enable_region_theforest",
+                    "enable_region_immortalwoods",
+                    "enable_region_minesofavarice",
+                    "enable_region_hatredsshadow",
+                    "enable_region_lairofinfiniteagony",
+                    "enable_region_dragonkeep",
+                    "enable_region_murderlinstemple",
+                    "enable_region_thewingedstorm"
+                  ],
+                  [
+                    "enable_region_ffsintrosanctuary",
+                    "enable_region_thebackburner",
+                    "enable_region_dahlabandon",
+                    "enable_region_theburrows",
+                    "enable_region_heliosfallen",
+                    "enable_region_mtscarabresearchcenter",
+                    "enable_region_ffsbossfight",
+                    "enable_region_writhingdeep"
+                  ],
+                  [
+                    "enable_region_hallowedhollow",
+                    "enable_region_gluttonygulch",
+                    "enable_region_marcussmercenaryshop",
+                    "enable_region_rotgutdistillery",
+                    "enable_region_wambamisland"
+                  ]
+                ]
+              }
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }
