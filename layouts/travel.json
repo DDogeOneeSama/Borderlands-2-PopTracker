@@ -61,10 +61,21 @@
               [
                 "travel:herospass",
                 "travel:vaultofthewarrior",
-                "travel:terramorphouspeak"
+                "travel:terramorphouspeak",
+                "",
+                "",
+                "",
+                "travel:digistructpeak"
               ],
               [
-                "travel:digistructpeak"
+                "progressivetravel:basegame",
+                "progressivetravel:sidearea",
+                "progressivetravel:scarlettdlc",
+                "progressivetravel:torguedlc",
+                "progressivetravel:hammerlockdlc",
+                "progressivetravel:tinadlc",
+                "progressivetravel:fightforsanctuarydlc",
+                "progressivetravel:headhunters"
               ]
             ]
           }
