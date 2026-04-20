@@ -4,7 +4,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 4,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/settings/gear_rarity_item_pool_disabled.png",
@@ -300,11 +300,6 @@
         "name": "Max Sprint Speed - Extra Fast"
       },
       {
-        "img": "images/settings/max_sprint_speed_unused.png",
-        "codes": "max_sprint_speed,max_sprint_speed_unused",
-        "name": "Max Sprint Speed - Unused"
-      },
-      {
         "img": "images/settings/max_sprint_speed_supersonic.png",
         "codes": "max_sprint_speed,max_sprint_speed_supersonic",
         "name": "Max Sprint Speed - Supersonic"
@@ -319,9 +314,9 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/settings/quest_completion_checks_none.png",
-        "codes": "quest_completion_checks,quest_completion_checks_none",
-        "name": "Quest Completion Checks - None"
+        "img": "images/settings/quest_completion_checks_disabled.png",
+        "codes": "quest_completion_checks,quest_completion_checks_disabled",
+        "name": "Quest Completion Checks - Disabled"
       },
       {
         "img": "images/settings/quest_completion_checks_all.png",
@@ -368,13 +363,23 @@
     "stages": [
       {
         "img": "images/settings/bar_challenge_checks_disabled.png",
-        "codes": "bar_challenge_checks,bar_challenge_checks_disabled",
+        "codes": "challenge_checks,bar_challenge_checks_disabled",
         "name": "BAR Challenge Checks - Disabled"
       },
       {
-        "img": "images/settings/bar_challenge_checks_enabled.png",
-        "codes": "bar_challenge_checks,bar_challenge_checks_enabled",
-        "name": "BAR Challenge Checks - Enabled"
+        "img": "images/settings/bar_challenge_checks_enable_all.png",
+        "codes": "challenge_checks,bar_challenge_checks_enable_all",
+        "name": "BAR Challenge Checks - Enable All"
+      },
+      {
+        "img": "images/settings/bar_challenge_checks_enable_region_only.png",
+        "codes": "challenge_checks,bar_challenge_checks_enable_region_only",
+        "name": "BAR Challenge Checks - Enable Region Only"
+      },
+      {
+        "img": "images/settings/bar_challenge_checks_enable_general_only.png",
+        "codes": "challenge_checks,bar_challenge_checks_enable_general_only",
+        "name": "BAR Challenge Checks - Enable General Only"
       }
 	]
   },
@@ -407,12 +412,12 @@
       {
         "img": "images/settings/remove_missable_checks_disabled.png",
         "codes": "remove_missable_checks,remove_missable_checks_disabled",
-        "name": "Remove Missable Checks - Keep"
+        "name": "Missable Checks - Keep"
       },
       {
         "img": "images/settings/remove_missable_checks_enabled.png",
         "codes": "remove_missable_checks,remove_missable_checks_enabled",
-        "name": "Remove Missable Checks - Remove"
+        "name": "Missable Checks - Remove"
       }
 	]
   },
@@ -426,17 +431,17 @@
       {
         "img": "images/settings/remove_coop_checks_keep.png",
         "codes": "remove_coop_checks,remove_coop_checks_keep",
-        "name": "Remove Co-op Checks - Keep"
+        "name": "Co-op Checks - Keep"
       },
       {
         "img": "images/settings/remove_coop_checks_remove_impossible.png",
         "codes": "remove_coop_checks,remove_coop_checks_remove_impossible",
-        "name": "Remove Co-op Checks - Remove Impossible"
+        "name": "Co-op Checks - Remove Impossible"
       },
       {
         "img": "images/settings/remove_coop_checks_remove.png",
         "codes": "remove_coop_checks,remove_coop_checks_remove",
-        "name": "Remove Co-op Checks - Remove All"
+        "name": "Co-op Checks - Remove All"
       }
 	]
   },
@@ -602,12 +607,12 @@
       {
         "img": "images/settings/remove_raid_boss_checks_keep.png",
         "codes": "remove_raid_boss_checks,remove_raid_boss_checks_keep",
-        "name": "Remove Raid Boss Checks - Keep"
+        "name": "Raid Boss Checks - Keep"
       },
       {
         "img": "images/settings/remove_raid_boss_checks_remove.png",
         "codes": "remove_raid_boss_checks,remove_raid_boss_checks_remove",
-        "name": "Remove Raid Boss Checks - Remove"
+        "name": "Raid Boss Checks - Remove"
       }
 	]
   },
@@ -620,8 +625,8 @@
       "increment": 1,
       "decrement": 1,
       "initial_quantity": 0,
-      "overlay_font_size": true,
-      "overlay_background": "#000000",
+      "overlay_font_size": 24,
+      "overlay_background": "#4d7b99",
       "codes": "max_level_checks"
   }
 ]
