@@ -355,6 +355,40 @@
 	]
   },
   {
+    "name": "Gear Rarity Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/gear_rarity_checks_disabled.png",
+        "codes": "gear_rarity_checks,gear_rarity_checks_disabled",
+        "name": "Gear Rarity Checks - Disabled"
+      },
+      {
+        "img": "images/settings/gear_rarity_checks_exclude_seraph_plus.png",
+        "codes": "gear_rarity_checks,gear_rarity_checks_exclude_seraph_plus",
+        "name": "Gear Rarity Checks - Exclude Seraph+"
+      },
+      {
+        "img": "images/settings/gear_rarity_checks_exclude_pearl_plus.png",
+        "codes": "gear_rarity_checks,gear_rarity_checks_exclude_pearl_plus",
+        "name": "Gear Rarity Checks - Exclude Pearl+"
+      },
+      {
+        "img": "images/settings/gear_rarity_checks_exclude_rainbow.png",
+        "codes": "gear_rarity_checks,gear_rarity_checks_exclude_rainbow",
+        "name": "Gear Rarity Checks - Exclude Effervescent"
+      },
+      {
+        "img": "images/settings/gear_rarity_checks_all.png",
+        "codes": "gear_rarity_checks,gear_rarity_checks_all",
+        "name": "Gear Rarity Checks - All"
+      }
+	]
+  },
+  {
     "name": "BAR Challenge Checks",
     "type": "progressive",
     "loop": true,
@@ -392,12 +426,12 @@
     "stages": [
       {
         "img": "images/settings/red_chest_checks_disabled.png",
-        "codes": "red_chest_checks,red_chest_checks_disabled",
+        "codes": "chest_checks,chest_checks_disabled",
         "name": "Red Chest Checks - Disabled"
       },
       {
         "img": "images/settings/red_chest_checks_enabled.png",
-        "codes": "red_chest_checks,red_chest_checks_enabled",
+        "codes": "chest_checks,chest_checks_enabled",
         "name": "Red Chest Checks - Enabled"
       }
 	]
@@ -606,12 +640,12 @@
     "stages": [
       {
         "img": "images/settings/remove_raid_boss_checks_keep.png",
-        "codes": "remove_raid_boss_checks,remove_raid_boss_checks_keep",
+        "codes": "remove_raidboss_checks,remove_raid_boss_checks_keep",
         "name": "Raid Boss Checks - Keep"
       },
       {
         "img": "images/settings/remove_raid_boss_checks_remove.png",
-        "codes": "remove_raid_boss_checks,remove_raid_boss_checks_remove",
+        "codes": "remove_raidboss_checks,remove_raid_boss_checks_remove",
         "name": "Raid Boss Checks - Remove"
       }
 	]

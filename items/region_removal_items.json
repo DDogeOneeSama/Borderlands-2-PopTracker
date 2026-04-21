@@ -69,7 +69,7 @@
     "img": "images/items/travel/thedust.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_thedust"
+    "codes": "enable_region_dust"
   },
   {
     "name": "Enable Region: Bloodshot Stronghold",
@@ -117,7 +117,7 @@
     "img": "images/items/travel/thefridge.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_thefridge"
+    "codes": "enable_region_fridge"
   },
   {
     "name": "Enable Region: Fink's Slaughterhouse",
@@ -149,7 +149,7 @@
     "img": "images/items/travel/theholyspirits.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_theholyspirits"
+    "codes": "enable_region_holyspirits"
   },
   {
     "name": "Enable Region: Wildlife Exploitation Preserve",
@@ -189,7 +189,7 @@
     "img": "images/items/travel/thebunker.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_thebunker"
+    "codes": "enable_region_bunker"
   },
   {
     "name": "Enable Region: Control Core Angel",
@@ -294,6 +294,14 @@
     "initial_active_state": true,
     "overlay_align": "left",
     "codes": "enable_region_digistructpeak"
+  },
+  {
+    "name": "Enable Region: Digistruct Peak Inner",
+    "type": "toggle",
+    "img": "images/items/travel/digistructpeakinner.png",
+    "initial_active_state": true,
+    "overlay_align": "left",
+    "codes": "enable_region_digistructpeakinner"
   },
   {
     "name": "Enable Region: Oasis",

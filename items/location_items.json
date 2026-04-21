@@ -13,7 +13,7 @@
     "img": "images/items/travel/southernshelf.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "travel:southernshelf,prog_travel_basegame_1"
+    "codes": "travel:southernshelf"
   },
   {
     "name": "Travel: Southern Shelf Bay",
@@ -29,7 +29,7 @@
     "img": "images/items/travel/threehornsdivide.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "travel:threehornsdivide,prog_travel_basegame_2"
+    "codes": "travel:threehornsdivide"
   },
   {
     "name": "Travel: Frostburn Canyon",
@@ -37,7 +37,7 @@
     "img": "images/items/travel/frostburncanyon.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "travel:frostburncanyon,prog_travel_basegame_3"
+    "codes": "travel:frostburncanyon"
   },
   {
     "name": "Travel: Three Horns Valley",
