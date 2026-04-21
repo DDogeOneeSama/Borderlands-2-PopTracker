@@ -925,5 +925,13 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "overridelevel30"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
     }
 ]
