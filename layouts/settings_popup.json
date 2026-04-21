@@ -46,13 +46,16 @@
                     "quest_completion_checks"
                   ],
                   [
+                    "gear_rarity_checks"
+                  ],
+                  [
                     "generic_mob_checks"
                   ],
                   [
                     "challenge_checks"
                   ],
                   [
-                    "red_chest_checks"
+                    "chest_checks"
                   ],
                   [
                     "remove_missable_checks"
@@ -61,7 +64,7 @@
                     "remove_coop_checks"
                   ],
                   [
-                    "remove_raid_boss_checks"
+                    "remove_raidboss_checks"
                   ],
                   [
                     "max_level_checks"
@@ -149,24 +152,24 @@
                     "enable_region_southpawsteam&power"
                   ],
                   [
-                    "enable_region_thedust",
+                    "enable_region_dust",
                     "enable_region_bloodshotstronghold",
                     "enable_region_bloodshotramparts",
                     "enable_region_friendshipgulag",
                     "enable_region_tundraexpress",
                     "enable_region_endoftheline",
-                    "enable_region_thefridge",
+                    "enable_region_fridge",
                     "enable_region_finksslaughterhouse"
                   ],
                   [
                     "enable_region_highlandsoutwash",
                     "enable_region_highlands",
-                    "enable_region_theholyspirits",
+                    "enable_region_holyspirits",
                     "enable_region_wildlifeexploitationpreserve",
                     "enable_region_naturalselectionannex",
                     "enable_region_opportunity",
                     "enable_region_thousandcuts",
-                    "enable_region_thebunker"
+                    "enable_region_bunker"
                   ],
                   [
                     "enable_region_controlcoreangel",
@@ -186,7 +189,8 @@
                     "",
                     "",
                     "",
-                    "enable_region_digistructpeak"
+                    "enable_region_digistructpeak",
+                    "enable_region_digistructpeakinner"
                   ],
                   [
                     "enable_region_oasis",
