@@ -1,9 +1,10 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotracking/setting_mapping")
 
 CUR_INDEX = -1
---SLOT_DATA = nil
+-- SLOT_DATA = nil
 
 ALL_LOCATIONS = {}
 SLOT_DATA = {}
@@ -91,7 +92,7 @@ end
 
 function onClearHandler(slot_data)
     local clear_timer = os.clock()
-    
+
     ScriptHost:RemoveWatchForCode("StateChange")
     -- Disable tracker updates.
     Tracker.BulkUpdate = true
@@ -179,7 +180,7 @@ function onClear(slot_data)
     
     ScriptHost:RemoveWatchForCode("StateChanged")
     ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
-    --SLOT_DATA = slot_data
+    SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
@@ -227,11 +228,8 @@ function onClear(slot_data)
     end
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
-    SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     autoFill(slot_data)
-    -- end
-    -- print(PLAYER_ID, TEAM_NUMBER)
+    AutoFill()
+    print(PLAYER_ID, TEAM_NUMBER)
     if Archipelago.PlayerNumber > -1 then
         if #ALL_LOCATIONS > 0 then
             ALL_LOCATIONS = {}
@@ -322,37 +320,58 @@ end
 
 -- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to 
 -- your own settings
--- function autoFill()
---     if SLOT_DATA == nil  then
---         print("its fucked")
---         return
---     end
---     -- print(dump_table(SLOT_DATA))
+function AutoFill()
+    if SLOT_DATA == nil  then
+        print("its fucked")
+        return
+    end
+    print(dump_table(SLOT_DATA))
 
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
-
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(dump_table(SLOT_DATA))
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name , settings_value in pairs(SLOT_DATA) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else 
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
+    for settings_name , settings_value in pairs(SLOT_DATA) do
+        if settings_name == "version" then
+            goto continue
+        end
+        if settings_name == "remove_locations" then
+            goto continue
+        end
+        print(settings_name, settings_value)
+        if settings_name == "goals" then
+            for numby, goal in ipairs(SLOT_DATA[settings_name]) do
+                print("Goal " .. numby .. ": " .. LOCATION_MAPPING[goal+2388000][1])
+                Tracker:FindObjectForCode(LOCATION_MAPPING[goal+2388000][1]).Highlight = Highlight.Priority
+            end
+            goto continue
+        end
+        if settings_name == "progressive_travel_groups" then
+            for _, dlc in ipairs(SLOT_DATA[settings_name]) do
+                print("progressive_travel_toggle_" .. dlc)
+                Tracker:FindObjectForCode("progressive_travel_toggle_" .. dlc).Active = true
+            end
+            goto continue
+        end
+        if settings_name == "remove_specific_region_checks" then
+            for _, region in ipairs(SLOT_DATA[settings_name]) do
+                print("enable_region_" .. region)
+                Tracker:FindObjectForCode("enable_region_" .. region).Active = false
+            end
+            goto continue
+        end
+        if settings_name == "max_level_checks" then
+            print(settings_name .. ": " .. SLOT_DATA[settings_name])
+            Tracker:FindObjectForCode(settings_name).AcquiredCount = SLOT_DATA[settings_name]
+            goto continue
+        end
+        if SLOT_CODES[settings_name] then
+            if Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).Type == "toggle" then
+                Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).Active = SLOT_CODES[settings_name].mapping[settings_value]
+            else
+                print(settings_name,settings_value,Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).CurrentStage, SLOT_CODES[settings_name].mapping[settings_value])
+                Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).CurrentStage = SLOT_CODES[settings_name].mapping[settings_value]
+            end
+        end
+        ::continue::
+    end
+end
 
 function OnNotify(key, value, old_value)
     print("OnNotify", key, value, old_value)

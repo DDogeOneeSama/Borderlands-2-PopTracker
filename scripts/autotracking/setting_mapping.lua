@@ -54,7 +54,7 @@ SLOT_CODES =
   },
   max_jump_height =
   {
-    code = "gear_rarity_item_pool",
+    code = "max_jump_height",
     mapping =
     {
       [0] = 0, -- Regular
