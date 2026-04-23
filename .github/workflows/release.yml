@@ -1,7 +1,7 @@
 name: Update versions.json on release
 on:
   release:
-    types: [published]
+    types: [released]
 jobs:
   autoupdate:
     runs-on: ubuntu-latest
