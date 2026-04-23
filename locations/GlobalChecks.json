@@ -249,7 +249,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common GrenadeMod",
             "access_rules": [],
@@ -297,7 +308,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common ClassMod",
             "access_rules": [],
@@ -327,7 +349,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common Relic",
             "access_rules": [],
@@ -375,7 +408,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common Pistol",
             "access_rules": [],
@@ -429,7 +473,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common Shotgun",
             "access_rules": [],
@@ -489,7 +544,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common SMG",
             "access_rules": [],
@@ -549,7 +615,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common SniperRifle",
             "access_rules": [],
@@ -609,7 +686,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common AssaultRifle",
             "access_rules": [],
@@ -669,7 +757,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Common RocketLauncher",
             "access_rules": [],
