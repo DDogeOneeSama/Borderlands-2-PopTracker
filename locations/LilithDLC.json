@@ -133,7 +133,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Symbol - Simons Perch Climb",
+                        "name": "Symbol - Sinons Perch Climb",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -157,7 +157,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Symbol - Simons Perch Container",
+                        "name": "Symbol - Sinons Perch Container",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -738,12 +738,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Challenge - The Burdens of Creation",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Challenge - Cult of the Vault",
                         "access_rules": [],
                         "visibility_rules": [],
@@ -872,6 +866,12 @@
                     },
                     {
                         "name": "Challenge - Haderax The Invincible",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge - The Burdens of Creation",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1

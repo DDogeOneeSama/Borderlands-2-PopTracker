@@ -665,8 +665,8 @@
             "ref": "BaseGame/FrostburnCanyon/Challenge - Burning Sensation"
           },
           {
-            "name": "FrostburnCanyon - Chest - Incinerator Camp",
-            "ref": "BaseGame/FrostburnCanyon/Chest - Incinerator Camp"
+            "name": "FrostburnCanyon - Chest - Ashmouth Camp",
+            "ref": "BaseGame/FrostburnCanyon/Chest - Ashmouth Camp"
           },
           {
             "name": "FrostburnCanyon - Chest - Above Spawn",
@@ -827,8 +827,8 @@
             "ref": "BaseGame/SouthpawSteam&Power/Symbol - Reeth Area Engine"
           },
           {
-            "name": "SouthpawSteam&Power - Symbol - Ladder",
-            "ref": "BaseGame/SouthpawSteam&Power/Symbol - Ladder"
+            "name": "SouthpawSteam&Power - Symbol - Entry Area Ladder",
+            "ref": "BaseGame/SouthpawSteam&Power/Symbol - Entry Area Ladder"
           },
           {
             "name": "SouthpawSteam&Power - Ammo Vendor - Entrance",
@@ -1464,8 +1464,8 @@
             "ref": "BaseGame/Fridge/Chest - Rakkmans Lair"
           },
           {
-            "name": "Fridge - Chest - Sinkholes Pit",
-            "ref": "BaseGame/Fridge/Chest - Sinkholes Pit"
+            "name": "Fridge - Chest - Stalker Hollow",
+            "ref": "BaseGame/Fridge/Chest - Stalker Hollow"
           },
           {
             "name": "Fridge - Chest - Three Switch Electric Gate",
@@ -3189,8 +3189,8 @@
             "ref": "ScarlettDLC/Oasis/Chest - Coral Island"
           },
           {
-            "name": "Oasis - Chest - Horrids Hidewaway",
-            "ref": "ScarlettDLC/Oasis/Chest - Horrids Hidewaway"
+            "name": "Oasis - Chest - Horrids Hideaway",
+            "ref": "ScarlettDLC/Oasis/Chest - Horrids Hideaway"
           },
           {
             "name": "Oasis - Chest - Canyon Deserter Camp #1",
@@ -5389,8 +5389,8 @@
             "ref": "TinaDLC/Forest/Enemy - Arguk the Butcher"
           },
           {
-            "name": "Forest - Enemy - Warlord Glug",
-            "ref": "TinaDLC/Forest/Enemy - Warlord Glug"
+            "name": "Forest - Enemy - Warlord Grug",
+            "ref": "TinaDLC/Forest/Enemy - Warlord Grug"
           },
           {
             "name": "Forest - Symbol - Blood Tree Camp",
@@ -5563,8 +5563,8 @@
             "ref": "TinaDLC/MinesOfAvarice/Enemy - Magical Spider"
           },
           {
-            "name": "MinesOfAvarice - Enemy - Greedtooth",
-            "ref": "TinaDLC/MinesOfAvarice/Enemy - Greedtooth"
+            "name": "MinesOfAvarice - Enemy - Gold Golem",
+            "ref": "TinaDLC/MinesOfAvarice/Enemy - Gold Golem"
           },
           {
             "name": "MinesOfAvarice - Enemy - Warlord Turge",
@@ -6265,6 +6265,14 @@
             "ref": "LilithDLC/Challenges/Challenge - Flower Power"
           },
           {
+            "name": "Challenges - Challenge - Haderax The Invincible",
+            "ref": "LilithDLC/Challenges/Challenge - Haderax The Invincible"
+          },
+          {
+            "name": "Backburner - Challenge - The Burdens of Creation",
+            "ref": "LilithDLC/Challenges/Challenge - The Burdens of Creation"
+          },
+          {
             "name": "Challenges - Challenge - Let It Grow",
             "ref": "LilithDLC/Challenges/Challenge - Let It Grow"
           },
@@ -6367,10 +6375,6 @@
             "ref": "LilithDLC/Backburner/Challenge - Harmville"
           },
           {
-            "name": "Backburner - Challenge - The Burdens of Creation",
-            "ref": "LilithDLC/Backburner/Challenge - The Burdens of Creation"
-          },
-          {
             "name": "Backburner - Challenge - Cult of the Vault",
             "ref": "LilithDLC/Backburner/Challenge - Cult of the Vault"
           },
@@ -6458,8 +6462,8 @@
             "ref": "LilithDLC/DahlAbandon/Enemy - Lt Bolson (New Pandora)"
           },
           {
-            "name": "DahlAbandon - Symbol - Simons Perch Climb",
-            "ref": "LilithDLC/DahlAbandon/Symbol - Simons Perch Climb"
+            "name": "DahlAbandon - Symbol - Sinons Perch Climb",
+            "ref": "LilithDLC/DahlAbandon/Symbol - Sinons Perch Climb"
           },
           {
             "name": "DahlAbandon - Symbol - Rides End",
@@ -6474,8 +6478,8 @@
             "ref": "LilithDLC/DahlAbandon/Symbol - The Veiny Shaft"
           },
           {
-            "name": "DahlAbandon - Symbol - Simons Perch Container",
-            "ref": "LilithDLC/DahlAbandon/Symbol - Simons Perch Container"
+            "name": "DahlAbandon - Symbol - Sinons Perch Container",
+            "ref": "LilithDLC/DahlAbandon/Symbol - Sinons Perch Container"
           },
           {
             "name": "DahlAbandon - Ammo Vendor - Entrance",
@@ -6879,10 +6883,6 @@
           {
             "name": "WrithingDeep - Challenge - Cult of the Vault",
             "ref": "LilithDLC/WrithingDeep/Challenge - Cult of the Vault"
-          },
-          {
-            "name": "Challenges - Challenge - Haderax The Invincible",
-            "ref": "LilithDLC/Challenges/Challenge - Haderax The Invincible"
           },
           {
             "name": "WrithingDeep - Chest - Haderax #4",
