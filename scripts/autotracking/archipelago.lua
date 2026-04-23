@@ -334,6 +334,9 @@ function AutoFill()
         if settings_name == "remove_locations" then
             goto continue
         end
+        if settings_name == "include_locations" then
+            goto continue
+        end
         print(settings_name, settings_value)
         if settings_name == "goals" then
             for numby, goal in ipairs(SLOT_DATA[settings_name]) do
