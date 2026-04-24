@@ -1087,6 +1087,10 @@
           {
             "name": "BloodshotStronghold - Chest - Flinters Room",
             "ref": "BaseGame/BloodshotStronghold/Chest - Flinters Room"
+          },
+          {
+            "name": "Bloodshot Stronghold - Out of Body Experience",
+            "ref": "BaseGame/BloodshotStronghold/Out of Body Experience"
           }
         ],
         "map_locations": [
@@ -1146,10 +1150,6 @@
           {
             "name": "BloodshotRamparts - Chest - W4R-D3N Trunk",
             "ref": "BaseGame/BloodshotRamparts/Chest - W4R-D3N Trunk"
-          },
-          {
-            "name": "BloodshotRamparts - Out of Body Experience",
-            "ref": "BaseGame/BloodshotRamparts/Out of Body Experience"
           }
         ],
         "map_locations": [

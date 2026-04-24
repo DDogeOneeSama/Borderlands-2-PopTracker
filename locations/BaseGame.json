@@ -2084,6 +2084,26 @@
         ],
         "sections": [
           {
+            "name": "Out of Body Experience",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "BloodshotStronghold",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|BloodshotStronghold"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
             "name": "Enemy - Mad Mike",
             "access_rules": [],
             "visibility_rules": [],
@@ -2317,12 +2337,6 @@
           },
           {
             "name": "Chest - W4R-D3N Trunk",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Out of Body Experience",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
