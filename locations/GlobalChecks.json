@@ -4,16 +4,16 @@
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
     "overlay_background": "#000000",
-    "access_rules": [
+    "visibility_rules": [
       " "
     ],
     "children": [
       {
         "name": "Levels",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -195,10 +195,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -254,10 +254,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -313,10 +313,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -354,10 +354,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -413,10 +413,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -478,10 +478,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -549,10 +549,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -620,10 +620,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -691,10 +691,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -762,10 +762,10 @@
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -833,10 +833,10 @@
       },
       {
         "name": "Enemies",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -934,10 +934,10 @@
       },
       {
         "name": "EnemyChallenges",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1077,10 +1077,10 @@
       },
       {
         "name": "Money",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1124,10 +1124,10 @@
       },
       {
         "name": "Combat",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1183,10 +1183,10 @@
       },
       {
         "name": "Grenade",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1230,10 +1230,10 @@
       },
       {
         "name": "Loot",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1289,10 +1289,10 @@
       },
       {
         "name": "Melee",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1312,10 +1312,10 @@
       },
       {
         "name": "Misc",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1353,10 +1353,10 @@
       },
       {
         "name": "Recovery",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1406,10 +1406,10 @@
       },
       {
         "name": "Shields",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1447,10 +1447,10 @@
       },
       {
         "name": "Vehicles",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1488,10 +1488,10 @@
       },
       {
         "name": "AssaultRifle",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1529,10 +1529,10 @@
       },
       {
         "name": "Launcher",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1576,10 +1576,10 @@
       },
       {
         "name": "Pistol",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1617,10 +1617,10 @@
       },
       {
         "name": "SMG",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1652,10 +1652,10 @@
       },
       {
         "name": "Shotgun",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1699,10 +1699,10 @@
       },
       {
         "name": "Sniper",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [
@@ -1752,10 +1752,10 @@
       },
       {
         "name": "Elemental",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
           " "
         ],
         "sections": [

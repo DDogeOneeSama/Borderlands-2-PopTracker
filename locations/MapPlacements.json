@@ -7,12 +7,6 @@
     "children": [
       {
         "name": "GlobalChecks",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Levels - Level 2",
@@ -1010,12 +1004,6 @@
       },
       {
         "name": "Sanctuary",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Sanctuary - Symbol - Rooftop",
@@ -1289,12 +1277,6 @@
       },
       {
         "name": "WindshearWaste",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Windshear Waste - Enemy - Knuckle Dragger",
@@ -1336,12 +1318,6 @@
       },
       {
         "name": "SouthernShelf",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "SouthernShelf - Enemy - Boom",
@@ -1455,12 +1431,6 @@
       },
       {
         "name": "SouthernShelfBay",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "SouthernShelfBay - Enemy - Midgemong",
@@ -1530,12 +1500,6 @@
       },
       {
         "name": "ThreeHornsDivide",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "ThreeHornsDivide - Enemy - Savage Lee",
@@ -1605,12 +1569,6 @@
       },
       {
         "name": "FrostburnCanyon",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "FrostburnCanyon - Enemy - Scorch",
@@ -1712,12 +1670,6 @@
       },
       {
         "name": "ThreeHornsValley",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "ThreeHornsValley - Enemy - Doc Mercy",
@@ -1795,12 +1747,6 @@
       },
       {
         "name": "SouthpawSteam&Power",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "SouthpawSteam&Power - Enemy - Assassin Oney",
@@ -1866,12 +1812,6 @@
       },
       {
         "name": "Dust",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Dust - Enemy - Gettle",
@@ -2005,12 +1945,6 @@
       },
       {
         "name": "BloodshotStronghold",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "BloodshotStronghold - Enemy - Mad Mike",
@@ -2096,12 +2030,6 @@
       },
       {
         "name": "BloodshotRamparts",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "BloodshotRamparts - Enemy - W4R-D3N",
@@ -2159,12 +2087,6 @@
       },
       {
         "name": "FriendshipGulag",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "FriendshipGulag - Symbol - Gulag Container",
@@ -2206,12 +2128,6 @@
       },
       {
         "name": "TundraExpress",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "TundraExpress - Enemy - Madame Von Bartlesby",
@@ -2313,12 +2229,6 @@
       },
       {
         "name": "EndOfTheLine",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "EndOfTheLine - Enemy - Wilhelm",
@@ -2356,12 +2266,6 @@
       },
       {
         "name": "Fridge",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Fridge - Enemy - Laney White",
@@ -2491,12 +2395,6 @@
       },
       {
         "name": "FinksSlaughterhouse",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "FinksSlaughterhouse - Symbol - Column",
@@ -2550,12 +2448,6 @@
       },
       {
         "name": "HighlandsOutwash",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HighlandsOutwash - Enemy - Old Slappy",
@@ -2589,12 +2481,6 @@
       },
       {
         "name": "Highlands",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Highlands - Enemy - Henry",
@@ -2672,12 +2558,6 @@
       },
       {
         "name": "HolySpirits",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HolySpirits - Enemy - Bagman",
@@ -2723,12 +2603,6 @@
       },
       {
         "name": "WildlifeExploitationPreserve",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "WildlifeExploitationPreserve - Enemy - Tumbaa",
@@ -2818,12 +2692,6 @@
       },
       {
         "name": "NaturalSelectionAnnex",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "NaturalSelectionAnnex - Symbol - Crate Ceiling",
@@ -2873,12 +2741,6 @@
       },
       {
         "name": "Opportunity",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Opportunity - Enemy - Foreman Jasper",
@@ -2996,12 +2858,6 @@
       },
       {
         "name": "ThousandCuts",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "ThousandCuts - Enemy - GOD-liath",
@@ -3087,12 +2943,6 @@
       },
       {
         "name": "Bunker",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Bunker - Enemy - BNK-3R",
@@ -3150,12 +3000,6 @@
       },
       {
         "name": "SanctuaryHole",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "SanctuaryHole - Symbol - Staircase Wall",
@@ -3197,12 +3041,6 @@
       },
       {
         "name": "CausticCaverns",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "CausticCaverns - Enemy - Blue",
@@ -3284,12 +3122,6 @@
       },
       {
         "name": "Lynchwood",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Lynchwood - Enemy - Dukinos Mom",
@@ -3407,12 +3239,6 @@
       },
       {
         "name": "EridiumBlight",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "EridiumBlight - Enemy - King Mong",
@@ -3550,12 +3376,6 @@
       },
       {
         "name": "OreChasm",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "OreChasm - Symbol - Elevator",
@@ -3609,12 +3429,6 @@
       },
       {
         "name": "SawtoothCauldron",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "SawtoothCauldron - Enemy - Mortar",
@@ -3692,12 +3506,6 @@
       },
       {
         "name": "AridNexusBoneyard",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "AridNexusBoneyard - Enemy - Hunter Hellquist",
@@ -3755,12 +3563,6 @@
       },
       {
         "name": "AridNexusBadlands",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "AridNexusBadlands - Enemy - Bone Head 20",
@@ -3834,12 +3636,6 @@
       },
       {
         "name": "HerosPass",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HerosPass - Symbol - Strut",
@@ -3885,12 +3681,6 @@
       },
       {
         "name": "VaultOfTheWarrior",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "VaultOfTheWarrior - Enemy - Warrior",
@@ -3936,12 +3726,6 @@
       },
       {
         "name": "TerramorphousPeak",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "TerramorphousPeak - Enemy - Terramorphous the Invincible",
@@ -3999,12 +3783,6 @@
       },
       {
         "name": "DigistructPeak",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "DigistructPeak - Gun Vendor - Entrance",
@@ -4082,12 +3860,6 @@
       },
       {
         "name": "ScarlettDLCChallenges",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Challenges - Challenge - In The Pink",
@@ -4125,12 +3897,6 @@
       },
       {
         "name": "Oasis",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Oasis - Enemy - No Beard",
@@ -4264,12 +4030,6 @@
       },
       {
         "name": "Wurmwater",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Wurmwater - Symbol - Rustyard Corridor",
@@ -4415,12 +4175,6 @@
       },
       {
         "name": "HaytersFolly",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HaytersFolly - Enemy - Grendel",
@@ -4522,12 +4276,6 @@
       },
       {
         "name": "Rustyards",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Rustyards - Enemy - Toothless Terry",
@@ -4601,12 +4349,6 @@
       },
       {
         "name": "WashburneRefinery",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "WashburneRefinery - Enemy - P3RV-E",
@@ -4692,12 +4434,6 @@
       },
       {
         "name": "MagnysLighthouse",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "MagnysLighthouse - Enemy - DJ Tanner",
@@ -4783,12 +4519,6 @@
       },
       {
         "name": "LeviathansLair",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "LeviathansLair - Enemy - Roscoe",
@@ -4894,12 +4624,6 @@
       },
       {
         "name": "TorgueDLCChallenges",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Challenges - Challenge - Torgue Items Purchased",
@@ -4933,12 +4657,6 @@
       },
       {
         "name": "BadassCrater",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "BadassCrater - Symbol - Badass Highway",
@@ -5076,12 +4794,6 @@
       },
       {
         "name": "TorgueArena",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "TorgueArena - Enemy - Badassasaurus",
@@ -5183,12 +4895,6 @@
       },
       {
         "name": "Beatdown",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Beatdown - Enemy - Sully the Stabber",
@@ -5262,12 +4968,6 @@
       },
       {
         "name": "PyroPetesBar",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "PyroPetesBar - Enemy - Pyro Pete",
@@ -5345,12 +5045,6 @@
       },
       {
         "name": "BadassBar",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "BadassBar - Torgue Vendor - Badass Bar",
@@ -5396,12 +5090,6 @@
       },
       {
         "name": "SouthernRaceway",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "SouthernRaceway - Enemy - Buff Gamer",
@@ -5451,12 +5139,6 @@
       },
       {
         "name": "Forge",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Forge - Enemy - Anonymous Troll",
@@ -5578,12 +5260,6 @@
       },
       {
         "name": "HammerlockDLCChallenges",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Challenges - Challenge - Boroking Around",
@@ -5617,12 +5293,6 @@
       },
       {
         "name": "HuntersGrotto",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HuntersGrotto - Enemy - Arizona",
@@ -5760,12 +5430,6 @@
       },
       {
         "name": "ScyllasGrove",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "ScyllasGrove - Enemy - Thermitage",
@@ -5859,12 +5523,6 @@
       },
       {
         "name": "ArdortonStation",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "ArdortonStation - Enemy - Dribbles",
@@ -5950,12 +5608,6 @@
       },
       {
         "name": "CandlerakksCrag",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "CandlerakksCrag - Enemy - Rouge",
@@ -6057,12 +5709,6 @@
       },
       {
         "name": "Terminus",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Terminus - Enemy - Jackenstein",
@@ -6152,12 +5798,6 @@
       },
       {
         "name": "TinaDLCChallenges",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Challenges - Challenge - Fus Roh Die",
@@ -6211,12 +5851,6 @@
       },
       {
         "name": "UnassumingDocks",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "UnassumingDocks - Enemy - Mr Boney Pants Guy",
@@ -6270,12 +5904,6 @@
       },
       {
         "name": "FlamerockRefuge",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "FlamerockRefuge - Enemy - Sir Reginald von Bartlesby",
@@ -6373,12 +6001,6 @@
       },
       {
         "name": "Forest",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Forest - Enemy - Spiderpants",
@@ -6444,12 +6066,6 @@
       },
       {
         "name": "ImmortalWoods",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "ImmortalWoods - Enemy - 420_E-Sports_Masta",
@@ -6543,12 +6159,6 @@
       },
       {
         "name": "MinesOfAvarice",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "MinesOfAvarice - Enemy - Maxibillion",
@@ -6650,12 +6260,6 @@
       },
       {
         "name": "HatredsShadow",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HatredsShadow - Enemy - Canine",
@@ -6753,12 +6357,6 @@
       },
       {
         "name": "LairOfInfiniteAgony",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "LairOfInfiniteAgony - Enemy - Sorcerers Daughter",
@@ -6840,12 +6438,6 @@
       },
       {
         "name": "DragonKeep",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "DragonKeep - Enemy - Handsome Sorcerer",
@@ -6887,12 +6479,6 @@
       },
       {
         "name": "MurderlinsTemple",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "MurderlinsTemple - Enemy - Warlord Slog",
@@ -6966,12 +6552,6 @@
       },
       {
         "name": "WingedStorm",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "WingedStorm - Enemy - Incinerator",
@@ -7245,12 +6825,6 @@
       },
       {
         "name": "LilithDLCChallenges",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Challenges - Challenge - Do It For The Vine",
@@ -7296,12 +6870,6 @@
       },
       {
         "name": "FFSSanctuary",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "FFSSanctuary - The Dawn of New Pandora",
@@ -7319,12 +6887,6 @@
       },
       {
         "name": "Backburner",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Backburner - Symbol - Zeds",
@@ -7446,12 +7008,6 @@
       },
       {
         "name": "DahlAbandon",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "DahlAbandon - Enemy - The Dark Web",
@@ -7553,12 +7109,6 @@
       },
       {
         "name": "Burrows",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Burrows - Enemy - Ghost",
@@ -7628,12 +7178,6 @@
       },
       {
         "name": "HeliosFallen",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HeliosFallen - Enemy - Uranus Bot",
@@ -7731,12 +7275,6 @@
       },
       {
         "name": "MtScarabResearchCenter",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "MtScarabResearchCenter - Enemy - Lt Hoffman (New Pandora)",
@@ -7822,12 +7360,6 @@
       },
       {
         "name": "FFSBossFight",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "FFSBossFight - Enemy - Hector",
@@ -7845,12 +7377,6 @@
       },
       {
         "name": "WrithingDeep",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "WrithingDeep - Enemy - Haderax the Invincible",
@@ -7916,12 +7442,6 @@
       },
       {
         "name": "HallowedHallow",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "HallowedHallow - Enemy - Sully the Blacksmith",
@@ -7991,12 +7511,6 @@
       },
       {
         "name": "GluttonyGulch",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "GluttonyGulch - Enemy - Chef Gouda Remsay",
@@ -8150,12 +7664,6 @@
       },
       {
         "name": "MarcusMercenaryShop",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "MarcusMercenaryShop - Enemy - Tinder Snowflake",
@@ -8213,12 +7721,6 @@
       },
       {
         "name": "RotgutDistillery",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "RotgutDistillery - Enemy - Colin Zaford",
@@ -8324,12 +7826,6 @@
       },
       {
         "name": "WamBamIsland",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "WamBamIsland - Enemy - Son of Crawmerax",
