@@ -168,6 +168,18 @@
             "item_count": 1
           },
           {
+            "name": "Rock, Paper, Genocide - Corrosive Weapons!",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rock, Paper, Genocide - Shock Weapons!",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Do No Harm",
             "access_rules": [],
             "visibility_rules": [],
@@ -252,18 +264,6 @@
             "item_count": 1
           },
           {
-            "name": "Rock, Paper, Genocide - Corrosive Weapons!",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rock, Paper, Genocide - Shock Weapons!",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
             "name": "Splinter Group",
             "access_rules": [],
             "visibility_rules": [],
@@ -307,6 +307,18 @@
           },
           {
             "name": "Hidden Journals",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Clan War - Starting the War",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "You Will Die (Seriously)",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -994,7 +1006,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsDivide",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsDivide"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Drydocks Corner",
             "access_rules": [],
@@ -1012,7 +1038,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsDivide",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsDivide"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Starting Area",
             "access_rules": [],
@@ -1042,7 +1082,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsDivide",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsDivide"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - Mans Best Friends",
             "access_rules": [],
@@ -1054,7 +1108,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsDivide",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsDivide"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Windbreak Car Trunk",
             "access_rules": [],
@@ -1063,6 +1131,50 @@
           },
           {
             "name": "Chest - Drydocks Upstairs",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "FrostburnCanyon",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|FrostburnCanyon"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "A Dam Fine Rescue",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Cult Following - Eternal Flame",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Cult Following - Lighting the Match",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Cult Following - The Enkindling",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Cult Following - False Idols",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1098,7 +1210,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "FrostburnCanyon",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|FrostburnCanyon"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Blisterpus Cave",
             "access_rules": [],
@@ -1110,7 +1236,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "FrostburnCanyon",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|FrostburnCanyon"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -1134,7 +1274,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "FrostburnCanyon",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|FrostburnCanyon"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - Totems of Fire",
             "access_rules": [],
@@ -1158,7 +1312,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "FrostburnCanyon",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|FrostburnCanyon"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Ashmouth Camp",
             "access_rules": [],
@@ -1182,33 +1350,47 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsValley",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsValley"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
-            "name": "A Dam Fine Rescue",
+            "name": "Bright Lights, Flying City",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Cult Following - Eternal Flame",
+            "name": "Neither Rain nor Sleet nor Skags",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Cult Following - Lighting the Match",
+            "name": "The Ice Man Cometh",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Cult Following - The Enkindling",
+            "name": "No Vacancy",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Cult Following - False Idols",
+            "name": "Medical Mystery - X-Com-municate",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1238,7 +1420,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsValley",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsValley"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Slums Wall",
             "access_rules": [],
@@ -1256,7 +1452,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsValley",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsValley"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Gun Vendor - Happy Pig Motel",
             "access_rules": [],
@@ -1274,7 +1484,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsValley",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsValley"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - This Aint My First Rodeo",
             "access_rules": [],
@@ -1286,39 +1510,23 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ThreeHornsValley",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|ThreeHornsValley"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Split Skull Bay Trunk",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Bright Lights, Flying City",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Neither Rain nor Sleet nor Skags",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "The Ice Man Cometh",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "No Vacancy",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Medical Mystery - X-Com-municate",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1360,7 +1568,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthpawSteam&Power",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthpawSteam&Power"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Before Oney Parkour",
             "access_rules": [],
@@ -1378,7 +1600,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthpawSteam&Power",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthpawSteam&Power"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -1390,7 +1626,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthpawSteam&Power",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthpawSteam&Power"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - Boss Run",
             "access_rules": [],
@@ -1402,7 +1652,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "SouthpawSteam&Power",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|SouthpawSteam&Power"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - After Rouf",
             "access_rules": [],
@@ -1411,6 +1675,56 @@
           },
           {
             "name": "Chest - After Oney",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dust",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Dust"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Clan War - Wakey Wakey",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Clan War - Trailer Trashing",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Clan War - Reach the Dead Drop",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Clan War - Zafords vs Hodunks",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Too Close For Missiles",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Positive Self Image",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1458,7 +1772,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "Dust",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Dust"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Speedway Wall",
             "access_rules": [],
@@ -1476,7 +1804,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "Dust",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Dust"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Med Vendor - Ellies Garage",
             "access_rules": [],
@@ -1524,7 +1866,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "Dust",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Dust"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - Ive Got a Crush on You",
             "access_rules": [],
@@ -1554,27 +1910,43 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "Dust",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|Dust"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Gooses Roost Volleyball Net",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "HolySpirits",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HolySpirits"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
-            "name": "Clan War - Wakey Wakey",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Clan War - Zafords vs Hodunks",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Clan War - Starting the War",
+            "name": "Clan War - End of the Rainbow",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1584,27 +1956,115 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "HolySpirits",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HolySpirits"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
-            "name": "Clan War - Trailer Trashing",
+            "name": "Enemy - Bagman",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "HolySpirits",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HolySpirits"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Symbol - Bathroom",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "HolySpirits",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HolySpirits"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Gun Vendor - Holy Spirits",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Too Close For Missiles",
+            "name": "Ammo Vendor - Holy Spirits",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Positive Self Image",
+            "name": "Med Vendor - Holy Spirits",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "HolySpirits",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HolySpirits"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
-            "name": "Clan War - Reach the Dead Drop",
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "HolySpirits",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HolySpirits"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Chest - The Stash",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1658,7 +2118,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "BloodshotStronghold",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|BloodshotStronghold"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Pizza Intercom",
             "access_rules": [],
@@ -1670,7 +2144,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "BloodshotStronghold",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|BloodshotStronghold"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -1682,7 +2170,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "BloodshotStronghold",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|BloodshotStronghold"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - Eff Yo Couch",
             "access_rules": [],
@@ -1712,7 +2214,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "BloodshotStronghold",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|BloodshotStronghold"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Electric Gate",
             "access_rules": [],
@@ -2475,68 +2991,6 @@
           },
           {
             "name": "Hyperion Contract #873",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HolySpirits",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          "$CanReachRegion|HolySpirits"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Enemy - Bagman",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Bathroom",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Gun Vendor - Holy Spirits",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Ammo Vendor - Holy Spirits",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Med Vendor - Holy Spirits",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - The Stash",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Clan War - End of the Rainbow",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -4044,7 +4498,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "HerosPass",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HerosPass"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -4056,7 +4524,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "HerosPass",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HerosPass"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - When Nature Calls",
             "access_rules": [],
@@ -4074,7 +4556,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "HerosPass",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|HerosPass"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Volcano Entrance",
             "access_rules": [],
@@ -4100,13 +4596,41 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "VaultOfTheWarrior",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|VaultOfTheWarrior"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Elevator Bottom",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "VaultOfTheWarrior",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|VaultOfTheWarrior"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Ammo Vendor - Fast Travel Station",
             "access_rules": [],
@@ -4118,7 +4642,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "VaultOfTheWarrior",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|VaultOfTheWarrior"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - The Warriors Way",
             "access_rules": [],
@@ -4136,7 +4674,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "VaultOfTheWarrior",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|VaultOfTheWarrior"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Lava River Cave",
             "access_rules": [],
@@ -4162,7 +4714,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "TerramorphousPeak",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|TerramorphousPeak"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Symbol - Dropdown",
             "access_rules": [],
@@ -4174,7 +4740,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "TerramorphousPeak",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|TerramorphousPeak"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
@@ -4192,7 +4772,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "TerramorphousPeak",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|TerramorphousPeak"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Challenge - Terramorphous the Not-So-Invincible",
             "access_rules": [],
@@ -4204,7 +4798,21 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "TerramorphousPeak",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+          "$CanReachRegion|TerramorphousPeak"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Terramorphous #1",
             "access_rules": [],
@@ -4213,12 +4821,6 @@
           },
           {
             "name": "Chest - Terramorphous #2",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "You Will Die (Seriously)",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
