@@ -276,6 +276,10 @@
           {
             "name": "Sanctuary - Hidden Journals",
             "ref": "BaseGame/Sanctuary/Hidden Journals"
+          },
+          {
+            "name": "Sanctuary - You Will Die (Seriously)",
+            "ref": "BaseGame/Sanctuary/You Will Die (Seriously)"
           }
         ],
         "map_locations": [
@@ -2982,10 +2986,6 @@
           {
             "name": "TerramorphousPeak - Chest - Terramorphous #2",
             "ref": "BaseGame/TerramorphousPeak/Chest - Terramorphous #2"
-          },
-          {
-            "name": "TerramorphousPeak - You Will Die (Seriously)",
-            "ref": "BaseGame/TerramorphousPeak/You Will Die (Seriously)"
           }
         ],
         "map_locations": [
