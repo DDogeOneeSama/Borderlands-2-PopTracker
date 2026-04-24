@@ -326,16 +326,12 @@ function AutoFill()
         return
     end
     print(dump_table(SLOT_DATA))
-
+    local skippedSettings = {"version", "delete_starting_gear", "filler_gear", "receive_gear", "spawn_traps", "quest_reward_items", "remove_locations", "include_locations", "death_link", "death_link_punishment", "death_link_send_mode"}
     for settings_name , settings_value in pairs(SLOT_DATA) do
-        if settings_name == "version" then
-            goto continue
-        end
-        if settings_name == "remove_locations" then
-            goto continue
-        end
-        if settings_name == "include_locations" then
-            goto continue
+        for _, setting in ipairs(skippedSettings) do
+            if settings_name == setting then
+                goto continue
+            end
         end
         print(settings_name, settings_value)
         if settings_name == "goals" then
