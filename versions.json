@@ -2,8 +2,8 @@
   "versions": [
     {
       "package_version": "0.1.0",
-      "download_url": "https://github.com/DDogeOneeSama/Borderlands-2-PopTracker/archive/refs/tags/0.1.0.zip",
-      "sha256": "59c2e24b13bbf26fc3dff9dc5ac82bc100039389e6837092d173645a4a4b6716",
+      "download_url": "https://github.com/DDogeOneeSama/Borderlands-2-PopTracker/releases/download/0.1.0/bl2_poptracker_0_1_0.zip",
+      "sha256": "751eb0f550eeae6854b4ff23ebe8ab63dcbbac9edd4d2caf4535450124775f5a",
       "changelog": [
         "Check release notes"
       ]
