@@ -642,355 +642,355 @@
           },
           {
             "name": "GearPickup - Common Shield",
-            "ref": "GlobalChecks/GearPickup/Common Shield"
+            "ref": "GlobalChecks/GearPickup/Common Shield Found"
           },
           {
             "name": "GearPickup - Uncommon Shield",
-            "ref": "GlobalChecks/GearPickup/Uncommon Shield"
+            "ref": "GlobalChecks/GearPickup/Uncommon Shield Found"
           },
           {
             "name": "GearPickup - Rare Shield",
-            "ref": "GlobalChecks/GearPickup/Rare Shield"
+            "ref": "GlobalChecks/GearPickup/Rare Shield Found"
           },
           {
             "name": "GearPickup - VeryRare Shield",
-            "ref": "GlobalChecks/GearPickup/VeryRare Shield"
+            "ref": "GlobalChecks/GearPickup/VeryRare Shield Found"
           },
           {
             "name": "GearPickup - Legendary Shield",
-            "ref": "GlobalChecks/GearPickup/Legendary Shield"
+            "ref": "GlobalChecks/GearPickup/Legendary Shield Found"
           },
           {
             "name": "GearPickup - Seraph Shield",
-            "ref": "GlobalChecks/GearPickup/Seraph Shield"
+            "ref": "GlobalChecks/GearPickup/Seraph Shield Found"
           },
           {
             "name": "GearPickup - Rainbow Shield",
-            "ref": "GlobalChecks/GearPickup/Rainbow Shield"
+            "ref": "GlobalChecks/GearPickup/Rainbow Shield Found"
           },
           {
             "name": "GearPickup - Unique Shield",
-            "ref": "GlobalChecks/GearPickup/Unique Shield"
+            "ref": "GlobalChecks/GearPickup/Unique Shield Found"
           },
           {
             "name": "GearPickup - Common GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/Common GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/Common GrenadeMod Found"
           },
           {
             "name": "GearPickup - Uncommon GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/Uncommon GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/Uncommon GrenadeMod Found"
           },
           {
             "name": "GearPickup - Rare GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/Rare GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/Rare GrenadeMod Found"
           },
           {
             "name": "GearPickup - VeryRare GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/VeryRare GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/VeryRare GrenadeMod Found"
           },
           {
             "name": "GearPickup - Legendary GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/Legendary GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/Legendary GrenadeMod Found"
           },
           {
             "name": "GearPickup - Seraph GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/Seraph GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/Seraph GrenadeMod Found"
           },
           {
             "name": "GearPickup - Rainbow GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/Rainbow GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/Rainbow GrenadeMod Found"
           },
           {
             "name": "GearPickup - Unique GrenadeMod",
-            "ref": "GlobalChecks/GearPickup/Unique GrenadeMod"
+            "ref": "GlobalChecks/GearPickup/Unique GrenadeMod Found"
           },
           {
             "name": "GearPickup - Common ClassMod",
-            "ref": "GlobalChecks/GearPickup/Common ClassMod"
+            "ref": "GlobalChecks/GearPickup/Common ClassMod Found"
           },
           {
             "name": "GearPickup - Uncommon ClassMod",
-            "ref": "GlobalChecks/GearPickup/Uncommon ClassMod"
+            "ref": "GlobalChecks/GearPickup/Uncommon ClassMod Found"
           },
           {
             "name": "GearPickup - Rare ClassMod",
-            "ref": "GlobalChecks/GearPickup/Rare ClassMod"
+            "ref": "GlobalChecks/GearPickup/Rare ClassMod Found"
           },
           {
             "name": "GearPickup - VeryRare ClassMod",
-            "ref": "GlobalChecks/GearPickup/VeryRare ClassMod"
+            "ref": "GlobalChecks/GearPickup/VeryRare ClassMod Found"
           },
           {
             "name": "GearPickup - Legendary ClassMod",
-            "ref": "GlobalChecks/GearPickup/Legendary ClassMod"
+            "ref": "GlobalChecks/GearPickup/Legendary ClassMod Found"
           },
           {
             "name": "GearPickup - Common Relic",
-            "ref": "GlobalChecks/GearPickup/Common Relic"
+            "ref": "GlobalChecks/GearPickup/Common Relic Found"
           },
           {
             "name": "GearPickup - Uncommon Relic",
-            "ref": "GlobalChecks/GearPickup/Uncommon Relic"
+            "ref": "GlobalChecks/GearPickup/Uncommon Relic Found"
           },
           {
             "name": "GearPickup - Rare Relic",
-            "ref": "GlobalChecks/GearPickup/Rare Relic"
+            "ref": "GlobalChecks/GearPickup/Rare Relic Found"
           },
           {
             "name": "GearPickup - VeryRare Relic",
-            "ref": "GlobalChecks/GearPickup/VeryRare Relic"
+            "ref": "GlobalChecks/GearPickup/VeryRare Relic Found"
           },
           {
             "name": "GearPickup - E-Tech Relic",
-            "ref": "GlobalChecks/GearPickup/E-Tech Relic"
+            "ref": "GlobalChecks/GearPickup/E-Tech Relic Found"
           },
           {
             "name": "GearPickup - Seraph Relic",
-            "ref": "GlobalChecks/GearPickup/Seraph Relic"
+            "ref": "GlobalChecks/GearPickup/Seraph Relic Found"
           },
           {
             "name": "GearPickup - Rainbow Relic",
-            "ref": "GlobalChecks/GearPickup/Rainbow Relic"
+            "ref": "GlobalChecks/GearPickup/Rainbow Relic Found"
           },
           {
             "name": "GearPickup - Unique Relic",
-            "ref": "GlobalChecks/GearPickup/Unique Relic"
+            "ref": "GlobalChecks/GearPickup/Unique Relic Found"
           },
           {
             "name": "GearPickup - Common Pistol",
-            "ref": "GlobalChecks/GearPickup/Common Pistol"
+            "ref": "GlobalChecks/GearPickup/Common Pistol Found"
           },
           {
             "name": "GearPickup - Uncommon Pistol",
-            "ref": "GlobalChecks/GearPickup/Uncommon Pistol"
+            "ref": "GlobalChecks/GearPickup/Uncommon Pistol Found"
           },
           {
             "name": "GearPickup - Rare Pistol",
-            "ref": "GlobalChecks/GearPickup/Rare Pistol"
+            "ref": "GlobalChecks/GearPickup/Rare Pistol Found"
           },
           {
             "name": "GearPickup - VeryRare Pistol",
-            "ref": "GlobalChecks/GearPickup/VeryRare Pistol"
+            "ref": "GlobalChecks/GearPickup/VeryRare Pistol Found"
           },
           {
             "name": "GearPickup - E-Tech Pistol",
-            "ref": "GlobalChecks/GearPickup/E-Tech Pistol"
+            "ref": "GlobalChecks/GearPickup/E-Tech Pistol Found"
           },
           {
             "name": "GearPickup - Legendary Pistol",
-            "ref": "GlobalChecks/GearPickup/Legendary Pistol"
+            "ref": "GlobalChecks/GearPickup/Legendary Pistol Found"
           },
           {
             "name": "GearPickup - Seraph Pistol",
-            "ref": "GlobalChecks/GearPickup/Seraph Pistol"
+            "ref": "GlobalChecks/GearPickup/Seraph Pistol Found"
           },
           {
             "name": "GearPickup - Pearlescent Pistol",
-            "ref": "GlobalChecks/GearPickup/Pearlescent Pistol"
+            "ref": "GlobalChecks/GearPickup/Pearlescent Pistol Found"
           },
           {
             "name": "GearPickup - Unique Pistol",
-            "ref": "GlobalChecks/GearPickup/Unique Pistol"
+            "ref": "GlobalChecks/GearPickup/Unique Pistol Found"
           },
           {
             "name": "GearPickup - Common Shotgun",
-            "ref": "GlobalChecks/GearPickup/Common Shotgun"
+            "ref": "GlobalChecks/GearPickup/Common Shotgun Found"
           },
           {
             "name": "GearPickup - Uncommon Shotgun",
-            "ref": "GlobalChecks/GearPickup/Uncommon Shotgun"
+            "ref": "GlobalChecks/GearPickup/Uncommon Shotgun Found"
           },
           {
             "name": "GearPickup - Rare Shotgun",
-            "ref": "GlobalChecks/GearPickup/Rare Shotgun"
+            "ref": "GlobalChecks/GearPickup/Rare Shotgun Found"
           },
           {
             "name": "GearPickup - VeryRare Shotgun",
-            "ref": "GlobalChecks/GearPickup/VeryRare Shotgun"
+            "ref": "GlobalChecks/GearPickup/VeryRare Shotgun Found"
           },
           {
             "name": "GearPickup - E-Tech Shotgun",
-            "ref": "GlobalChecks/GearPickup/E-Tech Shotgun"
+            "ref": "GlobalChecks/GearPickup/E-Tech Shotgun Found"
           },
           {
             "name": "GearPickup - Legendary Shotgun",
-            "ref": "GlobalChecks/GearPickup/Legendary Shotgun"
+            "ref": "GlobalChecks/GearPickup/Legendary Shotgun Found"
           },
           {
             "name": "GearPickup - Seraph Shotgun",
-            "ref": "GlobalChecks/GearPickup/Seraph Shotgun"
+            "ref": "GlobalChecks/GearPickup/Seraph Shotgun Found"
           },
           {
             "name": "GearPickup - Rainbow Shotgun",
-            "ref": "GlobalChecks/GearPickup/Rainbow Shotgun"
+            "ref": "GlobalChecks/GearPickup/Rainbow Shotgun Found"
           },
           {
             "name": "GearPickup - Pearlescent Shotgun",
-            "ref": "GlobalChecks/GearPickup/Pearlescent Shotgun"
+            "ref": "GlobalChecks/GearPickup/Pearlescent Shotgun Found"
           },
           {
             "name": "GearPickup - Unique Shotgun",
-            "ref": "GlobalChecks/GearPickup/Unique Shotgun"
+            "ref": "GlobalChecks/GearPickup/Unique Shotgun Found"
           },
           {
             "name": "GearPickup - Common SMG",
-            "ref": "GlobalChecks/GearPickup/Common SMG"
+            "ref": "GlobalChecks/GearPickup/Common SMG Found"
           },
           {
             "name": "GearPickup - Uncommon SMG",
-            "ref": "GlobalChecks/GearPickup/Uncommon SMG"
+            "ref": "GlobalChecks/GearPickup/Uncommon SMG Found"
           },
           {
             "name": "GearPickup - Rare SMG",
-            "ref": "GlobalChecks/GearPickup/Rare SMG"
+            "ref": "GlobalChecks/GearPickup/Rare SMG Found"
           },
           {
             "name": "GearPickup - VeryRare SMG",
-            "ref": "GlobalChecks/GearPickup/VeryRare SMG"
+            "ref": "GlobalChecks/GearPickup/VeryRare SMG Found"
           },
           {
             "name": "GearPickup - E-Tech SMG",
-            "ref": "GlobalChecks/GearPickup/E-Tech SMG"
+            "ref": "GlobalChecks/GearPickup/E-Tech SMG Found"
           },
           {
             "name": "GearPickup - Legendary SMG",
-            "ref": "GlobalChecks/GearPickup/Legendary SMG"
+            "ref": "GlobalChecks/GearPickup/Legendary SMG Found"
           },
           {
             "name": "GearPickup - Seraph SMG",
-            "ref": "GlobalChecks/GearPickup/Seraph SMG"
+            "ref": "GlobalChecks/GearPickup/Seraph SMG Found"
           },
           {
             "name": "GearPickup - Rainbow SMG",
-            "ref": "GlobalChecks/GearPickup/Rainbow SMG"
+            "ref": "GlobalChecks/GearPickup/Rainbow SMG Found"
           },
           {
             "name": "GearPickup - Pearlescent SMG",
-            "ref": "GlobalChecks/GearPickup/Pearlescent SMG"
+            "ref": "GlobalChecks/GearPickup/Pearlescent SMG Found"
           },
           {
             "name": "GearPickup - Unique SMG",
-            "ref": "GlobalChecks/GearPickup/Unique SMG"
+            "ref": "GlobalChecks/GearPickup/Unique SMG Found"
           },
           {
             "name": "GearPickup - Common SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Common SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Common SniperRifle Found"
           },
           {
             "name": "GearPickup - Uncommon SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Uncommon SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Uncommon SniperRifle Found"
           },
           {
             "name": "GearPickup - Rare SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Rare SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Rare SniperRifle Found"
           },
           {
             "name": "GearPickup - VeryRare SniperRifle",
-            "ref": "GlobalChecks/GearPickup/VeryRare SniperRifle"
+            "ref": "GlobalChecks/GearPickup/VeryRare SniperRifle Found"
           },
           {
             "name": "GearPickup - E-Tech SniperRifle",
-            "ref": "GlobalChecks/GearPickup/E-Tech SniperRifle"
+            "ref": "GlobalChecks/GearPickup/E-Tech SniperRifle Found"
           },
           {
             "name": "GearPickup - Legendary SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Legendary SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Legendary SniperRifle Found"
           },
           {
             "name": "GearPickup - Seraph SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Seraph SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Seraph SniperRifle Found"
           },
           {
             "name": "GearPickup - Rainbow SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Rainbow SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Rainbow SniperRifle Found"
           },
           {
             "name": "GearPickup - Pearlescent SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Pearlescent SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Pearlescent SniperRifle Found"
           },
           {
             "name": "GearPickup - Unique SniperRifle",
-            "ref": "GlobalChecks/GearPickup/Unique SniperRifle"
+            "ref": "GlobalChecks/GearPickup/Unique SniperRifle Found"
           },
           {
             "name": "GearPickup - Common AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Common AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Common AssaultRifle Found"
           },
           {
             "name": "GearPickup - Uncommon AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Uncommon AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Uncommon AssaultRifle Found"
           },
           {
             "name": "GearPickup - Rare AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Rare AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Rare AssaultRifle Found"
           },
           {
             "name": "GearPickup - VeryRare AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/VeryRare AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/VeryRare AssaultRifle Found"
           },
           {
             "name": "GearPickup - E-Tech AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/E-Tech AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/E-Tech AssaultRifle Found"
           },
           {
             "name": "GearPickup - Legendary AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Legendary AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Legendary AssaultRifle Found"
           },
           {
             "name": "GearPickup - Seraph AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Seraph AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Seraph AssaultRifle Found"
           },
           {
             "name": "GearPickup - Rainbow AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Rainbow AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Rainbow AssaultRifle Found"
           },
           {
             "name": "GearPickup - Pearlescent AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Pearlescent AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Pearlescent AssaultRifle Found"
           },
           {
             "name": "GearPickup - Unique AssaultRifle",
-            "ref": "GlobalChecks/GearPickup/Unique AssaultRifle"
+            "ref": "GlobalChecks/GearPickup/Unique AssaultRifle Found"
           },
           {
             "name": "GearPickup - Common RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Common RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Common RocketLauncher Found"
           },
           {
             "name": "GearPickup - Uncommon RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Uncommon RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Uncommon RocketLauncher Found"
           },
           {
             "name": "GearPickup - Rare RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Rare RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Rare RocketLauncher Found"
           },
           {
             "name": "GearPickup - VeryRare RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/VeryRare RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/VeryRare RocketLauncher Found"
           },
           {
             "name": "GearPickup - E-Tech RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/E-Tech RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/E-Tech RocketLauncher Found"
           },
           {
             "name": "GearPickup - Legendary RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Legendary RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Legendary RocketLauncher Found"
           },
           {
             "name": "GearPickup - Seraph RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Seraph RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Seraph RocketLauncher Found"
           },
           {
             "name": "GearPickup - Rainbow RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Rainbow RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Rainbow RocketLauncher Found"
           },
           {
             "name": "GearPickup - Pearlescent RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Pearlescent RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Pearlescent RocketLauncher Found"
           },
           {
             "name": "GearPickup - Unique RocketLauncher",
-            "ref": "GlobalChecks/GearPickup/Unique RocketLauncher"
+            "ref": "GlobalChecks/GearPickup/Unique RocketLauncher Found"
           }
         ],
         "map_locations": [

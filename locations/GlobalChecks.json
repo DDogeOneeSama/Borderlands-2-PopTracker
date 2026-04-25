@@ -203,108 +203,49 @@
         ],
         "sections": [
           {
-            "name": "Common Shield",
+            "name": "Common Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon Shield",
+            "name": "Uncommon Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare Shield",
+            "name": "Rare Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare Shield",
+            "name": "VeryRare Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Legendary Shield",
+            "name": "Legendary Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Seraph Shield",
+            "name": "Seraph Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rainbow Shield",
+            "name": "Rainbow Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Unique Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique GrenadeMod",
+            "name": "Unique Shield Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -321,90 +262,49 @@
         ],
         "sections": [
           {
-            "name": "Common ClassMod",
+            "name": "Common GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon ClassMod",
+            "name": "Uncommon GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare ClassMod",
+            "name": "Rare GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare ClassMod",
+            "name": "VeryRare GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Legendary ClassMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common Relic",
+            "name": "Legendary GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon Relic",
+            "name": "Seraph GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare Relic",
+            "name": "Rainbow GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique Relic",
+            "name": "Unique GrenadeMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -421,55 +321,31 @@
         ],
         "sections": [
           {
-            "name": "Common Pistol",
+            "name": "Common ClassMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon Pistol",
+            "name": "Uncommon ClassMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare Pistol",
+            "name": "Rare ClassMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare Pistol",
+            "name": "VeryRare ClassMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "E-Tech Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique Pistol",
+            "name": "Legendary ClassMod Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -486,61 +362,49 @@
         ],
         "sections": [
           {
-            "name": "Common Shotgun",
+            "name": "Common Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon Shotgun",
+            "name": "Uncommon Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare Shotgun",
+            "name": "Rare Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare Shotgun",
+            "name": "VeryRare Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "E-Tech Shotgun",
+            "name": "E-Tech Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Legendary Shotgun",
+            "name": "Seraph Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Seraph Shotgun",
+            "name": "Rainbow Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rainbow Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique Shotgun",
+            "name": "Unique Relic Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -557,61 +421,55 @@
         ],
         "sections": [
           {
-            "name": "Common SMG",
+            "name": "Common Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon SMG",
+            "name": "Uncommon Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare SMG",
+            "name": "Rare Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare SMG",
+            "name": "VeryRare Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "E-Tech SMG",
+            "name": "E-Tech Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Legendary SMG",
+            "name": "Legendary Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Seraph SMG",
+            "name": "Seraph Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rainbow SMG",
+            "name": "Pearlescent Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Pearlescent SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique SMG",
+            "name": "Unique Pistol Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -628,61 +486,61 @@
         ],
         "sections": [
           {
-            "name": "Common SniperRifle",
+            "name": "Common Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon SniperRifle",
+            "name": "Uncommon Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare SniperRifle",
+            "name": "Rare Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare SniperRifle",
+            "name": "VeryRare Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "E-Tech SniperRifle",
+            "name": "E-Tech Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Legendary SniperRifle",
+            "name": "Legendary Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Seraph SniperRifle",
+            "name": "Seraph Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rainbow SniperRifle",
+            "name": "Rainbow Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Pearlescent SniperRifle",
+            "name": "Pearlescent Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Unique SniperRifle",
+            "name": "Unique Shotgun Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -699,61 +557,61 @@
         ],
         "sections": [
           {
-            "name": "Common AssaultRifle",
+            "name": "Common SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon AssaultRifle",
+            "name": "Uncommon SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare AssaultRifle",
+            "name": "Rare SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare AssaultRifle",
+            "name": "VeryRare SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "E-Tech AssaultRifle",
+            "name": "E-Tech SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Legendary AssaultRifle",
+            "name": "Legendary SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Seraph AssaultRifle",
+            "name": "Seraph SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rainbow AssaultRifle",
+            "name": "Rainbow SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Pearlescent AssaultRifle",
+            "name": "Pearlescent SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Unique AssaultRifle",
+            "name": "Unique SMG Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -770,61 +628,203 @@
         ],
         "sections": [
           {
-            "name": "Common RocketLauncher",
+            "name": "Common SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Uncommon RocketLauncher",
+            "name": "Uncommon SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rare RocketLauncher",
+            "name": "Rare SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "VeryRare RocketLauncher",
+            "name": "VeryRare SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "E-Tech RocketLauncher",
+            "name": "E-Tech SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Legendary RocketLauncher",
+            "name": "Legendary SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Seraph RocketLauncher",
+            "name": "Seraph SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Rainbow RocketLauncher",
+            "name": "Rainbow SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Pearlescent RocketLauncher",
+            "name": "Pearlescent SniperRifle Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Unique RocketLauncher",
+            "name": "Unique SniperRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Common AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rare AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Unique AssaultRifle Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "GearPickup",
+        "access_rules": [
+          " "
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
+          {
+            "name": "Common RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rare RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent RocketLauncher Found",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Unique RocketLauncher Found",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
