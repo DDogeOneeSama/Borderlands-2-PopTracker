@@ -128,9 +128,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 450,
+            "y": 520,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -201,9 +202,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 495,
+            "y": 520,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -418,9 +420,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 480,
+            "y": 520,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -471,9 +474,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 525,
+            "y": 520,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -572,9 +576,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 510,
+            "y": 520,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -709,9 +714,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 127,
-            "y": 1919,
-            "size": 6
+            "x": 540,
+            "y": 520,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1074,9 +1080,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 465,
+            "y": 520,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1355,9 +1362,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 490,
+            "y": 212,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1396,9 +1404,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 498,
+            "y": 441,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1509,9 +1518,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 455,
+            "y": 434,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1578,9 +1588,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 428,
+            "y": 481,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1647,9 +1658,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 466,
+            "y": 273,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1748,9 +1760,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 528,
+            "y": 337,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1825,9 +1838,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 390,
+            "y": 277,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -1890,9 +1904,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 378,
+            "y": 325,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2023,9 +2038,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 332,
+            "y": 128,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2112,9 +2128,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2165,9 +2182,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 318,
+            "y": 285,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2206,9 +2224,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 261,
+            "y": 125,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2307,9 +2326,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 410,
+            "y": 228,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2344,9 +2364,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 419,
+            "y": 194,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2473,9 +2494,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 321,
+            "y": 317,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2526,9 +2548,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 330,
+            "y": 347,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2559,9 +2582,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 283,
+            "y": 318,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2636,9 +2660,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 215,
+            "y": 275,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2681,9 +2706,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 200,
+            "y": 275,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2770,9 +2796,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 265,
+            "y": 359,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2819,9 +2846,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 301,
+            "y": 425,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -2936,9 +2964,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 167,
+            "y": 390,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3021,14 +3050,15 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 175,
+            "y": 320,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
       {
-        "name": "The Bunker/Angel",
+        "name": "The Bunker and Angel",
         "sections": [
           {
             "name": "Enemy - BNK-3R",
@@ -3078,9 +3108,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 121,
+            "y": 323,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3119,9 +3150,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 469,
+            "y": 205,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3196,9 +3228,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 469,
+            "y": 190,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3313,9 +3346,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 176,
+            "y": 198,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3450,9 +3484,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 149,
+            "y": 151,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3503,9 +3538,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 161,
+            "y": 77,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3580,9 +3616,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 98,
+            "y": 208,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3637,9 +3674,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 68,
+            "y": 482,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3710,9 +3748,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 71,
+            "y": 432,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3755,9 +3794,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 226,
+            "y": 72,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3800,9 +3840,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 295,
+            "y": 64,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3853,9 +3894,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 175,
+            "y": 305,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3930,9 +3972,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 767,
-            "y": 1939,
-            "size": 6
+            "x": 254,
+            "y": 106,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -3967,9 +4010,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 480,
+            "y": 505,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4100,9 +4144,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 362,
+            "y": 90,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4245,9 +4290,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 448,
+            "y": 109,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4346,9 +4392,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 423,
+            "y": 157,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4419,9 +4466,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 430,
+            "y": 78,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4504,9 +4552,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 369,
+            "y": 133,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4589,9 +4638,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 405,
+            "y": 126,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4694,9 +4744,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 1180,
-            "y": 990,
-            "size": 6
+            "x": 362,
+            "y": 75,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4727,9 +4778,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 495,
+            "y": 505,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4864,9 +4916,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 256,
+            "y": 226,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -4965,9 +5018,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 253,
+            "y": 211,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5038,9 +5092,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 200,
+            "y": 170,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5115,9 +5170,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 215,
+            "y": 170,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5160,9 +5216,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 241,
+            "y": 192,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5209,9 +5266,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 218,
+            "y": 193,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5330,9 +5388,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 1243,
-            "y": 1687,
-            "size": 6
+            "x": 188,
+            "y": 155,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5363,9 +5422,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 2488,
-            "y": 923,
-            "size": 6
+            "x": 510,
+            "y": 505,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5500,9 +5560,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 259,
+            "y": 473,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5593,9 +5654,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 239,
+            "y": 444,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5678,9 +5740,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 218,
+            "y": 422,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5779,9 +5842,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 205,
+            "y": 393,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5868,9 +5932,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 238,
+            "y": 417,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5921,9 +5986,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 2090,
-            "y": 1812,
-            "size": 6
+            "x": 525,
+            "y": 505,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -5974,9 +6040,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 150,
+            "y": 462,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6071,9 +6138,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 185,
+            "y": 465,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6136,9 +6204,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 202,
+            "y": 501,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6229,9 +6298,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 232,
+            "y": 511,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6330,9 +6400,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 316,
+            "y": 518,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6427,9 +6498,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 349,
+            "y": 432,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6508,9 +6580,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 334,
+            "y": 469,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6549,9 +6622,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 380,
+            "y": 451,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6622,9 +6696,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 200,
+            "y": 465,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6895,9 +6970,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 365,
+            "y": 455,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6940,9 +7016,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 816,
-            "y": 1496,
-            "size": 6
+            "x": 540,
+            "y": 505,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -6957,9 +7034,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 305,
+            "y": 110,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7078,9 +7156,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 305,
+            "y": 95,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7179,9 +7258,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 276,
+            "y": 125,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7248,9 +7328,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 300,
+            "y": 155,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7345,9 +7426,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 304,
+            "y": 202,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7430,9 +7512,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 246,
+            "y": 125,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7447,9 +7530,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 246,
+            "y": 140,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7512,9 +7596,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 315,
+            "y": 155,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7581,9 +7666,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 228,
+            "y": 360,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7734,9 +7820,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 130,
+            "y": 251,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7791,9 +7878,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 336,
+            "y": 179,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -7896,9 +7984,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 298,
-            "y": 1703,
-            "size": 6
+            "x": 147,
+            "y": 296,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
@@ -8013,9 +8102,10 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 1256,
-            "y": 1115,
-            "size": 6
+            "x": 483,
+            "y": 127,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       }
