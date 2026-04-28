@@ -647,7 +647,7 @@
     "initial_quantity": 0,
     "overlay_font_size": true,
     "overlay_background": "#000000",
-    "codes": "progressivetravel:sidearea"
+    "codes": "progressivetravel:basegame_side"
   },
   {
     "name": "Scarlett DLC Progressive Travel Items",
@@ -660,7 +660,7 @@
     "initial_quantity": 0,
     "overlay_font_size": true,
     "overlay_background": "#000000",
-    "codes": "progressivetravel:scarlettdlc"
+    "codes": "progressivetravel:scarlett"
   },
   {
     "name": "Torgue DLC Progressive Travel Items",
@@ -673,7 +673,7 @@
     "initial_quantity": 0,
     "overlay_font_size": true,
     "overlay_background": "#000000",
-    "codes": "progressivetravel:torguedlc"
+    "codes": "progressivetravel:torgue"
   },
   {
     "name": "Hammerlock DLC Progressive Travel Items",
@@ -686,7 +686,7 @@
     "initial_quantity": 0,
     "overlay_font_size": true,
     "overlay_background": "#000000",
-    "codes": "progressivetravel:hammerlockdlc"
+    "codes": "progressivetravel:hammerlock"
   },
   {
     "name": "Tina DLC Progressive Travel Items",
@@ -699,7 +699,7 @@
     "initial_quantity": 0,
     "overlay_font_size": true,
     "overlay_background": "#000000",
-    "codes": "progressivetravel:tinadlc"
+    "codes": "progressivetravel:tina"
   },
   {
     "name": "Fight for Sanctuary DLC Progressive Travel Items",
@@ -712,7 +712,7 @@
     "initial_quantity": 0,
     "overlay_font_size": true,
     "overlay_background": "#000000",
-    "codes": "progressivetravel:fightforsanctuarydlc"
+    "codes": "progressivetravel:fightforsanctuary"
   },
   {
     "name": "Headhunters Progressive Travel Items",
@@ -725,6 +725,6 @@
     "initial_quantity": 0,
     "overlay_font_size": true,
     "overlay_background": "#000000",
-    "codes": "progressivetravel:headhunters"
+    "codes": "progressivetravel:headhunter"
   }
 ]

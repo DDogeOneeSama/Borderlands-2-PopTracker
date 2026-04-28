@@ -69,13 +69,13 @@
               ],
               [
                 "progressivetravel:basegame",
-                "progressivetravel:sidearea",
-                "progressivetravel:scarlettdlc",
-                "progressivetravel:torguedlc",
-                "progressivetravel:hammerlockdlc",
-                "progressivetravel:tinadlc",
-                "progressivetravel:fightforsanctuarydlc",
-                "progressivetravel:headhunters"
+                "progressivetravel:basegame_side",
+                "progressivetravel:scarlett",
+                "progressivetravel:torgue",
+                "progressivetravel:hammerlock",
+                "progressivetravel:tina",
+                "progressivetravel:ffs",
+                "progressivetravel:headhunter"
               ]
             ]
           }
