@@ -4,7 +4,6 @@ require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/setting_mapping")
 
 CUR_INDEX = -1
--- SLOT_DATA = nil
 
 ALL_LOCATIONS = {}
 SLOT_DATA = {}
