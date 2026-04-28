@@ -4,7 +4,7 @@ local variant = Tracker.ActiveVariantUID
 require("scripts/items_import")
 
 -- Logic
---require("scripts/logic/base_logic")
+require("scripts/logic/base_logic")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")
