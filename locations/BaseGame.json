@@ -5,7 +5,7 @@
     "chest_opened_img": "/images/items/open.png",
     "overlay_background": "#000000",
     "visibility_rules": [
-      " "
+      "remove_base_game_checks_keep"
     ],
     "children": [
       {
@@ -322,18 +322,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sanctuary",
-        "access_rules": [
-          "$CanReachRegion|Sanctuary"
-        ],
-        "visibility_rules": [
-          ""
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Rooftop",
             "access_rules": [],
@@ -363,18 +352,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sanctuary",
-        "access_rules": [
-          "$CanReachRegion|Sanctuary"
-        ],
-        "visibility_rules": [
-          ""
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Crimson Raider Base",
             "access_rules": [],
@@ -422,18 +400,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sanctuary",
-        "access_rules": [
-          "$CanReachRegion|Sanctuary"
-        ],
-        "visibility_rules": [
-          ""
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Jackpot!",
             "access_rules": [],
@@ -451,18 +418,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Sanctuary",
-        "access_rules": [
-          "$CanReachRegion|Sanctuary"
-        ],
-        "visibility_rules": [
-          ""
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Rolands Armory",
             "access_rules": [],
@@ -497,69 +453,25 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WindshearWaste",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Knuckle Dragger",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WindshearWaste",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Claptraps Closet",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WindshearWaste",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WindshearWaste",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Blindsided",
             "access_rules": [],
@@ -618,18 +530,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelf",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelf"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Boom",
             "access_rules": [],
@@ -647,18 +548,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelf",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelf"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Flynts Ship",
             "access_rules": [],
@@ -670,18 +560,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelf",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelf"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Liars Berg",
             "access_rules": [],
@@ -717,18 +596,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelf",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelf"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Make Boom Go Boom",
             "access_rules": [],
@@ -746,18 +614,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelf",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelf"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Boom Bewm Elevator",
             "access_rules": [],
@@ -798,18 +655,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelfBay",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelfBay"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Blackburn Cove Corner",
             "access_rules": [],
@@ -821,18 +667,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelfBay",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelfBay"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -862,18 +697,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelfBay",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelfBay"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - I Can See Your Corpse from Here!",
             "access_rules": [],
@@ -897,18 +721,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthernShelfBay",
-        "access_rules": [
-          "$CanReachRegion|SouthernShelfBay"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Midgemongs Trunk",
             "access_rules": [],
@@ -943,18 +756,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsDivide",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsDivide"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Drydocks Corner",
             "access_rules": [],
@@ -972,18 +774,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsDivide",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsDivide"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Starting Area",
             "access_rules": [],
@@ -1013,18 +804,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsDivide",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsDivide"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Mans Best Friends",
             "access_rules": [],
@@ -1036,18 +816,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsDivide",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsDivide"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Windbreak Car Trunk",
             "access_rules": [],
@@ -1100,18 +869,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FrostburnCanyon",
-        "access_rules": [
-          "$CanReachRegion|FrostburnCanyon"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Scorch",
             "access_rules": [],
@@ -1129,18 +887,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FrostburnCanyon",
-        "access_rules": [
-          "$CanReachRegion|FrostburnCanyon"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Blisterpus Cave",
             "access_rules": [],
@@ -1152,18 +899,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FrostburnCanyon",
-        "access_rules": [
-          "$CanReachRegion|FrostburnCanyon"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -1187,18 +923,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FrostburnCanyon",
-        "access_rules": [
-          "$CanReachRegion|FrostburnCanyon"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Totems of Fire",
             "access_rules": [],
@@ -1222,18 +947,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FrostburnCanyon",
-        "access_rules": [
-          "$CanReachRegion|FrostburnCanyon"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Ashmouth Camp",
             "access_rules": [],
@@ -1298,18 +1012,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsValley",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsValley"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Doc Mercy",
             "access_rules": [],
@@ -1321,18 +1024,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsValley",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsValley"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Slums Wall",
             "access_rules": [],
@@ -1350,18 +1042,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsValley",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsValley"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Happy Pig Motel",
             "access_rules": [],
@@ -1379,18 +1060,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsValley",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsValley"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - This Aint My First Rodeo",
             "access_rules": [],
@@ -1402,18 +1072,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThreeHornsValley",
-        "access_rules": [
-          "$CanReachRegion|ThreeHornsValley"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Split Skull Bay Trunk",
             "access_rules": [],
@@ -1454,18 +1113,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthpawSteam&Power",
-        "access_rules": [
-          "$CanReachRegion|SouthpawSteam&Power"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Before Oney Parkour",
             "access_rules": [],
@@ -1483,18 +1131,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthpawSteam&Power",
-        "access_rules": [
-          "$CanReachRegion|SouthpawSteam&Power"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -1506,18 +1143,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthpawSteam&Power",
-        "access_rules": [
-          "$CanReachRegion|SouthpawSteam&Power"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Boss Run",
             "access_rules": [],
@@ -1529,18 +1155,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SouthpawSteam&Power",
-        "access_rules": [
-          "$CanReachRegion|SouthpawSteam&Power"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - After Rouf",
             "access_rules": [],
@@ -1599,18 +1214,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Dust",
-        "access_rules": [
-          "$CanReachRegion|Dust"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Gettle",
             "access_rules": [],
@@ -1640,18 +1244,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Dust",
-        "access_rules": [
-          "$CanReachRegion|Dust"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Speedway Wall",
             "access_rules": [],
@@ -1669,18 +1262,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Dust",
-        "access_rules": [
-          "$CanReachRegion|Dust"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Med Vendor - Ellies Garage",
             "access_rules": [],
@@ -1728,18 +1310,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Dust",
-        "access_rules": [
-          "$CanReachRegion|Dust"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Ive Got a Crush on You",
             "access_rules": [],
@@ -1769,18 +1340,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Dust",
-        "access_rules": [
-          "$CanReachRegion|Dust"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Gooses Roost Volleyball Net",
             "access_rules": [],
@@ -1809,52 +1369,19 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HolySpirits",
-        "access_rules": [
-          "$CanReachRegion|HolySpirits"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Bagman",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HolySpirits",
-        "access_rules": [
-          "$CanReachRegion|HolySpirits"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Bathroom",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HolySpirits",
-        "access_rules": [
-          "$CanReachRegion|HolySpirits"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Holy Spirits",
             "access_rules": [],
@@ -1872,35 +1399,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HolySpirits",
-        "access_rules": [
-          "$CanReachRegion|HolySpirits"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HolySpirits",
-        "access_rules": [
-          "$CanReachRegion|HolySpirits"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - The Stash",
             "access_rules": [],
@@ -1923,18 +1428,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotStronghold",
-        "access_rules": [
-          "$CanReachRegion|BloodshotStronghold"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Mad Mike",
             "access_rules": [],
@@ -1970,18 +1464,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotStronghold",
-        "access_rules": [
-          "$CanReachRegion|BloodshotStronghold"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Pizza Intercom",
             "access_rules": [],
@@ -1993,18 +1476,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotStronghold",
-        "access_rules": [
-          "$CanReachRegion|BloodshotStronghold"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -2016,18 +1488,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotStronghold",
-        "access_rules": [
-          "$CanReachRegion|BloodshotStronghold"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Eff Yo Couch",
             "access_rules": [],
@@ -2057,18 +1518,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotStronghold",
-        "access_rules": [
-          "$CanReachRegion|BloodshotStronghold"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Electric Gate",
             "access_rules": [],
@@ -2103,35 +1553,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotRamparts",
-        "access_rules": [
-          "$CanReachRegion|BloodshotRamparts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Ramp",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotRamparts",
-        "access_rules": [
-          "$CanReachRegion|BloodshotRamparts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -2143,18 +1571,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotRamparts",
-        "access_rules": [
-          "$CanReachRegion|BloodshotRamparts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - The Last Place You Look",
             "access_rules": [],
@@ -2178,18 +1595,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "BloodshotRamparts",
-        "access_rules": [
-          "$CanReachRegion|BloodshotRamparts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Car Junkyard Trunk",
             "access_rules": [],
@@ -2218,18 +1624,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FriendshipGulag",
-        "access_rules": [
-          "$CanReachRegion|FriendshipGulag"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
@@ -2241,18 +1636,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FriendshipGulag",
-        "access_rules": [
-          "$CanReachRegion|FriendshipGulag"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - In the Middle of the Night",
             "access_rules": [],
@@ -2264,18 +1648,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FriendshipGulag",
-        "access_rules": [
-          "$CanReachRegion|FriendshipGulag"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Carson Cell",
             "access_rules": [],
@@ -2328,18 +1701,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TundraExpress",
-        "access_rules": [
-          "$CanReachRegion|TundraExpress"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Madame Von Bartlesby",
             "access_rules": [],
@@ -2357,18 +1719,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TundraExpress",
-        "access_rules": [
-          "$CanReachRegion|TundraExpress"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Fork Shack",
             "access_rules": [],
@@ -2380,18 +1731,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TundraExpress",
-        "access_rules": [
-          "$CanReachRegion|TundraExpress"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -2415,18 +1755,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TundraExpress",
-        "access_rules": [
-          "$CanReachRegion|TundraExpress"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Bug Off",
             "access_rules": [],
@@ -2456,18 +1785,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TundraExpress",
-        "access_rules": [
-          "$CanReachRegion|TundraExpress"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Mount Molehill Mine Top",
             "access_rules": [],
@@ -2502,35 +1820,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EndOfTheLine",
-        "access_rules": [
-          "$CanReachRegion|EndOfTheLine"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Wilhelm Wall",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EndOfTheLine",
-        "access_rules": [
-          "$CanReachRegion|EndOfTheLine"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -2542,18 +1838,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EndOfTheLine",
-        "access_rules": [
-          "$CanReachRegion|EndOfTheLine"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
@@ -2582,18 +1867,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fridge",
-        "access_rules": [
-          "$CanReachRegion|Fridge"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Laney White",
             "access_rules": [],
@@ -2665,18 +1939,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fridge",
-        "access_rules": [
-          "$CanReachRegion|Fridge"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Secret Stash",
             "access_rules": [],
@@ -2688,18 +1951,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fridge",
-        "access_rules": [
-          "$CanReachRegion|Fridge"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -2723,18 +1975,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fridge",
-        "access_rules": [
-          "$CanReachRegion|Fridge"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Stiff Competition",
             "access_rules": [],
@@ -2770,18 +2011,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fridge",
-        "access_rules": [
-          "$CanReachRegion|Fridge"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Rakkmans Lair",
             "access_rules": [],
@@ -2846,35 +2076,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FinksSlaughterhouse",
-        "access_rules": [
-          "$CanReachRegion|FinksSlaughterhouse"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Column",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FinksSlaughterhouse",
-        "access_rules": [
-          "$CanReachRegion|FinksSlaughterhouse"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
@@ -2892,18 +2100,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "FinksSlaughterhouse",
-        "access_rules": [
-          "$CanReachRegion|FinksSlaughterhouse"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
@@ -2932,18 +2129,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HighlandsOutwash",
-        "access_rules": [
-          "$CanReachRegion|HighlandsOutwash"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -2955,18 +2141,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HighlandsOutwash",
-        "access_rules": [
-          "$CanReachRegion|HighlandsOutwash"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Old Slappy Tower",
             "access_rules": [],
@@ -3019,52 +2194,19 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Highlands",
-        "access_rules": [
-          "$CanReachRegion|Highlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Henry",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Highlands",
-        "access_rules": [
-          "$CanReachRegion|Highlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Highlands Tower",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Highlands",
-        "access_rules": [
-          "$CanReachRegion|Highlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Bridge",
             "access_rules": [],
@@ -3088,18 +2230,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Highlands",
-        "access_rules": [
-          "$CanReachRegion|Highlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Winds of the Highlands",
             "access_rules": [],
@@ -3117,18 +2248,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Highlands",
-        "access_rules": [
-          "$CanReachRegion|Highlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Blake Bridge Fall",
             "access_rules": [],
@@ -3163,18 +2283,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WildlifeExploitationPreserve",
-        "access_rules": [
-          "$CanReachRegion|WildlifeExploitationPreserve"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Dockyard Roof",
             "access_rules": [],
@@ -3186,18 +2295,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WildlifeExploitationPreserve",
-        "access_rules": [
-          "$CanReachRegion|WildlifeExploitationPreserve"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -3221,18 +2319,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WildlifeExploitationPreserve",
-        "access_rules": [
-          "$CanReachRegion|WildlifeExploitationPreserve"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Mordys Secret Stashes",
             "access_rules": [],
@@ -3262,18 +2349,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "WildlifeExploitationPreserve",
-        "access_rules": [
-          "$CanReachRegion|WildlifeExploitationPreserve"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Observation Wing #1",
             "access_rules": [],
@@ -3344,35 +2420,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "NaturalSelectionAnnex",
-        "access_rules": [
-          "$CanReachRegion|NaturalSelectionAnnex"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Crate Ceiling",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "NaturalSelectionAnnex",
-        "access_rules": [
-          "$CanReachRegion|NaturalSelectionAnnex"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Natural Selection Annex",
             "access_rules": [],
@@ -3384,18 +2438,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "NaturalSelectionAnnex",
-        "access_rules": [
-          "$CanReachRegion|NaturalSelectionAnnex"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
@@ -3424,18 +2467,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Opportunity",
-        "access_rules": [
-          "$CanReachRegion|Opportunity"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Foreman Jasper",
             "access_rules": [],
@@ -3447,18 +2479,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Opportunity",
-        "access_rules": [
-          "$CanReachRegion|Opportunity"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Construction Site",
             "access_rules": [],
@@ -3470,18 +2491,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Opportunity",
-        "access_rules": [
-          "$CanReachRegion|Opportunity"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
@@ -3535,18 +2545,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Opportunity",
-        "access_rules": [
-          "$CanReachRegion|Opportunity"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Shame the Foreman",
             "access_rules": [],
@@ -3576,18 +2575,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Opportunity",
-        "access_rules": [
-          "$CanReachRegion|Opportunity"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Home Movies Crate",
             "access_rules": [],
@@ -3652,18 +2640,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThousandCuts",
-        "access_rules": [
-          "$CanReachRegion|ThousandCuts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - GOD-liath",
             "access_rules": [],
@@ -3681,18 +2658,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThousandCuts",
-        "access_rules": [
-          "$CanReachRegion|ThousandCuts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Buzzard Factory",
             "access_rules": [],
@@ -3704,18 +2670,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThousandCuts",
-        "access_rules": [
-          "$CanReachRegion|ThousandCuts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Slab Town",
             "access_rules": [],
@@ -3727,18 +2682,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThousandCuts",
-        "access_rules": [
-          "$CanReachRegion|ThousandCuts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Slab UHF",
             "access_rules": [],
@@ -3762,18 +2706,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "ThousandCuts",
-        "access_rules": [
-          "$CanReachRegion|ThousandCuts"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Slab UHF",
             "access_rules": [],
@@ -3814,52 +2747,19 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bunker",
-        "access_rules": [
-          "$CanReachRegion|Bunker"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - BNK-3R",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bunker",
-        "access_rules": [
-          "$CanReachRegion|Bunker"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Backside",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bunker",
-        "access_rules": [
-          "$CanReachRegion|Bunker"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Bunker",
             "access_rules": [],
@@ -3871,18 +2771,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bunker",
-        "access_rules": [
-          "$CanReachRegion|Bunker"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - BNK-3R Buster",
             "access_rules": [],
@@ -3894,18 +2783,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Bunker",
-        "access_rules": [
-          "$CanReachRegion|Bunker"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Back Room",
             "access_rules": [],
@@ -3946,18 +2824,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SanctuaryHole",
-        "access_rules": [
-          "$CanReachRegion|SanctuaryHole"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Sanctuary Hole",
             "access_rules": [],
@@ -3969,18 +2836,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SanctuaryHole",
-        "access_rules": [
-          "$CanReachRegion|SanctuaryHole"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Down the Rabbit Hole",
             "access_rules": [],
@@ -3998,18 +2854,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SanctuaryHole",
-        "access_rules": [
-          "$CanReachRegion|SanctuaryHole"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Generator Room",
             "access_rules": [],
@@ -4032,18 +2877,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "CausticCaverns",
-        "access_rules": [
-          "$CanReachRegion|CausticCaverns"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Blue",
             "access_rules": [],
@@ -4055,18 +2889,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "CausticCaverns",
-        "access_rules": [
-          "$CanReachRegion|CausticCaverns"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Gravestone Feature",
             "access_rules": [],
@@ -4078,18 +2901,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "CausticCaverns",
-        "access_rules": [
-          "$CanReachRegion|CausticCaverns"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -4107,18 +2919,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "CausticCaverns",
-        "access_rules": [
-          "$CanReachRegion|CausticCaverns"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Harcheks Revenge",
             "access_rules": [],
@@ -4148,18 +2949,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "CausticCaverns",
-        "access_rules": [
-          "$CanReachRegion|CausticCaverns"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Treasure Chest",
             "access_rules": [],
@@ -4230,18 +3020,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Lynchwood",
-        "access_rules": [
-          "$CanReachRegion|Lynchwood"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Dukinos Mom",
             "access_rules": [],
@@ -4265,18 +3044,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Lynchwood",
-        "access_rules": [
-          "$CanReachRegion|Lynchwood"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Gunslinger Roof",
             "access_rules": [],
@@ -4288,18 +3056,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Lynchwood",
-        "access_rules": [
-          "$CanReachRegion|Lynchwood"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -4317,18 +3074,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Lynchwood",
-        "access_rules": [
-          "$CanReachRegion|Lynchwood"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Duel of Death",
             "access_rules": [],
@@ -4364,18 +3110,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Lynchwood",
-        "access_rules": [
-          "$CanReachRegion|Lynchwood"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - MadDog Trunk",
             "access_rules": [],
@@ -4446,18 +3181,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EridiumBlight",
-        "access_rules": [
-          "$CanReachRegion|EridiumBlight"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - King Mong",
             "access_rules": [],
@@ -4469,18 +3193,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EridiumBlight",
-        "access_rules": [
-          "$CanReachRegion|EridiumBlight"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Hellsfont Crate",
             "access_rules": [],
@@ -4498,18 +3211,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EridiumBlight",
-        "access_rules": [
-          "$CanReachRegion|EridiumBlight"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -4551,18 +3253,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EridiumBlight",
-        "access_rules": [
-          "$CanReachRegion|EridiumBlight"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Can You Hear Me Now",
             "access_rules": [],
@@ -4610,18 +3301,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "EridiumBlight",
-        "access_rules": [
-          "$CanReachRegion|EridiumBlight"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Volcano Free",
             "access_rules": [],
@@ -4692,35 +3372,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "OreChasm",
-        "access_rules": [
-          "$CanReachRegion|OreChasm"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Elevator",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "OreChasm",
-        "access_rules": [
-          "$CanReachRegion|OreChasm"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
@@ -4738,18 +3396,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "OreChasm",
-        "access_rules": [
-          "$CanReachRegion|OreChasm"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
@@ -4778,35 +3425,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SawtoothCauldron",
-        "access_rules": [
-          "$CanReachRegion|SawtoothCauldron"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Mortar",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SawtoothCauldron",
-        "access_rules": [
-          "$CanReachRegion|SawtoothCauldron"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Refinery Container",
             "access_rules": [],
@@ -4818,18 +3443,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SawtoothCauldron",
-        "access_rules": [
-          "$CanReachRegion|SawtoothCauldron"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -4847,18 +3461,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SawtoothCauldron",
-        "access_rules": [
-          "$CanReachRegion|SawtoothCauldron"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Happy Camper",
             "access_rules": [],
@@ -4882,18 +3485,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "SawtoothCauldron",
-        "access_rules": [
-          "$CanReachRegion|SawtoothCauldron"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Smoking Guano Grotto Platform",
             "access_rules": [],
@@ -4934,35 +3526,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBoneyard",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBoneyard"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Hunter Hellquist",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBoneyard",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBoneyard"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Pipe",
             "access_rules": [],
@@ -4974,18 +3544,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBoneyard",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBoneyard"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -4997,18 +3556,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBoneyard",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBoneyard"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Dead Air",
             "access_rules": [],
@@ -5026,18 +3574,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBoneyard",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBoneyard"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Eridium Pump Station 2",
             "access_rules": [],
@@ -5078,18 +3615,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBadlands",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBadlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Enemy - Bone Head 20",
             "access_rules": [],
@@ -5101,18 +3627,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBadlands",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBadlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Fyrestone",
             "access_rules": [],
@@ -5130,18 +3645,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBadlands",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBadlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Boned",
             "access_rules": [],
@@ -5159,18 +3663,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "AridNexusBadlands",
-        "access_rules": [
-          "$CanReachRegion|AridNexusBadlands"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Zeds Old Home",
             "access_rules": [],
@@ -5217,18 +3710,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HerosPass",
-        "access_rules": [
-          "$CanReachRegion|HerosPass"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
@@ -5240,18 +3722,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HerosPass",
-        "access_rules": [
-          "$CanReachRegion|HerosPass"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - When Nature Calls",
             "access_rules": [],
@@ -5269,18 +3740,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "HerosPass",
-        "access_rules": [
-          "$CanReachRegion|HerosPass"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Volcano Entrance",
             "access_rules": [],
@@ -5303,35 +3763,13 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "VaultOfTheWarrior",
-        "access_rules": [
-          "$CanReachRegion|VaultOfTheWarrior"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Elevator Bottom",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "VaultOfTheWarrior",
-        "access_rules": [
-          "$CanReachRegion|VaultOfTheWarrior"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Ammo Vendor - Fast Travel Station",
             "access_rules": [],
@@ -5343,18 +3781,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "VaultOfTheWarrior",
-        "access_rules": [
-          "$CanReachRegion|VaultOfTheWarrior"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - The Warriors Way",
             "access_rules": [],
@@ -5372,18 +3799,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "VaultOfTheWarrior",
-        "access_rules": [
-          "$CanReachRegion|VaultOfTheWarrior"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Lava River Cave",
             "access_rules": [],
@@ -5406,18 +3822,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TerramorphousPeak",
-        "access_rules": [
-          "$CanReachRegion|TerramorphousPeak"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Symbol - Dropdown",
             "access_rules": [],
@@ -5429,18 +3834,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TerramorphousPeak",
-        "access_rules": [
-          "$CanReachRegion|TerramorphousPeak"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
@@ -5458,18 +3852,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TerramorphousPeak",
-        "access_rules": [
-          "$CanReachRegion|TerramorphousPeak"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Challenge - Terramorphous the Not-So-Invincible",
             "access_rules": [],
@@ -5481,18 +3864,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TerramorphousPeak",
-        "access_rules": [
-          "$CanReachRegion|TerramorphousPeak"
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - Terramorphous #1",
             "access_rules": [],

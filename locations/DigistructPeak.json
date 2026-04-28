@@ -45,18 +45,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "DigistructPeak",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          ""
-        ],
-        "sections": [
+          },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
@@ -125,18 +114,7 @@
               "$LevelLimit|80"
             ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "DigistructPeakInner",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          ""
-        ],
-        "sections": [
+          },
           {
             "name": "Chest - #1",
             "access_rules": [

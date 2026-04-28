@@ -249,18 +249,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common GrenadeMod Found",
             "access_rules": [],
@@ -308,18 +297,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common ClassMod Found",
             "access_rules": [],
@@ -349,18 +327,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common Relic Found",
             "access_rules": [],
@@ -408,18 +375,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common Pistol Found",
             "access_rules": [],
@@ -473,18 +429,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common Shotgun Found",
             "access_rules": [],
@@ -544,18 +489,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common SMG Found",
             "access_rules": [],
@@ -615,18 +549,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common SniperRifle Found",
             "access_rules": [],
@@ -686,18 +609,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common AssaultRifle Found",
             "access_rules": [],
@@ -757,18 +669,7 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
+          },
           {
             "name": "Common RocketLauncher Found",
             "access_rules": [],
