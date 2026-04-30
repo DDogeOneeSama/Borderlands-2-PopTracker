@@ -342,8 +342,8 @@ function AutoFill()
         end
         if settings_name == "progressive_travel_groups" then
             for _, dlc in ipairs(SLOT_DATA[settings_name]) do
-                print("progressive_travel_toggle_" .. dlc)
-                Tracker:FindObjectForCode("progressive_travel_toggle_" .. dlc).Active = true
+                print("progressive_travel_" .. dlc)
+                Tracker:FindObjectForCode("progressive_travel_" .. dlc).CurrentStage = 1
             end
             goto continue
         end
@@ -366,6 +366,7 @@ function AutoFill()
                 print(settings_name,settings_value,Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).CurrentStage, SLOT_CODES[settings_name].mapping[settings_value])
                 Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).CurrentStage = SLOT_CODES[settings_name].mapping[settings_value]
             end
+            goto continue
         end
         ::continue::
     end

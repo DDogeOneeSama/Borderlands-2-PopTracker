@@ -19,7 +19,7 @@
                 "item_size": "400,32",
                 "rows": [
                   [
-                    "gear_rarity_item_pool"
+                    "gear_licenses"
                   ],
                   [
                     "vault_symbols"
@@ -120,14 +120,14 @@
                 "h_alignment": "center",
                 "rows": [
                   [
-                    "progressive_travel_toggle_basegame",
-                    "progressive_travel_toggle_basegame_side",
-                    "progressive_travel_toggle_scarlett",
-                    "progressive_travel_toggle_torgue",
-                    "progressive_travel_toggle_hammerlock",
-                    "progressive_travel_toggle_tina",
-                    "progressive_travel_toggle_ffs",
-                    "progressive_travel_toggle_headhunter"
+                    "progressive_travel_basegame",
+                    "progressive_travel_basegame_side",
+                    "progressive_travel_scarlett",
+                    "progressive_travel_torgue",
+                    "progressive_travel_hammerlock",
+                    "progressive_travel_tina",
+                    "progressive_travel_ffs",
+                    "progressive_travel_headhunter"
                   ]
                 ]
               }
