@@ -1115,7 +1115,7 @@
           },
           {
             "name": "Sanctuary - Where Angels Fear to Tread",
-            "ref": "BaseGame/Sanctuary/Where Angels Fear to Tread"
+            "ref": "BaseGame/ControlCoreAngel/Where Angels Fear to Tread"
           },
           {
             "name": "Sanctuary - Toil and Trouble",
@@ -2974,19 +2974,19 @@
           },
           {
             "name": "Bunker - Chest - Marcus #1",
-            "ref": "BaseGame/Bunker/Chest - Marcus #1"
+            "ref": "BaseGame/ControlCoreAngel/Chest - Marcus #1"
           },
           {
             "name": "Bunker - Chest - Marcus #2",
-            "ref": "BaseGame/Bunker/Chest - Marcus #2"
+            "ref": "BaseGame/ControlCoreAngel/Chest - Marcus #2"
           },
           {
             "name": "Bunker - Chest - Marcus #3",
-            "ref": "BaseGame/Bunker/Chest - Marcus #3"
+            "ref": "BaseGame/ControlCoreAngel/Chest - Marcus #3"
           },
           {
             "name": "Bunker - Where Angels Fear to Tread (Part 2)",
-            "ref": "BaseGame/Bunker/Where Angels Fear to Tread (Part 2)"
+            "ref": "BaseGame/ControlCoreAngel/Where Angels Fear to Tread (Part 2)"
           }
         ],
         "map_locations": [

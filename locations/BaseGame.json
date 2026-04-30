@@ -78,12 +78,6 @@
             "item_count": 1
           },
           {
-            "name": "Where Angels Fear to Tread",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
             "name": "Toil and Trouble",
             "access_rules": [],
             "visibility_rules": [],
@@ -2743,12 +2737,6 @@
         ],
         "sections": [
           {
-            "name": "Where Angels Fear to Tread (Part 2)",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
             "name": "Enemy - BNK-3R",
             "access_rules": [],
             "visibility_rules": [],
@@ -2789,7 +2777,18 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
-          },
+          }
+        ]
+      },
+      {
+        "name": "ControlCoreAngel",
+        "access_rules": [
+          "$CanReachRegion|ControlCoreAngel"
+        ],
+        "visibility_rules": [
+          " "
+        ],
+        "sections": [
           {
             "name": "Chest - Marcus #1",
             "access_rules": [],
@@ -2804,6 +2803,18 @@
           },
           {
             "name": "Chest - Marcus #3",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Where Angels Fear to Tread",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Where Angels Fear to Tread (Part 2)",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
