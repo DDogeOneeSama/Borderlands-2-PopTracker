@@ -11,10 +11,10 @@
       {
         "name": "Sanctuary",
         "access_rules": [
-          "$CanReachRegion|Sanctuary"
+          "^$CanReachRegion|Sanctuary"
         ],
         "visibility_rules": [
-          ""
+          "enable_region_sanctuary"
         ],
         "sections": [
           {
@@ -477,7 +477,7 @@
       {
         "name": "SouthernShelf",
         "access_rules": [
-          "$CanReachRegion|SouthernShelf"
+          "^$CanReachRegion|SouthernShelf"
         ],
         "visibility_rules": [
           " "
@@ -638,7 +638,7 @@
       {
         "name": "SouthernShelfBay",
         "access_rules": [
-          "$CanReachRegion|SouthernShelfBay"
+          "^$CanReachRegion|SouthernShelfBay"
         ],
         "visibility_rules": [
           " "
@@ -733,7 +733,7 @@
       {
         "name": "ThreeHornsDivide",
         "access_rules": [
-          "$CanReachRegion|ThreeHornsDivide"
+          "^$CanReachRegion|ThreeHornsDivide"
         ],
         "visibility_rules": [
           " "
@@ -828,7 +828,7 @@
       {
         "name": "FrostburnCanyon",
         "access_rules": [
-          "$CanReachRegion|FrostburnCanyon"
+          "^$CanReachRegion|FrostburnCanyon"
         ],
         "visibility_rules": [
           " "
@@ -971,7 +971,7 @@
       {
         "name": "ThreeHornsValley",
         "access_rules": [
-          "$CanReachRegion|ThreeHornsValley"
+          "^$CanReachRegion|ThreeHornsValley"
         ],
         "visibility_rules": [
           " "
@@ -1078,7 +1078,7 @@
       {
         "name": "SouthpawSteam&Power",
         "access_rules": [
-          "$CanReachRegion|SouthpawSteam&Power"
+          "^$CanReachRegion|SouthpawSteam&Power"
         ],
         "visibility_rules": [
           " "
@@ -1167,7 +1167,7 @@
       {
         "name": "Dust",
         "access_rules": [
-          "$CanReachRegion|Dust"
+          "^$CanReachRegion|Dust"
         ],
         "visibility_rules": [
           " "
@@ -1346,7 +1346,7 @@
       {
         "name": "HolySpirits",
         "access_rules": [
-          "$CanReachRegion|HolySpirits"
+          "^$CanReachRegion|HolySpirits"
         ],
         "visibility_rules": [
           " "
@@ -1411,7 +1411,7 @@
       {
         "name": "BloodshotStronghold",
         "access_rules": [
-          "$CanReachRegion|BloodshotStronghold"
+          "^$CanReachRegion|BloodshotStronghold"
         ],
         "visibility_rules": [
           " "
@@ -1536,7 +1536,7 @@
       {
         "name": "BloodshotRamparts",
         "access_rules": [
-          "$CanReachRegion|BloodshotRamparts"
+          "^$CanReachRegion|BloodshotRamparts"
         ],
         "visibility_rules": [
           " "
@@ -1607,7 +1607,7 @@
       {
         "name": "FriendshipGulag",
         "access_rules": [
-          "$CanReachRegion|FriendshipGulag"
+          "^$CanReachRegion|FriendshipGulag"
         ],
         "visibility_rules": [
           " "
@@ -1660,7 +1660,7 @@
       {
         "name": "TundraExpress",
         "access_rules": [
-          "$CanReachRegion|TundraExpress"
+          "^$CanReachRegion|TundraExpress"
         ],
         "visibility_rules": [
           " "
@@ -1803,7 +1803,7 @@
       {
         "name": "EndOfTheLine",
         "access_rules": [
-          "$CanReachRegion|EndOfTheLine"
+          "^$CanReachRegion|EndOfTheLine"
         ],
         "visibility_rules": [
           " "
@@ -1850,7 +1850,7 @@
       {
         "name": "Fridge",
         "access_rules": [
-          "$CanReachRegion|Fridge"
+          "^$CanReachRegion|Fridge"
         ],
         "visibility_rules": [
           " "
@@ -2035,7 +2035,7 @@
       {
         "name": "FinksSlaughterhouse",
         "access_rules": [
-          "$CanReachRegion|FinksSlaughterhouse"
+          "^$CanReachRegion|FinksSlaughterhouse"
         ],
         "visibility_rules": [
           " "
@@ -2106,7 +2106,7 @@
       {
         "name": "HighlandsOutwash",
         "access_rules": [
-          "$CanReachRegion|HighlandsOutwash"
+          "^$CanReachRegion|HighlandsOutwash"
         ],
         "visibility_rules": [
           " "
@@ -2147,7 +2147,7 @@
       {
         "name": "Highlands",
         "access_rules": [
-          "$CanReachRegion|Highlands"
+          "^$CanReachRegion|Highlands"
         ],
         "visibility_rules": [
           " "
@@ -2254,7 +2254,7 @@
       {
         "name": "WildlifeExploitationPreserve",
         "access_rules": [
-          "$CanReachRegion|WildlifeExploitationPreserve"
+          "^$CanReachRegion|WildlifeExploitationPreserve"
         ],
         "visibility_rules": [
           " "
@@ -2379,7 +2379,7 @@
       {
         "name": "NaturalSelectionAnnex",
         "access_rules": [
-          "$CanReachRegion|NaturalSelectionAnnex"
+          "^$CanReachRegion|NaturalSelectionAnnex"
         ],
         "visibility_rules": [
           " "
@@ -2444,7 +2444,7 @@
       {
         "name": "Opportunity",
         "access_rules": [
-          "$CanReachRegion|Opportunity"
+          "^$CanReachRegion|Opportunity"
         ],
         "visibility_rules": [
           " "
@@ -2611,7 +2611,7 @@
       {
         "name": "ThousandCuts",
         "access_rules": [
-          "$CanReachRegion|ThousandCuts"
+          "^$CanReachRegion|ThousandCuts"
         ],
         "visibility_rules": [
           " "
@@ -2730,7 +2730,7 @@
       {
         "name": "Bunker",
         "access_rules": [
-          "$CanReachRegion|Bunker"
+          "^$CanReachRegion|Bunker"
         ],
         "visibility_rules": [
           " "
@@ -2783,7 +2783,7 @@
       {
         "name": "ControlCoreAngel",
         "access_rules": [
-          "$CanReachRegion|ControlCoreAngel"
+          "^$CanReachRegion|ControlCoreAngel"
         ],
         "visibility_rules": [
           " "
@@ -2824,7 +2824,7 @@
       {
         "name": "SanctuaryHole",
         "access_rules": [
-          "$CanReachRegion|SanctuaryHole"
+          "^$CanReachRegion|SanctuaryHole"
         ],
         "visibility_rules": [
           " "
@@ -2877,7 +2877,7 @@
       {
         "name": "CausticCaverns",
         "access_rules": [
-          "$CanReachRegion|CausticCaverns"
+          "^$CanReachRegion|CausticCaverns"
         ],
         "visibility_rules": [
           " "
@@ -2984,7 +2984,7 @@
       {
         "name": "Lynchwood",
         "access_rules": [
-          "$CanReachRegion|Lynchwood"
+          "^$CanReachRegion|Lynchwood"
         ],
         "visibility_rules": [
           " "
@@ -3151,7 +3151,7 @@
       {
         "name": "EridiumBlight",
         "access_rules": [
-          "$CanReachRegion|EridiumBlight"
+          "^$CanReachRegion|EridiumBlight"
         ],
         "visibility_rules": [
           " "
@@ -3348,7 +3348,7 @@
       {
         "name": "OreChasm",
         "access_rules": [
-          "$CanReachRegion|OreChasm"
+          "^$CanReachRegion|OreChasm"
         ],
         "visibility_rules": [
           " "
@@ -3419,7 +3419,7 @@
       {
         "name": "SawtoothCauldron",
         "access_rules": [
-          "$CanReachRegion|SawtoothCauldron"
+          "^$CanReachRegion|SawtoothCauldron"
         ],
         "visibility_rules": [
           " "
@@ -3526,7 +3526,7 @@
       {
         "name": "AridNexusBoneyard",
         "access_rules": [
-          "$CanReachRegion|AridNexusBoneyard"
+          "^$CanReachRegion|AridNexusBoneyard"
         ],
         "visibility_rules": [
           " "
@@ -3603,7 +3603,7 @@
       {
         "name": "AridNexusBadlands",
         "access_rules": [
-          "$CanReachRegion|AridNexusBadlands"
+          "^$CanReachRegion|AridNexusBadlands"
         ],
         "visibility_rules": [
           " "
@@ -3704,7 +3704,7 @@
       {
         "name": "HerosPass",
         "access_rules": [
-          "$CanReachRegion|HerosPass"
+          "^$CanReachRegion|HerosPass"
         ],
         "visibility_rules": [
           " "
@@ -3763,7 +3763,7 @@
       {
         "name": "VaultOfTheWarrior",
         "access_rules": [
-          "$CanReachRegion|VaultOfTheWarrior"
+          "^$CanReachRegion|VaultOfTheWarrior"
         ],
         "visibility_rules": [
           " "
@@ -3822,7 +3822,7 @@
       {
         "name": "TerramorphousPeak",
         "access_rules": [
-          "$CanReachRegion|TerramorphousPeak"
+          "^$CanReachRegion|TerramorphousPeak"
         ],
         "visibility_rules": [
           " "
