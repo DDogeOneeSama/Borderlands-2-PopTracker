@@ -8,14 +8,13 @@ local next, pairs, ipairs = next, pairs, ipairs
 
 function CreateRegion(options) --Base region creation, call to initialize regions with their data
   return {
-    regName = options.regName or "No Region Name",
+    regName = options.regName or "",
     level_req = options.level_req or 0,
     travel_item_name = options.travel_item_name or "", -- item required to get to this region
     connecting_regions = options.connecting_regions or {}, -- regions this region goes to
     story_req_regions = options.story_req_regions or {}, -- unconnected regions also required to get to this region
     dlc_group = options.dlc_group or "basegame",
     any_entrance = options.any_entrance or {}, -- Regions where you need to be able to access one of them to be able to access this region
-    multi_entrance = options.multi_entrance or {}, -- For regions with multiple entrances
     progressive_required = options.progressive_required or 0 -- Num of prog items needed for 
     }
 end
@@ -111,7 +110,7 @@ local regions = { --List of all regions, created with CreateRegion command passe
 
   HuntersGrotto = CreateRegion{regName = "HuntersGrotto", level_req = 30, travel_item_name = "travel:huntersgrotto", connecting_regions = {"ScyllasGrove", "CandlerakksCrag", "ArdortonStation"}, dlc_group = "hammerlock", progressive_required = 1},
   ScyllasGrove = CreateRegion{regName = "ScyllasGrove", level_req = 30, travel_item_name = "travel:scyllasgrove", connecting_regions = {"ArdortonStation"}, dlc_group = "hammerlock", progressive_required = 2},
-  ArdortonStation = CreateRegion{regName = "ArdortonStation", level_req = 30, travel_item_name = "travel:ardortonstation", story_req_regions = {"ScyllasGrove"}, dlc_group = "hammerlock", multi_entrance = {"ScyllasGrove", "HuntersGrotto"}, progressive_required = 3},
+  ArdortonStation = CreateRegion{regName = "ArdortonStation", level_req = 30, travel_item_name = "travel:ardortonstation", story_req_regions = {"ScyllasGrove"}, dlc_group = "hammerlock", progressive_required = 3},
   CandlerakksCrag = CreateRegion{regName = "CandlerakksCrag", level_req = 30, travel_item_name = "travel:candlerakkscragg", connecting_regions = {"Terminus"}, story_req_regions = {"ArdortonStation"}, dlc_group = "hammerlock", progressive_required = 4},
   Terminus = CreateRegion{regName = "Terminus", level_req = 30, travel_item_name = "travel:terminus", dlc_group = "hammerlock", progressive_required = 5},
 
@@ -144,203 +143,135 @@ local regions = { --List of all regions, created with CreateRegion command passe
     any_entrance = {"VaultOfTheWarrior"}},
 }
 
-local entrances = {}
-for _, region in pairs(regions) do -- check every region
-  if (next(regions[region.regName].connecting_regions) ~= nil) then -- if region has connecting_regions
-    for _, connectingRegion in ipairs(region.connecting_regions) do -- then for every connecting region
-      table.insert(entrances, {entryRegion = region.regName, exitRegion = connectingRegion, storyRegions = regions[connectingRegion].story_req_regions, anyEntrance = region.any_entrance}) -- create an entrance
-    end
-  end
+local staleRegions = true
+local staleLevels = true
+
+local accessibleRegions =
+{
+  Menu = AccessibilityLevel.Normal,
+  WindshearWaste = AccessibilityLevel.Normal,
+  Level0 = AccessibilityLevel.Normal
+}
+
+function InvalidateAccessibleRegions()
+  staleRegions = true
+  staleLevels = true
+  accessibleRegions =
+  {
+    Menu = AccessibilityLevel.Normal,
+    WindshearWaste = AccessibilityLevel.Normal,
+    Level0 = AccessibilityLevel.Normal
+  }
 end
 
-function CanReachRegion(region)
-  local regionAccessable = AccessibilityLevel.None
-  if(RegionOpen(region)) then
-    regionAccessable = AccessibilityLevel.Normal
+function CanReachRegion(regionToCheck)
+  if staleRegions then
+    OpenRegions()
   end
-  print(regionAccessable.." "..region)
-  return regionAccessable
+  return accessibleRegions[regionToCheck] or AccessibilityLevel.None
 end
 
-function CanAccessAllRegions(regionArray)
-  if(next(regionArray) == nil) then return true end
-  for _, regionToCheck in ipairs(regionArray) do
-    if(not(RegionOpen(regionToCheck))) then
-      return false
-    end
-  end
-  return true
-end
-
-function CanAccessAnyRegions(regionArray)
-  if(next(regionArray) == nil) then return true end
-  for _, regionToCheck in ipairs(regionArray) do
-    if((RegionOpen(regionToCheck))) then
-      return true
-    end
-  end
-  return false
-end
-
-function RegionOpen(region)
-  if (Tracker:FindObjectForCode("entrance_locks_disabled").Active) then
-    return true
-  end
-  if ((regions[region].dlc_group ~= "digi" and regions[region].dlc_group ~= "level") and Tracker:FindObjectForCode("progressive_travel_" .. regions[region].dlc_group .. "_enabled").Active) then
-    return ProgressiveCheck(region)
-  end
-  if (regions[region].dlc_group == "digi") then return HasTravelItem(region) end
-  if region == "Menu" then return true end
-  if region == "WindshearWaste" then return true end
-  if region == "Level0" then return true end
-  if((regions[region].travel_item_name ~= "") and (not(HasTravelItem(region)))) then -- If you dont have the travel item for the region, return false
-    return false
-  end
-  if(next(regions[region].multi_entrance) ~= nil) then  -- If has multiple entrances, check if can access any of the entrances
-    return (CanAccessAnyRegions(regions[region].multi_entrance)) -- Needs to be updated in the case of entrance randomizer
-  end
-  for _, entranceToCheck in ipairs(entrances) do
-    if(entranceToCheck.exitRegion == region) then
-      if(next(entranceToCheck.storyRegions) ~= nil) then
-        if(not(CanAccessAllRegions(entranceToCheck.storyRegions))) then
-          return false
-        end
-        if (not(RegionOpen(entranceToCheck.entryRegion))) then
-          return false
-        end
-        if (not(MiscCasesEntrances(entranceToCheck))) then
-          return false
-        end
-        if(next(entranceToCheck.any_entrance) ~= nil) then
-          if (not(CanAccessAnyRegions(entranceToCheck.any_entrance))) then
-            return false
-          end
-        end
-        return true
+function OpenRegions()
+  staleRegions = false
+  local regionToCheck = ""
+  local queue = {"Menu"}
+  local storyQueue = {}
+  ::tryAgain::
+  local regionChanges = false
+  while next(queue) do
+    regionToCheck = table.remove(queue, 1)
+    for _, connectedRegion in ipairs(regions[regionToCheck].connecting_regions) do
+      if accessibleRegions[connectedRegion] then
+        table.insert(queue, connectedRegion)
       else
-        if (not(RegionOpen(entranceToCheck.entryRegion))) then
-          return false
+        if not(HasTravelItem(connectedRegion)) then
+          goto continue
         end
-        if (not(MiscCasesEntrances(entranceToCheck))) then
-          return false
+        if not(MiscCasesEntrances(connectedRegion)) then
+          goto continue
         end
-        if(regions[region].dlc_group == "level") then
-          if (not(CanAccessAnyRegions(entranceToCheck.any_entrance))) then
-            return false
+        if next(regions[connectedRegion].story_req_regions) then
+          for _, storyReq in ipairs(regions[connectedRegion].story_req_regions) do
+            if not(accessibleRegions[storyReq]) then
+              table.insert(storyQueue, connectedRegion)
+              goto continue
+            end
           end
         end
-        return true
+        print(connectedRegion)
+        accessibleRegions[connectedRegion] = AccessibilityLevel.Normal
+        table.insert(queue, connectedRegion)
+        regionChanges = true
       end
+      ::continue::
+    end
+  end
+  if regionChanges then
+    goto tryAgain
+  end
+  local queueToCheck = ""
+  local storyChanges = false
+
+  if next(storyQueue) then
+    while next(storyQueue) do
+      queueToCheck = table.remove(storyQueue, 1)
+      for _, storyReq in ipairs(regions[queueToCheck].story_req_regions) do
+        if not(accessibleRegions[storyReq]) then
+          goto storyContinue
+        end
+      end
+      storyChanges = true
+      accessibleRegions[queueToCheck] = AccessibilityLevel.Normal
+      table.insert(queue, queueToCheck)
+      ::storyContinue::
+    end
+    if storyChanges then
+      goto tryAgain
     end
   end
 end
 
 function HasTravelItem(regionToCheck)
-  if(regionToCheck == "WindshearWaste") then
-    return true -- return true if checking windshear
-  elseif(regionToCheck == "Menu") then
-    return true -- return true if checking menu
-  elseif(regionToCheck == "Level0") then
-    return true -- return true if level 0
+  if (regions[regionToCheck].travel_item_name == "") or Tracker:FindObjectForCode("entrance_locks_disabled").Active then
+    print("1st")
+    return true -- return true if region does not require travel item or entrance_locks_disabled
+  elseif regions[regionToCheck].dlc_group ~= "digi" and (Tracker:FindObjectForCode("progressive_travel_" .. regions[regionToCheck].dlc_group .. "_enabled").Active) then
+    if (Tracker:FindObjectForCode("progressivetravel:" .. regions[regionToCheck].dlc_group).AcquiredCount >= regions[regionToCheck].progressive_required) then
+      print("2nd")
+      return true
+    else
+      return false
+    end
   elseif(Tracker:FindObjectForCode(regions[regionToCheck].travel_item_name).Active) then
+    print("3rd")
     return true -- return true if you have the travel item
   else
     return false
   end
 end
 
-function MiscCasesEntrances(entranceToCheck)
-  if((Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) and (entranceToCheck.entryRegion == "WindshearWaste") and (entranceToCheck.exitRegion == "SouthernShelf"))then
+function MiscCasesEntrances(regionToCheck)
+  if((Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) and (regionToCheck == "SouthernShelf")) then
     return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
-  elseif((entranceToCheck.entryRegion == "Menu") and (entranceToCheck.exitRegion == "FFSIntroSanctuary")) then
-    return (Tracker:FindObjectForCode("travel:thebackburner").Active or (Tracker:FindObjectForCode("progressivetravel:fightforsanctuary").AcquiredCount >= 2))
-  elseif((entranceToCheck.entryRegion == "HuntersGrotto") and (entranceToCheck.exitRegion == "CandlerakksCrag")) then
-    return Tracker:FindObjectForCode("commonpistol").Active
-  elseif((entranceToCheck.entryRegion == "CandlerakksCrag") and (entranceToCheck.exitRegion == "Terminus")) then
+  elseif(regionToCheck == "FFSIntroSanctuary") then
+    return (Tracker:FindObjectForCode("travel:thebackburner").Active or (Tracker:FindObjectForCode("progressivetravel:ffs").AcquiredCount >= 2))
+  elseif(regionToCheck == "CandlerakksCrag") then
+    return Tracker:FindObjectForCode("license:commonpistol").Active and JumpHeight(629)
+  elseif(regionToCheck == "Terminus") then
     return Tracker:FindObjectForCode("crouch").Active
-  elseif((entranceToCheck.entryRegion == "MtScarabResearchCenter") and (entranceToCheck.exitRegion == "FFSBossFight")) then
+  elseif(regionToCheck == "FFSBossFight") then
     return Tracker:FindObjectForCode("melee").Active
-  elseif((entranceToCheck.entryRegion == "HatredsShadow") and (entranceToCheck.exitRegion == "LairOfInfiniteAgony")) then
+  elseif(regionToCheck == "LairOfInfiniteAgony") then
     return Tracker:FindObjectForCode("crouch").Active
-  elseif((entranceToCheck.entryRegion == "TundraExpress") and (entranceToCheck.exitRegion == "EndOfTheLine")) then
-    if Tracker:FindObjectForCode("progressive_travel_toggle_basegame").Active then
-      if Tracker:ProviderCountForCode("progressivetravel:basegame") >= regions["Highlands"].progressive_required then
-        return true
-      else
-        return false
-      end
-    end
-    if (Tracker:FindObjectForCode(regions["Fridge"].travel_item_name).Active) and (Tracker:FindObjectForCode(regions["HighlandsOutwash"].travel_item_name).Active) and (Tracker:FindObjectForCode(regions["Highlands"].travel_item_name).Active) then
-      return true
-    else
-      return false
-    end
-  elseif(Tracker:FindObjectForCode("jump_checks").CurrentStage > 0) then
-    if((entranceToCheck.entryRegion == "BadassCrater") and (entranceToCheck.exitRegion == "TorgueArena")) then
+  elseif(regionToCheck == "TorgueArena") then
       return JumpHeight(490)
-    elseif((entranceToCheck.entryRegion == "CandlerakksCrag") and (entranceToCheck.exitRegion == "Terminus")) then
-      return JumpHeight(629)
-    end
-  elseif (entranceToCheck.entryRegion == "Level0") and (entranceToCheck.exitRegion == "Level1to5") then
+  elseif (regionToCheck == "Level1to5") then
     return Level1to5()
-  elseif (entranceToCheck.entryRegion == "Level1to5") and (entranceToCheck.exitRegion == "Level6to1") then
+  elseif (regionToCheck == "Level6to1") then
     return Level6to10()
   else
     return true
   end
-end
-
-function ProgressiveCheck(regionToCheck)
-  if (Tracker:FindObjectForCode("entrance_locks_disabled").Active) then
-    return true
-  end
-  if regionToCheck == "Menu" then return true end
-  if regionToCheck == "WindshearWaste" then return true end
-  if regionToCheck == "Level0" then return true end
-  if (Tracker:ProviderCountForCode("progressivetravel:" .. regions[regionToCheck].dlc_group)) < regions[regionToCheck].progressive_required then
-    return false
-  end
-  if (regions[regionToCheck].dlc_group == "basegame_side") then
-    for _, entranceToCheck in pairs(entrances) do
-      if (entranceToCheck.exitRegion == regionToCheck) then
-        if (not(RegionOpen(entranceToCheck.entryRegion))) then
-          return false
-        end
-      end
-    end
-  end
-  if (Tracker:ProviderCountForCode("progressivetravel:" .. regions[regionToCheck].dlc_group)) >= regions[regionToCheck].progressive_required then
-    for _, entranceToCheck in ipairs(entrances) do
-      if(entranceToCheck.exitRegion == regionToCheck) then
-        if(next(entranceToCheck.storyRegions) ~= nil) then
-          if (not(MiscCasesEntrances(entranceToCheck))) then
-            return false
-          end
-          if(next(entranceToCheck.any_entrance) ~= nil) then
-            if (not(CanAccessAnyRegions(entranceToCheck.any_entrance))) then
-              return false
-            end
-          end
-          return true
-        else
-          if(not(CanAccessAllRegions(entranceToCheck.storyRegions))) then
-            return false
-          end
-          if (not(MiscCasesEntrances(entranceToCheck))) then
-            return false
-          end
-          if(next(entranceToCheck.any_entrance) ~= nil) then
-            if (not(CanAccessAnyRegions(entranceToCheck.any_entrance))) then
-              return false
-            end
-          end
-          return true
-        end
-      end
-    end
-  end
-  print("An error has occured in ProgressiveCheck")
-  return false
 end
 
 function JumpHeight(height)
