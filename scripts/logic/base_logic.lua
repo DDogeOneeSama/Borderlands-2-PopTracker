@@ -210,6 +210,7 @@ function OpenRegions()
   end
   if regionChanges then
     regionChanges = false
+    table.insert(queue, "Menu")
     goto tryAgain
   end
 
