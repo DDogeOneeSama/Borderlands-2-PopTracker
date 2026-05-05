@@ -176,8 +176,10 @@ function OpenRegions()
   local regionToCheck = ""
   local queue = {"Menu"}
   local storyQueue = {}
-  ::tryAgain::
   local regionChanges = false
+  local queueToCheck = ""
+  local storyChanges = false
+  ::tryAgain::
   while next(queue) do
     regionToCheck = table.remove(queue, 1)
     for _, connectedRegion in ipairs(regions[regionToCheck].connecting_regions) do
@@ -207,10 +209,9 @@ function OpenRegions()
     end
   end
   if regionChanges then
+    regionChanges = false
     goto tryAgain
   end
-  local queueToCheck = ""
-  local storyChanges = false
 
   if next(storyQueue) then
     while next(storyQueue) do
@@ -226,6 +227,8 @@ function OpenRegions()
       ::storyContinue::
     end
     if storyChanges then
+      storyChanges = false
+      table.insert(queue, "Menu")
       goto tryAgain
     end
   end
