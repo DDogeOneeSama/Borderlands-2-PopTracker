@@ -11,7 +11,7 @@
       {
         "name": "HuntersGrotto",
         "access_rules": [
-          " "
+          "^$CanReachRegion|HuntersGrotto"
         ],
         "visibility_rules": [
           " "
@@ -208,7 +208,7 @@
       {
         "name": "ScyllasGrove",
         "access_rules": [
-          " "
+          "^$CanReachRegion|ScyllasGrove"
         ],
         "visibility_rules": [
           " "
@@ -339,7 +339,7 @@
       {
         "name": "ArdortonStation",
         "access_rules": [
-          " "
+          "^$CanReachRegion|ArdortonStation"
         ],
         "visibility_rules": [
           " "
@@ -458,7 +458,7 @@
       {
         "name": "CandlerakksCrag",
         "access_rules": [
-          " "
+          "^$CanReachRegion|ArdortonStation"
         ],
         "visibility_rules": [
           " "
@@ -595,7 +595,7 @@
       {
         "name": "Terminus",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Terminus"
         ],
         "visibility_rules": [
           " "

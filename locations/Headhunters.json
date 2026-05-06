@@ -11,7 +11,7 @@
       {
         "name": "HallowedHallow",
         "access_rules": [
-          " "
+          "^$CanReachRegion|HallowedHallow"
         ],
         "visibility_rules": [
           " "
@@ -106,7 +106,7 @@
       {
         "name": "GluttonyGulch",
         "access_rules": [
-          " "
+          "^$CanReachRegion|GluttonyGulch"
         ],
         "visibility_rules": [
           " "
@@ -327,7 +327,7 @@
       {
         "name": "MarcusMercenaryShop",
         "access_rules": [
-          " "
+          "^$CanReachRegion|MarcusMercenaryShop"
         ],
         "visibility_rules": [
           " "
@@ -404,7 +404,7 @@
       {
         "name": "RotgutDistillery",
         "access_rules": [
-          " "
+          "^$CanReachRegion|RotgutDistillery"
         ],
         "visibility_rules": [
           " "
@@ -553,7 +553,7 @@
       {
         "name": "WamBamIsland",
         "access_rules": [
-          " "
+          "^$CanReachRegion|WamBamIsland"
         ],
         "visibility_rules": [
           " "

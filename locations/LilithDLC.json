@@ -11,7 +11,7 @@
       {
         "name": "Burrows",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Burrows"
         ],
         "visibility_rules": [
           " "
@@ -106,7 +106,7 @@
       {
         "name": "DahlAbandon",
         "access_rules": [
-          " "
+          "^$CanReachRegion|DahlAbandon"
         ],
         "visibility_rules": [
           " "
@@ -249,7 +249,7 @@
       {
         "name": "HeliosFallen",
         "access_rules": [
-          " "
+          "^$CanReachRegion|HeliosFallen"
         ],
         "visibility_rules": [
           " "
@@ -386,7 +386,7 @@
       {
         "name": "MtScarabResearchCenter",
         "access_rules": [
-          " "
+          "^$CanReachRegion|MtScarabResearchCenter"
         ],
         "visibility_rules": [
           " "
@@ -505,7 +505,7 @@
       {
         "name": "FFSBossFight",
         "access_rules": [
-          " "
+          "^$CanReachRegion|FFSBossFight"
         ],
         "visibility_rules": [
           " "
@@ -522,7 +522,7 @@
       {
         "name": "WrithingDeep",
         "access_rules": [
-          " "
+          "^$CanReachRegion|WrithingDeep"
         ],
         "visibility_rules": [
           " "
@@ -611,7 +611,7 @@
       {
         "name": "Backburner",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Backburner"
         ],
         "visibility_rules": [
           " "
@@ -843,7 +843,7 @@
       {
         "name": "Sanctuary",
         "access_rules": [
-          " "
+          "^$CanReachRegion|FFSIntroSanctuary"
         ],
         "visibility_rules": [
           " "

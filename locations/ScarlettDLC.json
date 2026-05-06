@@ -11,7 +11,7 @@
       {
         "name": "Oasis",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Oasis"
         ],
         "visibility_rules": [
           " "
@@ -202,7 +202,7 @@
       {
         "name": "HaytersFolly",
         "access_rules": [
-          " "
+          "^$CanReachRegion|HaytersFolly"
         ],
         "visibility_rules": [
           " "
@@ -339,7 +339,7 @@
       {
         "name": "Rustyards",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Rustyards"
         ],
         "visibility_rules": [
           " "
@@ -440,7 +440,7 @@
       {
         "name": "WashburneRefinery",
         "access_rules": [
-          " "
+          "^$CanReachRegion|WashburneRefinery"
         ],
         "visibility_rules": [
           " "
@@ -553,7 +553,7 @@
       {
         "name": "MagnysLighthouse",
         "access_rules": [
-          " "
+          "^$CanReachRegion|MagnysLighthouse"
         ],
         "visibility_rules": [
           " "
@@ -672,7 +672,7 @@
       {
         "name": "LeviathansLair",
         "access_rules": [
-          " "
+          "^$CanReachRegion|LeviathansLair"
         ],
         "visibility_rules": [
           " "
@@ -821,7 +821,7 @@
       {
         "name": "Wurmwater",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Wurmwater"
         ],
         "visibility_rules": [
           " "

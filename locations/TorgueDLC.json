@@ -11,7 +11,7 @@
       {
         "name": "PyroPetesBar",
         "access_rules": [
-          " "
+          "^$CanReachRegion|PyroPetesBar"
         ],
         "visibility_rules": [
           " "
@@ -112,7 +112,7 @@
       {
         "name": "Beatdown",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Beatdown"
         ],
         "visibility_rules": [
           " "
@@ -213,7 +213,7 @@
       {
         "name": "SouthernRaceway",
         "access_rules": [
-          " "
+          "^$CanReachRegion|SouthernRaceway"
         ],
         "visibility_rules": [
           " "
@@ -278,7 +278,7 @@
       {
         "name": "Forge",
         "access_rules": [
-          " "
+          "^$CanReachRegion|Forge"
         ],
         "visibility_rules": [
           " "
@@ -451,7 +451,7 @@
       {
         "name": "TorgueArena",
         "access_rules": [
-          " "
+          "^$CanReachRegion|TorgueArena"
         ],
         "visibility_rules": [
           " "
