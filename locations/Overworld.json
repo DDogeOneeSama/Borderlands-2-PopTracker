@@ -4988,27 +4988,27 @@
           },
           {
             "name": "Symbol - Arena Wall",
-            "ref": "TorgueDLC/TorgueArenaRing/Symbol - Arena Wall"
+            "ref": "TorgueDLC/TorgueArena/Symbol - Arena Wall"
           },
           {
             "name": "Symbol - Arena Ladder",
-            "ref": "TorgueDLC/TorgueArenaRing/Symbol - Arena Ladder"
+            "ref": "TorgueDLC/TorgueArena/Symbol - Arena Ladder"
           },
           {
             "name": "Chest - First Arena Ladder",
-            "ref": "TorgueDLC/TorgueArenaRing/Chest - First Arena Ladder"
+            "ref": "TorgueDLC/TorgueArena/Chest - First Arena Ladder"
           },
           {
             "name": "Chest - Maintenance Pipes",
-            "ref": "TorgueDLC/TorgueArenaRing/Chest - Maintenance Pipes"
+            "ref": "TorgueDLC/TorgueArena/Chest - Maintenance Pipes"
           },
           {
             "name": "Chest - Storage Area",
-            "ref": "TorgueDLC/TorgueArenaRing/Chest - Storage Area"
+            "ref": "TorgueDLC/TorgueArena/Chest - Storage Area"
           },
           {
-            "name": "Chest - Arena Foyer",
-            "ref": "TorgueDLC/TorgueFinalArena/Chest - Arena Foyer"
+            "name": "Chest - Final Arena Foyer",
+            "ref": "TorgueDLC/TorgueArena/Chest - Final Arena Foyer"
           }
         ],
         "map_locations": [

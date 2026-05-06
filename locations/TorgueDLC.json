@@ -470,6 +470,18 @@
             "item_count": 1
           },
           {
+            "name": "Symbol - Arena Wall",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Arena Ladder",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Torgue Vendor - Entrance",
             "access_rules": [],
             "visibility_rules": [],
@@ -524,6 +536,30 @@
             "item_count": 1
           },
           {
+            "name": "Chest - First Arena Ladder",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Maintenance Pipes",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Storage Area",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Final Arena Foyer",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Tier 2 Battle - Appetite for Destruction",
             "access_rules": [],
             "visibility_rules": [],
@@ -556,50 +592,9 @@
         ]
       },
       {
-        "name": "TorgueArenaRing",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Symbol - Arena Wall",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Symbol - Arena Ladder",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - First Arena Ladder",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Maintenance Pipes",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Storage Area",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
         "name": "BadassCrater",
         "access_rules": [
-          " "
+          "^$CanReachRegion|BadassCrater"
         ],
         "visibility_rules": [
           " "
@@ -796,7 +791,7 @@
       {
         "name": "BadassBar",
         "access_rules": [
-          " "
+          "^$CanReachRegion|BadassBar"
         ],
         "visibility_rules": [
           " "
@@ -893,23 +888,6 @@
           },
           {
             "name": "Challenge - Torgue Tokens Acquired",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "TorgueFinalArena",
-        "access_rules": [
-          " "
-        ],
-        "visibility_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Chest - Arena Foyer",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
