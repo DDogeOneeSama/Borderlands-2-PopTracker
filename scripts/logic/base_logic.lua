@@ -175,10 +175,7 @@ function OpenRegions()
   staleRegions = false
   local regionToCheck = ""
   local queue = {"Menu"}
-  local storyQueue = {}
   local regionChanges = false
-  local queueToCheck = ""
-  local storyChanges = false
   ::tryAgain::
   while next(queue) do
     regionToCheck = table.remove(queue, 1)
@@ -195,7 +192,6 @@ function OpenRegions()
         if next(regions[connectedRegion].story_req_regions) then
           for _, storyReq in ipairs(regions[connectedRegion].story_req_regions) do
             if not(accessibleRegions[storyReq]) then
-              table.insert(storyQueue, connectedRegion)
               goto continue
             end
           end
@@ -212,26 +208,6 @@ function OpenRegions()
     regionChanges = false
     table.insert(queue, "Menu")
     goto tryAgain
-  end
-
-  if next(storyQueue) then
-    while next(storyQueue) do
-      queueToCheck = table.remove(storyQueue, 1)
-      for _, storyReq in ipairs(regions[queueToCheck].story_req_regions) do
-        if not(accessibleRegions[storyReq]) then
-          goto storyContinue
-        end
-      end
-      storyChanges = true
-      accessibleRegions[queueToCheck] = AccessibilityLevel.Normal
-      table.insert(queue, queueToCheck)
-      ::storyContinue::
-    end
-    if storyChanges then
-      storyChanges = false
-      table.insert(queue, "Menu")
-      goto tryAgain
-    end
   end
 end
 
