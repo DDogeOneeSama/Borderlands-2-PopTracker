@@ -14,6 +14,7 @@ require("scripts/locations_import")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/base_logic.lua")
+ScriptHost:LoadScript("scripts/logic/logic_tables.lua")
 
 -- AutoTracking for Poptracker
 require("scripts/autotracking")
