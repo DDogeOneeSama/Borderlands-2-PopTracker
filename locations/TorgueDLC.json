@@ -789,9 +789,9 @@
         ]
       },
       {
-        "name": "BadassBar",
+        "name": "BadassCraterBar",
         "access_rules": [
-          "^$CanReachRegion|BadassBar"
+          "^$CanReachRegion|BadassCraterBar"
         ],
         "visibility_rules": [
           " "

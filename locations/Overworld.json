@@ -5174,39 +5174,39 @@
         ]
       },
       {
-        "name": "Badass Bar",
+        "name": "Badass Crater Bar",
         "sections": [
           {
-            "name": "Torgue Vendor - Badass Bar",
-            "ref": "TorgueDLC/BadassBar/Torgue Vendor - Badass Bar"
+            "name": "Torgue Vendor - Badass Crater Bar",
+            "ref": "TorgueDLC/BadassCraterBar/Torgue Vendor - Badass Crater Bar"
           },
           {
-            "name": "Ammo Vendor - Badass Bar",
-            "ref": "TorgueDLC/BadassBar/Ammo Vendor - Badass Bar"
+            "name": "Ammo Vendor - Badass Crater Bar",
+            "ref": "TorgueDLC/BadassCraterBar/Ammo Vendor - Badass Crater Bar"
           },
           {
-            "name": "Med Vendor - Badass Bar",
-            "ref": "TorgueDLC/BadassBar/Med Vendor - Badass Bar"
+            "name": "Med Vendor - Badass Crater Bar",
+            "ref": "TorgueDLC/BadassCraterBar/Med Vendor - Badass Crater Bar"
           },
           {
             "name": "Breaking and Entering",
-            "ref": "TorgueDLC/BadassBar/Breaking and Entering"
+            "ref": "TorgueDLC/BadassCraterBar/Breaking and Entering"
           },
           {
             "name": "Long Way To The Top",
-            "ref": "TorgueDLC/BadassBar/Long Way To The Top"
+            "ref": "TorgueDLC/BadassCraterBar/Long Way To The Top"
           },
           {
             "name": "Gas Guzzlers",
-            "ref": "TorgueDLC/BadassBar/Gas Guzzlers"
+            "ref": "TorgueDLC/BadassCraterBar/Gas Guzzlers"
           },
           {
             "name": "Interview with a Vault Hunter",
-            "ref": "TorgueDLC/BadassBar/Interview with a Vault Hunter"
+            "ref": "TorgueDLC/BadassCraterBar/Interview with a Vault Hunter"
           },
           {
             "name": "Everybody Wants to be Wanted",
-            "ref": "TorgueDLC/BadassBar/Everybody Wants to be Wanted"
+            "ref": "TorgueDLC/BadassCraterBar/Everybody Wants to be Wanted"
           }
         ],
         "map_locations": [
