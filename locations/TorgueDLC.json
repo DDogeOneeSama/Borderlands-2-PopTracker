@@ -882,7 +882,7 @@
           },
           {
             "name": "Challenge - Pete the Invincible Defeated",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|PyroPetesBar"],
             "visibility_rules": [],
             "item_count": 1
           },
