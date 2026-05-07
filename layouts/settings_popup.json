@@ -22,6 +22,9 @@
                     "gear_licenses"
                   ],
                   [
+                    "receive_gear"
+                  ],
+                  [
                     "vault_symbols"
                   ],
                   [
@@ -80,8 +83,7 @@
                 "type": "itemgrid",
                 "item_margin": "2,2",
                 "h_alignment": "center",
-                "max_height": 32,
-                "max_width": 400,
+                "item_size": "400,32",
                 "rows": [
                   [
                     "remove_base_game_checks"
@@ -118,15 +120,30 @@
                 "type": "itemgrid",
                 "item_margin": "2,2",
                 "h_alignment": "center",
+                "item_size": "400,32",
                 "rows": [
                   [
-                    "progressive_travel_basegame",
-                    "progressive_travel_basegame_side",
-                    "progressive_travel_scarlett",
-                    "progressive_travel_torgue",
-                    "progressive_travel_hammerlock",
-                    "progressive_travel_tina",
-                    "progressive_travel_ffs",
+                    "progressive_travel_basegame"
+                  ],
+                  [
+                    "progressive_travel_basegame_side"
+                  ],
+                  [
+                    "progressive_travel_scarlett"
+                  ],
+                  [
+                    "progressive_travel_torgue"
+                  ],
+                  [
+                    "progressive_travel_hammerlock"
+                  ],
+                  [
+                    "progressive_travel_tina"
+                  ],
+                  [
+                    "progressive_travel_ffs"
+                  ],
+                  [
                     "progressive_travel_headhunter"
                   ]
                 ]
