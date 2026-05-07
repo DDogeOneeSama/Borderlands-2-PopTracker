@@ -101,12 +101,10 @@ end
 
 function HasTravelItem(regionToCheck)
   if (Regions[regionToCheck].travel_item_name == "") or Tracker:FindObjectForCode("entrance_locks_disabled").Active then
-    print("1st")
     return true -- return true if region does not require travel item or entrance_locks_disabled
   elseif Regions[regionToCheck].dlc_group ~= "digi" and (Tracker:FindObjectForCode("progressive_travel_" .. Regions[regionToCheck].dlc_group .. "_enabled").Active) then
     return ProgressiveCheck(regionToCheck, Regions[regionToCheck].dlc_group)
   elseif(Tracker:FindObjectForCode(Regions[regionToCheck].travel_item_name).Active) then
-    print("3rd")
     return true -- return true if you have the travel item
   else
     return false
@@ -128,10 +126,6 @@ function MiscCasesEntrances(regionToCheck)
     return Tracker:FindObjectForCode("crouch").Active
   elseif(regionToCheck == "TorgueArena") then
       return JumpHeight(490)
-  elseif (regionToCheck == "Level1to5") then
-    return Level1to5()
-  elseif (regionToCheck == "Level6to1") then
-    return Level6to10()
   else
     return true
   end
@@ -185,13 +179,9 @@ end
 
 function OpenLevels()
   staleLevels = false
-  local goToNextLevel = false
-  for _, regionCheck in ipairs(Regions["Level1to5"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if not(Level1to5()) then
+  local goToNextLevel = true
+
+  if not(Level1to5Gear()) then
     goToNextLevel = false
   end
   if goToNextLevel then
@@ -206,7 +196,7 @@ function OpenLevels()
       goToNextLevel = true
     end
   end
-  if not(Level6to10()) then
+  if not(Level6to10Gear()) then
     goToNextLevel = false
   end
   if goToNextLevel then
@@ -288,10 +278,10 @@ function LevelLimit(level)
   end
 end
 
-function Level1to5()
+function Level1to5Gear()
   return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
 end
 
-function Level6to10()
+function Level6to10Gear()
   return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license:commonpistol").Active) and (Tracker:FindObjectForCode("license:commonshield").Active) and (Tracker:FindObjectForCode("license:commonshotgun").Active) and (Tracker:FindObjectForCode("license:uncommonpistol").Active)
 end
