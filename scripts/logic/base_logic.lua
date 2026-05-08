@@ -58,6 +58,8 @@ function OpenRegions()
     for _, connectedRegion in ipairs(Regions[regionToCheck].connecting_regions) do
       if accessibleRegions[connectedRegion] then
         table.insert(queue, connectedRegion)
+      elseif not(Tracker:FindObjectForCode("enable_region_" .. connectedRegion).Active) then
+        table.insert(queue, connectedRegion)
       else
         if not(HasTravelItem(connectedRegion)) then
           goto continue
