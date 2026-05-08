@@ -1080,7 +1080,7 @@
           },
           {
             "name": "Challenge - Master Worm Food",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|HaytersFolly"],
             "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           }

@@ -6989,10 +6989,6 @@
             "ref": "LilithDLC/Challenges/Challenge - Flower Power"
           },
           {
-            "name": "Challenge - Haderax The Invincible",
-            "ref": "LilithDLC/Challenges/Challenge - Haderax The Invincible"
-          },
-          {
             "name": "Challenge - The Burdens of Creation",
             "ref": "LilithDLC/Challenges/Challenge - The Burdens of Creation"
           },
@@ -7559,6 +7555,10 @@
           {
             "name": "Med Vendor - Haderax Spawn Room",
             "ref": "LilithDLC/WrithingDeep/Med Vendor - Haderax Spawn Room"
+          },
+          {
+            "name": "Challenge - Haderax The Invincible",
+            "ref": "LilithDLC/Challenges/Challenge - Haderax The Invincible"
           },
           {
             "name": "Challenge - Dune Raider",
