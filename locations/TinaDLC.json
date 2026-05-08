@@ -32,43 +32,43 @@
           {
             "name": "Symbol - Temple Shoreline",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Forlorn Ruins",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Hamlet Building",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Taste of War",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Forlorn Ruins",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Southern Temple",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -97,43 +97,43 @@
           {
             "name": "Symbol - Outskirts",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Parkour",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Town",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Town",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Town",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Smashin Pumpkins",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -246,55 +246,55 @@
           {
             "name": "Symbol - Blood Tree Camp",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Glenns Cottage",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - SO CUTE",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Extreme Orc Makeover",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Orc Camp",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Blacksmith",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -359,67 +359,67 @@
           {
             "name": "Symbol - Fields of the Fallen",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Sacred Ruins Upper",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Sacred Ruins Lower",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Vitality Grove",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Vitality Grove",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Graveyard Pillar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Ruins Altar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Ruins Parkour",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -478,79 +478,79 @@
           {
             "name": "Symbol - Ingot Processing",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Cube Room",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Greedtooths Lair",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Gold Golem",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Gold Golem",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Floor is Lava",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Ingot Processing",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Gilded Forge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Greedtooth",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Hanging Platform",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -627,85 +627,85 @@
           {
             "name": "Symbol - Sir Boil",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Nefarious Elevator",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Sir Mash",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Handsome Bridge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Handsome Bridge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Handsome Bridge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - The Pit Cliff",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Birds Nest",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Knight Bridge Challenge #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Knight Bridge Challenge #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Darkness Magic Missile Door",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -740,79 +740,79 @@
           {
             "name": "Symbol - Platform Corridor",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Hall of the Dead",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Wailer Drop",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Sorcerers Daughter Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Sorcerers Daughter Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - A Single Deadly Bite",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Sepulcher Challenge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Boss Lair",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Edgars Sanctum",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Bone Barracks",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -847,37 +847,37 @@
           {
             "name": "Symbol - Sacrifice Staircase",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Blood for Blood",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Ledge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           }
         ]
@@ -918,367 +918,367 @@
           {
             "name": "Symbol - The Winged Storm",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #36",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #9",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #7",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #35",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #28",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #34",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #33",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #44",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #48",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #4",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #56",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #50",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #10",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #38",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #26",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #45",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #46",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #43",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #42",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #41",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #40",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #39",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #47",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #8",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #6",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #51",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #49",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #54",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #53",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #52",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #55",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #21",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #11",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #13",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #25",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #24",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #22",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #23",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #12",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #14",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #17",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #19",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #20",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #18",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #16",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #15",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #27",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #5",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #32",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #31",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #3",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #30",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #29",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - #37",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           }
         ]
@@ -1301,43 +1301,43 @@
           {
             "name": "Symbol - The Nursery",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Below Murderlin",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Work! Work! Work!",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -1396,61 +1396,61 @@
           {
             "name": "Challenge - Fus Roh Die",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Scot-Free",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Rock Out With Your Rock Out",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Knighty Knight",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cant Fool Me",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Orcs Should Perish",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bone Breaker",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ew Ew Ew Ew",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cheerful Green Giants",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Magical Massacre",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           }
         ]

@@ -5,7 +5,7 @@
     "chest_opened_img": "/images/items/open.png",
     "overlay_background": "#000000",
     "visibility_rules": [
-      " "
+      "remove_torgue_checks_keep"
     ],
     "children": [
       {
@@ -32,37 +32,37 @@
           {
             "name": "Torgue Vendor - Pyro Petes Bar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Pyro Petes Bar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Pyro Petes Bar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Thought Youd Be Bigger",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Chest - Moxxi Cell #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Moxxi Cell #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -133,67 +133,67 @@
           {
             "name": "Symbol - Underpass",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - School Bus",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Torgue Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Torgue Vendor - Gun Emporeum",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Gun Emporeum",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Gun Emporeum",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Beatdown Rooftops",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Gun Emporeum Alley",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -240,37 +240,37 @@
           {
             "name": "Symbol - Zer0 Poster",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Maya Poster",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Torgue Vendor - Motor Mamas Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Motor Mamas Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Motor Mamas Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           }
         ]
@@ -305,91 +305,91 @@
           {
             "name": "Symbol - Smack Talker",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Lava",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Housing",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Torgue Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Forge Bounty Board",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Forge Bounty Board",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Air Mail",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - I DID Start the Fire",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Parachutes Are for Pansies",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Chest - Landing Pad Maintenance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Forge Parkour",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Junkyard",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -472,91 +472,91 @@
           {
             "name": "Symbol - Arena Wall",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Arena Ladder",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Torgue Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - C4 Is For Cookie",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Its Cool, Im Part of the Crew",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Are You Not Entertained",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Burnin Ring of Fire",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Chest - Arena Foyer",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - First Arena Ladder",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Maintenance Pipes",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Storage Area",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Final Arena Foyer",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -603,115 +603,115 @@
           {
             "name": "Symbol - Badass Highway",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Beatdown Door",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Billboard Lower",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Billboard Upper",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Town",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Town",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Torgue Vendor - Outside The Forge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Outside The Forge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Outside The Forge",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - As Advertised",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fan Club Membership",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Can Fly!",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Only Shells I Need Are in My Guns",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Chest - Beatdown Billboard",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Torgue Arena Billboard",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Crater Rim Parkour Hut",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -800,19 +800,19 @@
           {
             "name": "Torgue Vendor - Badass Bar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Badass Bar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Badass Bar",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
@@ -859,25 +859,25 @@
           {
             "name": "Challenge - Torgue Items Purchased",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Battles Completed",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bikers Killed",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bikes Destroyed",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
@@ -889,7 +889,7 @@
           {
             "name": "Challenge - Torgue Tokens Acquired",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           }
         ]

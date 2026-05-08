@@ -8,13 +8,13 @@
       "^$CanReachRegion|DigistructPeak"
     ],
     "visibility_rules": [
-      ""
+      "remove_digi_peak_checks_keep"
     ],
     "children": [
       {
         "name": "DigistructPeak",
         "access_rules": [
-          " "
+          ""
         ],
         "visibility_rules": [
           ""

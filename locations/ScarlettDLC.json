@@ -5,7 +5,7 @@
     "chest_opened_img": "/images/items/open.png",
     "overlay_background": "#000000",
     "visibility_rules": [
-      " "
+      "remove_scarlett_checks_keep"
     ],
     "children": [
       {
@@ -38,85 +38,85 @@
           {
             "name": "Symbol - Kronus",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Lair Exit",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Lionel Docks",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Coral Island",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Oasis",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Oasis",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Oasis",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Aint Afraid of Heights",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Horrids Hideaway",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Chest - Coral Island",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Horrids Hideaway",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Canyon Deserter Camp #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Canyon Deserter Camp #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -175,7 +175,7 @@
           },
           {
             "name": "Hyperius the Invincible",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|WashburneRefinery"],
             "visibility_rules": [],
             "item_count": 1
           },
@@ -241,91 +241,91 @@
           {
             "name": "Symbol - Hot Springs Crate",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Grendel Exit",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Gees Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Gees Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Playing Chicken in my Sleep",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Wet Reward",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Master of My Domain",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Wet Reward #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Wet Reward #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Sandmans Overlook",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Sandman Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -354,67 +354,67 @@
           {
             "name": "Symbol - Maroonies Clipper",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Rustyards Fence",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - My Main Squeeze",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Crows Nest",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - 4th Audio Recording Ship",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Rusty Cog Settlement",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Maroonies Clipper",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Crows Nest",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -467,73 +467,73 @@
           {
             "name": "Symbol - P3RV-E Lair",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Forge Array",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Hyperius Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Hyperius Arena",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Get It for the Articles",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Arm Thyself",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Forge Array",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Arm Thyself",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - H3Rl-E",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -586,67 +586,67 @@
           {
             "name": "Symbol - House",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Lighthouse",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Maroonies Inheritance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - N00b Cannon",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Under A House",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - AM-FM Isle",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Magnys Lighthouse Top #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Magnys Lighthouse Top #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -687,133 +687,133 @@
           {
             "name": "Symbol - Lair",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Leviathans Intestines",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Leviathans Intestines",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Leviathans Lair",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Leviathans Lair",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Lost Lost Treasure",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bleeding Scarlett",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Outer #5",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Outer #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Outer #6",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Outer #4",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Outer #3",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Outer #7",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Outer #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Inner #1",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Inner #2",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Inner #3",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Inner #4",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Inner #5",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Inner #6",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Lost Lost Treasure",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           }
         ]
@@ -830,139 +830,139 @@
           {
             "name": "Symbol - Rustyard Corridor",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - Scarletts Ship",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Symbol - The Dish",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Door to Oasis",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Door to Oasis",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Old Murphys Canyon",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Old Murphys Canyon",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - The Washburne Fen",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Scarletts Ship",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Scarletts Ship",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Scarletts Ship",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Rustyard Corridor",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Skiffless",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Comb the Desert!",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Refined Tastes",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Sand Worm Queen Pit",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - The Dish Metal Hut",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - The Washburne Fen Rocky Outcrop",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Refined Tastes",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Top o The Dish",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - Old Murphys Canyon",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
             "name": "Chest - The Dish Symbol",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["chest_checks_enabled"],
             "item_count": 1
           },
           {
@@ -1039,49 +1039,49 @@
           {
             "name": "Challenge - In The Pink",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Land Lubber",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hovernator",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Worm Killer",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Pirate Booty",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Shady Dealings",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hyperius the Not-So-Invincible",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WashburneRefinery"],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           },
           {
             "name": "Challenge - Master Worm Food",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["bar_challenge_checks_enable_all"],
             "item_count": 1
           }
         ]
