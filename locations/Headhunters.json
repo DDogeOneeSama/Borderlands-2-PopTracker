@@ -92,7 +92,9 @@
           {
             "name": "The Bloody Harvest",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -307,7 +309,9 @@
           {
             "name": "The Hunger Pangs",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -390,7 +394,9 @@
           {
             "name": "Get Frosty",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -539,7 +545,9 @@
           {
             "name": "A Match Made on Pandora",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -706,7 +714,9 @@
           {
             "name": "Fun, Sun, and Guns",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {

@@ -140,13 +140,17 @@
           {
             "name": "Savage Lands",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Professor Nakayama, I Presume",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -158,7 +162,9 @@
           {
             "name": "The Fall of Nakayama",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -301,7 +307,9 @@
           {
             "name": "A-Hunting We Will Go",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {

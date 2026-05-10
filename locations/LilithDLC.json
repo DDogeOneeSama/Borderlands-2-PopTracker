@@ -491,7 +491,9 @@
           {
             "name": "Paradise Found",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -698,31 +700,41 @@
           {
             "name": "Winging It",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Spore Chores",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "A Hard Place",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Shooting The Moon",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "The Cost of Progress",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -852,7 +864,9 @@
           {
             "name": "The Dawn of New Pandora",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           }
         ]

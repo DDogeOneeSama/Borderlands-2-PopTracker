@@ -20,25 +20,33 @@
           {
             "name": "Plan B",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Hunting the Firehawk",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "A Train to Catch",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Rising Action",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -62,31 +70,41 @@
           {
             "name": "Wildlife Preservation",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "The Once and Future Slab",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "The Man Who Would Be Jack",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Toil and Trouble",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "The Talon of God",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -433,19 +451,25 @@
           {
             "name": "My First Gun",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Blindsided",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Cleaning up the Berg",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -486,7 +510,9 @@
           {
             "name": "The Road to Sanctuary",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -516,7 +542,9 @@
           {
             "name": "Best Minion Ever",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -837,7 +865,9 @@
           {
             "name": "A Dam Fine Rescue",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -980,7 +1010,9 @@
           {
             "name": "Bright Lights, Flying City",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -2810,13 +2842,17 @@
           {
             "name": "Where Angels Fear to Tread",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Where Angels Fear to Tread (Part 2)",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           }
         ]
@@ -3535,7 +3571,9 @@
           {
             "name": "Data Mining",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {

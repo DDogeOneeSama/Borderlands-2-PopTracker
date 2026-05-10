@@ -80,7 +80,9 @@
           {
             "name": "Battle - Bar Room Blitz",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -92,13 +94,17 @@
           {
             "name": "ChopSuey",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "A Montage",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -407,7 +413,9 @@
           {
             "name": "Battle - Twelve O Clock High",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -437,13 +445,17 @@
           {
             "name": "Knockin on Heavens Door",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Kickstart My Heart",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           }
         ]
@@ -580,13 +592,17 @@
           {
             "name": "Battle - Appetite for Destruction",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Burn, Baby, Burn",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           }
         ]
@@ -717,7 +733,9 @@
           {
             "name": "Highway To Hell",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -735,7 +753,9 @@
           {
             "name": "Battle - The Death Race",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -753,19 +773,25 @@
           {
             "name": "Welcome To The Jungle",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Get Your Motor Running",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Eat Cookies and Crap Thunder",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
@@ -818,13 +844,17 @@
           {
             "name": "Breaking and Entering",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
             "name": "Long Way To The Top",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_story_only"],
             "item_count": 1
           },
           {
