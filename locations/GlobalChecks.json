@@ -830,6 +830,24 @@
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
+          },
+          {
+            "name": "Loader Generic Drop",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crystalisk Generic Drop",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Surveyor Generic Drop",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
           }
         ]
       },

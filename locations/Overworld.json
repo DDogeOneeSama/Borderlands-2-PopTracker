@@ -197,6 +197,18 @@
           {
             "name": "Skeleton Generic Drop",
             "ref": "GlobalChecks/Enemies/Skeleton Generic Drop"
+          },
+          {
+            "name": "Loader Generic Drop",
+            "ref": "GlobalChecks/Enemies/Loader Generic Drop"
+          },
+          {
+            "name": "Crystalisk Generic Drop",
+            "ref": "GlobalChecks/Enemies/Crystalisk Generic Drop"
+          },
+          {
+            "name": "Surveyor Generic Drop",
+            "ref": "GlobalChecks/Enemies/Surveyor Generic Drop"
           }
         ],
         "map_locations": [

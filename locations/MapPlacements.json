@@ -185,6 +185,18 @@
             "ref": "GlobalChecks/Enemies/Skeleton Generic Drop"
           },
           {
+            "name": "Enemies - Loader Generic Drop",
+            "ref": "GlobalChecks/Enemies/Loader Generic Drop"
+          },
+          {
+            "name": "Enemies - Crystalisk Generic Drop",
+            "ref": "GlobalChecks/Enemies/Crystalisk Generic Drop"
+          },
+          {
+            "name": "Enemies - Surveyor Generic Drop",
+            "ref": "GlobalChecks/Enemies/Surveyor Generic Drop"
+          },
+          {
             "name": "Money - Challenge - Whaddaya Buyin",
             "ref": "GlobalChecks/Money/Challenge - Whaddaya Buyin"
           },
