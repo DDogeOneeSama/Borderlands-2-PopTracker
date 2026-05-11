@@ -621,7 +621,7 @@
     "img": "images/items/travel/marcussmercenaryshop.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_marcussmercenaryshop"
+    "codes": "enable_region_marcusmercenaryshop"
   },
   {
     "name": "Enable Region: Rotgut Distillery",
