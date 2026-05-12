@@ -5,7 +5,7 @@
     "chest_opened_img": "/images/items/open.png",
     "overlay_background": "#000000",
     "visibility_rules": [
-      " "
+      "remove_tina_checks_keep"
     ],
     "children": [
       {
