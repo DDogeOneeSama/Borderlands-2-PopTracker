@@ -9,26 +9,31 @@
       {
         "img": "images/settings/gear_rarity_item_pool_disabled.png",
         "codes": "gear_licenses,gear_licenses_disabled",
+        "inherit_codes": false,
         "name": "Gear Rarity Item Pool - Disabled"
       },
       {
         "img": "images/settings/gear_rarity_item_pool_exclude_seraph_plus.png",
         "codes": "gear_licenses,gear_licenses_exclude_seraph_plus",
+        "inherit_codes": false,
         "name": "Gear Rarity Item Pool - Exclude Seraph+"
       },
       {
         "img": "images/settings/gear_rarity_item_pool_exclude_pearl_plus.png",
         "codes": "gear_licenses,gear_licenses_exclude_pearl_plus",
+        "inherit_codes": false,
         "name": "Gear Rarity Item Pool - Exclude Pearl+"
       },
       {
         "img": "images/settings/gear_rarity_item_pool_exclude_rainbow.png",
         "codes": "gear_licenses,gear_licenses_exclude_rainbow",
+        "inherit_codes": false,
         "name": "Gear Rarity Item Pool - Exclude Effervescent"
       },
       {
         "img": "images/settings/gear_rarity_item_pool_all.png",
         "codes": "gear_licenses,gear_licenses_all",
+        "inherit_codes": false,
         "name": "Gear Rarity Item Pool - All"
       }
 	]
@@ -43,11 +48,13 @@
       {
         "img": "images/settings/receive_gear_disabled.png",
         "codes": "receive_gear,receive_gear_disabled",
+        "inherit_codes": false,
         "name": "Receive Gear Items - Disabled"
       },
       {
         "img": "images/settings/receive_gear_enabled.png",
         "codes": "receive_gear,receive_gear_enabled",
+        "inherit_codes": false,
         "name": "Receive Gear Items - Enabled"
       }
 	]
@@ -62,11 +69,13 @@
       {
         "img": "images/settings/vault_symbols_disabled.png",
         "codes": "vault_symbols,vault_symbols_disabled",
+        "inherit_codes": false,
         "name": "Vault Symbols - Disabled"
       },
       {
         "img": "images/settings/vault_symbols_enabled.png",
         "codes": "vault_symbols,vault_symbols_enabled",
+        "inherit_codes": false,
         "name": "Vault Symbols - Enabled"
       }
 	]
@@ -81,11 +90,13 @@
       {
         "img": "images/settings/vending_machines_disabled.png",
         "codes": "vending_machines,vending_machines_disabled",
+        "inherit_codes": false,
         "name": "Vending Machines - Disabled"
       },
       {
         "img": "images/settings/vending_machines_enabled.png",
         "codes": "vending_machines,vending_machines_enabled",
+        "inherit_codes": false,
         "name": "Vending Machines - Enabled"
       }
 	]
@@ -100,11 +111,13 @@
       {
         "img": "images/settings/entrance_locks_disabled.png",
         "codes": "entrance_locks,entrance_locks_disabled",
+        "inherit_codes": false,
         "name": "Entrance Locks - Disabled"
       },
       {
         "img": "images/settings/entrance_locks_enabled.png",
         "codes": "entrance_locks,entrance_locks_enabled",
+        "inherit_codes": false,
         "name": "Entrance Locks - Enabled"
       }
 	]
@@ -118,14 +131,17 @@
     "stages": [
       {
         "codes": "progressive_travel,progressive_travel_none",
+        "inherit_codes": false,
         "name": "Progressive Travel Amount Enabled - None"
       },
       {
         "codes": "progressive_travel,progressive_travel_some",
+        "inherit_codes": false,
         "name": "Progressive Travel Amount Enabled - Some"
       },
       {
         "codes": "progressive_travel,progressive_travel_all",
+        "inherit_codes": false,
         "name": "Progressive Travel Amount Enabled - All"
       }
 	]
@@ -140,11 +156,13 @@
       {
         "img": "images/settings/progressive_travel_basegame_disabled.png",
         "codes": "progressive_travel_basegame,progressive_travel_basegame_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Base Game - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_basegame_enabled.png",
         "codes": "progressive_travel_basegame,progressive_travel_basegame_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Base Game - Enabled"
       }
 	]
@@ -159,11 +177,13 @@
       {
         "img": "images/settings/progressive_travel_basegame_side_disabled.png",
         "codes": "progressive_travel_basegame_side,progressive_travel_basegame_side_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Base Game Side Areas - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_basegame_side_enabled.png",
         "codes": "progressive_travel_basegame_side,progressive_travel_basegame_side_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Base Game Side Areas - Enabled"
       }
 	]
@@ -178,11 +198,13 @@
       {
         "img": "images/settings/progressive_travel_ffs_disabled.png",
         "codes": "progressive_travel_ffs,progressive_travel_ffs_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Fight For Sanctuary - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_ffs_enabled.png",
         "codes": "progressive_travel_ffs,progressive_travel_ffs_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Fight For Sanctuary - Enabled"
       }
 	]
@@ -197,11 +219,13 @@
       {
         "img": "images/settings/progressive_travel_tina_disabled.png",
         "codes": "progressive_travel_tina,progressive_travel_tina_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Tina DLC - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_tina_enabled.png",
         "codes": "progressive_travel_tina,progressive_travel_tina_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Tina DLC - Enabled"
       }
 	]
@@ -216,11 +240,13 @@
       {
         "img": "images/settings/progressive_travel_torgue_disabled.png",
         "codes": "progressive_travel_torgue,progressive_travel_torgue_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Torgue DLC - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_torgue_enabled.png",
         "codes": "progressive_travel_torgue,progressive_travel_torgue_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Torgue DLC - Enabled"
       }
 	]
@@ -235,11 +261,13 @@
       {
         "img": "images/settings/progressive_travel_scarlett_disabled.png",
         "codes": "progressive_travel_scarlett,progressive_travel_scarlett_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Scarlett DLC - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_scarlett_enabled.png",
         "codes": "progressive_travel_scarlett,progressive_travel_scarlett_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Scarlett DLC - Enabled"
       }
 	]
@@ -254,11 +282,13 @@
       {
         "img": "images/settings/progressive_travel_hammerlock_disabled.png",
         "codes": "progressive_travel_hammerlock,progressive_travel_hammerlock_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Hammerlock DLC - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_hammerlock_enabled.png",
         "codes": "progressive_travel_hammerlock,progressive_travel_hammerlock_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Hammerlock DLC - Enabled"
       }
 	]
@@ -273,11 +303,13 @@
       {
         "img": "images/settings/progressive_travel_headhunter_disabled.png",
         "codes": "progressive_travel_headhunter,progressive_travel_headhunter_disabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Headhunters - Disabled"
       },
       {
         "img": "images/settings/progressive_travel_headhunter_enabled.png",
         "codes": "progressive_travel_headhunter,progressive_travel_headhunter_enabled",
+        "inherit_codes": false,
         "name": "Progressive Travel Headhunters - Enabled"
       }
 	]
@@ -292,31 +324,37 @@
       {
         "img": "images/settings/jump_checks_disabled.png",
         "codes": "jump_checks,jump_checks_disabled",
+        "inherit_codes": false,
         "name": "Jump Checks - Disabled"
       },
       {
         "img": "images/settings/jump_checks_1.png",
         "codes": "jump_checks,jump_checks_1",
+        "inherit_codes": false,
         "name": "Jump Checks - 1"
       },
       {
         "img": "images/settings/jump_checks_2.png",
         "codes": "jump_checks,jump_checks_2",
+        "inherit_codes": false,
         "name": "Jump Checks - 2"
       },
       {
         "img": "images/settings/jump_checks_3.png",
         "codes": "jump_checks,jump_checks_3",
+        "inherit_codes": false,
         "name": "Jump Checks - 3"
       },
       {
         "img": "images/settings/jump_checks_4.png",
         "codes": "jump_checks,jump_checks_4",
+        "inherit_codes": false,
         "name": "Jump Checks - 4"
       },
       {
         "img": "images/settings/jump_checks_5.png",
         "codes": "jump_checks,jump_checks_5",
+        "inherit_codes": false,
         "name": "Jump Checks - 5"
       }
 	]
@@ -331,16 +369,19 @@
       {
         "img": "images/settings/max_jump_height_regular.png",
         "codes": "max_jump_height,max_jump_height_regular",
+        "inherit_codes": false,
         "name": "Max Jump Height - Regular"
       },
       {
         "img": "images/settings/max_jump_height_high.png",
         "codes": "max_jump_height,max_jump_height_high",
+        "inherit_codes": false,
         "name": "Max Jump Height - High"
       },
       {
         "img": "images/settings/max_jump_height_extra_high.png",
         "codes": "max_jump_height,max_jump_height_extra_high",
+        "inherit_codes": false,
         "name": "Max Jump Height - Extra High"
       }
 	]
@@ -355,31 +396,37 @@
       {
         "img": "images/settings/sprint_checks_disabled.png",
         "codes": "sprint_checks,sprint_checks_disabled",
+        "inherit_codes": false,
         "name": "Sprint Checks - Disabled"
       },
       {
         "img": "images/settings/sprint_checks_1.png",
         "codes": "sprint_checks,sprint_checks_1",
+        "inherit_codes": false,
         "name": "Sprint Checks - 1"
       },
       {
         "img": "images/settings/sprint_checks_2.png",
         "codes": "sprint_checks,sprint_checks_2",
+        "inherit_codes": false,
         "name": "Sprint Checks - 2"
       },
       {
         "img": "images/settings/sprint_checks_3.png",
         "codes": "sprint_checks,sprint_checks_3",
+        "inherit_codes": false,
         "name": "Sprint Checks - 3"
       },
       {
         "img": "images/settings/sprint_checks_4.png",
         "codes": "sprint_checks,sprint_checks_4",
+        "inherit_codes": false,
         "name": "Sprint Checks - 4"
       },
       {
         "img": "images/settings/sprint_checks_5.png",
         "codes": "sprint_checks,sprint_checks_5",
+        "inherit_codes": false,
         "name": "Sprint Checks - 5"
       }
 	]
@@ -394,21 +441,25 @@
       {
         "img": "images/settings/max_sprint_speed_regular.png",
         "codes": "max_sprint_speed,max_sprint_speed_regular",
+        "inherit_codes": false,
         "name": "Max Sprint Speed - Regular"
       },
       {
         "img": "images/settings/max_sprint_speed_fast.png",
         "codes": "max_sprint_speed,max_sprint_speed_fast",
+        "inherit_codes": false,
         "name": "Max Sprint Speed - Fast"
       },
       {
         "img": "images/settings/max_sprint_speed_extra_fast.png",
         "codes": "max_sprint_speed,max_sprint_speed_extra_fast",
+        "inherit_codes": false,
         "name": "Max Sprint Speed - Extra Fast"
       },
       {
         "img": "images/settings/max_sprint_speed_supersonic.png",
         "codes": "max_sprint_speed,max_sprint_speed_supersonic",
+        "inherit_codes": false,
         "name": "Max Sprint Speed - Supersonic"
       }
 	]
@@ -423,21 +474,25 @@
       {
         "img": "images/settings/quest_completion_checks_disabled.png",
         "codes": "quest_completion_checks,quest_completion_checks_disabled",
+        "inherit_codes": false,
         "name": "Quest Completion Checks - Disabled"
       },
       {
         "img": "images/settings/quest_completion_checks_all.png",
         "codes": "quest_completion_checks,quest_completion_checks_all",
+        "inherit_codes": false,
         "name": "Quest Completion Checks - All Quests"
       },
       {
         "img": "images/settings/quest_completion_checks_story_only.png",
         "codes": "quest_completion_checks,quest_completion_checks_story_only",
+        "inherit_codes": false,
         "name": "Quest Completion Checks - Story Quests Only"
       },
       {
         "img": "images/settings/quest_completion_checks_sidequest_only.png",
         "codes": "quest_completion_checks,quest_completion_checks_sidequest_only",
+        "inherit_codes": false,
         "name": "Quest Completion Checks - Side Quests Only"
       }
 	]
@@ -452,11 +507,13 @@
       {
         "img": "images/settings/generic_mob_checks_disabled.png",
         "codes": "generic_mob_checks,generic_mob_checks_disabled",
+        "inherit_codes": false,
         "name": "Generic Mob Checks - Disabled"
       },
       {
         "img": "images/settings/generic_mob_checks_enabled.png",
         "codes": "generic_mob_checks,generic_mob_checks_enabled",
+        "inherit_codes": false,
         "name": "Generic Mob Checks - Enabled"
       }
 	]
@@ -471,26 +528,31 @@
       {
         "img": "images/settings/gear_rarity_checks_disabled.png",
         "codes": "gear_rarity_checks,gear_rarity_checks_disabled",
+        "inherit_codes": false,
         "name": "Gear Rarity Checks - Disabled"
       },
       {
         "img": "images/settings/gear_rarity_checks_exclude_seraph_plus.png",
         "codes": "gear_rarity_checks,gear_rarity_checks_exclude_seraph_plus",
+        "inherit_codes": false,
         "name": "Gear Rarity Checks - Exclude Seraph+"
       },
       {
         "img": "images/settings/gear_rarity_checks_exclude_pearl_plus.png",
         "codes": "gear_rarity_checks,gear_rarity_checks_exclude_pearl_plus",
+        "inherit_codes": false,
         "name": "Gear Rarity Checks - Exclude Pearl+"
       },
       {
         "img": "images/settings/gear_rarity_checks_exclude_rainbow.png",
         "codes": "gear_rarity_checks,gear_rarity_checks_exclude_rainbow",
+        "inherit_codes": false,
         "name": "Gear Rarity Checks - Exclude Effervescent"
       },
       {
         "img": "images/settings/gear_rarity_checks_all.png",
         "codes": "gear_rarity_checks,gear_rarity_checks_all",
+        "inherit_codes": false,
         "name": "Gear Rarity Checks - All"
       }
 	]
@@ -505,21 +567,25 @@
       {
         "img": "images/settings/bar_challenge_checks_disabled.png",
         "codes": "challenge_checks,bar_challenge_checks_disabled",
+        "inherit_codes": false,
         "name": "BAR Challenge Checks - Disabled"
       },
       {
         "img": "images/settings/bar_challenge_checks_enable_all.png",
         "codes": "challenge_checks,bar_challenge_checks_enable_all",
+        "inherit_codes": false,
         "name": "BAR Challenge Checks - Enable All"
       },
       {
         "img": "images/settings/bar_challenge_checks_enable_region_only.png",
         "codes": "challenge_checks,bar_challenge_checks_enable_region_only",
+        "inherit_codes": false,
         "name": "BAR Challenge Checks - Enable Region Only"
       },
       {
         "img": "images/settings/bar_challenge_checks_enable_general_only.png",
         "codes": "challenge_checks,bar_challenge_checks_enable_general_only",
+        "inherit_codes": false,
         "name": "BAR Challenge Checks - Enable General Only"
       }
 	]
@@ -534,11 +600,13 @@
       {
         "img": "images/settings/red_chest_checks_disabled.png",
         "codes": "chest_checks,chest_checks_disabled",
+        "inherit_codes": false,
         "name": "Red Chest Checks - Disabled"
       },
       {
         "img": "images/settings/red_chest_checks_enabled.png",
         "codes": "chest_checks,chest_checks_enabled",
+        "inherit_codes": false,
         "name": "Red Chest Checks - Enabled"
       }
 	]
@@ -552,12 +620,14 @@
     "stages": [
       {
         "img": "images/settings/remove_missable_checks_disabled.png",
-        "codes": "remove_missable_checks,remove_missable_checks_disabled",
+        "codes": "remove_missable_checks,remove_missable_checks_keep",
+        "inherit_codes": false,
         "name": "Missable Checks - Keep"
       },
       {
         "img": "images/settings/remove_missable_checks_enabled.png",
-        "codes": "remove_missable_checks,remove_missable_checks_enabled",
+        "codes": "remove_missable_checks,remove_missable_checks_remove",
+        "inherit_codes": false,
         "name": "Missable Checks - Remove"
       }
 	]
@@ -572,16 +642,19 @@
       {
         "img": "images/settings/remove_coop_checks_keep.png",
         "codes": "remove_coop_checks,remove_coop_checks_keep",
+        "inherit_codes": false,
         "name": "Co-op Checks - Keep"
       },
       {
         "img": "images/settings/remove_coop_checks_remove_impossible.png",
         "codes": "remove_coop_checks,remove_coop_checks_remove_impossible",
+        "inherit_codes": false,
         "name": "Co-op Checks - Remove Impossible"
       },
       {
         "img": "images/settings/remove_coop_checks_remove.png",
         "codes": "remove_coop_checks,remove_coop_checks_remove",
+        "inherit_codes": false,
         "name": "Co-op Checks - Remove All"
       }
 	]
@@ -596,11 +669,13 @@
       {
         "img": "images/settings/remove_ffs_checks_keep.png",
         "codes": "remove_ffs_checks,remove_ffs_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Fight For Sanctuary DLC Checks - Keep"
       },
       {
         "img": "images/settings/remove_ffs_checks_remove.png",
         "codes": "remove_ffs_checks,remove_ffs_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Fight For Sanctuary DLC Checks - Remove"
       }
 	]
@@ -615,11 +690,13 @@
       {
         "img": "images/settings/remove_tina_checks_keep.png",
         "codes": "remove_tina_checks,remove_tina_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Tiny Tina DLC Checks - Keep"
       },
       {
         "img": "images/settings/remove_tina_checks_remove.png",
         "codes": "remove_tina_checks,remove_tina_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Tiny Tina DLC Checks - Remove"
       }
 	]
@@ -634,11 +711,13 @@
       {
         "img": "images/settings/remove_torgue_checks_keep.png",
         "codes": "remove_torgue_checks,remove_torgue_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Torgue DLC Checks - Keep"
       },
       {
         "img": "images/settings/remove_torgue_checks_remove.png",
         "codes": "remove_torgue_checks,remove_torgue_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Torgue DLC Checks - Remove"
       }
 	]
@@ -653,11 +732,13 @@
       {
         "img": "images/settings/remove_scarlett_checks_keep.png",
         "codes": "remove_scarlett_checks,remove_scarlett_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Scarlett DLC Checks - Keep"
       },
       {
         "img": "images/settings/remove_scarlett_checks_remove.png",
         "codes": "remove_scarlett_checks,remove_scarlett_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Scarlett DLC Checks - Remove"
       }
 	]
@@ -672,11 +753,13 @@
       {
         "img": "images/settings/remove_hammerlock_checks_keep.png",
         "codes": "remove_hammerlock_checks,remove_hammerlock_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Hammerlock DLC Checks - Keep"
       },
       {
         "img": "images/settings/remove_hammerlock_checks_remove.png",
         "codes": "remove_hammerlock_checks,remove_hammerlock_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Hammerlock DLC Checks - Remove"
       }
 	]
@@ -691,11 +774,13 @@
       {
         "img": "images/settings/remove_digi_peak_checks_keep.png",
         "codes": "remove_digi_peak_checks,remove_digi_peak_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Digistruct Peak Checks - Keep"
       },
       {
         "img": "images/settings/remove_digi_peak_checks_remove.png",
         "codes": "remove_digi_peak_checks,remove_digi_peak_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Digistruct Peak Checks - Remove"
       }
 	]
@@ -710,11 +795,13 @@
       {
         "img": "images/settings/remove_headhunter_checks_keep.png",
         "codes": "remove_headhunter_checks,remove_headhunter_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Headhunter Checks - Keep"
       },
       {
         "img": "images/settings/remove_headhunter_checks_remove.png",
         "codes": "remove_headhunter_checks,remove_headhunter_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Headhunter Checks - Remove"
       }
 	]
@@ -729,11 +816,13 @@
       {
         "img": "images/settings/remove_base_game_checks_keep.png",
         "codes": "remove_base_game_checks,remove_base_game_checks_keep",
+        "inherit_codes": false,
         "name": "Remove Base Game Checks - Keep"
       },
       {
         "img": "images/settings/remove_base_game_checks_remove.png",
         "codes": "remove_base_game_checks,remove_base_game_checks_remove",
+        "inherit_codes": false,
         "name": "Remove Base Game Checks - Remove"
       }
 	]
@@ -748,11 +837,13 @@
       {
         "img": "images/settings/remove_raid_boss_checks_keep.png",
         "codes": "remove_raidboss_checks,remove_raid_boss_checks_keep",
+        "inherit_codes": false,
         "name": "Raid Boss Checks - Keep"
       },
       {
         "img": "images/settings/remove_raid_boss_checks_remove.png",
         "codes": "remove_raidboss_checks,remove_raid_boss_checks_remove",
+        "inherit_codes": false,
         "name": "Raid Boss Checks - Remove"
       }
 	]
