@@ -416,19 +416,25 @@
           {
             "name": "Challenge - Jackpot!",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Rise of the Crimson Raiders",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -487,7 +493,9 @@
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -622,19 +630,25 @@
           {
             "name": "Challenge - Make Boom Go Boom",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fireproof",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -723,25 +737,33 @@
           {
             "name": "Challenge - I Can See Your Corpse from Here!",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Vault Hunter on Wire",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Midgemong Has No Friends",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -830,13 +852,17 @@
           {
             "name": "Challenge - Mans Best Friends",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,remove_missable_checks_keep",
+              "bar_challenge_checks_enable_region_only,remove_missable_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -951,25 +977,33 @@
           {
             "name": "Challenge - Totems of Fire",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Praise Be to Scorch",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Burning Sensation",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -1090,13 +1124,17 @@
           {
             "name": "Challenge - This Aint My First Rodeo",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -1173,13 +1211,17 @@
           {
             "name": "Challenge - Boss Run",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -1340,31 +1382,41 @@
           {
             "name": "Challenge - Ive Got a Crush on You",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,remove_coop_checks_keep",
+              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Van Is Damned",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - If Youre Not First, Youre Last",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Dust to Dust",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -1429,7 +1481,9 @@
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -1518,31 +1572,41 @@
           {
             "name": "Challenge - Eff Yo Couch",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cut Em No Slack",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Give It a Whirl",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bloodshot Memories",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -1601,25 +1665,33 @@
           {
             "name": "Challenge - The Last Place You Look",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Not-So-Phantom Tollbooth",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Marcus Sacrifice",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -1666,13 +1738,17 @@
           {
             "name": "Challenge - In the Middle of the Night",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -1785,31 +1861,41 @@
           {
             "name": "Challenge - Bug Off",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Whats Yours Is Mine",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Positive Reinforcements",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - King of the Buzzard World",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -1868,13 +1954,17 @@
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Master of All He Surveys",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           }
         ]
@@ -2005,37 +2095,49 @@
           {
             "name": "Challenge - Stiff Competition",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Trapped Rat",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fairest of Them All",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Its Off to Hell We Go",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Rakk Knight",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -2130,7 +2232,9 @@
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           }
         ]
@@ -2260,19 +2364,25 @@
           {
             "name": "Challenge - Winds of the Highlands",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Failure to Communicate",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -2349,31 +2459,41 @@
           {
             "name": "Challenge - Mordys Secret Stashes",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bear Minimum",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ride Together, Die Together",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Sirens Song",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -2468,7 +2588,9 @@
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           }
         ]
@@ -2575,31 +2697,41 @@
           {
             "name": "Challenge - Shame the Foreman",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Top o the World",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,remove_coop_checks_keep",
+              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Challenge - Down With Big, Handsome Brother",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Opportunity Knocks",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -2712,25 +2844,33 @@
           {
             "name": "Challenge - Slab UHF",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - A Grave Matter",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Portrait of the Gunzerker as a Young Man",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -2795,13 +2935,17 @@
           {
             "name": "Challenge - BNK-3R Buster",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -2887,19 +3031,25 @@
           {
             "name": "Challenge - Down the Rabbit Hole",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Sugar Shack",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -2970,31 +3120,41 @@
           {
             "name": "Challenge - Harcheks Revenge",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ever Blow Bubbles",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Bet I Can Make It",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cant Feel A Thing",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -3125,37 +3285,49 @@
           {
             "name": "Challenge - Duel of Death",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,remove_coop_checks_keep",
+              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Challenge - Thats Impossible, Even for a Computer",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Look Ma, No Hands",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Last Train to Nowhere",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Do or Die",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -3304,49 +3476,65 @@
           {
             "name": "Challenge - Can You Hear Me Now",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bring Out the Big Guns",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Tie Clip",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Twas Slag Killed the Beast",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Pipe Dreaming",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Save the Turrets",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,remove_missable_checks_keep",
+              "bar_challenge_checks_enable_region_only,remove_missable_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Vault Hunter vs The Volcano",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -3447,7 +3635,9 @@
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           }
         ]
@@ -3512,25 +3702,33 @@
           {
             "name": "Challenge - Happy Camper",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Race to the Top",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Haiku Hitman",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -3609,19 +3807,25 @@
           {
             "name": "Challenge - Dead Air",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Under Pressure",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -3698,19 +3902,25 @@
           {
             "name": "Challenge - Boned",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hey! Over Here!",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Beginning of the End",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -3775,19 +3985,25 @@
           {
             "name": "Challenge - When Nature Calls",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Environmental Protection",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -3834,19 +4050,25 @@
           {
             "name": "Challenge - The Warriors Way",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
             "item_count": 1
           },
           {
             "name": "Challenge - Dying of the Light",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all",
+              "bar_challenge_checks_enable_region_only"],
             "item_count": 1
           },
           {
@@ -3869,13 +4091,15 @@
           {
             "name": "Enemy - Terramorphous the Invincible",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["remove_raid_boss_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Symbol - Dropdown",
             "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "visibility_rules": [
+              "vault_symbols_enabled,remove_coop_checks_keep",
+              "vault_symbols_enabled,remove_coop_checks_remove_impossible"],
             "item_count": 1
           },
           {
@@ -3905,25 +4129,31 @@
           {
             "name": "Challenge - Terramorphous the Not-So-Invincible",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,remove_raid_boss_checks_keep",
+              "bar_challenge_checks_enable_region_only,remove_raid_boss_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
-            "visibility_rules": ["bar_challenge_checks_enable_all,vault_symbols_enabled"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all,vault_symbols_enabled,remove_coop_checks_keep",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled,remove_coop_checks_keep",
+              "bar_challenge_checks_enable_all,vault_symbols_enabled,remove_coop_checks_remove_impossible",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled,remove_coop_checks_remove_impossible"],
             "item_count": 1
           },
           {
             "name": "Chest - Terramorphous #1",
             "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "visibility_rules": ["chest_checks_enabled,remove_raid_boss_checks_keep"],
             "item_count": 1
           },
           {
             "name": "Chest - Terramorphous #2",
             "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "visibility_rules": ["chest_checks_enabled,remove_raid_boss_checks_keep"],
             "item_count": 1
           }
         ]
