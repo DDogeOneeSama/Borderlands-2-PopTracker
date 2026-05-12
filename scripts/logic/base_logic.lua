@@ -90,8 +90,8 @@ function OpenRegions()
 end
 
 function ModifyProgressiveTables()
-  for _, dlc in ipairs(DLCProgOrderList) do
-    if (Tracker:FindObjectForCode("progressive_travel_" .. dlc .. "_enabled").Active) then
+  for _, dlc in pairs(DLCProgOrderList) do
+    if (Tracker:FindObjectForCode("progressive_travel_" .. dlc).CurrentStage) == 1 then
       for _, regionToAdd in ipairs(ProgressiveOrdersDefinition[dlc]) do
         if (Tracker:FindObjectForCode("enable_region_" .. regionToAdd).Active) then
           table.insert(ProgressiveOrdersWorking[dlc], regionToAdd)
@@ -102,9 +102,9 @@ function ModifyProgressiveTables()
 end
 
 function HasTravelItem(regionToCheck)
-  if (Regions[regionToCheck].travel_item_name == "") or Tracker:FindObjectForCode("entrance_locks_disabled").Active then
+  if (Regions[regionToCheck].travel_item_name == "") or (Tracker:FindObjectForCode("entrance_locks").CurrentStage) == 0 then
     return true -- return true if region does not require travel item or entrance_locks_disabled
-  elseif Regions[regionToCheck].dlc_group ~= "digi" and (Tracker:FindObjectForCode("progressive_travel_" .. Regions[regionToCheck].dlc_group .. "_enabled").Active) then
+  elseif Regions[regionToCheck].dlc_group ~= "digi" and (Tracker:FindObjectForCode("progressive_travel_" .. Regions[regionToCheck].dlc_group).CurrentStage) == 1 then
     return ProgressiveCheck(regionToCheck, Regions[regionToCheck].dlc_group)
   elseif(Tracker:FindObjectForCode(Regions[regionToCheck].travel_item_name).Active) then
     return true -- return true if you have the travel item
