@@ -94,7 +94,7 @@
             "access_rules": [],
             "visibility_rules": [
               "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_sidequest_only"],
             "item_count": 1
           },
           {
@@ -311,7 +311,7 @@
             "access_rules": [],
             "visibility_rules": [
               "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_sidequest_only"],
             "item_count": 1
           },
           {
@@ -396,7 +396,7 @@
             "access_rules": [],
             "visibility_rules": [
               "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_sidequest_only"],
             "item_count": 1
           },
           {
@@ -547,7 +547,7 @@
             "access_rules": [],
             "visibility_rules": [
               "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_sidequest_only"],
             "item_count": 1
           },
           {
@@ -716,7 +716,7 @@
             "access_rules": [],
             "visibility_rules": [
               "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_sidequest_only"],
             "item_count": 1
           },
           {
