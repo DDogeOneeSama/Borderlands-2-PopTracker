@@ -213,44 +213,44 @@
                     "enable_region_oasis",
                     "enable_region_wurmwater",
                     "enable_region_haytersfolly",
-                    "enable_region_therustyards",
+                    "enable_region_rustyards",
                     "enable_region_washburnerefinery",
                     "enable_region_magnyslighthouse",
-                    "enable_region_theleviathanslair"
+                    "enable_region_leviathanslair"
                   ],
                   [
                     "enable_region_badasscrater",
                     "enable_region_torguearena",
-                    "enable_region_thebeatdown",
+                    "enable_region_beatdown",
                     "enable_region_pyropetesbar",
                     "enable_region_badasscraterbar",
                     "enable_region_southernraceway",
-                    "enable_region_theforge"
+                    "enable_region_forge"
                   ],
                   [
                     "enable_region_huntersgrotto",
                     "enable_region_scyllasgrove",
                     "enable_region_ardortonstation",
-                    "enable_region_candlerakkscragg",
+                    "enable_region_candlerakkscrag",
                     "enable_region_terminus"
                   ],
                   [
                     "enable_region_unassumingdocks",
                     "enable_region_flamerockrefuge",
-                    "enable_region_theforest",
+                    "enable_region_forest",
                     "enable_region_immortalwoods",
                     "enable_region_minesofavarice",
                     "enable_region_hatredsshadow",
                     "enable_region_lairofinfiniteagony",
                     "enable_region_dragonkeep",
                     "enable_region_murderlinstemple",
-                    "enable_region_thewingedstorm"
+                    "enable_region_wingedstorm"
                   ],
                   [
                     "enable_region_ffsintrosanctuary",
-                    "enable_region_thebackburner",
+                    "enable_region_backburner",
                     "enable_region_dahlabandon",
-                    "enable_region_theburrows",
+                    "enable_region_burrows",
                     "enable_region_heliosfallen",
                     "enable_region_mtscarabresearchcenter",
                     "enable_region_ffsbossfight",

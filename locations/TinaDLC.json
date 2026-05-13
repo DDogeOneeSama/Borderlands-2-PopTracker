@@ -14,7 +14,7 @@
           "^$CanReachRegion|UnassumingDocks"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_UnassumingDocks"
         ],
         "sections": [
           {
@@ -87,7 +87,7 @@
           "^$CanReachRegion|FlamerockRefuge"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_FlamerockRefuge"
         ],
         "sections": [
           {
@@ -226,7 +226,7 @@
           "^$CanReachRegion|Forest"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Forest"
         ],
         "sections": [
           {
@@ -315,7 +315,7 @@
           "^$CanReachRegion|ImmortalWoods"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_ImmortalWoods"
         ],
         "sections": [
           {
@@ -448,7 +448,7 @@
           "^$CanReachRegion|MinesOfAvarice"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_MinesOfAvarice"
         ],
         "sections": [
           {
@@ -593,7 +593,7 @@
           "^$CanReachRegion|HatredsShadow"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_HatredsShadow"
         ],
         "sections": [
           {
@@ -730,7 +730,7 @@
           "^$CanReachRegion|LairOfInfiniteAgony"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_LairOfInfiniteAgony"
         ],
         "sections": [
           {
@@ -843,7 +843,7 @@
           "^$CanReachRegion|DragonKeep"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_DragonKeep"
         ],
         "sections": [
           {
@@ -896,7 +896,7 @@
           "^$CanReachRegion|WingedStorm"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_WingedStorm"
         ],
         "sections": [
           {
@@ -1297,7 +1297,7 @@
           "^$CanReachRegion|MurderlinsTemple"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_MurderlinsTemple"
         ],
         "sections": [
           {

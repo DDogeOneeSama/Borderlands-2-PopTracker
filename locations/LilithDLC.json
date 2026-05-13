@@ -14,7 +14,7 @@
           "^$CanReachRegion|Burrows"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Burrows"
         ],
         "sections": [
           {
@@ -109,7 +109,7 @@
           "^$CanReachRegion|DahlAbandon"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_DahlAbandon"
         ],
         "sections": [
           {
@@ -252,7 +252,7 @@
           "^$CanReachRegion|HeliosFallen"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_HeliosFallen"
         ],
         "sections": [
           {
@@ -389,7 +389,7 @@
           "^$CanReachRegion|MtScarabResearchCenter"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_MtScarabResearchCenter"
         ],
         "sections": [
           {
@@ -510,7 +510,7 @@
           "^$CanReachRegion|FFSBossFight"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_FFSBossFight"
         ],
         "sections": [
           {
@@ -527,7 +527,7 @@
           "^$CanReachRegion|WrithingDeep"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_WrithingDeep"
         ],
         "sections": [
           {
@@ -616,7 +616,7 @@
           "^$CanReachRegion|Backburner"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Backburner"
         ],
         "sections": [
           {
@@ -823,7 +823,7 @@
           {
             "name": "Challenge - Haderax The Invincible",
             "access_rules": ["^$CanReachRegion|WrithingDeep"],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": ["bar_challenge_checks_enable_all,enable_region_WrithingDeep"],
             "item_count": 1
           },
           {
@@ -858,7 +858,7 @@
           "^$CanReachRegion|FFSIntroSanctuary"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_FFSIntroSanctuary"
         ],
         "sections": [
           {

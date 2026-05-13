@@ -451,7 +451,7 @@
           " "
         ],
         "visibility_rules": [
-          " "
+          "enable_region_WindshearWaste"
         ],
         "sections": [
           {
@@ -512,7 +512,7 @@
           "^$CanReachRegion|SouthernShelf"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_SouthernShelf"
         ],
         "sections": [
           {
@@ -683,7 +683,7 @@
           "^$CanReachRegion|SouthernShelfBay"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_SouthernShelfBay"
         ],
         "sections": [
           {
@@ -786,7 +786,7 @@
           "^$CanReachRegion|ThreeHornsDivide"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_ThreeHornsDivide"
         ],
         "sections": [
           {
@@ -885,7 +885,7 @@
           "^$CanReachRegion|FrostburnCanyon"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_FrostburnCanyon"
         ],
         "sections": [
           {
@@ -1038,7 +1038,7 @@
           "^$CanReachRegion|ThreeHornsValley"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_ThreeHornsValley"
         ],
         "sections": [
           {
@@ -1151,7 +1151,7 @@
           "^$CanReachRegion|SouthpawSteam&Power"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_SouthpawSteam&Power"
         ],
         "sections": [
           {
@@ -1244,7 +1244,7 @@
           "^$CanReachRegion|Dust"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_dust"
         ],
         "sections": [
           {
@@ -1433,7 +1433,7 @@
           "^$CanReachRegion|HolySpirits"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_HolySpirits"
         ],
         "sections": [
           {
@@ -1500,7 +1500,7 @@
           "^$CanReachRegion|BloodshotStronghold"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_BloodshotStronghold"
         ],
         "sections": [
           {
@@ -1635,7 +1635,7 @@
           "^$CanReachRegion|BloodshotRamparts"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_BloodshotRamparts"
         ],
         "sections": [
           {
@@ -1714,7 +1714,7 @@
           "^$CanReachRegion|FriendshipGulag"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_FriendshipGulag"
         ],
         "sections": [
           {
@@ -1771,7 +1771,7 @@
           "^$CanReachRegion|TundraExpress"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_TundraExpress"
         ],
         "sections": [
           {
@@ -1924,7 +1924,7 @@
           "^$CanReachRegion|EndOfTheLine"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_EndOfTheLine"
         ],
         "sections": [
           {
@@ -1975,7 +1975,7 @@
           "^$CanReachRegion|Fridge"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Fridge"
         ],
         "sections": [
           {
@@ -2172,7 +2172,7 @@
           "^$CanReachRegion|FinksSlaughterhouse"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_FinksSlaughterhouse"
         ],
         "sections": [
           {
@@ -2245,7 +2245,7 @@
           "^$CanReachRegion|HighlandsOutwash"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_HighlandsOutwash"
         ],
         "sections": [
           {
@@ -2286,7 +2286,7 @@
           "^$CanReachRegion|Highlands"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Highlands"
         ],
         "sections": [
           {
@@ -2399,7 +2399,7 @@
           "^$CanReachRegion|WildlifeExploitationPreserve"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_WildlifeExploitationPreserve"
         ],
         "sections": [
           {
@@ -2534,7 +2534,7 @@
           "^$CanReachRegion|NaturalSelectionAnnex"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_NaturalSelectionAnnex"
         ],
         "sections": [
           {
@@ -2601,7 +2601,7 @@
           "^$CanReachRegion|Opportunity"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Opportunity"
         ],
         "sections": [
           {
@@ -2778,7 +2778,7 @@
           "^$CanReachRegion|ThousandCuts"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_ThousandCuts"
         ],
         "sections": [
           {
@@ -2905,7 +2905,7 @@
           "^$CanReachRegion|Bunker"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Bunker"
         ],
         "sections": [
           {
@@ -2962,7 +2962,7 @@
           "^$CanReachRegion|ControlCoreAngel"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_ControlCoreAngel"
         ],
         "sections": [
           {
@@ -3007,7 +3007,7 @@
           "^$CanReachRegion|SanctuaryHole"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_SanctuaryHole"
         ],
         "sections": [
           {
@@ -3066,7 +3066,7 @@
           "^$CanReachRegion|CausticCaverns"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_CausticCaverns"
         ],
         "sections": [
           {
@@ -3183,7 +3183,7 @@
           "^$CanReachRegion|Lynchwood"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Lynchwood"
         ],
         "sections": [
           {
@@ -3362,7 +3362,7 @@
           "^$CanReachRegion|EridiumBlight"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_EridiumBlight"
         ],
         "sections": [
           {
@@ -3575,7 +3575,7 @@
           "^$CanReachRegion|OreChasm"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_OreChasm"
         ],
         "sections": [
           {
@@ -3648,7 +3648,7 @@
           "^$CanReachRegion|SawtoothCauldron"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_SawtoothCauldron"
         ],
         "sections": [
           {
@@ -3763,7 +3763,7 @@
           "^$CanReachRegion|AridNexusBoneyard"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_AridNexusBoneyard"
         ],
         "sections": [
           {
@@ -3848,7 +3848,7 @@
           "^$CanReachRegion|AridNexusBadlands"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_AridNexusBadlands"
         ],
         "sections": [
           {
@@ -3955,7 +3955,7 @@
           "^$CanReachRegion|HerosPass"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_HerosPass"
         ],
         "sections": [
           {
@@ -4020,7 +4020,7 @@
           "^$CanReachRegion|VaultOfTheWarrior"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_VaultOfTheWarrior"
         ],
         "sections": [
           {
@@ -4085,7 +4085,7 @@
           "^$CanReachRegion|TerramorphousPeak"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_TerramorphousPeak"
         ],
         "sections": [
           {

@@ -14,7 +14,7 @@
           "^$CanReachRegion|HuntersGrotto"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_HuntersGrotto"
         ],
         "sections": [
           {
@@ -217,7 +217,7 @@
           "^$CanReachRegion|ScyllasGrove"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_ScyllasGrove"
         ],
         "sections": [
           {
@@ -350,7 +350,7 @@
           "^$CanReachRegion|ArdortonStation"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_ArdortonStation"
         ],
         "sections": [
           {
@@ -469,7 +469,7 @@
           "^$CanReachRegion|CandlerakksCrag"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_CandlerakksCrag"
         ],
         "sections": [
           {
@@ -606,7 +606,7 @@
           "^$CanReachRegion|Terminus"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Terminus"
         ],
         "sections": [
           {
@@ -767,7 +767,7 @@
           {
             "name": "Challenge - Voracidous the Invincible",
             "access_rules": ["^$CanReachRegion|CandlerakksCrag"],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": ["bar_challenge_checks_enable_all,enable_region_candlerakkscrag"],
             "item_count": 1
           }
         ]

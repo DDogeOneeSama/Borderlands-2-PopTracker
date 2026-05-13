@@ -14,7 +14,7 @@
           "^$CanReachRegion|PyroPetesBar"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_PyroPetesBar"
         ],
         "sections": [
           {
@@ -121,7 +121,7 @@
           "^$CanReachRegion|Beatdown"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Beatdown"
         ],
         "sections": [
           {
@@ -222,7 +222,7 @@
           "^$CanReachRegion|SouthernRaceway"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_SouthernRaceway"
         ],
         "sections": [
           {
@@ -287,7 +287,7 @@
           "^$CanReachRegion|Forge"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Forge"
         ],
         "sections": [
           {
@@ -466,7 +466,7 @@
           "^$CanReachRegion|TorgueArena"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_TorgueArena"
         ],
         "sections": [
           {
@@ -613,7 +613,7 @@
           "^$CanReachRegion|BadassCrater"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_BadassCrater"
         ],
         "sections": [
           {
@@ -820,7 +820,7 @@
           "^$CanReachRegion|BadassCraterBar"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_BadassCraterBar"
         ],
         "sections": [
           {
@@ -913,7 +913,7 @@
           {
             "name": "Challenge - Pete the Invincible Defeated",
             "access_rules": ["^$CanReachRegion|PyroPetesBar"],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": ["bar_challenge_checks_enable_all,enable_region_PyroPetesBar"],
             "item_count": 1
           },
           {

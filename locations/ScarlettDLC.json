@@ -14,7 +14,7 @@
           "^$CanReachRegion|Oasis"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Oasis"
         ],
         "sections": [
           {
@@ -211,7 +211,7 @@
           "^$CanReachRegion|HaytersFolly"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_HaytersFolly"
         ],
         "sections": [
           {
@@ -348,7 +348,7 @@
           "^$CanReachRegion|Rustyards"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Rustyards"
         ],
         "sections": [
           {
@@ -453,7 +453,7 @@
           "^$CanReachRegion|WashburneRefinery"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_WashburneRefinery"
         ],
         "sections": [
           {
@@ -566,7 +566,7 @@
           "^$CanReachRegion|MagnysLighthouse"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_MagnysLighthouse"
         ],
         "sections": [
           {
@@ -687,7 +687,7 @@
           "^$CanReachRegion|LeviathansLair"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_LeviathansLair"
         ],
         "sections": [
           {
@@ -836,7 +836,7 @@
           "^$CanReachRegion|Wurmwater"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_Wurmwater"
         ],
         "sections": [
           {
@@ -1093,13 +1093,13 @@
           {
             "name": "Challenge - Hyperius the Not-So-Invincible",
             "access_rules": ["^$CanReachRegion|WashburneRefinery"],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": ["bar_challenge_checks_enable_all,enable_region_WashburneRefinery"],
             "item_count": 1
           },
           {
             "name": "Challenge - Master Worm Food",
             "access_rules": ["^$CanReachRegion|HaytersFolly"],
-            "visibility_rules": ["bar_challenge_checks_enable_all"],
+            "visibility_rules": ["bar_challenge_checks_enable_all,enable_region_HaytersFolly"],
             "item_count": 1
           }
         ]

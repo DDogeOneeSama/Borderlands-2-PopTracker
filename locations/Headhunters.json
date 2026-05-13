@@ -14,7 +14,7 @@
           "^$CanReachRegion|HallowedHallow"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_hallowedhollow"
         ],
         "sections": [
           {
@@ -111,7 +111,7 @@
           "^$CanReachRegion|GluttonyGulch"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_GluttonyGulch"
         ],
         "sections": [
           {
@@ -334,7 +334,7 @@
           "^$CanReachRegion|MarcusMercenaryShop"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_MarcusMercenaryShop"
         ],
         "sections": [
           {
@@ -413,7 +413,7 @@
           "^$CanReachRegion|RotgutDistillery"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_RotgutDistillery"
         ],
         "sections": [
           {
@@ -564,7 +564,7 @@
           "^$CanReachRegion|WamBamIsland"
         ],
         "visibility_rules": [
-          " "
+          "enable_region_WamBamIsland"
         ],
         "sections": [
           {
