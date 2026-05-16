@@ -157,22 +157,25 @@ function OnLevel(level)
   if staleLevels then
     OpenLevels()
   end
-  level = tonumber(level)
-  if level == 0 then
+  local levelToCheck = tonumber(level)
+  if not(LevelLimit(levelToCheck)) then
+    return AccessibilityLevel.None
+  end
+  if levelToCheck == 0 then
     return AccessibilityLevel.Normal
-  elseif ((1 <= level and level <= 5) and (accessibleRegions["Level1to5"])) then
+  elseif ((1 <= levelToCheck and levelToCheck <= 5) and (accessibleRegions["Level1to5"])) then
     return AccessibilityLevel.Normal
-  elseif ((6 <= level and level <= 10) and (accessibleRegions["Level6to10"])) then
+  elseif ((6 <= levelToCheck and levelToCheck <= 10) and (accessibleRegions["Level6to10"])) then
     return AccessibilityLevel.Normal
-  elseif ((11 <= level and level <= 15) and (accessibleRegions["Level11to15"])) then
+  elseif ((11 <= levelToCheck and levelToCheck <= 15) and (accessibleRegions["Level11to15"])) then
     return AccessibilityLevel.Normal
-  elseif ((16 <= level and level <= 20) and (accessibleRegions["Level16to20"])) then
+  elseif ((16 <= levelToCheck and levelToCheck <= 20) and (accessibleRegions["Level16to20"])) then
     return AccessibilityLevel.Normal
-  elseif ((21 <= level and level <= 25) and (accessibleRegions["Level21to25"])) then
+  elseif ((21 <= levelToCheck and levelToCheck <= 25) and (accessibleRegions["Level21to25"])) then
     return AccessibilityLevel.Normal
-  elseif ((26 <= level and level <= 30) and (accessibleRegions["Level26to30"])) then
+  elseif ((26 <= levelToCheck and levelToCheck <= 30) and (accessibleRegions["Level26to30"])) then
     return AccessibilityLevel.Normal
-  elseif ((level > 30) and (accessibleRegions["Level31+"])) then
+  elseif ((levelToCheck > 30) and (accessibleRegions["Level31+"])) then
     return AccessibilityLevel.Normal
   else
     return AccessibilityLevel.SequenceBreak
@@ -272,8 +275,8 @@ function OpenLevels()
 end
 
 function LevelLimit(level)
-  level = tonumber(level)
-  if((level > Tracker:FindObjectForCode("max_level_checks").AcquiredCount) and (Tracker:ProviderCountForCode("max_level_checks") ~= 0)) then -- false if over max check level
+  local levelToCheck = tonumber(level)
+  if((levelToCheck > Tracker:FindObjectForCode("max_level_checks").AcquiredCount) and (Tracker:ProviderCountForCode("max_level_checks") ~= 0)) then -- false if over max check level
     return false
   else
     return true
