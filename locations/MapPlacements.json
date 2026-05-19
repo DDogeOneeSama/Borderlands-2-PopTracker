@@ -1090,40 +1090,36 @@
             "ref": "BaseGame/Sanctuary/Plan B"
           },
           {
-            "name": "Sanctuary - Hunting the Firehawk",
-            "ref": "BaseGame/Sanctuary/Hunting the Firehawk"
-          },
-          {
             "name": "Sanctuary - A Train to Catch",
-            "ref": "BaseGame/Sanctuary/A Train to Catch"
+            "ref": "BaseGame/EndOfTheLine/A Train to Catch"
           },
           {
             "name": "Sanctuary - Rising Action",
-            "ref": "BaseGame/Sanctuary/Rising Action"
+            "ref": "BaseGame/Fridge/Rising Action"
           },
           {
             "name": "Sanctuary - This Just In",
-            "ref": "BaseGame/Sanctuary/This Just In"
+            "ref": "BaseGame/AridNexusBoneyard/This Just In"
           },
           {
             "name": "Sanctuary - The Bane",
-            "ref": "BaseGame/Sanctuary/The Bane"
+            "ref": "BaseGame/Lynchwood/The Bane"
           },
           {
             "name": "Sanctuary - The Good, the Bad, and the Mordecai",
-            "ref": "BaseGame/Sanctuary/The Good, the Bad, and the Mordecai"
+            "ref": "BaseGame/Dust/The Good, the Bad, and the Mordecai"
           },
           {
             "name": "Sanctuary - Wildlife Preservation",
-            "ref": "BaseGame/Sanctuary/Wildlife Preservation"
+            "ref": "BaseGame/WildlifeExploitationPreserve/Wildlife Preservation"
           },
           {
             "name": "Sanctuary - The Once and Future Slab",
-            "ref": "BaseGame/Sanctuary/The Once and Future Slab"
+            "ref": "BaseGame/ThousandCuts/The Once and Future Slab"
           },
           {
             "name": "Sanctuary - The Man Who Would Be Jack",
-            "ref": "BaseGame/Sanctuary/The Man Who Would Be Jack"
+            "ref": "BaseGame/Opportunity/The Man Who Would Be Jack"
           },
           {
             "name": "Sanctuary - Where Angels Fear to Tread",
@@ -1131,15 +1127,15 @@
           },
           {
             "name": "Sanctuary - Toil and Trouble",
-            "ref": "BaseGame/Sanctuary/Toil and Trouble"
+            "ref": "BaseGame/SawtoothCauldron/Toil and Trouble"
           },
           {
             "name": "Sanctuary - The Talon of God",
-            "ref": "BaseGame/Sanctuary/The Talon of God"
+            "ref": "BaseGame/VaultOfTheWarrior/The Talon of God"
           },
           {
             "name": "Sanctuary - Assassinate the Assassins",
-            "ref": "BaseGame/Sanctuary/Assassinate the Assassins"
+            "ref": "BaseGame/SouthpawSteam&Power/Assassinate the Assassins"
           },
           {
             "name": "Sanctuary - Bearer of Bad News",
@@ -1155,15 +1151,15 @@
           },
           {
             "name": "Sanctuary - In Memoriam",
-            "ref": "BaseGame/Sanctuary/In Memoriam"
+            "ref": "BaseGame/ThreeHornsDivide/In Memoriam"
           },
           {
             "name": "Sanctuary - Mighty Morphin",
-            "ref": "BaseGame/Sanctuary/Mighty Morphin"
+            "ref": "BaseGame/TundraExpress/Mighty Morphin"
           },
           {
             "name": "Sanctuary - Mine, All Mine",
-            "ref": "BaseGame/Sanctuary/Mine, All Mine"
+            "ref": "BaseGame/TundraExpress/Mine, All Mine"
           },
           {
             "name": "Sanctuary - The Name Game",
@@ -1171,7 +1167,7 @@
           },
           {
             "name": "Sanctuary - Perfectly Peaceful",
-            "ref": "BaseGame/Sanctuary/Perfectly Peaceful"
+            "ref": "BaseGame/CausticCaverns/Perfectly Peaceful"
           },
           {
             "name": "Sanctuary - Rock, Paper, Genocide - Slag Weapons!",
@@ -1195,47 +1191,47 @@
           },
           {
             "name": "Sanctuary - Animal Rights",
-            "ref": "BaseGame/Sanctuary/Animal Rights"
+            "ref": "BaseGame/WildlifeExploitationPreserve/Animal Rights"
           },
           {
             "name": "Sanctuary - Hell Hath No Fury",
-            "ref": "BaseGame/Sanctuary/Hell Hath No Fury"
+            "ref": "BaseGame/Opportunity/Hell Hath No Fury"
           },
           {
             "name": "Sanctuary - Home Movies",
-            "ref": "BaseGame/Sanctuary/Home Movies"
+            "ref": "BaseGame/Opportunity/Home Movies"
           },
           {
             "name": "Sanctuary - The Overlooked - Medicine Man",
-            "ref": "BaseGame/Sanctuary/The Overlooked - Medicine Man"
+            "ref": "BaseGame/Highlands/The Overlooked - Medicine Man"
           },
           {
             "name": "Sanctuary - Poetic License",
-            "ref": "BaseGame/Sanctuary/Poetic License"
+            "ref": "BaseGame/ThousandCuts/Poetic License"
           },
           {
             "name": "Sanctuary - Slap-Happy",
-            "ref": "BaseGame/Sanctuary/Slap-Happy"
+            "ref": "BaseGame/Highlands/Slap-Happy"
           },
           {
             "name": "Sanctuary - Capture the Flags",
-            "ref": "BaseGame/Sanctuary/Capture the Flags"
+            "ref": "BaseGame/SawtoothCauldron/Capture the Flags"
           },
           {
             "name": "Sanctuary - The Chosen One",
-            "ref": "BaseGame/Sanctuary/The Chosen One"
+            "ref": "BaseGame/SawtoothCauldron/The Chosen One"
           },
           {
             "name": "Sanctuary - The Cold Shoulder",
-            "ref": "BaseGame/Sanctuary/The Cold Shoulder"
+            "ref": "BaseGame/Fridge/The Cold Shoulder"
           },
           {
             "name": "Sanctuary - Medical Mystery",
-            "ref": "BaseGame/Sanctuary/Medical Mystery"
+            "ref": "BaseGame/ThreeHornsValley/Medical Mystery"
           },
           {
             "name": "Sanctuary - Swallowed Whole",
-            "ref": "BaseGame/Sanctuary/Swallowed Whole"
+            "ref": "BaseGame/Fridge/Swallowed Whole"
           },
           {
             "name": "Sanctuary - Rock, Paper, Genocide - Corrosive Weapons!",
@@ -1247,7 +1243,7 @@
           },
           {
             "name": "Sanctuary - Splinter Group",
-            "ref": "BaseGame/Sanctuary/Splinter Group"
+            "ref": "BaseGame/BloodshotStronghold/Splinter Group"
           },
           {
             "name": "Sanctuary - Monster Mash (Part 1)",
@@ -1263,19 +1259,19 @@
           },
           {
             "name": "Sanctuary - Torture Chairs",
-            "ref": "BaseGame/Sanctuary/Torture Chairs"
+            "ref": "BaseGame/Highlands/Torture Chairs"
           },
           {
             "name": "Sanctuary - Doctors Orders",
-            "ref": "BaseGame/Sanctuary/Doctors Orders"
+            "ref": "BaseGame/WildlifeExploitationPreserve/Doctors Orders"
           },
           {
             "name": "Sanctuary - Rakkaholics Anonymous",
-            "ref": "BaseGame/Sanctuary/Rakkaholics Anonymous"
+            "ref": "BaseGame/Dust/Rakkaholics Anonymous"
           },
           {
             "name": "Sanctuary - Hidden Journals",
-            "ref": "BaseGame/Sanctuary/Hidden Journals"
+            "ref": "BaseGame/Highlands/Hidden Journals"
           }
         ],
         "map_locations": [
@@ -1316,7 +1312,7 @@
           },
           {
             "name": "WindshearWaste - Cleaning up the Berg",
-            "ref": "BaseGame/WindshearWaste/Cleaning up the Berg"
+            "ref": "BaseGame/SouthernShelf/Cleaning up the Berg"
           }
         ],
         "map_locations": [
@@ -1405,7 +1401,7 @@
           },
           {
             "name": "SouthernShelf - The Road to Sanctuary",
-            "ref": "BaseGame/SouthernShelf/The Road to Sanctuary"
+            "ref": "BaseGame/Sanctuary/The Road to Sanctuary"
           },
           {
             "name": "SouthernShelf - Handsome Jack Here!",
@@ -1421,7 +1417,7 @@
           },
           {
             "name": "SouthernShelf - Symbiosis",
-            "ref": "BaseGame/SouthernShelf/Symbiosis"
+            "ref": "BaseGame/SouthernShelfBay/Symbiosis"
           },
           {
             "name": "SouthernShelf - Best Minion Ever",
@@ -1649,6 +1645,10 @@
           {
             "name": "FrostburnCanyon - Chest - After Firehawk",
             "ref": "BaseGame/FrostburnCanyon/Chest - After Firehawk"
+          },
+          {
+            "name": "Sanctuary - Hunting the Firehawk",
+            "ref": "BaseGame/FrostburnCanyon/Hunting the Firehawk"
           },
           {
             "name": "FrostburnCanyon - A Dam Fine Rescue",

@@ -18,351 +18,161 @@
         ],
         "sections": [
           {
+            "name": "The Road to Sanctuary",
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|7",
+              "quest_completion_checks_story_only, $LevelLimit|7"],
+            "item_count": 1
+          },
+          {
             "name": "Plan B",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|8"],
             "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "Hunting the Firehawk",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "A Train to Catch",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "Rising Action",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "This Just In",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "The Bane",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "The Good, the Bad, and the Mordecai",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Wildlife Preservation",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "The Once and Future Slab",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "The Man Who Would Be Jack",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "Toil and Trouble",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "The Talon of God",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "Assassinate the Assassins",
-            "access_rules": [],
-            "visibility_rules": [],
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_story_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Bearer of Bad News",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|24"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "BFFs",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|24"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Claptraps Secret Stash",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "In Memoriam",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Mighty Morphin",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Mine, All Mine",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|8"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "The Name Game",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Perfectly Peaceful",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|7",
+              "quest_completion_checks_sidequest_only, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Rock, Paper, Genocide - Slag Weapons!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|7",
+              "quest_completion_checks_sidequest_only, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Rock, Paper, Genocide - Fire Weapons!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|7",
+              "quest_completion_checks_sidequest_only, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Rock, Paper, Genocide - Corrosive Weapons!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|7",
+              "quest_completion_checks_sidequest_only, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Rock, Paper, Genocide - Shock Weapons!",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Safe and Sound",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|7",
+              "quest_completion_checks_sidequest_only, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Do No Harm",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|8"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Wont Get Fooled Again",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Claptraps Birthday Bash!",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Animal Rights",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Hell Hath No Fury",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Home Movies",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "The Overlooked - Medicine Man",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Poetic License",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Slap-Happy",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Capture the Flags",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "The Chosen One",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "The Cold Shoulder",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Medical Mystery",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Swallowed Whole",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Splinter Group",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Monster Mash (Part 1)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|26"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Monster Mash (Part 2)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$CanReachRegion|ThreeHornsValley, ^$OnLevel|27"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|27",
+              "quest_completion_checks_sidequest_only, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Monster Mash (Part 3)",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Torture Chairs",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Doctors Orders",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rakkaholics Anonymous",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Hidden Journals",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Clan War - Starting the War",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "You Will Die (Seriously)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|28"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|28",
+              "quest_completion_checks_sidequest_only, $LevelLimit|28"],
             "item_count": 1
           },
           {
             "name": "Symbol - Rooftop",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanHitJump|611, ^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Moxxis Corner",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Trash Corner",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Tire Corner",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Parkour Door",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanHitJump|596, ^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -415,32 +225,32 @@
           },
           {
             "name": "Challenge - Jackpot!",
-            "access_rules": [],
+            "access_rules": ["progressivemoneycap:1, ^$OnLevel|7"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|7",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanHitJump|630, ^$OnLevel|7"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all,vault_symbols_enabled, $LevelLimit|7",
+              "bar_challenge_checks_enable_region_only,vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Rise of the Crimson Raiders",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|7"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|7",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Chest - Rolands Armory",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|1"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|1"],
             "item_count": 1
           }
         ]
@@ -448,7 +258,7 @@
       {
         "name": "WindshearWaste",
         "access_rules": [
-          " "
+          "^$CanReachRegion|WindshearWaste"
         ],
         "visibility_rules": [
           "enable_region_WindshearWaste"
@@ -464,24 +274,16 @@
           },
           {
             "name": "Blindsided",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|1"],
             "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
-            "name": "Cleaning up the Berg",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_all, $LevelLimit|1",
+              "quest_completion_checks_story_only, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Enemy - Knuckle Dragger",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|1"],
+            "visibility_rules": ["$LevelLimit|1"],
             "item_count": 1
           },
           {
@@ -500,8 +302,8 @@
           },
           {
             "name": "Chest - Blindsided",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|1"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|1"],
             "item_count": 1
           }
         ]
@@ -516,79 +318,81 @@
         ],
         "sections": [
           {
-            "name": "The Road to Sanctuary",
-            "access_rules": [],
+            "name": "Cleaning up the Berg",
+            "access_rules": ["^$OnLevel|3"],
             "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_all, $LevelLimit|3",
+              "quest_completion_checks_story_only, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Handsome Jack Here!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|3",
+              "quest_completion_checks_sidequest_only, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "This Town Aint Big Enough",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|3",
+              "quest_completion_checks_sidequest_only, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Shielded Favors",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Symbiosis",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|4"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|4",
+              "quest_completion_checks_sidequest_only, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Best Minion Ever",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|5"],
             "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_all, $LevelLimit|5",
+              "quest_completion_checks_story_only, $LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Bad Hair Day",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["melee, ^$OnLevel|3"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|3",
+              "quest_completion_checks_sidequest_only, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Enemy - Boom",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|5"],
+            "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Enemy - Bewm",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|5"],
+            "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Enemy - Captain Flynt",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|5"],
+            "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Symbol - Flynts Ship",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanHitJump|300, ^$OnLevel|3"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Symbol - Safehouse",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanHitJump|350, ^$OnLevel|3"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
@@ -686,6 +490,14 @@
           "enable_region_SouthernShelfBay"
         ],
         "sections": [
+          {
+            "name": "Symbiosis",
+            "access_rules": ["^$OnLevel|4"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|4",
+              "quest_completion_checks_sidequest_only, $LevelLimit|4"],
+            "item_count": 1
+          },
           {
             "name": "Enemy - Midgemong",
             "access_rules": [],
@@ -790,6 +602,14 @@
         ],
         "sections": [
           {
+            "name": "In Memoriam",
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|10"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|10",
+              "quest_completion_checks_sidequest_only, $LevelLimit|10"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - Savage Lee",
             "access_rules": [],
             "visibility_rules": [],
@@ -888,6 +708,14 @@
           "enable_region_FrostburnCanyon"
         ],
         "sections": [
+          {
+            "name": "Hunting the Firehawk",
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|9",
+              "quest_completion_checks_story_only, $LevelLimit|9"],
+            "item_count": 1
+          },
           {
             "name": "A Dam Fine Rescue",
             "access_rules": [],
@@ -1050,6 +878,14 @@
             "item_count": 1
           },
           {
+            "name": "Medical Mystery",
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+            "item_count": 1
+          },
+          {
             "name": "Neither Rain nor Sleet nor Skags",
             "access_rules": [],
             "visibility_rules": [],
@@ -1155,6 +991,14 @@
         ],
         "sections": [
           {
+            "name": "Assassinate the Assassins",
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - Assassin Oney",
             "access_rules": [],
             "visibility_rules": [],
@@ -1248,6 +1092,30 @@
         ],
         "sections": [
           {
+            "name": "The Good, the Bad, and the Mordecai",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Rakkaholics Anonymous",
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|19"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|19",
+              "quest_completion_checks_sidequest_only, $LevelLimit|19"],
+            "item_count": 1
+          },
+          {
+            "name": "Clan War - Starting the War",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
             "name": "Clan War - Wakey Wakey",
             "access_rules": [],
             "visibility_rules": [],
@@ -1280,7 +1148,9 @@
           {
             "name": "Positive Self Image",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -1439,13 +1309,17 @@
           {
             "name": "Clan War - End of the Rainbow",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Clan War - First Place",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -1504,9 +1378,19 @@
         ],
         "sections": [
           {
+            "name": "Splinter Group",
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
+            "item_count": 1
+          },
+          {
             "name": "Out of Body Experience",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -1775,33 +1659,59 @@
         ],
         "sections": [
           {
+            "name": "Mighty Morphin",
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
+            "item_count": 1
+          },
+          {
+            "name": "Mine, All Mine",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|14, ^$CanHitJump|550"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|14",
+              "quest_completion_checks_sidequest_only, $LevelLimit|14"],
+            "item_count": 1
+          },
+          {
             "name": "You Are Cordially Invited - Party Prep",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "No Hard Feelings",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "The Pretty Good Train Robbery",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "You Are Cordially Invited - Tea Party",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "You Are Cordially Invited - RSVP",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -1928,6 +1838,14 @@
         ],
         "sections": [
           {
+            "name": "A Train to Catch",
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_story_only, $LevelLimit|13"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - Wilhelm",
             "access_rules": [],
             "visibility_rules": [],
@@ -1978,6 +1896,30 @@
           "enable_region_Fridge"
         ],
         "sections": [
+          {
+            "name": "Rising Action",
+            "access_rules": ["^OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "The Cold Shoulder",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
+            "item_count": 1
+          },
+          {
+            "name": "Swallowed Whole",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
+            "item_count": 1
+          },
           {
             "name": "Note for Self-Person",
             "access_rules": [],
@@ -2302,6 +2244,14 @@
             "item_count": 1
           },
           {
+            "name": "The Overlooked - Medicine Man",
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
             "name": "The Overlooked - Shields Up",
             "access_rules": [],
             "visibility_rules": [],
@@ -2314,6 +2264,14 @@
             "item_count": 1
           },
           {
+            "name": "Slap-Happy",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
             "name": "Stalker of Stalkers",
             "access_rules": [],
             "visibility_rules": [],
@@ -2323,6 +2281,22 @@
             "name": "Hyperion Contract #873",
             "access_rules": [],
             "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torture Chairs",
+            "access_rules": ["^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Journals",
+            "access_rules": ["^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
@@ -2402,6 +2376,30 @@
           "enable_region_WildlifeExploitationPreserve"
         ],
         "sections": [
+          {
+            "name": "Wildlife Preservation",
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|19",
+              "quest_completion_checks_story_only, $LevelLimit|19"],
+            "item_count": 1
+          },
+          {
+            "name": "Animal Rights",
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
+            "item_count": 1
+          },
+          {
+            "name": "Doctors Orders",
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|19",
+              "quest_completion_checks_sidequest_only, $LevelLimit|19"],
+            "item_count": 1
+          },
           {
             "name": "Enemy - Tumbaa",
             "access_rules": [],
@@ -2605,6 +2603,14 @@
         ],
         "sections": [
           {
+            "name": "The Man Who Would Be Jack",
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|21",
+              "quest_completion_checks_story_only, $LevelLimit|21"],
+            "item_count": 1
+          },
+          {
             "name": "Statuesque",
             "access_rules": [],
             "visibility_rules": [],
@@ -2614,6 +2620,22 @@
             "name": "Written by the Victor",
             "access_rules": [],
             "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hell Hath No Fury",
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|21",
+              "quest_completion_checks_sidequest_only, $LevelLimit|21"],
+            "item_count": 1
+          },
+          {
+            "name": "Home Movies",
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanHitJump|390, ^$OnLevel|21"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|21",
+              "quest_completion_checks_sidequest_only, $LevelLimit|21"],
             "item_count": 1
           },
           {
@@ -2781,6 +2803,22 @@
           "enable_region_ThousandCuts"
         ],
         "sections": [
+          {
+            "name": "The Once and Future Slab",
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_story_only, $LevelLimit|20"],
+            "item_count": 1
+          },
+          {
+            "name": "Poetic License",
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
+            "item_count": 1
+          },
           {
             "name": "Defend Slab Tower",
             "access_rules": [],
@@ -3070,6 +3108,22 @@
         ],
         "sections": [
           {
+            "name": "Perfectly Peaceful",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
+            "item_count": 1
+          },
+          {
+            "name": "Safe and Sound",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
             "name": "Minecart Mischief",
             "access_rules": [],
             "visibility_rules": [],
@@ -3186,6 +3240,14 @@
           "enable_region_Lynchwood"
         ],
         "sections": [
+          {
+            "name": "The Bane",
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|24"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+            "item_count": 1
+          },
           {
             "name": "Breaking the Bank",
             "access_rules": [],
@@ -3652,6 +3714,30 @@
         ],
         "sections": [
           {
+            "name": "Toil and Trouble",
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|25",
+              "quest_completion_checks_story_only, $LevelLimit|25"],
+            "item_count": 1
+          },
+          {
+            "name": "Capture the Flags",
+            "access_rules": ["^$OnLevel|28"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|28",
+              "quest_completion_checks_sidequest_only, $LevelLimit|28"],
+            "item_count": 1
+          },
+          {
+            "name": "The Chosen One",
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
+            "item_count": 1
+          },
+          {
             "name": "The Lost Treasure",
             "access_rules": [],
             "visibility_rules": [],
@@ -3772,6 +3858,14 @@
             "visibility_rules": [
               "quest_completion_checks_all",
               "quest_completion_checks_story_only"],
+            "item_count": 1
+          },
+          {
+            "name": "This Just In",
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
@@ -4024,6 +4118,14 @@
         ],
         "sections": [
           {
+            "name": "The Talon of God",
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|30",
+              "quest_completion_checks_story_only, $LevelLimit|30"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - Warrior",
             "access_rules": [],
             "visibility_rules": [],
@@ -4088,6 +4190,14 @@
           "enable_region_TerramorphousPeak"
         ],
         "sections": [
+          {
+            "name": "You Will Die (Seriously)",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, remove_base_game_checks_keep, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, remove_raid_boss_checks_keep, $LevelLimit|50"],
+            "item_count": 1
+          },
           {
             "name": "Enemy - Terramorphous the Invincible",
             "access_rules": [],

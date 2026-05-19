@@ -1179,36 +1179,28 @@
             "ref": "BaseGame/Sanctuary/Hunting the Firehawk"
           },
           {
-            "name": "A Train to Catch",
-            "ref": "BaseGame/Sanctuary/A Train to Catch"
-          },
-          {
-            "name": "Rising Action",
-            "ref": "BaseGame/Sanctuary/Rising Action"
-          },
-          {
             "name": "This Just In",
-            "ref": "BaseGame/Sanctuary/This Just In"
+            "ref": "BaseGame/AridNexusBoneyard/This Just In"
           },
           {
             "name": "The Bane",
-            "ref": "BaseGame/Sanctuary/The Bane"
+            "ref": "BaseGame/Lynchwood/The Bane"
           },
           {
             "name": "The Good, the Bad, and the Mordecai",
-            "ref": "BaseGame/Sanctuary/The Good, the Bad, and the Mordecai"
+            "ref": "BaseGame/Dust/The Good, the Bad, and the Mordecai"
           },
           {
             "name": "Wildlife Preservation",
-            "ref": "BaseGame/Sanctuary/Wildlife Preservation"
+            "ref": "BaseGame/WildlifeExploitationPreserve/Wildlife Preservation"
           },
           {
             "name": "The Once and Future Slab",
-            "ref": "BaseGame/Sanctuary/The Once and Future Slab"
+            "ref": "BaseGame/ThousandCuts/The Once and Future Slab"
           },
           {
             "name": "The Man Who Would Be Jack",
-            "ref": "BaseGame/Sanctuary/The Man Who Would Be Jack"
+            "ref": "BaseGame/Opportunity/The Man Who Would Be Jack"
           },
           {
             "name": "Where Angels Fear to Tread",
@@ -1216,15 +1208,15 @@
           },
           {
             "name": "Toil and Trouble",
-            "ref": "BaseGame/Sanctuary/Toil and Trouble"
+            "ref": "BaseGame/SawtoothCauldron/Toil and Trouble"
           },
           {
             "name": "The Talon of God",
-            "ref": "BaseGame/Sanctuary/The Talon of God"
+            "ref": "BaseGame/VaultOfTheWarrior/The Talon of God"
           },
           {
             "name": "Assassinate the Assassins",
-            "ref": "BaseGame/Sanctuary/Assassinate the Assassins"
+            "ref": "BaseGame/SouthpawSteam&Power/Assassinate the Assassins"
           },
           {
             "name": "Bearer of Bad News",
@@ -1240,15 +1232,15 @@
           },
           {
             "name": "In Memoriam",
-            "ref": "BaseGame/Sanctuary/In Memoriam"
+            "ref": "BaseGame/ThreeHornsDivide/In Memoriam"
           },
           {
             "name": "Mighty Morphin",
-            "ref": "BaseGame/Sanctuary/Mighty Morphin"
+            "ref": "BaseGame/TundraExpress/Mighty Morphin"
           },
           {
             "name": "Mine, All Mine",
-            "ref": "BaseGame/Sanctuary/Mine, All Mine"
+            "ref": "BaseGame/TundraExpress/Mine, All Mine"
           },
           {
             "name": "The Name Game",
@@ -1256,7 +1248,7 @@
           },
           {
             "name": "Perfectly Peaceful",
-            "ref": "BaseGame/Sanctuary/Perfectly Peaceful"
+            "ref": "BaseGame/CausticCaverns/Perfectly Peaceful"
           },
           {
             "name": "Rock, Paper, Genocide - Slag Weapons!",
@@ -1280,47 +1272,47 @@
           },
           {
             "name": "Animal Rights",
-            "ref": "BaseGame/Sanctuary/Animal Rights"
+            "ref": "BaseGame/WildlifeExploitationPreserve/Animal Rights"
           },
           {
             "name": "Hell Hath No Fury",
-            "ref": "BaseGame/Sanctuary/Hell Hath No Fury"
+            "ref": "BaseGame/Opportunity/Hell Hath No Fury"
           },
           {
             "name": "Home Movies",
-            "ref": "BaseGame/Sanctuary/Home Movies"
+            "ref": "BaseGame/Opportunity/Home Movies"
           },
           {
             "name": "The Overlooked - Medicine Man",
-            "ref": "BaseGame/Sanctuary/The Overlooked - Medicine Man"
+            "ref": "BaseGame/Highlands/The Overlooked - Medicine Man"
           },
           {
             "name": "Poetic License",
-            "ref": "BaseGame/Sanctuary/Poetic License"
+            "ref": "BaseGame/ThousandCuts/Poetic License"
           },
           {
             "name": "Slap-Happy",
-            "ref": "BaseGame/Sanctuary/Slap-Happy"
+            "ref": "BaseGame/Highlands/Slap-Happy"
           },
           {
             "name": "Capture the Flags",
-            "ref": "BaseGame/Sanctuary/Capture the Flags"
+            "ref": "BaseGame/SawtoothCauldron/Capture the Flags"
           },
           {
             "name": "The Chosen One",
-            "ref": "BaseGame/Sanctuary/The Chosen One"
+            "ref": "BaseGame/SawtoothCauldron/The Chosen One"
           },
           {
             "name": "The Cold Shoulder",
-            "ref": "BaseGame/Sanctuary/The Cold Shoulder"
+            "ref": "BaseGame/Fridge/The Cold Shoulder"
           },
           {
             "name": "Medical Mystery",
-            "ref": "BaseGame/Sanctuary/Medical Mystery"
+            "ref": "BaseGame/ThreeHornsValley/Medical Mystery"
           },
           {
             "name": "Swallowed Whole",
-            "ref": "BaseGame/Sanctuary/Swallowed Whole"
+            "ref": "BaseGame/Fridge/Swallowed Whole"
           },
           {
             "name": "Rock, Paper, Genocide - Corrosive Weapons!",
@@ -1332,11 +1324,11 @@
           },
           {
             "name": "Safe and Sound",
-            "ref": "BaseGame/Sanctuary/Safe and Sound"
+            "ref": "BaseGame/CausticCaverns/Safe and Sound"
           },
           {
             "name": "Splinter Group",
-            "ref": "BaseGame/Sanctuary/Splinter Group"
+            "ref": "BaseGame/BloodshotStronghold/Splinter Group"
           },
           {
             "name": "Monster Mash (Part 1)",
@@ -1352,23 +1344,23 @@
           },
           {
             "name": "Torture Chairs",
-            "ref": "BaseGame/Sanctuary/Torture Chairs"
+            "ref": "BaseGame/Highlands/Torture Chairs"
           },
           {
             "name": "Doctors Orders",
-            "ref": "BaseGame/Sanctuary/Doctors Orders"
+            "ref": "BaseGame/WildlifeExploitationPreserve/Doctors Orders"
           },
           {
             "name": "Rakkaholics Anonymous",
-            "ref": "BaseGame/Sanctuary/Rakkaholics Anonymous"
+            "ref": "BaseGame/Dust/Rakkaholics Anonymous"
           },
           {
             "name": "Hidden Journals",
-            "ref": "BaseGame/Sanctuary/Hidden Journals"
+            "ref": "BaseGame/Highlands/Hidden Journals"
           },
           {
             "name": "You Will Die (Seriously)",
-            "ref": "BaseGame/Sanctuary/You Will Die (Seriously)"
+            "ref": "BaseGame/TerramorphousPeak/You Will Die (Seriously)"
           }
         ],
         "map_locations": [
@@ -1410,7 +1402,7 @@
           },
           {
             "name": "Cleaning up the Berg",
-            "ref": "BaseGame/WindshearWaste/Cleaning up the Berg"
+            "ref": "BaseGame/SouthernShelf/Cleaning up the Berg"
           }
         ],
         "map_locations": [
@@ -1500,7 +1492,7 @@
           },
           {
             "name": "The Road to Sanctuary",
-            "ref": "BaseGame/SouthernShelf/The Road to Sanctuary"
+            "ref": "BaseGame/Sanctuary/The Road to Sanctuary"
           },
           {
             "name": "Handsome Jack Here!",
@@ -1516,7 +1508,7 @@
           },
           {
             "name": "Symbiosis",
-            "ref": "BaseGame/SouthernShelf/Symbiosis"
+            "ref": "BaseGame/SouthernShelfBay/Symbiosis"
           },
           {
             "name": "Best Minion Ever",
@@ -1747,6 +1739,10 @@
           {
             "name": "Chest - After Firehawk",
             "ref": "BaseGame/FrostburnCanyon/Chest - After Firehawk"
+          },
+          {
+            "name": "Sanctuary - Hunting the Firehawk",
+            "ref": "BaseGame/FrostburnCanyon/Hunting the Firehawk"
           },
           {
             "name": "A Dam Fine Rescue",
@@ -2371,6 +2367,10 @@
           {
             "name": "Challenge - Master of All He Surveys",
             "ref": "BaseGame/EndOfTheLine/Challenge - Master of All He Surveys"
+          },
+          {
+            "name": "A Train to Catch",
+            "ref": "BaseGame/EndOfTheLine/A Train to Catch"
           }
         ],
         "map_locations": [
@@ -2497,6 +2497,10 @@
           {
             "name": "Chest - Smashheads Cave",
             "ref": "BaseGame/Fridge/Chest - Smashheads Cave"
+          },
+          {
+            "name": "Rising Action",
+            "ref": "BaseGame/Fridge/Rising Action"
           },
           {
             "name": "Note for Self-Person",
