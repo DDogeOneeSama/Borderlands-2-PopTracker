@@ -150,6 +150,15 @@ function JumpHeight(height)
   return (currentJump >= height)
 end
 
+function CanHitJump(height)
+  height = tonumber(height)
+  if JumpHeight(height) then
+    return AccessibilityLevel.Normal
+  else
+    return AccessibilityLevel.None
+  end
+end
+
 function OnLevel(level)
   if staleRegions then
     OpenRegions()
