@@ -150,7 +150,7 @@ function JumpHeight(height)
   return (currentJump >= height)
 end
 
-function CanHitJump(height)
+function CanMakeJump(height)
   height = tonumber(height)
   if JumpHeight(height) then
     return AccessibilityLevel.Normal
