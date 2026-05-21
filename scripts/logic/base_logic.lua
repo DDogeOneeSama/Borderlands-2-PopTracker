@@ -3,6 +3,10 @@ local next, ipairs = next, ipairs
 local staleRegions = true
 local staleLevels = true
 local staleProgressive = true
+local currentJumpHeight = 630
+local staleJump = true
+local maxLevel = 0
+local staleLevelLimit = true
 
 local accessibleRegions =
 {
@@ -15,6 +19,8 @@ function InvalidateAccessibleRegions()
   staleRegions = true
   staleLevels = true
   staleProgressive = true
+  staleJump = true
+  staleLevelLimit = true
   ResetProgressiveOrders()
   accessibleRegions =
   {
@@ -142,12 +148,15 @@ function JumpHeight(height)
   elseif(height > 630) then  -- Normal jump height, should never be needed
     return false
   end
-  local heightBonus = Tracker:FindObjectForCode("max_jump_height").CurrentStage * 300
-  local maxHeight = 630 + heightBonus
-  local frac = Tracker:ProviderCountForCode("progressivejump") / Tracker:FindObjectForCode("jump_checks").CurrentStage
-  frac = math.sqrt(frac)
-  local currentJump = math.max(220, math.min(maxHeight, maxHeight * frac))
-  return (currentJump >= height)
+  if staleJump then
+    local heightBonus = Tracker:FindObjectForCode("max_jump_height").CurrentStage * 300
+    local maxHeight = 630 + heightBonus
+    local frac = Tracker:ProviderCountForCode("progressivejump") / Tracker:FindObjectForCode("jump_checks").CurrentStage
+    frac = math.sqrt(frac)
+    currentJumpHeight = math.max(220, math.min(maxHeight, maxHeight * frac))
+    staleJump = false
+  end
+  return (currentJumpHeight >= height)
 end
 
 function CanMakeJump(height)
@@ -285,7 +294,11 @@ end
 
 function LevelLimit(level)
   local levelToCheck = tonumber(level)
-  if((levelToCheck > Tracker:FindObjectForCode("max_level_checks").AcquiredCount) and (Tracker:ProviderCountForCode("max_level_checks") ~= 0)) then -- false if over max check level
+  if staleLevelLimit == true then
+    maxLevel = Tracker:FindObjectForCode("max_level_checks").AcquiredCount
+    staleLevelLimit = false
+  end
+  if((levelToCheck > maxLevel) and (maxLevel ~= 0)) then -- false if over max check level
     return false
   else
     return true
