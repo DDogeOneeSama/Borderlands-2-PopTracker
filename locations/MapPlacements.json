@@ -1396,8 +1396,8 @@
             "ref": "BaseGame/SouthernShelf/Chest - Captain Flynts Chest"
           },
           {
-            "name": "SouthernShelf - Chest - Roaring Dragon Camp",
-            "ref": "BaseGame/SouthernShelf/Chest - Roaring Dragon Camp"
+            "name": "SouthernShelf - Chest - Soaring Dragon Camp",
+            "ref": "BaseGame/SouthernShelf/Chest - Soaring Dragon Camp"
           },
           {
             "name": "SouthernShelf - The Road to Sanctuary",
@@ -1652,7 +1652,7 @@
           },
           {
             "name": "FrostburnCanyon - A Dam Fine Rescue",
-            "ref": "BaseGame/FrostburnCanyon/A Dam Fine Rescue"
+            "ref": "BaseGame/BloodshotRamparts/A Dam Fine Rescue"
           },
           {
             "name": "FrostburnCanyon - Cult Following - Eternal Flame",
@@ -1729,7 +1729,7 @@
           },
           {
             "name": "ThreeHornsValley - Bright Lights, Flying City",
-            "ref": "BaseGame/ThreeHornsValley/Bright Lights, Flying City"
+            "ref": "BaseGame/Highlands/Bright Lights, Flying City"
           },
           {
             "name": "ThreeHornsValley - Neither Rain nor Sleet nor Skags",
@@ -1737,7 +1737,7 @@
           },
           {
             "name": "ThreeHornsValley - The Ice Man Cometh",
-            "ref": "BaseGame/ThreeHornsValley/The Ice Man Cometh"
+            "ref": "BaseGame/EndOfTheLine/The Ice Man Cometh"
           },
           {
             "name": "ThreeHornsValley - No Vacancy",
@@ -1915,7 +1915,7 @@
           },
           {
             "name": "Dust - Clan War - Wakey Wakey",
-            "ref": "BaseGame/Dust/Clan War - Wakey Wakey"
+            "ref": "BaseGame/HolySpirits/Clan War - Wakey Wakey"
           },
           {
             "name": "Dust - Clan War - Zafords vs Hodunks",
@@ -1943,7 +1943,7 @@
           },
           {
             "name": "Dust - Clan War - Reach the Dead Drop",
-            "ref": "BaseGame/Dust/Clan War - Reach the Dead Drop"
+            "ref": "BaseGame/HolySpirits/Clan War - Reach the Dead Drop"
           }
         ],
         "map_locations": [

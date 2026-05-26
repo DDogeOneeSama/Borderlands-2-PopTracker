@@ -147,7 +147,7 @@
           },
           {
             "name": "Symbol - Rooftop",
-            "access_rules": ["^$CanHitJump|611, ^$OnLevel|7"],
+            "access_rules": ["^$CanMakeJump|611, ^$OnLevel|7"],
             "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
             "item_count": 1
           },
@@ -171,7 +171,7 @@
           },
           {
             "name": "Symbol - Parkour Door",
-            "access_rules": ["^$CanHitJump|596, ^$OnLevel|7"],
+            "access_rules": ["^$CanMakeJump|596, ^$OnLevel|7"],
             "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
             "item_count": 1
           },
@@ -233,10 +233,10 @@
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": ["^$CanHitJump|630, ^$OnLevel|7"],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|7"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled, $LevelLimit|7",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled, $LevelLimit|7"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|7",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -296,8 +296,8 @@
             "name": "Challenge - Cult of the Vault",
             "access_rules": [],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled"],
             "item_count": 1
           },
           {
@@ -385,13 +385,13 @@
           },
           {
             "name": "Symbol - Flynts Ship",
-            "access_rules": ["^$CanHitJump|300, ^$OnLevel|3"],
+            "access_rules": ["^$CanMakeJump|300, ^$OnLevel|3"],
             "visibility_rules": ["vault_symbols_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Symbol - Safehouse",
-            "access_rules": ["^$CanHitJump|350, ^$OnLevel|3"],
+            "access_rules": ["^$CanMakeJump|350, ^$OnLevel|3"],
             "visibility_rules": ["vault_symbols_enabled, $LevelLimit|3"],
             "item_count": 1
           },
@@ -415,68 +415,68 @@
           },
           {
             "name": "Med Vendor - Safehouse",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - The Soaring Dragon",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - The Soaring Dragon",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Challenge - Make Boom Go Boom",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|3"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|3",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fireproof",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|3"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|3",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|350, ^$OnLevel|3"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|3",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Chest - Boom Bewm Elevator",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["crouch, ^$OnLevel|3"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Chest - Gateway Harbor Shipwreck",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Chest - Captain Flynts Chest",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|3"],
             "item_count": 1
           },
           {
-            "name": "Chest - Roaring Dragon Camp",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "name": "Chest - Soaring Dragon Camp",
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|3"],
             "item_count": 1
           }
         ]
@@ -500,20 +500,20 @@
           },
           {
             "name": "Enemy - Midgemong",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|5"],
+            "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Symbol - Blackburn Cove Corner",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|4"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Symbol - Ice Flows Shipwreck",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|474, ^$OnLevel|4"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|4"],
             "item_count": 1
           },
           {
@@ -548,46 +548,46 @@
           },
           {
             "name": "Challenge - I Can See Your Corpse from Here!",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|4"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|4",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Challenge - Vault Hunter on Wire",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|528, ^$OnLevel|4"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|4",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|474, ^$OnLevel|4"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|4",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Challenge - Midgemong Has No Friends",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|4"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|4",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Chest - Midgemongs Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|4"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Chest - Cove Ship",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|4"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|4"],
             "item_count": 1
           }
         ]
@@ -611,32 +611,32 @@
           },
           {
             "name": "Enemy - Savage Lee",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|5"],
+            "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Enemy - Boll",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Drydocks Corner",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Billboard",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|550, ^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Windbreak Wall",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -671,30 +671,30 @@
           },
           {
             "name": "Challenge - Mans Best Friends",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,remove_missable_checks_keep",
-              "bar_challenge_checks_enable_region_only,remove_missable_checks_keep"],
+              "bar_challenge_checks_enable_all, remove_missable_checks_keep, $LevelLimit|7",
+              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|550, ^$OnLevel|7"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|7",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Chest - Windbreak Car Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Chest - Drydocks Upstairs",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|7"],
             "item_count": 1
           }
         ]
@@ -717,65 +717,65 @@
             "item_count": 1
           },
           {
-            "name": "A Dam Fine Rescue",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
             "name": "Cult Following - Eternal Flame",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|10"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|10",
+              "quest_completion_checks_sidequest_only, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Cult Following - Lighting the Match",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|12"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|12",
+              "quest_completion_checks_sidequest_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Cult Following - The Enkindling",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$CanReachRegion|Sanctuary, ^$OnLevel|13"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Cult Following - False Idols",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|11"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|11",
+              "quest_completion_checks_sidequest_only, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Enemy - Scorch",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Enemy - Incinerator Clayton",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Spycho",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|28"],
+            "visibility_rules": ["$LevelLimit|28"],
             "item_count": 1
           },
           {
             "name": "Symbol - Blisterpus Cave",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|9"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Symbol - Ashmouth Pit",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|9"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
@@ -804,58 +804,58 @@
           },
           {
             "name": "Challenge - Totems of Fire",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|9"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|9",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Challenge - Praise Be to Scorch",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|9",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|9"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|9",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Challenge - Burning Sensation",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|385, ^$OnLevel|9"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|9",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Chest - Ashmouth Camp",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|9"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Chest - Above Spawn",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|9"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Chest - Spycho Area",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|9"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Chest - After Firehawk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|9"],
             "item_count": 1
           }
         ]
@@ -870,14 +870,6 @@
         ],
         "sections": [
           {
-            "name": "Bright Lights, Flying City",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
-            "item_count": 1
-          },
-          {
             "name": "Medical Mystery",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
             "visibility_rules": [
@@ -886,97 +878,97 @@
             "item_count": 1
           },
           {
-            "name": "Neither Rain nor Sleet nor Skags",
-            "access_rules": [],
-            "visibility_rules": [],
+            "name": "Medical Mystery - X-Com-municate",
+            "access_rules": ["license:e-techassaultrifle, ^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
             "item_count": 1
           },
           {
-            "name": "The Ice Man Cometh",
-            "access_rules": [],
-            "visibility_rules": [],
+            "name": "Neither Rain nor Sleet nor Skags",
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|9"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "No Vacancy",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Medical Mystery - X-Com-municate",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|9"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Enemy - Doc Mercy",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": ["$LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Bad Maw",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|Sanctuary, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|9"],
+            "visibility_rules": ["$LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Symbol - Slums Wall",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|Sanctuary, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|8"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Symbol - Frostsprings Wall",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|467, ^$OnLevel|8"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Symbol - Frostsprings Shack",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|8"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Happy Pig Motel",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|1"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Happy Pig Motel",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|1"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Happy Pig Motel",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|1"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - This Aint My First Rodeo",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|8"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|8",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|Sanctuary, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|8"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|8",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Chest - Split Skull Bay Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|8"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|8"],
             "item_count": 1
           }
         ]
@@ -1000,44 +992,44 @@
           },
           {
             "name": "Enemy - Assassin Oney",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": ["$LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Assassin Wot",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": ["$LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Assassin Reeth",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": ["$LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Assassin Rouf",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": ["$LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Symbol - Before Oney Parkour",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|8"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Symbol - Reeth Area Engine",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|566, ^$OnLevel|8"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Symbol - Entry Area Ladder",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|8"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -1054,30 +1046,30 @@
           },
           {
             "name": "Challenge - Boss Run",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|8",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|630, ^$OnLevel|8"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|8",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Chest - After Rouf",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Chest - After Oney",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|521, ^$OnLevel|8"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|8"],
             "item_count": 1
           }
         ]
@@ -1116,89 +1108,91 @@
             "item_count": 1
           },
           {
-            "name": "Clan War - Wakey Wakey",
-            "access_rules": [],
-            "visibility_rules": [],
+            "name": "Clan War - First Place",
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Clan War - Trailer Trashing",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Clan War - Reach the Dead Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Clan War - Zafords vs Hodunks",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Too Close For Missiles",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$CanMakeJump|384, ^$OnLevel|9"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Positive Self Image",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|10"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|10",
+              "quest_completion_checks_sidequest_only, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Enemy - Gettle",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mobley",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Enemy - Black Queen",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["$LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Enemy - McNally",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
+            "visibility_rules": ["$LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mick or Tector",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
+            "visibility_rules": ["$LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Symbol - Speedway Wall",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|9"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Symbol - Buzzard Pad",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|9"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Symbol - Moonshiner Lid",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|384, ^$OnLevel|9"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|9"],
             "item_count": 1
           },
           {
@@ -1209,7 +1203,7 @@
           },
           {
             "name": "Ammo Vendor - Ellies Garage",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary"],
             "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
@@ -1251,48 +1245,48 @@
           },
           {
             "name": "Challenge - Ive Got a Crush on You",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,remove_coop_checks_keep",
-              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep"],
+              "bar_challenge_checks_enable_all,remove_coop_checks_keep, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Van Is Damned",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - If Youre Not First, Youre Last",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Dust to Dust",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Gooses Roost Volleyball Net",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           }
         ]
@@ -1307,31 +1301,39 @@
         ],
         "sections": [
           {
-            "name": "Clan War - End of the Rainbow",
-            "access_rules": [],
+            "name": "Clan War - Reach the Dead Drop",
+            "access_rules": ["^$OnLevel|17"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
-            "name": "Clan War - First Place",
-            "access_rules": [],
+            "name": "Clan War - End of the Rainbow",
+            "access_rules": ["^$OnLevel|18"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
+            "item_count": 1
+          },
+          {
+            "name": "Clan War - Wakey Wakey",
+            "access_rules": ["^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Enemy - Bagman",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|18"],
+            "visibility_rules": ["$LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Symbol - Bathroom",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|18"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|18"],
             "item_count": 1
           },
           {
@@ -1354,16 +1356,16 @@
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|18"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|18",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Chest - The Stash",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|300, ^$OnLevel|18"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|18"],
             "item_count": 1
           }
         ]
@@ -1386,59 +1388,51 @@
             "item_count": 1
           },
           {
-            "name": "Out of Body Experience",
-            "access_rules": [],
-            "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
-            "item_count": 1
-          },
-          {
             "name": "Enemy - Mad Mike",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["$LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Enemy - Dan",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Lee",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mick",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Ralph",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Flinter",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$CanMakeJump|291, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Symbol - Pizza Intercom",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|12"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Symbol - Switch Room",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|549, ^$OnLevel|12"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
@@ -1455,60 +1449,60 @@
           },
           {
             "name": "Challenge - Eff Yo Couch",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|360, ^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cut Em No Slack",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|549, ^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Give It a Whirl",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bloodshot Memories",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Chest - Electric Gate",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Chest - Jail Cell",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|549, ^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Chest - Flinters Room",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$CanMakeJump|291, ^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           }
         ]
@@ -1523,15 +1517,31 @@
         ],
         "sections": [
           {
+            "name": "A Dam Fine Rescue",
+            "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|12"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|12",
+              "quest_completion_checks_story_only, $LevelLimit|12"],
+            "item_count": 1
+          },
+          {
+            "name": "Out of Body Experience",
+            "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - W4R-D3N",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Symbol - Ramp",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
@@ -1548,46 +1558,46 @@
           },
           {
             "name": "Challenge - The Last Place You Look",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Not-So-Phantom Tollbooth",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Marcus Sacrifice",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|12",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Chest - Car Junkyard Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|382, ^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Chest - W4R-D3N Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           }
         ]
@@ -1603,8 +1613,8 @@
         "sections": [
           {
             "name": "Symbol - Gulag Container",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
@@ -1621,30 +1631,30 @@
           },
           {
             "name": "Challenge - In the Middle of the Night",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|10"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|10",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|10"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|10",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Chest - Carson Cell",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Chest - Gulag Awning",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|433, ^$OnLevel|12"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
             "item_count": 1
           }
         ]
@@ -1668,7 +1678,7 @@
           },
           {
             "name": "Mine, All Mine",
-            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|14, ^$CanHitJump|550"],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|550, ^$OnLevel|14"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|14",
               "quest_completion_checks_sidequest_only, $LevelLimit|14"],
@@ -1676,72 +1686,72 @@
           },
           {
             "name": "You Are Cordially Invited - Party Prep",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "No Hard Feelings",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|14"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|14",
+              "quest_completion_checks_sidequest_only, $LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "The Pretty Good Train Robbery",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|629, ^$OnLevel|15"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "You Are Cordially Invited - Tea Party",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|14"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|14",
+              "quest_completion_checks_sidequest_only, $LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "You Are Cordially Invited - RSVP",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Madame Von Bartlesby",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Prospector Zeke",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|550, ^$OnLevel|14"],
+            "visibility_rules": ["$LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "Enemy - Vermivorous the Invincible",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": ["remove_raid_boss_checks_keep, $LevelLimit|50"],
             "item_count": 1
           },
           {
             "name": "Symbol - Fork Shack",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Symbol - Facility Roof",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
@@ -1758,7 +1768,7 @@
           },
           {
             "name": "Gun Vendor - Old Man Johnsons Farm",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|615"],
             "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
@@ -1770,60 +1780,60 @@
           },
           {
             "name": "Challenge - Bug Off",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Whats Yours Is Mine",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Positive Reinforcements",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - King of the Buzzard World",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|583, ^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Chest - Mount Molehill Mine Top",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|550, ^$OnLevel|13"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Chest - Varkid Ranch Observatory",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Chest - South Western",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|13"],
             "item_count": 1
           }
         ]
@@ -1846,15 +1856,23 @@
             "item_count": 1
           },
           {
+            "name": "The Ice Man Cometh",
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - Wilhelm",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Symbol - Wilhelm Wall",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
@@ -1871,18 +1889,18 @@
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Master of All He Surveys",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           }
         ]
@@ -1922,92 +1940,94 @@
           },
           {
             "name": "Note for Self-Person",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|560, ^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Laney White",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Rakkman",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - SmashHead",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Shorty",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Sinkhole",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Bloody (Laney Midget)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Crabby (Laney Midget)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Creepy (Laney Midget)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Dirty (Laney Midget)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Greedy (Laney Midget)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Sleazy (Laney Midget)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Tipsy (Laney Midget)",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Symbol - Secret Stash",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|335, ^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Symbol - Sheetmetal Roof",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|537, ^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -2036,74 +2056,74 @@
           },
           {
             "name": "Challenge - Stiff Competition",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Trapped Rat",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fairest of Them All",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Its Off to Hell We Go",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|537, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Rakk Knight",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Rakkmans Lair",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Stalker Hollow",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Three Switch Electric Gate",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Smashheads Cave",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           }
         ]
@@ -2119,38 +2139,48 @@
         "sections": [
           {
             "name": "Bandit Slaughter - Round 1",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Bandit Slaughter - Round 2",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Bandit Slaughter - Round 3",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Bandit Slaughter - Round 4",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Bandit Slaughter - Round 5",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|19",
+              "quest_completion_checks_sidequest_only, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Symbol - Column",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -2173,10 +2203,10 @@
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
             "item_count": 1
           }
         ]
@@ -2192,14 +2222,14 @@
         "sections": [
           {
             "name": "Enemy - Old Slappy",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Enemy - Gluttonous Thresher",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["$LevelLimit|19"],
             "item_count": 1
           },
           {
@@ -2216,8 +2246,8 @@
           },
           {
             "name": "Chest - Old Slappy Tower",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           }
         ]
@@ -2232,15 +2262,27 @@
         ],
         "sections": [
           {
+            "name": "Bright Lights, Flying City",
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_story_only, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
             "name": "Best Mothers Day Ever",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Arms Dealing",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanMakeJump|490, ^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
@@ -2253,14 +2295,18 @@
           },
           {
             "name": "The Overlooked - Shields Up",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|17"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "The Overlooked - This Is Only a Test",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|18"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
             "item_count": 1
           },
           {
@@ -2273,14 +2319,18 @@
           },
           {
             "name": "Stalker of Stalkers",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Hyperion Contract #873",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|Opportunity, ^$OnLevel|24"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
@@ -2301,14 +2351,14 @@
           },
           {
             "name": "Enemy - Henry",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Symbol - Highlands Tower",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
@@ -2337,32 +2387,32 @@
           },
           {
             "name": "Challenge - Winds of the Highlands",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|16"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|16",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Failure to Communicate",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|16"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|16",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|16"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|16",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Chest - Blake Bridge Fall",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|16"],
             "item_count": 1
           }
         ]
@@ -2402,32 +2452,32 @@
           },
           {
             "name": "Enemy - Tumbaa",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["$LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Enemy - Pimon",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["$LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Enemy - Son of Mothrakk",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["$LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Symbol - Dockyard Roof",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|297, ^$OnLevel|19"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Symbol - Broken Boulevard",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|327, ^$OnLevel|19"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
@@ -2444,84 +2494,84 @@
           },
           {
             "name": "Ammo Vendor - Halfway",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Halfway",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Mordys Secret Stashes",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|314, ^$OnLevel|19"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|19",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bear Minimum",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|327, ^$OnLevel|19"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|19",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ride Together, Die Together",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|327, ^$OnLevel|19"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|19",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|327, ^$OnLevel|19"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|19",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Sirens Song",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|327, ^$OnLevel|19"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - Observation Wing #1",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+              "bar_challenge_checks_enable_all, $LevelLimit|19",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Chest - Dockyard",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Chest - Loot Midget Room",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Observation Wing #1",
+            "access_rules": ["^$CanMakeJump|327, ^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Chest - Observation Wing #2",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Chest - Mordys Secret Stash",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|314, ^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           }
         ]
@@ -2537,38 +2587,48 @@
         "sections": [
           {
             "name": "Creature Slaughter - Round 1",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Creature Slaughter - Round 2",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Creature Slaughter - Round 3",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Creature Slaughter - Round 4",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Creature Slaughter - Round 5",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Symbol - Crate Ceiling",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
@@ -2585,10 +2645,10 @@
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           }
         ]
@@ -2612,14 +2672,18 @@
           },
           {
             "name": "Statuesque",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|22"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
             "item_count": 1
           },
           {
             "name": "Written by the Victor",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|22"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
             "item_count": 1
           },
           {
@@ -2632,7 +2696,7 @@
           },
           {
             "name": "Home Movies",
-            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanHitJump|390, ^$OnLevel|21"],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|21"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|21",
               "quest_completion_checks_sidequest_only, $LevelLimit|21"],
@@ -2640,26 +2704,26 @@
           },
           {
             "name": "Enemy - Foreman Jasper",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
+            "visibility_rules": ["$LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Enemy - Jacks Body Double",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
+            "visibility_rules": ["$LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Symbol - Construction Site",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["crouch, ^$CanMakeJump|460, ^$OnLevel|20"],
+            "visibility_rules": ["vault_symbols_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
             "name": "Symbol - Office Bridge",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|465, ^$OnLevel|20"],
+            "visibility_rules": ["vault_symbols_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
@@ -2682,114 +2746,114 @@
           },
           {
             "name": "Ammo Vendor - Hyperion Office Complex",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Hyperion Office Complex",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Opportunity Square",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Opportunity Square",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Residential Quarter",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Residential Quarter",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - Shame the Foreman",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|21",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Challenge - Top o the World",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,remove_coop_checks_keep",
-              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep"],
+              "bar_challenge_checks_enable_all,remove_coop_checks_keep, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - Down With Big, Handsome Brother",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|465, ^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - Opportunity Knocks",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Home Movies Crate",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Home Movies Upload Room",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Voice Modulator Room",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Orbital Delivery Zone",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Southern Construction Site",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Random Rooftop",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           }
         ]
@@ -2821,50 +2885,56 @@
           },
           {
             "name": "Defend Slab Tower",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|22"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
             "item_count": 1
           },
           {
             "name": "Shoot This Guy in the Face",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|1"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|1",
+              "quest_completion_checks_sidequest_only, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Rockos Modern Strife",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|22"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
             "item_count": 1
           },
           {
             "name": "Enemy - GOD-liath",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["$LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Enemy - Sarcastic Slab",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
+            "visibility_rules": ["$LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Enemy - Face McShooty",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|1"],
+            "visibility_rules": ["$LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Symbol - Buzzard Factory",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Symbol - No Mans Land Shack",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|500, ^$OnLevel|20"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
@@ -2881,58 +2951,58 @@
           },
           {
             "name": "Challenge - Slab UHF",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - A Grave Matter",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|500, ^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - Portrait of the Gunzerker as a Young Man",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|393, ^$OnLevel|20"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|20",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Slab UHF",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Buzzard Factory",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Control Core Loading Dock",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Super Badass Constructor",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
             "item_count": 1
           }
         ]
@@ -2948,14 +3018,14 @@
         "sections": [
           {
             "name": "Enemy - BNK-3R",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|24"],
+            "visibility_rules": ["$LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Symbol - Backside",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|575, ^$OnLevel|24"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|24"],
             "item_count": 1
           },
           {
@@ -2972,24 +3042,24 @@
           },
           {
             "name": "Challenge - BNK-3R Buster",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|575, ^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Chest - Back Room",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|24"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|24"],
             "item_count": 1
           }
         ]
@@ -3005,36 +3075,36 @@
         "sections": [
           {
             "name": "Chest - Marcus #1",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Marcus #2",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Marcus #3",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Where Angels Fear to Tread",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_story_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Where Angels Fear to Tread (Part 2)",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_story_only, $LevelLimit|24"],
             "item_count": 1
           }
         ]
@@ -3050,8 +3120,8 @@
         "sections": [
           {
             "name": "Symbol - Staircase Wall",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|13"],
             "item_count": 1
           },
           {
@@ -3068,32 +3138,32 @@
           },
           {
             "name": "Challenge - Down the Rabbit Hole",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Sugar Shack",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|440, ^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, $LevelLimit|13",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Chest - Generator Room",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|13"],
             "item_count": 1
           }
         ]
@@ -3125,32 +3195,34 @@
           },
           {
             "name": "Minecart Mischief",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Enemy - Blue",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Enemy - Badass Creeper",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanMakeJump|466, ^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Symbol - Gravestone Feature",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Symbol - Bloody Ladder",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
@@ -3167,66 +3239,66 @@
           },
           {
             "name": "Gun Vendor - Shortcut",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Harcheks Revenge",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|16"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|16",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ever Blow Bubbles",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|16"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|16",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Bet I Can Make It",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cant Feel A Thing",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|16"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|16",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Chest - Treasure Chest",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanReachRegion|SawtoothCauldron, ^$OnLevel|16"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Chest - Nether Hive",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Chest - Infested Warehouse",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|16"],
             "item_count": 1
           }
         ]
@@ -3250,80 +3322,100 @@
           },
           {
             "name": "Breaking the Bank",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|24"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "310 to Kaboom",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Showdown",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Animal Rescue - Shelter",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|25"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Animal Rescue - Medicine",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Demon Hunter",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Animal Rescue - Food",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
+            "item_count": 1
+          },
+          {
+            "name": "Animal Rescue - Shelter",
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|24"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+            "item_count": 1
+          },
+          {
+            "name": "Demon Hunter",
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|25"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Enemy - Dukinos Mom",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|25"],
+            "visibility_rules": ["$LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mad Dog",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Enemy - Sheriff Nisha",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|25"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Enemy - Deputy Winger",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Symbol - Gunslinger Roof",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|339, ^$OnLevel|24"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Symbol - Main Street",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|502, ^$OnLevel|24"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|24"],
             "item_count": 1
           },
           {
@@ -3340,80 +3432,80 @@
           },
           {
             "name": "Gun Vendor - Gunslingers Corner",
-            "access_rules": [],
-            "visibility_rules": ["vending_machines_enabled"],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Challenge - Duel of Death",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,remove_coop_checks_keep",
-              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep"],
+              "bar_challenge_checks_enable_all,remove_coop_checks_keep, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only,remove_coop_checks_keep, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Challenge - Thats Impossible, Even for a Computer",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Challenge - Look Ma, No Hands",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Challenge - Last Train to Nowhere",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|502, ^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Challenge - Do or Die",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|325, ^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Chest - MadDog Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Chest - Gunslinger Top Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Chest - Outskirts Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Chest - Gunslinger Lower Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|19"],
             "item_count": 1
           }
         ]
@@ -3429,68 +3521,80 @@
         "sections": [
           {
             "name": "Kill Yourself",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|27"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|27",
+              "quest_completion_checks_sidequest_only, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Customer Service",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "A Real Boy - Face Time",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "A Real Boy - Clothes Make the Man",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
-            "name": "To Grandmothers House We Go",
-            "access_rules": [],
-            "visibility_rules": [],
+            "name": "A Real Boy - Face Time",
+            "access_rules": ["^$OnLevel|27"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|27",
+              "quest_completion_checks_sidequest_only, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "A Real Boy - Human",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|28"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|28",
+              "quest_completion_checks_sidequest_only, $LevelLimit|28"],
+            "item_count": 1
+          },
+          {
+            "name": "To Grandmothers House We Go",
+            "access_rules": ["^$OnLevel|27"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|27",
+              "quest_completion_checks_sidequest_only, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Enemy - King Mong",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["$LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Enemy - Donkey Mong",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["$LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Symbol - Hellsfont Crate",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Symbol - Stairs Door",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Symbol - Refund Building",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
@@ -3537,96 +3641,96 @@
           },
           {
             "name": "Challenge - Can You Hear Me Now",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bring Out the Big Guns",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Tie Clip",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Twas Slag Killed the Beast",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Pipe Dreaming",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Save the Turrets",
-            "access_rules": [],
+            "access_rules": ["^$CanReachRegion|AridNexusBadlands, ^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,remove_missable_checks_keep",
-              "bar_challenge_checks_enable_region_only,remove_missable_checks_keep"],
+              "bar_challenge_checks_enable_all, remove_missable_checks_keep, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Vault Hunter vs The Volcano",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|400, ^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Volcano Free",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|400, ^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Pipe Dreaming",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Eastern Chest",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Mount Hellsfont Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Infested Grotto Trunk",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           }
         ]
@@ -3642,38 +3746,48 @@
         "sections": [
           {
             "name": "Hyperion Slaughter - Round 1",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Hyperion Slaughter - Round 2",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Hyperion Slaughter - Round 3",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|27"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|27",
+              "quest_completion_checks_sidequest_only, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Hyperion Slaughter - Round 4",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|28"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|28",
+              "quest_completion_checks_sidequest_only, $LevelLimit|28"],
             "item_count": 1
           },
           {
             "name": "Hyperion Slaughter - Round 5",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|29"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|29",
+              "quest_completion_checks_sidequest_only, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Symbol - Elevator",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
@@ -3696,10 +3810,10 @@
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           }
         ]
@@ -3739,32 +3853,36 @@
           },
           {
             "name": "The Lost Treasure",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|SanctuaryHole, ^$CanReachRegion|CausticCaverns, ^$OnLevel|26"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "The Great Escape",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|29"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|29",
+              "quest_completion_checks_sidequest_only, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mortar",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["$LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Symbol - Refinery Container",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Symbol - Elevator",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
@@ -3787,58 +3905,58 @@
           },
           {
             "name": "Challenge - Happy Camper",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Race to the Top",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Challenge - Haiku Hitman",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Smoking Guano Grotto Platform",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Avies Camp",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Cramfists Foundry",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Chest - Mortars Elevator",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|25"],
             "item_count": 1
           }
         ]
@@ -3854,10 +3972,10 @@
         "sections": [
           {
             "name": "Data Mining",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|28"],
             "visibility_rules": [
-              "quest_completion_checks_all",
-              "quest_completion_checks_story_only"],
+              "quest_completion_checks_all, $LevelLimit|28",
+              "quest_completion_checks_story_only, $LevelLimit|28"],
             "item_count": 1
           },
           {
@@ -3870,20 +3988,20 @@
           },
           {
             "name": "Enemy - Hunter Hellquist",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["$LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Symbol - Pipe",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Symbol - Turret South of Spawn",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|26"],
             "item_count": 1
           },
           {
@@ -3900,38 +4018,38 @@
           },
           {
             "name": "Challenge - Dead Air",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Challenge - Under Pressure",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Chest - Eridium Pump Station 2",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|563, ^$OnLevel|26"],
+            "visibility_rules": ["chest_checks_enabled, ^$OnLevel|26"],
             "item_count": 1
           },
           {
             "name": "Chest - Eridium Pump Station 3",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|26"],
+            "visibility_rules": ["chest_checks_enabled, ^$OnLevel|26"],
             "item_count": 1
           }
         ]
@@ -3947,32 +4065,38 @@
         "sections": [
           {
             "name": "Hungry Like the Skag",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|25"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Uncle Teddy",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Get to Know Jack",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanMakeJump|538, ^$OnLevel|27"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|27",
+              "quest_completion_checks_sidequest_only, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Enemy - Bone Head 20",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["$LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Enemy - Saturn",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["$LevelLimit|26"],
             "item_count": 1
           },
           {
@@ -3995,50 +4119,50 @@
           },
           {
             "name": "Challenge - Boned",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hey! Over Here!",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|550, ^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Beginning of the End",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|379, ^$OnLevel|26"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|26",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Chest - Zeds Old Home",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Chest - Hyperion Info Stockade",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Chest - Hey! Over Here!",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|550, ^$OnLevel|26"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Chest - Fyrestone Motel Roof",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|538, ^$OnLevel|26"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|26"],
             "item_count": 1
           }
         ]
@@ -4054,14 +4178,14 @@
         "sections": [
           {
             "name": "Symbol - Strut",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|629, ^$OnLevel|29"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Symbol - Spawn",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|29"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|29"],
             "item_count": 1
           },
           {
@@ -4078,32 +4202,32 @@
           },
           {
             "name": "Challenge - When Nature Calls",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|29"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|29",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Challenge - Environmental Protection",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|29"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, $LevelLimit|29",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|29"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|29",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Chest - Volcano Entrance",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$OnLevel|29"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|29"],
             "item_count": 1
           }
         ]
@@ -4127,14 +4251,14 @@
           },
           {
             "name": "Enemy - Warrior",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Symbol - Elevator Bottom",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$CanMakeJump|525, ^$OnLevel|30"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -4151,32 +4275,32 @@
           },
           {
             "name": "Challenge - The Warriors Way",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, ^$OnLevel|30",
+              "bar_challenge_checks_enable_region_only, ^$OnLevel|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|525, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, ^$OnLevel|30",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, ^$OnLevel|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Dying of the Light",
-            "access_rules": [],
+            "access_rules": ["^$CanMakeJump|495, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all",
-              "bar_challenge_checks_enable_region_only"],
+              "bar_challenge_checks_enable_all, ^$OnLevel|30",
+              "bar_challenge_checks_enable_region_only, ^$OnLevel|30"],
             "item_count": 1
           },
           {
             "name": "Chest - Lava River Cave",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled"],
+            "access_rules": ["^$CanMakeJump|495, ^$OnLevel|30"],
+            "visibility_rules": ["chest_checks_enabled, ^$OnLevel|30"],
             "item_count": 1
           }
         ]
@@ -4194,28 +4318,28 @@
             "name": "You Will Die (Seriously)",
             "access_rules": ["^$OnLevel|50"],
             "visibility_rules": [
-              "quest_completion_checks_all, remove_base_game_checks_keep, $LevelLimit|50",
+              "quest_completion_checks_all, remove_raid_boss_checks_keep, $LevelLimit|50",
               "quest_completion_checks_sidequest_only, remove_raid_boss_checks_keep, $LevelLimit|50"],
             "item_count": 1
           },
           {
             "name": "Enemy - Terramorphous the Invincible",
-            "access_rules": [],
-            "visibility_rules": ["remove_raid_boss_checks_keep"],
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": ["remove_raid_boss_checks_keep, $LevelLimit|50"],
             "item_count": 1
           },
           {
             "name": "Symbol - Dropdown",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
-              "vault_symbols_enabled,remove_coop_checks_keep",
-              "vault_symbols_enabled,remove_coop_checks_remove_impossible"],
+              "vault_symbols_enabled, remove_coop_checks_keep, $LevelLimit|30",
+              "vault_symbols_enabled, remove_coop_checks_remove_impossible, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Symbol - Elevator",
-            "access_rules": [],
-            "visibility_rules": ["vault_symbols_enabled"],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -4238,32 +4362,32 @@
           },
           {
             "name": "Challenge - Terramorphous the Not-So-Invincible",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|50"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,remove_raid_boss_checks_keep",
-              "bar_challenge_checks_enable_region_only,remove_raid_boss_checks_keep"],
+              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, $LevelLimit|50",
+              "bar_challenge_checks_enable_region_only, remove_raid_boss_checks_keep, $LevelLimit|50"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": [],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all,vault_symbols_enabled,remove_coop_checks_keep",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled,remove_coop_checks_keep",
-              "bar_challenge_checks_enable_all,vault_symbols_enabled,remove_coop_checks_remove_impossible",
-              "bar_challenge_checks_enable_region_only,vault_symbols_enabled,remove_coop_checks_remove_impossible"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, remove_coop_checks_keep, $LevelLimit|30",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, remove_coop_checks_keep, $LevelLimit|30",
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, remove_coop_checks_remove_impossible, $LevelLimit|30",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, remove_coop_checks_remove_impossible, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - Terramorphous #1",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled,remove_raid_boss_checks_keep"],
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": ["chest_checks_enabled, remove_raid_boss_checks_keep, $LevelLimit|50"],
             "item_count": 1
           },
           {
             "name": "Chest - Terramorphous #2",
-            "access_rules": [],
-            "visibility_rules": ["chest_checks_enabled,remove_raid_boss_checks_keep"],
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": ["chest_checks_enabled, remove_raid_boss_checks_keep, $LevelLimit|50"],
             "item_count": 1
           }
         ]

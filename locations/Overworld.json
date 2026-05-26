@@ -1487,8 +1487,8 @@
             "ref": "BaseGame/SouthernShelf/Chest - Captain Flynts Chest"
           },
           {
-            "name": "Chest - Roaring Dragon Camp",
-            "ref": "BaseGame/SouthernShelf/Chest - Roaring Dragon Camp"
+            "name": "Chest - Soaring Dragon Camp",
+            "ref": "BaseGame/SouthernShelf/Chest - Soaring Dragon Camp"
           },
           {
             "name": "The Road to Sanctuary",
@@ -1746,7 +1746,7 @@
           },
           {
             "name": "A Dam Fine Rescue",
-            "ref": "BaseGame/FrostburnCanyon/A Dam Fine Rescue"
+            "ref": "BaseGame/BloodshotRamparts/A Dam Fine Rescue"
           },
           {
             "name": "Cult Following - Eternal Flame",
@@ -1824,7 +1824,7 @@
           },
           {
             "name": "Bright Lights, Flying City",
-            "ref": "BaseGame/ThreeHornsValley/Bright Lights, Flying City"
+            "ref": "BaseGame/Highlands/Bright Lights, Flying City"
           },
           {
             "name": "Neither Rain nor Sleet nor Skags",
@@ -1832,7 +1832,7 @@
           },
           {
             "name": "The Ice Man Cometh",
-            "ref": "BaseGame/ThreeHornsValley/The Ice Man Cometh"
+            "ref": "BaseGame/EndOfTheLine/The Ice Man Cometh"
           },
           {
             "name": "No Vacancy",
@@ -2012,7 +2012,7 @@
           },
           {
             "name": "Clan War - Wakey Wakey",
-            "ref": "BaseGame/Dust/Clan War - Wakey Wakey"
+            "ref": "BaseGame/HolySpirits/Clan War - Wakey Wakey"
           },
           {
             "name": "Clan War - Zafords vs Hodunks",
@@ -2040,7 +2040,7 @@
           },
           {
             "name": "Clan War - Reach the Dead Drop",
-            "ref": "BaseGame/Dust/Clan War - Reach the Dead Drop"
+            "ref": "BaseGame/HolySpirits/Clan War - Reach the Dead Drop"
           }
         ],
         "map_locations": [
@@ -2130,7 +2130,7 @@
           },
           {
             "name": "Out of Body Experience",
-            "ref": "BaseGame/BloodshotStronghold/Out of Body Experience"
+            "ref": "BaseGame/BloodshotRamparts/Out of Body Experience"
           }
         ],
         "map_locations": [
