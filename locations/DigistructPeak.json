@@ -20,25 +20,27 @@
           {
             "name": "Dr T and the Vault Hunters",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": [
+              "quest_completion_checks_all",
+              "quest_completion_checks_sidequest_only"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Entrance",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           }
         ]
@@ -54,152 +56,96 @@
         "sections": [
           {
             "name": "A History of Simulated Violence",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+              "quest_completion_checks_all, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "More History of Simulated Violence",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+              "quest_completion_checks_all, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Butcher Base",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Arena of Anguish",
-            "access_rules": [
-              "^$OnLevel|80"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|80"
-            ],
+            "access_rules": ["^$OnLevel|80"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|80"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Arena of Anguish",
-            "access_rules": [
-              "^$OnLevel|80"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|80"
-            ],
+            "access_rules": ["^$OnLevel|80"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|80"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Tower of Torment",
-            "access_rules": [
-              "^$OnLevel|80"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|80"
-            ],
+            "access_rules": ["^$OnLevel|80"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|80"],
             "item_count": 1
           },
           {
             "name": "Chest - #1",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - #2",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - #3",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - #4",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - #5",
-            "access_rules": [
-              "^$OnLevel|30"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|30"
-            ],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - #6",
-            "access_rules": [
-              "^$OnLevel|80"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|80"
-            ],
+            "access_rules": ["^$OnLevel|80"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|80"],
             "item_count": 1
           },
           {
             "name": "Chest - #7",
-            "access_rules": [
-              "^$OnLevel|80"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|80"
-            ],
+            "access_rules": ["^$OnLevel|80"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|80"],
             "item_count": 1
           },
           {
             "name": "Chest - #8",
-            "access_rules": [
-              "^$OnLevel|80"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|80"
-            ],
+            "access_rules": ["^$OnLevel|80"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|80"],
             "item_count": 1
           },
           {
             "name": "Chest - #9",
-            "access_rules": [
-              "^$OnLevel|80"
-            ],
-            "visibility_rules": [
-              "$LevelLimit|80"
-            ],
+            "access_rules": ["^$OnLevel|80"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|80"],
             "item_count": 1
           }
         ]
