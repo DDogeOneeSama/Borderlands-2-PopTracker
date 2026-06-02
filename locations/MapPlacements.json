@@ -7456,6 +7456,14 @@
         "name": "HallowedHallow",
         "sections": [
           {
+            "name": "HallowedHallow - The Bloody Harvest",
+            "ref": "Headhunters/HallowedHallow/The Bloody Harvest"
+          },
+          {
+            "name": "HallowedHallow - Trick or Treat",
+            "ref": "Headhunters/HallowedHallow/Trick or Treat"
+          },
+          {
             "name": "HallowedHallow - Enemy - Sully the Blacksmith",
             "ref": "Headhunters/HallowedHallow/Enemy - Sully the Blacksmith"
           },
@@ -7480,12 +7488,12 @@
             "ref": "Headhunters/HallowedHallow/Med Vendor - Entrance"
           },
           {
-            "name": "HallowedHallow - Med Vendor - Necropolis",
-            "ref": "Headhunters/HallowedHallow/Med Vendor - Necropolis"
+            "name": "HallowedHallow - Med Vendor - Kingpin Approach",
+            "ref": "Headhunters/HallowedHallow/Med Vendor - Kingpin Approach"
           },
           {
-            "name": "HallowedHallow - Ammo Vendor - Necropolis",
-            "ref": "Headhunters/HallowedHallow/Ammo Vendor - Necropolis"
+            "name": "HallowedHallow - Ammo Vendor - Kingpin Approach",
+            "ref": "Headhunters/HallowedHallow/Ammo Vendor - Kingpin Approach"
           },
           {
             "name": "HallowedHallow - Chest - Blood Altar",
@@ -7502,14 +7510,6 @@
           {
             "name": "HallowedHallow - Chest - Church of the Dead",
             "ref": "Headhunters/HallowedHallow/Chest - Church of the Dead"
-          },
-          {
-            "name": "HallowedHallow - The Bloody Harvest",
-            "ref": "Headhunters/HallowedHallow/The Bloody Harvest"
-          },
-          {
-            "name": "HallowedHallow - Trick or Treat",
-            "ref": "Headhunters/HallowedHallow/Trick or Treat"
           }
         ],
         "map_locations": [
@@ -7524,6 +7524,18 @@
       {
         "name": "GluttonyGulch",
         "sections": [
+          {
+            "name": "GluttonyGulch - The Hunger Pangs",
+            "ref": "Headhunters/GluttonyGulch/The Hunger Pangs"
+          },
+          {
+            "name": "GluttonyGulch - Grandma Flexingtons Story",
+            "ref": "Headhunters/GluttonyGulch/Grandma Flexingtons Story"
+          },
+          {
+            "name": "GluttonyGulch - Grandma Flexingtons Story - Raid Difficulty",
+            "ref": "Headhunters/GluttonyGulch/Grandma Flexingtons Story - Raid Difficulty"
+          },
           {
             "name": "GluttonyGulch - Enemy - Chef Gouda Remsay",
             "ref": "Headhunters/GluttonyGulch/Enemy - Chef Gouda Remsay"
@@ -7633,36 +7645,24 @@
             "ref": "Headhunters/GluttonyGulch/Ammo Vendor - Tribute Station"
           },
           {
-            "name": "GluttonyGulch - Chest - Wattle Gobbler Chest #3",
-            "ref": "Headhunters/GluttonyGulch/Chest - Wattle Gobbler Chest #3"
-          },
-          {
             "name": "GluttonyGulch - Chest - Wattle Gobbler Chest #1",
             "ref": "Headhunters/GluttonyGulch/Chest - Wattle Gobbler Chest #1"
-          },
-          {
-            "name": "GluttonyGulch - Chest - Freezeburn Fridge",
-            "ref": "Headhunters/GluttonyGulch/Chest - Freezeburn Fridge"
           },
           {
             "name": "GluttonyGulch - Chest - Wattle Gobbler Chest #2",
             "ref": "Headhunters/GluttonyGulch/Chest - Wattle Gobbler Chest #2"
           },
           {
+            "name": "GluttonyGulch - Chest - Wattle Gobbler Chest #3",
+            "ref": "Headhunters/GluttonyGulch/Chest - Wattle Gobbler Chest #3"
+          },
+          {
+            "name": "GluttonyGulch - Chest - Freezeburn Fridge",
+            "ref": "Headhunters/GluttonyGulch/Chest - Freezeburn Fridge"
+          },
+          {
             "name": "GluttonyGulch - Chest - Stabber Jabber Nest",
             "ref": "Headhunters/GluttonyGulch/Chest - Stabber Jabber Nest"
-          },
-          {
-            "name": "GluttonyGulch - The Hunger Pangs",
-            "ref": "Headhunters/GluttonyGulch/The Hunger Pangs"
-          },
-          {
-            "name": "GluttonyGulch - Grandma Flexingtons Story",
-            "ref": "Headhunters/GluttonyGulch/Grandma Flexingtons Story"
-          },
-          {
-            "name": "GluttonyGulch - Grandma Flexingtons Story - Raid Difficulty",
-            "ref": "Headhunters/GluttonyGulch/Grandma Flexingtons Story - Raid Difficulty"
           }
         ],
         "map_locations": [
@@ -7677,6 +7677,14 @@
       {
         "name": "MarcusMercenaryShop",
         "sections": [
+          {
+            "name": "MarcusMercenaryShop - Get Frosty",
+            "ref": "Headhunters/MarcusMercenaryShop/Get Frosty"
+          },
+          {
+            "name": "MarcusMercenaryShop - Special Delivery",
+            "ref": "Headhunters/MarcusMercenaryShop/Special Delivery"
+          },
           {
             "name": "MarcusMercenaryShop - Enemy - Tinder Snowflake",
             "ref": "Headhunters/MarcusMercenaryShop/Enemy - Tinder Snowflake"
@@ -7712,14 +7720,6 @@
           {
             "name": "MarcusMercenaryShop - Chest - Station Rooftop",
             "ref": "Headhunters/MarcusMercenaryShop/Chest - Station Rooftop"
-          },
-          {
-            "name": "MarcusMercenaryShop - Get Frosty",
-            "ref": "Headhunters/MarcusMercenaryShop/Get Frosty"
-          },
-          {
-            "name": "MarcusMercenaryShop - Special Delivery",
-            "ref": "Headhunters/MarcusMercenaryShop/Special Delivery"
           }
         ],
         "map_locations": [
@@ -7734,6 +7734,14 @@
       {
         "name": "RotgutDistillery",
         "sections": [
+          {
+            "name": "RotgutDistillery - A Match Made on Pandora",
+            "ref": "Headhunters/RotgutDistillery/A Match Made on Pandora"
+          },
+          {
+            "name": "RotgutDistillery - Learning to Love",
+            "ref": "Headhunters/RotgutDistillery/Learning to Love"
+          },
           {
             "name": "RotgutDistillery - Enemy - Colin Zaford",
             "ref": "Headhunters/RotgutDistillery/Enemy - Colin Zaford"
@@ -7817,14 +7825,6 @@
           {
             "name": "RotgutDistillery - Chest - RotgutDistillery Motel Car",
             "ref": "Headhunters/RotgutDistillery/Chest - RotgutDistillery Motel Car"
-          },
-          {
-            "name": "RotgutDistillery - A Match Made on Pandora",
-            "ref": "Headhunters/RotgutDistillery/A Match Made on Pandora"
-          },
-          {
-            "name": "RotgutDistillery - Learning to Love",
-            "ref": "Headhunters/RotgutDistillery/Learning to Love"
           }
         ],
         "map_locations": [
@@ -7839,6 +7839,14 @@
       {
         "name": "WamBamIsland",
         "sections": [
+          {
+            "name": "WamBamIsland - Fun, Sun, and Guns",
+            "ref": "Headhunters/WamBamIsland/Fun, Sun, and Guns"
+          },
+          {
+            "name": "WamBamIsland - Victims of Vault Hunters",
+            "ref": "Headhunters/WamBamIsland/Victims of Vault Hunters"
+          },
           {
             "name": "WamBamIsland - Enemy - Son of Crawmerax",
             "ref": "Headhunters/WamBamIsland/Enemy - Son of Crawmerax"
@@ -7876,6 +7884,14 @@
             "ref": "Headhunters/WamBamIsland/Med Vendor - Crawmerax Arena"
           },
           {
+            "name": "WamBamIsland - Chest - Treasure Varkid 1",
+            "ref": "Headhunters/WamBamIsland/Chest - Treasure Varkid 1"
+          },
+          {
+            "name": "WamBamIsland - Chest - Treasure Varkid 2",
+            "ref": "Headhunters/WamBamIsland/Chest - Treasure Varkid 2"
+          },
+          {
             "name": "WamBamIsland - Chest - Treasure Varkid 3",
             "ref": "Headhunters/WamBamIsland/Chest - Treasure Varkid 3"
           },
@@ -7884,12 +7900,20 @@
             "ref": "Headhunters/WamBamIsland/Chest - Water Wheel Lodge"
           },
           {
-            "name": "WamBamIsland - Chest - Treasure Varkid 1",
-            "ref": "Headhunters/WamBamIsland/Chest - Treasure Varkid 1"
+            "name": "WamBamIsland - Chest - Near Entrance Cliff",
+            "ref": "Headhunters/WamBamIsland/Chest - Near Entrance Cliff"
           },
           {
-            "name": "WamBamIsland - Chest - Treasure Varkid 2",
-            "ref": "Headhunters/WamBamIsland/Chest - Treasure Varkid 2"
+            "name": "WamBamIsland - Chest - Raid Reward #1",
+            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #1"
+          },
+          {
+            "name": "WamBamIsland - Chest - Raid Reward #2",
+            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #2"
+          },
+          {
+            "name": "WamBamIsland - Chest - Raid Reward #3",
+            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #3"
           },
           {
             "name": "WamBamIsland - Chest - Raid Reward #4",
@@ -7900,28 +7924,16 @@
             "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #5"
           },
           {
-            "name": "WamBamIsland - Chest - Raid Reward #3",
-            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #3"
+            "name": "WamBamIsland - Chest - Raid Reward #6",
+            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #6"
           },
           {
             "name": "WamBamIsland - Chest - Raid Reward #7",
             "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #7"
           },
           {
-            "name": "WamBamIsland - Chest - Raid Reward #6",
-            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #6"
-          },
-          {
-            "name": "WamBamIsland - Chest - Raid Reward #2",
-            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #2"
-          },
-          {
             "name": "WamBamIsland - Chest - Son of Crawmerax Exit 1",
             "ref": "Headhunters/WamBamIsland/Chest - Son of Crawmerax Exit 1"
-          },
-          {
-            "name": "WamBamIsland - Chest - Raid Reward #1",
-            "ref": "Headhunters/WamBamIsland/Chest - Raid Reward #1"
           },
           {
             "name": "WamBamIsland - Chest - Son of Crawmerax Exit 2",
@@ -7930,18 +7942,6 @@
           {
             "name": "WamBamIsland - Chest - Son of Crawmerax Exit 3",
             "ref": "Headhunters/WamBamIsland/Chest - Son of Crawmerax Exit 3"
-          },
-          {
-            "name": "WamBamIsland - Chest - Near Entrance Cliff",
-            "ref": "Headhunters/WamBamIsland/Chest - Near Entrance Cliff"
-          },
-          {
-            "name": "WamBamIsland - Fun, Sun, and Guns",
-            "ref": "Headhunters/WamBamIsland/Fun, Sun, and Guns"
-          },
-          {
-            "name": "WamBamIsland - Victims of Vault Hunters",
-            "ref": "Headhunters/WamBamIsland/Victims of Vault Hunters"
           }
         ],
         "map_locations": [
