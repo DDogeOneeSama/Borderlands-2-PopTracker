@@ -13,6 +13,7 @@ require("scripts/layouts")
 require("scripts/locations_import")
 
 -- Logic
+ScriptHost:LoadScript("scripts/logic/logic_helper.lua")
 ScriptHost:LoadScript("scripts/logic/base_logic.lua")
 ScriptHost:LoadScript("scripts/logic/logic_tables.lua")
 
