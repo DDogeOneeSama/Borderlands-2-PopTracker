@@ -3810,35 +3810,23 @@
           },
           {
             "name": "DigistructPeak - Ammo Vendor - Butcher Base",
-            "ref": "DigistructPeak/DigistructPeak/Ammo Vendor - Butcher Base"
+            "ref": "DigistructPeak/DigistructPeakInner/Ammo Vendor - Butcher Base"
           },
           {
             "name": "DigistructPeak - A History of Simulated Violence",
-            "ref": "DigistructPeak/DigistructPeak/A History of Simulated Violence"
+            "ref": "DigistructPeak/DigistructPeakInner/A History of Simulated Violence"
           },
           {
             "name": "DigistructPeak - More History of Simulated Violence",
-            "ref": "DigistructPeak/DigistructPeak/More History of Simulated Violence"
+            "ref": "DigistructPeak/DigistructPeakInner/More History of Simulated Violence"
           },
           {
             "name": "DigistructPeak - Dr T and the Vault Hunters",
             "ref": "DigistructPeak/DigistructPeak/Dr T and the Vault Hunters"
           },
           {
-            "name": "DigistructPeakInner - Chest - #7",
-            "ref": "DigistructPeak/DigistructPeakInner/Chest - #7"
-          },
-          {
-            "name": "DigistructPeakInner - Chest - #6",
-            "ref": "DigistructPeak/DigistructPeakInner/Chest - #6"
-          },
-          {
-            "name": "DigistructPeakInner - Chest - #8",
-            "ref": "DigistructPeak/DigistructPeakInner/Chest - #8"
-          },
-          {
-            "name": "DigistructPeakInner - Chest - #5",
-            "ref": "DigistructPeak/DigistructPeakInner/Chest - #5"
+            "name": "DigistructPeakInner - Chest - #1",
+            "ref": "DigistructPeak/DigistructPeakInner/Chest - #1"
           },
           {
             "name": "DigistructPeakInner - Chest - #2",
@@ -3849,12 +3837,24 @@
             "ref": "DigistructPeak/DigistructPeakInner/Chest - #3"
           },
           {
-            "name": "DigistructPeakInner - Chest - #1",
-            "ref": "DigistructPeak/DigistructPeakInner/Chest - #1"
-          },
-          {
             "name": "DigistructPeakInner - Chest - #4",
             "ref": "DigistructPeak/DigistructPeakInner/Chest - #4"
+          },
+          {
+            "name": "DigistructPeakInner - Chest - #5",
+            "ref": "DigistructPeak/DigistructPeakInner/Chest - #5"
+          },
+          {
+            "name": "DigistructPeakInner - Chest - #6",
+            "ref": "DigistructPeak/DigistructPeakInner/Chest - #6"
+          },
+          {
+            "name": "DigistructPeakInner - Chest - #7",
+            "ref": "DigistructPeak/DigistructPeakInner/Chest - #7"
+          },
+          {
+            "name": "DigistructPeakInner - Chest - #8",
+            "ref": "DigistructPeak/DigistructPeakInner/Chest - #8"
           },
           {
             "name": "DigistructPeakInner - Chest - #9",
