@@ -1200,10 +1200,10 @@
           },
           {
             "name": "Challenge - Master Worm Food",
-            "access_rules": ["^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|50"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_HaytersFolly, $LevelLimit|15",
-              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_HaytersFolly, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_HaytersFolly, $LevelLimit|50",
+              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_HaytersFolly, $LevelLimit|50"],
             "item_count": 1
           }
         ]
