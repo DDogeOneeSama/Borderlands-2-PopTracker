@@ -5323,10 +5323,6 @@
             "ref": "HammerlockDLC/HuntersGrotto/Enemy - Dexiduous the Invincible"
           },
           {
-            "name": "HuntersGrotto - Enemy - Omnd-Omnd-Ohk",
-            "ref": "HammerlockDLC/HuntersGrotto/Enemy - Omnd-Omnd-Ohk"
-          },
-          {
             "name": "HuntersGrotto - Symbol - Arizonas Lair",
             "ref": "HammerlockDLC/HuntersGrotto/Symbol - Arizonas Lair"
           },
@@ -5400,11 +5396,11 @@
           },
           {
             "name": "HuntersGrotto - The Fall of Nakayama",
-            "ref": "HammerlockDLC/HuntersGrotto/The Fall of Nakayama"
+            "ref": "HammerlockDLC/Terminus/The Fall of Nakayama"
           },
           {
             "name": "HuntersGrotto - Big Feet",
-            "ref": "HammerlockDLC/HuntersGrotto/Big Feet"
+            "ref": "HammerlockDLC/CandlerakksCrag/Big Feet"
           },
           {
             "name": "HuntersGrotto - Still Just a Borok in a Cage",
@@ -5416,7 +5412,7 @@
           },
           {
             "name": "HuntersGrotto - Now You See It",
-            "ref": "HammerlockDLC/HuntersGrotto/Now You See It"
+            "ref": "HammerlockDLC/CandlerakksCrag/Now You See It"
           },
           {
             "name": "HuntersGrotto - Palling Around",
@@ -5428,7 +5424,7 @@
           },
           {
             "name": "HuntersGrotto - Voracidous the Invincible",
-            "ref": "HammerlockDLC/HuntersGrotto/Voracidous the Invincible"
+            "ref": "HammerlockDLC/CandlerakksCrag/Voracidous the Invincible"
           }
         ],
         "map_locations": [
@@ -5450,6 +5446,10 @@
           {
             "name": "ScyllasGrove - Enemy - Rakkanoth",
             "ref": "HammerlockDLC/ScyllasGrove/Enemy - Rakkanoth"
+          },
+          {
+            "name": "HuntersGrotto - Enemy - Omnd-Omnd-Ohk",
+            "ref": "HammerlockDLC/ScyllasGrove/Enemy - Omnd-Omnd-Ohk"
           },
           {
             "name": "ScyllasGrove - Symbol - Low Gut Rut Wall",
@@ -5501,15 +5501,15 @@
           },
           {
             "name": "ScyllasGrove - A-Hunting We Will Go",
-            "ref": "HammerlockDLC/ScyllasGrove/A-Hunting We Will Go"
+            "ref": "HammerlockDLC/HuntersGrotto/A-Hunting We Will Go"
           },
           {
             "name": "ScyllasGrove - The Rakk Dahlia Murder",
-            "ref": "HammerlockDLC/ScyllasGrove/The Rakk Dahlia Murder"
+            "ref": "HammerlockDLC/ArdortonStation/The Rakk Dahlia Murder"
           },
           {
             "name": "ScyllasGrove - Follow The Glow",
-            "ref": "HammerlockDLC/ScyllasGrove/Follow The Glow"
+            "ref": "HammerlockDLC/ArdortonStation/Follow The Glow"
           },
           {
             "name": "ScyllasGrove - Nakayama-rama",
@@ -5747,36 +5747,24 @@
             "ref": "HammerlockDLC/Terminus/Challenge - Cult of the Vault"
           },
           {
-            "name": "Terminus - Chest - #5",
-            "ref": "HammerlockDLC/Terminus/Chest - #5"
-          },
-          {
-            "name": "Terminus - Chest - #10",
-            "ref": "HammerlockDLC/Terminus/Chest - #10"
+            "name": "Terminus - Chest - #1",
+            "ref": "HammerlockDLC/Terminus/Chest - #1"
           },
           {
             "name": "Terminus - Chest - #2",
             "ref": "HammerlockDLC/Terminus/Chest - #2"
           },
           {
+            "name": "Terminus - Chest - #3",
+            "ref": "HammerlockDLC/Terminus/Chest - #3"
+          },
+          {
             "name": "Terminus - Chest - #4",
             "ref": "HammerlockDLC/Terminus/Chest - #4"
           },
           {
-            "name": "Terminus - Chest - #12",
-            "ref": "HammerlockDLC/Terminus/Chest - #12"
-          },
-          {
-            "name": "Terminus - Chest - #8",
-            "ref": "HammerlockDLC/Terminus/Chest - #8"
-          },
-          {
-            "name": "Terminus - Chest - #1",
-            "ref": "HammerlockDLC/Terminus/Chest - #1"
-          },
-          {
-            "name": "Terminus - Chest - #3",
-            "ref": "HammerlockDLC/Terminus/Chest - #3"
+            "name": "Terminus - Chest - #5",
+            "ref": "HammerlockDLC/Terminus/Chest - #5"
           },
           {
             "name": "Terminus - Chest - #6",
@@ -5787,12 +5775,24 @@
             "ref": "HammerlockDLC/Terminus/Chest - #7"
           },
           {
+            "name": "Terminus - Chest - #8",
+            "ref": "HammerlockDLC/Terminus/Chest - #8"
+          },
+          {
             "name": "Terminus - Chest - #9",
             "ref": "HammerlockDLC/Terminus/Chest - #9"
           },
           {
+            "name": "Terminus - Chest - #10",
+            "ref": "HammerlockDLC/Terminus/Chest - #10"
+          },
+          {
             "name": "Terminus - Chest - #11",
             "ref": "HammerlockDLC/Terminus/Chest - #11"
+          },
+          {
+            "name": "Terminus - Chest - #12",
+            "ref": "HammerlockDLC/Terminus/Chest - #12"
           },
           {
             "name": "Terminus - Chest - #13",
