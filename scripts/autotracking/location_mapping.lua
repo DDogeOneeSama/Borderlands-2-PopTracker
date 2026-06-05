@@ -190,7 +190,7 @@ LOCATION_MAPPING = {
 	[2388181] = {"@TinaDLC/Forest/Enemy - Spiderpants"},
 	[2388182] = {"@TinaDLC/Forest/Enemy - Arguk the Butcher"},
 	[2388183] = {"@TinaDLC/Forest/Enemy - Warlord Grug"},
-	[2388184] = {"@TinaDLC/ImmortalWoods/Enemy - -=n00bkiller=-"},
+	[2388184] = {"@TinaDLC/ImmortalWoods/Enemy - n00bkiller"},
 	[2388185] = {"@TinaDLC/ImmortalWoods/Enemy - 420_E-Sports_Masta"},
 	[2388186] = {"@TinaDLC/ImmortalWoods/Enemy - [720NoScope]Headshotz"},
 	[2388187] = {"@TinaDLC/ImmortalWoods/Enemy - xxDatVaultHuntrxx"},

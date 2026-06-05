@@ -3813,6 +3813,18 @@
             "ref": "DigistructPeak/DigistructPeakInner/Ammo Vendor - Butcher Base"
           },
           {
+            "name": "Ammo Vendor - Arena of Anguish",
+            "ref": "DigistructPeak/DigistructPeakInner/Ammo Vendor - Arena of Anguish"
+          },
+          {
+            "name": "Med Vendor - Arena of Anguish",
+            "ref": "DigistructPeak/DigistructPeakInner/Med Vendor - Arena of Anguish"
+          },
+          {
+            "name": "Ammo Vendor - Tower of Torment",
+            "ref": "DigistructPeak/DigistructPeakInner/Ammo Vendor - Tower of Torment"
+          },
+          {
             "name": "DigistructPeak - A History of Simulated Violence",
             "ref": "DigistructPeak/DigistructPeakInner/A History of Simulated Violence"
           },
@@ -6079,6 +6091,10 @@
       {
         "name": "ImmortalWoods",
         "sections": [
+          {
+            "name": "Enemy - n00bkiller",
+            "ref": "TinaDLC/ImmortalWoods/Enemy - n00bkiller"
+          },
           {
             "name": "ImmortalWoods - Enemy - 420_E-Sports_Masta",
             "ref": "TinaDLC/ImmortalWoods/Enemy - 420_E-Sports_Masta"
