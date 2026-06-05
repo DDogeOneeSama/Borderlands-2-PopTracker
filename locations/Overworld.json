@@ -4114,7 +4114,7 @@
           },
           {
             "name": "A Study in Scarlett",
-            "ref": "ScarlettDLC/Oasis/A Study in Scarlett"
+            "ref": "ScarlettDLC/Wurmwater/A Study in Scarlett"
           },
           {
             "name": "Burying the Past",
@@ -4122,7 +4122,7 @@
           },
           {
             "name": "Treasure of the Sands",
-            "ref": "ScarlettDLC/Oasis/Treasure of the Sands"
+            "ref": "ScarlettDLC/LeviathansLair/Treasure of the Sands"
           },
           {
             "name": "Fire Water",
@@ -4142,15 +4142,15 @@
           },
           {
             "name": "Hyperius the Invincible",
-            "ref": "ScarlettDLC/Oasis/Hyperius the Invincible"
+            "ref": "ScarlettDLC/WashburneRefinery/Hyperius the Invincible"
           },
           {
             "name": "Master Gee the Invincible",
-            "ref": "ScarlettDLC/Oasis/Master Gee the Invincible"
+            "ref": "ScarlettDLC/HaytersFolly/Master Gee the Invincible"
           },
           {
             "name": "Grendel",
-            "ref": "ScarlettDLC/Oasis/Grendel"
+            "ref": "ScarlettDLC/HaytersFolly/Grendel"
           },
           {
             "name": "Mans Best Friend",
@@ -4268,23 +4268,23 @@
           },
           {
             "name": "Two Easy Pieces",
-            "ref": "ScarlettDLC/Wurmwater/Two Easy Pieces"
+            "ref": "ScarlettDLC/HaytersFolly/Two Easy Pieces"
           },
           {
             "name": "The Hermit",
-            "ref": "ScarlettDLC/Wurmwater/The Hermit"
+            "ref": "ScarlettDLC/Rustyards/The Hermit"
           },
           {
             "name": "Let There Be Light",
-            "ref": "ScarlettDLC/Wurmwater/Let There Be Light"
+            "ref": "ScarlettDLC/MagnysLighthouse/Let There Be Light"
           },
           {
             "name": "Just Desserts for Desert Deserters",
-            "ref": "ScarlettDLC/Wurmwater/Just Desserts for Desert Deserters"
+            "ref": "ScarlettDLC/Rustyards/Just Desserts for Desert Deserters"
           },
           {
             "name": "Faster Than the Speed of Love",
-            "ref": "ScarlettDLC/Wurmwater/Faster Than the Speed of Love"
+            "ref": "ScarlettDLC/WashburneRefinery/Faster Than the Speed of Love"
           },
           {
             "name": "Smells Like Victory",
@@ -4300,7 +4300,7 @@
           },
           {
             "name": "Catch-A-Ride, and Also Tetanus",
-            "ref": "ScarlettDLC/Wurmwater/Catch-A-Ride, and Also Tetanus"
+            "ref": "ScarlettDLC/Rustyards/Catch-A-Ride, and Also Tetanus"
           }
         ],
         "map_locations": [
@@ -4419,6 +4419,14 @@
         "name": "Rustyards",
         "sections": [
           {
+            "name": "Crazy About You",
+            "ref": "ScarlettDLC/Rustyards/Crazy About You"
+          },
+          {
+            "name": "Whoops",
+            "ref": "ScarlettDLC/WashburneRefinery/Whoops"
+          },
+          {
             "name": "Enemy - Toothless Terry",
             "ref": "ScarlettDLC/Rustyards/Enemy - Toothless Terry"
           },
@@ -4469,14 +4477,6 @@
           {
             "name": "Message in a Bottle 4 (Rustyards)",
             "ref": "ScarlettDLC/Rustyards/Message in a Bottle 4 (Rustyards)"
-          },
-          {
-            "name": "Crazy About You",
-            "ref": "ScarlettDLC/Rustyards/Crazy About You"
-          },
-          {
-            "name": "Whoops",
-            "ref": "ScarlettDLC/Rustyards/Whoops"
           }
         ],
         "map_locations": [
@@ -4644,11 +4644,11 @@
           },
           {
             "name": "X Marks The Spot",
-            "ref": "ScarlettDLC/MagnysLighthouse/X Marks The Spot"
+            "ref": "ScarlettDLC/LeviathansLair/X Marks The Spot"
           },
           {
             "name": "Freedom of Speech",
-            "ref": "ScarlettDLC/MagnysLighthouse/Freedom of Speech"
+            "ref": "ScarlettDLC/WashburneRefinery/Freedom of Speech"
           }
         ],
         "map_locations": [
@@ -4673,12 +4673,12 @@
             "ref": "ScarlettDLC/LeviathansLair/Symbol - Lair"
           },
           {
-            "name": "Ammo Vendor - Leviathans Intestines",
-            "ref": "ScarlettDLC/LeviathansLair/Ammo Vendor - Leviathans Intestines"
+            "name": "Ammo Vendor - Leviathans Body",
+            "ref": "ScarlettDLC/LeviathansLair/Ammo Vendor - Leviathans Body"
           },
           {
-            "name": "Med Vendor - Leviathans Intestines",
-            "ref": "ScarlettDLC/LeviathansLair/Med Vendor - Leviathans Intestines"
+            "name": "Med Vendor - Leviathans Body",
+            "ref": "ScarlettDLC/LeviathansLair/Med Vendor - Leviathans Body"
           },
           {
             "name": "Ammo Vendor - Leviathans Lair",
@@ -4701,32 +4701,32 @@
             "ref": "ScarlettDLC/LeviathansLair/Challenge - Cult of the Vault"
           },
           {
-            "name": "Chest - Outer #5",
-            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #5"
-          },
-          {
             "name": "Chest - Outer #1",
             "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #1"
           },
           {
-            "name": "Chest - Outer #6",
-            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #6"
-          },
-          {
-            "name": "Chest - Outer #4",
-            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #4"
+            "name": "Chest - Outer #2",
+            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #2"
           },
           {
             "name": "Chest - Outer #3",
             "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #3"
           },
           {
-            "name": "Chest - Outer #7",
-            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #7"
+            "name": "Chest - Outer #4",
+            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #4"
           },
           {
-            "name": "Chest - Outer #2",
-            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #2"
+            "name": "Chest - Outer #5",
+            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #5"
+          },
+          {
+            "name": "Chest - Outer #6",
+            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #6"
+          },
+          {
+            "name": "Chest - Outer #7",
+            "ref": "ScarlettDLC/LeviathansLair/Chest - Outer #7"
           },
           {
             "name": "Chest - Inner #1",
