@@ -4902,31 +4902,31 @@
           },
           {
             "name": "Number One Fan",
-            "ref": "TorgueDLC/BadassCrater/Number One Fan"
+            "ref": "TorgueDLC/Beatdown/Number One Fan"
           },
           {
             "name": "Welcome To The Jungle",
-            "ref": "TorgueDLC/BadassCrater/Welcome To The Jungle"
+            "ref": "TorgueDLC/TorgueArena/Welcome To The Jungle"
           },
           {
             "name": "Get Your Motor Running",
-            "ref": "TorgueDLC/BadassCrater/Get Your Motor Running"
+            "ref": "TorgueDLC/SouthernRaceway/Get Your Motor Running"
           },
           {
             "name": "Eat Cookies and Crap Thunder",
-            "ref": "TorgueDLC/BadassCrater/Eat Cookies and Crap Thunder"
+            "ref": "TorgueDLC/TorgueArena/Eat Cookies and Crap Thunder"
           },
           {
             "name": "Matter Of Taste",
-            "ref": "TorgueDLC/BadassCrater/Matter Of Taste"
+            "ref": "TorgueDLC/SouthernRaceway/Matter Of Taste"
           },
           {
             "name": "Monster Hunter",
-            "ref": "TorgueDLC/BadassCrater/Monster Hunter"
+            "ref": "TorgueDLC/SouthernRaceway/Monster Hunter"
           },
           {
             "name": "Walking the Dog",
-            "ref": "TorgueDLC/BadassCrater/Walking the Dog"
+            "ref": "TorgueDLC/BadassCraterBar/Walking the Dog"
           }
         ],
         "map_locations": [
@@ -5000,7 +5000,7 @@
           },
           {
             "name": "TorgueArena - Burn, Baby, Burn",
-            "ref": "TorgueDLC/TorgueArena/Burn, Baby, Burn"
+            "ref": "TorgueDLC/PyroPetesBar/Burn, Baby, Burn"
           },
           {
             "name": "Symbol - Arena Wall",
@@ -5206,23 +5206,23 @@
           },
           {
             "name": "Breaking and Entering",
-            "ref": "TorgueDLC/BadassCraterBar/Breaking and Entering"
+            "ref": "TorgueDLC/Forge/Breaking and Entering"
           },
           {
             "name": "Long Way To The Top",
-            "ref": "TorgueDLC/BadassCraterBar/Long Way To The Top"
+            "ref": "TorgueDLC/TorgueArena/Long Way To The Top"
           },
           {
             "name": "Gas Guzzlers",
-            "ref": "TorgueDLC/BadassCraterBar/Gas Guzzlers"
+            "ref": "TorgueDLC/SouthernRaceway/Gas Guzzlers"
           },
           {
             "name": "Interview with a Vault Hunter",
-            "ref": "TorgueDLC/BadassCraterBar/Interview with a Vault Hunter"
+            "ref": "TorgueDLC/SouthernRaceway/Interview with a Vault Hunter"
           },
           {
             "name": "Everybody Wants to be Wanted",
-            "ref": "TorgueDLC/BadassCraterBar/Everybody Wants to be Wanted"
+            "ref": "TorgueDLC/SouthernRaceway/Everybody Wants to be Wanted"
           }
         ],
         "map_locations": [
