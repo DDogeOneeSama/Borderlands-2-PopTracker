@@ -5914,7 +5914,7 @@
           },
           {
             "name": "UnassumingDocks - A Role-Playing Game",
-            "ref": "TinaDLC/UnassumingDocks/A Role-Playing Game"
+            "ref": "TinaDLC/FlamerockRefuge/A Role-Playing Game"
           }
         ],
         "map_locations": [
@@ -5955,7 +5955,7 @@
           },
           {
             "name": "FlamerockRefuge - Critical Fail",
-            "ref": "TinaDLC/FlamerockRefuge/Critical Fail"
+            "ref": "TinaDLC/ImmortalWoods/Critical Fail"
           },
           {
             "name": "FlamerockRefuge - Ell in Shining Armor",
@@ -5971,7 +5971,7 @@
           },
           {
             "name": "FlamerockRefuge - MMORPGFPS",
-            "ref": "TinaDLC/FlamerockRefuge/MMORPGFPS"
+            "ref": "TinaDLC/ImmortalWoods/MMORPGFPS"
           },
           {
             "name": "FlamerockRefuge - Pet Butt Stallion",
@@ -5979,15 +5979,15 @@
           },
           {
             "name": "FlamerockRefuge - Denial, Anger, Initiative",
-            "ref": "TinaDLC/FlamerockRefuge/Denial, Anger, Initiative"
+            "ref": "TinaDLC/ImmortalWoods/Denial, Anger, Initiative"
           },
           {
             "name": "FlamerockRefuge - Post-Crumpocalyptic",
-            "ref": "TinaDLC/FlamerockRefuge/Post-Crumpocalyptic"
+            "ref": "TinaDLC/LairOfInfiniteAgony/Post-Crumpocalyptic"
           },
           {
             "name": "FlamerockRefuge - Raiders of the Last Boss",
-            "ref": "TinaDLC/FlamerockRefuge/Raiders of the Last Boss"
+            "ref": "TinaDLC/WingedStorm/Raiders of the Last Boss"
           },
           {
             "name": "FlamerockRefuge - Roll Insight",
@@ -5995,15 +5995,15 @@
           },
           {
             "name": "FlamerockRefuge - Winter is a Bloody Business",
-            "ref": "TinaDLC/FlamerockRefuge/Winter is a Bloody Business"
+            "ref": "TinaDLC/HatredsShadow/Winter is a Bloody Business"
           },
           {
             "name": "FlamerockRefuge - Find Murderlins Temple",
-            "ref": "TinaDLC/FlamerockRefuge/Find Murderlins Temple"
+            "ref": "TinaDLC/MurderlinsTemple/Find Murderlins Temple"
           },
           {
             "name": "FlamerockRefuge - The Sword in The Stoner",
-            "ref": "TinaDLC/FlamerockRefuge/The Sword in The Stoner"
+            "ref": "TinaDLC/UnassumingDocks/The Sword in The Stoner"
           },
           {
             "name": "FlamerockRefuge - Challenge - Smashin Pumpkins",
@@ -6274,7 +6274,7 @@
           },
           {
             "name": "MinesOfAvarice - A Game of Games",
-            "ref": "TinaDLC/MinesOfAvarice/A Game of Games"
+            "ref": "TinaDLC/HatredsShadow/A Game of Games"
           }
         ],
         "map_locations": [
