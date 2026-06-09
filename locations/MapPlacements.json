@@ -6901,7 +6901,7 @@
         "sections": [
           {
             "name": "FFSSanctuary - The Dawn of New Pandora",
-            "ref": "LilithDLC/Sanctuary/The Dawn of New Pandora"
+            "ref": "LilithDLC/Backburner/The Dawn of New Pandora"
           }
         ],
         "map_locations": [
@@ -6970,59 +6970,59 @@
           },
           {
             "name": "Backburner - Winging It",
-            "ref": "LilithDLC/Backburner/Winging It"
+            "ref": "LilithDLC/DahlAbandon/Winging It"
           },
           {
             "name": "Backburner - Spore Chores",
-            "ref": "LilithDLC/Backburner/Spore Chores"
+            "ref": "LilithDLC/DahlAbandon/Spore Chores"
           },
           {
             "name": "Backburner - A Hard Place",
-            "ref": "LilithDLC/Backburner/A Hard Place"
+            "ref": "LilithDLC/Burrows/A Hard Place"
           },
           {
             "name": "Backburner - Shooting The Moon",
-            "ref": "LilithDLC/Backburner/Shooting The Moon"
+            "ref": "LilithDLC/HeliosFallen/Shooting The Moon"
           },
           {
             "name": "Backburner - The Cost of Progress",
-            "ref": "LilithDLC/Backburner/The Cost of Progress"
+            "ref": "LilithDLC/MtScarabResearchCenter/The Cost of Progress"
           },
           {
             "name": "Backburner - BFFFs",
-            "ref": "LilithDLC/Backburner/BFFFs"
+            "ref": "LilithDLC/MtScarabResearchCenter/BFFFs"
           },
           {
             "name": "Backburner - Hypocritical Oath",
-            "ref": "LilithDLC/Backburner/Hypocritical Oath"
+            "ref": "LilithDLC/DahlAbandon/Hypocritical Oath"
           },
           {
             "name": "Backburner - Cadeuceus",
-            "ref": "LilithDLC/Backburner/Cadeuceus"
+            "ref": "LilithDLC/Burrows/Cadeuceus"
           },
           {
             "name": "Backburner - My Brittle Pony",
-            "ref": "LilithDLC/Backburner/My Brittle Pony"
+            "ref": "LilithDLC/MtScarabResearchCenter/My Brittle Pony"
           },
           {
             "name": "Backburner - A Most Cacophonous Lure",
-            "ref": "LilithDLC/Backburner/A Most Cacophonous Lure"
+            "ref": "LilithDLC/WrithingDeep/A Most Cacophonous Lure"
           },
           {
             "name": "Backburner - Space Cowboy",
-            "ref": "LilithDLC/Backburner/Space Cowboy"
+            "ref": "LilithDLC/DahlAbandon/Space Cowboy"
           },
           {
             "name": "Backburner - The Vaughnguard",
-            "ref": "LilithDLC/Backburner/The Vaughnguard"
+            "ref": "LilithDLC/DahlAbandon/The Vaughnguard"
           },
           {
             "name": "Backburner - The Hunt is Vaughn",
-            "ref": "LilithDLC/Backburner/The Hunt is Vaughn"
+            "ref": "LilithDLC/Burrows/The Hunt is Vaughn"
           },
           {
             "name": "Backburner - Chief Executive Overlord",
-            "ref": "LilithDLC/Backburner/Chief Executive Overlord"
+            "ref": "LilithDLC/FFSBossFight/Chief Executive Overlord"
           }
         ],
         "map_locations": [
@@ -7106,15 +7106,15 @@
             "ref": "LilithDLC/DahlAbandon/Challenge - Cult of the Vault"
           },
           {
-            "name": "DahlAbandon - Chest - The Veiny Shaft #1",
-            "ref": "LilithDLC/DahlAbandon/Chest - The Veiny Shaft #1"
+            "name": "Chest - Mine, Dahl Mine Chest #1",
+            "ref": "LilithDLC/DahlAbandon/Chest - Mine, Dahl Mine Chest #1"
           },
           {
-            "name": "DahlAbandon - Chest - The Veiny Shaft #2",
-            "ref": "LilithDLC/DahlAbandon/Chest - The Veiny Shaft #2"
+            "name": "Chest - Mine, Dahl Mine Chest #1",
+            "ref": "LilithDLC/DahlAbandon/Chest - Mine, Dahl Mine Chest #1"
           },
           {
-            "name": "DahlAbandon - Chest - The Rust Bucket Trunk",
+            "name": "Chest - North Eastern Camp Trunk",
             "ref": "LilithDLC/DahlAbandon/Chest - The Rust Bucket Trunk"
           },
           {
@@ -7175,20 +7175,16 @@
             "ref": "LilithDLC/Burrows/Challenge - Never Enough Tools"
           },
           {
-            "name": "Burrows - Challenge - Timber!",
-            "ref": "LilithDLC/Burrows/Challenge - Timber!"
-          },
-          {
             "name": "Burrows - Challenge - Cult of the Vault",
             "ref": "LilithDLC/Burrows/Challenge - Cult of the Vault"
           },
           {
-            "name": "Burrows - Chest - Grranglaargll #2",
-            "ref": "LilithDLC/Burrows/Chest - Grranglaargll #2"
-          },
-          {
             "name": "Burrows - Chest - Grranglaargll #1",
             "ref": "LilithDLC/Burrows/Chest - Grranglaargll #1"
+          },
+          {
+            "name": "Burrows - Chest - Grranglaargll #2",
+            "ref": "LilithDLC/Burrows/Chest - Grranglaargll #2"
           },
           {
             "name": "Burrows - Chest - Grranglaargll #3",
@@ -7370,7 +7366,7 @@
           },
           {
             "name": "MtScarabResearchCenter - Paradise Found",
-            "ref": "LilithDLC/MtScarabResearchCenter/Paradise Found"
+            "ref": "LilithDLC/FFSBossFight/Paradise Found"
           },
           {
             "name": "MtScarabResearchCenter - Echoes of the Past",
@@ -7392,6 +7388,10 @@
           {
             "name": "FFSBossFight - Enemy - Hector",
             "ref": "LilithDLC/FFSBossFight/Enemy - Hector"
+          },
+          {
+            "name": "FFSBossFight - Challenge - Timber!",
+            "ref": "LilithDLC/FFSBossFight/Challenge - Timber!"
           }
         ],
         "map_locations": [
