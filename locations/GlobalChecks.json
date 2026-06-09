@@ -1469,7 +1469,7 @@
           {
             "name": "Skeleton Generic Drop",
             "access_rules": ["^$CanReachRegion|UnassumingDocks, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_UnassumingDocks, $LevelLimit|"],
+            "visibility_rules": ["enable_region_UnassumingDocks, $LevelLimit|30"],
             "item_count": 1
           },
           {
