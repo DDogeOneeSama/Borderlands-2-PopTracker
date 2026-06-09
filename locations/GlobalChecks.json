@@ -2015,12 +2015,12 @@
           {
             "name": "Challenge - Turret Syndrome",
             "access_rules": ["^$CanReachRegion|ThreeHornsDivide, vehiclefire, ^$OnLevel|7"],
-            "visibility_rules": ["enable_region_ThreeHornsDivide, vehiclefire, $LevelLimit|7"],
+            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - One Van Leaves",
-            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, ^$OnLevel|7"],
+            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, vehiclefire, ^$OnLevel|7"],
             "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
             "item_count": 1
           }
