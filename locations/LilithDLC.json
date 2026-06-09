@@ -420,7 +420,7 @@
             "item_count": 1
           },
           {
-            "name": "Chest - Mine, Dahl Mine Chest #1",
+            "name": "Chest - Mine, Dahl Mine Chest #2",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|382, ^$OnLevel|30"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
