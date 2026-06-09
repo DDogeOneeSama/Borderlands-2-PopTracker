@@ -9,9 +9,9 @@
     ],
     "children": [
       {
-        "name": "HallowedHallow",
+        "name": "HallowedHollow",
         "access_rules": [
-          "^$CanReachRegion|HallowedHallow"
+          "^$CanReachRegion|HallowedHollow"
         ],
         "visibility_rules": [
           "enable_region_hallowedhollow"

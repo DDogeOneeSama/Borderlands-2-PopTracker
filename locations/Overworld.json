@@ -7632,63 +7632,63 @@
         ]
       },
       {
-        "name": "Hallowed Hallow",
+        "name": "Hallowed Hollow",
         "sections": [
           {
             "name": "The Bloody Harvest",
-            "ref": "Headhunters/HallowedHallow/The Bloody Harvest"
+            "ref": "Headhunters/HallowedHollow/The Bloody Harvest"
           },
           {
             "name": "Trick or Treat",
-            "ref": "Headhunters/HallowedHallow/Trick or Treat"
+            "ref": "Headhunters/HallowedHollow/Trick or Treat"
           },
           {
             "name": "Enemy - Sully the Blacksmith",
-            "ref": "Headhunters/HallowedHallow/Enemy - Sully the Blacksmith"
+            "ref": "Headhunters/HallowedHollow/Enemy - Sully the Blacksmith"
           },
           {
             "name": "Enemy - Pumpkin Kingpin",
-            "ref": "Headhunters/HallowedHallow/Enemy - Pumpkin Kingpin"
+            "ref": "Headhunters/HallowedHollow/Enemy - Pumpkin Kingpin"
           },
           {
             "name": "Enemy - Jacques OLantern",
-            "ref": "Headhunters/HallowedHallow/Enemy - Jacques OLantern"
+            "ref": "Headhunters/HallowedHollow/Enemy - Jacques OLantern"
           },
           {
             "name": "Enemy - Cryptkeeper Clark",
-            "ref": "Headhunters/HallowedHallow/Enemy - Cryptkeeper Clark"
+            "ref": "Headhunters/HallowedHollow/Enemy - Cryptkeeper Clark"
           },
           {
             "name": "Ammo Vendor - Entrance",
-            "ref": "Headhunters/HallowedHallow/Ammo Vendor - Entrance"
+            "ref": "Headhunters/HallowedHollow/Ammo Vendor - Entrance"
           },
           {
             "name": "Med Vendor - Entrance",
-            "ref": "Headhunters/HallowedHallow/Med Vendor - Entrance"
+            "ref": "Headhunters/HallowedHollow/Med Vendor - Entrance"
           },
           {
             "name": "Med Vendor - Kingpin Approach",
-            "ref": "Headhunters/HallowedHallow/Med Vendor - Kingpin Approach"
+            "ref": "Headhunters/HallowedHollow/Med Vendor - Kingpin Approach"
           },
           {
             "name": "Ammo Vendor - Kingpin Approach",
-            "ref": "Headhunters/HallowedHallow/Ammo Vendor - Kingpin Approach"
+            "ref": "Headhunters/HallowedHollow/Ammo Vendor - Kingpin Approach"
           },
           {
             "name": "Chest - Blood Altar",
-            "ref": "Headhunters/HallowedHallow/Chest - Blood Altar"
+            "ref": "Headhunters/HallowedHollow/Chest - Blood Altar"
           },
           {
             "name": "Chest - Forge Exit",
-            "ref": "Headhunters/HallowedHallow/Chest - Forge Exit"
+            "ref": "Headhunters/HallowedHollow/Chest - Forge Exit"
           },
           {
             "name": "Chest - Lavabluffs Broken Bridge",
-            "ref": "Headhunters/HallowedHallow/Chest - Lavabluffs Broken Bridge"
+            "ref": "Headhunters/HallowedHollow/Chest - Lavabluffs Broken Bridge"
           },
           {
             "name": "Chest - Church of the Dead",
-            "ref": "Headhunters/HallowedHallow/Chest - Church of the Dead"
+            "ref": "Headhunters/HallowedHollow/Chest - Church of the Dead"
           }
         ],
         "map_locations": [
