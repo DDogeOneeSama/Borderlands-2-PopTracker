@@ -120,9 +120,7 @@ function HasTravelItem(regionToCheck)
 end
 
 function MiscCasesEntrances(regionToCheck)
-  if((Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) and (regionToCheck == "SouthernShelf")) then
-    return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
-  elseif(regionToCheck == "FFSIntroSanctuary") then
+  if(regionToCheck == "FFSIntroSanctuary") then
     return (Tracker:FindObjectForCode("travel:thebackburner").Active or (Tracker:FindObjectForCode("progressivetravel:ffs").AcquiredCount >= 2))
   elseif(regionToCheck == "CandlerakksCrag") then
     return Tracker:FindObjectForCode("license:commonpistol").Active and JumpHeight(629)
@@ -306,9 +304,17 @@ function LevelLimit(level)
 end
 
 function Level1to5Gear()
-  return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
+  if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
+    return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
+  else
+    return true
+  end
 end
 
 function Level6to10Gear()
-  return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license:commonpistol").Active) and (Tracker:FindObjectForCode("license:commonshield").Active) and (Tracker:FindObjectForCode("license:commonshotgun").Active) and (Tracker:FindObjectForCode("license:uncommonpistol").Active)
+  if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
+    return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license:commonpistol").Active)
+  else
+    return true
+  end
 end
