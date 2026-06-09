@@ -264,7 +264,7 @@ ProgressiveOrdersDefinition = {
         "HuntersGrotto",
         "ScyllasGrove",
         "ArdortonStation",
-        "CandlerakksCragg",
+        "CandlerakksCrag",
         "Terminus"
     },
 
