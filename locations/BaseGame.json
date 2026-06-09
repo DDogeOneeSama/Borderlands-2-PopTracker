@@ -148,31 +148,31 @@
           {
             "name": "Symbol - Rooftop",
             "access_rules": ["^$CanMakeJump|611, ^$OnLevel|7"],
-            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Moxxis Corner",
             "access_rules": ["^$OnLevel|7"],
-            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Trash Corner",
             "access_rules": ["^$OnLevel|7"],
-            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Tire Corner",
             "access_rules": ["^$OnLevel|7"],
-            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Symbol - Parkour Door",
             "access_rules": ["^$CanMakeJump|596, ^$OnLevel|7"],
-            "visibility_rules": ["vault_symbols_enabled, ^$LevelLimit|7"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -1916,7 +1916,7 @@
         "sections": [
           {
             "name": "Rising Action",
-            "access_rules": ["^OnLevel|15"],
+            "access_rules": ["^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|15",
               "quest_completion_checks_story_only, $LevelLimit|15"],
