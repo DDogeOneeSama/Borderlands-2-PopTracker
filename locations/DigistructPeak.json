@@ -1,8 +1,6 @@
 [
   {
     "name": "DigistructPeak",
-    "chest_unopened_img": "/images/items/close.png",
-    "chest_opened_img": "/images/items/open.png",
     "overlay_background": "#000000",
     "visibility_rules": [
       "remove_digi_peak_checks_keep"
