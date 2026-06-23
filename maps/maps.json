@@ -207,7 +207,7 @@
     "name": "HerosPass",
     "location_size": 6,
     "location_border_thickness": 1,
-    "img": "images/maps/BL2 Hero_s Pass.png"
+    "img": "images/maps/BL2 Heros Pass.png"
   },
   {
     "name": "VaultOfTheWarrior",
@@ -220,5 +220,329 @@
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/BL2 Terramorphous Peak.png"
+  },
+  {
+    "name": "Levels",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/Levels.png"
+  },
+  {
+    "name": "GenericDrops",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/GenericDrops.png"
+  },
+  {
+    "name": "GearSpecificChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/GearSpecificChallenges.png"
+  },
+  {
+    "name": "MiscCombatChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/MiscCombatChallenges.png"
+  },
+  {
+    "name": "EnemySpecificChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/EnemySpecificChallenges.png"
+  },
+  {
+    "name": "MiscChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/MiscChallenges.png"
+  },
+  {
+    "name": "GearPickups",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/GearPickups.png"
+  },
+  {
+    "name": "ScarlettDLCChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/ScarlettDLCChallenges.png"
+  },
+  {
+    "name": "Oasis",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Oasis.png"
+  },
+  {
+    "name": "Wurmwater",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Wurmwater.png"
+  },
+  {
+    "name": "HaytersFolly",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Hayters Folly.png"
+  },
+  {
+    "name": "Rustyards",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Rustyards.png"
+  },
+  {
+    "name": "WashburneRefinery",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Washburne Refinery.png"
+  },
+  {
+    "name": "MagnysLighthouse",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Magnys Lighthouse.png"
+  },
+  {
+    "name": "LeviathansLair",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Leviathans Lair.png"
+  },
+  {
+    "name": "TorgueDLCChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/TorgueDLCChallenges.png"
+  },
+  {
+    "name": "BadassCrater",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Badass Crater.png"
+  },
+  {
+    "name": "TorgueArena",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Torgue Arena.png"
+  },
+  {
+    "name": "Beatdown",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Beatdown.png"
+  },
+  {
+    "name": "PyroPetesBar",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Pyro Petes Bar.png"
+  },
+  {
+    "name": "SouthernRaceway",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Southern Raceway.png"
+  },
+  {
+    "name": "Forge",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Forge.png"
+  },
+  {
+    "name": "HammerlockDLCChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/HammerlockDLCChallenges.png"
+  },
+  {
+    "name": "HuntersGrotto",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Hunters Grotto.png"
+  },
+  {
+    "name": "ScyllasGrove",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Scyllas Grove.png"
+  },
+  {
+    "name": "ArdortonStation",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Ardorton Station.png"
+  },
+  {
+    "name": "CandlerakksCrag",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Candlerakks Crag.png"
+  },
+  {
+    "name": "Terminus",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Terminus.png"
+  },
+  {
+    "name": "TinaDLCChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/TinaDLCChallenges.png"
+  },
+  {
+    "name": "UnassumingDocks",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Unassuming Docks.png"
+  },
+  {
+    "name": "FlamerockRefuge",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Flamerock Refuge.png"
+  },
+  {
+    "name": "Forest",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Forest.png"
+  },
+  {
+    "name": "ImmortalWoods",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Immortal Woods.png"
+  },
+  {
+    "name": "MinesOfAvarice",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Mines Of Avarice.png"
+  },
+  {
+    "name": "HatredsShadow",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Hatreds Shadow.png"
+  },
+  {
+    "name": "LairOfInfiniteAgony",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Lair Of Infinite Agony.png"
+  },
+  {
+    "name": "DragonKeep",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Dragon Keep.png"
+  },
+  {
+    "name": "MurderlinsTemple",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Murderlins Temple.png"
+  },
+  {
+    "name": "WingedStorm",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Winged Storm.png"
+  },
+  {
+    "name": "LilithDLCChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/LilithDLCChallenges.png"
+  },
+  {
+    "name": "FFSIntroSanctuary",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 FFS Intro Sanctuary.png"
+  },
+  {
+    "name": "Backburner",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Backburner.png"
+  },
+  {
+    "name": "DahlAbandon",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Dahl Abandon.png"
+  },
+  {
+    "name": "Burrows",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Burrows.png"
+  },
+  {
+    "name": "HeliosFallen",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Helios Fallen.png"
+  },
+  {
+    "name": "MtScarabResearchCenter",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Mt Scarab Research Center.png"
+  },
+  {
+    "name": "FFSBossFight",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 FFS Boss Fight.png"
+  },
+  {
+    "name": "WrithingDeep",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Writhing Deep.png"
+  },
+  {
+    "name": "HallowedHollow",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Hallowed Hollow.png"
+  },
+  {
+    "name": "GluttonyGulch",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Gluttony Gulch.png"
+  },
+  {
+    "name": "MarcusMercenaryShop",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Marcus Mercenary Shop.png"
+  },
+  {
+    "name": "RotgutDistillery",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Rotgut Distillery.png"
+  },
+  {
+    "name": "WamBamIsland",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Wam Bam Island.png"
+  },
+  {
+    "name": "DigistructPeak",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/BL2 Digistruct Peak.png"
   }
 ]

@@ -58,7 +58,7 @@
                     }
                   },
                   {
-                    "title": "Southern Shelf Bay",
+                    "title": "Southern Shelf - Bay",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -67,7 +67,7 @@
                     }
                   },
                   {
-                    "title": "Three Horns Divide",
+                    "title": "Three Horns - Divide",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -85,7 +85,7 @@
                     }
                   },
                   {
-                    "title": "Three Horns Valley",
+                    "title": "Three Horns - Valley",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -128,6 +128,15 @@
                         "BloodshotRamparts"
                       ]
                     }
+                  },
+                  {
+                    "title": "Friendship Gulag",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "FriendshipGulag"
+                      ]
+                    }
                   }
                 ]
               }
@@ -137,15 +146,6 @@
               "content": {
                 "type": "tabbed",
                 "tabs": [
-                  {
-                    "title": "Friendship Gulag",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "FriendshipGulag"
-                      ]
-                    }
-                  },
                   {
                     "title": "Tundra Express",
                     "content": {
@@ -370,63 +370,533 @@
       {
         "title": "Global Checks",
         "content": {
-          "type": "map",
-          "maps": [
-            "GlobalChecks"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Levels",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Levels"
+                ]
+              }
+            },
+            {
+              "title": "Generic Drops",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "GenericDrops"
+                ]
+              }
+            },
+            {
+              "title": "Gear Specific Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "GearSpecificChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Misc Combat Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MiscCombatChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Enemy Specific Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "EnemySpecificChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Misc Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MiscChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Gear Pickups",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "GearPickups"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Scarlett DLC",
         "content": {
-          "type": "map",
-          "maps": [
-            "ScarlettDLC"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Scarlett DLC Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ScarlettDLCChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Oasis",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Oasis"
+                ]
+              }
+            },
+            {
+              "title": "Wurmwater",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Wurmwater"
+                ]
+              }
+            },
+            {
+              "title": "Hayters Folly",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HaytersFolly"
+                ]
+              }
+            },
+            {
+              "title": "The Rustyards",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Rustyards"
+                ]
+              }
+            },
+            {
+              "title": "Washburne Refinery",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "WashburneRefinery"
+                ]
+              }
+            },
+            {
+              "title": "Magnys Lighthouse",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MagnysLighthouse"
+                ]
+              }
+            },
+            {
+              "title": "The Leviathan's Lair",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "LeviathansLair"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Torgue DLC",
         "content": {
-          "type": "map",
-          "maps": [
-            "TorgueDLC"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Torgue DLC Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "TorgueDLCChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Badass Crater of Badassitude",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "BadassCrater"
+                ]
+              }
+            },
+            {
+              "title": "Torgue Arena",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "TorgueArena"
+                ]
+              }
+            },
+            {
+              "title": "The Beatdown",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Beatdown"
+                ]
+              }
+            },
+            {
+              "title": "Pyro Pete's Bar",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "PyroPetesBar"
+                ]
+              }
+            },
+            {
+              "title": "Southern Raceway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SouthernRaceway"
+                ]
+              }
+            },
+            {
+              "title": "The Forge",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Forge"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Hammerlock DLC",
         "content": {
-          "type": "map",
-          "maps": [
-            "HammerlockDLC"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Hammerlock DLC Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HammerlockDLCChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Hunter's Grotto",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HuntersGrotto"
+                ]
+              }
+            },
+            {
+              "title": "Scylla's Grove",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ScyllasGrove"
+                ]
+              }
+            },
+            {
+              "title": "Ardorton Station",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ArdortonStation"
+                ]
+              }
+            },
+            {
+              "title": "Candlerakk's Crag",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "CandlerakksCrag"
+                ]
+              }
+            },
+            {
+              "title": "H.S.S. Terminus",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Terminus"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Tina DLC",
         "content": {
-          "type": "map",
-          "maps": [
-            "TinaDLC"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Tina DLC Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "TinaDLCChallenges"
+                ]
+              }
+            },
+            {
+              "title": "Unassuming Docks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "UnassumingDocks"
+                ]
+              }
+            },
+            {
+              "title": "Flamerock Refuge",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "FlamerockRefuge"
+                ]
+              }
+            },
+            {
+              "title": "The Forest",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Forest"
+                ]
+              }
+            },
+            {
+              "title": "Immortal Woods",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ImmortalWoods"
+                ]
+              }
+            },
+            {
+              "title": "Mines of Avarice",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MinesOfAvarice"
+                ]
+              }
+            },
+            {
+              "title": "Hatred's Shadow",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HatredsShadow"
+                ]
+              }
+            },
+            {
+              "title": "Lair of Infinite Agony",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "LairOfInfiniteAgony"
+                ]
+              }
+            },
+            {
+              "title": "Dragon Keep",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "DragonKeep"
+                ]
+              }
+            },
+            {
+              "title": "Murderlin's Temple",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MurderlinsTemple"
+                ]
+              }
+            },
+            {
+              "title": "The Winged Storm",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "WingedStorm"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Lilith DLC",
         "content": {
-          "type": "map",
-          "maps": [
-            "LilithDLC"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Lilith DLC Challenges",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "LilithDLCChallenges"
+                ]
+              }
+            },
+            {
+              "title": "FFS Intro",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "FFSIntroSanctuary"
+                ]
+              }
+            },
+            {
+              "title": "The Backburner",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Backburner"
+                ]
+              }
+            },
+            {
+              "title": "Dahl Abandon",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "DahlAbandon"
+                ]
+              }
+            },
+            {
+              "title": "The Burrows",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Burrows"
+                ]
+              }
+            },
+            {
+              "title": "Helios Fallen",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HeliosFallen"
+                ]
+              }
+            },
+            {
+              "title": "Mt. Scarab Research Center",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MtScarabResearchCenter"
+                ]
+              }
+            },
+            {
+              "title": "Paradise Sanctum",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "FFSBossFight"
+                ]
+              }
+            },
+            {
+              "title": "Writhing Deep",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "WrithingDeep"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Headhunters",
         "content": {
-          "type": "map",
-          "maps": [
-            "Headhunters"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Hallowed Hollow",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "HallowedHollow"
+                ]
+              }
+            },
+            {
+              "title": "Gluttony Gulch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "GluttonyGulch"
+                ]
+              }
+            },
+            {
+              "title": "Marcus' Mercenary Shop",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MarcusMercenaryShop"
+                ]
+              }
+            },
+            {
+              "title": "Rotgut Distillery",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "RotgutDistillery"
+                ]
+              }
+            },
+            {
+              "title": "Wam Bam Island",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "WamBamIsland"
+                ]
+              }
+            }
           ]
         }
       },
