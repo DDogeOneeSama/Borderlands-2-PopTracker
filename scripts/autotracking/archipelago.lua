@@ -4,7 +4,6 @@ require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/setting_mapping")
 
 CUR_INDEX = -1
--- SLOT_DATA = nil
 
 ALL_LOCATIONS = {}
 SLOT_DATA = {}
@@ -88,34 +87,6 @@ function ForceUpdate()
         return
     end
     update.Active = not update.Active
-end
-
-function onClearHandler(slot_data)
-    local clear_timer = os.clock()
-
-    ScriptHost:RemoveWatchForCode("StateChange")
-    -- Disable tracker updates.
-    Tracker.BulkUpdate = true
-    -- Use a protected call so that tracker updates always get enabled again, even if an error occurred.
-    local ok, err = pcall(onClear, slot_data)
-    -- Enable tracker updates again.
-    if ok then
-        -- Defer re-enabling tracker updates until the next frame, which doesn't happen until all received items/cleared
-        -- locations from AP have been processed.
-        local handlerName = "AP onClearHandler"
-        local function frameCallback()
-            ScriptHost:AddWatchForCode("StateChange", "*", StateChanged)
-            ScriptHost:RemoveOnFrameHandler(handlerName)
-            Tracker.BulkUpdate = false
-            ForceUpdate()
-            print(string.format("Time taken total: %.2f", os.clock() - clear_timer))
-        end
-        ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
-    else
-        Tracker.BulkUpdate = false
-        print("Error: onClear failed:")
-        print(err)
-    end
 end
 
 function preOnClear()
@@ -326,16 +297,12 @@ function AutoFill()
         return
     end
     print(dump_table(SLOT_DATA))
-
+    local skippedSettings = {"version", "delete_starting_gear", "filler_gear", "receive_gear", "spawn_traps", "quest_reward_items", "remove_locations", "include_locations", "death_link", "death_link_punishment", "death_link_send_mode"}
     for settings_name , settings_value in pairs(SLOT_DATA) do
-        if settings_name == "version" then
-            goto continue
-        end
-        if settings_name == "remove_locations" then
-            goto continue
-        end
-        if settings_name == "include_locations" then
-            goto continue
+        for _, setting in ipairs(skippedSettings) do
+            if settings_name == setting then
+                goto continue
+            end
         end
         print(settings_name, settings_value)
         if settings_name == "goals" then
@@ -347,8 +314,8 @@ function AutoFill()
         end
         if settings_name == "progressive_travel_groups" then
             for _, dlc in ipairs(SLOT_DATA[settings_name]) do
-                print("progressive_travel_toggle_" .. dlc)
-                Tracker:FindObjectForCode("progressive_travel_toggle_" .. dlc).Active = true
+                print("progressive_travel_" .. dlc)
+                Tracker:FindObjectForCode("progressive_travel_" .. dlc).CurrentStage = 1
             end
             goto continue
         end
@@ -371,6 +338,7 @@ function AutoFill()
                 print(settings_name,settings_value,Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).CurrentStage, SLOT_CODES[settings_name].mapping[settings_value])
                 Tracker:FindObjectForCode(SLOT_CODES[settings_name].code).CurrentStage = SLOT_CODES[settings_name].mapping[settings_value]
             end
+            goto continue
         end
         ::continue::
     end

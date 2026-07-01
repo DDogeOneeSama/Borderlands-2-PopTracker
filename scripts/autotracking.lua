@@ -20,6 +20,3 @@ print("")
 require("scripts/settings")
 -- loads the AP autotracking code
 require("scripts/autotracking/archipelago")
-
-
-        

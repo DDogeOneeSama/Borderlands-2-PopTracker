@@ -1,8 +1,8 @@
 SLOT_CODES =
 {
-  gear_rarity_item_pool =
+  gear_licenses =
   {
-    code = "gear_rarity_item_pool",
+    code = "gear_licenses",
     mapping =
     {
       [0] = 0, -- Disabled
@@ -10,6 +10,15 @@ SLOT_CODES =
       [2] = 2, -- Pearl+ Disabled
       [3] = 3, -- Effervescent Disabled
       [4] = 4  -- All 
+    }
+  },
+  receive_gear =
+  {
+    code = "receive_gear",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
     }
   },
   vault_symbols =
@@ -33,6 +42,78 @@ SLOT_CODES =
   entrance_locks =
   {
     code = "entrance_locks",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_basegame =
+  {
+    code = "progressive_travel_basegame",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_basegame_side =
+  {
+    code = "progressive_travel_basegame_side",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_ffs =
+  {
+    code = "progressive_travel_ffs",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_tina =
+  {
+    code = "progressive_travel_tina",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_torgue =
+  {
+    code = "progressive_travel_torgue",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_scarlett =
+  {
+    code = "progressive_travel_scarlett",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_hammerlock =
+  {
+    code = "progressive_travel_hammerlock",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  progressive_travel_headhunter =
+  {
+    code = "progressive_travel_headhunter",
     mapping =
     {
       [0] = 0, -- Off

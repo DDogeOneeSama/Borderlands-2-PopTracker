@@ -333,7 +333,7 @@
     "img": "images/items/travel/therustyards.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_therustyards"
+    "codes": "enable_region_rustyards"
   },
   {
     "name": "Enable Region: Washburne Refinery",
@@ -357,7 +357,7 @@
     "img": "images/items/travel/theleviathanslair.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_theleviathanslair"
+    "codes": "enable_region_leviathanslair"
   },
   {
     "name": "Enable Region: Badass Crater",
@@ -381,7 +381,7 @@
     "img": "images/items/travel/thebeatdown.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_thebeatdown"
+    "codes": "enable_region_beatdown"
   },
   {
     "name": "Enable Region: Pyro Pete's Bar",
@@ -413,7 +413,7 @@
     "img": "images/items/travel/theforge.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_theforge"
+    "codes": "enable_region_forge"
   },
   {
     "name": "Enable Region: Hunter's Grotto",
@@ -440,12 +440,12 @@
     "codes": "enable_region_ardortonstation"
   },
   {
-    "name": "Enable Region: Candlerakk's Cragg",
+    "name": "Enable Region: Candlerakk's Crag",
     "type": "toggle",
-    "img": "images/items/travel/candlerakkscragg.png",
+    "img": "images/items/travel/candlerakkscrag.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_candlerakkscragg"
+    "codes": "enable_region_CandlerakksCrag"
   },
   {
     "name": "Enable Region: Terminus",
@@ -477,7 +477,7 @@
     "img": "images/items/travel/theforest.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_theforest"
+    "codes": "enable_region_forest"
   },
   {
     "name": "Enable Region: Immortal Woods",
@@ -533,7 +533,7 @@
     "img": "images/items/travel/thewingedstorm.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_thewingedstorm"
+    "codes": "enable_region_wingedstorm"
   },
   {
     "name": "Enable Region: FFS Intro Sanctuary",
@@ -549,7 +549,7 @@
     "img": "images/items/travel/thebackburner.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_thebackburner"
+    "codes": "enable_region_backburner"
   },
   {
     "name": "Enable Region: Dahl Abandon",
@@ -565,7 +565,7 @@
     "img": "images/items/travel/theburrows.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_theburrows"
+    "codes": "enable_region_burrows"
   },
   {
     "name": "Enable Region: Helios Fallen",
@@ -621,7 +621,7 @@
     "img": "images/items/travel/marcussmercenaryshop.png",
     "initial_active_state": true,
     "overlay_align": "left",
-    "codes": "enable_region_marcussmercenaryshop"
+    "codes": "enable_region_marcusmercenaryshop"
   },
   {
     "name": "Enable Region: Rotgut Distillery",

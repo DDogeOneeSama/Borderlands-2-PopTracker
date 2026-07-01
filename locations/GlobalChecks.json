@@ -1,1246 +1,1794 @@
 [
   {
     "name": "GlobalChecks",
-    "chest_unopened_img": "/images/items/close.png",
-    "chest_opened_img": "/images/items/open.png",
     "overlay_background": "#000000",
-    "access_rules": [
-      " "
-    ],
     "children": [
       {
         "name": "Levels",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
             "name": "Level 2",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|2"],
+            "visibility_rules": ["$LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Level 3",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["$LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Level 4",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|4"],
+            "visibility_rules": ["$LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Level 5",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|5"],
+            "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Level 6",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Level 7",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Level 8",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|8"],
+            "visibility_rules": ["$LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Level 9",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|9"],
+            "visibility_rules": ["$LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Level 10",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|10"],
+            "visibility_rules": ["$LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Level 11",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Level 12",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|12"],
+            "visibility_rules": ["$LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Level 13",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Level 14",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|14"],
+            "visibility_rules": ["$LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "Level 15",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Level 16",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Level 17",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Level 18",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|18"],
+            "visibility_rules": ["$LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Level 19",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["$LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Level 20",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|20"],
+            "visibility_rules": ["$LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Level 21",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|21"],
+            "visibility_rules": ["$LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Level 22",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|22"],
+            "visibility_rules": ["$LevelLimit|22"],
             "item_count": 1
           },
           {
             "name": "Level 23",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|23"],
+            "visibility_rules": ["$LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Level 24",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|24"],
+            "visibility_rules": ["$LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Level 25",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|25"],
+            "visibility_rules": ["$LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Level 26",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|26"],
+            "visibility_rules": ["$LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Level 27",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|27"],
+            "visibility_rules": ["$LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Level 28",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|28"],
+            "visibility_rules": ["$LevelLimit|28"],
             "item_count": 1
           },
           {
             "name": "Level 29",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|29"],
+            "visibility_rules": ["$LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Level 30",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
         "sections": [
           {
-            "name": "Common Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique Shield",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique GrenadeMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common ClassMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon ClassMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare ClassMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare ClassMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary ClassMod",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique Relic",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique Pistol",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique Shotgun",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique SMG",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique SniperRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique AssaultRifle",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "GearPickup",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
-        ],
-        "sections": [
-          {
-            "name": "Common RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Uncommon RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rare RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "VeryRare RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "E-Tech RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Legendary RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Seraph RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Rainbow RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Pearlescent RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Unique RocketLauncher",
-            "access_rules": [],
-            "visibility_rules": [],
+            "name": "Common Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthernShelf",
+              "license:commonshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommonshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:rareshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryrareshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|Highlands",
+              "license:legendaryshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|Forge",
+              "license:seraphshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|Burrows",
+              "license:rainbowshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique Shield Found",
+            "access_rules": [
+              "^$CanReachRegion|HolySpirits",
+              "license:uniqueshield, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthernShelf",
+              "license:commongrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommongrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:raregrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryraregrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthernShelf",
+              "license:legendarygrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|Forge",
+              "license:seraphgrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|HeliosFallen",
+              "license:rainbowgrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique GrenadeMod Found",
+            "access_rules": [
+              "^$CanReachRegion|LairOfInfiniteAgony",
+              "license:uniquegrenademod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common ClassMod Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:commonclassmod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon ClassMod Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:uncommonclassmod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare ClassMod Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:rareclassmod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare ClassMod Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:veryrareclassmod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary ClassMod Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve",
+              "license:legendaryclassmod, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:commonrelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:uncommonrelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:rarerelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|BloodshotStronghold",
+              "license:veryrarerelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve",
+              "license:e-techrelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|LeviathansLair",
+              "license:seraphrelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|FFSBossFight",
+              "license:rainbowrelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique Relic Found",
+            "access_rules": [
+              "^$CanReachRegion|WingedStorm",
+              "license:uniquerelic, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|WindshearWaste",
+              "license:commonpistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommonpistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:rarepistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryrarepistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:e-techpistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|WindshearWaste",
+              "license:legendarypistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|Forge",
+              "license:seraphpistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
+              "license:pearlescentpistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
+              "gear_rarity_checks_all, $LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique Pistol Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthernShelf",
+              "license:uniquepistol, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|WindshearWaste",
+              "license:commonshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommonshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:rareshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryrareshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:e-techshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|Fridge, ^$CanReachRegion|Highlands",
+              "license:legendaryshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|LeviathansLair",
+              "license:seraphshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|FFSBossFight, ^$CanReachRegion|LairOfInfiniteAgony, ^$CanReachRegion|Backburner",
+              "license:rainbowshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
+              "license:pearlescentshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
+              "gear_rarity_checks_all, $LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique Shotgun Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthpawSteam&Power, ^$CanReachRegion|Sanctuary",
+              "license:uniqueshotgun, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:commonsmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommonsmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:raresmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryraresmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:e-techsmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthpawSteam&Power, ^$CanReachRegion|Sanctuary",
+              "license:legendarysmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|LeviathansLair",
+              "license:seraphsmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|Burrows",
+              "license:rainbowsmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
+              "license:pearlescentsmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
+              "gear_rarity_checks_all, $LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique SMG Found",
+            "access_rules": [
+              "^$CanReachRegion|FrostburnCanyon",
+              "license:uniquesmg, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:commonsniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommonsniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:raresniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryraresniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:e-techsniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthpawSteam&Power, ^$CanReachRegion|Sanctuary",
+              "license:legendarysniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|LeviathansLair",
+              "license:seraphsniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|MtScarabResearchCenter",
+              "license:rainbowsniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
+              "license:pearlescentsniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
+              "gear_rarity_checks_all, $LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique SniperRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthpawSteam&Power",
+              "license:uniquesniperrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:commonassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommonassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:rareassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryrareassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:e-techassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|SouthernShelfBay",
+              "license:legendaryassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|LeviathansLair",
+              "license:seraphassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|Burrows",
+              "license:rainbowassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
+              "license:pearlescentassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
+              "gear_rarity_checks_all, $LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique AssaultRifle Found",
+            "access_rules": [
+              "^$CanReachRegion|CandlerakksCrag",
+              "license:uniqueassaultrifle, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Common RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:commonrocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Uncommon RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:uncommonrocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rare RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:rarerocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "VeryRare RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:veryrarerocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "E-Tech RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "license:e-techrocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Legendary RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary",
+              "license:legendaryrocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Seraph RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|LeviathansLair",
+              "license:seraphrocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rainbow RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|MtScarabResearchCenter",
+              "license:rainbowrocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_all"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pearlescent RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
+              "license:pearlescentrocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
+              "gear_rarity_checks_all, $LevelLimit|30"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Unique RocketLauncher Found",
+            "access_rules": [
+              "^$CanReachRegion|Fridge",
+              "license:uniquerocketlauncher, receive_gear_enabled"
+            ],
+            "visibility_rules": [
+              "gear_rarity_checks_exclude_seraph_plus",
+              "gear_rarity_checks_exclude_pearl_plus",
+              "gear_rarity_checks_exclude_rainbow",
+              "gear_rarity_checks_all"
+            ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Enemies",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "generic_mob_checks_enabled"
         ],
         "sections": [
           {
             "name": "Skag Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|8"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Rakk Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|2"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Bullymong Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WindshearWaste, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_WindshearWaste, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Psycho Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|2"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Rat Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|11"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Spiderant Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$OnLevel|10"],
+            "visibility_rules": ["enable_region_FrostburnCanyon, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Varkid Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|TundraExpress, ^$OnLevel|13"],
+            "visibility_rules": ["enable_region_TundraExpress, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Goliath Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$OnLevel|10"],
+            "visibility_rules": ["enable_region_ThousandCuts, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Marauder Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|2"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Stalker Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Midget Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|2"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Nomad Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|8"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Thresher Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|CausticCaverns, ^$OnLevel|17"],
+            "visibility_rules": ["enable_region_CausticCaverns, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Badass Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$OnLevel|5"],
+            "visibility_rules": ["enable_region_FrostburnCanyon, $LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Skeleton Generic Drop",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|UnassumingDocks, ^$OnLevel|30"],
+            "visibility_rules": ["enable_region_UnassumingDocks, $LevelLimit|30"],
+            "item_count": 1
+          },
+          {
+            "name": "Loader Generic Drop",
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$OnLevel|11"],
+            "visibility_rules": ["enable_region_BloodshotRamparts, $LevelLimit|11"],
+            "item_count": 1
+          },
+          {
+            "name": "Crystalisk Generic Drop",
+            "access_rules": ["^$CanReachRegion|CausticCaverns, ^$OnLevel|17"],
+            "visibility_rules": ["enable_region_CausticCaverns, $LevelLimit|17"],
+            "item_count": 1
+          },
+          {
+            "name": "Surveyor Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "EnemyChallenges",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Cruising for a Bruising",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bully the Bullies",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Constructor Destructor",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Bunker, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_Bunker, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Crystals Are a Girls Best Friend",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|CausticCaverns, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_CausticCaverns, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Paingineering",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Opportunity, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_Opportunity, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - WHY SO MUCH HURT!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_ThousandCuts, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Die in the Friendly Skies",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Dust, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_Dust, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Load and Lock",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_BloodshotRamparts, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Marauder I Hardly Know Er!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Little Person, Big Pain",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - You (No)Mad, Bro",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Mamas Boys",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - You Dirty Rat",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Fridge, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_Fridge, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Skags to Riches",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Pest Control",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_FrostburnCanyon, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Youre One Ugly Mother",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_Highlands, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Just a Moment of Your Time",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_Highlands, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Tentacle Obsession",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_Highlands, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Another Bug Hunt",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|TundraExpress, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_TundraExpress, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Pod Pew Pew",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|TundraExpress, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_TundraExpress, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Short-Chained",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hurly Burly",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|1"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Money",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Whaddaya Buyin",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_Sanctuary, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - For the Hoard!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["progressivemoneycap:2, ^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Limited-Time Offer",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Wholesale",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Dolla Dolla Bills, Yall",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["progressivemoneycap, ^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Psst, Hey Buddy",
             "access_rules": [],
-            "visibility_rules": [],
+            "visibility_rules": ["remove_coop_checks_keep"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Combat",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Not Full of Monkeys",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Knee-Deep in Brass",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Afternoon Delight",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Got to Boogie",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Critical Acclaim",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - To Pay the Bills",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["3skillpoints(p), ^$OnLevel|1"],
+            "visibility_rules": ["$LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Gun Slinger",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, license:uncommonpistol, ^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Boomerbang",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, license:uncommonpistol, ^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Grenade",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Pull the Pin",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|5"],
+            "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Challenge - Chemical Sprayer",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|10"],
+            "visibility_rules": ["$LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Challenge - Woah, Black Betty",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|14"],
+            "visibility_rules": ["$LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "Challenge - EXPLOOOOOSIONS!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|12"],
+            "visibility_rules": ["$LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Singled Out",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|19"],
+            "visibility_rules": ["$LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Health Vampire",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|17"],
+            "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Loot",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - The Call of Booty",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
@@ -1251,554 +1799,548 @@
           },
           {
             "name": "Challenge - Gun Runner",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|1"],
+            "visibility_rules": ["$LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Like My Treasure Rare",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Its Not Easy Looting Green",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Nothing Rhymes with Orange",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Purple Reign",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Another Mans Treasure",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Melee",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Fisticuffs!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["melee, ^$OnLevel|1"],
+            "visibility_rules": ["$LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - A Squall of Violence",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["melee, license:uniquepistol, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Misc",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Yo Dawg, I Heard You Like Challenges",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - JEEEEENKINSSSSSS!!!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|19"],
+            "visibility_rules": ["enable_region_WildlifeExploitationPreserve, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Compl33tionist",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanReachRegion|SouthpawSteam&Power, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_Sanctuary, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Sidejacked",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_Sanctuary, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Haters Gonna Hate",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|1"],
+            "visibility_rules": ["remove_coop_checks_keep, $LevelLimit|1"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Recovery",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - This Is No Time for Lazy!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|1"],
+            "visibility_rules": ["remove_coop_checks_keep, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Heal Plz",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ill Just Help Myself",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Badass Bingo",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["$LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Challenge - Green Meanie",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Death, Wind, and Fire",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Im Back! Shocked",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|10"],
+            "visibility_rules": ["$LevelLimit|10"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Shields",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Ammo Eater",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Amp It Up",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Super Novas",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Roid Rage",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Game of Thorns",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Vehicles",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Blue Sparks",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hit-and-Fun",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Passive Aggressive",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_Dust, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Turret Syndrome",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, vehiclefire, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - One Van Leaves",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, vehiclefire, ^$OnLevel|7"],
+            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "AssaultRifle",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
-          " "
+          "^$ANY|license:commonassaultrifle|license:uncommonassaultrifle|license:rareassaultrifle|license:veryrareassaultrifle|license:e-techassaultrifle|license:legendaryassaultrifle|license:seraphassaultrifle|license:rainbowassaultrifle|license:pearlescentassaultrifle|license:uniqueassaultrifle"
+        ],
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - This Is My Gun",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - This Is My Rifle",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Aggravated Assault",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Crouching Tiger, Hidden Assault Rifle",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["crouch, ^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - From My Cold, Dead Hands",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Launcher",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
-          " "
+          "^$ANY|license:commonrocketlauncher|license:uncommonrocketlauncher|license:rarerocketlauncher|license:veryrarerocketlauncher|license:e-techrocketlauncher|license:legendaryrocketlauncher|license:rainbowrocketlauncher|license:pearlescentrocketlauncher|license:uniquerocketlauncher"
+        ],
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Rocket and Roll",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Catch-a-Rocket!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Shield Basher",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Sky Rockets in Flight",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Splish Splash",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Challenge - Gone with the Second Wind",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|16"],
+            "visibility_rules": ["$LevelLimit|16"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Pistol",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
-          " "
+          "^$ANY|license:commonpistol|license:uncommonpistol|license:rarepistol|license:veryrarepistol|license:e-techpistol|license:legendarypistol|license:seraphpistol|license:pearlescentpistol|license:uniquepistol"
+        ],
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Pistolero",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Deadeye",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Killer",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Quickdraw",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hard Boiled",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "SMG",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
-          " "
+          "^$ANY|license:commonsmg|license:uncommonsmg|license:raresmg|license:veryraresmg|license:e-techsmg|license:legendarysmg|license:seraphsmg|license:rainbowsmg|license:pearlescentsmg|license:uniquesmg"
+        ],
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - High Rate of Ire",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Constructive Criticism",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hail of Bullets",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - More Like Submachine FUN",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Shotgun",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
-          " "
+          "^$ANY|license:commonshotgun|license:uncommonshotgun|license:rareshotgun|license:veryrareshotgun|license:e-techshotgun|license:legendaryshotgun|license:seraphshotgun|license:rainbowshotgun|license:pearlescentshotgun|license:uniqueshotgun"
+        ],
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Shotgun Surgeon",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Faceful of Buckshot",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Shotgun!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Shotgun Sniper",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Open Wide!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Lock, Stock, and",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Sniper",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
         "access_rules": [
-          " "
+          "^$ANY|license:commonsniperrifle|license:uncommonsniperrifle|license:raresniperrifle|license:veryraresniperrifle|license:e-techsniperrifle|license:legendarysniperrifle|license:seraphsniperrifle|license:rainbowsniperrifle|license:pearlescentsniperrifle|license:uniquesniperrifle"
+        ],
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Longshot",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - No Scope, No Problem",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Eviscerated",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Surprise!",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Snipe Hunting",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Longshot Headshot",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Leaf on the Second Wind",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["^$OnLevel|7"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Elemental",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-          " "
+        "visibility_rules": [
+          "bar_challenge_checks_enable_all",
+          "bar_challenge_checks_enable_general_only"
         ],
         "sections": [
           {
             "name": "Challenge - Slag-Licked",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Corroderate",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|13"],
+            "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Just Want to Set the World on Fire",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Say Watt Again",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Acid Trip",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Boom",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cowering Inferno",
-            "access_rules": [],
-            "visibility_rules": [],
+            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }
         ]

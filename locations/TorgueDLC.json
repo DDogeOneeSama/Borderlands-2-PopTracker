@@ -1,1001 +1,1018 @@
 [
-    {
-        "name": "TorgueDLC",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
+  {
+    "name": "TorgueDLC",
+    "overlay_background": "#000000",
+    "visibility_rules": [
+      "remove_torgue_checks_keep"
+    ],
+    "children": [
+      {
+        "name": "Beatdown",
         "access_rules": [
-            " "
+          "^$CanReachRegion|Beatdown"
         ],
-        "children": [
-            {
-                "name": "PyroPetesBar",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Enemy - Pyro Pete",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - Pyro Pete the Invincible",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torgue Vendor - Pyro Petes Bar",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Pyro Petes Bar",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Pyro Petes Bar",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - I Thought Youd Be Bigger",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Moxxi Cell #1",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Moxxi Cell #2",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 2 Battle - Bar Room Blitz",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Battle - Bar Room Blitz",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battle - Bar Room Blitz",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Rematch - Bar Room Blitz",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "ChopSuey",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "A Montage",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pete the Invincible",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 1463,
-                        "y": 64,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Beatdown",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Enemy - Sully the Stabber",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - Hamhock",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Underpass",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - School Bus",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torgue Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torgue Vendor - Gun Emporeum",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Gun Emporeum",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Gun Emporeum",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Cult of the Vault",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Beatdown Rooftops",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Gun Emporeum Alley",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mother-Lover",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Totally Recall",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 378,
-                        "y": 2485,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "SouthernRaceway",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Enemy - Buff Gamer",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - Game Critic",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - Motor Mama",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Zer0 Poster",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Maya Poster",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torgue Vendor - Motor Mamas Arena",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Motor Mamas Arena",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Motor Mamas Arena",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Cult of the Vault",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 585,
-                        "y": 148,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Forge",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Enemy - Anonymous Troll",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - Uriah",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - Pistons Blimp",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Smack Talker",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Lava",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Housing",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torgue Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Forge Bounty Board",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Forge Bounty Board",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Air Mail",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Cult of the Vault",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - I DID Start the Fire",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Parachutes Are for Pansies",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Landing Pad Maintenance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Forge Parkour",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Junkyard",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 2 Battle - Twelve O Clock High",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Battle - Twelve O Clock High",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battle - Twelve O Clock High",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Rematch - Twelve O Clock High",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Commercial Appeal",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "My Husband the Skag",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Say That To My Face",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Knockin on Heavens Door",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kickstart My Heart",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 1730,
-                        "y": 726,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "TorgueArena",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Enemy - Badassasaurus",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Enemy - Piston",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torgue Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - C4 Is For Cookie",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Cult of the Vault",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Its Cool, Im Part of the Crew",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Are You Not Entertained",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Burnin Ring of Fire",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Arena Foyer",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 2 Battle - Appetite for Destruction",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Battle - Appetite for Destruction",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Rematch - Appetite for Destruction",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battle - Appetite for Destruction",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Burn, Baby, Burn",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 756,
-                        "y": 928,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "TorgueArenaRing",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Symbol - Arena Wall",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Arena Ladder",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - First Arena Ladder",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Maintenance Pipes",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Storage Area",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 1598,
-                        "y": 1717,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "BadassCrater",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Symbol - Badass Highway",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Beatdown Door",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Billboard Lower",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Symbol - Billboard Upper",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Entrance",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Town",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Town",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Torgue Vendor - Outside The Forge",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Outside The Forge",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Outside The Forge",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - As Advertised",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Cult of the Vault",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Fan Club Membership",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - I Can Fly!",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Only Shells I Need Are in My Guns",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Beatdown Billboard",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Torgue Arena Billboard",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chest - Crater Rim Parkour Hut",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Highway To Hell",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 2 Battle - The Death Race",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Battle - The Death Race",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battle - The Death Race",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tier 3 Rematch - The Death Race",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Number One Fan",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Welcome To The Jungle",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Get Your Motor Running",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Eat Cookies and Crap Thunder",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Matter Of Taste",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monster Hunter",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Walking the Dog",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 695,
-                        "y": 1176,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "BadassBar",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Torgue Vendor - Badass Bar",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ammo Vendor - Badass Bar",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Med Vendor - Badass Bar",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Breaking and Entering",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Long Way To The Top",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gas Guzzlers",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Interview with a Vault Hunter",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Everybody Wants to be Wanted",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 2481,
-                        "y": 899,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Challenges",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Challenge - Torgue Items Purchased",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Battles Completed",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Bikers Killed",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Bikes Destroyed",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Pete the Invincible Defeated",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Challenge - Torgue Tokens Acquired",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 2253,
-                        "y": 228,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "TorgueFinalArena",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Chest - Arena Foyer",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TorgueDLC",
-                        "x": 2333,
-                        "y": 1989,
-                        "size": 6
-                    }
-                ]
-            }
+        "visibility_rules": [
+          "enable_region_Beatdown"
+        ],
+        "sections": [
+          {
+            "name": "Mother-Lover",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Totally Recall",
+            "access_rules": ["^$CanReachRegion|PyroPetesBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Number One Fan",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Sully the Stabber",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Hamhock",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": ["remove_missable_checks_keep, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Underpass",
+            "access_rules": ["^$CanMakeJump|495, ^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - School Bus",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Gun Emporeum",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Gun Emporeum",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Gun Emporeum",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": ["^$CanMakeJump|495, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Beatdown Rooftops",
+            "access_rules": ["^$CanMakeJump|465, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Gun Emporeum Alley",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          }
         ]
-    }
+      },
+      {
+        "name": "PyroPetesBar",
+        "access_rules": [
+          "^$CanReachRegion|PyroPetesBar"
+        ],
+        "visibility_rules": [
+          "enable_region_PyroPetesBar"
+        ],
+        "sections": [
+          {
+            "name": "Burn, Baby, Burn",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Battle - Bar Room Blitz",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "ChopSuey",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 2 Battle - Bar Room Blitz",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Battle - Bar Room Blitz",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Rematch - Bar Room Blitz",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Pete the Invincible",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, remove_raid_boss_checks_keep, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, remove_raid_boss_checks_keep, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Pyro Pete",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Pyro Pete the Invincible",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|30"],
+            "visibility_rules": [
+              "remove_raid_boss_checks_keep, $LevelLimit|30"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Pyro Petes Bar",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Pyro Petes Bar",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Pyro Petes Bar",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - I Thought Youd Be Bigger",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|50",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Moxxi Cell #1",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Moxxi Cell #2",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "SouthernRaceway",
+        "access_rules": [
+          "^$CanReachRegion|SouthernRaceway"
+        ],
+        "visibility_rules": [
+          "enable_region_SouthernRaceway"
+        ],
+        "sections": [
+          {
+            "name": "Get Your Motor Running",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Matter Of Taste",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Monster Hunter",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Gas Guzzlers",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Interview with a Vault Hunter",
+            "access_rules": ["^$CanMakeJump|560, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Everybody Wants to be Wanted",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Buff Gamer",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Game Critic",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Motor Mama",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Zer0 Poster",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Maya Poster",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Motor Mamas Arena",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Motor Mamas Arena",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Motor Mamas Arena",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Forge",
+        "access_rules": [
+          "^$CanReachRegion|Forge"
+        ],
+        "visibility_rules": [
+          "enable_region_Forge"
+        ],
+        "sections": [
+          {
+            "name": "Breaking and Entering",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Knockin on Heavens Door",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Kickstart My Heart",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Battle - Twelve O Clock High",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 2 Battle - Twelve O Clock High",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Battle - Twelve O Clock High",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Rematch - Twelve O Clock High",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Commercial Appeal",
+            "access_rules": ["license:rareshotgun, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "My Husband the Skag",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Say That To My Face",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Anonymous Troll",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Uriah",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["remove_missable_checks_keep, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Pistons Blimp",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Smack Talker",
+            "access_rules": ["^$CanMakeJump|567, ^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Lava",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Housing",
+            "access_rules": ["^$CanMakeJump|421, ^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Forge Bounty Board",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Forge Bounty Board",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Air Mail",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|50",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": ["^$CanMakeJump|567, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - I DID Start the Fire",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Parachutes Are for Pansies",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Landing Pad Maintenance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Forge Parkour",
+            "access_rules": ["^$CanMakeJump|465, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Junkyard",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "TorgueArena",
+        "access_rules": [
+          "^$CanReachRegion|TorgueArena"
+        ],
+        "visibility_rules": [
+          "enable_region_TorgueArena"
+        ],
+        "sections": [
+          {
+            "name": "Welcome To The Jungle",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Battle - Appetite for Destruction",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Eat Cookies and Crap Thunder",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Long Way To The Top",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$CanMakeJump|546, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 2 Battle - Appetite for Destruction",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Battle - Appetite for Destruction",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Rematch - Appetite for Destruction",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Badassasaurus",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Enemy - Piston",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "visibility_rules": ["$LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Arena Wall",
+            "access_rules": ["^$CanMakeJump|355, ^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Arena Ladder",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Entrance",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - C4 Is For Cookie",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": ["^$CanMakeJump|355, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Its Cool, Im Part of the Crew",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Are You Not Entertained",
+            "access_rules": ["^$OnLevel|50"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|50",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Burnin Ring of Fire",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Arena Foyer",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - First Arena Ladder",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Maintenance Pipes",
+            "access_rules": ["^$CanMakeJump|450, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Storage Area",
+            "access_rules": ["^$CanMakeJump|470, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Final Arena Foyer",
+            "access_rules": ["^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "BadassCrater",
+        "access_rules": [
+          "^$CanReachRegion|BadassCrater"
+        ],
+        "visibility_rules": [
+          "enable_region_BadassCrater"
+        ],
+        "sections": [
+          {
+            "name": "Highway To Hell",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "A Montage",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Battle - The Death Race",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 2 Battle - The Death Race",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Battle - The Death Race",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Tier 3 Rematch - The Death Race",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|50"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|50",
+              "quest_completion_checks_sidequest_only, $LevelLimit|50"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Badass Highway",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Beatdown Door",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Billboard Lower",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Symbol - Billboard Upper",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Entrance",
+            "access_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Entrance",
+            "access_rules": [],
+            "visibility_rules": ["vending_machines_enabled"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Town",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Town",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Outside The Forge",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Outside The Forge",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Outside The Forge",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - As Advertised",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "access_rules": ["^$CanMakeJump|355, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Fan Club Membership",
+            "access_rules": ["^$CanMakeJump|560, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - I Can Fly!",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Only Shells I Need Are in My Guns",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Beatdown Billboard",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Torgue Arena Billboard",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Crater Rim Parkour Hut",
+            "access_rules": ["^$CanMakeJump|560, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "BadassCraterBar",
+        "access_rules": [
+          "^$CanReachRegion|BadassCraterBar"
+        ],
+        "visibility_rules": [
+          "enable_region_BadassCraterBar"
+        ],
+        "sections": [
+          {
+            "name": "Walking the Dog",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Vendor - Badass Bar",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Ammo Vendor - Badass Bar",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Med Vendor - Badass Bar",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Challenges",
+        "sections": [
+          {
+            "name": "Challenge - Torgue Items Purchased",
+            "access_rules": ["^$CanReachRegion|PyroPetesBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, enable_region_PyroPetesBar, $LevelLimit|15",
+              "bar_challenge_checks_enable_general_only, enable_region_PyroPetesBar, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Battles Completed",
+            "access_rules": ["^$CanReachRegion|TorgueArena, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, enable_region_TorgueArena, $LevelLimit|15",
+              "bar_challenge_checks_enable_general_only, enable_region_TorgueArena, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Bikers Killed",
+            "access_rules": ["^$CanReachRegion|Beatdown, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, enable_region_Beatdown, $LevelLimit|15",
+              "bar_challenge_checks_enable_general_only, enable_region_Beatdown, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Bikes Destroyed",
+            "access_rules": ["^$CanReachRegion|Beatdown, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, enable_region_Beatdown, $LevelLimit|15",
+              "bar_challenge_checks_enable_general_only, enable_region_Beatdown, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Pete the Invincible Defeated",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_Forge, $LevelLimit|15",
+              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_Forge, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Challenge - Torgue Tokens Acquired",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "visibility_rules": [
+              "bar_challenge_checks_enable_all, enable_region_BadassCraterBar, $LevelLimit|15",
+              "bar_challenge_checks_enable_general_only, enable_region_BadassCraterBar, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
 ]
