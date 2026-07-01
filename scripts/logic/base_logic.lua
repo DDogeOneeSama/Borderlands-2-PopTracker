@@ -80,7 +80,7 @@ function OpenRegions()
             end
           end
         end
-        print(connectedRegion)
+        --print(connectedRegion)
         accessibleRegions[connectedRegion] = AccessibilityLevel.Normal
         table.insert(queue, connectedRegion)
         regionChanges = true
