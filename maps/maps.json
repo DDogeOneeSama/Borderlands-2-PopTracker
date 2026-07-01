@@ -264,12 +264,6 @@
     "img": "images/maps/GearPickups.png"
   },
   {
-    "name": "ScarlettDLCChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/ScarlettDLCChallenges.png"
-  },
-  {
     "name": "Oasis",
     "location_size": 6,
     "location_border_thickness": 1,
@@ -312,12 +306,6 @@
     "img": "images/maps/BL2 Leviathans Lair.png"
   },
   {
-    "name": "TorgueDLCChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/TorgueDLCChallenges.png"
-  },
-  {
     "name": "BadassCrater",
     "location_size": 6,
     "location_border_thickness": 1,
@@ -354,12 +342,6 @@
     "img": "images/maps/BL2 Forge.png"
   },
   {
-    "name": "HammerlockDLCChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/HammerlockDLCChallenges.png"
-  },
-  {
     "name": "HuntersGrotto",
     "location_size": 6,
     "location_border_thickness": 1,
@@ -388,12 +370,6 @@
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/BL2 Terminus.png"
-  },
-  {
-    "name": "TinaDLCChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/TinaDLCChallenges.png"
   },
   {
     "name": "UnassumingDocks",
@@ -454,12 +430,6 @@
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/BL2 Winged Storm.png"
-  },
-  {
-    "name": "LilithDLCChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/LilithDLCChallenges.png"
   },
   {
     "name": "FFSIntroSanctuary",

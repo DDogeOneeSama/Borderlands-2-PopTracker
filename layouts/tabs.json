@@ -444,15 +444,6 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Scarlett DLC Challenges",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "ScarlettDLCChallenges"
-                ]
-              }
-            },
-            {
               "title": "Oasis",
               "content": {
                 "type": "map",
@@ -524,15 +515,6 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Torgue DLC Challenges",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "TorgueDLCChallenges"
-                ]
-              }
-            },
-            {
               "title": "Badass Crater of Badassitude",
               "content": {
                 "type": "map",
@@ -595,15 +577,6 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Hammerlock DLC Challenges",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "HammerlockDLCChallenges"
-                ]
-              }
-            },
-            {
               "title": "Hunter's Grotto",
               "content": {
                 "type": "map",
@@ -656,15 +629,6 @@
         "content": {
           "type": "tabbed",
           "tabs": [
-            {
-              "title": "Tina DLC Challenges",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "TinaDLCChallenges"
-                ]
-              }
-            },
             {
               "title": "Unassuming Docks",
               "content": {
@@ -763,15 +727,6 @@
         "content": {
           "type": "tabbed",
           "tabs": [
-            {
-              "title": "Lilith DLC Challenges",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "LilithDLCChallenges"
-                ]
-              }
-            },
             {
               "title": "FFS Intro",
               "content": {
