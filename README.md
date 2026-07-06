@@ -6,18 +6,16 @@ Currently a major WIP with the BL2 Archipelago not even being complete yet.
 # Completed
 - Auto-tracking for all items as of v0.5.3
 - Auto-tracking for all locations as of v0.5.3
+- Logic for all locations as of v0.5.3
 - All locations visible on the overworld, and shows if the region they are in can be currently accessed or not
 - All settings for the Archipelago as of v0.5.3 auto-imported and changeable (Does not change actual world settings)
 - All map images completed and ready to have their locations placed
 
 # WIP
-- Logic for all locations (If the check can actually be gotten)
-- Show if the level requirements for each location has been met yet
-- Tab for all checks without a specific region
-
-# Next to work on
 - Place all locations on their respective maps
 - Auto-area switching
+
+# Next to work on
 - Update icons for travel items
 - Possible separate images for locations based on which kind of location they are (Ex. Vault symbol for symbols)
 
