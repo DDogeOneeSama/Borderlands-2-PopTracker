@@ -2467,6 +2467,12 @@
             "item_count": 1
           },
           {
+            "name": "Enemy - Bloodwing",
+            "access_rules": ["^$OnLevel|19"],
+            "visibility_rules": ["$LevelLimit|19"],
+            "item_count": 1
+          },
+          {
             "name": "Symbol - Dockyard Roof",
             "access_rules": ["^$CanMakeJump|297, ^$OnLevel|19"],
             "visibility_rules": ["vault_symbols_enabled, $LevelLimit|19"],

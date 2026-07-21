@@ -207,6 +207,138 @@
           {
             "name": "Surveyor Generic Drop",
             "ref": "GlobalChecks/Enemies/Surveyor Generic Drop"
+          },
+          {
+            "name": "Hyperion Personnel Generic Drop",
+            "ref": "GlobalChecks/Enemies/Hyperion Personnel Generic Drop"
+          },
+          {
+            "name": "Constructor Generic Drop",
+            "ref": "GlobalChecks/Enemies/Constructor Generic Drop"
+          },
+          {
+            "name": "Buzzard Generic Drop",
+            "ref": "GlobalChecks/Enemies/Buzzard Generic Drop"
+          },
+          {
+            "name": "Pirate Generic Drop",
+            "ref": "GlobalChecks/Enemies/Pirate Generic Drop"
+          },
+          {
+            "name": "Sand Worm Generic Drop",
+            "ref": "GlobalChecks/Enemies/Sand Worm Generic Drop"
+          },
+          {
+            "name": "Biker Generic Drop",
+            "ref": "GlobalChecks/Enemies/Biker Generic Drop"
+          },
+          {
+            "name": "Flyboy Buzzard Generic Drop",
+            "ref": "GlobalChecks/Enemies/Flyboy Buzzard Generic Drop"
+          },
+          {
+            "name": "Torgue Loader Generic Drop",
+            "ref": "GlobalChecks/Enemies/Torgue Loader Generic Drop"
+          },
+          {
+            "name": "Borok Generic Drop",
+            "ref": "GlobalChecks/Enemies/Borok Generic Drop"
+          },
+          {
+            "name": "Savage Generic Drop",
+            "ref": "GlobalChecks/Enemies/Savage Generic Drop"
+          },
+          {
+            "name": "Witch Doctor Generic Drop",
+            "ref": "GlobalChecks/Enemies/Witch Doctor Generic Drop"
+          },
+          {
+            "name": "Drifter Generic Drop",
+            "ref": "GlobalChecks/Enemies/Drifter Generic Drop"
+          },
+          {
+            "name": "Scaylion Generic Drop",
+            "ref": "GlobalChecks/Enemies/Scaylion Generic Drop"
+          },
+          {
+            "name": "Spore Generic Drop",
+            "ref": "GlobalChecks/Enemies/Spore Generic Drop"
+          },
+          {
+            "name": "Golem Generic Drop",
+            "ref": "GlobalChecks/Enemies/Golem Generic Drop"
+          },
+          {
+            "name": "Spider Generic Drop",
+            "ref": "GlobalChecks/Enemies/Spider Generic Drop"
+          },
+          {
+            "name": "Treant Generic Drop",
+            "ref": "GlobalChecks/Enemies/Treant Generic Drop"
+          },
+          {
+            "name": "Pixie Generic Drop",
+            "ref": "GlobalChecks/Enemies/Pixie Generic Drop"
+          },
+          {
+            "name": "Orc Generic Drop",
+            "ref": "GlobalChecks/Enemies/Orc Generic Drop"
+          },
+          {
+            "name": "Knight Generic Drop",
+            "ref": "GlobalChecks/Enemies/Knight Generic Drop"
+          },
+          {
+            "name": "Dragon Generic Drop",
+            "ref": "GlobalChecks/Enemies/Dragon Generic Drop"
+          },
+          {
+            "name": "Mimic Generic Drop",
+            "ref": "GlobalChecks/Enemies/Mimic Generic Drop"
+          },
+          {
+            "name": "Dwarf Generic Drop",
+            "ref": "GlobalChecks/Enemies/Dwarf Generic Drop"
+          },
+          {
+            "name": "Spellcaster Generic Drop",
+            "ref": "GlobalChecks/Enemies/Spellcaster Generic Drop"
+          },
+          {
+            "name": "Infected Generic Drop",
+            "ref": "GlobalChecks/Enemies/Infected Generic Drop"
+          },
+          {
+            "name": "New Pandora Unit Generic Drop",
+            "ref": "GlobalChecks/Enemies/New Pandora Unit Generic Drop"
+          },
+          {
+            "name": "Pump-Kin Generic Drop",
+            "ref": "GlobalChecks/Enemies/Pump-Kin Generic Drop"
+          },
+          {
+            "name": "Chef Generic Drop",
+            "ref": "GlobalChecks/Enemies/Chef Generic Drop"
+          },
+          {
+            "name": "TorgueVision Generic Drop",
+            "ref": "GlobalChecks/Enemies/TorgueVision Generic Drop"
+          },
+          {
+            "name": "Stabber Jabber Generic Drop",
+            "ref": "GlobalChecks/Enemies/Stabber Jabber Generic Drop"
+          },
+          {
+            "name": "Yeti Generic Drop",
+            "ref": "GlobalChecks/Enemies/Yeti Generic Drop"
+          },
+          {
+            "name": "Snowman Generic Drop",
+            "ref": "GlobalChecks/Enemies/Snowman Generic Drop"
+          },
+          {
+            "name": "Crab-Kin Generic Drop",
+            "ref": "GlobalChecks/Enemies/Crab-Kin Generic Drop"
           }
         ],
         "map_locations": [
@@ -2753,6 +2885,10 @@
             "ref": "BaseGame/WildlifeExploitationPreserve/Enemy - Son of Mothrakk"
           },
           {
+            "name": "Enemy - Bloodwing",
+            "ref": "BaseGame/WildlifeExploitationPreserve/Enemy - Bloodwing"
+          },
+          {
             "name": "Chest - Observation Wing #1",
             "ref": "BaseGame/WildlifeExploitationPreserve/Chest - Observation Wing #1"
           },
@@ -4687,6 +4823,10 @@
           {
             "name": "Enemy - Roscoe",
             "ref": "ScarlettDLC/LeviathansLair/Enemy - Roscoe"
+          },
+          {
+            "name": "Enemy - The Leviathan",
+            "ref": "ScarlettDLC/LeviathansLair/Enemy - The Leviathan"
           },
           {
             "name": "Chest - Outer #1",

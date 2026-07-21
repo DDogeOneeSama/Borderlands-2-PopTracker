@@ -1487,6 +1487,204 @@
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
             "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
+          },
+          {
+            "name": "Hyperion Personnel Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Constructor Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Buzzard Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Pirate Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Sand Worm Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Biker Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Flyboy Buzzard Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Loader Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Borok Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Savage Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Witch Doctor Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Drifter Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Scaylion Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Spore Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Golem Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Spider Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Treant Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Pixie Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Orc Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Knight Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Mimic Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Dwarf Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Spellcaster Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Infected Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "New Pandora Unit Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Pump-Kin Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Chef Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "TorgueVision Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Stabber Jabber Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Yeti Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Snowman Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
+          },
+          {
+            "name": "Crab-Kin Generic Drop",
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
+            "item_count": 1
           }
         ]
       },
