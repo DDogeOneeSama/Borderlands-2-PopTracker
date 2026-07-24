@@ -860,5 +860,38 @@
       "overlay_font_size": 24,
       "overlay_background": "#4d7b99",
       "codes": "max_level_checks"
+  },
+  {
+    "name": "Always on Level",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/always_on_level_disabled.png",
+        "codes": "always_on_level,always_on_level_disabled",
+        "inherit_codes": false,
+        "name": "Always on Level - Disabled"
+      },
+      {
+        "img": "images/settings/always_on_level_enabled.png",
+        "codes": "always_on_level,always_on_level_enabled",
+        "inherit_codes": false,
+        "name": "Always on Level - Enabled"
+      },
+      {
+        "img": "images/settings/always_on_level_down.png",
+        "codes": "always_on_level,always_on_level_down",
+        "inherit_codes": false,
+        "name": "Always on Level - Down Only"
+      },
+      {
+        "img": "images/settings/always_on_level_up.png",
+        "codes": "always_on_level,always_on_level_up",
+        "inherit_codes": false,
+        "name": "Always on Level - Up Only"
+      }
+	]
   }
 ]

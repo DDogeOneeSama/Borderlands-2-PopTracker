@@ -1,18 +1,18 @@
 local next, ipairs = next, ipairs
 
-local staleRegions = true
-local staleLevels = true
-local staleProgressive = true
+local staleRegions = true --Do regions need to be checked
+local staleLevels = true --Do reachable levels need to be checked
+local staleProgressive = true --Do progressive travels need to be checked
 local currentJumpHeight = 630
-local staleJump = true
-local maxLevel = 0
-local staleLevelLimit = true
+local staleJump = true --Does jump height need to be recalculated
+local highestLevel = 0 --Highest reachable level
+local maxLevel = 0 --Max level checks available
+local staleLevelLimit = true --Does max level need to be set
 
 local accessibleRegions =
 {
   Menu = AccessibilityLevel.Normal,
-  WindshearWaste = AccessibilityLevel.Normal,
-  Level0 = AccessibilityLevel.Normal
+  WindshearWaste = AccessibilityLevel.Normal
 }
 
 function InvalidateAccessibleRegions()
@@ -167,31 +167,24 @@ function CanMakeJump(height)
 end
 
 function OnLevel(level)
+  local levelToCheck = tonumber(level)
+  if levelToCheck == 0 then
+    return AccessibilityLevel.Normal
+  end
   if staleRegions then
     OpenRegions()
   end
   if staleLevels then
-    OpenLevels()
+    if ((Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1) or (Tracker:FindObjectForCode("gear_licenses").CurrentStage == 2)) then
+      return AccessibilityLevel.Normal
+    end
+    highestLevel = OpenLevels()
+    staleLevels = false
   end
-  local levelToCheck = tonumber(level)
   if not(LevelLimit(levelToCheck)) then
     return AccessibilityLevel.None
   end
-  if levelToCheck == 0 then
-    return AccessibilityLevel.Normal
-  elseif ((1 <= levelToCheck and levelToCheck <= 5) and (accessibleRegions["Level1to5"])) then
-    return AccessibilityLevel.Normal
-  elseif ((6 <= levelToCheck and levelToCheck <= 10) and (accessibleRegions["Level6to10"])) then
-    return AccessibilityLevel.Normal
-  elseif ((11 <= levelToCheck and levelToCheck <= 15) and (accessibleRegions["Level11to15"])) then
-    return AccessibilityLevel.Normal
-  elseif ((16 <= levelToCheck and levelToCheck <= 20) and (accessibleRegions["Level16to20"])) then
-    return AccessibilityLevel.Normal
-  elseif ((21 <= levelToCheck and levelToCheck <= 25) and (accessibleRegions["Level21to25"])) then
-    return AccessibilityLevel.Normal
-  elseif ((26 <= levelToCheck and levelToCheck <= 30) and (accessibleRegions["Level26to30"])) then
-    return AccessibilityLevel.Normal
-  elseif ((levelToCheck > 30) and (accessibleRegions["Level31+"])) then
+  if ((1 <= levelToCheck and levelToCheck <= 5) and (accessibleRegions["Level1to5"])) then
     return AccessibilityLevel.Normal
   else
     return AccessibilityLevel.SequenceBreak
@@ -199,95 +192,8 @@ function OnLevel(level)
 end
 
 function OpenLevels()
-  staleLevels = false
-  local goToNextLevel = true
-
-  if not(Level1to5Gear()) then
-    goToNextLevel = false
-  end
-  if goToNextLevel then
-    accessibleRegions["Level1to5"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level6to10"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if not(Level6to10Gear()) then
-    goToNextLevel = false
-  end
-  if goToNextLevel then
-    accessibleRegions["Level6to10"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level11to15"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level11to15"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level16to20"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level16to20"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level21to25"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level21to25"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level26to30"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level26to30"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level31+"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level31+"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  ::skip::
+  local
+  
 end
 
 function LevelLimit(level)

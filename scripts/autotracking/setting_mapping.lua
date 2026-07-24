@@ -327,5 +327,16 @@ SLOT_CODES =
       [0] = 0, -- Keep
       [1] = 1  -- Remove
     }
+  },
+  always_on_level = 
+  {
+    code = "always_on_level",
+    mapping =
+    {
+      [0] = 0, -- Disabled
+      [1] = 1, -- Enabled
+      [2] = 2, -- Down only
+      [3] = 3  -- Up only(Logic unchanged)
+    }
   }
 }
