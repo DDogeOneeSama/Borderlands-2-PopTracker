@@ -35,16 +35,16 @@
             "name": "Bearer of Bad News",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|24",
-              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+              "quest_completion_checks_all, enable_Region_ControlCoreAngel, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, enable_Region_ControlCoreAngel, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "BFFs",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|24",
-              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+              "quest_completion_checks_all, enable_Region_ControlCoreAngel, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, enable_Region_ControlCoreAngel, $LevelLimit|24"],
             "item_count": 1
           },
           {
@@ -107,40 +107,40 @@
             "name": "Wont Get Fooled Again",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|18"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|18",
-              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only,enable_Region_Highlands,  $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Claptraps Birthday Bash!",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|16",
-              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Monster Mash (Part 1)",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|26"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|26",
-              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
+              "quest_completion_checks_all, enable_Region_ControlCoreAngel, enable_Region_FrostburnCanyon, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, enable_Region_ControlCoreAngel, enable_Region_FrostburnCanyon, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Monster Mash (Part 2)",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$CanReachRegion|ThreeHornsValley, ^$OnLevel|27"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|27",
-              "quest_completion_checks_sidequest_only, $LevelLimit|27"],
+              "quest_completion_checks_all, enable_Region_ControlCoreAngel, enable_Region_ThreeHornsValley, $LevelLimit|27",
+              "quest_completion_checks_sidequest_only, enable_Region_ControlCoreAngel, enable_Region_ThreeHornsValley, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Monster Mash (Part 3)",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|28"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|28",
-              "quest_completion_checks_sidequest_only, $LevelLimit|28"],
+              "quest_completion_checks_all, enable_Region_ControlCoreAngel, enable_Region_FrostburnCanyon, enable_Region_AridNexusBoneyard, $LevelLimit|28",
+              "quest_completion_checks_sidequest_only, enable_Region_ControlCoreAngel, enable_Region_FrostburnCanyon, enable_Region_AridNexusBoneyard, $LevelLimit|28"],
             "item_count": 1
           },
           {
@@ -248,7 +248,7 @@
           {
             "name": "Chest - Rolands Armory",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|1"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|1"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_ControlCoreAngel, $LevelLimit|1"],
             "item_count": 1
           }
         ]
@@ -603,8 +603,8 @@
             "name": "In Memoriam",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|10"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|10",
-              "quest_completion_checks_sidequest_only, $LevelLimit|10"],
+              "quest_completion_checks_all, enable_Region_FrostburnCanyon, enable_Region_Sanctuary, $LevelLimit|10",
+              "quest_completion_checks_sidequest_only, enable_Region_FrostburnCanyon, enable_Region_Sanctuary, $LevelLimit|10"],
             "item_count": 1
           },
           {
@@ -616,7 +616,7 @@
           {
             "name": "Enemy - Boll",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
-            "visibility_rules": ["$LevelLimit|7"],
+            "visibility_rules": ["enable_Region_FrostburnCanyon, enable_Region_Sanctuary, $LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -671,8 +671,8 @@
             "name": "Challenge - Mans Best Friends",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, remove_missable_checks_keep, $LevelLimit|7",
-              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, $LevelLimit|7"],
+              "bar_challenge_checks_enable_all, enable_Region_FrostburnCanyon, enable_Region_Sanctuary, remove_missable_checks_keep, $LevelLimit|7",
+              "bar_challenge_checks_enable_region_only, enable_Region_FrostburnCanyon, enable_Region_Sanctuary, remove_missable_checks_keep, $LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -710,58 +710,58 @@
             "name": "Hunting the Firehawk",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|9",
-              "quest_completion_checks_story_only, $LevelLimit|9"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|9",
+              "quest_completion_checks_story_only, enable_Region_Sanctuary, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Cult Following - Eternal Flame",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|10"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|10",
-              "quest_completion_checks_sidequest_only, $LevelLimit|10"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|10",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Cult Following - Lighting the Match",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|12"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|12",
-              "quest_completion_checks_sidequest_only, $LevelLimit|12"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|12",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Cult Following - The Enkindling",
             "access_rules": ["license:commonpistol, ^$CanReachRegion|Sanctuary, ^$OnLevel|13"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|13",
-              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Cult Following - False Idols",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|11"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|11",
-              "quest_completion_checks_sidequest_only, $LevelLimit|11"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|11",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Enemy - Scorch",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|11"],
-            "visibility_rules": ["$LevelLimit|11"],
+            "visibility_rules": ["enable_Region_Sanctuary, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Enemy - Incinerator Clayton",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["enable_Region_Sanctuary, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Spycho",
             "access_rules": ["^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|28"],
-            "visibility_rules": ["$LevelLimit|28"],
+            "visibility_rules": ["enable_Region_AridNexusBoneyard, $LevelLimit|28"],
             "item_count": 1
           },
           {
@@ -812,8 +812,8 @@
             "name": "Challenge - Praise Be to Scorch",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|9",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|9"],
+              "bar_challenge_checks_enable_all, enable_Region_Sanctuary, $LevelLimit|9",
+              "bar_challenge_checks_enable_region_only, enable_Region_Sanctuary, $LevelLimit|9"],
             "item_count": 1
           },
           {
@@ -853,7 +853,7 @@
           {
             "name": "Chest - After Firehawk",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|9"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_Sanctuary, $LevelLimit|9"],
             "item_count": 1
           }
         ]
@@ -871,50 +871,50 @@
             "name": "Medical Mystery",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Medical Mystery - X-Com-municate",
             "access_rules": ["license:e-techassaultrifle, ^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|9",
-              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Neither Rain nor Sleet nor Skags",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|9"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|9",
-              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "No Vacancy",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|9"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|9",
-              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Enemy - Doc Mercy",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
-            "visibility_rules": ["$LevelLimit|8"],
+            "visibility_rules": ["enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Bad Maw",
             "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|Sanctuary, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|9"],
-            "visibility_rules": ["$LevelLimit|9"],
+            "visibility_rules": ["enable_Region_Dust, enable_Region_Sanctuary, enable_Region_FrostburnCanyon, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Symbol - Slums Wall",
             "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|Sanctuary, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|8"],
-            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
+            "visibility_rules": ["vault_symbols_enabled, enable_Region_Dust, enable_Region_Sanctuary, enable_Region_FrostburnCanyon, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -932,19 +932,19 @@
           {
             "name": "Gun Vendor - Happy Pig Motel",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|1"],
-            "visibility_rules": ["vending_machines_enabled, $LevelLimit|1"],
+            "visibility_rules": ["vending_machines_enabled, enable_Region_Sanctuary, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Happy Pig Motel",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|1"],
-            "visibility_rules": ["vending_machines_enabled, $LevelLimit|1"],
+            "visibility_rules": ["vending_machines_enabled,enable_Region_Sanctuary,  $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Happy Pig Motel",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|615, ^$OnLevel|1"],
-            "visibility_rules": ["vending_machines_enabled, $LevelLimit|1"],
+            "visibility_rules": ["vending_machines_enabled, enable_Region_Sanctuary, $LevelLimit|1"],
             "item_count": 1
           },
           {
@@ -959,8 +959,8 @@
             "name": "Challenge - Cult of the Vault",
             "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|Sanctuary, ^$CanReachRegion|FrostburnCanyon, ^$OnLevel|8"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|8",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|8"],
+              "bar_challenge_checks_enable_all, enable_Region_Dust, enable_Region_Sanctuary, enable_Region_FrostburnCanyon, vault_symbols_enabled, $LevelLimit|8",
+              "bar_challenge_checks_enable_region_only, enable_Region_Dust, enable_Region_Sanctuary, enable_Region_FrostburnCanyon, vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -984,32 +984,32 @@
             "name": "Assassinate the Assassins",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|8",
-              "quest_completion_checks_sidequest_only, $LevelLimit|8"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|8",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Assassin Oney",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
-            "visibility_rules": ["$LevelLimit|8"],
+            "visibility_rules": ["enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Assassin Wot",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
-            "visibility_rules": ["$LevelLimit|8"],
+            "visibility_rules": ["enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Assassin Reeth",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
-            "visibility_rules": ["$LevelLimit|8"],
+            "visibility_rules": ["enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Enemy - Assassin Rouf",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
-            "visibility_rules": ["$LevelLimit|8"],
+            "visibility_rules": ["enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -1021,7 +1021,7 @@
           {
             "name": "Symbol - Reeth Area Engine",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|566, ^$OnLevel|8"],
-            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|8"],
+            "visibility_rules": ["vault_symbols_enabled, enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
@@ -1046,28 +1046,28 @@
             "name": "Challenge - Boss Run",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|8",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|8"],
+              "bar_challenge_checks_enable_all, enable_Region_Sanctuary, $LevelLimit|8",
+              "bar_challenge_checks_enable_region_only, enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|630, ^$OnLevel|8"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|8",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|8"],
+              "bar_challenge_checks_enable_all, enable_Region_Sanctuary, vault_symbols_enabled, $LevelLimit|8",
+              "bar_challenge_checks_enable_region_only, enable_Region_Sanctuary, vault_symbols_enabled, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Chest - After Rouf",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|8"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Chest - After Oney",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanMakeJump|521, ^$OnLevel|8"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|8"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_Sanctuary, $LevelLimit|8"],
             "item_count": 1
           }
         ]
@@ -1085,76 +1085,76 @@
             "name": "The Good, the Bad, and the Mordecai",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|15"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|15",
-              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+              "quest_completion_checks_all, enable_Region_Highlands, enable_Region_FriendshipGulag, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, enable_Region_FriendshipGulag, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Rakkaholics Anonymous",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|19"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|19",
-              "quest_completion_checks_sidequest_only, $LevelLimit|19"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, $LevelLimit|19",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Clan War - Starting the War",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|16"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|16",
-              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
+              "quest_completion_checks_all, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Clan War - First Place",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|17"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|17",
-              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
+              "quest_completion_checks_all, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Clan War - Trailer Trashing",
             "access_rules": ["license:commonpistol, ^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|18",
-              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
+              "quest_completion_checks_all, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Clan War - Zafords vs Hodunks",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|18",
-              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
+              "quest_completion_checks_all, enable_Region_HolySpirits, enable_Region_Highlands, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, enable_Region_HolySpirits, enable_Region_Highlands, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Too Close For Missiles",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$CanMakeJump|384, ^$OnLevel|9"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|9",
-              "quest_completion_checks_sidequest_only, $LevelLimit|9"],
+              "quest_completion_checks_all, enable_Region_FrostburnCanyon, enable_Region_Sanctuary, $LevelLimit|9",
+              "quest_completion_checks_sidequest_only, enable_Region_FrostburnCanyon, enable_Region_Sanctuary, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Positive Self Image",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|10"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|10",
-              "quest_completion_checks_sidequest_only, $LevelLimit|10"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, enable_Region_FrostburnCanyon, $LevelLimit|10",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, enable_Region_FrostburnCanyon, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Enemy - Gettle",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
-            "visibility_rules": ["$LevelLimit|15"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mobley",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
-            "visibility_rules": ["$LevelLimit|15"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -1166,19 +1166,19 @@
           {
             "name": "Enemy - McNally",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
-            "visibility_rules": ["$LevelLimit|20"],
+            "visibility_rules": ["enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mick or Tector",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
-            "visibility_rules": ["$LevelLimit|18"],
+            "visibility_rules": ["enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Symbol - Speedway Wall",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|9"],
-            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|9"],
+            "visibility_rules": ["vault_symbols_enabled, enable_Region_Highlands, $LevelLimit|9"],
             "item_count": 1
           },
           {
@@ -1202,7 +1202,7 @@
           {
             "name": "Ammo Vendor - Ellies Garage",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary"],
-            "visibility_rules": ["vending_machines_enabled"],
+            "visibility_rules": ["enable_Region_FrostburnCanyon, enable_Region_Sanctuary, vending_machines_enabled"],
             "item_count": 1
           },
           {
@@ -1261,8 +1261,8 @@
             "name": "Challenge - If Youre Not First, Youre Last",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_Region_Highlands, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -1325,7 +1325,7 @@
           {
             "name": "Enemy - Bagman",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|18"],
-            "visibility_rules": ["$LevelLimit|18"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|18"],
             "item_count": 1
           },
           {
@@ -1381,8 +1381,8 @@
             "name": "Splinter Group",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|13",
-              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
+              "quest_completion_checks_all, enable_Region_BloodshotRamparts, enable_Region_FriendshipGulag, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, enable_Region_BloodshotRamparts, enable_Region_FriendshipGulag, $LevelLimit|13"],
             "item_count": 1
           },
           {
@@ -1394,37 +1394,37 @@
           {
             "name": "Enemy - Dan",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["enable_Region_FriendshipGulag, enable_Region_BloodshotRamparts, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Lee",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["enable_Region_BloodshotRamparts, enable_Region_FriendshipGulag, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mick",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["enable_Region_FriendshipGulag, enable_Region_BloodshotRamparts, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Ralph",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["enable_Region_BloodshotRamparts, enable_Region_FriendshipGulag, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - Flinter",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$CanMakeJump|291, ^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["enable_Region_FriendshipGulag, enable_Region_BloodshotRamparts, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Symbol - Pizza Intercom",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|12"],
-            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|12"],
+            "visibility_rules": ["vault_symbols_enabled, enable_Region_BloodshotRamparts, enable_Region_FriendshipGulag, $LevelLimit|12"],
             "item_count": 1
           },
           {
@@ -1500,7 +1500,7 @@
           {
             "name": "Chest - Flinters Room",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$CanMakeJump|291, ^$OnLevel|12"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|12"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_BloodshotRamparts, enable_Region_FriendshipGulag, $LevelLimit|12"],
             "item_count": 1
           }
         ]
@@ -1518,22 +1518,22 @@
             "name": "A Dam Fine Rescue",
             "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|12"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|12",
-              "quest_completion_checks_story_only, $LevelLimit|12"],
+              "quest_completion_checks_all, enable_Region_FriendshipGulag, $LevelLimit|12",
+              "quest_completion_checks_story_only, enable_Region_FriendshipGulag, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Out of Body Experience",
             "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|13",
-              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
+              "quest_completion_checks_all, enable_Region_FriendshipGulag, $LevelLimit|13",
+              "quest_completion_checks_sidequest_only, enable_Region_FriendshipGulag, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Enemy - W4R-D3N",
             "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["enable_Region_FriendshipGulag, $LevelLimit|13"],
             "item_count": 1
           },
           {
@@ -1678,8 +1678,8 @@
             "name": "Mine, All Mine",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|550, ^$OnLevel|14"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|14",
-              "quest_completion_checks_sidequest_only, $LevelLimit|14"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|14",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|14"],
             "item_count": 1
           },
           {
@@ -1702,8 +1702,8 @@
             "name": "The Pretty Good Train Robbery",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|629, ^$OnLevel|15"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|15",
-              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -1731,7 +1731,7 @@
           {
             "name": "Enemy - Prospector Zeke",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|550, ^$OnLevel|14"],
-            "visibility_rules": ["$LevelLimit|14"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|14"],
             "item_count": 1
           },
           {
@@ -1924,96 +1924,96 @@
             "name": "The Cold Shoulder",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|17",
-              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Swallowed Whole",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|18"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|18",
-              "quest_completion_checks_sidequest_only, $LevelLimit|18"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|18",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Note for Self-Person",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|560, ^$OnLevel|17"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|17",
-              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Laney White",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Rakkman",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - SmashHead",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Shorty",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Sinkhole",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Bloody (Laney Midget)",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Crabby (Laney Midget)",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Creepy (Laney Midget)",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Dirty (Laney Midget)",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Greedy (Laney Midget)",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Sleazy (Laney Midget)",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Enemy - Tipsy (Laney Midget)",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
@@ -2056,32 +2056,32 @@
             "name": "Challenge - Stiff Competition",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_Region_Highlands, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Trapped Rat",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_Region_Highlands, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fairest of Them All",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_Region_Highlands, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Its Off to Hell We Go",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_Region_Highlands, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -2096,14 +2096,14 @@
             "name": "Challenge - The Rakk Knight",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_Region_Highlands, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Rakkmans Lair",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -2115,13 +2115,13 @@
           {
             "name": "Chest - Three Switch Electric Gate",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Smashheads Cave",
             "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|15"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           }
         ]
@@ -2221,7 +2221,7 @@
           {
             "name": "Enemy - Old Slappy",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|15"],
-            "visibility_rules": ["$LevelLimit|15"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -2327,8 +2327,8 @@
             "name": "Hyperion Contract #873",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|Opportunity, ^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|24",
-              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, enable_Region_Opportunity, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, enable_Region_Opportunity, $LevelLimit|24"],
             "item_count": 1
           },
           {
@@ -2670,16 +2670,16 @@
             "name": "The Man Who Would Be Jack",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|21",
-              "quest_completion_checks_story_only, $LevelLimit|21"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21",
+              "quest_completion_checks_story_only, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Statuesque",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|22"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|22",
-              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|22"],
             "item_count": 1
           },
           {
@@ -2694,28 +2694,28 @@
             "name": "Hell Hath No Fury",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|21",
-              "quest_completion_checks_sidequest_only, $LevelLimit|21"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Home Movies",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|21"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|21",
-              "quest_completion_checks_sidequest_only, $LevelLimit|21"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Enemy - Foreman Jasper",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
-            "visibility_rules": ["$LevelLimit|21"],
+            "visibility_rules": ["enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Enemy - Jacks Body Double",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
-            "visibility_rules": ["$LevelLimit|21"],
+            "visibility_rules": ["enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21"],
             "item_count": 1
           },
           {
@@ -2788,8 +2788,8 @@
             "name": "Challenge - Shame the Foreman",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|21"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|21",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|21"],
+              "bar_challenge_checks_enable_all, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21",
+              "bar_challenge_checks_enable_region_only, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|21"],
             "item_count": 1
           },
           {
@@ -2827,25 +2827,25 @@
           {
             "name": "Chest - Home Movies Crate",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|20"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Home Movies Upload Room",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|20"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Voice Modulator Room",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|20"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Chest - Orbital Delivery Zone",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$CanMakeJump|390, ^$OnLevel|20"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|20"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|20"],
             "item_count": 1
           },
           {
@@ -2875,24 +2875,24 @@
             "name": "The Once and Future Slab",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|20",
-              "quest_completion_checks_story_only, $LevelLimit|20"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, $LevelLimit|20",
+              "quest_completion_checks_story_only, enable_Region_WildlifeExploitationPreserve, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Poetic License",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|20",
-              "quest_completion_checks_sidequest_only, $LevelLimit|20"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, $LevelLimit|20",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Defend Slab Tower",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|22"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|22",
-              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, $LevelLimit|22"],
             "item_count": 1
           },
           {
@@ -2907,8 +2907,8 @@
             "name": "Rockos Modern Strife",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|22"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|22",
-              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, $LevelLimit|22"],
             "item_count": 1
           },
           {
@@ -2920,7 +2920,7 @@
           {
             "name": "Enemy - Sarcastic Slab",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20"],
-            "visibility_rules": ["$LevelLimit|20"],
+            "visibility_rules": ["enable_Region_WildlifeExploitationPreserve, $LevelLimit|20"],
             "item_count": 1
           },
           {
@@ -3048,8 +3048,8 @@
             "name": "Challenge - BNK-3R Buster",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|24"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|24",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|24"],
+              "bar_challenge_checks_enable_all, enable_Region_ControlCoreAngel, $LevelLimit|24",
+              "bar_challenge_checks_enable_region_only, enable_Region_ControlCoreAngel, $LevelLimit|24"],
             "item_count": 1
           },
           {
@@ -3185,30 +3185,30 @@
             "name": "Perfectly Peaceful",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|17",
-              "quest_completion_checks_sidequest_only, $LevelLimit|17"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|17",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Safe and Sound",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|16",
-              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Minecart Mischief",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|16",
-              "quest_completion_checks_sidequest_only, $LevelLimit|16"],
+              "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Enemy - Blue",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|16"],
-            "visibility_rules": ["$LevelLimit|16"],
+            "visibility_rules": ["enable_Region_Highlands, $LevelLimit|16"],
             "item_count": 1
           },
           {
@@ -3290,7 +3290,7 @@
           {
             "name": "Chest - Treasure Chest",
             "access_rules": ["^$CanReachRegion|SawtoothCauldron, ^$OnLevel|16"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|16"],
+            "visibility_rules": ["chest_checks_enabled, enable_Region_SawtoothCauldron, $LevelLimit|16"],
             "item_count": 1
           },
           {
@@ -3320,94 +3320,94 @@
             "name": "The Bane",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|24",
-              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Breaking the Bank",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|24",
-              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "310 to Kaboom",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|23",
-              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Showdown",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|25"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|25",
-              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Animal Rescue - Medicine",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|23",
-              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Animal Rescue - Food",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|23",
-              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Animal Rescue - Shelter",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|24"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|24",
-              "quest_completion_checks_sidequest_only, $LevelLimit|24"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|24",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Demon Hunter",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|25"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|25",
-              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
+              "quest_completion_checks_all, enable_Region_ControlCoreAngel, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, enable_Region_ControlCoreAngel, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Enemy - Dukinos Mom",
             "access_rules": ["^$CanReachRegion|ControlCoreAngel, ^$OnLevel|25"],
-            "visibility_rules": ["$LevelLimit|25"],
+            "visibility_rules": ["enable_Region_ControlCoreAngel, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Enemy - Mad Dog",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|23",
-              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Enemy - Sheriff Nisha",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|25"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|25",
-              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Enemy - Deputy Winger",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|23"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|23",
-              "quest_completion_checks_sidequest_only, $LevelLimit|23"],
+              "quest_completion_checks_all, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23",
+              "quest_completion_checks_sidequest_only, enable_Region_ThousandCuts, enable_Region_WildlifeExploitationPreserve, $LevelLimit|23"],
             "item_count": 1
           },
           {
@@ -3687,8 +3687,8 @@
             "name": "Challenge - Save the Turrets",
             "access_rules": ["^$CanReachRegion|AridNexusBadlands, ^$OnLevel|25"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, remove_missable_checks_keep, $LevelLimit|25",
-              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, $LevelLimit|25"],
+              "bar_challenge_checks_enable_all, enable_Region_AridNexusBadlands, remove_missable_checks_keep, $LevelLimit|25",
+              "bar_challenge_checks_enable_region_only, enable_Region_AridNexusBadlands, remove_missable_checks_keep, $LevelLimit|25"],
             "item_count": 1
           },
           {
@@ -3859,8 +3859,8 @@
             "name": "The Lost Treasure",
             "access_rules": ["^$CanReachRegion|SanctuaryHole, ^$CanReachRegion|CausticCaverns, ^$OnLevel|26"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|26",
-              "quest_completion_checks_sidequest_only, $LevelLimit|26"],
+              "quest_completion_checks_all, enable_Region_SanctuaryHole, enable_Region_CausticCaverns, $LevelLimit|26",
+              "quest_completion_checks_sidequest_only, enable_Region_SanctuaryHole, enable_Region_CausticCaverns, $LevelLimit|26"],
             "item_count": 1
           },
           {
@@ -4071,8 +4071,8 @@
             "name": "Hungry Like the Skag",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|25"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|25",
-              "quest_completion_checks_sidequest_only, $LevelLimit|25"],
+              "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|25",
+              "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|25"],
             "item_count": 1
           },
           {
