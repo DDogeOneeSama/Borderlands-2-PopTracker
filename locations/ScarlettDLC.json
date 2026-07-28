@@ -94,7 +94,7 @@
           {
             "name": "Enemy - Benny the Booster",
             "access_rules": ["^$CanReachRegion|Rustyards, ^$OnLevel|15"],
-            "visibility_rules": ["$LevelLimit|15"],
+            "visibility_rules": ["enable_region_Rustyards, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -106,7 +106,7 @@
           {
             "name": "Symbol - Lair Exit",
             "access_rules": ["^$CanReachRegion|LeviathansLair, ^$OnLevel|15"],
-            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|15"],
+            "visibility_rules": ["vault_symbols_enabled, enable_region_LeviathansLair, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -151,8 +151,8 @@
             "name": "Challenge - Cult of the Vault",
             "access_rules": ["^$CanReachRegion|LeviathansLair, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_region_LeviathansLair, vault_symbols_enabled, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_region_LeviathansLair, vault_symbols_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -226,8 +226,8 @@
             "name": "Master Gee the Invincible",
             "access_rules": ["^$CanReachRegion|LeviathansLair, ^$CanMakeJump|285, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, remove_raid_boss_checks_keep, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, remove_raid_boss_checks_keep, $LevelLimit|30"],
+              "quest_completion_checks_all, enable_region_LeviathansLair, remove_raid_boss_checks_keep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_LeviathansLair, remove_raid_boss_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -258,7 +258,7 @@
             "name": "Enemy - Master Gee",
             "access_rules": ["^$CanReachRegion|LeviathansLair, ^$CanMakeJump|285, ^$OnLevel|30"],
             "visibility_rules": [
-              "remove_raid_boss_checks_keep, $LevelLimit|30"],
+              "remove_raid_boss_checks_keep, enable_region_LeviathansLair, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -527,8 +527,8 @@
             "name": "Freedom of Speech",
             "access_rules": ["^$CanReachRegion|MagnysLighthouse, ^$CanMakeJump|630, ^$OnLevel|15"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|15",
-              "quest_completion_checks_sidequest_only, $LevelLimit|15"],
+              "quest_completion_checks_all, enable_region_MagnysLighthouse, $LevelLimit|15",
+              "quest_completion_checks_sidequest_only, enable_region_MagnysLighthouse, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -543,8 +543,8 @@
             "name": "Hyperius the Invincible",
             "access_rules": ["^$CanReachRegion|LeviathansLair, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, remove_raid_boss_checks_keep, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, remove_raid_boss_checks_keep, $LevelLimit|30"],
+              "quest_completion_checks_all, enable_region_LeviathansLair, remove_raid_boss_checks_keep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_LeviathansLair, remove_raid_boss_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -563,7 +563,7 @@
             "name": "Enemy - Hyperius",
             "access_rules": ["^$CanReachRegion|LeviathansLair, ^$OnLevel|30"],
             "visibility_rules": [
-              "remove_raid_boss_checks_keep, $LevelLimit|30"],
+              "remove_raid_boss_checks_keep, enable_region_LeviathansLair, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -1079,16 +1079,16 @@
             "name": "Challenge - Comb the Desert!",
             "access_rules": ["^$CanReachRegion|HaytersFolly, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_region_HaytersFolly, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_region_HaytersFolly, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Refined Tastes",
             "access_rules": ["^$CanReachRegion|Rustyards, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|15",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_region_Rustyards, $LevelLimit|15",
+              "bar_challenge_checks_enable_region_only, enable_region_Rustyards, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -1120,7 +1120,7 @@
           {
             "name": "Chest - Refined Tastes",
             "access_rules": ["^$CanReachRegion|Rustyards, ^$OnLevel|15"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "visibility_rules": ["chest_checks_enabled, enable_region_Rustyards, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -1190,24 +1190,24 @@
             "name": "Challenge - Shady Dealings",
             "access_rules": ["^$CanReachRegion|LeviathansLair, ^$CanReachRegion|Sanctuary, ^$OnLevel|15"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_LeviathansLair, $LevelLimit|15",
-              "bar_challenge_checks_enable_general_only, enable_region_LeviathansLair, $LevelLimit|15"],
+              "bar_challenge_checks_enable_all, enable_region_LeviathansLair, enable_region_Sanctuary, $LevelLimit|15",
+              "bar_challenge_checks_enable_general_only, enable_region_LeviathansLair, enable_region_Sanctuary, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hyperius the Not-So-Invincible",
             "access_rules": ["^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|50"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_WashburneRefinery, $LevelLimit|50",
-              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_WashburneRefinery, $LevelLimit|50"],
+              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_WashburneRefinery, enable_region_LeviathansLair, $LevelLimit|50",
+              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_WashburneRefinery, enable_region_LeviathansLair, $LevelLimit|50"],
             "item_count": 1
           },
           {
             "name": "Challenge - Master Worm Food",
             "access_rules": ["^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|50"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_HaytersFolly, $LevelLimit|50",
-              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_HaytersFolly, $LevelLimit|50"],
+              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_HaytersFolly, enable_region_LeviathansLair, $LevelLimit|50",
+              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_HaytersFolly, enable_region_LeviathansLair, $LevelLimit|50"],
             "item_count": 1
           }
         ]
