@@ -25,8 +25,7 @@ function InvalidateAccessibleRegions()
   accessibleRegions =
   {
     Menu = AccessibilityLevel.Normal,
-    WindshearWaste = AccessibilityLevel.Normal,
-    Level0 = AccessibilityLevel.Normal
+    WindshearWaste = AccessibilityLevel.Normal
   }
 end
 
@@ -166,7 +165,8 @@ function CanMakeJump(height)
   end
 end
 
-function OnLevel(level)
+function OnLevel(level, aolKeep)
+  aolKeep = aolKeep or false
   local levelToCheck = tonumber(level)
   if levelToCheck == 0 then
     return AccessibilityLevel.Normal
@@ -175,16 +175,24 @@ function OnLevel(level)
     OpenRegions()
   end
   if staleLevels then
-    if ((Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1) or (Tracker:FindObjectForCode("gear_licenses").CurrentStage == 2)) then
+    if aolKeep then
+        goto skipAOL
+    end
+    if ((Tracker:FindObjectForCode("always_on_level").CurrentStage == 1) or (Tracker:FindObjectForCode("always_on_level").CurrentStage == 2)) then
+      staleLevels = false
+      if not(BasicCombat()) then
+        return AccessibilityLevel.SequenceBreak
+      end
       return AccessibilityLevel.Normal
     end
+    ::skipAOL::
     highestLevel = OpenLevels()
     staleLevels = false
   end
   if not(LevelLimit(levelToCheck)) then
     return AccessibilityLevel.None
   end
-  if ((1 <= levelToCheck and levelToCheck <= 5) and (accessibleRegions["Level1to5"])) then
+  if (levelToCheck <= highestLevel) then
     return AccessibilityLevel.Normal
   else
     return AccessibilityLevel.SequenceBreak
@@ -192,8 +200,47 @@ function OnLevel(level)
 end
 
 function OpenLevels()
-  local
-  
+  local reachableLevel = 0
+  local recheckRegions = true
+  if Tracker:FindObjectForCode("overridelevel15").Active then
+    reachableLevel = 16
+  end
+  if Tracker:FindObjectForCode("overridelevel30").Active then
+    reachableLevel = 31
+    goto skipLoop
+  end
+  while recheckRegions do
+    recheckRegions = false
+    for region, accessibility in pairs(accessibleRegions) do
+      if accessibility == AccessibilityLevel.None then
+        goto continue
+      end
+      if Regions[region].minLevel > reachableLevel then
+        goto continue
+      end
+      if Regions[region].maxLevel <= reachableLevel then
+        goto continue
+      end
+      if (Regions[region].maxLevel > 0) and (reachableLevel <= 0) then
+        if not(BasicCombat()) then
+          reachableLevel = 0
+          goto skipLoop
+        end
+      end
+      if (Regions[region].maxLevel > 10) and (reachableLevel <= 10) then
+        if not(OverLevel10()) then
+          reachableLevel = 10
+          goto skipLoop
+        end
+      end
+      reachableLevel = Regions[region].maxLevel
+      recheckRegions = true
+      ::continue::
+    end
+  end
+  ::skipLoop::
+  print ("Reachable Level:" .. reachableLevel)
+  return reachableLevel
 end
 
 function LevelLimit(level)
@@ -209,7 +256,7 @@ function LevelLimit(level)
   end
 end
 
-function Level1to5Gear()
+function BasicCombat()
   if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
     return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
   else
@@ -217,7 +264,7 @@ function Level1to5Gear()
   end
 end
 
-function Level6to10Gear()
+function OverLevel10()
   if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
     return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license:commonpistol").Active)
   else
