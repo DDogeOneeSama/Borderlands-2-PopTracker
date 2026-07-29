@@ -19,8 +19,8 @@
             "name": "The Sword in The Stoner",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
+              "quest_completion_checks_all, enable_region_ImmortalWoods, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -32,7 +32,7 @@
           {
             "name": "Enemy - Unmotivated Golem",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
+            "visibility_rules": ["enable_region_ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -112,16 +112,16 @@
             "name": "Feed Butt Stallion",
             "access_rules": ["^$CanReachRegion|DragonKeep, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
+              "quest_completion_checks_all, enable_region_DragonKeep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_DragonKeep, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Pet Butt Stallion",
             "access_rules": ["^$CanReachRegion|DragonKeep, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
+              "quest_completion_checks_all, enable_region_DragonKeep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_DragonKeep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -214,13 +214,13 @@
           {
             "name": "Enemy - Spiderpants",
             "access_rules": ["^$CanReachRegion|MinesOfAvarice, ^$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
+            "visibility_rules": ["enable_region_MinesOfAvarice, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Enemy - Arguk the Butcher",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
+            "visibility_rules": ["enable_region_ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
