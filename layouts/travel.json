@@ -19,10 +19,10 @@
             "item_width": 36,
             "rows": [
               [
-                "travel:sanctuary",
                 "travel:southernshelf",
                 "travel:southernshelfbay",
                 "travel:threehornsdivide",
+                "travel:sanctuary",
                 "travel:frostburncanyon",
                 "travel:threehornsvalley",
                 "travel:southpawsteam&power",
@@ -41,17 +41,17 @@
               [
                 "travel:highlands",
                 "travel:theholyspirits",
-                "travel:wildlifeexploitationpreserve",
-                "travel:naturalselectionannex",
-                "travel:opportunity",
-                "travel:thousandcuts",
-                "travel:thebunker",
-                "travel:controlcoreangel"
-              ],
-              [
                 "travel:sanctuaryhole",
                 "travel:causticcaverns",
-                "travel:lynchwood",
+                "travel:wildlifeexploitationpreserve",
+                "travel:naturalselectionannex",
+                "travel:thousandcuts",
+                "travel:lynchwood"
+              ],
+              [
+                "travel:opportunity",
+                "travel:thebunker",
+                "travel:controlcoreangel",
                 "travel:eridiumblight",
                 "travel:orechasm",
                 "travel:sawtoothcauldron",
@@ -65,7 +65,8 @@
                 "",
                 "",
                 "",
-                "travel:digistructpeak"
+                "travel:digistructpeak",
+                ""
               ],
               [
                 "progressivetravel:basegame",
