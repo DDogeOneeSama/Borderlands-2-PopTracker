@@ -119,18 +119,32 @@ function HasTravelItem(regionToCheck)
 end
 
 function MiscCasesEntrances(regionToCheck)
-  if(regionToCheck == "FFSIntroSanctuary") then
+  if(regionToCheck == "SouthernShelf") then
+    return BasicCombat()
+  elseif(regionToCheck == "FFSIntroSanctuary") then
     return (Tracker:FindObjectForCode("travel:thebackburner").Active or (Tracker:FindObjectForCode("progressivetravel:ffs").AcquiredCount >= 2))
+  elseif(regionToCheck == "MtScarabResearchCenter") then
+    return Tracker:FindObjectForCode("melee").Active
   elseif(regionToCheck == "CandlerakksCrag") then
-    return Tracker:FindObjectForCode("license:commonpistol").Active and JumpHeight(629)
+    return Tracker:FindObjectForCode("license:commonpistol").Active or (Tracker:FindObjectForCode("gear_licenses").AcquiredCount == 0)
   elseif(regionToCheck == "Terminus") then
     return Tracker:FindObjectForCode("crouch").Active
-  elseif(regionToCheck == "FFSBossFight") then
-    return Tracker:FindObjectForCode("melee").Active
   elseif(regionToCheck == "LairOfInfiniteAgony") then
     return Tracker:FindObjectForCode("crouch").Active
   elseif(regionToCheck == "TorgueArena") then
-      return JumpHeight(490)
+    return JumpHeight(490)
+  elseif(regionToCheck == "VaultOfTheWarrior") then
+    return JumpHeight(575)
+  elseif(regionToCheck == "FFSBossFight") then
+    return JumpHeight(588)
+  elseif(regionToCheck == "WingedStorm") then
+    return JumpHeight(425)
+  elseif(regionToCheck == "MagnysLighthouse") then
+    return JumpHeight(310)
+  elseif(regionToCheck == "SouthernRaceway") then
+    return JumpHeight(450)
+  elseif(regionToCheck == "BadassCraterBar") then
+    return JumpHeight(395)
   else
     return true
   end
