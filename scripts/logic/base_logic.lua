@@ -126,7 +126,7 @@ function MiscCasesEntrances(regionToCheck)
   elseif(regionToCheck == "MtScarabResearchCenter") then
     return Tracker:FindObjectForCode("melee").Active
   elseif(regionToCheck == "CandlerakksCrag") then
-    return Tracker:FindObjectForCode("license:commonpistol").Active or (Tracker:FindObjectForCode("gear_licenses").AcquiredCount == 0)
+    return Tracker:FindObjectForCode("license:commonpistol").Active
   elseif(regionToCheck == "Terminus") then
     return Tracker:FindObjectForCode("crouch").Active
   elseif(regionToCheck == "LairOfInfiniteAgony") then
