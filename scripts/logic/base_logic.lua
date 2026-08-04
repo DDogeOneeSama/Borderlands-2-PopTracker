@@ -285,3 +285,19 @@ function OverLevel10()
     return true
   end
 end
+
+function DisableForLvl15Override()
+  if Tracker:FindObjectForCode("overridelevel15").Active then
+    return false
+  else
+    return true
+  end
+end
+
+function DisableForLvl30Override()
+  if Tracker:FindObjectForCode("overridelevel30").Active then
+    return false
+  else
+    return true
+  end
+end
