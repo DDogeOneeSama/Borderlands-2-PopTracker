@@ -9,175 +9,175 @@
           {
             "name": "Level 2",
             "access_rules": ["^$OnLevel|2"],
-            "visibility_rules": ["$LevelLimit|2"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Level 3",
             "access_rules": ["^$OnLevel|3"],
-            "visibility_rules": ["$LevelLimit|3"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Level 4",
             "access_rules": ["^$OnLevel|4"],
-            "visibility_rules": ["$LevelLimit|4"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Level 5",
             "access_rules": ["^$OnLevel|5"],
-            "visibility_rules": ["$LevelLimit|5"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Level 6",
             "access_rules": ["^$OnLevel|6"],
-            "visibility_rules": ["$LevelLimit|6"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Level 7",
             "access_rules": ["^$OnLevel|7"],
-            "visibility_rules": ["$LevelLimit|7"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Level 8",
             "access_rules": ["^$OnLevel|8"],
-            "visibility_rules": ["$LevelLimit|8"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Level 9",
             "access_rules": ["^$OnLevel|9"],
-            "visibility_rules": ["$LevelLimit|9"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Level 10",
             "access_rules": ["^$OnLevel|10"],
-            "visibility_rules": ["$LevelLimit|10"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Level 11",
             "access_rules": ["^$OnLevel|11"],
-            "visibility_rules": ["$LevelLimit|11"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Level 12",
             "access_rules": ["^$OnLevel|12"],
-            "visibility_rules": ["$LevelLimit|12"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Level 13",
             "access_rules": ["^$OnLevel|13"],
-            "visibility_rules": ["$LevelLimit|13"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Level 14",
             "access_rules": ["^$OnLevel|14"],
-            "visibility_rules": ["$LevelLimit|14"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "Level 15",
             "access_rules": ["^$OnLevel|15"],
-            "visibility_rules": ["$LevelLimit|15"],
+            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Level 16",
             "access_rules": ["^$OnLevel|16"],
-            "visibility_rules": ["$LevelLimit|16"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Level 17",
             "access_rules": ["^$OnLevel|17"],
-            "visibility_rules": ["$LevelLimit|17"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Level 18",
             "access_rules": ["^$OnLevel|18"],
-            "visibility_rules": ["$LevelLimit|18"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Level 19",
             "access_rules": ["^$OnLevel|19"],
-            "visibility_rules": ["$LevelLimit|19"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Level 20",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["$LevelLimit|20"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Level 21",
             "access_rules": ["^$OnLevel|21"],
-            "visibility_rules": ["$LevelLimit|21"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Level 22",
             "access_rules": ["^$OnLevel|22"],
-            "visibility_rules": ["$LevelLimit|22"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|22"],
             "item_count": 1
           },
           {
             "name": "Level 23",
             "access_rules": ["^$OnLevel|23"],
-            "visibility_rules": ["$LevelLimit|23"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Level 24",
             "access_rules": ["^$OnLevel|24"],
-            "visibility_rules": ["$LevelLimit|24"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Level 25",
             "access_rules": ["^$OnLevel|25"],
-            "visibility_rules": ["$LevelLimit|25"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Level 26",
             "access_rules": ["^$OnLevel|26"],
-            "visibility_rules": ["$LevelLimit|26"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Level 27",
             "access_rules": ["^$OnLevel|27"],
-            "visibility_rules": ["$LevelLimit|27"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Level 28",
             "access_rules": ["^$OnLevel|28"],
-            "visibility_rules": ["$LevelLimit|28"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|28"],
             "item_count": 1
           },
           {
             "name": "Level 29",
             "access_rules": ["^$OnLevel|29"],
-            "visibility_rules": ["$LevelLimit|29"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Level 30",
             "access_rules": ["^$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
+            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|30"],
             "item_count": 1
           }
         ]
