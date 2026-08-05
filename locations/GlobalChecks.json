@@ -2542,6 +2542,26 @@
             "item_count": 1
           }
         ]
+      },
+      {
+        "name": "Placeholders",
+        "access_rules": [],
+        "visibility_rules": [],
+        "sections": [
+          {
+            "name": "Seraph Crystals Accessible",
+            "access_rules": [
+              "^$CanReachRegion|Sanctuary",
+              "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
+              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
+              "^$CanReachRegion|PyroPetesBar, @TorgueDLC/Placeholders/Torgue DLC Complete, ^$OnLevel|30, remove_raid_boss_checks_keep",
+              "^$CanReachRegion|CandlerakksCrag, ^$CanReachRegion|Terminus, ^$OnLevel|30, remove_raid_boss_checks_keep",
+              "^$CanReachRegion|WingedStorm, ^$OnLevel|38, remove_raid_boss_checks_keep"
+            ],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ]
       }
     ]
   }
