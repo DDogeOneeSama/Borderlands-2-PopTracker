@@ -309,14 +309,6 @@
             "item_count": 1
           },
           {
-            "name": "Dwarven Allies",
-            "access_rules": ["^$OnLevel|30"],
-            "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_story_only, $LevelLimit|30"],
-            "item_count": 1
-          },
-          {
             "name": "Critical Fail",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
@@ -326,7 +318,7 @@
           },
           {
             "name": "MMORPGFPS",
-            "access_rules": ["^$ALL|license:uncommonsniperrifle|license:commonsniperrifle|crouch|melee, ^$OnLevel|30"],
+            "access_rules": ["^$License|all|license-uncommonsniperrifle|license-commonsniperrifle, ^$ALL|crouch|melee, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
               "quest_completion_checks_sidequest_only, $LevelLimit|30"],
@@ -467,6 +459,14 @@
           "enable_region_MinesOfAvarice"
         ],
         "sections": [
+          {
+            "name": "Dwarven Allies",
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|30",
+              "quest_completion_checks_story_only, $LevelLimit|30"],
+            "item_count": 1
+          },
           {
             "name": "The Claptraps Apprentice",
             "access_rules": ["^$OnLevel|30"],
@@ -615,14 +615,6 @@
         ],
         "sections": [
           {
-            "name": "A Game of Games",
-            "access_rules": ["^$OnLevel|30"],
-            "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_story_only, $LevelLimit|30"],
-            "item_count": 1
-          },
-          {
             "name": "Winter is a Bloody Business",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
@@ -756,7 +748,7 @@
           },
           {
             "name": "Chest - Darkness Magic Missile Door",
-            "access_rules": ["license:uniquegrenademod, ^$OnLevel|30"],
+            "access_rules": ["^$Licenses|any|license-uniquegrenademod, ^$OnLevel|30"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
           }
@@ -900,6 +892,14 @@
           "enable_region_DragonKeep"
         ],
         "sections": [
+          {
+            "name": "A Game of Games",
+            "access_rules": ["^$OnLevel|30"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|30",
+              "quest_completion_checks_story_only, $LevelLimit|30"],
+            "item_count": 1
+          },
           {
             "name": "Enemy - Handsome Sorcerer",
             "access_rules": ["^$OnLevel|30"],

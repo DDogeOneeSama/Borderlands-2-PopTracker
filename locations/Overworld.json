@@ -1302,7 +1302,7 @@
           },
           {
             "name": "Rising Action",
-            "ref": "BaseGame/Fridge/Rising Action"
+            "ref": "BaseGame/EndOfTheLine/Rising Action"
           },
           {
             "name": "Swallowed Whole",
@@ -1944,7 +1944,7 @@
           },
           {
             "name": "The Ice Man Cometh",
-            "ref": "BaseGame/EndOfTheLine/The Ice Man Cometh"
+            "ref": "BaseGame/ThreeHornsDivide/The Ice Man Cometh"
           },
           {
             "name": "Bright Lights, Flying City",
@@ -5291,8 +5291,8 @@
             "ref": "TorgueDLC/PyroPetesBar/Tier 3 Rematch - Bar Room Blitz"
           },
           {
-            "name": "ChopSuey",
-            "ref": "TorgueDLC/PyroPetesBar/ChopSuey"
+            "name": "Chop Suey",
+            "ref": "TorgueDLC/PyroPetesBar/Chop Suey"
           },
           {
             "name": "A Montage",
@@ -6392,7 +6392,7 @@
           },
           {
             "name": "Dwarven Allies",
-            "ref": "TinaDLC/ImmortalWoods/Dwarven Allies"
+            "ref": "TinaDLC/MinesOfAvarice/Dwarven Allies"
           },
           {
             "name": "Enemy - n00bkiller",
@@ -6498,7 +6498,7 @@
           },
           {
             "name": "A Game of Games",
-            "ref": "TinaDLC/HatredsShadow/A Game of Games"
+            "ref": "TinaDLC/DragonKeep/A Game of Games"
           },
           {
             "name": "Enemy - Maxibillion",
@@ -7258,7 +7258,7 @@
           },
           {
             "name": "My Brittle Pony",
-            "ref": "LilithDLC/MtScarabResearchCenter/My Brittle Pony"
+            "ref": "LilithDLC/Backburner/My Brittle Pony"
           },
           {
             "name": "BFFFs",
@@ -7270,7 +7270,7 @@
           },
           {
             "name": "Chief Executive Overlord",
-            "ref": "LilithDLC/FFSBossFight/Chief Executive Overlord"
+            "ref": "LilithDLC/HeliosFallen/Chief Executive Overlord"
           },
           {
             "name": "Challenge - Make Yourself At Home",

@@ -5,7 +5,7 @@
         "img": "images/items/character/commonPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonpistol"
+        "codes": "license-commonpistol"
     },
     {
         "name": "License: Uncommon Pistol",
@@ -13,7 +13,7 @@
         "img": "images/items/character/uncommonPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonpistol"
+        "codes": "license-uncommonpistol"
     },
     {
         "name": "License: Rare Pistol",
@@ -21,7 +21,7 @@
         "img": "images/items/character/rarePistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rarepistol"
+        "codes": "license-rarepistol"
     },
     {
         "name": "License: Very Rare Pistol",
@@ -29,7 +29,7 @@
         "img": "images/items/character/veryRarePistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryrarepistol"
+        "codes": "license-veryrarepistol"
     },
     {
         "name": "License: E-Tech Pistol",
@@ -37,7 +37,7 @@
         "img": "images/items/character/etechPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:e-techpistol"
+        "codes": "license-e-techpistol"
     },
     {
         "name": "License: Legendary Pistol",
@@ -45,7 +45,7 @@
         "img": "images/items/character/legendaryPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendarypistol"
+        "codes": "license-legendarypistol"
     },
     {
         "name": "License: Seraph Pistol",
@@ -53,7 +53,7 @@
         "img": "images/items/character/seraphPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphpistol"
+        "codes": "license-seraphpistol"
     },
     {
         "name": "License: Pearlescent Pistol",
@@ -61,7 +61,7 @@
         "img": "images/items/character/pearlescentPistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:pearlescentpistol"
+        "codes": "license-pearlescentpistol"
     },
     {
         "name": "License: Unique Pistol",
@@ -69,7 +69,7 @@
         "img": "images/items/character/uniquePistol.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniquepistol"
+        "codes": "license-uniquepistol"
     },
     {
         "name": "License: Common Assault Rifle",
@@ -77,7 +77,7 @@
         "img": "images/items/character/commonAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonassaultrifle"
+        "codes": "license-commonassaultrifle"
     },
     {
         "name": "License: Uncommon Assault Rifle",
@@ -85,7 +85,7 @@
         "img": "images/items/character/uncommonAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonassaultrifle"
+        "codes": "license-uncommonassaultrifle"
     },
     {
         "name": "License: Rare Assault Rifle",
@@ -93,7 +93,7 @@
         "img": "images/items/character/rareAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rareassaultrifle"
+        "codes": "license-rareassaultrifle"
     },
     {
         "name": "License: Very Rare Assault Rifle",
@@ -101,7 +101,7 @@
         "img": "images/items/character/veryRareAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryrareassaultrifle"
+        "codes": "license-veryrareassaultrifle"
     },
     {
         "name": "License: E-Tech Assault Rifle",
@@ -109,7 +109,7 @@
         "img": "images/items/character/etechAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:e-techassaultrifle"
+        "codes": "license-e-techassaultrifle"
     },
     {
         "name": "License: Legendary Assault Rifle",
@@ -117,7 +117,7 @@
         "img": "images/items/character/legendaryAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendaryassaultrifle"
+        "codes": "license-legendaryassaultrifle"
     },
     {
         "name": "License: Seraph Assault Rifle",
@@ -125,7 +125,7 @@
         "img": "images/items/character/seraphAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphassaultrifle"
+        "codes": "license-seraphassaultrifle"
     },
     {
         "name": "License: Effervescent Assault Rifle",
@@ -133,7 +133,7 @@
         "img": "images/items/character/effervescentAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowassaultrifle"
+        "codes": "license-rainbowassaultrifle"
     },
     {
         "name": "License: Pearlescent Assault Rifle",
@@ -141,7 +141,7 @@
         "img": "images/items/character/pearlescentAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:pearlescentassaultrifle"
+        "codes": "license-pearlescentassaultrifle"
     },
     {
         "name": "License: Unique Assault Rifle",
@@ -149,7 +149,7 @@
         "img": "images/items/character/uniqueAssaultRifle.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniqueassaultrifle"
+        "codes": "license-uniqueassaultrifle"
     },
     {
         "name": "License: Common Shotgun",
@@ -157,7 +157,7 @@
         "img": "images/items/character/commonShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonshotgun"
+        "codes": "license-commonshotgun"
     },
     {
         "name": "License: Uncommon Shotgun",
@@ -165,7 +165,7 @@
         "img": "images/items/character/uncommonShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonshotgun"
+        "codes": "license-uncommonshotgun"
     },
     {
         "name": "License: Rare Shotgun",
@@ -173,7 +173,7 @@
         "img": "images/items/character/rareShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rareshotgun"
+        "codes": "license-rareshotgun"
     },
     {
         "name": "License: Very Rare Shotgun",
@@ -181,7 +181,7 @@
         "img": "images/items/character/veryRareShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryrareshotgun"
+        "codes": "license-veryrareshotgun"
     },
     {
         "name": "License: E-Tech Shotgun",
@@ -189,7 +189,7 @@
         "img": "images/items/character/etechShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:e-techshotgun"
+        "codes": "license-e-techshotgun"
     },
     {
         "name": "License: Legendary Shotgun",
@@ -197,7 +197,7 @@
         "img": "images/items/character/legendaryShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendaryshotgun"
+        "codes": "license-legendaryshotgun"
     },
     {
         "name": "License: Seraph Shotgun",
@@ -205,7 +205,7 @@
         "img": "images/items/character/seraphShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphshotgun"
+        "codes": "license-seraphshotgun"
     },
     {
         "name": "License: Effervescent Shotgun",
@@ -213,7 +213,7 @@
         "img": "images/items/character/effervescentShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowshotgun"
+        "codes": "license-rainbowshotgun"
     },
     {
         "name": "License: Pearlescent Shotgun",
@@ -221,7 +221,7 @@
         "img": "images/items/character/pearlescentShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:pearlescentshotgun"
+        "codes": "license-pearlescentshotgun"
     },
     {
         "name": "License: Unique Shotgun",
@@ -229,7 +229,7 @@
         "img": "images/items/character/uniqueShotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniqueshotgun"
+        "codes": "license-uniqueshotgun"
     },
     {
         "name": "License: Common SMG",
@@ -237,7 +237,7 @@
         "img": "images/items/character/commonSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonsmg"
+        "codes": "license-commonsmg"
     },
     {
         "name": "License: Uncommon SMG",
@@ -245,7 +245,7 @@
         "img": "images/items/character/uncommonSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonsmg"
+        "codes": "license-uncommonsmg"
     },
     {
         "name": "License: Rare SMG",
@@ -253,7 +253,7 @@
         "img": "images/items/character/rareSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:raresmg"
+        "codes": "license-raresmg"
     },
     {
         "name": "License: Very Rare SMG",
@@ -261,7 +261,7 @@
         "img": "images/items/character/veryRareSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryraresmg"
+        "codes": "license-veryraresmg"
     },
     {
         "name": "License: E-Tech SMG",
@@ -269,7 +269,7 @@
         "img": "images/items/character/etechSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:e-techsmg"
+        "codes": "license-e-techsmg"
     },
     {
         "name": "License: Legendary SMG",
@@ -277,7 +277,7 @@
         "img": "images/items/character/legendarySmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendarysmg"
+        "codes": "license-legendarysmg"
     },
     {
         "name": "License: Seraph SMG",
@@ -285,7 +285,7 @@
         "img": "images/items/character/seraphSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphsmg"
+        "codes": "license-seraphsmg"
     },
     {
         "name": "License: Effervescent SMG",
@@ -293,7 +293,7 @@
         "img": "images/items/character/effervescentSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowsmg"
+        "codes": "license-rainbowsmg"
     },
     {
         "name": "License: Pearlescent SMG",
@@ -301,7 +301,7 @@
         "img": "images/items/character/pearlescentSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:pearlescentsmg"
+        "codes": "license-pearlescentsmg"
     },
     {
         "name": "License: Unique SMG",
@@ -309,7 +309,7 @@
         "img": "images/items/character/uniqueSmg.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniquesmg"
+        "codes": "license-uniquesmg"
     },
     {
         "name": "License: Common Sniper Rifle",
@@ -317,7 +317,7 @@
         "img": "images/items/character/commonSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonsniperrifle"
+        "codes": "license-commonsniperrifle"
     },
     {
         "name": "License: Uncommon Sniper Rifle",
@@ -325,7 +325,7 @@
         "img": "images/items/character/uncommonSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonsniperrifle"
+        "codes": "license-uncommonsniperrifle"
     },
     {
         "name": "License: Rare Sniper Rifle",
@@ -333,7 +333,7 @@
         "img": "images/items/character/rareSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:raresniperrifle"
+        "codes": "license-raresniperrifle"
     },
     {
         "name": "License: Very Rare Sniper Rifle",
@@ -341,7 +341,7 @@
         "img": "images/items/character/veryRareSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryraresniperrifle"
+        "codes": "license-veryraresniperrifle"
     },
     {
         "name": "License: E-Tech Sniper Rifle",
@@ -349,7 +349,7 @@
         "img": "images/items/character/etechSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:e-techsniperrifle"
+        "codes": "license-e-techsniperrifle"
     },
     {
         "name": "License: Legendary Sniper Rifle",
@@ -357,7 +357,7 @@
         "img": "images/items/character/legendarySniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendarysniperrifle"
+        "codes": "license-legendarysniperrifle"
     },
     {
         "name": "License: Seraph Sniper Rifle",
@@ -365,7 +365,7 @@
         "img": "images/items/character/seraphSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphsniperrifle"
+        "codes": "license-seraphsniperrifle"
     },
     {
         "name": "License: Effervescent Sniper Rifle",
@@ -373,7 +373,7 @@
         "img": "images/items/character/effervescentSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowsniperrifle"
+        "codes": "license-rainbowsniperrifle"
     },
     {
         "name": "License: Pearlescent Sniper Rifle",
@@ -381,7 +381,7 @@
         "img": "images/items/character/pearlescentSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:pearlescentsniperrifle"
+        "codes": "license-pearlescentsniperrifle"
     },
     {
         "name": "License: Unique Sniper Rifle",
@@ -389,7 +389,7 @@
         "img": "images/items/character/uniqueSniper.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniquesniperrifle"
+        "codes": "license-uniquesniperrifle"
     },
     {
         "name": "License: Common Rocket Launcher",
@@ -397,7 +397,7 @@
         "img": "images/items/character/commonRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonrocketlauncher"
+        "codes": "license-commonrocketlauncher"
     },
     {
         "name": "License: Uncommon Rocket Launcher",
@@ -405,7 +405,7 @@
         "img": "images/items/character/uncommonRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonrocketlauncher"
+        "codes": "license-uncommonrocketlauncher"
     },
     {
         "name": "License: Rare Rocket Launcher",
@@ -413,7 +413,7 @@
         "img": "images/items/character/rareRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rarerocketlauncher"
+        "codes": "license-rarerocketlauncher"
     },
     {
         "name": "License: Very Rare Rocket Launcher",
@@ -421,7 +421,7 @@
         "img": "images/items/character/veryRareRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryrarerocketlauncher"
+        "codes": "license-veryrarerocketlauncher"
     },
     {
         "name": "License: E-Tech Rocket Launcher",
@@ -429,7 +429,7 @@
         "img": "images/items/character/etechRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:e-techrocketlauncher"
+        "codes": "license-e-techrocketlauncher"
     },
     {
         "name": "License: Legendary Rocket Launcher",
@@ -437,7 +437,7 @@
         "img": "images/items/character/legendaryRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendaryrocketlauncher"
+        "codes": "license-legendaryrocketlauncher"
     },
     {
         "name": "License: Seraph Rocket Launcher",
@@ -445,7 +445,7 @@
         "img": "images/items/character/seraphRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphrocketlauncher"
+        "codes": "license-seraphrocketlauncher"
     },
     {
         "name": "License: Effervescent  Rocket Launcher",
@@ -453,7 +453,7 @@
         "img": "images/items/character/effervescentRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowrocketlauncher"
+        "codes": "license-rainbowrocketlauncher"
     },
     {
         "name": "License: Pearlescent Rocket Launcher",
@@ -461,7 +461,7 @@
         "img": "images/items/character/pearlescentRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:pearlescentrocketlauncher"
+        "codes": "license-pearlescentrocketlauncher"
     },
     {
         "name": "License: Unique Rocket Launcher",
@@ -469,7 +469,7 @@
         "img": "images/items/character/uniqueRocketLauncher.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniquerocketlauncher"
+        "codes": "license-uniquerocketlauncher"
     },
     {
         "name": "License: Common Grenade Mod",
@@ -477,7 +477,7 @@
         "img": "images/items/character/commonGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commongrenademod"
+        "codes": "license-commongrenademod"
     },
     {
         "name": "License: Uncommon Grenade Mod",
@@ -485,7 +485,7 @@
         "img": "images/items/character/uncommonGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommongrenademod"
+        "codes": "license-uncommongrenademod"
     },
     {
         "name": "License: Rare Grenade Mod",
@@ -493,7 +493,7 @@
         "img": "images/items/character/rareGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:raregrenademod"
+        "codes": "license-raregrenademod"
     },
     {
         "name": "License: Very Rare Grenade Mod",
@@ -501,7 +501,7 @@
         "img": "images/items/character/veryRareGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryraregrenademod"
+        "codes": "license-veryraregrenademod"
     },
     {
         "name": "License: Legendary Grenade Mod",
@@ -509,7 +509,7 @@
         "img": "images/items/character/legendaryGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendarygrenademod"
+        "codes": "license-legendarygrenademod"
     },
     {
         "name": "License: Seraph Grenade Mod",
@@ -517,7 +517,7 @@
         "img": "images/items/character/seraphGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphgrenademod"
+        "codes": "license-seraphgrenademod"
     },
     {
         "name": "License: Effervescent Grenade Mod",
@@ -525,7 +525,7 @@
         "img": "images/items/character/effervescentGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowgrenademod"
+        "codes": "license-rainbowgrenademod"
     },
     {
         "name": "License: Unique Grenade Mod",
@@ -533,7 +533,7 @@
         "img": "images/items/character/uniqueGrenade.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniquegrenademod"
+        "codes": "license-uniquegrenademod"
     },
     {
         "name": "License: Common Shield",
@@ -541,7 +541,7 @@
         "img": "images/items/character/commonShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonshield"
+        "codes": "license-commonshield"
     },
     {
         "name": "License: Uncommon Shield",
@@ -549,7 +549,7 @@
         "img": "images/items/character/uncommonShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonshield"
+        "codes": "license-uncommonshield"
     },
     {
         "name": "License: Rare Shield",
@@ -557,7 +557,7 @@
         "img": "images/items/character/rareShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rareshield"
+        "codes": "license-rareshield"
     },
     {
         "name": "License: Very Rare Shield",
@@ -565,7 +565,7 @@
         "img": "images/items/character/veryRareShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryrareshield"
+        "codes": "license-veryrareshield"
     },
     {
         "name": "License: Legendary Shield",
@@ -573,7 +573,7 @@
         "img": "images/items/character/legendaryShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendaryshield"
+        "codes": "license-legendaryshield"
     },
     {
         "name": "License: Seraph Shield",
@@ -581,7 +581,7 @@
         "img": "images/items/character/seraphShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphshield"
+        "codes": "license-seraphshield"
     },
     {
         "name": "License: Effervescent Shield",
@@ -589,7 +589,7 @@
         "img": "images/items/character/effervescentShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowshield"
+        "codes": "license-rainbowshield"
     },
     {
         "name": "License: Unique Shield",
@@ -597,7 +597,7 @@
         "img": "images/items/character/uniqueShield.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniqueshield"
+        "codes": "license-uniqueshield"
     },
     {
         "name": "License: Common Class Mod",
@@ -605,7 +605,7 @@
         "img": "images/items/character/commonCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonclassmod"
+        "codes": "license-commonclassmod"
     },
     {
         "name": "License: Uncommon Class Mod",
@@ -613,7 +613,7 @@
         "img": "images/items/character/uncommonCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonclassmod"
+        "codes": "license-uncommonclassmod"
     },
     {
         "name": "License: Rare Class Mod",
@@ -621,7 +621,7 @@
         "img": "images/items/character/rareCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rareclassmod"
+        "codes": "license-rareclassmod"
     },
     {
         "name": "License: Very Rare Class Mod",
@@ -629,7 +629,7 @@
         "img": "images/items/character/veryRareCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryrareclassmod"
+        "codes": "license-veryrareclassmod"
     },
     {
         "name": "License: Legendary Class Mod",
@@ -637,7 +637,7 @@
         "img": "images/items/character/legendaryCOM.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:legendaryclassmod"
+        "codes": "license-legendaryclassmod"
     },
     {
         "name": "License: Common Relic",
@@ -645,7 +645,7 @@
         "img": "images/items/character/commonRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:commonrelic"
+        "codes": "license-commonrelic"
     },
     {
         "name": "License: Uncommon Relic",
@@ -653,7 +653,7 @@
         "img": "images/items/character/uncommonRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uncommonrelic"
+        "codes": "license-uncommonrelic"
     },
     {
         "name": "License: Rare Relic",
@@ -661,7 +661,7 @@
         "img": "images/items/character/rareRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rarerelic"
+        "codes": "license-rarerelic"
     },
     {
         "name": "License: Very Rare Relic",
@@ -669,7 +669,7 @@
         "img": "images/items/character/veryRareRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:veryrarerelic"
+        "codes": "license-veryrarerelic"
     },
     {
         "name": "License: E-Tech Relic",
@@ -677,7 +677,7 @@
         "img": "images/items/character/etechRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:e-techrelic"
+        "codes": "license-e-techrelic"
     },
     {
         "name": "License: Seraph Relic",
@@ -685,7 +685,7 @@
         "img": "images/items/character/seraphRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:seraphrelic"
+        "codes": "license-seraphrelic"
     },
     {
         "name": "License: Effervescent Relic",
@@ -693,7 +693,7 @@
         "img": "images/items/character/effervescentRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:rainbowrelic"
+        "codes": "license-rainbowrelic"
     },
     {
         "name": "License: Unique Relic",
@@ -701,7 +701,7 @@
         "img": "images/items/character/uniqueRelic.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "license:uniquerelic"
+        "codes": "license-uniquerelic"
     },
     {
         "name": "Pistol Max Ammo",

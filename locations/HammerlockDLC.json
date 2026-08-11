@@ -73,10 +73,10 @@
           },
           {
             "name": "I Like My Monsters Rare",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
+              "quest_completion_checks_all, enable_region_ScyllasGrove, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -355,7 +355,7 @@
           },
           {
             "name": "Follow The Glow",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
               "quest_completion_checks_sidequest_only, $LevelLimit|30"],

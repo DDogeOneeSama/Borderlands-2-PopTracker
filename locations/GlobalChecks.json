@@ -189,7 +189,7 @@
             "name": "Common Shield Found",
             "access_rules": [
               "^$CanReachRegion|SouthernShelf",
-              "license:commonshield, receive_gear_enabled"
+              "^$Licenses|any|license-commonshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -203,7 +203,7 @@
             "name": "Uncommon Shield Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommonshield, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -217,7 +217,7 @@
             "name": "Rare Shield Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:rareshield, receive_gear_enabled"
+              "^$Licenses|any|license-rareshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -231,7 +231,7 @@
             "name": "VeryRare Shield Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryrareshield, receive_gear_enabled"
+              "^$Licenses|any|license-veryrareshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -245,7 +245,7 @@
             "name": "Legendary Shield Found",
             "access_rules": [
               "^$CanReachRegion|Highlands",
-              "license:legendaryshield, receive_gear_enabled"
+              "^$Licenses|any|license-legendaryshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -259,7 +259,7 @@
             "name": "Seraph Shield Found",
             "access_rules": [
               "^$CanReachRegion|Forge",
-              "license:seraphshield, receive_gear_enabled"
+              "^$Licenses|any|license-seraphshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -272,7 +272,7 @@
             "name": "Rainbow Shield Found",
             "access_rules": [
               "^$CanReachRegion|Burrows",
-              "license:rainbowshield, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -283,7 +283,7 @@
             "name": "Unique Shield Found",
             "access_rules": [
               "^$CanReachRegion|HolySpirits",
-              "license:uniqueshield, receive_gear_enabled"
+              "^$Licenses|any|license-uniqueshield, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -297,7 +297,7 @@
             "name": "Common GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|SouthernShelf",
-              "license:commongrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-commongrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -311,7 +311,7 @@
             "name": "Uncommon GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommongrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-uncommongrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -325,7 +325,7 @@
             "name": "Rare GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:raregrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-raregrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -339,7 +339,7 @@
             "name": "VeryRare GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryraregrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-veryraregrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -353,7 +353,7 @@
             "name": "Legendary GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|SouthernShelf",
-              "license:legendarygrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-legendarygrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -367,7 +367,7 @@
             "name": "Seraph GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|Forge",
-              "license:seraphgrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-seraphgrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -380,7 +380,7 @@
             "name": "Rainbow GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|HeliosFallen",
-              "license:rainbowgrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowgrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -391,7 +391,7 @@
             "name": "Unique GrenadeMod Found",
             "access_rules": [
               "^$CanReachRegion|LairOfInfiniteAgony",
-              "license:uniquegrenademod, receive_gear_enabled"
+              "^$Licenses|any|license-uniquegrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -405,7 +405,7 @@
             "name": "Common ClassMod Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:commonclassmod, receive_gear_enabled"
+              "^$Licenses|any|license-commonclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -419,7 +419,7 @@
             "name": "Uncommon ClassMod Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:uncommonclassmod, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -433,7 +433,7 @@
             "name": "Rare ClassMod Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:rareclassmod, receive_gear_enabled"
+              "^$Licenses|any|license-rareclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -447,7 +447,7 @@
             "name": "VeryRare ClassMod Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:veryrareclassmod, receive_gear_enabled"
+              "^$Licenses|any|license-veryrareclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -461,7 +461,7 @@
             "name": "Legendary ClassMod Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve",
-              "license:legendaryclassmod, receive_gear_enabled"
+              "^$Licenses|any|license-legendaryclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -475,7 +475,7 @@
             "name": "Common Relic Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:commonrelic, receive_gear_enabled"
+              "^$Licenses|any|license-commonrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -489,7 +489,7 @@
             "name": "Uncommon Relic Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:uncommonrelic, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -503,7 +503,7 @@
             "name": "Rare Relic Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:rarerelic, receive_gear_enabled"
+              "^$Licenses|any|license-rarerelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -517,7 +517,7 @@
             "name": "VeryRare Relic Found",
             "access_rules": [
               "^$CanReachRegion|BloodshotStronghold",
-              "license:veryrarerelic, receive_gear_enabled"
+              "^$Licenses|any|license-veryrarerelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -531,7 +531,7 @@
             "name": "E-Tech Relic Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve",
-              "license:e-techrelic, receive_gear_enabled"
+              "^$Licenses|any|license-e-techrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -545,7 +545,7 @@
             "name": "Seraph Relic Found",
             "access_rules": [
               "^$CanReachRegion|LeviathansLair",
-              "license:seraphrelic, receive_gear_enabled"
+              "^$Licenses|any|license-seraphrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -558,7 +558,7 @@
             "name": "Rainbow Relic Found",
             "access_rules": [
               "^$CanReachRegion|FFSBossFight",
-              "license:rainbowrelic, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -569,7 +569,7 @@
             "name": "Unique Relic Found",
             "access_rules": [
               "^$CanReachRegion|WingedStorm",
-              "license:uniquerelic, receive_gear_enabled"
+              "^$Licenses|any|license-uniquerelic, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -583,7 +583,7 @@
             "name": "Common Pistol Found",
             "access_rules": [
               "^$CanReachRegion|WindshearWaste",
-              "license:commonpistol, receive_gear_enabled"
+              "^$Licenses|any|license-commonpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -597,7 +597,7 @@
             "name": "Uncommon Pistol Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommonpistol, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -611,7 +611,7 @@
             "name": "Rare Pistol Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:rarepistol, receive_gear_enabled"
+              "^$Licenses|any|license-rarepistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -625,7 +625,7 @@
             "name": "VeryRare Pistol Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryrarepistol, receive_gear_enabled"
+              "^$Licenses|any|license-veryrarepistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -639,7 +639,7 @@
             "name": "E-Tech Pistol Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:e-techpistol, receive_gear_enabled"
+              "^$Licenses|any|license-e-techpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -653,7 +653,7 @@
             "name": "Legendary Pistol Found",
             "access_rules": [
               "^$CanReachRegion|WindshearWaste",
-              "license:legendarypistol, receive_gear_enabled"
+              "^$Licenses|any|license-legendarypistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -667,7 +667,7 @@
             "name": "Seraph Pistol Found",
             "access_rules": [
               "^$CanReachRegion|Forge",
-              "license:seraphpistol, receive_gear_enabled"
+              "^$Licenses|any|license-seraphpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -680,7 +680,7 @@
             "name": "Pearlescent Pistol Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
-              "license:pearlescentpistol, receive_gear_enabled"
+              "^$Licenses|any|license-pearlescentpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
@@ -692,7 +692,7 @@
             "name": "Unique Pistol Found",
             "access_rules": [
               "^$CanReachRegion|SouthernShelf",
-              "license:uniquepistol, receive_gear_enabled"
+              "^$Licenses|any|license-uniquepistol, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -706,7 +706,7 @@
             "name": "Common Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|WindshearWaste",
-              "license:commonshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-commonshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -720,7 +720,7 @@
             "name": "Uncommon Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommonshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -734,7 +734,7 @@
             "name": "Rare Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:rareshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-rareshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -748,7 +748,7 @@
             "name": "VeryRare Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryrareshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-veryrareshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -762,7 +762,7 @@
             "name": "E-Tech Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:e-techshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-e-techshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -776,7 +776,7 @@
             "name": "Legendary Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|Fridge, ^$CanReachRegion|Highlands",
-              "license:legendaryshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-legendaryshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -790,7 +790,7 @@
             "name": "Seraph Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|LeviathansLair",
-              "license:seraphshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-seraphshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -803,7 +803,7 @@
             "name": "Rainbow Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|FFSBossFight, ^$CanReachRegion|LairOfInfiniteAgony, ^$CanReachRegion|Backburner",
-              "license:rainbowshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -814,7 +814,7 @@
             "name": "Pearlescent Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
-              "license:pearlescentshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-pearlescentshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
@@ -826,7 +826,7 @@
             "name": "Unique Shotgun Found",
             "access_rules": [
               "^$CanReachRegion|SouthpawSteam&Power, ^$CanReachRegion|Sanctuary",
-              "license:uniqueshotgun, receive_gear_enabled"
+              "^$Licenses|any|license-uniqueshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -840,7 +840,7 @@
             "name": "Common SMG Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:commonsmg, receive_gear_enabled"
+              "^$Licenses|any|license-commonsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -854,7 +854,7 @@
             "name": "Uncommon SMG Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommonsmg, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -868,7 +868,7 @@
             "name": "Rare SMG Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:raresmg, receive_gear_enabled"
+              "^$Licenses|any|license-raresmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -882,7 +882,7 @@
             "name": "VeryRare SMG Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryraresmg, receive_gear_enabled"
+              "^$Licenses|any|license-veryraresmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -896,7 +896,7 @@
             "name": "E-Tech SMG Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:e-techsmg, receive_gear_enabled"
+              "^$Licenses|any|license-e-techsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -910,7 +910,7 @@
             "name": "Legendary SMG Found",
             "access_rules": [
               "^$CanReachRegion|SouthpawSteam&Power, ^$CanReachRegion|Sanctuary",
-              "license:legendarysmg, receive_gear_enabled"
+              "^$Licenses|any|license-legendarysmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -924,7 +924,7 @@
             "name": "Seraph SMG Found",
             "access_rules": [
               "^$CanReachRegion|LeviathansLair",
-              "license:seraphsmg, receive_gear_enabled"
+              "^$Licenses|any|license-seraphsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -937,7 +937,7 @@
             "name": "Rainbow SMG Found",
             "access_rules": [
               "^$CanReachRegion|Burrows",
-              "license:rainbowsmg, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -948,7 +948,7 @@
             "name": "Pearlescent SMG Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
-              "license:pearlescentsmg, receive_gear_enabled"
+              "^$Licenses|any|license-pearlescentsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
@@ -960,7 +960,7 @@
             "name": "Unique SMG Found",
             "access_rules": [
               "^$CanReachRegion|FrostburnCanyon",
-              "license:uniquesmg, receive_gear_enabled"
+              "^$Licenses|any|license-uniquesmg, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -974,7 +974,7 @@
             "name": "Common SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:commonsniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-commonsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -988,7 +988,7 @@
             "name": "Uncommon SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommonsniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1002,7 +1002,7 @@
             "name": "Rare SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:raresniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-raresniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1016,7 +1016,7 @@
             "name": "VeryRare SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryraresniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-veryraresniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1030,7 +1030,7 @@
             "name": "E-Tech SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:e-techsniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-e-techsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1044,7 +1044,7 @@
             "name": "Legendary SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|SouthpawSteam&Power, ^$CanReachRegion|Sanctuary",
-              "license:legendarysniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-legendarysniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1058,7 +1058,7 @@
             "name": "Seraph SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|LeviathansLair",
-              "license:seraphsniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-seraphsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -1071,7 +1071,7 @@
             "name": "Rainbow SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|MtScarabResearchCenter",
-              "license:rainbowsniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -1082,7 +1082,7 @@
             "name": "Pearlescent SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
-              "license:pearlescentsniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-pearlescentsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
@@ -1094,7 +1094,7 @@
             "name": "Unique SniperRifle Found",
             "access_rules": [
               "^$CanReachRegion|SouthpawSteam&Power",
-              "license:uniquesniperrifle, receive_gear_enabled"
+              "^$Licenses|any|license-uniquesniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1108,7 +1108,7 @@
             "name": "Common AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:commonassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-commonassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1122,7 +1122,7 @@
             "name": "Uncommon AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommonassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1136,7 +1136,7 @@
             "name": "Rare AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:rareassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-rareassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1150,7 +1150,7 @@
             "name": "VeryRare AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryrareassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-veryrareassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1164,7 +1164,7 @@
             "name": "E-Tech AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:e-techassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-e-techassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1178,7 +1178,7 @@
             "name": "Legendary AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|SouthernShelfBay",
-              "license:legendaryassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-legendaryassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1192,7 +1192,7 @@
             "name": "Seraph AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|LeviathansLair",
-              "license:seraphassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-seraphassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -1205,7 +1205,7 @@
             "name": "Rainbow AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|Burrows",
-              "license:rainbowassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -1216,7 +1216,7 @@
             "name": "Pearlescent AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
-              "license:pearlescentassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-pearlescentassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
@@ -1228,7 +1228,7 @@
             "name": "Unique AssaultRifle Found",
             "access_rules": [
               "^$CanReachRegion|CandlerakksCrag",
-              "license:uniqueassaultrifle, receive_gear_enabled"
+              "^$Licenses|any|license-uniqueassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1242,7 +1242,7 @@
             "name": "Common RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:commonrocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-commonrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1256,7 +1256,7 @@
             "name": "Uncommon RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:uncommonrocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1270,7 +1270,7 @@
             "name": "Rare RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:rarerocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-rarerocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1284,7 +1284,7 @@
             "name": "VeryRare RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:veryrarerocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-veryrarerocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1298,7 +1298,7 @@
             "name": "E-Tech RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
-              "license:e-techrocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-e-techrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1312,7 +1312,7 @@
             "name": "Legendary RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary",
-              "license:legendaryrocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-legendaryrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1326,7 +1326,7 @@
             "name": "Seraph RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|LeviathansLair",
-              "license:seraphrocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-seraphrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_pearl_plus",
@@ -1339,7 +1339,7 @@
             "name": "Rainbow RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|MtScarabResearchCenter",
-              "license:rainbowrocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -1350,7 +1350,7 @@
             "name": "Pearlescent RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|30",
-              "license:pearlescentrocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-pearlescentrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
@@ -1362,7 +1362,7 @@
             "name": "Unique RocketLauncher Found",
             "access_rules": [
               "^$CanReachRegion|Fridge",
-              "license:uniquerocketlauncher, receive_gear_enabled"
+              "^$Licenses|any|license-uniquerocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
               "gear_rarity_checks_exclude_seraph_plus",
@@ -1919,13 +1919,13 @@
           },
           {
             "name": "Challenge - Gun Slinger",
-            "access_rules": ["license:commonpistol, license:uncommonpistol, ^$OnLevel|6"],
+            "access_rules": ["^$Licenses|all|license-commonpistol|license-uncommonpistol, ^$OnLevel|6"],
             "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Boomerbang",
-            "access_rules": ["license:commonpistol, license:uncommonpistol, ^$OnLevel|6"],
+            "access_rules": ["^$Licenses|all|license-commonpistol|license-uncommonpistol, ^$OnLevel|6"],
             "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }
@@ -1933,6 +1933,9 @@
       },
       {
         "name": "Grenade",
+        "access_rules": [
+          "^$Licenses|all|license-commongrenademod|license-uncommongrenademod"
+        ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
           "bar_challenge_checks_enable_general_only"
@@ -1940,37 +1943,37 @@
         "sections": [
           {
             "name": "Challenge - Pull the Pin",
-            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|5"],
+            "access_rules": ["^$OnLevel|5"],
             "visibility_rules": ["$LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Challenge - Chemical Sprayer",
-            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|10"],
+            "access_rules": ["^$OnLevel|10"],
             "visibility_rules": ["$LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Challenge - Woah, Black Betty",
-            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|14"],
+            "access_rules": ["^$OnLevel|14"],
             "visibility_rules": ["$LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "Challenge - EXPLOOOOOSIONS!",
-            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|12"],
+            "access_rules": ["^$OnLevel|12"],
             "visibility_rules": ["$LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Challenge - Singled Out",
-            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|19"],
+            "access_rules": ["^$OnLevel|19"],
             "visibility_rules": ["$LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Health Vampire",
-            "access_rules": ["license:commongrenademod, license:uncommongrenademod, ^$OnLevel|17"],
+            "access_rules": ["^$OnLevel|17"],
             "visibility_rules": ["$LevelLimit|17"],
             "item_count": 1
           }
@@ -2048,7 +2051,7 @@
           },
           {
             "name": "Challenge - A Squall of Violence",
-            "access_rules": ["melee, license:uniquepistol, ^$OnLevel|11"],
+            "access_rules": ["^$Licenses|any|license-uniquepistol, melee, ^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           }
@@ -2126,19 +2129,19 @@
           },
           {
             "name": "Challenge - Green Meanie",
-            "access_rules": ["license:commonpistol, ^$OnLevel|13"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|13"],
             "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - Death, Wind, and Fire",
-            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|6"],
             "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Im Back! Shocked",
-            "access_rules": ["license:commonpistol, ^$OnLevel|10"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|10"],
             "visibility_rules": ["$LevelLimit|10"],
             "item_count": 1
           }
@@ -2146,6 +2149,9 @@
       },
       {
         "name": "Shields",
+        "access_rules": [
+          "^$Licenses|all|license-commonshield|license-uncommonshield"
+        ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
           "bar_challenge_checks_enable_general_only"
@@ -2153,31 +2159,31 @@
         "sections": [
           {
             "name": "Challenge - Ammo Eater",
-            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "access_rules": ["^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Amp It Up",
-            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "access_rules": ["^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Super Novas",
-            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "access_rules": ["^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Roid Rage",
-            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "access_rules": ["^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Game of Thorns",
-            "access_rules": ["license:commonshield, license:uncommonshield, ^$OnLevel|11"],
+            "access_rules": ["^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           }
@@ -2225,7 +2231,7 @@
       {
         "name": "AssaultRifle",
         "access_rules": [
-          "^$ANY|license:commonassaultrifle|license:uncommonassaultrifle|license:rareassaultrifle|license:veryrareassaultrifle|license:e-techassaultrifle|license:legendaryassaultrifle|license:seraphassaultrifle|license:rainbowassaultrifle|license:pearlescentassaultrifle|license:uniqueassaultrifle"
+          "^$Licenses|any|license-commonassaultrifle|license-uncommonassaultrifle|license-rareassaultrifle|license-veryrareassaultrifle|license-e-techassaultrifle|license-legendaryassaultrifle|license-seraphassaultrifle|license-rainbowassaultrifle|license-pearlescentassaultrifle|license-uniqueassaultrifle"
         ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
@@ -2267,7 +2273,7 @@
       {
         "name": "Launcher",
         "access_rules": [
-          "^$ANY|license:commonrocketlauncher|license:uncommonrocketlauncher|license:rarerocketlauncher|license:veryrarerocketlauncher|license:e-techrocketlauncher|license:legendaryrocketlauncher|license:rainbowrocketlauncher|license:pearlescentrocketlauncher|license:uniquerocketlauncher"
+          "^$Licenses|any|license-commonrocketlauncher|license-uncommonrocketlauncher|license-rarerocketlauncher|license-veryrarerocketlauncher|license-e-techrocketlauncher|license-legendaryrocketlauncher|license-rainbowrocketlauncher|license-pearlescentrocketlauncher|license-uniquerocketlauncher"
         ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
@@ -2315,7 +2321,7 @@
       {
         "name": "Pistol",
         "access_rules": [
-          "^$ANY|license:commonpistol|license:uncommonpistol|license:rarepistol|license:veryrarepistol|license:e-techpistol|license:legendarypistol|license:seraphpistol|license:pearlescentpistol|license:uniquepistol"
+          "^$Licenses|any|license-commonpistol|license-uncommonpistol|license-rarepistol|license-veryrarepistol|license-e-techpistol|license-legendarypistol|license-seraphpistol|license-pearlescentpistol|license-uniquepistol"
         ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
@@ -2357,7 +2363,7 @@
       {
         "name": "SMG",
         "access_rules": [
-          "^$ANY|license:commonsmg|license:uncommonsmg|license:raresmg|license:veryraresmg|license:e-techsmg|license:legendarysmg|license:seraphsmg|license:rainbowsmg|license:pearlescentsmg|license:uniquesmg"
+          "^$Licenses|any|license-commonsmg|license-uncommonsmg|license-raresmg|license-veryraresmg|license-e-techsmg|license-legendarysmg|license-seraphsmg|license-rainbowsmg|license-pearlescentsmg|license-uniquesmg"
         ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
@@ -2393,7 +2399,7 @@
       {
         "name": "Shotgun",
         "access_rules": [
-          "^$ANY|license:commonshotgun|license:uncommonshotgun|license:rareshotgun|license:veryrareshotgun|license:e-techshotgun|license:legendaryshotgun|license:seraphshotgun|license:rainbowshotgun|license:pearlescentshotgun|license:uniqueshotgun"
+          "^$Licenses|any|license-commonshotgun|license-uncommonshotgun|license-rareshotgun|license-veryrareshotgun|license-e-techshotgun|license-legendaryshotgun|license-seraphshotgun|license-rainbowshotgun|license-pearlescentshotgun|license-uniqueshotgun"
         ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
@@ -2441,7 +2447,7 @@
       {
         "name": "Sniper",
         "access_rules": [
-          "^$ANY|license:commonsniperrifle|license:uncommonsniperrifle|license:raresniperrifle|license:veryraresniperrifle|license:e-techsniperrifle|license:legendarysniperrifle|license:seraphsniperrifle|license:rainbowsniperrifle|license:pearlescentsniperrifle|license:uniquesniperrifle"
+          "^$Licenses|any|license-commonsniperrifle|license-uncommonsniperrifle|license-raresniperrifle|license-veryraresniperrifle|license-e-techsniperrifle|license-legendarysniperrifle|license-seraphsniperrifle|license-rainbowsniperrifle|license-pearlescentsniperrifle|license-uniquesniperrifle"
         ],
         "visibility_rules": [
           "bar_challenge_checks_enable_all",
@@ -2501,43 +2507,43 @@
         "sections": [
           {
             "name": "Challenge - Slag-Licked",
-            "access_rules": ["license:commonpistol, ^$OnLevel|15"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|15"],
             "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Challenge - Corroderate",
-            "access_rules": ["license:commonpistol, ^$OnLevel|13"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|13"],
             "visibility_rules": ["$LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Challenge - I Just Want to Set the World on Fire",
-            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|6"],
             "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Say Watt Again",
-            "access_rules": ["license:commonpistol, ^$OnLevel|11"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Acid Trip",
-            "access_rules": ["license:commonpistol, ^$OnLevel|11"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Challenge - Boom",
-            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|6"],
             "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cowering Inferno",
-            "access_rules": ["license:commonpistol, ^$OnLevel|6"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|6"],
             "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           }

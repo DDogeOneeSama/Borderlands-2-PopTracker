@@ -65,7 +65,7 @@
           },
           {
             "name": "Rock, Paper, Genocide - Slag Weapons!",
-            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "access_rules": ["^$OnLevel|7, ^$Licenses|any|license-uncommonpistol"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|7",
               "quest_completion_checks_sidequest_only, $LevelLimit|7"],
@@ -73,7 +73,7 @@
           },
           {
             "name": "Rock, Paper, Genocide - Fire Weapons!",
-            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "access_rules": ["^$OnLevel|7, ^$Licenses|any|license-uncommonpistol"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|7",
               "quest_completion_checks_sidequest_only, $LevelLimit|7"],
@@ -81,7 +81,7 @@
           },
           {
             "name": "Rock, Paper, Genocide - Corrosive Weapons!",
-            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "access_rules": ["^$OnLevel|7, ^$Licenses|any|license-uncommonpistol"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|7",
               "quest_completion_checks_sidequest_only, $LevelLimit|7"],
@@ -89,7 +89,7 @@
           },
           {
             "name": "Rock, Paper, Genocide - Shock Weapons!",
-            "access_rules": ["^$OnLevel|7, license:uncommonpistol"],
+            "access_rules": ["^$OnLevel|7, ^$Licenses|any|license-uncommonpistol"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|7",
               "quest_completion_checks_sidequest_only, $LevelLimit|7"],
@@ -97,7 +97,7 @@
           },
           {
             "name": "Do No Harm",
-            "access_rules": ["^$OnLevel|8"],
+            "access_rules": ["melee, ^$OnLevel|8"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|8",
               "quest_completion_checks_sidequest_only, $LevelLimit|8"],
@@ -608,6 +608,14 @@
             "item_count": 1
           },
           {
+            "name": "The Ice Man Cometh",
+            "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$CanReachRegion|EndOfTheLine, ^$CanMakeJump|615, ^$OnLevel|13"],
+            "visibility_rules": [
+              "enable_Region_ThreeHornsValley, enable_Region_EndOfTheLine, quest_completion_checks_all, $LevelLimit|13",
+              "enable_Region_ThreeHornsValley, enable_Region_EndOfTheLine, quest_completion_checks_sidequest_only, $LevelLimit|13"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - Savage Lee",
             "access_rules": ["^$OnLevel|5"],
             "visibility_rules": ["$LevelLimit|5"],
@@ -732,7 +740,7 @@
           },
           {
             "name": "Cult Following - The Enkindling",
-            "access_rules": ["license:commonpistol, ^$CanReachRegion|Sanctuary, ^$OnLevel|13"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$CanReachRegion|Sanctuary, ^$OnLevel|13"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|13",
               "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|13"],
@@ -869,7 +877,7 @@
         "sections": [
           {
             "name": "Medical Mystery",
-            "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
+            "access_rules": ["melee, ^$CanReachRegion|Sanctuary, ^$OnLevel|8"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|8",
               "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|8"],
@@ -877,7 +885,7 @@
           },
           {
             "name": "Medical Mystery - X-Com-municate",
-            "access_rules": ["license:e-techassaultrifle, ^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
+            "access_rules": ["^$Licenses|any|license-e-techassaultrifle, melee, ^$CanReachRegion|Sanctuary, ^$OnLevel|9"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_Region_Sanctuary, $LevelLimit|9",
               "quest_completion_checks_sidequest_only, enable_Region_Sanctuary, $LevelLimit|9"],
@@ -1115,7 +1123,7 @@
           },
           {
             "name": "Clan War - Trailer Trashing",
-            "access_rules": ["license:commonpistol, ^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$CanReachRegion|Highlands, ^$CanReachRegion|HolySpirits, ^$OnLevel|18"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|18",
               "quest_completion_checks_sidequest_only, enable_Region_Highlands, enable_Region_HolySpirits, $LevelLimit|18"],
@@ -1846,19 +1854,19 @@
         ],
         "sections": [
           {
+            "name": "Rising Action",
+            "access_rules": ["^$OnLevel|15"],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|15",
+              "quest_completion_checks_story_only, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
             "name": "A Train to Catch",
             "access_rules": ["^$OnLevel|13"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|13",
               "quest_completion_checks_story_only, $LevelLimit|13"],
-            "item_count": 1
-          },
-          {
-            "name": "The Ice Man Cometh",
-            "access_rules": ["^$OnLevel|13"],
-            "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|13",
-              "quest_completion_checks_sidequest_only, $LevelLimit|13"],
             "item_count": 1
           },
           {
@@ -1913,14 +1921,6 @@
         ],
         "sections": [
           {
-            "name": "Rising Action",
-            "access_rules": ["^$OnLevel|15"],
-            "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|15",
-              "quest_completion_checks_story_only, $LevelLimit|15"],
-            "item_count": 1
-          },
-          {
             "name": "The Cold Shoulder",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|17"],
             "visibility_rules": [
@@ -1938,7 +1938,7 @@
           },
           {
             "name": "Note for Self-Person",
-            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|560, ^$OnLevel|17"],
+            "access_rules": ["^$CanReachRegion|Highlands, ^$CanMakeJump|554, ^$OnLevel|17"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_Region_Highlands, $LevelLimit|17",
               "quest_completion_checks_sidequest_only, enable_Region_Highlands, $LevelLimit|17"],
@@ -2684,10 +2684,10 @@
           },
           {
             "name": "Written by the Victor",
-            "access_rules": ["^$OnLevel|22"],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|22"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|22",
-              "quest_completion_checks_sidequest_only, $LevelLimit|22"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|22",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, enable_Region_ThousandCuts, $LevelLimit|22"],
             "item_count": 1
           },
           {
@@ -2897,10 +2897,10 @@
           },
           {
             "name": "Shoot This Guy in the Face",
-            "access_rules": ["^$OnLevel|1"],
+            "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|16"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|1",
-              "quest_completion_checks_sidequest_only, $LevelLimit|1"],
+              "quest_completion_checks_all, enable_Region_WildlifeExploitationPreserve, $LevelLimit|16",
+              "quest_completion_checks_sidequest_only, enable_Region_WildlifeExploitationPreserve, $LevelLimit|16"],
             "item_count": 1
           },
           {
@@ -3833,10 +3833,10 @@
         "sections": [
           {
             "name": "Toil and Trouble",
-            "access_rules": ["^$OnLevel|25"],
+            "access_rules": ["^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|25"],
             "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|25",
-              "quest_completion_checks_story_only, $LevelLimit|25"],
+              "enable_region_AridNexusBoneyard, quest_completion_checks_all, $LevelLimit|25",
+              "enable_region_AridNexusBoneyard, quest_completion_checks_story_only, $LevelLimit|25"],
             "item_count": 1
           },
           {

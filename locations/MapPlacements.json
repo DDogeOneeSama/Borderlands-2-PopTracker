@@ -1302,7 +1302,7 @@
           },
           {
             "name": "Rising Action",
-            "ref": "BaseGame/Fridge/Rising Action"
+            "ref": "BaseGame/EndOfTheLine/Rising Action"
           },
           {
             "name": "Swallowed Whole",
@@ -1856,7 +1856,7 @@
         ]
       },
       {
-        "name": "Liars Berg Vendors",
+        "name": "Liars Berg Gun Vendor",
         "sections": [
           {
             "name": "Gun Vendor - Liars Berg",
@@ -1874,7 +1874,7 @@
         ]
       },
       {
-        "name": "Liars Berg Vendors",
+        "name": "Liars Berg Ammo Vendor",
         "sections": [
           {
             "name": "Ammo Vendor - Liars Berg",
@@ -1892,7 +1892,7 @@
         ]
       },
       {
-        "name": "Liars Berg Vendors",
+        "name": "Liars Berg Med Vendor",
         "sections": [
           {
             "name": "Med Vendor - Liars Berg",
@@ -2127,7 +2127,7 @@
         ]
       },
       {
-        "name": "Entrance Vendors",
+        "name": "Southern Shelf Bay Entrance Vendors",
         "sections": [
           {
             "name": "Ammo Vendor - Entrance",
@@ -2218,7 +2218,7 @@
         ]
       },
       {
-        "name": "Windbreak Camp",
+        "name": "Windbreak Camp Car Trunk",
         "sections": [
           {
             "name": "Chest - Windbreak Car Trunk",
@@ -2236,7 +2236,7 @@
         ]
       },
       {
-        "name": "Windbreak Camp",
+        "name": "Windbreak Camp Wall",
         "sections": [
           {
             "name": "Symbol - Windbreak Wall",
@@ -2502,7 +2502,7 @@
         ]
       },
       {
-        "name": "Entrance Vendors",
+        "name": "Frostburn Canyon Entrance Vendors",
         "sections": [
           {
             "name": "Ammo Vendor - Entrance",
@@ -2773,7 +2773,7 @@
           },
           {
             "name": "The Ice Man Cometh",
-            "ref": "BaseGame/EndOfTheLine/The Ice Man Cometh"
+            "ref": "BaseGame/ThreeHornsDivide/The Ice Man Cometh"
           },
           {
             "name": "Gun Vendor - Happy Pig Motel",
@@ -2889,7 +2889,7 @@
         ]
       },
       {
-        "name": "Frostsprings",
+        "name": "Frostsprings Wall",
         "sections": [
           {
             "name": "Symbol - Frostsprings Wall",
@@ -2907,7 +2907,7 @@
         ]
       },
       {
-        "name": "Frostsprings",
+        "name": "Frostsprings Shack",
         "sections": [
           {
             "name": "Symbol - Frostsprings Shack",
@@ -3105,7 +3105,7 @@
         ]
       },
       {
-        "name": "Entrance Vendors",
+        "name": "Southpaw Steam & Power Entrance Vendors",
         "sections": [
           {
             "name": "Ammo Vendor - Entrance",
@@ -3345,7 +3345,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Goose's Roost Volleyball Net",
         "sections": [
           {
             "name": "Chest - Gooses Roost Volleyball Net",
@@ -3363,7 +3363,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Ellie's Crusher",
         "sections": [
           {
             "name": "Challenge - Ive Got a Crush on You",
@@ -3381,7 +3381,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Roaming Cara-Van",
         "sections": [
           {
             "name": "Challenge - The Van Is Damned",
@@ -3399,7 +3399,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Speedway",
         "sections": [
           {
             "name": "Challenge - If Youre Not First, Youre Last",
@@ -3417,7 +3417,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Dust to Dust ECHO Recorders",
         "sections": [
           {
             "name": "Challenge - Dust to Dust",
@@ -3431,11 +3431,25 @@
             "y": 128,
             "size": 10,
             "shape": "rect"
+          },
+          {
+            "map": "Dust",
+            "x": 332,
+            "y": 128,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "Dust",
+            "x": 332,
+            "y": 128,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Speedway Wall",
         "sections": [
           {
             "name": "Symbol - Speedway Wall",
@@ -3453,7 +3467,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Buzzard Pad",
         "sections": [
           {
             "name": "Symbol - Buzzard Pad",
@@ -3471,7 +3485,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Moonshiner Lid",
         "sections": [
           {
             "name": "Symbol - Moonshiner Lid",
@@ -3489,7 +3503,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Ellie's Garage Vendors",
         "sections": [
           {
             "name": "Med Vendor - Ellies Garage",
@@ -3511,7 +3525,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Hodunk Speedway Vendors",
         "sections": [
           {
             "name": "Ammo Vendor - Hodunk Speedway",
@@ -3533,7 +3547,7 @@
         ]
       },
       {
-        "name": "The Dust",
+        "name": "Old Dahlwell Oasis Vendors",
         "sections": [
           {
             "name": "Med Vendor - Old Dahlwell Oasis",
@@ -3626,6 +3640,10 @@
           {
             "name": "Enemy - Ralph",
             "ref": "BaseGame/BloodshotStronghold/Enemy - Ralph"
+          },
+          {
+            "name": "Challenge - Cut Em No Slack",
+            "ref": "BaseGame/BloodshotStronghold/Challenge - Cut Em No Slack"
           }
         ],
         "map_locations": [
@@ -3665,7 +3683,7 @@
         ]
       },
       {
-        "name": "Bloodshot Stronghold",
+        "name": "Electric Gate Chest",
         "sections": [
           {
             "name": "Chest - Electric Gate",
@@ -3683,7 +3701,7 @@
         ]
       },
       {
-        "name": "Bloodshot Stronghold",
+        "name": "Jail Cell Chest",
         "sections": [
           {
             "name": "Chest - Jail Cell",
@@ -3701,7 +3719,7 @@
         ]
       },
       {
-        "name": "Bloodshot Stronghold",
+        "name": "Eff Yo' Couch",
         "sections": [
           {
             "name": "Challenge - Eff Yo Couch",
@@ -3715,18 +3733,28 @@
             "y": 298,
             "size": 10,
             "shape": "rect"
-          }
-        ]
-      },
-      {
-        "name": "Bloodshot Stronghold",
-        "sections": [
+          },
           {
-            "name": "Challenge - Cut Em No Slack",
-            "ref": "BaseGame/BloodshotStronghold/Challenge - Cut Em No Slack"
-          }
-        ],
-        "map_locations": [
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
+          },
           {
             "map": "BloodshotStronghold",
             "x": 344,
@@ -3737,7 +3765,7 @@
         ]
       },
       {
-        "name": "Bloodshot Stronghold",
+        "name": "Whirlpool",
         "sections": [
           {
             "name": "Challenge - Give It a Whirl",
@@ -3755,7 +3783,7 @@
         ]
       },
       {
-        "name": "Bloodshot Stronghold",
+        "name": "Bloodshot Memories ECHO Recorders",
         "sections": [
           {
             "name": "Challenge - Bloodshot Memories",
@@ -3769,11 +3797,46 @@
             "y": 298,
             "size": 10,
             "shape": "rect"
+          },
+          {
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotStronghold",
+            "x": 344,
+            "y": 298,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
       {
-        "name": "Bloodshot Stronghold",
+        "name": "Pizza Intercom",
         "sections": [
           {
             "name": "Symbol - Pizza Intercom",
@@ -3791,7 +3854,7 @@
         ]
       },
       {
-        "name": "Bloodshot Stronghold",
+        "name": "Bloodshot Stronghold Entrance Vendors",
         "sections": [
           {
             "name": "Ammo Vendor - Entrance",
@@ -3867,7 +3930,7 @@
         ]
       },
       {
-        "name": "Bloodshot Ramparts",
+        "name": "Car Junkyard Trunk",
         "sections": [
           {
             "name": "Chest - Car Junkyard Trunk",
@@ -3885,7 +3948,7 @@
         ]
       },
       {
-        "name": "Bloodshot Ramparts",
+        "name": "The Last Place You Look Keys",
         "sections": [
           {
             "name": "Challenge - The Last Place You Look",
@@ -3899,11 +3962,39 @@
             "y": 285,
             "size": 10,
             "shape": "rect"
+          },
+          {
+            "map": "BloodshotRamparts",
+            "x": 318,
+            "y": 285,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotRamparts",
+            "x": 318,
+            "y": 285,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotRamparts",
+            "x": 318,
+            "y": 285,
+            "size": 10,
+            "shape": "rect"
+          },
+          {
+            "map": "BloodshotRamparts",
+            "x": 318,
+            "y": 285,
+            "size": 10,
+            "shape": "rect"
           }
         ]
       },
       {
-        "name": "Bloodshot Ramparts",
+        "name": "The Not-So-Phantom Tollbooth",
         "sections": [
           {
             "name": "Challenge - The Not-So-Phantom Tollbooth",
@@ -3921,7 +4012,7 @@
         ]
       },
       {
-        "name": "Bloodshot Ramparts",
+        "name": "Marcus Sacrifice",
         "sections": [
           {
             "name": "Challenge - Marcus Sacrifice",
@@ -3939,7 +4030,7 @@
         ]
       },
       {
-        "name": "Bloodshot Ramparts",
+        "name": "Bloodshot Ramparts Ramp",
         "sections": [
           {
             "name": "Symbol - Ramp",
@@ -3961,7 +4052,7 @@
         ]
       },
       {
-        "name": "Bloodshot Ramparts",
+        "name": "Bloodshot Ramparts Entrance Vendors",
         "sections": [
           {
             "name": "Ammo Vendor - Entrance",
@@ -3983,7 +4074,7 @@
         ]
       },
       {
-        "name": "Friendship Gulag",
+        "name": "Carson Cell Chest",
         "sections": [
           {
             "name": "Chest - Carson Cell",
@@ -4001,7 +4092,7 @@
         ]
       },
       {
-        "name": "Friendship Gulag",
+        "name": "Gulag Awning Chest",
         "sections": [
           {
             "name": "Chest - Gulag Awning",
@@ -4019,7 +4110,7 @@
         ]
       },
       {
-        "name": "Friendship Gulag",
+        "name": "Friendship Gulag Entrance Vendors",
         "sections": [
           {
             "name": "Med Vendor - Entrance",
@@ -4041,7 +4132,7 @@
         ]
       },
       {
-        "name": "Friendship Gulag",
+        "name": "Gulag Container",
         "sections": [
           {
             "name": "Symbol - Gulag Container",
@@ -6984,8 +7075,8 @@
             "ref": "TorgueDLC/PyroPetesBar/Tier 3 Rematch - Bar Room Blitz"
           },
           {
-            "name": "ChopSuey",
-            "ref": "TorgueDLC/PyroPetesBar/ChopSuey"
+            "name": "Chop Suey",
+            "ref": "TorgueDLC/PyroPetesBar/Chop Suey"
           },
           {
             "name": "A Montage",
@@ -8085,7 +8176,7 @@
           },
           {
             "name": "Dwarven Allies",
-            "ref": "TinaDLC/ImmortalWoods/Dwarven Allies"
+            "ref": "TinaDLC/MinesOfAvarice/Dwarven Allies"
           },
           {
             "name": "Enemy - n00bkiller",
@@ -8191,7 +8282,7 @@
           },
           {
             "name": "A Game of Games",
-            "ref": "TinaDLC/HatredsShadow/A Game of Games"
+            "ref": "TinaDLC/DragonKeep/A Game of Games"
           },
           {
             "name": "Enemy - Maxibillion",
@@ -8951,7 +9042,7 @@
           },
           {
             "name": "My Brittle Pony",
-            "ref": "LilithDLC/MtScarabResearchCenter/My Brittle Pony"
+            "ref": "LilithDLC/Backburner/My Brittle Pony"
           },
           {
             "name": "BFFFs",
@@ -8963,7 +9054,7 @@
           },
           {
             "name": "Chief Executive Overlord",
-            "ref": "LilithDLC/FFSBossFight/Chief Executive Overlord"
+            "ref": "LilithDLC/HeliosFallen/Chief Executive Overlord"
           },
           {
             "name": "Challenge - Make Yourself At Home",

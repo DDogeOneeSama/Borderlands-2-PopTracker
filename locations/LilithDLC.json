@@ -24,6 +24,14 @@
             "item_count": 1
           },
           {
+            "name": "My Brittle Pony",
+            "access_rules": ["^$CanReachRegion|MtScarabResearchCenter, ^$CanReachRegion|HeliosFallen, ^$OnLevel|30"],
+            "visibility_rules": [
+              "quest_completion_checks_all, enable_region_MtScarabResearchCenter, enable_region_HeliosFallen, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_MtScarabResearchCenter, enable_region_HeliosFallen, $LevelLimit|30"],
+            "item_count": 1
+          },
+          {
             "name": "Symbol - Zeds",
             "access_rules": ["^$CanMakeJump|505, ^$OnLevel|30"],
             "visibility_rules": ["vault_symbols_enabled, $LevelLimit|30"],
@@ -87,7 +95,7 @@
           },
           {
             "name": "Challenge - Fandir Fiction",
-            "access_rules": ["license:uniquerelic, ^$CanReachRegion|FFSBossFight, ^$CanReachRegion|LairOfInfiniteAgony, ^$OnLevel|30"],
+            "access_rules": ["^$Licenses|any|license-uniquerelic, ^$CanReachRegion|FFSBossFight, ^$CanReachRegion|LairOfInfiniteAgony, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, remove_missable_checks_keep, enable_region_FFSBossFight, enable_region_LairOfInfiniteAgony, $LevelLimit|30",
               "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, enable_region_FFSBossFight, enable_region_LairOfInfiniteAgony, $LevelLimit|30"],
@@ -457,6 +465,14 @@
             "item_count": 1
           },
           {
+            "name": "Chief Executive Overlord",
+            "access_rules": ["^$CanReachRegion|FFSBossFight, ^$CanMakeJump|588, ^$OnLevel|30"],
+            "visibility_rules": [
+              "quest_completion_checks_all, enable_region_FFSBossFight, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, enable_region_FFSBossFight, $LevelLimit|30"],
+            "item_count": 1
+          },
+          {
             "name": "Enemy - Uranus Bot",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
@@ -612,14 +628,6 @@
             "item_count": 1
           },
           {
-            "name": "My Brittle Pony",
-            "access_rules": ["^$CanReachRegion|FFSBossFight, ^$OnLevel|30"],
-            "visibility_rules": [
-              "quest_completion_checks_all, enable_region_FFSBossFight, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_FFSBossFight, $LevelLimit|30"],
-            "item_count": 1
-          },
-          {
             "name": "Echoes of the Past",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
@@ -746,18 +754,10 @@
         "sections": [
           {
             "name": "Paradise Found",
-            "access_rules": ["^$CanMakeJump|588, ^$OnLevel|30"],
-            "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_story_only, $LevelLimit|30"],
-            "item_count": 1
-          },
-          {
-            "name": "Chief Executive Overlord",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
+              "quest_completion_checks_story_only, $LevelLimit|30"],
             "item_count": 1
           },
           {

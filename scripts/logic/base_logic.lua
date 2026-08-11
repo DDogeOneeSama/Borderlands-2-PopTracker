@@ -126,7 +126,11 @@ function MiscCasesEntrances(regionToCheck)
   elseif(regionToCheck == "MtScarabResearchCenter") then
     return Tracker:FindObjectForCode("melee").Active
   elseif(regionToCheck == "CandlerakksCrag") then
-    return Tracker:FindObjectForCode("license:commonpistol").Active
+    if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
+      return Tracker:FindObjectForCode("license-commonpistol").Active
+    else
+      return true
+    end
   elseif(regionToCheck == "Terminus") then
     return Tracker:FindObjectForCode("crouch").Active
   elseif(regionToCheck == "LairOfInfiniteAgony") then
@@ -272,7 +276,7 @@ end
 
 function BasicCombat()
   if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
-    return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
+    return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license-commonpistol").Active)
   else
     return true
   end
@@ -280,7 +284,7 @@ end
 
 function OverLevel10()
   if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
-    return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license:commonpistol").Active)
+    return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license-commonpistol").Active)
   else
     return true
   end
@@ -299,5 +303,38 @@ function DisableForLvl30Override()
     return false
   else
     return true
+  end
+end
+
+function Licenses(...)
+  if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 0 then
+    return AccessibilityLevel.Normal
+  end
+  local licencesToCheck = {...}
+  local anyOrAll = table.remove(licencesToCheck, 1)
+  for i = #licencesToCheck, 1, -1 do
+    if licencesToCheck[i]:sub(1, 15) == "license-rainbow" then
+      if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1 or 2 or 3 then
+        table.remove(licencesToCheck, i)
+      end
+    elseif licencesToCheck[i]:sub(1, 19) == "license-pearlescent" then
+      if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1 or 2 then
+        table.remove(licencesToCheck, i)
+      end
+    elseif licencesToCheck[i]:sub(1, 14) == "license-seraph" then
+      if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1 then
+        table.remove(licencesToCheck, i)
+      end
+    end
+  end
+  if licencesToCheck[1] == nil then
+    return AccessibilityLevel.Normal
+  end
+  if anyOrAll == "any" then
+    return ANY(table.unpack(licencesToCheck))
+  elseif anyOrAll == "all" then
+    return ALL(table.unpack(licencesToCheck))
+  else
+    return AccessibilityLevel.None
   end
 end

@@ -17,7 +17,7 @@
         "sections": [
           {
             "name": "Mother-Lover",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_region_BadassCraterBar, $LevelLimit|15",
               "quest_completion_checks_sidequest_only, enable_region_BadassCraterBar, $LevelLimit|15"],
@@ -33,7 +33,7 @@
           },
           {
             "name": "Number One Fan",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_region_BadassCraterBar, $LevelLimit|15",
               "quest_completion_checks_sidequest_only, enable_region_BadassCraterBar, $LevelLimit|15"],
@@ -147,8 +147,8 @@
             "item_count": 1
           },
           {
-            "name": "ChopSuey",
-            "access_rules": ["^$OnLevel|15"],
+            "name": "Chop Suey",
+            "access_rules": ["^$CanMakeJump|395, ^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|15",
               "quest_completion_checks_story_only, $LevelLimit|15"],
@@ -180,7 +180,7 @@
           },
           {
             "name": "Pete the Invincible",
-            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|Forge, @Placeholders/Torgue DLC Complete, ^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_region_Forge, remove_raid_boss_checks_keep, $LevelLimit|15",
               "quest_completion_checks_sidequest_only, enable_region_Forge, remove_raid_boss_checks_keep, $LevelLimit|15"],
@@ -194,7 +194,7 @@
           },
           {
             "name": "Enemy - Pyro Pete the Invincible",
-            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|Forge, ^$OnLevel|30"],
             "visibility_rules": [
               "remove_raid_boss_checks_keep, enable_region_Forge, $LevelLimit|30"],
             "item_count": 1
@@ -421,7 +421,7 @@
           },
           {
             "name": "Commercial Appeal",
-            "access_rules": ["license:rareshotgun, ^$OnLevel|15"],
+            "access_rules": ["^$Licenses|any|license-rareshotgun, ^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|15",
               "quest_completion_checks_sidequest_only, $LevelLimit|15"],
@@ -767,7 +767,7 @@
           },
           {
             "name": "Battle - The Death Race",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_region_BadassCraterBar, $LevelLimit|15",
               "quest_completion_checks_story_only, enable_region_BadassCraterBar, $LevelLimit|15"],
@@ -775,7 +775,7 @@
           },
           {
             "name": "Tier 2 Battle - The Death Race",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|50"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|50"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_region_BadassCraterBar, $LevelLimit|50",
               "quest_completion_checks_sidequest_only, enable_region_BadassCraterBar, $LevelLimit|50"],
@@ -783,7 +783,7 @@
           },
           {
             "name": "Tier 3 Battle - The Death Race",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|50"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|50"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_region_BadassCraterBar, $LevelLimit|50",
               "quest_completion_checks_sidequest_only, enable_region_BadassCraterBar, $LevelLimit|50"],
@@ -791,7 +791,7 @@
           },
           {
             "name": "Tier 3 Rematch - The Death Race",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|50"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|50"],
             "visibility_rules": [
               "quest_completion_checks_all, enable_region_BadassCraterBar, $LevelLimit|50",
               "quest_completion_checks_sidequest_only, enable_region_BadassCraterBar, $LevelLimit|50"],
@@ -934,7 +934,7 @@
         "sections": [
           {
             "name": "Walking the Dog",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$CanMakeJump|450, ^$OnLevel|15"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|15",
               "quest_completion_checks_sidequest_only, $LevelLimit|15"],
@@ -1009,6 +1009,23 @@
             "visibility_rules": [
               "bar_challenge_checks_enable_all, enable_region_BadassCraterBar, $LevelLimit|15",
               "bar_challenge_checks_enable_general_only, enable_region_BadassCraterBar, $LevelLimit|15"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Placeholders",
+        "sections": [
+          {
+            "name": "Torgue DLC Complete",
+            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$CanMakeJump|546"],
+            "visibility_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torgue Tokens Accessible",
+            "access_rules": ["^$CanReachRegion|BadassCraterBar"],
+            "visibility_rules": [],
             "item_count": 1
           }
         ]
