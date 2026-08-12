@@ -178,6 +178,18 @@ SLOT_CODES =
       [3] = 3  -- Sidequest Only
     }
   },
+  quest_reward_items =
+  {
+    code = "quest_reward_items",
+    mapping =
+    {
+      [0] = 0, -- None
+      [1] = 1, -- All
+      [2] = 1, -- Gear Only(No difference here from all)
+      [3] = 2, -- Only Included Regions
+      [4] = 2  -- Only Included Regions Gear(No difference here from included regions)
+    }
+  },
   generic_mob_checks =
   {
     code = "generic_mob_checks",

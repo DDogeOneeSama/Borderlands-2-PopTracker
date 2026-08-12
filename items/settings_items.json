@@ -498,6 +498,33 @@
 	]
   },
   {
+    "name": "Quest Reward Items",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "img": "images/settings/quest_reward_items_none.png",
+        "codes": "quest_reward_items,quest_reward_items_none",
+        "inherit_codes": false,
+        "name": "Quest Reward Items - None"
+      },
+      {
+        "img": "images/settings/quest_reward_items_all.png",
+        "codes": "quest_reward_items,quest_reward_items_all",
+        "inherit_codes": false,
+        "name": "Quest Reward Items - All"
+      },
+      {
+        "img": "images/settings/quest_reward_items_regions.png",
+        "codes": "quest_reward_items,quest_reward_items_regions",
+        "inherit_codes": false,
+        "name": "Quest Reward Items - Regions Only"
+      }
+	]
+  },
+  {
     "name": "Generic Mob Checks",
     "type": "progressive",
     "loop": true,
