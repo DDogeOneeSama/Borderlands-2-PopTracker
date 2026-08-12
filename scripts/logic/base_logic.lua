@@ -338,3 +338,19 @@ function Licenses(...)
     return AccessibilityLevel.None
   end
 end
+
+function SettingStage(code, greaterOrLess, stageAmount)
+  local code = code or ""
+  local greaterOrLess = greaterOrLess or "greater"
+  local stageAmount = tonumber(stageAmount) or 0
+  if greaterOrLess == "greater" then
+    if Tracker:FindObjectForCode(code).CurrentStage >= stageAmount then
+      return true
+    end
+  elseif greaterOrLess == "less" then
+    if Tracker:FindObjectForCode(code).CurrentStage <= stageAmount then
+      return true
+    end
+  end
+  return false
+end
