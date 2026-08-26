@@ -9,175 +9,175 @@
           {
             "name": "Level 2",
             "access_rules": ["^$OnLevel|2"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|2"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Level 3",
             "access_rules": ["^$OnLevel|3"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|3"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Level 4",
             "access_rules": ["^$OnLevel|4"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|4"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|4"],
             "item_count": 1
           },
           {
             "name": "Level 5",
             "access_rules": ["^$OnLevel|5"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|5"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Level 6",
             "access_rules": ["^$OnLevel|6"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|6"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|6"],
             "item_count": 1
           },
           {
             "name": "Level 7",
             "access_rules": ["^$OnLevel|7"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|7"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Level 8",
             "access_rules": ["^$OnLevel|8"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|8"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Level 9",
             "access_rules": ["^$OnLevel|9"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|9"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|9"],
             "item_count": 1
           },
           {
             "name": "Level 10",
             "access_rules": ["^$OnLevel|10"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|10"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Level 11",
             "access_rules": ["^$OnLevel|11"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|11"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Level 12",
             "access_rules": ["^$OnLevel|12"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|12"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|12"],
             "item_count": 1
           },
           {
             "name": "Level 13",
             "access_rules": ["^$OnLevel|13"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|13"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Level 14",
             "access_rules": ["^$OnLevel|14"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|14"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|14"],
             "item_count": 1
           },
           {
             "name": "Level 15",
             "access_rules": ["^$OnLevel|15"],
-            "visibility_rules": ["$DisableForLvl15Override, $DisableForLvl30Override, $LevelLimit|15"],
+            "visibility_rules": ["$NotOverriden|15, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Level 16",
             "access_rules": ["^$OnLevel|16"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|16"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Level 17",
             "access_rules": ["^$OnLevel|17"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|17"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Level 18",
             "access_rules": ["^$OnLevel|18"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|18"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|18"],
             "item_count": 1
           },
           {
             "name": "Level 19",
             "access_rules": ["^$OnLevel|19"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|19"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Level 20",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|20"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Level 21",
             "access_rules": ["^$OnLevel|21"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|21"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|21"],
             "item_count": 1
           },
           {
             "name": "Level 22",
             "access_rules": ["^$OnLevel|22"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|22"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|22"],
             "item_count": 1
           },
           {
             "name": "Level 23",
             "access_rules": ["^$OnLevel|23"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|23"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|23"],
             "item_count": 1
           },
           {
             "name": "Level 24",
             "access_rules": ["^$OnLevel|24"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|24"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|24"],
             "item_count": 1
           },
           {
             "name": "Level 25",
             "access_rules": ["^$OnLevel|25"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|25"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|25"],
             "item_count": 1
           },
           {
             "name": "Level 26",
             "access_rules": ["^$OnLevel|26"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|26"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|26"],
             "item_count": 1
           },
           {
             "name": "Level 27",
             "access_rules": ["^$OnLevel|27"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|27"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|27"],
             "item_count": 1
           },
           {
             "name": "Level 28",
             "access_rules": ["^$OnLevel|28"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|28"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|28"],
             "item_count": 1
           },
           {
             "name": "Level 29",
             "access_rules": ["^$OnLevel|29"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|29"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|29"],
             "item_count": 1
           },
           {
             "name": "Level 30",
             "access_rules": ["^$OnLevel|30"],
-            "visibility_rules": ["$DisableForLvl30Override, $LevelLimit|30"],
+            "visibility_rules": ["$NotOverriden|30, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -188,91 +188,94 @@
           {
             "name": "Common Shield Found",
             "access_rules": [
-              "^$CanReachRegion|SouthernShelf",
-              "^$Licenses|any|license-commonshield, receive_gear_enabled"
+              "^$Licenses|any|license-commonshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$OnLevel|7|aolKeep"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
           {
             "name": "Uncommon Shield Found",
             "access_rules": [
-              "^$CanReachRegion|Sanctuary",
-              "^$Licenses|any|license-uncommonshield, receive_gear_enabled"
+              "^$Licenses|any|license-uncommonshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$OnLevel|7|aolKeep"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
           {
             "name": "Rare Shield Found",
             "access_rules": [
-              "^$CanReachRegion|Sanctuary",
-              "^$Licenses|any|license-rareshield, receive_gear_enabled"
+              "^$Licenses|any|license-rareshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$OnLevel|10|aolKeep"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
           {
             "name": "VeryRare Shield Found",
             "access_rules": [
-              "^$CanReachRegion|Sanctuary",
-              "^$Licenses|any|license-veryrareshield, receive_gear_enabled"
+              "^$Licenses|any|license-veryrareshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$OnLevel|13|aolKeep"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
           {
             "name": "Legendary Shield Found",
             "access_rules": [
-              "^$CanReachRegion|Highlands",
-              "^$Licenses|any|license-legendaryshield, receive_gear_enabled"
+              "^$Licenses|any|license-legendaryshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$CanReachRegion|FrostburnCanyon, ^$OnLevel|9, quest_reward_items_none, enable_region_FrostburnCanyon",
+              "^$CanReachRegion|FrostburnCanyon, ^$OnLevel|29, quest_reward_items_none, enable_region_FrostburnCanyon",
+              "^$CanReachRegion|CausticCaverns, ^$OnLevel|15, enable_region_CausticCaverns",
+              "^$CanReachRegion|Highlands, ^$OnLevel|16, enable_region_Highlands",
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20, enable_region_WildlifeExploitationPreserve",
+              "^$CanReachRegion|Opportunity, ^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|23, enable_region_Opportunity, enable_region_WildlifeExploitationPreserve, enable_region_ThousandCuts",
+              "^$CanReachRegion|Bunker, ^$OnLevel|26, enable_region_Bunker",
+              "^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|29, enable_region_AridNexusBoneyard",
+              "^$CanReachRegion|VaultOfTheWarrior, ^$OnLevel|30, enable_region_VaultOfTheWarrior",
+              "^$CanReachRegion|TerramorphousPeak, ^$OnLevel|50, remove_raid_boss_checks_keep, enable_region_TerramorphousPeak",
+              "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_WashburneRefinery, enable_region_LeviathansLair",
+              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_HaytersFolly, enable_region_LeviathansLair",
+              "^$CanReachRegion|HallowedHollow, ^$OnLevel|15, enable_region_HallowedHollow",
+              "^$CanReachRegion|Forest, ^$OnLevel|30, enable_region_Forest",
+              "^$CanReachRegion|DragonKeep, ^$OnLevel|30, enable_region_DragonKeep"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
           {
             "name": "Seraph Shield Found",
             "access_rules": [
-              "^$CanReachRegion|Forge",
-              "^$Licenses|any|license-seraphshield, receive_gear_enabled"
+              "^$Licenses|any|license-seraphshield, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
+              "^$CanReachRegion|PyroPetesBar, ^$CanReachRegion|Forge, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_PyroPetesBar, enable_region_Forge",
+              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_HaytersFolly, enable_region_LeviathansLair",
+              "^$CanReachRegion|WingedStorm, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_WingedStorm",
+              "^$CanReachRegion|Oasis, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, enable_region_Oasis",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, enable_region_BadassCrater",
+              "^$CanReachRegion|FlamerockRefuge, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, enable_region_FlamerockRefuge"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
           {
             "name": "Rainbow Shield Found",
             "access_rules": [
-              "^$CanReachRegion|Burrows",
-              "^$Licenses|any|license-rainbowshield, receive_gear_enabled"
+              "^$Licenses|any|license-rainbowshield, gear_licenses_all, receive_gear_enabled",
+              "^$CanReachRegion|Burrows, ^$OnLevel|30, enable_region_Burrows",
+              "^$CanReachRegion|WrithingDeep, ^$OnLevel|38, remove_raid_boss_checks_keep, enable_region_WrithingDeep"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -282,14 +285,15 @@
           {
             "name": "Unique Shield Found",
             "access_rules": [
-              "^$CanReachRegion|HolySpirits",
-              "^$Licenses|any|license-uniqueshield, receive_gear_enabled"
+              "^$Licenses|any|license-uniqueshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$CanReachRegion|HuntersGrotto, ^$CanReachRegion|ScyllasGrove, ^$OnLevel|30, enable_region_HuntersGrotto, enable_region_ScyllasGrove",
+              "^$CanReachRegion|BloodshotStronghold, ^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|12, quest_reward_items_none, enable_region_BloodshotStronghold, enable_region_BloodshotRamparts, enable_region_FriendshipGulag",
+              "^$CanReachRegion|Highlands, ^$OnLevel|16, quest_reward_items_none, enable_region_Highlands",
+              "^$CanReachRegion|HolySpirits, ^$OnLevel|16, quest_reward_items_none, enable_region_HolySpirits",
+              "^$CanReachRegion|Sanctuary, ^$CanReachRegion|ControlCoreAngel, ^$OnLevel|26, quest_reward_items_none, enable_region_Sanctuary, enable_region_ControlCoreAngel"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -300,10 +304,7 @@
               "^$Licenses|any|license-commongrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -314,10 +315,7 @@
               "^$Licenses|any|license-uncommongrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -328,10 +326,7 @@
               "^$Licenses|any|license-raregrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -342,10 +337,7 @@
               "^$Licenses|any|license-veryraregrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -356,10 +348,7 @@
               "^$Licenses|any|license-legendarygrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -370,9 +359,7 @@
               "^$Licenses|any|license-seraphgrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -394,10 +381,7 @@
               "^$Licenses|any|license-uniquegrenademod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -408,10 +392,7 @@
               "^$Licenses|any|license-commonclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -422,10 +403,7 @@
               "^$Licenses|any|license-uncommonclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -436,10 +414,7 @@
               "^$Licenses|any|license-rareclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -450,10 +425,7 @@
               "^$Licenses|any|license-veryrareclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -464,10 +436,7 @@
               "^$Licenses|any|license-legendaryclassmod, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -478,10 +447,7 @@
               "^$Licenses|any|license-commonrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -492,10 +458,7 @@
               "^$Licenses|any|license-uncommonrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -506,10 +469,7 @@
               "^$Licenses|any|license-rarerelic, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -520,10 +480,7 @@
               "^$Licenses|any|license-veryrarerelic, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -534,10 +491,7 @@
               "^$Licenses|any|license-e-techrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -548,9 +502,7 @@
               "^$Licenses|any|license-seraphrelic, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -572,10 +524,7 @@
               "^$Licenses|any|license-uniquerelic, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -586,10 +535,7 @@
               "^$Licenses|any|license-commonpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -600,10 +546,7 @@
               "^$Licenses|any|license-uncommonpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -614,10 +557,7 @@
               "^$Licenses|any|license-rarepistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -628,10 +568,7 @@
               "^$Licenses|any|license-veryrarepistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -642,10 +579,7 @@
               "^$Licenses|any|license-e-techpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -656,10 +590,7 @@
               "^$Licenses|any|license-legendarypistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -670,9 +601,7 @@
               "^$Licenses|any|license-seraphpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -683,8 +612,7 @@
               "^$Licenses|any|license-pearlescentpistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
-              "gear_rarity_checks_all, $LevelLimit|30"
+              "$SettingStage|gear_rarity_checks|greater|3, $LevelLimit|30"
             ],
             "item_count": 1
           },
@@ -695,10 +623,7 @@
               "^$Licenses|any|license-uniquepistol, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -709,10 +634,7 @@
               "^$Licenses|any|license-commonshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -723,10 +645,7 @@
               "^$Licenses|any|license-uncommonshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -737,10 +656,7 @@
               "^$Licenses|any|license-rareshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -751,10 +667,7 @@
               "^$Licenses|any|license-veryrareshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -765,10 +678,7 @@
               "^$Licenses|any|license-e-techshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -779,10 +689,7 @@
               "^$Licenses|any|license-legendaryshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -793,9 +700,7 @@
               "^$Licenses|any|license-seraphshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -817,8 +722,7 @@
               "^$Licenses|any|license-pearlescentshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
-              "gear_rarity_checks_all, $LevelLimit|30"
+              "$SettingStage|gear_rarity_checks|greater|3, $LevelLimit|30"
             ],
             "item_count": 1
           },
@@ -829,10 +733,7 @@
               "^$Licenses|any|license-uniqueshotgun, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -843,10 +744,7 @@
               "^$Licenses|any|license-commonsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -857,10 +755,7 @@
               "^$Licenses|any|license-uncommonsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -871,10 +766,7 @@
               "^$Licenses|any|license-raresmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -885,10 +777,7 @@
               "^$Licenses|any|license-veryraresmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -899,10 +788,7 @@
               "^$Licenses|any|license-e-techsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -913,10 +799,7 @@
               "^$Licenses|any|license-legendarysmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -927,9 +810,7 @@
               "^$Licenses|any|license-seraphsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -951,8 +832,7 @@
               "^$Licenses|any|license-pearlescentsmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
-              "gear_rarity_checks_all, $LevelLimit|30"
+              "$SettingStage|gear_rarity_checks|greater|3, $LevelLimit|30"
             ],
             "item_count": 1
           },
@@ -963,10 +843,7 @@
               "^$Licenses|any|license-uniquesmg, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -977,10 +854,7 @@
               "^$Licenses|any|license-commonsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -991,10 +865,7 @@
               "^$Licenses|any|license-uncommonsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1005,10 +876,7 @@
               "^$Licenses|any|license-raresniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1019,10 +887,7 @@
               "^$Licenses|any|license-veryraresniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1033,10 +898,7 @@
               "^$Licenses|any|license-e-techsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1047,10 +909,7 @@
               "^$Licenses|any|license-legendarysniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1061,9 +920,7 @@
               "^$Licenses|any|license-seraphsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -1085,8 +942,7 @@
               "^$Licenses|any|license-pearlescentsniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
-              "gear_rarity_checks_all, $LevelLimit|30"
+              "$SettingStage|gear_rarity_checks|greater|3, $LevelLimit|30"
             ],
             "item_count": 1
           },
@@ -1097,10 +953,7 @@
               "^$Licenses|any|license-uniquesniperrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1111,10 +964,7 @@
               "^$Licenses|any|license-commonassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1125,10 +975,7 @@
               "^$Licenses|any|license-uncommonassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1139,10 +986,7 @@
               "^$Licenses|any|license-rareassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1153,10 +997,7 @@
               "^$Licenses|any|license-veryrareassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1167,10 +1008,7 @@
               "^$Licenses|any|license-e-techassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1181,10 +1019,7 @@
               "^$Licenses|any|license-legendaryassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1195,9 +1030,7 @@
               "^$Licenses|any|license-seraphassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -1219,8 +1052,7 @@
               "^$Licenses|any|license-pearlescentassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
-              "gear_rarity_checks_all, $LevelLimit|30"
+              "$SettingStage|gear_rarity_checks|greater|3, $LevelLimit|30"
             ],
             "item_count": 1
           },
@@ -1231,10 +1063,7 @@
               "^$Licenses|any|license-uniqueassaultrifle, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1245,10 +1074,7 @@
               "^$Licenses|any|license-commonrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1259,10 +1085,7 @@
               "^$Licenses|any|license-uncommonrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1273,10 +1096,7 @@
               "^$Licenses|any|license-rarerocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1287,10 +1107,7 @@
               "^$Licenses|any|license-veryrarerocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1301,10 +1118,7 @@
               "^$Licenses|any|license-e-techrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1315,10 +1129,7 @@
               "^$Licenses|any|license-legendaryrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           },
@@ -1329,9 +1140,7 @@
               "^$Licenses|any|license-seraphrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|2"
             ],
             "item_count": 1
           },
@@ -1353,8 +1162,7 @@
               "^$Licenses|any|license-pearlescentrocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_rainbow, $LevelLimit|30",
-              "gear_rarity_checks_all, $LevelLimit|30"
+              "$SettingStage|gear_rarity_checks|greater|3, $LevelLimit|30"
             ],
             "item_count": 1
           },
@@ -1365,10 +1173,7 @@
               "^$Licenses|any|license-uniquerocketlauncher, receive_gear_enabled"
             ],
             "visibility_rules": [
-              "gear_rarity_checks_exclude_seraph_plus",
-              "gear_rarity_checks_exclude_pearl_plus",
-              "gear_rarity_checks_exclude_rainbow",
-              "gear_rarity_checks_all"
+              "$SettingStage|gear_rarity_checks|greater|1"
             ],
             "item_count": 1
           }

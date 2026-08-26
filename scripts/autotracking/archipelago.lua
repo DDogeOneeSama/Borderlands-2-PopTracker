@@ -235,6 +235,10 @@ function onItem(index, item_id, item_name, player_number)
     for _, item_pair in pairs(item) do
         item_code = item_pair[1]
         item_type = item_pair[2]
+        if item_code == "infinitebackpack" then
+            Tracker:FindObjectForCode("backpackupgrade").CurrentStage = 9
+            return
+        end
         local item_obj = Tracker:FindObjectForCode(item_code)
         if item_obj then
             if item_obj.Type == "toggle" then

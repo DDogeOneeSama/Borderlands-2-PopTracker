@@ -712,7 +712,6 @@
         "increment": 100,
         "decrement": 100,
         "initial_quantity": 200,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxammopistol"
     },
@@ -725,7 +724,6 @@
         "increment": 140,
         "decrement": 140,
         "initial_quantity": 280,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxammoassaultrifle"
     },
@@ -738,7 +736,6 @@
         "increment": 20,
         "decrement": 20,
         "initial_quantity": 80,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxammoshotgun"
     },
@@ -751,7 +748,6 @@
         "increment": 180,
         "decrement": 180,
         "initial_quantity": 360,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxammosmg"
     },
@@ -764,7 +760,6 @@
         "increment": 12,
         "decrement": 12,
         "initial_quantity": 48,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxammosniperrifle"
     },
@@ -777,7 +772,6 @@
         "increment": 3,
         "decrement": 3,
         "initial_quantity": 12,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxammorocketlauncher"
     },
@@ -790,7 +784,6 @@
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 3,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxgrenadecount"
     },
@@ -803,22 +796,72 @@
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 3,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "maxgrenadecount"
     },
     {
-        "name": "Backpack Slots",
-        "type": "consumable",
-        "img": "/images/items/character/backpack.png",
-        "min_quantity": 12,
-        "max_quantity": 39,
-        "increment": 3,
-        "decrement": 3,
-        "initial_quantity": 12,
-        "overlay_font_size": true,
-        "overlay_background": "#000000",
-        "codes": "backpackupgrade"
+    "name": "Backpack Slots",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "/images/items/character/backpack12.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack15.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack18.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack21.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack24.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack27.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack30.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack33.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack36.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpack39.png",
+        "codes": "backpackupgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/character/backpackinfinite.png",
+        "codes": "backpackupgrade, infinitebackpack",
+        "inherit_codes": false
+      }
+	]
     },
     {
         "name": "Weapon Slots",
@@ -829,7 +872,6 @@
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 2,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "progressiveweaponslot"
     },
@@ -842,7 +884,6 @@
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "progressivejump"
     },
@@ -855,7 +896,6 @@
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "progressivesprint"
     },
@@ -868,7 +908,6 @@
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
-        "overlay_font_size": true,
         "overlay_background": "#000000",
         "codes": "progressivemoneycap"
     },
@@ -925,6 +964,14 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "overridelevel30"
+    },
+    {
+        "name": "override level 80",
+        "type": "toggle",
+        "img": "images/items/character/overridelevel80.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "overridelevel80"
     },
     {
         "name": "update",

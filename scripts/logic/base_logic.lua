@@ -290,20 +290,16 @@ function OverLevel10()
   end
 end
 
-function DisableForLvl15Override()
-  if Tracker:FindObjectForCode("overridelevel15").Active then
-    return false
-  else
-    return true
+function NotOverridden(level)
+  level = level or ""
+  if level == "15" then
+    return not(Tracker:FindObjectForCode("overridelevel15").Active or Tracker:FindObjectForCode("overridelevel30").Active or Tracker:FindObjectForCode("overridelevel80").Active)
+  elseif level == "30" then
+    return not(Tracker:FindObjectForCode("overridelevel30").Active or Tracker:FindObjectForCode("overridelevel80").Active)
+  elseif level == "80" then
+    return not Tracker:FindObjectForCode("overridelevel80").Active
   end
-end
-
-function DisableForLvl30Override()
-  if Tracker:FindObjectForCode("overridelevel30").Active then
-    return false
-  else
-    return true
-  end
+  return true
 end
 
 function Licenses(...)
