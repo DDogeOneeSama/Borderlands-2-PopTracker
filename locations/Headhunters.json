@@ -408,7 +408,7 @@
           {
             "name": "Chest - Station Rooftop",
             "access_rules": ["^$CanMakeJump|550, ^$OnLevel|15"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "visibility_rules": ["chest_checks_enabled, remove_missable_checks_keep, $LevelLimit|15"],
             "item_count": 1
           }
         ]
@@ -488,13 +488,13 @@
           },
           {
             "name": "Enemy - Moby",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$CanMakeJump|544, ^$OnLevel|15"],
             "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Enemy - Fire Crakn",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$CanMakeJump|544, ^$OnLevel|15"],
             "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
@@ -535,31 +535,31 @@
             "item_count": 1
           },
           {
-            "name": "Chest - RotgutDistillery Rectory 1",
+            "name": "Chest - Rectory 1",
             "access_rules": ["^$OnLevel|15"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
-            "name": "Chest - RotgutDistillery Rectory 2",
+            "name": "Chest - Rectory 2",
             "access_rules": ["^$OnLevel|15"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
-            "name": "Chest - RotgutDistillery Thresher Tails",
+            "name": "Chest - Thresher Tails",
+            "access_rules": ["^$CanMakeJump|544, ^$OnLevel|15"],
+            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Hodunk Holler Dock",
             "access_rules": ["^$OnLevel|15"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
-            "name": "Chest - RotgutDistillery Hodunk Holler Dock",
-            "access_rules": ["^$OnLevel|15"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
-            "item_count": 1
-          },
-          {
-            "name": "Chest - RotgutDistillery Motel Car",
+            "name": "Chest - Motel Car",
             "access_rules": ["^$OnLevel|15"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
@@ -605,7 +605,7 @@
           },
           {
             "name": "Enemy - Sparky Flynt",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$CanMakeJump|420, ^$OnLevel|15"],
             "visibility_rules": ["$LevelLimit|15"],
             "item_count": 1
           },
