@@ -807,61 +807,66 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "/images/items/character/backpack12.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack15.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack18.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack21.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack24.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack27.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack30.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack33.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack36.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpack39.png",
+        "img": "/images/items/character/backpack.png",
         "codes": "backpackupgrade",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/character/backpackinfinite.png",
-        "codes": "backpackupgrade, infinitebackpack",
+        "img": "/images/items/character/backpack.png",
+        "codes": "backpackupgrade",
         "inherit_codes": false
       }
 	]
+    },
+    {
+        "name": "Infinite Backpack",
+        "type": "toggle",
+        "codes": "infinitebackpack"
     },
     {
         "name": "Weapon Slots",
