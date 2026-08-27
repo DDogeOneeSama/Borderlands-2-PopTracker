@@ -57,19 +57,19 @@
           },
           {
             "name": "Gun Vendor - Vaughns HQ",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Vaughns HQ",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Vaughns HQ",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -87,7 +87,7 @@
           },
           {
             "name": "Challenge - Make Yourself At Home",
-            "access_rules": ["^$CanMakeJump|470, ^$OnLevel|30"],
+            "access_rules": ["^$CanMakeJump|551, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
               "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
@@ -103,10 +103,10 @@
           },
           {
             "name": "Challenge - Harmville",
-            "access_rules": ["^$CanReachRegion|FFSBossFight, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|Burrows, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_FFSBossFight, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, enable_region_FFSBossFight, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_Burrows, $LevelLimit|30",
+              "bar_challenge_checks_enable_region_only, enable_region_Burrows, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -198,7 +198,7 @@
           },
           {
             "name": "Challenge - Grranglaargll (Queens Treasure)",
-            "access_rules": ["^$CanMakeJump|630, ^$OnLevel|30"],
+            "access_rules": ["^$CanMakeJump|530, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
               "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
@@ -206,10 +206,10 @@
           },
           {
             "name": "Challenge - Never Enough Tools",
-            "access_rules": ["^$CanMakeJump|625, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|FFSBossFight, ^$CanMakeJump|625, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_FFSBossFight, $LevelLimit|30",
+              "bar_challenge_checks_enable_region_only, enable_region_FFSBossFight, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -222,7 +222,7 @@
           },
           {
             "name": "Chest - Grranglaargll #1",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["^$CanMakeJump|530, ^$OnLevel|30"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
             "item_count": 1
           },
@@ -307,7 +307,7 @@
           },
           {
             "name": "Enemy - The Dark Web",
-            "access_rules": ["^$CanReachRegion|HeliosFallen, ^$OnLevel|30"],
+            "access_rules": ["@LilithDLC/DahlAbandon/Claptocurrency"],
             "visibility_rules": ["enable_region_HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
