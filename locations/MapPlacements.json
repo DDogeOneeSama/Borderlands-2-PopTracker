@@ -8349,12 +8349,12 @@
             "ref": "TinaDLC/MinesOfAvarice/Med Vendor - Entrance"
           },
           {
-            "name": "Ammo Vendor - Gold Golem",
-            "ref": "TinaDLC/MinesOfAvarice/Ammo Vendor - Gold Golem"
+            "name": "Ammo Vendor - Greedtooth",
+            "ref": "TinaDLC/MinesOfAvarice/Ammo Vendor - Greedtooth"
           },
           {
-            "name": "Med Vendor - Gold Golem",
-            "ref": "TinaDLC/MinesOfAvarice/Med Vendor - Gold Golem"
+            "name": "Med Vendor - Greedtooth",
+            "ref": "TinaDLC/MinesOfAvarice/Med Vendor - Greedtooth"
           }
         ],
         "map_locations": [
