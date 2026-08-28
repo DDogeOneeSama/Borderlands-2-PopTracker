@@ -308,7 +308,7 @@
           {
             "name": "Enemy - The Dark Web",
             "access_rules": ["@LilithDLC/DahlAbandon/Claptocurrency"],
-            "visibility_rules": ["enable_region_HeliosFallen, $LevelLimit|30"],
+            "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -413,10 +413,10 @@
           },
           {
             "name": "Challenge - Cult of the Vault",
-            "access_rules": ["^$CanMakeJump|415, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|415, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, enable_region_HeliosFallen, $LevelLimit|30",
+              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, enable_region_HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -466,10 +466,10 @@
           },
           {
             "name": "Chief Executive Overlord",
-            "access_rules": ["^$CanReachRegion|FFSBossFight, ^$CanMakeJump|588, ^$OnLevel|30"],
+            "access_rules": ["@LilithDLC/FFSBossFight/Paradise Found, ^$CanMakeJump|588, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_FFSBossFight, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_FFSBossFight, $LevelLimit|30"],
+              "quest_completion_checks_all, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $LevelLimit|30"],
             "item_count": 1
           },
           {
