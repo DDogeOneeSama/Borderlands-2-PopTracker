@@ -94,7 +94,7 @@
         "sections": [
           {
             "name": "A Role-Playing Game",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["melee, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
               "quest_completion_checks_story_only, $LevelLimit|30"],
@@ -318,7 +318,7 @@
           },
           {
             "name": "MMORPGFPS",
-            "access_rules": ["^$License|all|license-uncommonsniperrifle|license-commonsniperrifle, ^$ALL|crouch|melee, ^$OnLevel|30"],
+            "access_rules": ["^$License|all|license-uncommonsniperrifle|license-commonsniperrifle, ^$ALL|crouch|melee, @TinaDLC/FlamerockRefuge/Fake Geek Guy, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
               "quest_completion_checks_sidequest_only, $LevelLimit|30"],
@@ -334,25 +334,25 @@
           },
           {
             "name": "Enemy - n00bkiller",
-            "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
+            "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Enemy - 420_E-Sports_Masta",
-            "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
+            "access_rules": ["@TinaDLC/FlamerockRefuge/Fake Geek Guy, ^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Enemy - [720NoScope]Headshotz",
-            "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
+            "access_rules": ["@TinaDLC/FlamerockRefuge/Fake Geek Guy, ^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Enemy - xxDatVaultHuntrxx",
-            "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
+            "access_rules": ["@TinaDLC/FlamerockRefuge/Fake Geek Guy, ^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
@@ -552,13 +552,13 @@
             "item_count": 1
           },
           {
-            "name": "Ammo Vendor - Gold Golem",
+            "name": "Ammo Vendor - Greedtooth",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
           },
           {
-            "name": "Med Vendor - Gold Golem",
+            "name": "Med Vendor - Greedtooth",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled"],
             "item_count": 1
@@ -748,8 +748,8 @@
           },
           {
             "name": "Chest - Darkness Magic Missile Door",
-            "access_rules": ["^$Licenses|any|license-uniquegrenademod, ^$OnLevel|30"],
-            "visibility_rules": ["chest_checks_enabled, $LevelLimit|30"],
+            "access_rules": ["^$Licenses|any|license-uniquegrenademod, ^$CanReachRegion|LairOfInfiniteAgony, ^$OnLevel|30"],
+            "visibility_rules": ["chest_checks_enabled, enable_region_LairOfInfiniteAgony, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -1523,10 +1523,10 @@
           },
           {
             "name": "Challenge - Cant Fool Me",
-            "access_rules": ["^$CanReachRegion|Forest, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_Forest, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_Forest, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_ImmortalWoods, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, enable_region_ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -1539,18 +1539,18 @@
           },
           {
             "name": "Challenge - Bone Breaker",
-            "access_rules": ["^$CanReachRegion|FlamerockRefuge, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|UnassumingDocks, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_FlamerockRefuge, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_FlamerockRefuge, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_UnassumingDocks, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, enable_region_UnassumingDocks, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ew Ew Ew Ew",
-            "access_rules": ["^$CanReachRegion|MinesOfAvarice, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|Forest, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_MinesOfAvarice, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_MinesOfAvarice, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_Forest, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, enable_region_Forest, $LevelLimit|30"],
             "item_count": 1
           },
           {
