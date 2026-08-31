@@ -128,19 +128,19 @@
             "item_count": 1
           },
           {
-            "name": "Gun Vendor - The Aegrus Sophisticates Lodge",
+            "name": "Gun Vendor - Lodge",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
-            "name": "Ammo Vendor - The Aegrus Sophisticates Lodge",
+            "name": "Ammo Vendor - Lodge",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
-            "name": "Med Vendor - The Aegrus Sophisticates Lodge",
+            "name": "Med Vendor - Lodge",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|30"],
             "item_count": 1
@@ -244,12 +244,6 @@
           },
           {
             "name": "Enemy - Rakkanoth",
-            "access_rules": ["^$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
-            "item_count": 1
-          },
-          {
-            "name": "Enemy - Omnd-Omnd-Ohk",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
