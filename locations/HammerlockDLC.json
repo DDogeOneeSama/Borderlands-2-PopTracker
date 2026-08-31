@@ -357,7 +357,7 @@
           },
           {
             "name": "Enemy - Dribbles",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["@HammerlockDLC/ScyllasGrove/Urine Youre Out, ^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
@@ -671,7 +671,7 @@
           },
           {
             "name": "Symbol - Terminus",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["^$CanMakeJump|445, ^$OnLevel|30"],
             "visibility_rules": ["vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
@@ -780,10 +780,10 @@
         "sections": [
           {
             "name": "Challenge - Boroking Around",
-            "access_rules": ["^$CanReachRegion|ArdortonStation, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|HuntersGrotto, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_ArdortonStation, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_ArdortonStation, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_HuntersGrotto, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, enable_region_HuntersGrotto, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -812,10 +812,10 @@
           },
           {
             "name": "Challenge - Stinging Sensation",
-            "access_rules": ["^$CanReachRegion|CandlerakksCrag, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_CandlerakksCrag, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_CandlerakksCrag, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_ScyllasGrove, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, enable_region_ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
