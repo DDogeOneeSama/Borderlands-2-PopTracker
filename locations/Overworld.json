@@ -5772,7 +5772,7 @@
           },
           {
             "name": "Enemy - Omnd-Omnd-Ohk",
-            "ref": "HammerlockDLC/ScyllasGrove/Enemy - Omnd-Omnd-Ohk"
+            "ref": "GlobalChecks/Multi Area/Enemy - Omnd-Omnd-Ohk"
           },
           {
             "name": "Challenge - Beware the Clap",
@@ -8181,6 +8181,10 @@
           {
             "name": "Enemy - Sparky Flynt",
             "ref": "Headhunters/WamBamIsland/Enemy - Sparky Flynt"
+          },
+          {
+            "name": "Enemy - Omnd-Omnd-Ohk",
+            "ref": "GlobalChecks/Multi Area/Enemy - Omnd-Omnd-Ohk"
           },
           {
             "name": "Enemy - Son of Crawmerax",
