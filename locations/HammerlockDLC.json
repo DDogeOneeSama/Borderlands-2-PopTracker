@@ -229,7 +229,7 @@
             "item_count": 1
           },
           {
-            "name": "Urine, Youre Out",
+            "name": "Urine Youre Out",
             "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
@@ -349,7 +349,7 @@
           },
           {
             "name": "Follow The Glow",
-            "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
+            "access_rules": ["@HammerlockDLC/ScyllasGrove/Urine Youre Out, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
               "quest_completion_checks_sidequest_only, $LevelLimit|30"],
