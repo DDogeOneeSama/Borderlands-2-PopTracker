@@ -128,19 +128,19 @@
             "item_count": 1
           },
           {
-            "name": "Gun Vendor - The Aegrus Sophisticates Lodge",
+            "name": "Gun Vendor - Lodge",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
-            "name": "Ammo Vendor - The Aegrus Sophisticates Lodge",
+            "name": "Ammo Vendor - Lodge",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
-            "name": "Med Vendor - The Aegrus Sophisticates Lodge",
+            "name": "Med Vendor - Lodge",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|30"],
             "item_count": 1
@@ -229,7 +229,7 @@
             "item_count": 1
           },
           {
-            "name": "Urine, Youre Out",
+            "name": "Urine Youre Out",
             "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
@@ -244,12 +244,6 @@
           },
           {
             "name": "Enemy - Rakkanoth",
-            "access_rules": ["^$OnLevel|30"],
-            "visibility_rules": ["$LevelLimit|30"],
-            "item_count": 1
-          },
-          {
-            "name": "Enemy - Omnd-Omnd-Ohk",
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
@@ -355,7 +349,7 @@
           },
           {
             "name": "Follow The Glow",
-            "access_rules": ["^$CanMakeJump|425, ^$OnLevel|30"],
+            "access_rules": ["@HammerlockDLC/ScyllasGrove/Urine Youre Out, ^$OnLevel|30"],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
               "quest_completion_checks_sidequest_only, $LevelLimit|30"],
@@ -363,7 +357,7 @@
           },
           {
             "name": "Enemy - Dribbles",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["@HammerlockDLC/ScyllasGrove/Urine Youre Out, ^$OnLevel|30"],
             "visibility_rules": ["$LevelLimit|30"],
             "item_count": 1
           },
@@ -677,7 +671,7 @@
           },
           {
             "name": "Symbol - Terminus",
-            "access_rules": ["^$OnLevel|30"],
+            "access_rules": ["^$CanMakeJump|445, ^$OnLevel|30"],
             "visibility_rules": ["vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
@@ -786,10 +780,10 @@
         "sections": [
           {
             "name": "Challenge - Boroking Around",
-            "access_rules": ["^$CanReachRegion|ArdortonStation, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|HuntersGrotto, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_ArdortonStation, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_ArdortonStation, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_HuntersGrotto, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, enable_region_HuntersGrotto, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -818,10 +812,10 @@
           },
           {
             "name": "Challenge - Stinging Sensation",
-            "access_rules": ["^$CanReachRegion|CandlerakksCrag, ^$OnLevel|30"],
+            "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_CandlerakksCrag, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_CandlerakksCrag, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, enable_region_ScyllasGrove, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, enable_region_ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
