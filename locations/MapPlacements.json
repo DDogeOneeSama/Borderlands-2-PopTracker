@@ -7497,16 +7497,16 @@
             "ref": "HammerlockDLC/HuntersGrotto/Symbol - Dahl Door"
           },
           {
-            "name": "Gun Vendor - The Aegrus Sophisticates Lodge",
-            "ref": "HammerlockDLC/HuntersGrotto/Gun Vendor - The Aegrus Sophisticates Lodge"
+            "name": "Gun Vendor - Lodge",
+            "ref": "HammerlockDLC/HuntersGrotto/Gun Vendor - Lodge"
           },
           {
-            "name": "Ammo Vendor - The Aegrus Sophisticates Lodge",
-            "ref": "HammerlockDLC/HuntersGrotto/Ammo Vendor - The Aegrus Sophisticates Lodge"
+            "name": "Ammo Vendor - Lodge",
+            "ref": "HammerlockDLC/HuntersGrotto/Ammo Vendor - Lodge"
           },
           {
-            "name": "Med Vendor - The Aegrus Sophisticates Lodge",
-            "ref": "HammerlockDLC/HuntersGrotto/Med Vendor - The Aegrus Sophisticates Lodge"
+            "name": "Med Vendor - Lodge",
+            "ref": "HammerlockDLC/HuntersGrotto/Med Vendor - Lodge"
           }
         ],
         "map_locations": [
