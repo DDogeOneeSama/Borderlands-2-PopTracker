@@ -41,13 +41,13 @@
           },
           {
             "name": "Enemy - Sully the Stabber",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|15"],
             "visibility_rules": ["enable_region_BadassCraterBar, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Enemy - Hamhock",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|15"],
             "visibility_rules": ["remove_missable_checks_keep, enable_region_BadassCraterBar, $LevelLimit|15"],
             "item_count": 1
           },
@@ -65,7 +65,7 @@
           },
           {
             "name": "Torgue Vendor - Entrance",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -83,7 +83,7 @@
           },
           {
             "name": "Torgue Vendor - Gun Emporeum",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -180,10 +180,10 @@
           },
           {
             "name": "Pete the Invincible",
-            "access_rules": ["^$CanReachRegion|Forge, @Placeholders/Torgue DLC Complete, ^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue DLC Complete, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_Forge, remove_raid_boss_checks_keep, $LevelLimit|15",
-              "quest_completion_checks_sidequest_only, enable_region_Forge, remove_raid_boss_checks_keep, $LevelLimit|15"],
+              "quest_completion_checks_all, remove_raid_boss_checks_keep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, remove_raid_boss_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -194,14 +194,14 @@
           },
           {
             "name": "Enemy - Pyro Pete the Invincible",
-            "access_rules": ["^$CanReachRegion|Forge, ^$OnLevel|30"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue DLC Complete, ^$OnLevel|30"],
             "visibility_rules": [
-              "remove_raid_boss_checks_keep, enable_region_Forge, $LevelLimit|30"],
+              "remove_raid_boss_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Torgue Vendor - Pyro Petes Bar",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -227,13 +227,13 @@
           },
           {
             "name": "Chest - Moxxi Cell #1",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$CanMakeJump|395, ^$OnLevel|15"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Chest - Moxxi Cell #2",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["^$CanMakeJump|395, ^$OnLevel|15"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
           }
@@ -328,7 +328,7 @@
           },
           {
             "name": "Torgue Vendor - Motor Mamas Arena",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -481,7 +481,7 @@
           },
           {
             "name": "Torgue Vendor - Entrance",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -628,13 +628,13 @@
           },
           {
             "name": "Enemy - Badassasaurus",
-            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "access_rules": ["crouch, ^$CanMakeJump|546, ^$CanReachRegion|Forge, ^$OnLevel|15"],
             "visibility_rules": ["enable_region_Forge, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Enemy - Piston",
-            "access_rules": ["crouch, ^$CanReachRegion|Forge, ^$OnLevel|15"],
+            "access_rules": ["crouch, ^$CanMakeJump|546, ^$CanReachRegion|Forge, ^$OnLevel|15"],
             "visibility_rules": ["enable_region_Forge, $LevelLimit|15"],
             "item_count": 1
           },
@@ -652,7 +652,7 @@
           },
           {
             "name": "Torgue Vendor - Entrance",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -847,7 +847,7 @@
           },
           {
             "name": "Torgue Vendor - Outside The Forge",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
@@ -897,7 +897,7 @@
           },
           {
             "name": "Challenge - Only Shells I Need Are in My Guns",
-            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$OnLevel|15"],
+            "access_rules": ["^$CanReachRegion|BadassCraterBar, ^$CanMakeJump|450, ^$OnLevel|15"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, enable_region_BadassCraterBar, $LevelLimit|15",
               "bar_challenge_checks_enable_region_only, enable_region_BadassCraterBar, $LevelLimit|15"],
@@ -916,7 +916,7 @@
             "item_count": 1
           },
           {
-            "name": "Chest - Crater Rim Parkour Hut",
+            "name": "Chest - Fan Club",
             "access_rules": ["^$CanMakeJump|560, ^$OnLevel|15"],
             "visibility_rules": ["chest_checks_enabled, $LevelLimit|15"],
             "item_count": 1
@@ -942,7 +942,7 @@
           },
           {
             "name": "Torgue Vendor - Badass Bar",
-            "access_rules": ["^$OnLevel|15"],
+            "access_rules": ["@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"],
             "visibility_rules": ["vending_machines_enabled, $LevelLimit|15"],
             "item_count": 1
           },
