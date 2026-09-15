@@ -33,6 +33,9 @@ function CanReachRegion(regionToCheck)
   if staleRegions then
     OpenRegions()
   end
+  if not(Tracker:FindObjectForCode("enable_region_" .. regionToCheck).Active) then
+    return AccessibilityLevel.None
+  end
   return accessibleRegions[regionToCheck] or AccessibilityLevel.None
 end
 
