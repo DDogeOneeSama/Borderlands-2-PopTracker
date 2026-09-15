@@ -7,176 +7,186 @@
         "name": "Levels",
         "sections": [
           {
-            "name": "Level 2",
-            "access_rules": ["^$OnLevel|2"],
-            "visibility_rules": ["$NotOverridden|15, $LevelLimit|2"],
+            "name": "Level 2 Reached",
+            "access_rules": [
+			  "^$OnLevel|2|aolKeep",
+			  "^$CanReachRegion|DigistructPeak"],
+            "visibility_rules": [
+			  "$NotOverridden|15, $LevelLimit|2",
+			  "enable_region_DigistructPeak"
+			],
             "item_count": 1
           },
           {
-            "name": "Level 3",
-            "access_rules": ["^$OnLevel|3"],
-            "visibility_rules": ["$NotOverridden|15, $LevelLimit|3"],
+            "name": "Level 3 Reached",
+            "access_rules": [
+			  "^$OnLevel|3|aolKeep",
+			  "^$CanReachRegion|DigistructPeak"],
+            "visibility_rules": [
+			  "$NotOverridden|15, $LevelLimit|3",
+			  "enable_region_DigistructPeak"
+			],
             "item_count": 1
           },
           {
-            "name": "Level 4",
-            "access_rules": ["^$OnLevel|4"],
+            "name": "Level 4 Reached",
+            "access_rules": ["^$OnLevel|4|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|4"],
             "item_count": 1
           },
           {
-            "name": "Level 5",
-            "access_rules": ["^$OnLevel|5"],
+            "name": "Level 5 Reached",
+            "access_rules": ["^$OnLevel|5|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|5"],
             "item_count": 1
           },
           {
-            "name": "Level 6",
-            "access_rules": ["^$OnLevel|6"],
+            "name": "Level 6 Reached",
+            "access_rules": ["^$OnLevel|6|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|6"],
             "item_count": 1
           },
           {
-            "name": "Level 7",
-            "access_rules": ["^$OnLevel|7"],
+            "name": "Level 7 Reached",
+            "access_rules": ["^$OnLevel|7|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|7"],
             "item_count": 1
           },
           {
-            "name": "Level 8",
-            "access_rules": ["^$OnLevel|8"],
+            "name": "Level 8 Reached",
+            "access_rules": ["^$OnLevel|8|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|8"],
             "item_count": 1
           },
           {
-            "name": "Level 9",
-            "access_rules": ["^$OnLevel|9"],
+            "name": "Level 9 Reached",
+            "access_rules": ["^$OnLevel|9|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|9"],
             "item_count": 1
           },
           {
-            "name": "Level 10",
-            "access_rules": ["^$OnLevel|10"],
+            "name": "Level 10 Reached",
+            "access_rules": ["^$OnLevel|10|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|10"],
             "item_count": 1
           },
           {
-            "name": "Level 11",
-            "access_rules": ["^$OnLevel|11"],
+            "name": "Level 11 Reached",
+            "access_rules": ["^$OnLevel|11|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|11"],
             "item_count": 1
           },
           {
-            "name": "Level 12",
-            "access_rules": ["^$OnLevel|12"],
+            "name": "Level 12 Reached",
+            "access_rules": ["^$OnLevel|12|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|12"],
             "item_count": 1
           },
           {
-            "name": "Level 13",
-            "access_rules": ["^$OnLevel|13"],
+            "name": "Level 13 Reached",
+            "access_rules": ["^$OnLevel|13|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|13"],
             "item_count": 1
           },
           {
-            "name": "Level 14",
-            "access_rules": ["^$OnLevel|14"],
+            "name": "Level 14 Reached",
+            "access_rules": ["^$OnLevel|14|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|14"],
             "item_count": 1
           },
           {
-            "name": "Level 15",
-            "access_rules": ["^$OnLevel|15"],
+            "name": "Level 15 Reached",
+            "access_rules": ["^$OnLevel|15|aolKeep"],
             "visibility_rules": ["$NotOverridden|15, $LevelLimit|15"],
             "item_count": 1
           },
           {
-            "name": "Level 16",
-            "access_rules": ["^$OnLevel|16"],
+            "name": "Level 16 Reached",
+            "access_rules": ["^$OnLevel|16|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|16"],
             "item_count": 1
           },
           {
-            "name": "Level 17",
-            "access_rules": ["^$OnLevel|17"],
+            "name": "Level 17 Reached",
+            "access_rules": ["^$OnLevel|17|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|17"],
             "item_count": 1
           },
           {
-            "name": "Level 18",
-            "access_rules": ["^$OnLevel|18"],
+            "name": "Level 18 Reached",
+            "access_rules": ["^$OnLevel|18|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|18"],
             "item_count": 1
           },
           {
-            "name": "Level 19",
-            "access_rules": ["^$OnLevel|19"],
+            "name": "Level 19 Reached",
+            "access_rules": ["^$OnLevel|19|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|19"],
             "item_count": 1
           },
           {
-            "name": "Level 20",
-            "access_rules": ["^$OnLevel|20"],
+            "name": "Level 20 Reached",
+            "access_rules": ["^$OnLevel|20|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|20"],
             "item_count": 1
           },
           {
-            "name": "Level 21",
-            "access_rules": ["^$OnLevel|21"],
+            "name": "Level 21 Reached",
+            "access_rules": ["^$OnLevel|21|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|21"],
             "item_count": 1
           },
           {
-            "name": "Level 22",
-            "access_rules": ["^$OnLevel|22"],
+            "name": "Level 22 Reached",
+            "access_rules": ["^$OnLevel|22|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|22"],
             "item_count": 1
           },
           {
-            "name": "Level 23",
-            "access_rules": ["^$OnLevel|23"],
+            "name": "Level 23 Reached",
+            "access_rules": ["^$OnLevel|23|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|23"],
             "item_count": 1
           },
           {
-            "name": "Level 24",
-            "access_rules": ["^$OnLevel|24"],
+            "name": "Level 24 Reached",
+            "access_rules": ["^$OnLevel|24|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|24"],
             "item_count": 1
           },
           {
-            "name": "Level 25",
-            "access_rules": ["^$OnLevel|25"],
+            "name": "Level 25 Reached",
+            "access_rules": ["^$OnLevel|25|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|25"],
             "item_count": 1
           },
           {
-            "name": "Level 26",
-            "access_rules": ["^$OnLevel|26"],
+            "name": "Level 26 Reached",
+            "access_rules": ["^$OnLevel|26|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|26"],
             "item_count": 1
           },
           {
-            "name": "Level 27",
-            "access_rules": ["^$OnLevel|27"],
+            "name": "Level 27 Reached",
+            "access_rules": ["^$OnLevel|27|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|27"],
             "item_count": 1
           },
           {
-            "name": "Level 28",
-            "access_rules": ["^$OnLevel|28"],
+            "name": "Level 28 Reached",
+            "access_rules": ["^$OnLevel|28|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|28"],
             "item_count": 1
           },
           {
-            "name": "Level 29",
-            "access_rules": ["^$OnLevel|29"],
+            "name": "Level 29 Reached",
+            "access_rules": ["^$OnLevel|29|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|29"],
             "item_count": 1
           },
           {
-            "name": "Level 30",
-            "access_rules": ["^$OnLevel|30"],
+            "name": "Level 30 Reached",
+            "access_rules": ["^$OnLevel|30|aolKeep"],
             "visibility_rules": ["$NotOverridden|30, $LevelLimit|30"],
             "item_count": 1
           }
@@ -234,7 +244,7 @@
             "access_rules": [
               "^$Licenses|any|license-legendaryshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
               "^$CanReachRegion|FrostburnCanyon, ^$OnLevel|9, quest_reward_items_none, enable_region_FrostburnCanyon",
-              "^$CanReachRegion|FrostburnCanyon, ^$OnLevel|29, quest_reward_items_none, enable_region_FrostburnCanyon",
+              "^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|29, enable_region_FrostburnCanyon, enable_region_AridNexusBoneyard",
               "^$CanReachRegion|CausticCaverns, ^$OnLevel|15, enable_region_CausticCaverns",
               "^$CanReachRegion|Highlands, ^$OnLevel|16, enable_region_Highlands",
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20, enable_region_WildlifeExploitationPreserve",
@@ -1514,8 +1524,8 @@
           },
           {
             "name": "Challenge - Constructor Destructor",
-            "access_rules": ["^$CanReachRegion|Bunker, ^$OnLevel|1"],
-            "visibility_rules": ["enable_region_Bunker, $LevelLimit|1"],
+            "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|Bunker, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_ThousandCuts, enable_region_Bunker, $LevelLimit|1"],
             "item_count": 1
           },
           {
@@ -1526,8 +1536,8 @@
           },
           {
             "name": "Challenge - Paingineering",
-            "access_rules": ["^$CanReachRegion|Opportunity, ^$OnLevel|1"],
-            "visibility_rules": ["enable_region_Opportunity, $LevelLimit|1"],
+            "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_FriendshipGulag, $LevelLimit|1"],
             "item_count": 1
           },
           {
@@ -1544,8 +1554,8 @@
           },
           {
             "name": "Challenge - Load and Lock",
-            "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$OnLevel|1"],
-            "visibility_rules": ["enable_region_BloodshotRamparts, $LevelLimit|1"],
+            "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_FriendshipGulag, $LevelLimit|1"],
             "item_count": 1
           },
           {
@@ -1562,8 +1572,8 @@
           },
           {
             "name": "Challenge - You (No)Mad, Bro",
-            "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
-            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
+            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|1"],
             "item_count": 1
           },
           {
@@ -1592,14 +1602,14 @@
           },
           {
             "name": "Challenge - Youre One Ugly Mother",
-            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|1"],
-            "visibility_rules": ["enable_region_Highlands, $LevelLimit|1"],
+            "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Just a Moment of Your Time",
-            "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|1"],
-            "visibility_rules": ["enable_region_Highlands, $LevelLimit|1"],
+            "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|1"],
+            "visibility_rules": ["enable_region_FriendshipGulag, $LevelLimit|1"],
             "item_count": 1
           },
           {
@@ -1793,7 +1803,7 @@
         "sections": [
           {
             "name": "Challenge - The Call of Booty",
-            "access_rules": ["^$OnLevel|6"],
+            "access_rules": ["^$OnLevel|6|aolKeep"],
             "visibility_rules": ["$LevelLimit|6"],
             "item_count": 1
           },
@@ -1823,14 +1833,14 @@
           },
           {
             "name": "Challenge - Nothing Rhymes with Orange",
-            "access_rules": ["^$OnLevel|6"],
-            "visibility_rules": ["$LevelLimit|6"],
+            "access_rules": ["^$OnLevel|3"],
+            "visibility_rules": ["$LevelLimit|3"],
             "item_count": 1
           },
           {
             "name": "Challenge - Purple Reign",
-            "access_rules": ["^$OnLevel|6"],
-            "visibility_rules": ["$LevelLimit|6"],
+            "access_rules": ["^$OnLevel|7|aolKeep"],
+            "visibility_rules": ["$LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -1946,8 +1956,8 @@
           },
           {
             "name": "Challenge - Im Back! Shocked",
-            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|10"],
-            "visibility_rules": ["$LevelLimit|10"],
+            "access_rules": ["^$Licenses|any|license-commonpistol, ^$OnLevel|11"],
+            "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           }
         ]
@@ -1982,7 +1992,7 @@
           },
           {
             "name": "Challenge - Roid Rage",
-            "access_rules": ["^$OnLevel|11"],
+            "access_rules": ["melee, ^$OnLevel|11"],
             "visibility_rules": ["$LevelLimit|11"],
             "item_count": 1
           },
@@ -2003,32 +2013,82 @@
         "sections": [
           {
             "name": "Challenge - Blue Sparks",
-            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, ^$OnLevel|7"],
-            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
+            "access_rules": [
+			  "^$CanReachRegion|ThreeHornsDivide, enable_region_ThreeHornsDivide, ^$OnLevel|7",
+			  "^$CanReachRegion|BadassCrater, enable_region_BadassCrater, ^$OnLevel|15",
+			  "^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
+			],
+            "visibility_rules": [
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_BadassCrater, $LevelLimit|15",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
+			],
             "item_count": 1
           },
           {
             "name": "Challenge - Hit-and-Fun",
-            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, ^$OnLevel|7"],
-            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
+            "access_rules": [
+			  "^$CanReachRegion|ThreeHornsDivide, enable_region_ThreeHornsDivide, ^$OnLevel|7",
+			  "^$CanReachRegion|BadassCrater, enable_region_BadassCrater, ^$OnLevel|15",
+			  "^$CanReachRegion|Oasis, enable_region_Oasis, ^$OnLevel|15",
+			  "^$CanReachRegion|HuntersGrotto, enable_region_HuntersGrotto, ^$OnLevel|30",
+			  "^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
+			],
+            "visibility_rules": [
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_BadassCrater, $LevelLimit|15",
+			  "enable_region_Oasis, $LevelLimit|15",
+			  "enable_region_HuntersGrotto, $LevelLimit|30",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
+			],
             "item_count": 1
           },
           {
             "name": "Challenge - Passive Aggressive",
-            "access_rules": ["^$CanReachRegion|Dust, ^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
-            "visibility_rules": ["enable_region_Dust, $LevelLimit|7"],
+            "access_rules": [
+			  "^$CanReachRegion|Dust, ^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|7",
+			  "^$CanReachRegion|DahlAbandon, ^$OnLevel|30"
+			],
+            "visibility_rules": [
+			  "enable_region_Dust, enable_region_FrostburnCanyon, enable_region_Sanctuary, $LevelLimit|7",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
+			],
             "item_count": 1
           },
           {
             "name": "Challenge - Turret Syndrome",
-            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, vehiclefire, ^$OnLevel|7"],
-            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
+            "access_rules": [
+			  "vehiclefire, ^$CanReachRegion|ThreeHornsDivide, enable_region_ThreeHornsDivide, ^$OnLevel|7",
+			  "vehiclefire, ^$CanReachRegion|BadassCrater, enable_region_BadassCrater, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|Oasis, enable_region_Oasis, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|HuntersGrotto, enable_region_HuntersGrotto, ^$OnLevel|30",
+			  "vehiclefire, ^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
+			],
+            "visibility_rules": [
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_BadassCrater, $LevelLimit|15",
+			  "enable_region_Oasis, $LevelLimit|15",
+			  "enable_region_HuntersGrotto, $LevelLimit|30",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
+			],
             "item_count": 1
           },
           {
             "name": "Challenge - One Van Leaves",
-            "access_rules": ["^$CanReachRegion|ThreeHornsDivide, vehiclefire, ^$OnLevel|7"],
-            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|7"],
+            "access_rules": [
+			  "vehiclefire, ^$CanReachRegion|Dust, enable_region_Dust, ^$OnLevel|7",
+			  "vehiclefire, ^$CanReachRegion|SouthernRaceway, enable_region_SouthernRaceway, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|Wurmwater, enable_region_Wurmwater, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|ScyllasGrove, enable_region_ScyllasGrove, ^$OnLevel|30",
+			  "vehiclefire, ^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
+			],
+            "visibility_rules": [
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_SouthernRaceway, $LevelLimit|15",
+			  "enable_region_Wurmwater, $LevelLimit|15",
+			  "enable_region_ScyllasGrove, $LevelLimit|30",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
+			],
             "item_count": 1
           }
         ]
@@ -2099,8 +2159,8 @@
           },
           {
             "name": "Challenge - Shield Basher",
-            "access_rules": ["^$OnLevel|16"],
-            "visibility_rules": ["$LevelLimit|16"],
+            "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|18"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|18"],
             "item_count": 1
           },
           {
@@ -2273,8 +2333,8 @@
           },
           {
             "name": "Challenge - Eviscerated",
-            "access_rules": ["^$OnLevel|7"],
-            "visibility_rules": ["$LevelLimit|7"],
+            "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|18"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|18"],
             "item_count": 1
           },
           {
