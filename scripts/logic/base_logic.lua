@@ -356,11 +356,14 @@ end
 
 function EnableRegion(region)
   local region = region or ""
-  if Tracker:FindObjectForCode("remove_" .. Regions[region].dlc_group .. "_checks").CurrentStage == 1 then
+  if Regions[region].dlc_group == "digi" then
+    if Tracker:FindObjectForCode("remove_digi_peak_checks").Active or not(Tracker:FindObjectForCode("enable_region_" .. region)) then
+      return false
+    end
+  elseif Tracker:FindObjectForCode("remove_" .. Regions[region].dlc_group .. "_checks").CurrentStage == 1 then
     return false
   elseif not(Tracker:FindObjectForCode("enable_region_" .. region).Active) then
     return false
-  else
-    return true
   end
+  return true
 end
