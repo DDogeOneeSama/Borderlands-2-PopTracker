@@ -33,7 +33,7 @@ function CanReachRegion(regionToCheck)
   if staleRegions then
     OpenRegions()
   end
-  if not(Tracker:FindObjectForCode("enable_region_" .. regionToCheck).Active) then
+  if not(EnableRegion(regionToCheck)) then
     return AccessibilityLevel.None
   end
   return accessibleRegions[regionToCheck] or AccessibilityLevel.None
@@ -66,7 +66,7 @@ function OpenRegions()
     for _, connectedRegion in ipairs(Regions[regionToCheck].connecting_regions) do
       if accessibleRegions[connectedRegion] then
         table.insert(queue, connectedRegion)
-      elseif not(Tracker:FindObjectForCode("enable_region_" .. connectedRegion).Active) then
+      elseif not(EnableRegion(connectedRegion)) then
         table.insert(queue, connectedRegion)
       else
         if not(HasTravelItem(connectedRegion)) then
@@ -101,7 +101,7 @@ function ModifyProgressiveTables()
   for _, dlc in pairs(DLCProgOrderList) do
     if (Tracker:FindObjectForCode("progressive_travel_" .. dlc).CurrentStage) == 1 then
       for _, regionToAdd in ipairs(ProgressiveOrdersDefinition[dlc]) do
-        if (Tracker:FindObjectForCode("enable_region_" .. regionToAdd).Active) then
+        if (EnableRegion(regionToAdd)) then
           table.insert(ProgressiveOrdersWorking[dlc], regionToAdd)
         end
       end

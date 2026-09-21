@@ -12,7 +12,7 @@
           "^$CanReachRegion|HuntersGrotto"
         ],
         "visibility_rules": [
-          "enable_region_HuntersGrotto"
+          "$EnableRegion|HuntersGrotto"
         ],
         "sections": [
           {
@@ -27,16 +27,16 @@
             "name": "Professor Nakayama, I Presume",
             "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_ScyllasGrove, $LevelLimit|30",
-              "quest_completion_checks_story_only, enable_region_ScyllasGrove, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|ScyllasGrove, $LevelLimit|30",
+              "quest_completion_checks_story_only, $EnableRegion|ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "A-Hunting We Will Go",
             "access_rules": ["^$CanReachRegion|ArdortonStation, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_ArdortonStation, $LevelLimit|30",
-              "quest_completion_checks_story_only, enable_region_ArdortonStation, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|ArdortonStation, $LevelLimit|30",
+              "quest_completion_checks_story_only, $EnableRegion|ArdortonStation, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -67,16 +67,16 @@
             "name": "Palling Around",
             "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_ScyllasGrove, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_ScyllasGrove, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|ScyllasGrove, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "I Like My Monsters Rare",
             "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_ScyllasGrove, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_ScyllasGrove, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|ScyllasGrove, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -88,7 +88,7 @@
           {
             "name": "Enemy - The Bulwark",
             "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_ScyllasGrove, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -150,7 +150,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -158,7 +158,7 @@
             "access_rules": ["^$CanMakeJump|520, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -166,7 +166,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -174,7 +174,7 @@
             "access_rules": ["^$CanMakeJump|580, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -198,7 +198,7 @@
           {
             "name": "Chest - Destroyed Road",
             "access_rules": ["^$CanReachRegion|ArdortonStation, ^$CanMakeJump|380, ^$OnLevel|30"],
-            "visibility_rules": ["chest_checks_enabled, enable_region_ArdortonStation, $LevelLimit|30"],
+            "visibility_rules": ["chest_checks_enabled, $EnableRegion|ArdortonStation, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -209,7 +209,7 @@
           "^$CanReachRegion|ScyllasGrove"
         ],
         "visibility_rules": [
-          "enable_region_ScyllasGrove"
+          "$EnableRegion|ScyllasGrove"
         ],
         "sections": [
           {
@@ -301,7 +301,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -309,7 +309,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -317,7 +317,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -325,7 +325,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -336,7 +336,7 @@
           "^$CanReachRegion|ArdortonStation"
         ],
         "visibility_rules": [
-          "enable_region_ArdortonStation"
+          "$EnableRegion|ArdortonStation"
         ],
         "sections": [
           {
@@ -420,7 +420,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -428,7 +428,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, remove_missable_checks_keep, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, remove_missable_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -436,7 +436,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -444,7 +444,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -479,7 +479,7 @@
           "^$CanReachRegion|CandlerakksCrag"
         ],
         "visibility_rules": [
-          "enable_region_CandlerakksCrag"
+          "$EnableRegion|CandlerakksCrag"
         ],
         "sections": [
           {
@@ -502,8 +502,8 @@
             "name": "Voracidous the Invincible",
             "access_rules": ["^$CanReachRegion|Terminus, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_Terminus, remove_raid_boss_checks_keep, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_Terminus, remove_raid_boss_checks_keep, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|Terminus, remove_raid_boss_checks_keep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|Terminus, remove_raid_boss_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -521,13 +521,13 @@
           {
             "name": "Enemy - Chief Ngwatu",
             "access_rules": ["^$CanReachRegion|Terminus, ^$OnLevel|30"],
-            "visibility_rules": ["remove_raid_boss_checks_keep, enable_region_Terminus, $LevelLimit|30"],
+            "visibility_rules": ["remove_raid_boss_checks_keep, $EnableRegion|Terminus, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Enemy - Voracidous the Invincible",
             "access_rules": ["^$CanReachRegion|Terminus, ^$OnLevel|30"],
-            "visibility_rules": ["remove_raid_boss_checks_keep, enable_region_Terminus, $LevelLimit|30"],
+            "visibility_rules": ["remove_raid_boss_checks_keep, $EnableRegion|Terminus, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -577,7 +577,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -585,7 +585,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -593,7 +593,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -646,7 +646,7 @@
           "^$CanReachRegion|Terminus"
         ],
         "visibility_rules": [
-          "enable_region_Terminus"
+          "$EnableRegion|Terminus"
         ],
         "sections": [
           {
@@ -692,7 +692,7 @@
             "access_rules": ["^$CanMakeJump|455, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -782,48 +782,48 @@
             "name": "Challenge - Boroking Around",
             "access_rules": ["^$CanReachRegion|HuntersGrotto, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HuntersGrotto, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_HuntersGrotto, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HuntersGrotto, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|HuntersGrotto, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Harder They Fall",
             "access_rules": ["^$CanReachRegion|HuntersGrotto, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HuntersGrotto, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_HuntersGrotto, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HuntersGrotto, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|HuntersGrotto, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fan Boy",
             "access_rules": ["^$CanReachRegion|HuntersGrotto, ^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HuntersGrotto, enable_region_ScyllasGrove, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_HuntersGrotto, enable_region_ScyllasGrove, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HuntersGrotto, $EnableRegion|ScyllasGrove, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|HuntersGrotto, $EnableRegion|ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Savage Bloody Savage",
             "access_rules": ["^$CanReachRegion|HuntersGrotto, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HuntersGrotto, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_HuntersGrotto, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HuntersGrotto, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|HuntersGrotto, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Stinging Sensation",
             "access_rules": ["^$CanReachRegion|ScyllasGrove, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_ScyllasGrove, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_ScyllasGrove, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|ScyllasGrove, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|ScyllasGrove, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Voracidous the Invincible",
             "access_rules": ["^$CanReachRegion|Terminus, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, enable_region_Terminus, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, enable_region_Terminus, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, remove_raid_boss_checks_keep, $EnableRegion|Terminus, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, remove_raid_boss_checks_keep, $EnableRegion|Terminus, $LevelLimit|30"],
             "item_count": 1
           }
         ]

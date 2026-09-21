@@ -12,15 +12,15 @@
           "^$CanReachRegion|UnassumingDocks"
         ],
         "visibility_rules": [
-          "enable_region_UnassumingDocks"
+          "$EnableRegion|UnassumingDocks"
         ],
         "sections": [
           {
             "name": "The Sword in The Stoner",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_ImmortalWoods, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_ImmortalWoods, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|ImmortalWoods, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -32,7 +32,7 @@
           {
             "name": "Enemy - Unmotivated Golem",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_ImmortalWoods, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -58,7 +58,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -66,7 +66,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -89,7 +89,7 @@
           "^$CanReachRegion|FlamerockRefuge"
         ],
         "visibility_rules": [
-          "enable_region_FlamerockRefuge"
+          "$EnableRegion|FlamerockRefuge"
         ],
         "sections": [
           {
@@ -112,16 +112,16 @@
             "name": "Feed Butt Stallion",
             "access_rules": ["^$CanReachRegion|DragonKeep, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_DragonKeep, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_DragonKeep, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|DragonKeep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|DragonKeep, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Pet Butt Stallion",
             "access_rules": ["^$CanReachRegion|DragonKeep, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_DragonKeep, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_DragonKeep, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|DragonKeep, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|DragonKeep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -173,7 +173,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -181,7 +181,7 @@
             "access_rules": ["^$CanMakeJump|580, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -192,7 +192,7 @@
           "^$CanReachRegion|Forest"
         ],
         "visibility_rules": [
-          "enable_region_Forest"
+          "$EnableRegion|Forest"
         ],
         "sections": [
           {
@@ -214,13 +214,13 @@
           {
             "name": "Enemy - Spiderpants",
             "access_rules": ["^$CanReachRegion|MinesOfAvarice, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_MinesOfAvarice, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|MinesOfAvarice, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Enemy - Arguk the Butcher",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_ImmortalWoods, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -258,7 +258,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -266,7 +266,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -274,7 +274,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -297,7 +297,7 @@
           "^$CanReachRegion|ImmortalWoods"
         ],
         "visibility_rules": [
-          "enable_region_ImmortalWoods"
+          "$EnableRegion|ImmortalWoods"
         ],
         "sections": [
           {
@@ -427,7 +427,7 @@
             "access_rules": ["^$CanMakeJump|630, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -456,7 +456,7 @@
           "^$CanReachRegion|MinesOfAvarice"
         ],
         "visibility_rules": [
-          "enable_region_MinesOfAvarice"
+          "$EnableRegion|MinesOfAvarice"
         ],
         "sections": [
           {
@@ -568,7 +568,7 @@
             "access_rules": ["^$CanMakeJump|450, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, remove_missable_checks_keep, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, remove_missable_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -576,7 +576,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -611,7 +611,7 @@
           "^$CanReachRegion|HatredsShadow"
         ],
         "visibility_rules": [
-          "enable_region_HatredsShadow"
+          "$EnableRegion|HatredsShadow"
         ],
         "sections": [
           {
@@ -719,7 +719,7 @@
             "access_rules": ["^$CanMakeJump|395, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -749,7 +749,7 @@
           {
             "name": "Chest - Darkness Magic Missile Door",
             "access_rules": ["^$Licenses|any|license-uniquegrenademod, ^$CanReachRegion|LairOfInfiniteAgony, ^$OnLevel|30"],
-            "visibility_rules": ["chest_checks_enabled, enable_region_LairOfInfiniteAgony, $LevelLimit|30"],
+            "visibility_rules": ["chest_checks_enabled, $EnableRegion|LairOfInfiniteAgony, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -760,7 +760,7 @@
           "^$CanReachRegion|LairOfInfiniteAgony"
         ],
         "visibility_rules": [
-          "enable_region_LairOfInfiniteAgony"
+          "$EnableRegion|LairOfInfiniteAgony"
         ],
         "sections": [
           {
@@ -846,7 +846,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -854,7 +854,7 @@
             "access_rules": ["^$CanMakeJump|385, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -889,7 +889,7 @@
           "^$CanReachRegion|DragonKeep"
         ],
         "visibility_rules": [
-          "enable_region_DragonKeep"
+          "$EnableRegion|DragonKeep"
         ],
         "sections": [
           {
@@ -929,7 +929,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -937,7 +937,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -954,7 +954,7 @@
           "^$CanReachRegion|WingedStorm"
         ],
         "visibility_rules": [
-          "enable_region_WingedStorm"
+          "$EnableRegion|WingedStorm"
         ],
         "sections": [
           {
@@ -1018,7 +1018,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -1365,7 +1365,7 @@
           "^$CanReachRegion|MurderlinsTemple"
         ],
         "visibility_rules": [
-          "enable_region_MurderlinsTemple"
+          "$EnableRegion|MurderlinsTemple"
         ],
         "sections": [
           {
@@ -1473,7 +1473,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -1481,7 +1481,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -1493,80 +1493,80 @@
             "name": "Challenge - Fus Roh Die",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_ImmortalWoods, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_ImmortalWoods, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|ImmortalWoods, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Scot-Free",
             "access_rules": ["^$CanReachRegion|MinesOfAvarice, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_MinesOfAvarice, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_MinesOfAvarice, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|MinesOfAvarice, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|MinesOfAvarice, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Rock Out With Your Rock Out",
             "access_rules": ["^$CanReachRegion|UnassumingDocks, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_UnassumingDocks, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_UnassumingDocks, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|UnassumingDocks, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|UnassumingDocks, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Knighty Knight",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_ImmortalWoods, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_ImmortalWoods, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|ImmortalWoods, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cant Fool Me",
             "access_rules": ["^$CanReachRegion|ImmortalWoods, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_ImmortalWoods, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_ImmortalWoods, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|ImmortalWoods, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|ImmortalWoods, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Orcs Should Perish",
             "access_rules": ["^$CanReachRegion|Forest, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_Forest, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_Forest, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|Forest, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|Forest, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bone Breaker",
             "access_rules": ["^$CanReachRegion|UnassumingDocks, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_UnassumingDocks, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_UnassumingDocks, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|UnassumingDocks, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|UnassumingDocks, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Ew Ew Ew Ew",
             "access_rules": ["^$CanReachRegion|Forest, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_Forest, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_Forest, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|Forest, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|Forest, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cheerful Green Giants",
             "access_rules": ["^$CanReachRegion|Forest, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_Forest, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_Forest, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|Forest, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|Forest, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Magical Massacre",
             "access_rules": ["^$CanReachRegion|LairOfInfiniteAgony, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_LairOfInfiniteAgony, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_LairOfInfiniteAgony, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|LairOfInfiniteAgony, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|LairOfInfiniteAgony, $LevelLimit|30"],
             "item_count": 1
           }
         ]

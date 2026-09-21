@@ -12,7 +12,7 @@
           "^$CanReachRegion|Backburner"
         ],
         "visibility_rules": [
-          "enable_region_Backburner"
+          "$EnableRegion|Backburner"
         ],
         "sections": [
           {
@@ -27,8 +27,8 @@
             "name": "My Brittle Pony",
             "access_rules": ["^$CanReachRegion|MtScarabResearchCenter, ^$CanReachRegion|HeliosFallen, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_MtScarabResearchCenter, enable_region_HeliosFallen, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_MtScarabResearchCenter, enable_region_HeliosFallen, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|MtScarabResearchCenter, $EnableRegion|HeliosFallen, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|MtScarabResearchCenter, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -76,13 +76,13 @@
           {
             "name": "Gun Vendor - Marcus",
             "access_rules": ["^$CanReachRegion|DahlAbandon, ^$OnLevel|15"],
-            "visibility_rules": ["vending_machines_enabled, enable_region_DahlAbandon, $LevelLimit|15"],
+            "visibility_rules": ["vending_machines_enabled, $EnableRegion|DahlAbandon, $LevelLimit|15"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Marcus",
             "access_rules": ["^$CanReachRegion|DahlAbandon, ^$OnLevel|15"],
-            "visibility_rules": ["vending_machines_enabled, enable_region_DahlAbandon, $LevelLimit|15"],
+            "visibility_rules": ["vending_machines_enabled, $EnableRegion|DahlAbandon, $LevelLimit|15"],
             "item_count": 1
           },
           {
@@ -90,23 +90,23 @@
             "access_rules": ["^$CanMakeJump|551, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fandir Fiction",
             "access_rules": ["^$Licenses|any|license-uniquerelic, ^$CanReachRegion|FFSBossFight, ^$CanReachRegion|LairOfInfiniteAgony, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, remove_missable_checks_keep, enable_region_FFSBossFight, enable_region_LairOfInfiniteAgony, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, enable_region_FFSBossFight, enable_region_LairOfInfiniteAgony, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, remove_missable_checks_keep, $EnableRegion|FFSBossFight, $EnableRegion|LairOfInfiniteAgony, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, remove_missable_checks_keep, $EnableRegion|FFSBossFight, $EnableRegion|LairOfInfiniteAgony, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Harmville",
             "access_rules": ["^$CanReachRegion|Burrows, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_Burrows, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, enable_region_Burrows, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|Burrows, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, $EnableRegion|Burrows, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -114,7 +114,7 @@
             "access_rules": ["^$CanMakeJump|505, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -125,7 +125,7 @@
           "^$CanReachRegion|Burrows"
         ],
         "visibility_rules": [
-          "enable_region_Burrows"
+          "$EnableRegion|Burrows"
         ],
         "sections": [
           {
@@ -161,7 +161,7 @@
           {
             "name": "Enemy - Lt Angvar (New Pandora)",
             "access_rules": ["^$CanReachRegion|FFSBossFight, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_FFSBossFight, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|FFSBossFight, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -193,7 +193,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -201,15 +201,15 @@
             "access_rules": ["^$CanMakeJump|530, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Never Enough Tools",
             "access_rules": ["^$CanReachRegion|FFSBossFight, ^$CanMakeJump|625, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_FFSBossFight, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, enable_region_FFSBossFight, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|FFSBossFight, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, $EnableRegion|FFSBossFight, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -217,7 +217,7 @@
             "access_rules": ["^$CanMakeJump|585, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -246,7 +246,7 @@
           "^$CanReachRegion|DahlAbandon"
         ],
         "visibility_rules": [
-          "enable_region_DahlAbandon"
+          "$EnableRegion|DahlAbandon"
         ],
         "sections": [
           {
@@ -293,8 +293,8 @@
             "name": "Claptocurrency",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|380, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_HeliosFallen, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_HeliosFallen, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|HeliosFallen, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -314,7 +314,7 @@
           {
             "name": "Enemy - Lt Bolson (New Pandora)",
             "access_rules": ["^$CanReachRegion|FFSBossFight, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_FFSBossFight, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|FFSBossFight, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -338,7 +338,7 @@
           {
             "name": "Symbol - The Veiny Shaft",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|382, ^$OnLevel|30"],
-            "visibility_rules": ["vault_symbols_enabled, enable_region_HeliosFallen, $LevelLimit|30"],
+            "visibility_rules": ["vault_symbols_enabled, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -375,32 +375,32 @@
             "name": "Challenge - Abandoned Records",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HeliosFallen, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, enable_region_HeliosFallen, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HeliosFallen, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Path to Paradise",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|380, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HeliosFallen, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, enable_region_HeliosFallen, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HeliosFallen, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Mine, Dahl Mine!",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|382, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HeliosFallen, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, enable_region_HeliosFallen, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HeliosFallen, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hold The Door!",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_HeliosFallen, remove_missable_checks_keep, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, enable_region_HeliosFallen, remove_missable_checks_keep, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|HeliosFallen, remove_missable_checks_keep, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, $EnableRegion|HeliosFallen, remove_missable_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -408,27 +408,27 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Cult of the Vault",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|415, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, vault_symbols_enabled, enable_region_HeliosFallen, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, enable_region_HeliosFallen, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, vault_symbols_enabled, $EnableRegion|HeliosFallen, $LevelLimit|30",
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - Mine, Dahl Mine Chest #1",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|300, ^$OnLevel|30"],
-            "visibility_rules": ["chest_checks_enabled, enable_region_HeliosFallen, $LevelLimit|30"],
+            "visibility_rules": ["chest_checks_enabled, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Chest - Mine, Dahl Mine Chest #2",
             "access_rules": ["^$CanReachRegion|HeliosFallen, ^$CanMakeJump|382, ^$OnLevel|30"],
-            "visibility_rules": ["chest_checks_enabled, enable_region_HeliosFallen, $LevelLimit|30"],
+            "visibility_rules": ["chest_checks_enabled, $EnableRegion|HeliosFallen, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -445,7 +445,7 @@
           "^$CanReachRegion|HeliosFallen"
         ],
         "visibility_rules": [
-          "enable_region_HeliosFallen"
+          "$EnableRegion|HeliosFallen"
         ],
         "sections": [
           {
@@ -481,7 +481,7 @@
           {
             "name": "Enemy - Lt Tetra (New Pandora)",
             "access_rules": ["^$CanReachRegion|FFSBossFight, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_FFSBossFight, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|FFSBossFight, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -561,7 +561,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -569,7 +569,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -577,7 +577,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -585,7 +585,7 @@
             "access_rules": ["^$CanMakeJump|630, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -608,7 +608,7 @@
           "^$CanReachRegion|MtScarabResearchCenter"
         ],
         "visibility_rules": [
-          "enable_region_MtScarabResearchCenter"
+          "$EnableRegion|MtScarabResearchCenter"
         ],
         "sections": [
           {
@@ -623,8 +623,8 @@
             "name": "BFFFs",
             "access_rules": ["^$CanReachRegion|FFSBossFight, ^$CanMakeJump|400, ^$OnLevel|30"],
             "visibility_rules": [
-              "quest_completion_checks_all, enable_region_FFSBossFight, $LevelLimit|30",
-              "quest_completion_checks_sidequest_only, enable_region_FFSBossFight, $LevelLimit|30"],
+              "quest_completion_checks_all, $EnableRegion|FFSBossFight, $LevelLimit|30",
+              "quest_completion_checks_sidequest_only, $EnableRegion|FFSBossFight, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -638,7 +638,7 @@
           {
             "name": "Enemy - Lt Hoffman (New Pandora)",
             "access_rules": ["^$CanReachRegion|FFSBossFight, ^$OnLevel|30"],
-            "visibility_rules": ["enable_region_FFSBossFight, $LevelLimit|30"],
+            "visibility_rules": ["$EnableRegion|FFSBossFight, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -694,7 +694,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -702,7 +702,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -710,7 +710,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -718,7 +718,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -726,7 +726,7 @@
             "access_rules": ["^$CanMakeJump|500, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -749,7 +749,7 @@
           "^$CanReachRegion|FFSBossFight"
         ],
         "visibility_rules": [
-          "enable_region_FFSBossFight"
+          "$EnableRegion|FFSBossFight"
         ],
         "sections": [
           {
@@ -771,7 +771,7 @@
             "access_rules": ["^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, remove_missable_checks_keep, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, remove_missable_checks_keep, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, remove_missable_checks_keep, $LevelLimit|30"],
             "item_count": 1
           }
         ]
@@ -782,7 +782,7 @@
           "^$CanReachRegion|WrithingDeep"
         ],
         "visibility_rules": [
-          "enable_region_WrithingDeep"
+          "$EnableRegion|WrithingDeep"
         ],
         "sections": [
           {
@@ -834,7 +834,7 @@
             "access_rules": ["^$CanMakeJump|1230, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -842,7 +842,7 @@
             "access_rules": ["^$CanMakeJump|1230, ^$OnLevel|30"],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, vault_symbols_enabled, $LevelLimit|30",
-              "bar_challenge_checks_enable_region_only, vault_symbols_enabled, $LevelLimit|30"],
+              "bar_challenge_checks_$EnableRegion|only, vault_symbols_enabled, $LevelLimit|30"],
             "item_count": 1
           },
           {
@@ -884,64 +884,64 @@
             "name": "Challenge - Do It For The Vine",
             "access_rules": ["^$CanReachRegion|DahlAbandon, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_DahlAbandon, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_DahlAbandon, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|DahlAbandon, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|DahlAbandon, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Fertile Ground",
             "access_rules": ["^$CanReachRegion|DahlAbandon, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_DahlAbandon, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_DahlAbandon, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|DahlAbandon, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|DahlAbandon, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Flower Power",
             "access_rules": ["^$CanReachRegion|DahlAbandon, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_DahlAbandon, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_DahlAbandon, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|DahlAbandon, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|DahlAbandon, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Haderax The Invincible",
             "access_rules": ["^$CanReachRegion|WrithingDeep, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_WrithingDeep, remove_raid_boss_checks_keep, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_WrithingDeep, remove_raid_boss_checks_keep, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|WrithingDeep, remove_raid_boss_checks_keep, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|WrithingDeep, remove_raid_boss_checks_keep, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - The Burdens of Creation",
             "access_rules": ["^$CanReachRegion|Backburner, ^$CanReachRegion|DahlAbandon, ^$CanReachRegion|Burrows, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_Backburner, enable_region_DahlAbandon, enable_region_Burrows, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_Backburner, enable_region_DahlAbandon, enable_region_Burrows, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|Backburner, $EnableRegion|DahlAbandon, $EnableRegion|Burrows, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|Backburner, $EnableRegion|DahlAbandon, $EnableRegion|Burrows, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Let It Grow",
             "access_rules": ["^$CanReachRegion|DahlAbandon, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_DahlAbandon, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_DahlAbandon, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|DahlAbandon, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|DahlAbandon, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - Tanks But No Tanks",
             "access_rules": ["^$CanReachRegion|MtScarabResearchCenter, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_MtScarabResearchCenter, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_MtScarabResearchCenter, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|MtScarabResearchCenter, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|MtScarabResearchCenter, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Challenge - You Started It",
             "access_rules": ["^$CanReachRegion|DahlAbandon, ^$OnLevel|30"],
             "visibility_rules": [
-              "bar_challenge_checks_enable_all, enable_region_DahlAbandon, $LevelLimit|30",
-              "bar_challenge_checks_enable_general_only, enable_region_DahlAbandon, $LevelLimit|30"],
+              "bar_challenge_checks_enable_all, $EnableRegion|DahlAbandon, $LevelLimit|30",
+              "bar_challenge_checks_enable_general_only, $EnableRegion|DahlAbandon, $LevelLimit|30"],
             "item_count": 1
           }
         ]
