@@ -339,9 +339,9 @@ function Licenses(...)
 end
 
 function SettingStage(code, greaterOrLess, stageAmount)
-  local code = code or ""
-  local greaterOrLess = greaterOrLess or "greater"
-  local stageAmount = tonumber(stageAmount) or 0
+  code = code or ""
+  greaterOrLess = greaterOrLess or "greater"
+  stageAmount = tonumber(stageAmount) or 0
   if greaterOrLess == "greater" then
     if Tracker:FindObjectForCode(code).CurrentStage >= stageAmount then
       return true
