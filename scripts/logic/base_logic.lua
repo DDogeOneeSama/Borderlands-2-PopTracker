@@ -353,17 +353,3 @@ function SettingStage(code, greaterOrLess, stageAmount)
   end
   return false
 end
-
-function EnableRegion(region)
-  local region = region or ""
-  if Regions[region].dlc_group == "digi" then
-    if (Tracker:FindObjectForCode("remove_digi_peak_checks").CurrentStage == 1) or not(Tracker:FindObjectForCode("enable_region_" .. region)) then
-      return false
-    end
-  elseif Tracker:FindObjectForCode("remove_" .. Regions[region].dlc_group .. "_checks").CurrentStage == 1 then
-    return false
-  elseif not(Tracker:FindObjectForCode("enable_region_" .. region).Active) then
-    return false
-  end
-  return true
-end

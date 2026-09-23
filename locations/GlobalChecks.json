@@ -13,7 +13,7 @@
 			  "^$CanReachRegion|DigistructPeak"],
             "visibility_rules": [
 			  "$NotOverridden|15, $LevelLimit|2",
-			  "$EnableRegion|DigistructPeak"
+			  "enable_region_DigistructPeak"
 			],
             "item_count": 1
           },
@@ -24,7 +24,7 @@
 			  "^$CanReachRegion|DigistructPeak"],
             "visibility_rules": [
 			  "$NotOverridden|15, $LevelLimit|3",
-			  "$EnableRegion|DigistructPeak"
+			  "enable_region_DigistructPeak"
 			],
             "item_count": 1
           },
@@ -243,21 +243,21 @@
             "name": "Legendary Shield Found",
             "access_rules": [
               "^$Licenses|any|license-legendaryshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
-              "^$CanReachRegion|FrostburnCanyon, ^$OnLevel|9, quest_reward_items_none, $EnableRegion|FrostburnCanyon",
-              "^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|29, $EnableRegion|FrostburnCanyon, $EnableRegion|AridNexusBoneyard",
-              "^$CanReachRegion|CausticCaverns, ^$OnLevel|15, $EnableRegion|CausticCaverns",
-              "^$CanReachRegion|Highlands, ^$OnLevel|16, $EnableRegion|Highlands",
-              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20, $EnableRegion|WildlifeExploitationPreserve",
-              "^$CanReachRegion|Opportunity, ^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|23, $EnableRegion|Opportunity, $EnableRegion|WildlifeExploitationPreserve, $EnableRegion|ThousandCuts",
-              "^$CanReachRegion|Bunker, ^$OnLevel|26, $EnableRegion|Bunker",
-              "^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|29, $EnableRegion|AridNexusBoneyard",
-              "^$CanReachRegion|VaultOfTheWarrior, ^$OnLevel|30, $EnableRegion|VaultOfTheWarrior",
-              "^$CanReachRegion|TerramorphousPeak, ^$OnLevel|50, remove_raid_boss_checks_keep, $EnableRegion|TerramorphousPeak",
-              "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, $EnableRegion|WashburneRefinery, $EnableRegion|LeviathansLair",
-              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, $EnableRegion|HaytersFolly, $EnableRegion|LeviathansLair",
-              "^$CanReachRegion|HallowedHollow, ^$OnLevel|15, $EnableRegion|HallowedHollow",
-              "^$CanReachRegion|Forest, ^$OnLevel|30, $EnableRegion|Forest",
-              "^$CanReachRegion|DragonKeep, ^$OnLevel|30, $EnableRegion|DragonKeep"
+              "^$CanReachRegion|FrostburnCanyon, ^$OnLevel|9, quest_reward_items_none, enable_region_FrostburnCanyon",
+              "^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|29, enable_region_FrostburnCanyon, enable_region_AridNexusBoneyard",
+              "^$CanReachRegion|CausticCaverns, ^$OnLevel|15, enable_region_CausticCaverns",
+              "^$CanReachRegion|Highlands, ^$OnLevel|16, enable_region_Highlands",
+              "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20, enable_region_WildlifeExploitationPreserve",
+              "^$CanReachRegion|Opportunity, ^$CanReachRegion|WildlifeExploitationPreserve, ^$CanReachRegion|ThousandCuts, ^$OnLevel|23, enable_region_Opportunity, enable_region_WildlifeExploitationPreserve, enable_region_ThousandCuts",
+              "^$CanReachRegion|Bunker, ^$OnLevel|26, enable_region_Bunker",
+              "^$CanReachRegion|AridNexusBoneyard, ^$OnLevel|29, enable_region_AridNexusBoneyard",
+              "^$CanReachRegion|VaultOfTheWarrior, ^$OnLevel|30, enable_region_VaultOfTheWarrior",
+              "^$CanReachRegion|TerramorphousPeak, ^$OnLevel|50, remove_raid_boss_checks_keep, enable_region_TerramorphousPeak",
+              "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_WashburneRefinery, enable_region_LeviathansLair",
+              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_HaytersFolly, enable_region_LeviathansLair",
+              "^$CanReachRegion|HallowedHollow, ^$OnLevel|15, enable_region_HallowedHollow",
+              "^$CanReachRegion|Forest, ^$OnLevel|30, enable_region_Forest",
+              "^$CanReachRegion|DragonKeep, ^$OnLevel|30, enable_region_DragonKeep"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|1"
@@ -268,12 +268,12 @@
             "name": "Seraph Shield Found",
             "access_rules": [
               "^$Licenses|any|license-seraphshield, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
-              "^$CanReachRegion|PyroPetesBar, ^$CanReachRegion|Forge, ^$OnLevel|30, remove_raid_boss_checks_keep, $EnableRegion|PyroPetesBar, $EnableRegion|Forge",
-              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, $EnableRegion|HaytersFolly, $EnableRegion|LeviathansLair",
-              "^$CanReachRegion|WingedStorm, ^$OnLevel|30, remove_raid_boss_checks_keep, $EnableRegion|WingedStorm",
-              "^$CanReachRegion|Oasis, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, $EnableRegion|Oasis",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, $EnableRegion|BadassCrater",
-              "^$CanReachRegion|FlamerockRefuge, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, $EnableRegion|FlamerockRefuge"
+              "^$CanReachRegion|PyroPetesBar, ^$CanReachRegion|Forge, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_PyroPetesBar, enable_region_Forge",
+              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_HaytersFolly, enable_region_LeviathansLair",
+              "^$CanReachRegion|WingedStorm, ^$OnLevel|30, remove_raid_boss_checks_keep, enable_region_WingedStorm",
+              "^$CanReachRegion|Oasis, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, enable_region_Oasis",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, enable_region_BadassCrater",
+              "^$CanReachRegion|FlamerockRefuge, ^$OnLevel|15, @Placeholders/Seraph Crystals Accessible, enable_region_FlamerockRefuge"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -284,8 +284,8 @@
             "name": "Rainbow Shield Found",
             "access_rules": [
               "^$Licenses|any|license-rainbowshield, gear_licenses_all, receive_gear_enabled",
-              "^$CanReachRegion|Burrows, ^$OnLevel|30, $EnableRegion|Burrows",
-              "^$CanReachRegion|WrithingDeep, ^$OnLevel|38, remove_raid_boss_checks_keep, $EnableRegion|WrithingDeep"
+              "^$CanReachRegion|Burrows, ^$OnLevel|30, enable_region_Burrows",
+              "^$CanReachRegion|WrithingDeep, ^$OnLevel|38, remove_raid_boss_checks_keep, enable_region_WrithingDeep"
             ],
             "visibility_rules": [
               "gear_rarity_checks_all"
@@ -296,11 +296,11 @@
             "name": "Unique Shield Found",
             "access_rules": [
               "^$Licenses|any|license-uniqueshield, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
-              "^$CanReachRegion|HuntersGrotto, ^$CanReachRegion|ScyllasGrove, ^$OnLevel|30, $EnableRegion|HuntersGrotto, $EnableRegion|ScyllasGrove",
-              "^$CanReachRegion|BloodshotStronghold, ^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|12, quest_reward_items_none, $EnableRegion|BloodshotStronghold, $EnableRegion|BloodshotRamparts, $EnableRegion|FriendshipGulag",
-              "^$CanReachRegion|Highlands, ^$OnLevel|16, quest_reward_items_none, $EnableRegion|Highlands",
-              "^$CanReachRegion|HolySpirits, ^$OnLevel|16, quest_reward_items_none, $EnableRegion|HolySpirits",
-              "^$CanReachRegion|Sanctuary, ^$CanReachRegion|ControlCoreAngel, ^$OnLevel|26, quest_reward_items_none, $EnableRegion|Sanctuary, $EnableRegion|ControlCoreAngel"
+              "^$CanReachRegion|HuntersGrotto, ^$CanReachRegion|ScyllasGrove, ^$OnLevel|30, enable_region_HuntersGrotto, enable_region_ScyllasGrove",
+              "^$CanReachRegion|BloodshotStronghold, ^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|12, quest_reward_items_none, enable_region_BloodshotStronghold, enable_region_BloodshotRamparts, enable_region_FriendshipGulag",
+              "^$CanReachRegion|Highlands, ^$OnLevel|16, quest_reward_items_none, enable_region_Highlands",
+              "^$CanReachRegion|HolySpirits, ^$OnLevel|16, quest_reward_items_none, enable_region_HolySpirits",
+              "^$CanReachRegion|Sanctuary, ^$CanReachRegion|ControlCoreAngel, ^$OnLevel|26, quest_reward_items_none, enable_region_Sanctuary, enable_region_ControlCoreAngel"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|1"
@@ -1198,307 +1198,307 @@
           {
             "name": "Skag Generic Drop",
             "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|8"],
-            "visibility_rules": ["$EnableRegion|ThreeHornsValley, $LevelLimit|8"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Rakk Generic Drop",
             "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|2"],
-            "visibility_rules": ["$EnableRegion|SouthernShelf, $LevelLimit|2"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Bullymong Generic Drop",
             "access_rules": ["^$CanReachRegion|WindshearWaste, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|WindshearWaste, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_WindshearWaste, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Psycho Generic Drop",
             "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|2"],
-            "visibility_rules": ["$EnableRegion|SouthernShelf, $LevelLimit|2"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Rat Generic Drop",
             "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, ^$OnLevel|11"],
-            "visibility_rules": ["$EnableRegion|BloodshotStronghold, $LevelLimit|11"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Spiderant Generic Drop",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$OnLevel|10"],
-            "visibility_rules": ["$EnableRegion|FrostburnCanyon, $LevelLimit|10"],
+            "visibility_rules": ["enable_region_FrostburnCanyon, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Varkid Generic Drop",
             "access_rules": ["^$CanReachRegion|TundraExpress, ^$OnLevel|13"],
-            "visibility_rules": ["$EnableRegion|TundraExpress, $LevelLimit|13"],
+            "visibility_rules": ["enable_region_TundraExpress, $LevelLimit|13"],
             "item_count": 1
           },
           {
             "name": "Goliath Generic Drop",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$OnLevel|10"],
-            "visibility_rules": ["$EnableRegion|ThousandCuts, $LevelLimit|10"],
+            "visibility_rules": ["enable_region_ThousandCuts, $LevelLimit|10"],
             "item_count": 1
           },
           {
             "name": "Marauder Generic Drop",
             "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|2"],
-            "visibility_rules": ["$EnableRegion|SouthernShelf, $LevelLimit|2"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Stalker Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Midget Generic Drop",
             "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|2"],
-            "visibility_rules": ["$EnableRegion|ThreeHornsValley, $LevelLimit|2"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|2"],
             "item_count": 1
           },
           {
             "name": "Nomad Generic Drop",
             "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|8"],
-            "visibility_rules": ["$EnableRegion|ThreeHornsValley, $LevelLimit|8"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|8"],
             "item_count": 1
           },
           {
             "name": "Thresher Generic Drop",
             "access_rules": ["^$CanReachRegion|CausticCaverns, ^$OnLevel|17"],
-            "visibility_rules": ["$EnableRegion|CausticCaverns, $LevelLimit|17"],
+            "visibility_rules": ["enable_region_CausticCaverns, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Badass Generic Drop",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$OnLevel|5"],
-            "visibility_rules": ["$EnableRegion|FrostburnCanyon, $LevelLimit|5"],
+            "visibility_rules": ["enable_region_FrostburnCanyon, $LevelLimit|5"],
             "item_count": 1
           },
           {
             "name": "Skeleton Generic Drop",
             "access_rules": ["^$CanReachRegion|UnassumingDocks, ^$OnLevel|30"],
-            "visibility_rules": ["$EnableRegion|UnassumingDocks, $LevelLimit|30"],
+            "visibility_rules": ["enable_region_UnassumingDocks, $LevelLimit|30"],
             "item_count": 1
           },
           {
             "name": "Loader Generic Drop",
             "access_rules": ["^$CanReachRegion|BloodshotRamparts, ^$OnLevel|11"],
-            "visibility_rules": ["$EnableRegion|BloodshotRamparts, $LevelLimit|11"],
+            "visibility_rules": ["enable_region_BloodshotRamparts, $LevelLimit|11"],
             "item_count": 1
           },
           {
             "name": "Crystalisk Generic Drop",
             "access_rules": ["^$CanReachRegion|CausticCaverns, ^$OnLevel|17"],
-            "visibility_rules": ["$EnableRegion|CausticCaverns, $LevelLimit|17"],
+            "visibility_rules": ["enable_region_CausticCaverns, $LevelLimit|17"],
             "item_count": 1
           },
           {
             "name": "Surveyor Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Hyperion Personnel Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Constructor Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Buzzard Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Pirate Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Sand Worm Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Biker Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Flyboy Buzzard Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Torgue Loader Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Borok Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Savage Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Witch Doctor Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Drifter Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Scaylion Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Spore Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Golem Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Spider Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Treant Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Pixie Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Orc Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Knight Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Dragon Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Mimic Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Dwarf Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Spellcaster Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Infected Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "New Pandora Unit Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Pump-Kin Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Chef Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "TorgueVision Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Stabber Jabber Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Yeti Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Snowman Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           },
           {
             "name": "Crab-Kin Generic Drop",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|16"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|16"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|16"],
             "item_count": 1
           }
         ]
@@ -1513,133 +1513,133 @@
           {
             "name": "Challenge - Cruising for a Bruising",
             "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|BloodshotStronghold, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Bully the Bullies",
             "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|SouthernShelf, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Constructor Destructor",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$CanReachRegion|Bunker, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|ThousandCuts, $EnableRegion|Bunker, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_ThousandCuts, enable_region_Bunker, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Crystals Are a Girls Best Friend",
             "access_rules": ["^$CanReachRegion|CausticCaverns, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|CausticCaverns, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_CausticCaverns, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Paingineering",
             "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|FriendshipGulag, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_FriendshipGulag, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - WHY SO MUCH HURT!",
             "access_rules": ["^$CanReachRegion|ThousandCuts, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|ThousandCuts, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_ThousandCuts, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Die in the Friendly Skies",
             "access_rules": ["^$CanReachRegion|Dust, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|Dust, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_Dust, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Load and Lock",
             "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|FriendshipGulag, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_FriendshipGulag, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Marauder I Hardly Know Er!",
             "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|BloodshotStronghold, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Little Person, Big Pain",
             "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|BloodshotStronghold, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - You (No)Mad, Bro",
             "access_rules": ["^$CanReachRegion|ThreeHornsDivide, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|ThreeHornsDivide, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_ThreeHornsDivide, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Mamas Boys",
             "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|ThreeHornsValley, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - You Dirty Rat",
             "access_rules": ["^$CanReachRegion|Fridge, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|Fridge, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_Fridge, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Skags to Riches",
             "access_rules": ["^$CanReachRegion|ThreeHornsValley, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|ThreeHornsValley, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_ThreeHornsValley, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Pest Control",
             "access_rules": ["^$CanReachRegion|FrostburnCanyon, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|FrostburnCanyon, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_FrostburnCanyon, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Youre One Ugly Mother",
             "access_rules": ["^$CanReachRegion|HighlandsOutwash, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|HighlandsOutwash, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_HighlandsOutwash, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Just a Moment of Your Time",
             "access_rules": ["^$CanReachRegion|FriendshipGulag, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|FriendshipGulag, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_FriendshipGulag, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Tentacle Obsession",
             "access_rules": ["^$CanReachRegion|Highlands, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|Highlands, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_Highlands, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Another Bug Hunt",
             "access_rules": ["^$CanReachRegion|TundraExpress, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|TundraExpress, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_TundraExpress, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Pod Pew Pew",
             "access_rules": ["^$CanReachRegion|TundraExpress, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|TundraExpress, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_TundraExpress, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Short-Chained",
             "access_rules": ["^$CanReachRegion|BloodshotStronghold, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|BloodshotStronghold, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_BloodshotStronghold, $LevelLimit|1"],
             "item_count": 1
           },
           {
             "name": "Challenge - Hurly Burly",
             "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|1"],
-            "visibility_rules": ["$EnableRegion|SouthernShelf, $LevelLimit|1"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|1"],
             "item_count": 1
           }
         ]
@@ -1654,7 +1654,7 @@
           {
             "name": "Challenge - Whaddaya Buyin",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
-            "visibility_rules": ["$EnableRegion|Sanctuary, $LevelLimit|7"],
+            "visibility_rules": ["enable_region_Sanctuary, $LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -1888,19 +1888,19 @@
           {
             "name": "Challenge - JEEEEENKINSSSSSS!!!",
             "access_rules": ["^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|19"],
-            "visibility_rules": ["$EnableRegion|WildlifeExploitationPreserve, $LevelLimit|19"],
+            "visibility_rules": ["enable_region_WildlifeExploitationPreserve, $LevelLimit|19"],
             "item_count": 1
           },
           {
             "name": "Challenge - Compl33tionist",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$CanReachRegion|SouthpawSteam&Power, ^$OnLevel|7"],
-            "visibility_rules": ["$EnableRegion|Sanctuary, $LevelLimit|7"],
+            "visibility_rules": ["enable_region_Sanctuary, $LevelLimit|7"],
             "item_count": 1
           },
           {
             "name": "Challenge - Sidejacked",
             "access_rules": ["^$CanReachRegion|Sanctuary, ^$OnLevel|7"],
-            "visibility_rules": ["$EnableRegion|Sanctuary, $LevelLimit|7"],
+            "visibility_rules": ["enable_region_Sanctuary, $LevelLimit|7"],
             "item_count": 1
           },
           {
@@ -2014,32 +2014,32 @@
           {
             "name": "Challenge - Blue Sparks",
             "access_rules": [
-			  "^$CanReachRegion|ThreeHornsDivide, $EnableRegion|ThreeHornsDivide, ^$OnLevel|7",
-			  "^$CanReachRegion|BadassCrater, $EnableRegion|BadassCrater, ^$OnLevel|15",
-			  "^$CanReachRegion|DahlAbandon, $EnableRegion|DahlAbandon, ^$OnLevel|30"
+			  "^$CanReachRegion|ThreeHornsDivide, enable_region_ThreeHornsDivide, ^$OnLevel|7",
+			  "^$CanReachRegion|BadassCrater, enable_region_BadassCrater, ^$OnLevel|15",
+			  "^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
 			],
             "visibility_rules": [
-			  "$EnableRegion|ThreeHornsDivide, $LevelLimit|7",
-			  "$EnableRegion|BadassCrater, $LevelLimit|15",
-			  "$EnableRegion|DahlAbandon, $LevelLimit|30"
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_BadassCrater, $LevelLimit|15",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
 			],
             "item_count": 1
           },
           {
             "name": "Challenge - Hit-and-Fun",
             "access_rules": [
-			  "^$CanReachRegion|ThreeHornsDivide, $EnableRegion|ThreeHornsDivide, ^$OnLevel|7",
-			  "^$CanReachRegion|BadassCrater, $EnableRegion|BadassCrater, ^$OnLevel|15",
-			  "^$CanReachRegion|Oasis, $EnableRegion|Oasis, ^$OnLevel|15",
-			  "^$CanReachRegion|HuntersGrotto, $EnableRegion|HuntersGrotto, ^$OnLevel|30",
-			  "^$CanReachRegion|DahlAbandon, $EnableRegion|DahlAbandon, ^$OnLevel|30"
+			  "^$CanReachRegion|ThreeHornsDivide, enable_region_ThreeHornsDivide, ^$OnLevel|7",
+			  "^$CanReachRegion|BadassCrater, enable_region_BadassCrater, ^$OnLevel|15",
+			  "^$CanReachRegion|Oasis, enable_region_Oasis, ^$OnLevel|15",
+			  "^$CanReachRegion|HuntersGrotto, enable_region_HuntersGrotto, ^$OnLevel|30",
+			  "^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
 			],
             "visibility_rules": [
-			  "$EnableRegion|ThreeHornsDivide, $LevelLimit|7",
-			  "$EnableRegion|BadassCrater, $LevelLimit|15",
-			  "$EnableRegion|Oasis, $LevelLimit|15",
-			  "$EnableRegion|HuntersGrotto, $LevelLimit|30",
-			  "$EnableRegion|DahlAbandon, $LevelLimit|30"
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_BadassCrater, $LevelLimit|15",
+			  "enable_region_Oasis, $LevelLimit|15",
+			  "enable_region_HuntersGrotto, $LevelLimit|30",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
 			],
             "item_count": 1
           },
@@ -2050,44 +2050,44 @@
 			  "^$CanReachRegion|DahlAbandon, ^$OnLevel|30"
 			],
             "visibility_rules": [
-			  "$EnableRegion|Dust, $EnableRegion|FrostburnCanyon, $EnableRegion|Sanctuary, $LevelLimit|7",
-			  "$EnableRegion|DahlAbandon, $LevelLimit|30"
+			  "enable_region_Dust, enable_region_FrostburnCanyon, enable_region_Sanctuary, $LevelLimit|7",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
 			],
             "item_count": 1
           },
           {
             "name": "Challenge - Turret Syndrome",
             "access_rules": [
-			  "vehiclefire, ^$CanReachRegion|ThreeHornsDivide, $EnableRegion|ThreeHornsDivide, ^$OnLevel|7",
-			  "vehiclefire, ^$CanReachRegion|BadassCrater, $EnableRegion|BadassCrater, ^$OnLevel|15",
-			  "vehiclefire, ^$CanReachRegion|Oasis, $EnableRegion|Oasis, ^$OnLevel|15",
-			  "vehiclefire, ^$CanReachRegion|HuntersGrotto, $EnableRegion|HuntersGrotto, ^$OnLevel|30",
-			  "vehiclefire, ^$CanReachRegion|DahlAbandon, $EnableRegion|DahlAbandon, ^$OnLevel|30"
+			  "vehiclefire, ^$CanReachRegion|ThreeHornsDivide, enable_region_ThreeHornsDivide, ^$OnLevel|7",
+			  "vehiclefire, ^$CanReachRegion|BadassCrater, enable_region_BadassCrater, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|Oasis, enable_region_Oasis, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|HuntersGrotto, enable_region_HuntersGrotto, ^$OnLevel|30",
+			  "vehiclefire, ^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
 			],
             "visibility_rules": [
-			  "$EnableRegion|ThreeHornsDivide, $LevelLimit|7",
-			  "$EnableRegion|BadassCrater, $LevelLimit|15",
-			  "$EnableRegion|Oasis, $LevelLimit|15",
-			  "$EnableRegion|HuntersGrotto, $LevelLimit|30",
-			  "$EnableRegion|DahlAbandon, $LevelLimit|30"
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_BadassCrater, $LevelLimit|15",
+			  "enable_region_Oasis, $LevelLimit|15",
+			  "enable_region_HuntersGrotto, $LevelLimit|30",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
 			],
             "item_count": 1
           },
           {
             "name": "Challenge - One Van Leaves",
             "access_rules": [
-			  "vehiclefire, ^$CanReachRegion|Dust, $EnableRegion|Dust, ^$OnLevel|7",
-			  "vehiclefire, ^$CanReachRegion|SouthernRaceway, $EnableRegion|SouthernRaceway, ^$OnLevel|15",
-			  "vehiclefire, ^$CanReachRegion|Wurmwater, $EnableRegion|Wurmwater, ^$OnLevel|15",
-			  "vehiclefire, ^$CanReachRegion|ScyllasGrove, $EnableRegion|ScyllasGrove, ^$OnLevel|30",
-			  "vehiclefire, ^$CanReachRegion|DahlAbandon, $EnableRegion|DahlAbandon, ^$OnLevel|30"
+			  "vehiclefire, ^$CanReachRegion|Dust, enable_region_Dust, ^$OnLevel|7",
+			  "vehiclefire, ^$CanReachRegion|SouthernRaceway, enable_region_SouthernRaceway, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|Wurmwater, enable_region_Wurmwater, ^$OnLevel|15",
+			  "vehiclefire, ^$CanReachRegion|ScyllasGrove, enable_region_ScyllasGrove, ^$OnLevel|30",
+			  "vehiclefire, ^$CanReachRegion|DahlAbandon, enable_region_DahlAbandon, ^$OnLevel|30"
 			],
             "visibility_rules": [
-			  "$EnableRegion|ThreeHornsDivide, $LevelLimit|7",
-			  "$EnableRegion|SouthernRaceway, $LevelLimit|15",
-			  "$EnableRegion|Wurmwater, $LevelLimit|15",
-			  "$EnableRegion|ScyllasGrove, $LevelLimit|30",
-			  "$EnableRegion|DahlAbandon, $LevelLimit|30"
+			  "enable_region_ThreeHornsDivide, $LevelLimit|7",
+			  "enable_region_SouthernRaceway, $LevelLimit|15",
+			  "enable_region_Wurmwater, $LevelLimit|15",
+			  "enable_region_ScyllasGrove, $LevelLimit|30",
+			  "enable_region_DahlAbandon, $LevelLimit|30"
 			],
             "item_count": 1
           }
@@ -2160,7 +2160,7 @@
           {
             "name": "Challenge - Shield Basher",
             "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|18"],
-            "visibility_rules": ["$EnableRegion|SouthernShelf, $LevelLimit|18"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|18"],
             "item_count": 1
           },
           {
@@ -2334,7 +2334,7 @@
           {
             "name": "Challenge - Eviscerated",
             "access_rules": ["^$CanReachRegion|SouthernShelf, ^$OnLevel|18"],
-            "visibility_rules": ["$EnableRegion|SouthernShelf, $LevelLimit|18"],
+            "visibility_rules": ["enable_region_SouthernShelf, $LevelLimit|18"],
             "item_count": 1
           },
           {
@@ -2423,8 +2423,8 @@
               "^$CanReachRegion|ScyllasGrove, ^$OnLevel|30",
               "^$CanReachRegion|WamBamIsland, ^$OnLevel|15"],
             "visibility_rules": [
-              "remove_hammerlock_checks_keep, $EnableRegion|ScyllasGrove, $LevelLimit|30",
-              "remove_headhunter_checks_keep, $EnableRegion|WamBamIsland, $LevelLimit|15"],
+              "remove_hammerlock_checks_keep, enable_region_ScyllasGrove, $LevelLimit|30",
+              "remove_headhunter_checks_keep, enable_region_WamBamIsland, $LevelLimit|15"],
             "item_count": 1
           }
         ]
