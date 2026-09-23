@@ -60,6 +60,48 @@
 	]
   },
   {
+    "name": "Named Enemy Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/named_enemy_checks_disabled.png",
+        "codes": "named_enemy_checks,named_enemy_checks_disabled",
+        "inherit_codes": false,
+        "name": "Named Enemy Checks - Disabled"
+      },
+      {
+        "img": "images/settings/named_enemy_checks_enabled.png",
+        "codes": "named_enemy_checks,named_enemy_checks_enabled",
+        "inherit_codes": false,
+        "name": "Named Enemy Checks - Enabled"
+      }
+	]
+  },
+  {
+    "name": "Level Up Checks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/level_up_checks_disabled.png",
+        "codes": "level_up_checks,level_up_checks_disabled",
+        "inherit_codes": false,
+        "name": "Level Up Checks - Disabled"
+      },
+      {
+        "img": "images/settings/level_up_checks_enabled.png",
+        "codes": "level_up_checks,level_up_checks_enabled",
+        "inherit_codes": false,
+        "name": "Level Up Checks - Enabled"
+      }
+	]
+  },
+  {
     "name": "Vault Symbols",
     "type": "progressive",
     "loop": true,

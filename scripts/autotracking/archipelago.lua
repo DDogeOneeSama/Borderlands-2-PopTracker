@@ -301,8 +301,8 @@ function AutoFill()
         return
     end
     print(dump_table(SLOT_DATA))
-    local skippedSettings = {"version", "delete_starting_gear", "filler_gear", "spawn_traps", "remove_locations", "include_locations", "death_link", "death_link_punishment", "death_link_send_mode"}
-    for settings_name , settings_value in pairs(SLOT_DATA) do
+    local skippedSettings = {"version", "delete_starting_gear", "filler_gear", "backpack_pool", "spawn_traps", "remove_locations", "include_locations", "death_link", "death_link_punishment", "death_link_send_mode", "remove_specific_region_checks"}
+    for settings_name, settings_value in pairs(SLOT_DATA) do
         for _, setting in ipairs(skippedSettings) do
             if settings_name == setting then
                 goto continue
@@ -323,7 +323,7 @@ function AutoFill()
             end
             goto continue
         end
-        if settings_name == "remove_specific_region_checks" then
+        if settings_name == "restricted_regions" then
             for _, region in ipairs(SLOT_DATA[settings_name]) do
                 print("enable_region_" .. region)
                 Tracker:FindObjectForCode("enable_region_" .. region).Active = false

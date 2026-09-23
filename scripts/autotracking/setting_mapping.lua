@@ -21,6 +21,24 @@ SLOT_CODES =
       [1] = 1  -- On
     }
   },
+  named_enemy_checks =
+  {
+    code = "named_enemy_checks",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
+  level_up_checks =
+  {
+    code = "level_up_checks",
+    mapping =
+    {
+      [0] = 0, -- Off
+      [1] = 1  -- On
+    }
+  },
   vault_symbols =
   {
     code = "vault_symbols",
