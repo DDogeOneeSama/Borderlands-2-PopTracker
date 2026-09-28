@@ -370,8 +370,16 @@ function CheckToToggleEnableRegions(ItemCode)
   for _, code in ipairs(dlcRegions) do
     if ItemCode == code then
       if ItemCode == "remove_digi_peak_checks" then
-        Tracker:FindObjectForCode("enable_region_digistructpeak").Active = false
-        Tracker:FindObjectForCode("enable_region_digistructpeakinner").Active = false
+        if Tracker:FindObjectForCode("enable_region_digistructpeak").Active then
+          Tracker:FindObjectForCode("enable_region_digistructpeak").Active = false
+        else
+          Tracker:FindObjectForCode("enable_region_digistructpeak").Active = true
+        end
+        if Tracker:FindObjectForCode("enable_region_digistructpeakinner").Active then
+          Tracker:FindObjectForCode("enable_region_digistructpeakinner").Active = false
+        else
+          Tracker:FindObjectForCode("enable_region_digistructpeakinner").Active = true
+        end
         return
       elseif ItemCode == "remove_base_game_checks" then
         dlcsToRemove = {
@@ -393,7 +401,11 @@ function CheckToToggleEnableRegions(ItemCode)
     for _, region in ipairs(Regions) do
       for _, dlc in ipairs(dlcsToRemove) do
         if (Regions[region].dlc_group == dlc) then
-          Tracker:FindObjectForCode("enable_region_"..region).Active = false
+          if Tracker:FindObjectForCode("enable_region_"..region).Active then
+            Tracker:FindObjectForCode("enable_region_"..region).Active = false
+          else
+            Tracker:FindObjectForCode("enable_region_"..region).Active = true
+          end
         end
       end
     end
