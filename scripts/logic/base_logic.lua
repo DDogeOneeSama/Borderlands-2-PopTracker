@@ -33,7 +33,7 @@ function CanReachRegion(regionToCheck)
   if staleRegions then
     OpenRegions()
   end
-  if not(EnableRegion(regionToCheck)) then
+  if not(Tracker:FindObjectForCode("enable_region_"..regionToCheck).Active) then
     return AccessibilityLevel.None
   end
   return accessibleRegions[regionToCheck] or AccessibilityLevel.None
@@ -66,7 +66,7 @@ function OpenRegions()
     for _, connectedRegion in ipairs(Regions[regionToCheck].connecting_regions) do
       if accessibleRegions[connectedRegion] then
         table.insert(queue, connectedRegion)
-      elseif not(EnableRegion(connectedRegion)) then
+      elseif not(Tracker:FindObjectForCode("enable_region_"..connectedRegion).Active) then
         table.insert(queue, connectedRegion)
       else
         if not(HasTravelItem(connectedRegion)) then
@@ -101,7 +101,7 @@ function ModifyProgressiveTables()
   for _, dlc in pairs(DLCProgOrderList) do
     if (Tracker:FindObjectForCode("progressive_travel_" .. dlc).CurrentStage) == 1 then
       for _, regionToAdd in ipairs(ProgressiveOrdersDefinition[dlc]) do
-        if (EnableRegion(regionToAdd)) then
+        if (Tracker:FindObjectForCode("enable_region_"..regionToAdd).Active) then
           table.insert(ProgressiveOrdersWorking[dlc], regionToAdd)
         end
       end
@@ -112,7 +112,7 @@ end
 function HasTravelItem(regionToCheck)
   if (Regions[regionToCheck].travel_item_name == "") or (Tracker:FindObjectForCode("entrance_locks").CurrentStage) == 0 then
     return true -- return true if region does not require travel item or entrance_locks_disabled
-  elseif Regions[regionToCheck].dlc_group ~= "digi" and (Tracker:FindObjectForCode("progressive_travel_" .. Regions[regionToCheck].dlc_group).CurrentStage) == 1 then
+  elseif Regions[regionToCheck].dlc_group ~= "digi_peak" and (Tracker:FindObjectForCode("progressive_travel_" .. Regions[regionToCheck].dlc_group).CurrentStage) == 1 then
     return ProgressiveCheck(regionToCheck, Regions[regionToCheck].dlc_group)
   elseif(Tracker:FindObjectForCode(Regions[regionToCheck].travel_item_name).Active) then
     return true -- return true if you have the travel item
@@ -352,4 +352,52 @@ function SettingStage(code, greaterOrLess, stageAmount)
     end
   end
   return false
+end
+
+function CheckToToggleEnableRegions(ItemCode)
+  local dlcRegions = {
+    "remove_ffs_checks",
+    "remove_tina_checks",
+    "remove_torgue_checks",
+    "remove_scarlett_checks",
+    "remove_hammerlock_checks",
+    "remove_digi_peak_checks",
+    "remove_headhunter_checks",
+    "remove_base_game_checks"
+  }
+  local dlcsToRemove = {}
+  local changedDLCToggle = false
+  for _, code in ipairs(dlcRegions) do
+    if ItemCode == code then
+      if ItemCode == "remove_digi_peak_checks" then
+        Tracker:FindObjectForCode("enable_region_digistructpeak").Active = false
+        Tracker:FindObjectForCode("enable_region_digistructpeakinner").Active = false
+        return
+      elseif ItemCode == "remove_base_game_checks" then
+        dlcsToRemove = {
+          "basegame",
+          "basegame_side"
+        }
+        changedDLCToggle = true
+      else
+        local trimmedCode = code:sub(8)
+        trimmedCode = trimmedCode:sub(1, -7)
+        dlcsToRemove = {
+          trimmedCode
+        }
+        changedDLCToggle = true
+      end
+    end
+  end
+  if changedDLCToggle then
+    for _, region in ipairs(Regions) do
+      for _, dlc in ipairs(dlcsToRemove) do
+        if (Regions[region].dlc_group == dlc) then
+          Tracker:FindObjectForCode("enable_region_"..region).Active = false
+        end
+      end
+    end
+  else
+    return
+  end
 end
