@@ -1111,12 +1111,11 @@
             "name": "Seraph AssaultRifle Found",
             "access_rules": [
               "^$Licenses|any|license-seraphassaultrifle, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
-			  "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
-			  "^$CanReachRegion|CandlerakksCrag, ^$CanReachRegion|Terminus, ^$OnLevel|30, remove_raid_boss_checks_keep",
-			  "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-			  "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-			  "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
-			  
+              "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
+              "^$CanReachRegion|CandlerakksCrag, ^$CanReachRegion|Terminus, ^$OnLevel|30, remove_raid_boss_checks_keep",
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
+              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
+              "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
