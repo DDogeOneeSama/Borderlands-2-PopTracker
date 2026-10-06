@@ -8,7 +8,7 @@ Currently a major WIP with the BL2 Archipelago not even being complete yet.
 - Auto-tracking for all locations as of v0.5.5
 - Logic for all locations as of v0.5.5
 - All locations visible on the overworld, and shows if the region they are in can be currently accessed or not
-- All settings for the Archipelago as of v0.5.5 auto-imported and some are changeable (Does not change actual world settings, rest of settings will be visible in upcoming update)
+- All logic-relavant settings for the Archipelago as of v0.5.5 auto-imported and changable
 - All map images completed and ready to have their locations placed except for Global Check maps
 
 # WIP
