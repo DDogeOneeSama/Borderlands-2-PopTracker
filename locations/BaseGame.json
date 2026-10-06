@@ -2721,13 +2721,13 @@
           {
             "name": "Symbol - Construction Site",
             "access_rules": ["^$CanMakeJump|460, ^$OnLevel|20"],
-            "visibility_rules": ["vault_symbols_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Symbol - Office Bridge",
             "access_rules": ["crouch, ^$CanMakeJump|465, ^$OnLevel|20"],
-            "visibility_rules": ["vault_symbols_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vault_symbols_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
@@ -2751,37 +2751,37 @@
           {
             "name": "Ammo Vendor - Hyperion Office Complex",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Hyperion Office Complex",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Opportunity Square",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Med Vendor - Opportunity Square",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Gun Vendor - Residential Quarter",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
             "name": "Ammo Vendor - Residential Quarter",
             "access_rules": ["^$OnLevel|20"],
-            "visibility_rules": ["vending_machines_enabled, ^$OnLevel|20"],
+            "visibility_rules": ["vending_machines_enabled, $LevelLimit|20"],
             "item_count": 1
           },
           {
