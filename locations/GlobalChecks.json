@@ -5,7 +5,7 @@
     "children": [
       {
         "name": "Levels",
-        "access_rules": "level_up_checks_enabled",
+        "visibility_rules": "level_up_checks_enabled",
         "sections": [
           {
             "name": "Level 2 Reached",
