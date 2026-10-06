@@ -25,6 +25,9 @@
                     "receive_gear"
                   ],
                   [
+                    "level_up_checks"
+                  ],
+                  [
                     "vault_symbols"
                   ],
                   [
@@ -49,10 +52,13 @@
                     "quest_completion_checks"
                   ],
                   [
-                    "gear_rarity_checks"
+                    "quest_reward_items"
                   ],
                   [
                     "generic_mob_checks"
+                  ],
+                  [
+                    "gear_rarity_checks"
                   ],
                   [
                     "challenge_checks"
@@ -61,13 +67,16 @@
                     "chest_checks"
                   ],
                   [
-                    "remove_missable_checks"
-                  ],
-                  [
                     "remove_coop_checks"
                   ],
                   [
+                    "remove_missable_checks"
+                  ],
+                  [
                     "remove_raidboss_checks"
+                  ],
+                  [
+                    "always_on_level"
                   ],
                   [
                     "max_level_checks"
