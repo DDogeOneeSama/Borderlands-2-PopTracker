@@ -112,7 +112,7 @@ end
 function HasTravelItem(regionToCheck)
   if (Regions[regionToCheck].travel_item_name == "") or (Tracker:FindObjectForCode("entrance_locks").CurrentStage) == 0 then
     return true -- return true if region does not require travel item or entrance_locks_disabled
-  elseif Regions[regionToCheck].dlc_group ~= "digi_peak" and (Tracker:FindObjectForCode("progressive_travel_" .. Regions[regionToCheck].dlc_group).CurrentStage) == 1 then
+  elseif Regions[regionToCheck].dlc_group ~= "digi" and (Tracker:FindObjectForCode("progressive_travel_" .. Regions[regionToCheck].dlc_group).CurrentStage) == 1 then
     return ProgressiveCheck(regionToCheck, Regions[regionToCheck].dlc_group)
   elseif(Tracker:FindObjectForCode(Regions[regionToCheck].travel_item_name).Active) then
     return true -- return true if you have the travel item
