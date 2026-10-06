@@ -4,20 +4,23 @@ Poptracker pack for Borderlands 2 with Archipelago Support.
 Currently a major WIP with the BL2 Archipelago not even being complete yet.
 
 # Completed
-- Auto-tracking for all items as of v0.5.3
-- Auto-tracking for all locations as of v0.5.3
-- Logic for all locations as of v0.5.3
+- Auto-tracking for all items as of v0.5.5
+- Auto-tracking for all locations as of v0.5.5
+- Logic for all locations as of v0.5.5
 - All locations visible on the overworld, and shows if the region they are in can be currently accessed or not
-- All settings for the Archipelago as of v0.5.3 auto-imported and changeable (Does not change actual world settings)
-- All map images completed and ready to have their locations placed
+- All settings for the Archipelago as of v0.5.5 auto-imported and some are changeable (Does not change actual world settings, rest of settings will be visible in upcoming update)
+- All map images completed and ready to have their locations placed except for Global Check maps
 
 # WIP
 - Place all locations on their respective maps
 - Auto-area switching
 
 # Next to work on
-- Update icons for travel items
+- Update icons for travel items (Foxie made them more visible, might change icons to be more visually appealing)
 - Possible separate images for locations based on which kind of location they are (Ex. Vault symbol for symbols)
+
+# Possible Additions
+- Support for fully unlocked mode
 
 # Credits
 - EdricY for the actual Borderlands 2 Archipelago https://github.com/EdricY/Bouncy-Loot-God  
