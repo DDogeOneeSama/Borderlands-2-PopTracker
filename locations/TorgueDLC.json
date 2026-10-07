@@ -91,7 +91,7 @@
           {
             "name": "Torgue Vendor - Entrance",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -121,7 +121,7 @@
           {
             "name": "Torgue Vendor - Gun Emporeum",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -290,7 +290,7 @@
           {
             "name": "Torgue Vendor - Pyro Petes Bar",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -478,7 +478,7 @@
           {
             "name": "Torgue Vendor - Motor Mamas Arena",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -700,7 +700,7 @@
           {
             "name": "Torgue Vendor - Entrance",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -952,7 +952,7 @@
           {
             "name": "Torgue Vendor - Entrance",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -1240,7 +1240,7 @@
           {
             "name": "Torgue Vendor - Outside The Forge",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -1377,7 +1377,7 @@
           {
             "name": "Torgue Vendor - Badass Bar",
             "access_rules": [
-              "@TorgueDLC/Placeholders/Torgue Tokens Accessible, ^$OnLevel|15"
+              "@TorgueDLC/Placeholders/TorgueTokensAccessible, ^$OnLevel|15"
             ],
             "visibility_rules": [
               "vending_machines_enabled, $LevelLimit|15"
@@ -1489,7 +1489,7 @@
             "item_count": 1
           },
           {
-            "name": "Torgue Tokens Accessible",
+            "name": "TorgueTokensAccessible",
             "access_rules": [
               "^$CanReachRegion|BadassCraterBar"
             ],

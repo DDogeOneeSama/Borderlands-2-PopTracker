@@ -458,7 +458,7 @@
           {
             "name": "MMORPGFPS",
             "access_rules": [
-              "^$License|all|license-uncommonsniperrifle|license-commonsniperrifle, ^$ALL|crouch|melee, @TinaDLC/FlamerockRefuge/Fake Geek Guy, ^$OnLevel|30"
+              "^$Licenses|all|license-uncommonsniperrifle|license-commonsniperrifle, ^$ALL|crouch|melee, @TinaDLC/FlamerockRefuge/Fake Geek Guy, ^$OnLevel|30"
             ],
             "visibility_rules": [
               "quest_completion_checks_all, $LevelLimit|30",
