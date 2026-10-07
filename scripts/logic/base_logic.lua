@@ -21,6 +21,7 @@ function InvalidateAccessibleRegions()
   staleProgressive = true
   staleJump = true
   staleLevelLimit = true
+  highestLevel = 0
   ResetProgressiveOrders()
   accessibleRegions =
   {
@@ -187,7 +188,7 @@ function CanMakeJump(height)
 end
 
 function OnLevel(level, aolKeep)
-  aolKeep = aolKeep or false
+  aolKeep = aolKeep or "Dont Keep"
   local levelToCheck = tonumber(level)
   if levelToCheck == 0 then
     return AccessibilityLevel.Normal
@@ -196,20 +197,20 @@ function OnLevel(level, aolKeep)
     OpenRegions()
   end
   if staleLevels then
-    if aolKeep then
-        goto skipAOL
-    end
-    if ((Tracker:FindObjectForCode("always_on_level").CurrentStage == 1) or (Tracker:FindObjectForCode("always_on_level").CurrentStage == 2)) then
-      staleLevels = false
-      if not(BasicCombat()) then
-        return AccessibilityLevel.SequenceBreak
-      end
-      return AccessibilityLevel.Normal
-    end
-    ::skipAOL::
     highestLevel = OpenLevels()
     staleLevels = false
   end
+  if aolKeep == "aolKeep" then
+    goto skipAOL
+  end
+  if ((Tracker:FindObjectForCode("always_on_level").CurrentStage == 1) or (Tracker:FindObjectForCode("always_on_level").CurrentStage == 2)) then
+    if not(BasicCombat()) then
+      return AccessibilityLevel.SequenceBreak
+    else
+      return AccessibilityLevel.Normal
+    end
+  end
+  ::skipAOL::
   if not(LevelLimit(levelToCheck)) then
     return AccessibilityLevel.None
   end

@@ -2091,7 +2091,7 @@
           {
             "name": "Challenge - Cut Em No Slack",
             "access_rules": [
-              "^^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, $OnLevel|13"
+              "^$CanReachRegion|BloodshotRamparts, ^$CanReachRegion|FriendshipGulag, $OnLevel|13"
             ],
             "visibility_rules": [
               "bar_challenge_checks_enable_all, enable_region_BloodshotRamparts, enable_region_FriendshipGulag, $LevelLimit|13",

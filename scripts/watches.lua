@@ -6,7 +6,7 @@ Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", OnNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
 ScriptHost:AddWatchForCode("state changed", "*", InvalidateAccessibleRegions)
-ScriptHost:AddWatchForCode("state changed", "*", CheckToToggleEnableRegions)
+-- ScriptHost:AddWatchForCode("state changed", "*", CheckToToggleEnableRegions)
 
 function BackpackOverlayUpdate(code)
     local backpack = Tracker:FindObjectForCode("backpackupgrade") or ""
@@ -22,6 +22,7 @@ function BackpackOverlayUpdate(code)
         backpack:SetOverlay(tostring(amount))
     end
 end
+BackpackOverlayUpdate()
 
 ScriptHost:AddWatchForCode("backpack update", "backpackupgrade", BackpackOverlayUpdate)
 ScriptHost:AddWatchForCode("backpack update infinite", "infiniteupgrade", BackpackOverlayUpdate)
