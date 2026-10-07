@@ -375,9 +375,9 @@
               "^$CanReachRegion|PyroPetesBar, ^$CanReachRegion|Forge, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|WingedStorm, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|Oasis, ^$OnLevel|15, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|FlamerockRefuge, ^$OnLevel|15, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|Oasis, ^$OnLevel|15, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|FlamerockRefuge, ^$OnLevel|15, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -451,7 +451,7 @@
               "^$Licenses|any|license-legendarygrenademod, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
               "^$CanReachRegion|SouthernShelf, ^$OnLevel|5",
               "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/Torgue Tokens Accessible",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/TorgueTokensAccessible",
               "^$CanReachRegion|HatredsShadow, ^$OnLevel|30"
             ],
             "visibility_rules": [],
@@ -462,7 +462,7 @@
             "access_rules": [
               "^$Licenses|any|license-seraphgrenademod, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
               "^$CanReachRegion|PyroPetesBar, ^$CanReachRegion|Forge, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -590,10 +590,10 @@
             "name": "Seraph Relic Found",
             "access_rules": [
               "^$Licenses|any|license-seraphrelic, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
-              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|BadassCrater, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|BadassCrater, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -678,7 +678,7 @@
               "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|WamBamIsland, ^$OnLevel|15",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/Torgue Tokens Accessible",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/TorgueTokensAccessible",
               "^$CanReachRegion|MinesOfAvarice, ^$OnLevel|30",
               "^$CanReachRegion|MtScarabResearchCenter, ^$OnLevel|30, quest_reward_items_none",
               "^$CanReachRegion|Burrows, ^$CanReachRegion|FFSBossFight, ^$OnLevel|30"
@@ -693,8 +693,8 @@
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|CandlerakksCrag, ^$CanReachRegion|Terminus, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|WingedStorm, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -720,7 +720,7 @@
               "^$CanReachRegion|MagnysLighthouse, ^$OnLevel|30",
               "^$CanReachRegion|LeviathansLair, ^$OnLevel|30",
               "^$CanReachRegion|WamBamIsland, ^$OnLevel|15",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/Torgue Tokens Accessible",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/TorgueTokensAccessible",
               "^$CanReachRegion|HuntersGrotto, ^$OnLevel|30"
             ],
             "visibility_rules": [],
@@ -780,7 +780,7 @@
               "^$CanReachRegion|WildlifeExploitationPreserve, ^$OnLevel|20",
               "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/Torgue Tokens Accessible",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/TorgueTokensAccessible",
               "^$CanReachRegion|MinesOfAvarice, ^$OnLevel|30",
               "^$CanReachRegion|Backburner, ^$CanReachRegion|FFSBossFight, ^$OnLevel|30, quest_reward_items_none"
             ],
@@ -794,8 +794,8 @@
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|CandlerakksCrag, ^$CanReachRegion|Terminus, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|WingedStorm, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Available",
-              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/Seraph Crystals Available"
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -900,8 +900,8 @@
             "access_rules": [
               "^$Licenses|any|license-seraphsmg, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -1007,8 +1007,8 @@
               "^$Licenses|any|license-seraphsniperrifle, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
               "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|CandlerakksCrag, ^$CanReachRegion|Terminus, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -1100,7 +1100,7 @@
               "^$CanReachRegion|SouthernShelfBay, ^$OnLevel|5",
               "^$CanReachRegion|Dust, ^$CanReachRegion|Highlands, ^$OnLevel|13",
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/Torgue Tokens Accessible",
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/TorgueTokensAccessible",
               "^$CanReachRegion|DragonKeep, ^$OnLevel|30",
               "^$CanReachRegion|DahlAbandon, ^$OnLevel|30"
             ],
@@ -1113,9 +1113,9 @@
               "^$Licenses|any|license-seraphassaultrifle, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
               "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|CandlerakksCrag, ^$CanReachRegion|Terminus, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/Seraph Crystals Accessible",
-              "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|HuntersGrotto, @GlobalChecks/Placeholders/SeraphCrystalsAccessible",
+              "^$CanReachRegion|FlamerockRefuge, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -1209,7 +1209,7 @@
               "^$CanReachRegion|FrostburnCanyon, ^$CanReachRegion|Sanctuary, ^$OnLevel|13",
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
               "^$CanReachRegion|HallowedHollow, ^$OnLevel|15",
-              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/Torgue Tokens Accessible"
+              "^$CanReachRegion|BadassCrater, ^$OnLevel|15, @TorgueDLC/Placeholders/TorgueTokensAccessible"
             ],
             "visibility_rules": [],
             "item_count": 1
@@ -1219,7 +1219,7 @@
             "access_rules": [
               "^$Licenses|any|license-seraphrocketlauncher, ^$SettingStage|gear_licenses|greater|2, receive_gear_enabled",
               "^$CanReachRegion|HaytersFolly, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
-              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/Seraph Crystals Accessible"
+              "^$CanReachRegion|Oasis, @GlobalChecks/Placeholders/SeraphCrystalsAccessible"
             ],
             "visibility_rules": [
               "$SettingStage|gear_rarity_checks|greater|2"
@@ -3220,7 +3220,7 @@
         "visibility_rules": [],
         "sections": [
           {
-            "name": "Seraph Crystals Accessible",
+            "name": "SeraphCrystalsAccessible",
             "access_rules": [
               "^$CanReachRegion|Sanctuary",
               "^$CanReachRegion|WashburneRefinery, ^$CanReachRegion|LeviathansLair, ^$OnLevel|30, remove_raid_boss_checks_keep",
