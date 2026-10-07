@@ -1,18 +1,18 @@
 local next, ipairs = next, ipairs
 
-local staleRegions = true
-local staleLevels = true
-local staleProgressive = true
+local staleRegions = true --Do regions need to be checked
+local staleLevels = true --Do reachable levels need to be checked
+local staleProgressive = true --Do progressive travels need to be checked
 local currentJumpHeight = 630
-local staleJump = true
-local maxLevel = 0
-local staleLevelLimit = true
+local staleJump = true --Does jump height need to be recalculated
+local highestLevel = 0 --Highest reachable level
+local maxLevel = 0 --Max level checks available
+local staleLevelLimit = true --Does max level need to be set
 
 local accessibleRegions =
 {
   Menu = AccessibilityLevel.Normal,
-  WindshearWaste = AccessibilityLevel.Normal,
-  Level0 = AccessibilityLevel.Normal
+  WindshearWaste = AccessibilityLevel.Normal
 }
 
 function InvalidateAccessibleRegions()
@@ -21,18 +21,21 @@ function InvalidateAccessibleRegions()
   staleProgressive = true
   staleJump = true
   staleLevelLimit = true
+  highestLevel = 0
   ResetProgressiveOrders()
   accessibleRegions =
   {
     Menu = AccessibilityLevel.Normal,
-    WindshearWaste = AccessibilityLevel.Normal,
-    Level0 = AccessibilityLevel.Normal
+    WindshearWaste = AccessibilityLevel.Normal
   }
 end
 
 function CanReachRegion(regionToCheck)
   if staleRegions then
     OpenRegions()
+  end
+  if not(Tracker:FindObjectForCode("enable_region_"..regionToCheck).Active) then
+    return AccessibilityLevel.None
   end
   return accessibleRegions[regionToCheck] or AccessibilityLevel.None
 end
@@ -64,7 +67,7 @@ function OpenRegions()
     for _, connectedRegion in ipairs(Regions[regionToCheck].connecting_regions) do
       if accessibleRegions[connectedRegion] then
         table.insert(queue, connectedRegion)
-      elseif not(Tracker:FindObjectForCode("enable_region_" .. connectedRegion).Active) then
+      elseif not(Tracker:FindObjectForCode("enable_region_"..connectedRegion).Active) then
         table.insert(queue, connectedRegion)
       else
         if not(HasTravelItem(connectedRegion)) then
@@ -99,7 +102,7 @@ function ModifyProgressiveTables()
   for _, dlc in pairs(DLCProgOrderList) do
     if (Tracker:FindObjectForCode("progressive_travel_" .. dlc).CurrentStage) == 1 then
       for _, regionToAdd in ipairs(ProgressiveOrdersDefinition[dlc]) do
-        if (Tracker:FindObjectForCode("enable_region_" .. regionToAdd).Active) then
+        if (Tracker:FindObjectForCode("enable_region_"..regionToAdd).Active) then
           table.insert(ProgressiveOrdersWorking[dlc], regionToAdd)
         end
       end
@@ -120,18 +123,36 @@ function HasTravelItem(regionToCheck)
 end
 
 function MiscCasesEntrances(regionToCheck)
-  if(regionToCheck == "FFSIntroSanctuary") then
+  if(regionToCheck == "SouthernShelf") then
+    return BasicCombat()
+  elseif(regionToCheck == "FFSIntroSanctuary") then
     return (Tracker:FindObjectForCode("travel:thebackburner").Active or (Tracker:FindObjectForCode("progressivetravel:ffs").AcquiredCount >= 2))
+  elseif(regionToCheck == "MtScarabResearchCenter") then
+    return Tracker:FindObjectForCode("melee").Active
   elseif(regionToCheck == "CandlerakksCrag") then
-    return Tracker:FindObjectForCode("license:commonpistol").Active and JumpHeight(629)
+    if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
+      return Tracker:FindObjectForCode("license-commonpistol").Active
+    else
+      return true
+    end
   elseif(regionToCheck == "Terminus") then
     return Tracker:FindObjectForCode("crouch").Active
-  elseif(regionToCheck == "FFSBossFight") then
-    return Tracker:FindObjectForCode("melee").Active
   elseif(regionToCheck == "LairOfInfiniteAgony") then
     return Tracker:FindObjectForCode("crouch").Active
   elseif(regionToCheck == "TorgueArena") then
-      return JumpHeight(490)
+    return JumpHeight(490)
+  elseif(regionToCheck == "VaultOfTheWarrior") then
+    return JumpHeight(575)
+  elseif(regionToCheck == "FFSBossFight") then
+    return JumpHeight(588)
+  elseif(regionToCheck == "WingedStorm") then
+    return JumpHeight(425)
+  elseif(regionToCheck == "MagnysLighthouse") then
+    return JumpHeight(310)
+  elseif(regionToCheck == "SouthernRaceway") then
+    return JumpHeight(450)
+  elseif(regionToCheck == "BadassCraterBar") then
+    return JumpHeight(395)
   else
     return true
   end
@@ -166,32 +187,34 @@ function CanMakeJump(height)
   end
 end
 
-function OnLevel(level)
+function OnLevel(level, aolKeep)
+  aolKeep = aolKeep or "Dont Keep"
+  local levelToCheck = tonumber(level)
+  if levelToCheck == 0 then
+    return AccessibilityLevel.Normal
+  end
   if staleRegions then
     OpenRegions()
   end
   if staleLevels then
-    OpenLevels()
+    highestLevel = OpenLevels()
+    staleLevels = false
   end
-  local levelToCheck = tonumber(level)
+  if aolKeep == "aolKeep" then
+    goto skipAOL
+  end
+  if ((Tracker:FindObjectForCode("always_on_level").CurrentStage == 1) or (Tracker:FindObjectForCode("always_on_level").CurrentStage == 2)) then
+    if not(BasicCombat()) then
+      return AccessibilityLevel.SequenceBreak
+    else
+      return AccessibilityLevel.Normal
+    end
+  end
+  ::skipAOL::
   if not(LevelLimit(levelToCheck)) then
     return AccessibilityLevel.None
   end
-  if levelToCheck == 0 then
-    return AccessibilityLevel.Normal
-  elseif ((1 <= levelToCheck and levelToCheck <= 5) and (accessibleRegions["Level1to5"])) then
-    return AccessibilityLevel.Normal
-  elseif ((6 <= levelToCheck and levelToCheck <= 10) and (accessibleRegions["Level6to10"])) then
-    return AccessibilityLevel.Normal
-  elseif ((11 <= levelToCheck and levelToCheck <= 15) and (accessibleRegions["Level11to15"])) then
-    return AccessibilityLevel.Normal
-  elseif ((16 <= levelToCheck and levelToCheck <= 20) and (accessibleRegions["Level16to20"])) then
-    return AccessibilityLevel.Normal
-  elseif ((21 <= levelToCheck and levelToCheck <= 25) and (accessibleRegions["Level21to25"])) then
-    return AccessibilityLevel.Normal
-  elseif ((26 <= levelToCheck and levelToCheck <= 30) and (accessibleRegions["Level26to30"])) then
-    return AccessibilityLevel.Normal
-  elseif ((levelToCheck > 30) and (accessibleRegions["Level31+"])) then
+  if (levelToCheck <= highestLevel) then
     return AccessibilityLevel.Normal
   else
     return AccessibilityLevel.SequenceBreak
@@ -199,95 +222,47 @@ function OnLevel(level)
 end
 
 function OpenLevels()
-  staleLevels = false
-  local goToNextLevel = true
-
-  if not(Level1to5Gear()) then
-    goToNextLevel = false
+  local reachableLevel = 0
+  local recheckRegions = true
+  if Tracker:FindObjectForCode("overridelevel15").Active then
+    reachableLevel = 16
   end
-  if goToNextLevel then
-    accessibleRegions["Level1to5"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
+  if Tracker:FindObjectForCode("overridelevel30").Active then
+    reachableLevel = 31
+    goto skipLoop
   end
-
-  for _, regionCheck in ipairs(Regions["Level6to10"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
+  while recheckRegions do
+    recheckRegions = false
+    for region, accessibility in pairs(accessibleRegions) do
+      if accessibility == AccessibilityLevel.None then
+        goto continue
+      end
+      if Regions[region].minLevel > reachableLevel then
+        goto continue
+      end
+      if Regions[region].maxLevel <= reachableLevel then
+        goto continue
+      end
+      if (Regions[region].maxLevel > 0) and (reachableLevel <= 0) then
+        if not(BasicCombat()) then
+          reachableLevel = 0
+          goto skipLoop
+        end
+      end
+      if (Regions[region].maxLevel > 10) and (reachableLevel <= 10) then
+        if not(OverLevel10()) then
+          reachableLevel = 10
+          goto skipLoop
+        end
+      end
+      reachableLevel = Regions[region].maxLevel
+      recheckRegions = true
+      ::continue::
     end
   end
-  if not(Level6to10Gear()) then
-    goToNextLevel = false
-  end
-  if goToNextLevel then
-    accessibleRegions["Level6to10"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level11to15"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level11to15"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level16to20"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level16to20"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level21to25"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level21to25"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level26to30"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level26to30"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  for _, regionCheck in ipairs(Regions["Level31+"].any_entrance) do
-    if accessibleRegions[regionCheck] then
-      goToNextLevel = true
-    end
-  end
-  if goToNextLevel then
-    accessibleRegions["Level31+"] = AccessibilityLevel.Normal
-    goToNextLevel = false
-  else
-    goto skip
-  end
-
-  ::skip::
+  ::skipLoop::
+  print ("Reachable Level:" .. reachableLevel)
+  return reachableLevel
 end
 
 function LevelLimit(level)
@@ -303,18 +278,136 @@ function LevelLimit(level)
   end
 end
 
-function Level1to5Gear()
+function BasicCombat()
   if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
-    return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license:commonpistol").Active)
+    return (Tracker:FindObjectForCode("melee").Active) or (Tracker:FindObjectForCode("license-commonpistol").Active)
   else
     return true
   end
 end
 
-function Level6to10Gear()
+function OverLevel10()
   if (Tracker:FindObjectForCode("gear_licenses").CurrentStage > 0) then
-    return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license:commonpistol").Active)
+    return (Tracker:FindObjectForCode("melee").Active) and (Tracker:FindObjectForCode("license-commonpistol").Active)
   else
     return true
+  end
+end
+
+function NotOverridden(level)
+  level = level or ""
+  if level == "15" then
+    return not(Tracker:FindObjectForCode("overridelevel15").Active or Tracker:FindObjectForCode("overridelevel30").Active or Tracker:FindObjectForCode("overridelevel80").Active)
+  elseif level == "30" then
+    return not(Tracker:FindObjectForCode("overridelevel30").Active or Tracker:FindObjectForCode("overridelevel80").Active)
+  elseif level == "80" then
+    return not Tracker:FindObjectForCode("overridelevel80").Active
+  end
+  return true
+end
+
+function Licenses(...)
+  if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 0 then
+    return AccessibilityLevel.Normal
+  end
+  local licencesToCheck = {...}
+  local anyOrAll = table.remove(licencesToCheck, 1)
+  for i = #licencesToCheck, 1, -1 do
+    if licencesToCheck[i]:sub(1, 15) == "license-rainbow" then
+      if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1 or 2 or 3 then
+        table.remove(licencesToCheck, i)
+      end
+    elseif licencesToCheck[i]:sub(1, 19) == "license-pearlescent" then
+      if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1 or 2 then
+        table.remove(licencesToCheck, i)
+      end
+    elseif licencesToCheck[i]:sub(1, 14) == "license-seraph" then
+      if Tracker:FindObjectForCode("gear_licenses").CurrentStage == 1 then
+        table.remove(licencesToCheck, i)
+      end
+    end
+  end
+  if licencesToCheck[1] == nil then
+    return AccessibilityLevel.Normal
+  end
+  if anyOrAll == "any" then
+    return ANY(table.unpack(licencesToCheck))
+  elseif anyOrAll == "all" then
+    return ALL(table.unpack(licencesToCheck))
+  else
+    return AccessibilityLevel.None
+  end
+end
+
+function SettingStage(code, greaterOrLess, stageAmount)
+  code = code or ""
+  greaterOrLess = greaterOrLess or "greater"
+  stageAmount = tonumber(stageAmount) or 0
+  if greaterOrLess == "greater" then
+    if Tracker:FindObjectForCode(code).CurrentStage >= stageAmount then
+      return true
+    end
+  elseif greaterOrLess == "less" then
+    if Tracker:FindObjectForCode(code).CurrentStage <= stageAmount then
+      return true
+    end
+  end
+  return false
+end
+
+function CheckToToggleEnableRegions(ItemCode)
+  local dlcRegions = {
+    "remove_ffs_checks",
+    "remove_tina_checks",
+    "remove_torgue_checks",
+    "remove_scarlett_checks",
+    "remove_hammerlock_checks",
+    "remove_digi_peak_checks",
+    "remove_headhunter_checks",
+    "remove_base_game_checks"
+  }
+  local dlcsToRemove = {}
+  local changedDLCToggle = false
+  for _, code in ipairs(dlcRegions) do
+    if ItemCode == code then
+      if ItemCode == "remove_digi_peak_checks" then
+        if Tracker:FindObjectForCode("remove_digi_peak_checks").Active then
+          Tracker:FindObjectForCode("enable_region_digistructpeak").Active = false
+          Tracker:FindObjectForCode("enable_region_digistructpeakinner").Active = false
+        else
+          Tracker:FindObjectForCode("enable_region_digistructpeak").Active = true
+          Tracker:FindObjectForCode("enable_region_digistructpeakinner").Active = true
+        end
+        return
+      elseif ItemCode == "remove_base_game_checks" then
+        dlcsToRemove = {
+          "basegame",
+          "basegame_side"
+        }
+        changedDLCToggle = true
+      else
+        local trimmedCode = code:sub(8)
+        trimmedCode = trimmedCode:sub(1, -7)
+        dlcsToRemove = {
+          trimmedCode
+        }
+        changedDLCToggle = true
+      end
+    end
+  end
+  if changedDLCToggle then
+    for _, region in ipairs(Regions) do
+      for _, dlc in ipairs(dlcsToRemove) do
+        if (Regions[region].dlc_group == dlc) then
+          if Tracker:FindObjectForCode(ItemCode).Active then
+            Tracker:FindObjectForCode("enable_region_"..region).Active = false
+          else
+            Tracker:FindObjectForCode("enable_region_"..region).Active = true
+          end
+        end
+      end
+    end
+  else
+    return
   end
 end
