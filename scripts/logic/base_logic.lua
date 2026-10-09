@@ -165,7 +165,11 @@ function JumpHeight(height)
   elseif(height < 220) then  -- Height with no jump items
     return true
   elseif(height > 630) then  -- Normal jump height, should never be needed
-    return false
+    if Tracker:ProviderCountForCode("progressivejump") >= Tracker:FindObjectForCode("jump_checks").CurrentStage then
+      return true
+    else
+      return false
+    end
   end
   if staleJump then
     local heightBonus = Tracker:FindObjectForCode("max_jump_height").CurrentStage * 300
