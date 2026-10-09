@@ -421,7 +421,7 @@
           {
             "name": "Uncommon GrenadeMod Found",
             "access_rules": [
-              "^$Licenses|any|license-grenademod, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$Licenses|any|license-uncommongrenademod, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
               "^$OnLevel|7|aolKeep"
             ],
             "visibility_rules": [],
@@ -756,7 +756,7 @@
           {
             "name": "VeryRare Shotgun Found",
             "access_rules": [
-              "^$Licenses|any|license-veryrare, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$Licenses|any|license-veryrareshotgun, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
               "^$OnLevel|10|aolKeep"
             ],
             "visibility_rules": [],
@@ -1147,7 +1147,7 @@
           {
             "name": "Unique AssaultRifle Found",
             "access_rules": [
-              "^$Licenses|any|license-common, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$Licenses|any|license-uniqueassaultrifle, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
               "^$CanReachRegion|CandlerakksCrag, ^$OnLevel|30",
               "^$CanReachRegion|FinksSlaughterhouse, ^$OnLevel|18, quest_reward_items_none",
               "^$CanReachRegion|Sanctuary, ^$CanReachRegion|ControlCoreAngel, ^$OnLevel|24, quest_reward_items_none",
@@ -1251,7 +1251,7 @@
           {
             "name": "Unique RocketLauncher Found",
             "access_rules": [
-              "^$Licenses|any|license-common, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
+              "^$Licenses|any|license-uniquerocketlauncher, ^$SettingStage|gear_licenses|greater|1, receive_gear_enabled",
               "^$CanReachRegion|Fridge, ^$CanReachRegion|Highlands, ^$CanMakeJump|560, ^$OnLevel|17, quest_reward_items_none",
               "^$CanReachRegion|AridNexusBadlands, ^$OnLevel|26",
               "^$CanReachRegion|HaytersFolly, ^$OnLevel|15"
