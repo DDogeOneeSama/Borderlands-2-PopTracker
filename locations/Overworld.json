@@ -2083,10 +2083,6 @@
             "ref": "BaseGame/Dust/Too Close For Missiles"
           },
           {
-            "name": "Clan War - First Place",
-            "ref": "BaseGame/Dust/Clan War - First Place"
-          },
-          {
             "name": "Clan War - Reach the Dead Drop",
             "ref": "BaseGame/HolySpirits/Clan War - Reach the Dead Drop"
           },
@@ -2826,6 +2822,10 @@
       {
         "name": "The Holy Spirits",
         "sections": [
+          {
+            "name": "Clan War - First Place",
+            "ref": "BaseGame/Dust/Clan War - First Place"
+          },
           {
             "name": "Clan War - End of the Rainbow",
             "ref": "BaseGame/HolySpirits/Clan War - End of the Rainbow"
@@ -4657,6 +4657,10 @@
             "ref": "ScarlettDLC/WashburneRefinery/Dont Copy That Floppy"
           },
           {
+            "name": "Freedom of Speech",
+            "ref": "ScarlettDLC/WashburneRefinery/Freedom of Speech"
+          },
+          {
             "name": "Enemy - P3RV-E",
             "ref": "ScarlettDLC/WashburneRefinery/Enemy - P3RV-E"
           },
@@ -4737,10 +4741,6 @@
           {
             "name": "Message In A Bottle 5 (MagnysLighthouse)",
             "ref": "ScarlettDLC/MagnysLighthouse/Message In A Bottle 5 (MagnysLighthouse)"
-          },
-          {
-            "name": "Freedom of Speech",
-            "ref": "ScarlettDLC/WashburneRefinery/Freedom of Speech"
           },
           {
             "name": "X Marks The Spot",
