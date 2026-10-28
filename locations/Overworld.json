@@ -5013,6 +5013,10 @@
             "ref": "TorgueDLC/SouthernRaceway/Get Your Motor Running"
           },
           {
+            "name": "Gas Guzzlers",
+            "ref": "TorgueDLC/SouthernRaceway/Gas Guzzlers"
+          },
+          {
             "name": "Chest - Beatdown Billboard",
             "ref": "TorgueDLC/BadassCrater/Chest - Beatdown Billboard"
           },
@@ -5299,10 +5303,6 @@
             "ref": "TorgueDLC/PyroPetesBar/A Montage"
           },
           {
-            "name": "Pete the Invincible",
-            "ref": "TorgueDLC/PyroPetesBar/Pete the Invincible"
-          },
-          {
             "name": "Enemy - Pyro Pete",
             "ref": "TorgueDLC/PyroPetesBar/Enemy - Pyro Pete"
           },
@@ -5353,6 +5353,14 @@
         "name": "Badass Crater Bar",
         "sections": [
           {
+            "name": "Breaking and Entering",
+            "ref": "TorgueDLC/Forge/Breaking and Entering"
+          },
+          {
+            "name": "Long Way To The Top",
+            "ref": "TorgueDLC/TorgueArena/Long Way To The Top"
+          },
+          {
             "name": "Everybody Wants to be Wanted",
             "ref": "TorgueDLC/SouthernRaceway/Everybody Wants to be Wanted"
           },
@@ -5361,16 +5369,8 @@
             "ref": "TorgueDLC/SouthernRaceway/Interview with a Vault Hunter"
           },
           {
-            "name": "Gas Guzzlers",
-            "ref": "TorgueDLC/SouthernRaceway/Gas Guzzlers"
-          },
-          {
-            "name": "Breaking and Entering",
-            "ref": "TorgueDLC/Forge/Breaking and Entering"
-          },
-          {
-            "name": "Long Way To The Top",
-            "ref": "TorgueDLC/TorgueArena/Long Way To The Top"
+            "name": "Pete the Invincible",
+            "ref": "TorgueDLC/PyroPetesBar/Pete the Invincible"
           },
           {
             "name": "Torgue Vendor - Badass Crater Bar",
@@ -5449,6 +5449,42 @@
         "name": "The Forge",
         "sections": [
           {
+            "name": "Knockin on Heavens Door",
+            "ref": "TorgueDLC/Forge/Knockin on Heavens Door"
+          },
+          {
+            "name": "Kickstart My Heart",
+            "ref": "TorgueDLC/Forge/Kickstart My Heart"
+          },
+          {
+            "name": "Battle - Twelve O Clock High",
+            "ref": "TorgueDLC/Forge/Battle - Twelve O Clock High"
+          },
+          {
+            "name": "Tier 2 Battle - Twelve O Clock High",
+            "ref": "TorgueDLC/Forge/Tier 2 Battle - Twelve O Clock High"
+          },
+          {
+            "name": "Tier 3 Battle - Twelve O Clock High",
+            "ref": "TorgueDLC/Forge/Tier 3 Battle - Twelve O Clock High"
+          },
+          {
+            "name": "Tier 3 Rematch - Twelve O Clock High",
+            "ref": "TorgueDLC/Forge/Tier 3 Rematch - Twelve O Clock High"
+          },
+          {
+            "name": "Commercial Appeal",
+            "ref": "TorgueDLC/Forge/Commercial Appeal"
+          },
+          {
+            "name": "My Husband the Skag",
+            "ref": "TorgueDLC/Forge/My Husband the Skag"
+          },
+          {
+            "name": "Say That To My Face",
+            "ref": "TorgueDLC/Forge/Say That To My Face"
+          },
+          {
             "name": "Enemy - Anonymous Troll",
             "ref": "TorgueDLC/Forge/Enemy - Anonymous Troll"
           },
@@ -5459,6 +5495,34 @@
           {
             "name": "Enemy - Pistons Blimp",
             "ref": "TorgueDLC/Forge/Enemy - Pistons Blimp"
+          },
+          {
+            "name": "Challenge - Air Mail",
+            "ref": "TorgueDLC/Forge/Challenge - Air Mail"
+          },
+          {
+            "name": "Challenge - Cult of the Vault",
+            "ref": "TorgueDLC/Forge/Challenge - Cult of the Vault"
+          },
+          {
+            "name": "Challenge - I DID Start the Fire",
+            "ref": "TorgueDLC/Forge/Challenge - I DID Start the Fire"
+          },
+          {
+            "name": "Challenge - Parachutes Are for Pansies",
+            "ref": "TorgueDLC/Forge/Challenge - Parachutes Are for Pansies"
+          },
+          {
+            "name": "Chest - Landing Pad Maintenance",
+            "ref": "TorgueDLC/Forge/Chest - Landing Pad Maintenance"
+          },
+          {
+            "name": "Chest - Forge Parkour",
+            "ref": "TorgueDLC/Forge/Chest - Forge Parkour"
+          },
+          {
+            "name": "Chest - Junkyard",
+            "ref": "TorgueDLC/Forge/Chest - Junkyard"
           },
           {
             "name": "Symbol - Smack Talker",
@@ -5491,70 +5555,6 @@
           {
             "name": "Med Vendor - Forge Bounty Board",
             "ref": "TorgueDLC/Forge/Med Vendor - Forge Bounty Board"
-          },
-          {
-            "name": "Challenge - Air Mail",
-            "ref": "TorgueDLC/Forge/Challenge - Air Mail"
-          },
-          {
-            "name": "Challenge - Cult of the Vault",
-            "ref": "TorgueDLC/Forge/Challenge - Cult of the Vault"
-          },
-          {
-            "name": "Challenge - I DID Start the Fire",
-            "ref": "TorgueDLC/Forge/Challenge - I DID Start the Fire"
-          },
-          {
-            "name": "Challenge - Parachutes Are for Pansies",
-            "ref": "TorgueDLC/Forge/Challenge - Parachutes Are for Pansies"
-          },
-          {
-            "name": "Chest - Landing Pad Maintenance",
-            "ref": "TorgueDLC/Forge/Chest - Landing Pad Maintenance"
-          },
-          {
-            "name": "Chest - Forge Parkour",
-            "ref": "TorgueDLC/Forge/Chest - Forge Parkour"
-          },
-          {
-            "name": "Chest - Junkyard",
-            "ref": "TorgueDLC/Forge/Chest - Junkyard"
-          },
-          {
-            "name": "Tier 2 Battle - Twelve O Clock High",
-            "ref": "TorgueDLC/Forge/Tier 2 Battle - Twelve O Clock High"
-          },
-          {
-            "name": "Tier 3 Battle - Twelve O Clock High",
-            "ref": "TorgueDLC/Forge/Tier 3 Battle - Twelve O Clock High"
-          },
-          {
-            "name": "Battle - Twelve O Clock High",
-            "ref": "TorgueDLC/Forge/Battle - Twelve O Clock High"
-          },
-          {
-            "name": "Tier 3 Rematch - Twelve O Clock High",
-            "ref": "TorgueDLC/Forge/Tier 3 Rematch - Twelve O Clock High"
-          },
-          {
-            "name": "Commercial Appeal",
-            "ref": "TorgueDLC/Forge/Commercial Appeal"
-          },
-          {
-            "name": "My Husband the Skag",
-            "ref": "TorgueDLC/Forge/My Husband the Skag"
-          },
-          {
-            "name": "Say That To My Face",
-            "ref": "TorgueDLC/Forge/Say That To My Face"
-          },
-          {
-            "name": "Knockin on Heavens Door",
-            "ref": "TorgueDLC/Forge/Knockin on Heavens Door"
-          },
-          {
-            "name": "Kickstart My Heart",
-            "ref": "TorgueDLC/Forge/Kickstart My Heart"
           }
         ],
         "map_locations": [
@@ -7363,7 +7363,7 @@
             "ref": "LilithDLC/DahlAbandon/Chest - Mine, Dahl Mine Chest #2"
           },
           {
-            "name": "Chest - North Eastern Camp Trunk",
+            "name": "Chest - The Rust Bucket Trunk",
             "ref": "LilithDLC/DahlAbandon/Chest - The Rust Bucket Trunk"
           },
           {
