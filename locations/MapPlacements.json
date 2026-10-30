@@ -125,7 +125,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Levels",
+                        "map": "GlobalChecks",
                         "x": 450,
                         "y": 520,
                         "size": 20,
@@ -343,7 +343,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GenericDrops",
+                        "map": "GlobalChecks",
                         "x": 495,
                         "y": 520,
                         "size": 20,
@@ -352,7 +352,7 @@
                 ]
             },
             {
-                "name": "Gear Specific Challenges",
+                "name": "Shield Challenges",
                 "sections": [
                     {
                         "name": "Shields - Ammo Eater",
@@ -373,7 +373,21 @@
                     {
                         "name": "Shields - Game of Thorns",
                         "ref": "GlobalChecks/Shields/Challenge - Game of Thorns"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Grendade Challenges",
+                "sections": [
                     {
                         "name": "Grenade - Pull the Pin",
                         "ref": "GlobalChecks/Grenade/Challenge - Pull the Pin"
@@ -397,7 +411,21 @@
                     {
                         "name": "Grenade - Health Vampire",
                         "ref": "GlobalChecks/Grenade/Challenge - Health Vampire"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Pistol Challenges",
+                "sections": [
                     {
                         "name": "Pistol - Pistolero",
                         "ref": "GlobalChecks/Pistol/Challenge - Pistolero"
@@ -417,7 +445,21 @@
                     {
                         "name": "Pistol - Hard Boiled",
                         "ref": "GlobalChecks/Pistol/Challenge - Hard Boiled"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Shotgun Challenges",
+                "sections": [
                     {
                         "name": "Shotgun - Shotgun Surgeon",
                         "ref": "GlobalChecks/Shotgun/Challenge - Shotgun Surgeon"
@@ -441,7 +483,21 @@
                     {
                         "name": "Shotgun - Lock, Stock, and",
                         "ref": "GlobalChecks/Shotgun/Challenge - Lock, Stock, and"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "SMG Challenges",
+                "sections": [
                     {
                         "name": "SMG - High Rate of Ire",
                         "ref": "GlobalChecks/SMG/Challenge - High Rate of Ire"
@@ -457,7 +513,21 @@
                     {
                         "name": "SMG - More Like Submachine FUN",
                         "ref": "GlobalChecks/SMG/Challenge - More Like Submachine FUN"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Sniper Rifle Challenges",
+                "sections": [
                     {
                         "name": "Sniper - Longshot",
                         "ref": "GlobalChecks/Sniper/Challenge - Longshot"
@@ -485,7 +555,21 @@
                     {
                         "name": "Sniper - Leaf on the Second Wind",
                         "ref": "GlobalChecks/Sniper/Challenge - Leaf on the Second Wind"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Assault Rifle Challenges",
+                "sections": [
                     {
                         "name": "Assault Rifle - This Is My Gun",
                         "ref": "GlobalChecks/AssaultRifle/Challenge - This Is My Gun"
@@ -505,7 +589,21 @@
                     {
                         "name": "Assault Rifle - From My Cold, Dead Hands",
                         "ref": "GlobalChecks/AssaultRifle/Challenge - From My Cold, Dead Hands"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Launcher Challenges",
+                "sections": [
                     {
                         "name": "Launcher - Rocket and Roll",
                         "ref": "GlobalChecks/Launcher/Challenge - Rocket and Roll"
@@ -529,7 +627,21 @@
                     {
                         "name": "Launcher - Gone with the Second Wind",
                         "ref": "GlobalChecks/Launcher/Challenge - Gone with the Second Wind"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 480,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Elemental Challenges",
+                "sections": [
                     {
                         "name": "Elemental - Slag-Licked",
                         "ref": "GlobalChecks/Elemental/Challenge - Slag-Licked"
@@ -561,7 +673,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GearSpecificChallenges",
+                        "map": "GlobalChecks",
                         "x": 480,
                         "y": 520,
                         "size": 20,
@@ -603,7 +715,21 @@
                     {
                         "name": "Combat - Boomerbang",
                         "ref": "GlobalChecks/Combat/Challenge - Boomerbang"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 525,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Melee Challenges",
+                "sections": [
                     {
                         "name": "Melee - Fisticuffs!",
                         "ref": "GlobalChecks/Melee/Challenge - Fisticuffs!"
@@ -615,7 +741,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "MiscCombatChallenges",
+                        "map": "GlobalChecks",
                         "x": 525,
                         "y": 520,
                         "size": 20,
@@ -717,7 +843,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "EnemySpecificChallenges",
+                        "map": "GlobalChecks",
                         "x": 510,
                         "y": 520,
                         "size": 20,
@@ -726,7 +852,7 @@
                 ]
             },
             {
-                "name": "Misc Challenges",
+                "name": "Money Challenges",
                 "sections": [
                     {
                         "name": "Money - Whaddaya Buyin",
@@ -751,7 +877,21 @@
                     {
                         "name": "Money - Psst, Hey Buddy",
                         "ref": "GlobalChecks/Money/Challenge - Psst, Hey Buddy"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 540,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Loot Challenges",
+                "sections": [
                     {
                         "name": "Loot - The Call of Booty",
                         "ref": "GlobalChecks/Loot/Challenge - The Call of Booty"
@@ -783,7 +923,21 @@
                     {
                         "name": "Loot - Another Mans Treasure",
                         "ref": "GlobalChecks/Loot/Challenge - Another Mans Treasure"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 540,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Misc Challenges",
+                "sections": [
                     {
                         "name": "Misc - Yo Dawg, I Heard You Like Challenges",
                         "ref": "GlobalChecks/Misc/Challenge - Yo Dawg, I Heard You Like Challenges"
@@ -803,7 +957,21 @@
                     {
                         "name": "Misc - Haters Gonna Hate",
                         "ref": "GlobalChecks/Misc/Challenge - Haters Gonna Hate"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 540,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Recovery Challenges",
+                "sections": [
                     {
                         "name": "Recovery - This Is No Time for Lazy!",
                         "ref": "GlobalChecks/Recovery/Challenge - This Is No Time for Lazy!"
@@ -831,7 +999,21 @@
                     {
                         "name": "Recovery - Im Back! Shocked",
                         "ref": "GlobalChecks/Recovery/Challenge - Im Back! Shocked"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 540,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Vehicle Challenges",
+                "sections": [
                     {
                         "name": "Vehicles - Blue Sparks",
                         "ref": "GlobalChecks/Vehicles/Challenge - Blue Sparks"
@@ -855,7 +1037,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "MiscChallenges",
+                        "map": "GlobalChecks",
                         "x": 540,
                         "y": 520,
                         "size": 20,
@@ -864,7 +1046,7 @@
                 ]
             },
             {
-                "name": "Gear Pickups",
+                "name": "Shield Pickups",
                 "sections": [
                     {
                         "name": "Common Shield Found",
@@ -897,7 +1079,21 @@
                     {
                         "name": "Unique Shield Found",
                         "ref": "GlobalChecks/GearPickup/Unique Shield Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Grenade Mod Pickups",
+                "sections": [
                     {
                         "name": "Common Grenade Mod Found",
                         "ref": "GlobalChecks/GearPickup/Common GrenadeMod Found"
@@ -929,7 +1125,21 @@
                     {
                         "name": "Unique Grenade Mod Found",
                         "ref": "GlobalChecks/GearPickup/Unique GrenadeMod Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Class Mod Pickups",
+                "sections": [
                     {
                         "name": "Common Class Mod Found",
                         "ref": "GlobalChecks/GearPickup/Common ClassMod Found"
@@ -949,7 +1159,21 @@
                     {
                         "name": "Legendary Class Mod Found",
                         "ref": "GlobalChecks/GearPickup/Legendary ClassMod Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Pickups",
+                "sections": [
                     {
                         "name": "Common Relic Found",
                         "ref": "GlobalChecks/GearPickup/Common Relic Found"
@@ -981,7 +1205,21 @@
                     {
                         "name": "Unique Relic Found",
                         "ref": "GlobalChecks/GearPickup/Unique Relic Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Pistol Pickups",
+                "sections": [
                     {
                         "name": "Common Pistol Found",
                         "ref": "GlobalChecks/GearPickup/Common Pistol Found"
@@ -1017,7 +1255,21 @@
                     {
                         "name": "Unique Pistol Found",
                         "ref": "GlobalChecks/GearPickup/Unique Pistol Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Shotgun Pickups",
+                "sections": [
                     {
                         "name": "Common Shotgun Found",
                         "ref": "GlobalChecks/GearPickup/Common Shotgun Found"
@@ -1057,7 +1309,21 @@
                     {
                         "name": "Unique Shotgun Found",
                         "ref": "GlobalChecks/GearPickup/Unique Shotgun Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "SMG Pickups",
+                "sections": [
                     {
                         "name": "Common SMG Found",
                         "ref": "GlobalChecks/GearPickup/Common SMG Found"
@@ -1097,7 +1363,21 @@
                     {
                         "name": "Unique SMG Found",
                         "ref": "GlobalChecks/GearPickup/Unique SMG Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Sniper Rifle Pickups",
+                "sections": [
                     {
                         "name": "Common Sniper Rifle Found",
                         "ref": "GlobalChecks/GearPickup/Common SniperRifle Found"
@@ -1137,7 +1417,21 @@
                     {
                         "name": "Unique Sniper Rifle Found",
                         "ref": "GlobalChecks/GearPickup/Unique SniperRifle Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Assault Rifle Pickups",
+                "sections": [
                     {
                         "name": "Common Assault Rifle Found",
                         "ref": "GlobalChecks/GearPickup/Common AssaultRifle Found"
@@ -1177,7 +1471,21 @@
                     {
                         "name": "Unique Assault Rifle Found",
                         "ref": "GlobalChecks/GearPickup/Unique AssaultRifle Found"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GlobalChecks",
+                        "x": 465,
+                        "y": 520,
+                        "size": 20,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Rocket Launcher Pickups",
+                "sections": [
                     {
                         "name": "Common Rocket Launcher Found",
                         "ref": "GlobalChecks/GearPickup/Common RocketLauncher Found"
@@ -1221,7 +1529,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GearPickups",
+                        "map": "GlobalChecks",
                         "x": 465,
                         "y": 520,
                         "size": 20,
@@ -20691,7 +20999,7 @@
                 ]
             },
             {
-                "name": "Fight for Sanctuary Final Boss Fight Challenges",
+                "name": "Paradise Sanctum Challenges",
                 "sections": [
                     {
                         "name": "Challenge - Timber!",
