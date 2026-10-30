@@ -6,6 +6,30 @@
     "img": "images/maps/overworld.png"
   },
   {
+    "name": "Levels",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/Levels.jpg"
+  },
+  {
+    "name": "GenericDrops",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/GenericDrops.jpg"
+  },
+  {
+    "name": "GearSpecificChecks",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/GearSpecificChecks.jpg"
+  },
+  {
+    "name": "GeneralChallenges",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/GeneralChallenges.jpg"
+  },
+  {
     "name": "Sanctuary",
     "location_size": 6,
     "location_border_thickness": 1,
@@ -220,48 +244,6 @@
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/BL2 Terramorphous Peak.jpg"
-  },
-  {
-    "name": "Levels",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/Levels.jpg"
-  },
-  {
-    "name": "GenericDrops",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/GenericDrops.jpg"
-  },
-  {
-    "name": "GearSpecificChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/GearSpecificChallenges.jpg"
-  },
-  {
-    "name": "MiscCombatChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/MiscCombatChallenges.jpg"
-  },
-  {
-    "name": "EnemySpecificChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/EnemySpecificChallenges.jpg"
-  },
-  {
-    "name": "MiscChallenges",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/MiscChallenges.jpg"
-  },
-  {
-    "name": "GearPickups",
-    "location_size": 6,
-    "location_border_thickness": 1,
-    "img": "images/maps/GearPickups.jpg"
   },
   {
     "name": "Oasis",

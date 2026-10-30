@@ -156,7 +156,7 @@
                     }
                   },
                   {
-                    "title": "End Of The Line",
+                    "title": "End of the Line",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -382,7 +382,7 @@
               }
             },
             {
-              "title": "Generic Drops",
+              "title": "Generic Enemy Drops",
               "content": {
                 "type": "map",
                 "maps": [
@@ -391,47 +391,20 @@
               }
             },
             {
-              "title": "Gear Specific Challenges",
+              "title": "Gear Specific Checks",
               "content": {
                 "type": "map",
                 "maps": [
-                  "GearSpecificChallenges"
+                  "GearSpecificChecks"
                 ]
               }
             },
             {
-              "title": "Misc Combat Challenges",
+              "title": "General Challenges",
               "content": {
                 "type": "map",
                 "maps": [
-                  "MiscCombatChallenges"
-                ]
-              }
-            },
-            {
-              "title": "Enemy Specific Challenges",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "EnemySpecificChallenges"
-                ]
-              }
-            },
-            {
-              "title": "Misc Challenges",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "MiscChallenges"
-                ]
-              }
-            },
-            {
-              "title": "Gear Pickups",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "GearPickups"
+                  "GeneralChallenges"
                 ]
               }
             }
@@ -462,7 +435,7 @@
               }
             },
             {
-              "title": "Hayters Folly",
+              "title": "Hayter's Folly",
               "content": {
                 "type": "map",
                 "maps": [
@@ -826,7 +799,7 @@
               }
             },
             {
-              "title": "Marcus' Mercenary Shop",
+              "title": "Marcus's Mercenary Shop",
               "content": {
                 "type": "map",
                 "maps": [
