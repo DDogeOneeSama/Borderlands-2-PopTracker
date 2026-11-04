@@ -2,6 +2,7 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/setting_mapping")
+require("scripts/autotracking/tab_mapping")
 
 CUR_INDEX = -1
 
@@ -219,6 +220,10 @@ function onClear(slot_data)
     end
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
+
+    WORLD_ID = "current_bl2_region_" .. PLAYER_ID
+    Archipelago:SetNotify({WORLD_ID})
+
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -362,6 +367,8 @@ function OnNotify(key, value, old_value)
             end
         end
         Tracker.BulkUpdate = false
+    elseif key == WORLD_ID then
+        onChangedRegion(value, old_value)
     end
 end
 
@@ -403,27 +410,15 @@ function UpdateHints(locationID, status) -->
     end
 end
 
-
--- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
--- Archipelago:AddClearHandler("clear handler", onClearHandler)
--- Archipelago:AddItemHandler("item handler", onItem)
--- Archipelago:AddLocationHandler("location handler", onLocation)
-
--- Archipelago:AddSetReplyHandler("notify handler", OnNotify)
--- Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
-
-
-
---doc
---hint layout
--- {
---     ["receiving_player"] = 1,
---     ["class"] = Hint,
---     ["finding_player"] = 1,
---     ["location"] = 67361,
---     ["found"] = false,
---     ["item_flags"] = 2, --bitflag --> 0=filler, 1=progression, 2=useful, 4=trap
---     ["status"] = 40, --bitflag --> 0=Unspecified, 10=NoPriority, 20=Avoid, 30=Priority, 40=None
---     ["entrance"] = ,
---     ["item"] = 66062,
--- } 
+function onChangedRegion(current_region, old_region)
+    if (current_region ~= old_region) then
+        local tabs = tab_mappings[current_region]
+        if tabs then
+            for _, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+            end
+        else
+            Tracker:UiHint("ActivateTab", "Overworld")
+        end
+    end
+end
