@@ -5664,17 +5664,6 @@
         ],
         "sections": [
           {
-            "name": "Data Mining",
-            "access_rules": [
-              "^$OnLevel|28"
-            ],
-            "visibility_rules": [
-              "quest_completion_checks_all, $LevelLimit|28",
-              "quest_completion_checks_story_only, $LevelLimit|28"
-            ],
-            "item_count": 1
-          },
-          {
             "name": "This Just In",
             "access_rules": [
               "^$OnLevel|26"
@@ -5795,6 +5784,17 @@
           "enable_region_AridNexusBadlands"
         ],
         "sections": [
+          {
+            "name": "Data Mining",
+            "access_rules": [
+              "^$OnLevel|28"
+            ],
+            "visibility_rules": [
+              "quest_completion_checks_all, $LevelLimit|28",
+              "quest_completion_checks_story_only, $LevelLimit|28"
+            ],
+            "item_count": 1
+          },
           {
             "name": "Hungry Like the Skag",
             "access_rules": [
