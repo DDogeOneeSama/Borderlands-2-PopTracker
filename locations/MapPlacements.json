@@ -4,7 +4,7 @@
         "overlay_background": "#000000",
         "children": [
             {
-                "name": "Levels",
+                "name": "Levels 1-5",
                 "sections": [
                     {
                         "name": "Level 2 Reached",
@@ -21,7 +21,21 @@
                     {
                         "name": "Level 5 Reached",
                         "ref": "GlobalChecks/Levels/Level 5 Reached"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Levels",
+                        "x": 420,
+                        "y": 250,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Levels 6-10",
+                "sections": [
                     {
                         "name": "Level 6 Reached",
                         "ref": "GlobalChecks/Levels/Level 6 Reached"
@@ -41,7 +55,21 @@
                     {
                         "name": "Level 10 Reached",
                         "ref": "GlobalChecks/Levels/Level 10 Reached"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Levels",
+                        "x": 420,
+                        "y": 500,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Levels 11-15",
+                "sections": [
                     {
                         "name": "Level 11 Reached",
                         "ref": "GlobalChecks/Levels/Level 11 Reached"
@@ -61,7 +89,21 @@
                     {
                         "name": "Level 15 Reached",
                         "ref": "GlobalChecks/Levels/Level 15 Reached"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Levels",
+                        "x": 420,
+                        "y": 750,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Levels 16-20",
+                "sections": [
                     {
                         "name": "Level 16 Reached",
                         "ref": "GlobalChecks/Levels/Level 16 Reached"
@@ -81,7 +123,21 @@
                     {
                         "name": "Level 20 Reached",
                         "ref": "GlobalChecks/Levels/Level 20 Reached"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Levels",
+                        "x": 830,
+                        "y": 250,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Levels 21-25",
+                "sections": [
                     {
                         "name": "Level 21 Reached",
                         "ref": "GlobalChecks/Levels/Level 21 Reached"
@@ -101,7 +157,21 @@
                     {
                         "name": "Level 25 Reached",
                         "ref": "GlobalChecks/Levels/Level 25 Reached"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Levels",
+                        "x": 830,
+                        "y": 500,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Levels 26-30",
+                "sections": [
                     {
                         "name": "Level 26 Reached",
                         "ref": "GlobalChecks/Levels/Level 26 Reached"
@@ -125,16 +195,16 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 450,
-                        "y": 520,
-                        "size": 20,
+                        "map": "Levels",
+                        "x": 830,
+                        "y": 750,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
             },
             {
-                "name": "Generic Drops",
+                "name": "Base Game",
                 "sections": [
                     {
                         "name": "Skag Generic Drop",
@@ -189,14 +259,6 @@
                         "ref": "GlobalChecks/Enemies/Thresher Generic Drop"
                     },
                     {
-                        "name": "Badass Generic Drop",
-                        "ref": "GlobalChecks/Enemies/Badass Generic Drop"
-                    },
-                    {
-                        "name": "Skeleton Generic Drop",
-                        "ref": "GlobalChecks/Enemies/Skeleton Generic Drop"
-                    },
-                    {
                         "name": "Loader Generic Drop",
                         "ref": "GlobalChecks/Enemies/Loader Generic Drop"
                     },
@@ -219,7 +281,21 @@
                     {
                         "name": "Buzzard Generic Drop",
                         "ref": "GlobalChecks/Enemies/Buzzard Generic Drop"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GenericDrops",
+                        "x": 435,
+                        "y": 200,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Scarlett DLC",
+                "sections": [
                     {
                         "name": "Pirate Generic Drop",
                         "ref": "GlobalChecks/Enemies/Pirate Generic Drop"
@@ -227,7 +303,21 @@
                     {
                         "name": "Sand Worm Generic Drop",
                         "ref": "GlobalChecks/Enemies/Sand Worm Generic Drop"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GenericDrops",
+                        "x": 865,
+                        "y": 200,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Torgue DLC",
+                "sections": [
                     {
                         "name": "Biker Generic Drop",
                         "ref": "GlobalChecks/Enemies/Biker Generic Drop"
@@ -239,7 +329,21 @@
                     {
                         "name": "Torgue Loader Generic Drop",
                         "ref": "GlobalChecks/Enemies/Torgue Loader Generic Drop"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GenericDrops",
+                        "x": 435,
+                        "y": 400,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hammerlock DLC",
+                "sections": [
                     {
                         "name": "Borok Generic Drop",
                         "ref": "GlobalChecks/Enemies/Borok Generic Drop"
@@ -259,10 +363,24 @@
                     {
                         "name": "Scaylion Generic Drop",
                         "ref": "GlobalChecks/Enemies/Scaylion Generic Drop"
-                    },
+                    }
+                ],
+                "map_locations": [
                     {
-                        "name": "Spore Generic Drop",
-                        "ref": "GlobalChecks/Enemies/Spore Generic Drop"
+                        "map": "GenericDrops",
+                        "x": 865,
+                        "y": 400,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Tina DLC",
+                "sections": [
+                    {
+                        "name": "Skeleton Generic Drop",
+                        "ref": "GlobalChecks/Enemies/Skeleton Generic Drop"
                     },
                     {
                         "name": "Golem Generic Drop",
@@ -303,6 +421,24 @@
                     {
                         "name": "Spellcaster Generic Drop",
                         "ref": "GlobalChecks/Enemies/Spellcaster Generic Drop"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GenericDrops",
+                        "x": 435,
+                        "y": 600,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Lilith DLC",
+                "sections": [
+                    {
+                        "name": "Spore Generic Drop",
+                        "ref": "GlobalChecks/Enemies/Spore Generic Drop"
                     },
                     {
                         "name": "Infected Generic Drop",
@@ -311,7 +447,21 @@
                     {
                         "name": "New Pandora Unit Generic Drop",
                         "ref": "GlobalChecks/Enemies/New Pandora Unit Generic Drop"
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GenericDrops",
+                        "x": 865,
+                        "y": 600,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Headhunters",
+                "sections": [
                     {
                         "name": "Pump-Kin Generic Drop",
                         "ref": "GlobalChecks/Enemies/Pump-Kin Generic Drop"
@@ -343,10 +493,28 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 495,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GenericDrops",
+                        "x": 435,
+                        "y": 800,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Other",
+                "sections": [
+                    {
+                        "name": "Badass Generic Drop",
+                        "ref": "GlobalChecks/Enemies/Badass Generic Drop"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "GenericDrops",
+                        "x": 865,
+                        "y": 800,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -377,9 +545,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 365,
+                        "y": 260,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -415,9 +583,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 765,
+                        "y": 260,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -449,9 +617,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 365,
+                        "y": 590,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -487,9 +655,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 765,
+                        "y": 590,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -517,9 +685,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 365,
+                        "y": 755,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -559,9 +727,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 765,
+                        "y": 755,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -593,9 +761,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 365,
+                        "y": 925,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -631,9 +799,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 765,
+                        "y": 925,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -673,10 +841,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 480,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 430,
+                        "y": 170,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -719,10 +887,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 525,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 850,
+                        "y": 170,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -741,10 +909,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 525,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 430,
+                        "y": 335,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -843,10 +1011,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 510,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 850,
+                        "y": 335,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -881,10 +1049,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 540,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 430,
+                        "y": 505,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -927,10 +1095,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 540,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 850,
+                        "y": 505,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -961,10 +1129,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 540,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 430,
+                        "y": 670,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -1003,10 +1171,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 540,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 850,
+                        "y": 670,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -1037,10 +1205,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 540,
-                        "y": 520,
-                        "size": 20,
+                        "map": "GeneralChallenges",
+                        "x": 430,
+                        "y": 835,
+                        "size": 36,
                         "shape": "rect"
                     }
                 ]
@@ -1083,9 +1251,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 205,
+                        "y": 255,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1129,9 +1297,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 605,
+                        "y": 260,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1163,9 +1331,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 300,
+                        "y": 425,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1209,9 +1377,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 700,
+                        "y": 425,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1259,9 +1427,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 205,
+                        "y": 590,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1313,9 +1481,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 605,
+                        "y": 590,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1367,9 +1535,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 205,
+                        "y": 755,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1421,9 +1589,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 605,
+                        "y": 755,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1475,9 +1643,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 205,
+                        "y": 925,
                         "size": 20,
                         "shape": "rect"
                     }
@@ -1529,9 +1697,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "GlobalChecks",
-                        "x": 465,
-                        "y": 520,
+                        "map": "GearSpecificChecks",
+                        "x": 605,
+                        "y": 925,
                         "size": 20,
                         "shape": "rect"
                     }
